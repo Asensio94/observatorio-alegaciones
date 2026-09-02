@@ -905,8 +905,8 @@
    }
   ],
   "especies": {
-   "total_registros_amenazadas": 233,
-   "aves_amenazadas_registros": 71,
+   "total_registros_amenazadas": 243,
+   "aves_amenazadas_registros": 68,
    "especies": [
     {
      "key": 5212973,
@@ -954,7 +954,7 @@
      "class": "Amphibia",
      "order": "Caudata",
      "vernacular_es": "Tritón Jaspeado",
-     "registros": 13,
+     "registros": 15,
      "categoria_uicn": "VU",
      "categoria_es": "Vulnerable"
     },
@@ -964,7 +964,7 @@
      "class": "Amphibia",
      "order": "Caudata",
      "vernacular_es": "Salamandra Común",
-     "registros": 10,
+     "registros": 13,
      "categoria_uicn": "VU",
      "categoria_es": "Vulnerable"
     },
@@ -1009,16 +1009,6 @@
      "categoria_es": "Vulnerable"
     },
     {
-     "key": 7341500,
-     "scientificName": "Lanius meridionalis",
-     "class": "Aves",
-     "order": "Passeriformes",
-     "vernacular_es": "Alcaudón real",
-     "registros": 2,
-     "categoria_uicn": "VU",
-     "categoria_es": "Vulnerable"
-    },
-    {
      "key": 2480327,
      "scientificName": "Pluvialis squatarola",
      "class": "Aves",
@@ -1039,12 +1029,22 @@
      "categoria_es": "Vulnerable"
     },
     {
+     "key": 7341500,
+     "scientificName": "Lanius meridionalis",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón real",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
      "key": 8049830,
      "scientificName": "Pararge aegeria",
      "class": "Insecta",
      "order": "Lepidoptera",
      "vernacular_es": "Maculada",
-     "registros": 45,
+     "registros": 53,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
     },
@@ -1054,7 +1054,7 @@
      "class": "Aves",
      "order": "Galliformes",
      "vernacular_es": "Perdiz Roja",
-     "registros": 28,
+     "registros": 27,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
     },
@@ -1159,21 +1159,21 @@
      "categoria_es": "Casi amenazada"
     },
     {
-     "key": 2481792,
-     "scientificName": "Numenius arquata",
-     "class": "Aves",
-     "order": "Charadriiformes",
-     "vernacular_es": "",
-     "registros": 2,
-     "categoria_uicn": "NT",
-     "categoria_es": "Casi amenazada"
-    },
-    {
      "key": 2480242,
      "scientificName": "Vanellus vanellus",
      "class": "Aves",
      "order": "Charadriiformes",
      "vernacular_es": "Avefría Europea",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481792,
+     "scientificName": "Numenius arquata",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
      "registros": 1,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
@@ -1749,8 +1749,8 @@
    }
   ],
   "especies": {
-   "total_registros_amenazadas": 293,
-   "aves_amenazadas_registros": 248,
+   "total_registros_amenazadas": 171,
+   "aves_amenazadas_registros": 130,
    "especies": [
     {
      "key": 5212973,
@@ -1813,51 +1813,11 @@
      "categoria_es": "En peligro"
     },
     {
-     "key": 2480327,
-     "scientificName": "Pluvialis squatarola",
-     "class": "Aves",
-     "order": "Charadriiformes",
-     "vernacular_es": "Chorlito Gris",
-     "registros": 13,
-     "categoria_uicn": "VU",
-     "categoria_es": "Vulnerable"
-    },
-    {
-     "key": 2498238,
-     "scientificName": "Melanitta fusca",
-     "class": "Aves",
-     "order": "Anseriformes",
-     "vernacular_es": "Negreta ala blanca",
-     "registros": 13,
-     "categoria_uicn": "VU",
-     "categoria_es": "Vulnerable"
-    },
-    {
-     "key": 2431776,
-     "scientificName": "Salamandra salamandra",
-     "class": "Amphibia",
-     "order": "Caudata",
-     "vernacular_es": "Salamandra Común",
-     "registros": 5,
-     "categoria_uicn": "VU",
-     "categoria_es": "Vulnerable"
-    },
-    {
      "key": 2426774,
      "scientificName": "Rana iberica",
      "class": "Amphibia",
      "order": "Anura",
      "vernacular_es": "Rana Patilarga",
-     "registros": 4,
-     "categoria_uicn": "VU",
-     "categoria_es": "Vulnerable"
-    },
-    {
-     "key": 2481205,
-     "scientificName": "Rissa tridactyla",
-     "class": "Aves",
-     "order": "Charadriiformes",
-     "vernacular_es": "Gallego patinegro",
      "registros": 4,
      "categoria_uicn": "VU",
      "categoria_es": "Vulnerable"
@@ -1873,32 +1833,32 @@
      "categoria_es": "Vulnerable"
     },
     {
-     "key": 2495708,
-     "scientificName": "Streptopelia turtur",
-     "class": "Aves",
-     "order": "Columbiformes",
-     "vernacular_es": "",
+     "key": 2431776,
+     "scientificName": "Salamandra salamandra",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Salamandra Común",
      "registros": 3,
      "categoria_uicn": "VU",
      "categoria_es": "Vulnerable"
     },
     {
-     "key": 2482059,
-     "scientificName": "Podiceps auritus",
+     "key": 2481205,
+     "scientificName": "Rissa tridactyla",
      "class": "Aves",
-     "order": "Podicipediformes",
-     "vernacular_es": "",
+     "order": "Charadriiformes",
+     "vernacular_es": "Gallego patinegro",
      "registros": 2,
      "categoria_uicn": "VU",
      "categoria_es": "Vulnerable"
     },
     {
-     "key": 2293076,
-     "scientificName": "Haliotis tuberculata",
-     "class": "Gastropoda",
-     "order": "Lepetellida",
-     "vernacular_es": "oreja de mar",
-     "registros": 1,
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 2,
      "categoria_uicn": "VU",
      "categoria_es": "Vulnerable"
     },
@@ -1908,6 +1868,26 @@
      "class": "Amphibia",
      "order": "Caudata",
      "vernacular_es": "Tritón Jaspeado",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2482059,
+     "scientificName": "Podiceps auritus",
+     "class": "Aves",
+     "order": "Podicipediformes",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2498238,
+     "scientificName": "Melanitta fusca",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Negreta ala blanca",
      "registros": 1,
      "categoria_uicn": "VU",
      "categoria_es": "Vulnerable"
@@ -1928,7 +1908,7 @@
      "class": "Aves",
      "order": "Charadriiformes",
      "vernacular_es": "",
-     "registros": 82,
+     "registros": 62,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
     },
@@ -1938,7 +1918,7 @@
      "class": "Aves",
      "order": "Charadriiformes",
      "vernacular_es": "Correlimos Común",
-     "registros": 52,
+     "registros": 24,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
     },
@@ -1948,27 +1928,7 @@
      "class": "Aves",
      "order": "Charadriiformes",
      "vernacular_es": "",
-     "registros": 27,
-     "categoria_uicn": "NT",
-     "categoria_es": "Casi amenazada"
-    },
-    {
-     "key": 2481776,
-     "scientificName": "Arenaria interpres",
-     "class": "Aves",
-     "order": "Charadriiformes",
-     "vernacular_es": "Playero Turco",
-     "registros": 14,
-     "categoria_uicn": "NT",
-     "categoria_es": "Casi amenazada"
-    },
-    {
-     "key": 2498352,
-     "scientificName": "Somateria mollissima",
-     "class": "Aves",
-     "order": "Anseriformes",
-     "vernacular_es": "Eider Común",
-     "registros": 12,
+     "registros": 11,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
     },
@@ -1978,7 +1938,7 @@
      "class": "Insecta",
      "order": "Lepidoptera",
      "vernacular_es": "Maculada",
-     "registros": 12,
+     "registros": 11,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
     },
@@ -2018,16 +1978,6 @@
      "class": "Aves",
      "order": "Galliformes",
      "vernacular_es": "Perdiz Roja",
-     "registros": 3,
-     "categoria_uicn": "NT",
-     "categoria_es": "Casi amenazada"
-    },
-    {
-     "key": 2480242,
-     "scientificName": "Vanellus vanellus",
-     "class": "Aves",
-     "order": "Charadriiformes",
-     "vernacular_es": "Avefría Europea",
      "registros": 3,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
@@ -2073,6 +2023,16 @@
      "categoria_es": "Casi amenazada"
     },
     {
+     "key": 2498352,
+     "scientificName": "Somateria mollissima",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Eider Común",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
      "key": 2400863,
      "scientificName": "Chelon labrosus",
      "class": null,
@@ -2088,6 +2048,26 @@
      "class": "Mammalia",
      "order": "Rodentia",
      "vernacular_es": "Rata de Agua",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481776,
+     "scientificName": "Arenaria interpres",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Playero Turco",
      "registros": 1,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
@@ -2123,8 +2103,8 @@
      "categoria_es": "Casi amenazada"
     }
    ],
-   "n_especies": 37,
-   "n_aves": 18
+   "n_especies": 35,
+   "n_aves": 17
   },
   "municipios_no_resueltos": []
  },
@@ -2436,7 +2416,7 @@
   "geom": null,
   "natura": [],
   "especies": {
-   "total_registros_amenazadas": 1646,
+   "total_registros_amenazadas": 1645,
    "aves_amenazadas_registros": 1527,
    "especies": [
     {
@@ -2605,7 +2585,7 @@
      "class": "Insecta",
      "order": "Lepidoptera",
      "vernacular_es": "Maculada",
-     "registros": 82,
+     "registros": 81,
      "categoria_uicn": "NT",
      "categoria_es": "Casi amenazada"
     },
