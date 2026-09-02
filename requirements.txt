@@ -1,0 +1,6 @@
+requests>=2.31
+lxml>=5
+shapely>=2.0
+folium>=0.14
+typer>=0.12
+rich>=13
