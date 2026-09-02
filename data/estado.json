@@ -1496,8 +1496,8 @@
      "tipo": "ZEPA"
     }
    ],
-   "n_especies": 37,
-   "n_aves": 18,
+   "n_especies": 35,
+   "n_aves": 17,
    "especies_top": [
     {
      "scientificName": "Anguilla anguilla",
@@ -1536,14 +1536,14 @@
      "class": "Bivalvia"
     },
     {
-     "scientificName": "Pluvialis squatarola",
-     "vernacular_es": "Chorlito Gris",
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
      "categoria_uicn": "VU",
-     "class": "Aves"
+     "class": "Amphibia"
     },
     {
-     "scientificName": "Melanitta fusca",
-     "vernacular_es": "Negreta ala blanca",
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
@@ -1554,22 +1554,22 @@
      "class": "Amphibia"
     },
     {
-     "scientificName": "Rana iberica",
-     "vernacular_es": "Rana Patilarga",
-     "categoria_uicn": "VU",
-     "class": "Amphibia"
-    },
-    {
      "scientificName": "Rissa tridactyla",
      "vernacular_es": "Gallego patinegro",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
     {
-     "scientificName": "Calidris ferruginea",
-     "vernacular_es": "Correlimos zarapitín",
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
      "categoria_uicn": "VU",
      "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
     }
    ],
    "informe": "informes/informe_20260830_20260902.html",
@@ -1793,14 +1793,14 @@
      "class": "Insecta"
     },
     {
-     "scientificName": "Lanius meridionalis",
-     "vernacular_es": "Alcaudón real",
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
     {
-     "scientificName": "Pluvialis squatarola",
-     "vernacular_es": "Chorlito Gris",
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
      "categoria_uicn": "VU",
      "class": "Aves"
     }
