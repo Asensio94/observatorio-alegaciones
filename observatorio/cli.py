@@ -1,16 +1,15 @@
-"""CLI: python -m observatorio.cli run --days 8"""
+"""CLI: python -m observatorio.cli run --days 4"""
 
 from __future__ import annotations
 
-import json
-from datetime import date, datetime
+from datetime import date
 
 import typer
 from rich.console import Console
 from rich.table import Table
 
-from . import boe, extract, geo, natura, species, report
-from .config import OUTPUT_DIR
+from . import boe, extract, geo, natura, plazos, report, site, species
+from .config import DOCS_DIR
 
 app = typer.Typer(add_completion=False, help="Observatorio de alegaciones ambientales")
 console = Console()
@@ -23,19 +22,23 @@ def _main() -> None:
 
 @app.command()
 def run(
-    days: int = typer.Option(8, help="Días hacia atrás desde --hasta"),
+    days: int = typer.Option(4, help="Días hacia atrás desde --hasta (incluidos)"),
     hasta: str = typer.Option(None, help="Fecha final YYYY-MM-DD (por defecto hoy)"),
     min_prioridad: int = typer.Option(3, help="Prioridad mínima para cruzar con Natura/GBIF"),
     sin_gbif: bool = typer.Option(False, help="Omitir consulta de especies (más rápido)"),
-    nombre: str = typer.Option(None, help="Nombre del fichero HTML de salida"),
+    sin_web: bool = typer.Option(False, help="No actualizar estado ni web (solo informe)"),
 ):
-    """Descarga el BOE de los últimos días, detecta proyectos y genera el informe."""
+    """Descarga el BOE de los últimos días, detecta proyectos, genera el informe y actualiza la web."""
     fin = date.fromisoformat(hasta) if hasta else date.today()
     dias = boe.business_days_back(fin, days)
     candidatos: list[boe.Anuncio] = []
     total_items = 0
     for d in dias:
-        sumario = boe.fetch_sumario(d)
+        try:
+            sumario = boe.fetch_sumario(d)
+        except Exception as e:  # noqa: BLE001
+            console.print(f"[red]{d}: error descargando sumario: {e}[/red]")
+            continue
         if not sumario:
             console.print(f"[dim]{d}: sin BOE[/dim]")
             continue
@@ -50,13 +53,22 @@ def run(
 
     resultados: list[dict] = []
     for a in candidatos:
-        a.texto = boe.fetch_texto(a)
+        try:
+            a.texto = boe.fetch_texto(a)
+        except Exception as e:  # noqa: BLE001
+            console.print(f"  [red]{a.identificador}: error descargando texto: {e}[/red]")
         extract.clasificar(a)
         extract.extraer_datos(a)
+        lim, est = plazos.fecha_limite(date.fromisoformat(a.fecha), a.plazo_dias)
+        a.fecha_limite, a.plazo_estimado = lim.isoformat(), est
         r = {"anuncio": a.to_dict(), "geom": None, "natura": [], "especies": {}, "municipios_no_resueltos": []}
         if a.prioridad >= min_prioridad and a.municipios:
-            console.print(f"  [cyan]{a.identificador}[/cyan] {a.categoria} · {len(a.municipios)} municipios · {a.provincias[:2]}")
-            g, ok, ko = geo.geom_proyecto(a.municipios, a.provincias)
+            console.print(f"  [cyan]{a.identificador}[/cyan] {a.categoria} · {len(a.municipios)} municipios · {a.provincias[:2]} · límite {a.fecha_limite}")
+            try:
+                g, ok, ko = geo.geom_proyecto(a.municipios, a.provincias)
+            except Exception as e:  # noqa: BLE001
+                console.print(f"    [red]Geolocalización error: {e}[/red]")
+                g, ok, ko = None, [], list(a.municipios)
             r["geom"] = g
             r["municipios_no_resueltos"] = ko
             if g is not None:
@@ -74,18 +86,23 @@ def run(
             console.print(f"  [dim]{a.identificador} {a.categoria} prio={a.prioridad} munis={len(a.municipios)} (sin cruce)[/dim]")
         resultados.append(r)
 
-    nombre = nombre or f"informe_{dias[0]:%Y%m%d}_{fin:%Y%m%d}.html"
-    out = report.generar_informe(resultados, dias[0], fin, nombre)
+    nombre = f"informe_{dias[0]:%Y%m%d}_{fin:%Y%m%d}.html"
+    out = report.generar_informe(resultados, dias[0], fin, DOCS_DIR / "informes", nombre)
+    if not sin_web:
+        estado = site.actualizar_estado(resultados, f"informes/{nombre}", dias[0], fin)
+        site.generar_web(estado, DOCS_DIR)
+        console.print(f"[green]Web:[/green] {DOCS_DIR / 'index.html'} · {len(estado['anuncios'])} proyectos en estado")
 
     t = Table(title="Resumen")
-    for c in ("Anuncio", "Cat.", "EIA", "Prov.", "Natura", "Esp.", "Aves", "Plazo"):
+    for c in ("Anuncio", "Cat.", "EIA", "Prov.", "Natura", "Esp.", "Aves", "Límite"):
         t.add_column(c)
     for r in sorted(resultados, key=lambda r: -r["anuncio"]["prioridad"]):
         a = r["anuncio"]
         t.add_row(
             a["identificador"], a["categoria"], "Sí" if a["tramite_ambiental"] else "",
             ", ".join(a["provincias"][:2]), str(len(r["natura"])),
-            str(r["especies"].get("n_especies", "")), str(r["especies"].get("n_aves", "")), str(a["plazo_dias"] or ""),
+            str(r["especies"].get("n_especies", "")), str(r["especies"].get("n_aves", "")),
+            a["fecha_limite"] + ("*" if a["plazo_estimado"] else ""),
         )
     console.print(t)
     console.print(f"[green]Informe:[/green] {out}")

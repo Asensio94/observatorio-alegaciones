@@ -83,7 +83,8 @@ def sitios_natura(geom: BaseGeometry) -> list[dict]:
                     "tipo": tipo,
                     "sitetype": f["properties"].get("SITETYPE"),
                     "solape_km2": inter_km2,
-                    "geometry": f.get("geometry"),
+                    # Geometría simplificada: basta para el mapa y mantiene la caché ligera en el repositorio
+                    "geometry": mapping(g.simplify(0.002, preserve_topology=True)) if g is not None else None,
                 }
             )
     sitios.sort(key=lambda s: -(s["solape_km2"] or 0))

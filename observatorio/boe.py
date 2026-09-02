@@ -38,6 +38,8 @@ class Anuncio:
     promotor: str = ""
     potencia_mw: float | None = None
     expediente: str = ""
+    fecha_limite: str = ""  # ISO, calculada en plazos.py
+    plazo_estimado: bool = False  # True si el plazo no se detectó y se asumió el valor por defecto
 
     def to_dict(self) -> dict:
         return asdict(self)

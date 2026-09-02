@@ -2,9 +2,15 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "informe",
+      "name": "web",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "output"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "docs"
+      ],
       "port": 8765
     }
   ]
