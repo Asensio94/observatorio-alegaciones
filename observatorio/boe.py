@@ -28,6 +28,7 @@ class Anuncio:
     url_xml: str
     url_pdf: str = ""
     texto: str = ""
+    fuente: str = "BOE"  # BOE, BOC…
     # Campos derivados (clasificación y extracción)
     categoria: str = ""
     prioridad: int = 0

@@ -13,7 +13,7 @@ from .boe import Anuncio
 
 # --- Clasificación -----------------------------------------------------------
 
-INFO_PUBLICA = re.compile(r"informaci[oó]n\s+p[uú]blica|tr[aá]mite\s+de\s+(?:IP|audiencia)", re.I)
+INFO_PUBLICA = re.compile(r"informaci[oó]n\s+p[uú]blica|exposici[oó]n\s+p[uú]blica|tr[aá]mite\s+de\s+(?:IP|audiencia)", re.I)
 
 TRAMITE_AMBIENTAL = re.compile(
     r"impacto\s+ambiental|evaluaci[oó]n\s+(?:de\s+impacto\s+)?ambiental|EsIA|estudio\s+ambiental|"
@@ -29,12 +29,24 @@ CATEGORIAS: list[tuple[str, re.Pattern, int]] = [
     ("red_electrica", re.compile(r"l[ií]nea\s+(?:a[eé]rea|el[eé]ctrica|de\s+(?:alta|media)\s+tensi[oó]n)|subestaci[oó]n|\d+\s*kV|red\s+de\s+transporte", re.I), 4),
     ("hidrocarburos_gas", re.compile(r"gasoducto|oleoducto|hidrocarburo|gas\s+natural|regasificad", re.I), 4),
     ("mineria", re.compile(r"miner[ií]a|explotaci[oó]n\s+minera|concesi[oó]n\s+(?:de\s+explotaci[oó]n|minera)|cantera|permiso\s+de\s+investigaci[oó]n", re.I), 4),
-    ("transporte", re.compile(r"autov[ií]a|autopista|carretera|ferrocarril|l[ií]nea\s+de\s+alta\s+velocidad|aeropuerto|variante\s+de", re.I), 4),
+    ("transporte", re.compile(r"autov[ií]a|autopista|(?<!en )(?<!la )carretera|ferrocarril|l[ií]nea\s+de\s+alta\s+velocidad|aeropuerto|variante\s+de", re.I), 4),
     ("puertos_costas", re.compile(r"autoridad\s+portuaria|puerto\s+de|dominio\s+p[uú]blico\s+mar[ií]timo|costas?\b|dragado", re.I), 3),
     ("hidraulica", re.compile(r"presa|embalse|trasvase|encauzamiento|central\s+hidroel[eé]ctrica|desaladora|regad[ií]o|regable", re.I), 3),
     ("agua_concesion", re.compile(r"confederaci[oó]n\s+hidrogr[aá]fica|aprovechamiento\s+de\s+aguas|concesi[oó]n\s+de\s+aguas|vertido", re.I), 1),
     ("urbanismo_industria", re.compile(r"urbaniz|pol[ií]gono\s+industrial|planta\s+(?:industrial|de\s+tratamiento)|incineradora|vertedero|residuos", re.I), 3),
 ]
+
+
+# Anuncios que casan con alguna categoría pero son obras menores o trámites corrientes (muy frecuentes en
+# boletines autonómicos: servidumbre de protección de costas, licencias urbanísticas). Se descartan salvo
+# que el título mencione un trámite ambiental.
+EXCLUIR = re.compile(
+    r"viviendas?\s+unifamiliar|cierre\s+de\s+(?:parcela|finca)|remolques?|aparcamiento\s+temporal|"
+    r"legalizaci[oó]n\s+de\s+(?:reforma|almac[eé]n|obras)|cambio\s+de\s+uso|reforma\s+(?:de|en)\s+|"
+    r"estaci[oó]n\s+de\s+servicio|licencia\s+de\s+actividad|primera\s+ocupaci[oó]n|"
+    r"desmontaje\s+de\s+la\s+l[ií]nea|sustituci[oó]n\s+de\s+apoyo|centro\s+de\s+transformaci[oó]n\s+y\s+sus\s+LATS?",
+    re.I,
+)
 
 
 def clasificar(a: Anuncio) -> Anuncio:
@@ -61,6 +73,8 @@ def es_candidato(a: Anuncio) -> bool:
         return False
     if TRAMITE_AMBIENTAL.search(a.titulo):
         return True
+    if EXCLUIR.search(a.titulo):
+        return False
     for cat, pat, prio in CATEGORIAS:
         if prio >= 3 and pat.search(a.titulo):
             return True
@@ -135,9 +149,12 @@ def extraer_municipios(titulo: str, texto: str) -> tuple[list[str], list[str]]:
     (evita capturar la dirección del promotor en Madrid); si no, del texto."""
     base = titulo + "\n" + texto
     munis: list[str] = []
+    claves: set[str] = set()
     for m in _TM_RE.finditer(base):
         for x in _split_lista(m.group("lista")):
-            if x not in munis and _strip_accents(x.lower()) not in {"provincia"}:
+            clave = re.sub(r"[^a-z]", "", _strip_accents(x.lower()))
+            if clave and clave != "provincia" and clave not in claves:
+                claves.add(clave)
                 munis.append(x)
 
     def _provs(s: str) -> list[str]:
@@ -169,14 +186,14 @@ _NUM_PALABRA = {
     "cuarenta y cinco": 45, "dos": 2, "tres": 3,
 }
 _PLAZO_RE = re.compile(
-    r"plazo\s+de\s+(?P<n>\d{1,3}|un|uno|una|dos|tres|diez|quince|veinte|treinta|cuarenta y cinco|cuarenta)"
+    r"(?:plazo\s+(?:m[aá]ximo\s+)?de|durante(?:\s+el\s+plazo\s+de)?|por\s+(?:un\s+)?(?:plazo|per[ií]odo|espacio)\s+de|t[eé]rmino\s+de)\s+(?P<n>\d{1,3}|un|uno|una|dos|tres|diez|quince|veinte|treinta|cuarenta y cinco|cuarenta)"
     r"\s*(?:\(\s*(?P<n2>\d{1,3})\s*\))?\s*(?P<u>d[ií]as|mes(?:es)?)",
     re.I,
 )
 _MW_RE = re.compile(r"(\d{1,4}(?:[.,]\d{1,3})?)\s*MW\b", re.I)
 _PROMOTOR_RE = re.compile(
-    r"(?:promotor|peticionario|solicitante|titular)\s*[:\-]\s*(?P<p>[^\n;]{3,140}?)"
-    r"(?=,?\s+con\s+(?:CIF|NIF|domicilio)|,\s+(?:CIF|NIF|con)\b|\s+y\s+CIF|\n|$|\.\s+[A-Z])",
+    r"(?:(?:promotor|peticionario|solicitante|titular)\s*[:\-]\s*|promovido\s+por\s+)(?P<p>[^\n;]{3,140}?)"
+    r"(?=,?\s+con\s+(?:CIF|NIF|domicilio)|,\s+(?:CIF|NIF|con)\b|\s+y\s+CIF|,?\s+para\s+(?:la\s+)?(?:construcci|instalaci|planta|consolidaci|reforma|legalizaci|ampliaci|el\s+|la\s+)|\n|$|(?<![ ,][A-Z])\.\s+[A-Z])",
     re.I,
 )
 _EXPEDIENTE_RE = re.compile(

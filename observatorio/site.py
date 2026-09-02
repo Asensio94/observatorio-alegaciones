@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .config import ESTADO_PATH
 from .plazos import dias_restantes
-from .report import AVISO_METODO, badge, esc, pagina, texto_plazo
+from .report import AVISO_METODO, badge, badge_fuente, esc, pagina, texto_plazo
 
 
 def cargar_estado() -> dict:
@@ -56,9 +56,9 @@ def _fila(a: dict) -> str:
         natura += f" y {len(a['natura']) - 4} más"
     return (
         f"<tr><td>{texto_plazo(a)}</td>"
-        f"<td>{badge(a['categoria'])}{'<br><small>EIA</small>' if a.get('tramite_ambiental') else ''}</td>"
+        f"<td>{badge(a['categoria'])}{'<br><small>EIA</small>' if a.get('tramite_ambiental') else ''}<br>{badge_fuente(a.get('fuente', 'BOE'))}</td>"
         f"<td><a href='{esc(a['informe'])}#{esc(a['identificador'])}'>{esc(a['identificador'])}</a><br><small>{esc(a['titulo'][:220])}…</small><br>"
-        f"<small><a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Anuncio en el BOE</a></small></td>"
+        f"<small><a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Anuncio en el {esc(a.get('fuente', 'BOE'))}</a></small></td>"
         f"<td>{esc(', '.join(a.get('provincias', [])[:3]))}<br><small>{esc(', '.join(a.get('municipios', [])[:6]))}</small></td>"
         f"<td>{natura or '<i>ninguno</i>'}</td>"
         f"<td>{a.get('n_especies', 0)} esp. / {a.get('n_aves', 0)} aves<br><small>{aves}</small></td></tr>"
@@ -69,7 +69,7 @@ def _tabla(filas: list[str]) -> str:
     if not filas:
         return "<p><i>Nada que mostrar.</i></p>"
     return (
-        "<div class='wrap'><table class='datos'><thead><tr><th>Fecha límite (est.)</th><th>Tipo</th><th>Anuncio</th>"
+        "<div class='wrap'><table class='datos'><thead><tr><th>Fecha límite (est.)</th><th>Tipo / fuente</th><th>Anuncio</th>"
         "<th>Provincias / municipios</th><th>Natura 2000 en el municipio</th><th>Especies amenazadas (UICN)</th></tr></thead>"
         f"<tbody>{''.join(filas)}</tbody></table></div>"
     )
@@ -95,6 +95,7 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
  <div class="kpi"><b>{len(urgentes)}</b>vencen en 7 días o menos</div>
  <div class="kpi"><b>{sum(1 for a in abiertos if a.get('natura'))}</b>con Natura 2000 en el municipio</div>
  <div class="kpi"><b>{len(anuncios)}</b>proyectos seguidos en total</div>
+ <div class="kpi"><b>{sum(1 for a in abiertos if a.get('fuente', 'BOE') == 'BOE')} / {sum(1 for a in abiertos if a.get('fuente') == 'BOC')}</b>abiertas BOE / BOC Cantabria</div>
 </div>
 <div class="aviso">{AVISO_METODO}</div>
 {f'<div class="mapa"><iframe src="{esc(ultimo_mapa)}" loading="lazy"></iframe></div>' if ultimo_mapa else ''}
@@ -103,12 +104,12 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
 <h2>Informes diarios</h2>
 <ul>{''.join(f"<li><a href='{esc(i['fichero'])}'>Anuncios del {esc(i['desde'])} al {esc(i['hasta'])}</a> · {i['n']} proyectos · generado {esc(i['generado'])}</li>" for i in estado['informes'][:30])}</ul>
 <h2>Qué es esto</h2>
-<p>Cada mañana laborable se leen los anuncios de información pública del BOE (sección V-B), se detectan proyectos con posible afección ambiental
+<p>Cada mañana laborable se leen los anuncios de información pública del <b>BOE</b> (sección V-B) y del <b>Boletín Oficial de Cantabria</b> (secciones 5 y 7), se detectan proyectos con posible afección ambiental
 (eólica, fotovoltaica, líneas eléctricas, minería, infraestructuras, costas, hidráulica), se localizan sus municipios y se cruzan con la Red Natura 2000
 y con los registros de especies animales amenazadas. El objetivo es que los grupos locales y las organizaciones de conservación conozcan los proyectos
 <b>mientras aún se puede alegar</b>. Proyecto abierto: el código, los datos y las mejoras están en GitHub.</p>"""
     (docs_dir / "index.html").write_text(
-        pagina("Observatorio de alegaciones ambientales", f"Alegaciones abiertas a {hoy:%d/%m/%Y} · fuente: BOE", cuerpo, nav),
+        pagina("Observatorio de alegaciones ambientales", f"Alegaciones abiertas a {hoy:%d/%m/%Y} · fuentes: BOE y BOC (Cantabria)", cuerpo, nav),
         encoding="utf-8",
     )
     cuerpo_h = f"<h2>Plazos cerrados ({len(cerrados)})</h2>{_tabla([_fila(a) for a in cerrados])}"

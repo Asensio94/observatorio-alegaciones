@@ -18,14 +18,22 @@ FESTIVOS_NACIONALES: dict[int, list[str]] = {
     2028: ["01-01", "01-06", "04-14", "05-01", "08-15", "10-12", "11-01", "12-06", "12-08", "12-25"],
 }
 
+# Festivos autonómicos fijos (los móviles y los locales no se descuentan)
+FESTIVOS_AUTONOMICOS: dict[str, list[str]] = {
+    "Cantabria": ["07-28", "09-15"],  # Día de las Instituciones, La Bien Aparecida
+}
 
-def _es_habil(d: date) -> bool:
+
+def _es_habil(d: date, comunidad: str | None = None) -> bool:
     if d.weekday() >= 5:
         return False
-    return f"{d:%m-%d}" not in FESTIVOS_NACIONALES.get(d.year, [])
+    md = f"{d:%m-%d}"
+    if md in FESTIVOS_NACIONALES.get(d.year, []):
+        return False
+    return md not in FESTIVOS_AUTONOMICOS.get(comunidad or "", [])
 
 
-def fecha_limite(fecha_publicacion: date, plazo_dias: int | None) -> tuple[date, bool]:
+def fecha_limite(fecha_publicacion: date, plazo_dias: int | None, comunidad: str | None = None) -> tuple[date, bool]:
     """Devuelve (fecha_limite, estimado). `estimado` es True si no se detectó el plazo en el anuncio."""
     estimado = plazo_dias is None
     n = plazo_dias or PLAZO_POR_DEFECTO
@@ -33,7 +41,7 @@ def fecha_limite(fecha_publicacion: date, plazo_dias: int | None) -> tuple[date,
     restantes = n
     while restantes > 0:
         d += timedelta(days=1)
-        if _es_habil(d):
+        if _es_habil(d, comunidad):
             restantes -= 1
     return d, estimado
 

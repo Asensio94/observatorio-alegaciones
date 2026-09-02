@@ -1074,6 +1074,7 @@
    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28210",
    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28210",
    "url_pdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-B-2026-28210.pdf",
+   "fuente": "BOE",
    "categoria": "hidraulica",
    "prioridad": 3,
    "tramite_ambiental": false,
@@ -1187,6 +1188,7 @@
    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28211",
    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28211",
    "url_pdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-B-2026-28211.pdf",
+   "fuente": "BOE",
    "categoria": "eolica",
    "prioridad": 6,
    "tramite_ambiental": true,
@@ -1304,6 +1306,7 @@
    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28212",
    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28212",
    "url_pdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-B-2026-28212.pdf",
+   "fuente": "BOE",
    "categoria": "red_electrica",
    "prioridad": 5,
    "tramite_ambiental": true,
@@ -1447,6 +1450,7 @@
    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28216",
    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28216",
    "url_pdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-B-2026-28216.pdf",
+   "fuente": "BOE",
    "categoria": "puertos_costas",
    "prioridad": 3,
    "tramite_ambiental": false,
@@ -1496,8 +1500,8 @@
      "tipo": "ZEPA"
     }
    ],
-   "n_especies": 35,
-   "n_aves": 17,
+   "n_especies": 37,
+   "n_aves": 18,
    "especies_top": [
     {
      "scientificName": "Anguilla anguilla",
@@ -1536,14 +1540,14 @@
      "class": "Bivalvia"
     },
     {
-     "scientificName": "Rana iberica",
-     "vernacular_es": "Rana Patilarga",
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
      "categoria_uicn": "VU",
-     "class": "Amphibia"
+     "class": "Aves"
     },
     {
-     "scientificName": "Calidris ferruginea",
-     "vernacular_es": "Correlimos zarapitín",
+     "scientificName": "Melanitta fusca",
+     "vernacular_es": "Negreta ala blanca",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
@@ -1554,22 +1558,22 @@
      "class": "Amphibia"
     },
     {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
      "scientificName": "Rissa tridactyla",
      "vernacular_es": "Gallego patinegro",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
     {
-     "scientificName": "Streptopelia turtur",
-     "vernacular_es": "",
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
      "categoria_uicn": "VU",
      "class": "Aves"
-    },
-    {
-     "scientificName": "Triturus marmoratus",
-     "vernacular_es": "Tritón Jaspeado",
-     "categoria_uicn": "VU",
-     "class": "Amphibia"
     }
    ],
    "informe": "informes/informe_20260830_20260902.html",
@@ -1584,6 +1588,7 @@
    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28317",
    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28317",
    "url_pdf": "https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-B-2026-28317.pdf",
+   "fuente": "BOE",
    "categoria": "puertos_costas",
    "prioridad": 3,
    "tramite_ambiental": false,
@@ -1688,6 +1693,7 @@
    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28327",
    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28327",
    "url_pdf": "https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-B-2026-28327.pdf",
+   "fuente": "BOE",
    "categoria": "red_electrica",
    "prioridad": 5,
    "tramite_ambiental": true,
@@ -1793,14 +1799,14 @@
      "class": "Insecta"
     },
     {
-     "scientificName": "Pluvialis squatarola",
-     "vernacular_es": "Chorlito Gris",
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
     {
-     "scientificName": "Falco vespertinus",
-     "vernacular_es": "Cernícalo Patirrojo",
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
      "categoria_uicn": "VU",
      "class": "Aves"
     }
@@ -1817,6 +1823,7 @@
    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28404",
    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28404",
    "url_pdf": "https://www.boe.es/boe/dias/2026/09/02/pdfs/BOE-B-2026-28404.pdf",
+   "fuente": "BOE",
    "categoria": "transporte",
    "prioridad": 4,
    "tramite_ambiental": false,
@@ -1944,9 +1951,498 @@
    ],
    "informe": "informes/informe_20260830_20260902.html",
    "actualizado": "2026-09-02"
+  },
+  "BOC-2026-5932": {
+   "identificador": "BOC-2026-5932",
+   "fecha": "2026-07-27",
+   "seccion": "7.2. Medio Ambiente y Energía",
+   "departamento": "Consejería de Industria, Empleo, Innovación y Comercio",
+   "titulo": "Información pública del expediente de solicitud de autorización administrativa previa y autorización administrativa de construcción del proyecto de ejecución de la instalación de almacenamiento energético mediante baterías denominada Bess Camarreal y sus infraestructuras de evacuación, término municipal de Camargo. Expediente ALM-16-2022.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438504",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46005",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438504",
+   "fuente": "BOC",
+   "categoria": "hidrogeno_baterias",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Camargo"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": 49.94,
+   "expediente": "ALM-16-2022",
+   "fecha_limite": "2026-08-25",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 24,
+   "n_aves": 17,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Anser cygnoides",
+     "vernacular_es": "Ganso cisne asiático",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris subruficollis",
+     "vernacular_es": "Correlimos canelo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Acrocephalus paludicola",
+     "vernacular_es": "Carricerín Cejudo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Limosa limosa",
+     "vernacular_es": "Aguja Colinegra",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris alpina",
+     "vernacular_es": "Correlimos Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260720_20260902.html",
+   "actualizado": "2026-09-02"
+  },
+  "BOC-2026-6520": {
+   "identificador": "BOC-2026-6520",
+   "fecha": "2026-08-19",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para construcción del parque eólico Somalona-Las Quemadas y sus infraestructuras de evacuación, en los municipios de Campoo de Enmedio, Valdeprado del Río y Valdeolea. Expediente 314761.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439416",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46325",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439416",
+   "fuente": "BOC",
+   "categoria": "eolica",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Campoo de Enmedio",
+    "Valdeprado del Río",
+    "Valdeolea"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "EDP Renovables, SL",
+   "potencia_mw": null,
+   "expediente": "314761",
+   "fecha_limite": "2026-09-09",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000252",
+     "nombre": "Embalse del Ebro",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES1300014",
+     "nombre": "Río Camesa",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1300013",
+     "nombre": "Río y Embalse del Ebro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1300021",
+     "nombre": "Valles altos del Nansa y Saja y Alto Campoo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4140011",
+     "nombre": "Fuentes Carrionas y Fuente Cobre-Montaña Palentina",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4120090",
+     "nombre": "Embalse del Ebro - Monte Hijedo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000250",
+     "nombre": "Sierra de Híjar",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 38,
+   "n_aves": 20,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anser cygnoides",
+     "vernacular_es": "Ganso cisne asiático",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Galemys pyrenaicus",
+     "vernacular_es": "Almizclera",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Nyctalus lasiopterus",
+     "vernacular_es": "Murciélago nóctulo grande",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    }
+   ],
+   "informe": "informes/informe_20260720_20260902.html",
+   "actualizado": "2026-09-02"
+  },
+  "BOC-2026-6631": {
+   "identificador": "BOC-2026-6631",
+   "fecha": "2026-08-21",
+   "seccion": "7.2. Medio Ambiente y Energía",
+   "departamento": "Consejería de Industria, Empleo,Innovación y Comercio",
+   "titulo": "Información pública del expediente de solicitud de autorización administrativa previa y declaración de impacto ambiental del proyecto del parque eólico Lomba de 5 MW, situado en el término municipal de Campoo de Enmedio. Expediente EOL-48-2022.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439619",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46365",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439619",
+   "fuente": "BOC",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Campoo de Enmedio"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 30,
+   "promotor": "BOREAS TECNOLOGIA, S. L",
+   "potencia_mw": 5.0,
+   "expediente": "EOL-48-2022",
+   "fecha_limite": "2026-10-05",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000252",
+     "nombre": "Embalse del Ebro",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES1300013",
+     "nombre": "Río y Embalse del Ebro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1300021",
+     "nombre": "Valles altos del Nansa y Saja y Alto Campoo",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 20,
+   "n_aves": 16,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris alpina",
+     "vernacular_es": "Correlimos Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Limosa limosa",
+     "vernacular_es": "Aguja Colinegra",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Limosa lapponica",
+     "vernacular_es": "Aguja Colipinta",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris canutus",
+     "vernacular_es": "\"Playero Rojo, Playero Pecho Rufo\"",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Arenaria interpres",
+     "vernacular_es": "Playero Turco",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260720_20260902.html",
+   "actualizado": "2026-09-02"
+  },
+  "BOC-2026-6734": {
+   "identificador": "BOC-2026-6734",
+   "fecha": "2026-08-28",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenacióndel Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para planta de valorización y tratamiento de residuos de construcción y demolición herrera, en el municipio de Camargo. Expediente 316682.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439796",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46385",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439796",
+   "fuente": "BOC",
+   "categoria": "urbanismo_industria",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Camargo"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Canteras de Santander, SA",
+   "potencia_mw": null,
+   "expediente": "316682",
+   "fecha_limite": "2026-09-21",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 24,
+   "n_aves": 17,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Anser cygnoides",
+     "vernacular_es": "Ganso cisne asiático",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris subruficollis",
+     "vernacular_es": "Correlimos canelo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Acrocephalus paludicola",
+     "vernacular_es": "Carricerín Cejudo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Limosa limosa",
+     "vernacular_es": "Aguja Colinegra",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris alpina",
+     "vernacular_es": "Correlimos Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260720_20260902.html",
+   "actualizado": "2026-09-02"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260720_20260902.html",
+   "desde": "2026-07-20",
+   "hasta": "2026-09-02",
+   "generado": "2026-09-02",
+   "n": 4
+  },
   {
    "fichero": "informes/informe_20260830_20260902.html",
    "desde": "2026-08-30",

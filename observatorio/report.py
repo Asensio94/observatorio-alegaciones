@@ -59,6 +59,20 @@ def badge(categoria: str) -> str:
     return f'<span class="badge" style="background:{COLORES.get(categoria, "#444")}">{esc(categoria)}</span>'
 
 
+
+COLORES_FUENTE = {"BOE": "#37474f", "BOC": "#00695c"}
+
+
+def badge_fuente(fuente: str) -> str:
+    return f"<span class='badge' style='background:{COLORES_FUENTE.get(fuente, '#555')}'>{esc(fuente)}</span>"
+
+
+def enlace_pdf(a: dict) -> str:
+    """Enlace al PDF solo si es distinto del enlace principal (en el BOC ambos son el mismo PDF)."""
+    if a.get("url_pdf") and a["url_pdf"] != a.get("url_html"):
+        return f" · <a href=\"{esc(a['url_pdf'])}\" target=\"_blank\" rel=\"noopener\">PDF</a>"
+    return ""
+
 def construir_mapa(resultados: list[dict]) -> folium.Map:
     m = folium.Map(location=[40.2, -3.7], zoom_start=6, tiles="OpenStreetMap")
     natura_layer = folium.FeatureGroup(name="Red Natura 2000 en los municipios", show=True)
@@ -76,7 +90,7 @@ def construir_mapa(resultados: list[dict]) -> folium.Map:
             f"<b>Categoría:</b> {esc(a['categoria'])} · <b>Natura 2000 en el municipio:</b> {len(r['natura'])} · "
             f"<b>Especies amenazadas:</b> {r['especies'].get('n_especies', 0)}<br>"
             f"<b>Fecha límite (est.):</b> {esc(a.get('fecha_limite'))}<br>"
-            f"<a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Ver anuncio en el BOE</a>",
+            f"<a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Ver anuncio oficial ({esc(a.get('fuente', 'BOE'))})</a>",
             max_width=420,
         )
         folium.GeoJson(
@@ -136,7 +150,7 @@ def ficha(r: dict) -> str:
     amb = "Sí" if a.get("tramite_ambiental") else "No detectado en el título"
     return f"""
 <section class="ficha" id="{esc(a['identificador'])}">
-  <h2>{badge(a['categoria'])} {esc(a['identificador'])} <small>(publicado {esc(a['fecha'])}, prioridad {a['prioridad']})</small></h2>
+  <h2>{badge(a['categoria'])}{badge_fuente(a.get('fuente', 'BOE'))} {esc(a['identificador'])} <small>(publicado {esc(a['fecha'])}, prioridad {a['prioridad']})</small></h2>
   <p class="titulo">{esc(a['titulo'])}</p>
   <table class="meta">
     <tr><th>Fecha límite de alegaciones (estimada)</th><td>{texto_plazo(a)}</td></tr>
@@ -147,7 +161,7 @@ def ficha(r: dict) -> str:
     <tr><th>Promotor</th><td>{esc(a.get('promotor', ''))}</td></tr>
     <tr><th>Potencia</th><td>{esc(mw)}</td></tr>
     <tr><th>Expediente</th><td>{esc(a.get('expediente', ''))}</td></tr>
-    <tr><th>Anuncio oficial</th><td><a href="{esc(a['url_html'])}" target="_blank" rel="noopener">BOE (texto)</a> · <a href="{esc(a['url_pdf'])}" target="_blank" rel="noopener">PDF</a></td></tr>
+    <tr><th>Anuncio oficial</th><td><a href="{esc(a['url_html'])}" target="_blank" rel="noopener">{esc(a.get('fuente', 'BOE'))}: anuncio</a>{enlace_pdf(a)}</td></tr>
   </table>
   <h3>Red Natura 2000 en los municipios afectados: {len(r['natura'])} <small>(zona de atención, no solape de obras)</small></h3>
   <div class="wrap"><table class="datos"><thead><tr><th>Código</th><th>Espacio</th><th>Tipo</th></tr></thead><tbody>{filas_natura}</tbody></table></div>
@@ -161,7 +175,7 @@ def pagina(titulo: str, sub: str, cuerpo: str, nav: str = "") -> str:
 <title>{esc(titulo)}</title><style>{CSS}</style></head><body>
 <h1>{esc(titulo)}</h1><p class="sub">{sub}</p>{nav}
 {cuerpo}
-<footer><p>Fuentes: BOE (datos abiertos), Agencia Europea de Medio Ambiente (Natura 2000, versión 2024), GBIF (registros de animales con coordenadas desde 2005, categorías UICN), OpenStreetMap/Nominatim (límites municipales).
+<footer><p>Fuentes: BOE (datos abiertos), BOC Boletín Oficial de Cantabria (XML diario), Agencia Europea de Medio Ambiente (Natura 2000, versión 2024), GBIF (registros de animales con coordenadas desde 2005, categorías UICN), OpenStreetMap/Nominatim (límites municipales).
 Código abierto: <a href="https://github.com/Asensio94/observatorio-alegaciones">github.com/Asensio94/observatorio-alegaciones</a>.</p></footer>
 </body></html>"""
 
@@ -179,7 +193,7 @@ def generar_informe(resultados: list[dict], desde: date, hasta: date, out_dir: P
     n_natura = sum(1 for r in resultados if r["natura"])
     indice = "".join(
         f"<tr><td><a href='#{esc(r['anuncio']['identificador'])}'>{esc(r['anuncio']['identificador'])}</a></td>"
-        f"<td>{esc(r['anuncio']['fecha'])}</td><td>{badge(r['anuncio']['categoria'])}</td>"
+        f"<td>{badge_fuente(r['anuncio'].get('fuente', 'BOE'))}</td><td>{esc(r['anuncio']['fecha'])}</td><td>{badge(r['anuncio']['categoria'])}</td>"
         f"<td>{'Sí' if r['anuncio']['tramite_ambiental'] else ''}</td>"
         f"<td>{esc(', '.join(r['anuncio']['provincias'][:3]))}</td>"
         f"<td style='text-align:right'>{len(r['natura'])}</td>"
@@ -198,7 +212,7 @@ def generar_informe(resultados: list[dict], desde: date, hasta: date, out_dir: P
 <div class="aviso">{AVISO_METODO}</div>
 <div class="mapa"><iframe src="{esc(mapa_file)}" loading="lazy"></iframe></div>
 <h2>Índice</h2>
-<div class="wrap"><table class="datos"><thead><tr><th>Anuncio</th><th>Publicado</th><th>Categoría</th><th>EIA</th><th>Provincias</th><th>Natura (municipio)</th><th>Esp. amen.</th><th>Aves</th><th>Fecha límite (est.)</th></tr></thead><tbody>{indice}</tbody></table></div>
+<div class="wrap"><table class="datos"><thead><tr><th>Anuncio</th><th>Fuente</th><th>Publicado</th><th>Categoría</th><th>EIA</th><th>Provincias</th><th>Natura (municipio)</th><th>Esp. amen.</th><th>Aves</th><th>Fecha límite (est.)</th></tr></thead><tbody>{indice}</tbody></table></div>
 {''.join(ficha(r) for r in resultados)}"""
     nav = '<nav><a href="../index.html">← Alegaciones abiertas</a><a href="../historico.html">Histórico</a></nav>'
     doc = pagina(

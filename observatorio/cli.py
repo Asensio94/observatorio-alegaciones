@@ -8,8 +8,8 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from . import boe, extract, geo, natura, plazos, report, site, species
-from .config import DOCS_DIR
+from . import boc_cantabria, boe, extract, geo, natura, plazos, report, site, species
+from .config import DOCS_DIR, FUENTES
 
 app = typer.Typer(add_completion=False, help="Observatorio de alegaciones ambientales")
 console = Console()
@@ -27,39 +27,64 @@ def run(
     min_prioridad: int = typer.Option(3, help="Prioridad mínima para cruzar con Natura/GBIF"),
     sin_gbif: bool = typer.Option(False, help="Omitir consulta de especies (más rápido)"),
     sin_web: bool = typer.Option(False, help="No actualizar estado ni web (solo informe)"),
+    fuentes: str = typer.Option(",".join(FUENTES), help="Fuentes separadas por coma: " + ", ".join(FUENTES)),
 ):
     """Descarga el BOE de los últimos días, detecta proyectos, genera el informe y actualiza la web."""
     fin = date.fromisoformat(hasta) if hasta else date.today()
     dias = boe.business_days_back(fin, days)
     candidatos: list[boe.Anuncio] = []
     total_items = 0
+    activas = {f.strip() for f in fuentes.split(",") if f.strip()}
+    desconocidas = activas - set(FUENTES)
+    if desconocidas:
+        raise typer.BadParameter(f"Fuentes desconocidas: {', '.join(sorted(desconocidas))}")
     for d in dias:
-        try:
-            sumario = boe.fetch_sumario(d)
-        except Exception as e:  # noqa: BLE001
-            console.print(f"[red]{d}: error descargando sumario: {e}[/red]")
-            continue
-        if not sumario:
-            console.print(f"[dim]{d}: sin BOE[/dim]")
-            continue
-        n = 0
-        for a in boe.iter_items(sumario, d):
-            total_items += 1
-            if extract.es_candidato(a):
-                candidatos.append(a)
-                n += 1
-        console.print(f"{d}: {n} candidatos")
-    console.print(f"[bold]{len(candidatos)} candidatos de {total_items} anuncios V-B[/bold]")
+        resumen = []
+        if "boe" in activas:
+            try:
+                sumario = boe.fetch_sumario(d)
+            except Exception as e:  # noqa: BLE001
+                console.print(f"[red]{d}: error descargando sumario BOE: {e}[/red]")
+                sumario = None
+            n = 0
+            if sumario:
+                for a in boe.iter_items(sumario, d):
+                    total_items += 1
+                    if extract.es_candidato(a):
+                        candidatos.append(a)
+                        n += 1
+            resumen.append(f"BOE {n if sumario else '-'}")
+        if "boc_cantabria" in activas:
+            try:
+                anuncios_boc = boc_cantabria.anuncios_dia(d)
+            except Exception as e:  # noqa: BLE001
+                console.print(f"[red]{d}: error descargando BOC: {e}[/red]")
+                anuncios_boc = None
+            n = 0
+            if anuncios_boc:
+                for a in anuncios_boc:
+                    total_items += 1
+                    if extract.es_candidato(a):
+                        candidatos.append(a)
+                        n += 1
+            resumen.append(f"BOC {n if anuncios_boc is not None else '-'}")
+        console.print(f"{d}: candidatos " + " · ".join(resumen))
+    console.print(f"[bold]{len(candidatos)} candidatos de {total_items} anuncios revisados[/bold]")
 
     resultados: list[dict] = []
     for a in candidatos:
-        try:
-            a.texto = boe.fetch_texto(a)
-        except Exception as e:  # noqa: BLE001
-            console.print(f"  [red]{a.identificador}: error descargando texto: {e}[/red]")
+        if a.fuente == "BOE" and not a.texto:
+            try:
+                a.texto = boe.fetch_texto(a)
+            except Exception as e:  # noqa: BLE001
+                console.print(f"  [red]{a.identificador}: error descargando texto: {e}[/red]")
         extract.clasificar(a)
         extract.extraer_datos(a)
-        lim, est = plazos.fecha_limite(date.fromisoformat(a.fecha), a.plazo_dias)
+        comunidad = None
+        if a.fuente == boc_cantabria.FUENTE:
+            boc_cantabria.completar_geo(a)
+            comunidad = boc_cantabria.COMUNIDAD
+        lim, est = plazos.fecha_limite(date.fromisoformat(a.fecha), a.plazo_dias, comunidad)
         a.fecha_limite, a.plazo_estimado = lim.isoformat(), est
         r = {"anuncio": a.to_dict(), "geom": None, "natura": [], "especies": {}, "municipios_no_resueltos": []}
         if a.prioridad >= min_prioridad and a.municipios:
@@ -94,12 +119,12 @@ def run(
         console.print(f"[green]Web:[/green] {DOCS_DIR / 'index.html'} · {len(estado['anuncios'])} proyectos en estado")
 
     t = Table(title="Resumen")
-    for c in ("Anuncio", "Cat.", "EIA", "Prov.", "Natura", "Esp.", "Aves", "Límite"):
+    for c in ("Anuncio", "Fuente", "Cat.", "EIA", "Prov.", "Natura", "Esp.", "Aves", "Límite"):
         t.add_column(c)
     for r in sorted(resultados, key=lambda r: -r["anuncio"]["prioridad"]):
         a = r["anuncio"]
         t.add_row(
-            a["identificador"], a["categoria"], "Sí" if a["tramite_ambiental"] else "",
+            a["identificador"], a["fuente"], a["categoria"], "Sí" if a["tramite_ambiental"] else "",
             ", ".join(a["provincias"][:2]), str(len(r["natura"])),
             str(r["especies"].get("n_especies", "")), str(r["especies"].get("n_aves", "")),
             a["fecha_limite"] + ("*" if a["plazo_estimado"] else ""),
