@@ -24,6 +24,20 @@ El objetivo es que grupos locales y organizaciones de conservación conozcan los
 La web tiene tres partes: **alegaciones abiertas** (ordenadas por fecha límite), **histórico** de
 plazos vencidos e **informes** por rango de fechas con mapa y ficha de cada proyecto.
 
+### Boletines que bloquean IPs extranjeras (BOC Cantabria)
+
+Los servidores del Gobierno de Cantabria no responden a los runners de GitHub (timeout de conexión), así
+que el BOC no se puede leer desde Actions. Solución: un equipo en España ejecuta
+
+```bash
+python -m observatorio.cli fetch --days 10
+```
+
+que guarda un JSON por día en `data/fuentes/boc_cantabria/` (solo secciones 5 y 7, con el texto de cada
+anuncio) y lo sube al repositorio. Un *push* en esa carpeta dispara el workflow, que procesa esos días sin
+tocar la red del BOC. `scripts/boc_local.ps1` hace todo el ciclo (pull, fetch, commit, push) y está pensado
+para el Programador de tareas de Windows. Si el volcado no llega, Actions sigue publicando el BOE con normalidad.
+
 ## Aviso metodológico
 
 - El cruce con Natura 2000 y especies se hace con el **término municipal completo**, no con la huella

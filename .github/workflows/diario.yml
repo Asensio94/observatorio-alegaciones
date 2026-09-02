@@ -4,6 +4,9 @@ on:
   schedule:
     # 07:30 UTC de lunes a sábado (el BOE se publica de lunes a sábado a primera hora)
     - cron: "30 7 * * 1-6"
+  push:
+    paths:
+      - "data/fuentes/**"
   workflow_dispatch:
 
 permissions:

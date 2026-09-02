@@ -57,6 +57,9 @@ def run(
         if "boc_cantabria" in activas:
             try:
                 anuncios_boc = boc_cantabria.anuncios_dia(d)
+            except boc_cantabria.BOCInaccesible:
+                console.print(f"[yellow]{d}: BOC sin volcado local y no accesible desde esta red (ver README, relevo local)[/yellow]")
+                anuncios_boc = None
             except Exception as e:  # noqa: BLE001
                 console.print(f"[red]{d}: error descargando BOC: {e}[/red]")
                 anuncios_boc = None
@@ -131,6 +134,28 @@ def run(
         )
     console.print(t)
     console.print(f"[green]Informe:[/green] {out}")
+
+
+@app.command()
+def fetch(
+    days: int = typer.Option(10, help="Días hacia atrás desde --hasta (incluidos)"),
+    hasta: str = typer.Option(None, help="Fecha final YYYY-MM-DD (por defecto hoy)"),
+):
+    """Descarga el BOC de Cantabria y guarda el volcado JSON en data/fuentes/ (ejecutar desde España y subir al repo)."""
+    fin = date.fromisoformat(hasta) if hasta else date.today()
+    nuevos = 0
+    for d in boe.business_days_back(fin, days):
+        store = boc_cantabria.STORE / f"{d:%Y%m%d}.json"
+        existia = store.exists()
+        try:
+            lst = boc_cantabria.anuncios_dia(d)
+        except boc_cantabria.BOCInaccesible as e:
+            console.print(f"[red]{d}: {e}[/red]")
+            raise typer.Exit(2)
+        if not existia:
+            nuevos += 1
+        console.print(f"{d}: {'sin BOC' if lst is None else f'{len(lst)} anuncios (secc. 5 y 7)'}{'' if existia else ' · guardado'}")
+    console.print(f"[green]{nuevos} días nuevos en {boc_cantabria.STORE}[/green]")
 
 
 if __name__ == "__main__":

@@ -5,8 +5,10 @@ DATA_DIR = ROOT / "data"
 CACHE_DIR = DATA_DIR / "cache"
 DOCS_DIR = ROOT / "docs"  # web estática publicada con GitHub Pages
 ESTADO_PATH = DATA_DIR / "estado.json"  # estado acumulado de anuncios detectados
+# Volcados versionados de fuentes que no son accesibles desde GitHub Actions (se descargan desde España y se suben al repo)
+FUENTES_DIR = DATA_DIR / "fuentes"
 
-for d in (CACHE_DIR / "boe", CACHE_DIR / "geo", CACHE_DIR / "natura", CACHE_DIR / "gbif", CACHE_DIR / "boc_cantabria", DOCS_DIR / "informes"):
+for d in (CACHE_DIR / "boe", CACHE_DIR / "geo", CACHE_DIR / "natura", CACHE_DIR / "gbif", CACHE_DIR / "boc_cantabria", FUENTES_DIR / "boc_cantabria", DOCS_DIR / "informes"):
     d.mkdir(parents=True, exist_ok=True)
 
 USER_AGENT = "observatorio-alegaciones/0.1 (proyecto abierto de conservacion)"

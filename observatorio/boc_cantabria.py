@@ -5,6 +5,11 @@ El BOC no tiene API, pero sí dos cosas muy útiles:
   (verXmlAction.do?idBlob=N) y el PDF de cada anuncio (verAnuncioAction.do?idAnuBlob=N).
 - Ese XML diario incluye el texto completo de cada anuncio, su CVE y el órgano emisor, así que basta
   una descarga por día y no hay que abrir PDFs.
+
+Limitación: los servidores del Gobierno de Cantabria no responden a IPs de fuera de España (los runners
+de GitHub Actions dan timeout). Por eso cada día procesado se guarda como JSON en data/fuentes/boc_cantabria/
+y se versiona: el volcado se genera desde un equipo en España (`python -m observatorio.cli fetch`) y
+Actions lo lee del repositorio sin tocar la red.
 """
 
 from __future__ import annotations
@@ -17,7 +22,7 @@ import requests
 from lxml import etree
 
 from .boe import Anuncio
-from .config import BOC_ANUNCIO_URL, BOC_CVE_URL, BOC_SUMARIO_URL, BOC_XML_URL, CACHE_DIR, USER_AGENT
+from .config import BOC_ANUNCIO_URL, BOC_CVE_URL, BOC_SUMARIO_URL, BOC_XML_URL, CACHE_DIR, FUENTES_DIR, USER_AGENT
 
 FUENTE = "BOC"
 COMUNIDAD = "Cantabria"
@@ -27,6 +32,13 @@ SECCIONES_POR_DEFECTO = ("5", "7")
 
 _SESSION = requests.Session()
 _SESSION.headers.update({"User-Agent": USER_AGENT})
+STORE = FUENTES_DIR / "boc_cantabria"
+TIMEOUT = 25  # el bloqueo se manifiesta como timeout de conexión; no merece la pena esperar más
+_sin_conexion = False  # tras un timeout, no se reintenta en el resto de la ejecución
+
+
+class BOCInaccesible(RuntimeError):
+    """El BOC no responde desde esta red (probable bloqueo geográfico) y no hay volcado local del día."""
 
 _IDBLOB_RE = re.compile(r"verXmlAction\.do\?idBlob=(\d+)")
 _ANUNCIO_RE = re.compile(r"verAnuncioAction\.do\?idAnuBlob=(\d+)[^>]*>\s*PDF\s*\(BOC-(\d{4}-\d+)")
@@ -38,11 +50,18 @@ def fetch_sumario(day: date) -> dict | None:
     cache = CACHE_DIR / "boc_cantabria" / f"sumario_{day:%Y%m%d}.json"
     if cache.exists():
         return json.loads(cache.read_text(encoding="utf-8"))
-    r = _SESSION.post(
-        BOC_SUMARIO_URL,
-        data={"boletinBean.fecBolString": f"{day:%d/%m/%Y}", "boletinBean.tipoBol": "", "boton": "Buscar"},
-        timeout=90,
-    )
+    global _sin_conexion
+    if _sin_conexion:
+        raise BOCInaccesible("BOC no accesible desde esta red")
+    try:
+        r = _SESSION.post(
+            BOC_SUMARIO_URL,
+            data={"boletinBean.fecBolString": f"{day:%d/%m/%Y}", "boletinBean.tipoBol": "", "boton": "Buscar"},
+            timeout=TIMEOUT,
+        )
+    except (requests.ConnectionError, requests.Timeout) as e:
+        _sin_conexion = True
+        raise BOCInaccesible(f"BOC no accesible desde esta red ({type(e).__name__})") from e
     r.raise_for_status()
     html = r.content.decode("latin-1")
     m = _IDBLOB_RE.search(html)
@@ -58,7 +77,7 @@ def fetch_xml(idblob: str) -> bytes:
     cache = CACHE_DIR / "boc_cantabria" / f"boletin_{idblob}.xml"
     if cache.exists():
         return cache.read_bytes()
-    r = _SESSION.get(BOC_XML_URL.format(id=idblob), timeout=180)
+    r = _SESSION.get(BOC_XML_URL.format(id=idblob), timeout=max(TIMEOUT, 120))
     r.raise_for_status()
     cache.write_bytes(r.content)
     return r.content
@@ -77,7 +96,26 @@ def _texto(el) -> str:
 
 
 def anuncios_dia(day: date, secciones: tuple[str, ...] = SECCIONES_POR_DEFECTO) -> list[Anuncio] | None:
-    """Anuncios del BOC de ese día en las secciones indicadas, con texto completo. None si no hubo BOC."""
+    """Anuncios del BOC de ese día en las secciones indicadas, con texto completo. None si no hubo BOC.
+
+    Lee primero el volcado versionado (data/fuentes/boc_cantabria/AAAAMMDD.json); si no existe, descarga
+    y lo crea. Lanza BOCInaccesible si no hay volcado y la red no llega al BOC."""
+    store = STORE / f"{day:%Y%m%d}.json"
+    if store.exists():
+        data = json.loads(store.read_text(encoding="utf-8"))
+        lst = None if data is None else [Anuncio(**d) for d in data]
+    else:
+        lst = _descargar_dia(day)
+        STORE.mkdir(parents=True, exist_ok=True)
+        store.write_text(
+            json.dumps(None if lst is None else [a.to_dict() for a in lst], ensure_ascii=False), encoding="utf-8"
+        )
+    if lst is None:
+        return None
+    return [a for a in lst if a.seccion.split(".")[0].strip() in secciones]
+
+
+def _descargar_dia(day: date, secciones: tuple[str, ...] = SECCIONES_POR_DEFECTO) -> list[Anuncio] | None:
     sumario = fetch_sumario(day)
     if not sumario:
         return None
