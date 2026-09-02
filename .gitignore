@@ -4,3 +4,4 @@ __pycache__/
 # Textos y sumarios del BOE se vuelven a descargar; el resto de cachés (geo, natura, gbif) se versiona para acelerar las ejecuciones en Actions
 data/cache/boe/
 data/cache/boc_cantabria/
+scripts/boc_local.log
