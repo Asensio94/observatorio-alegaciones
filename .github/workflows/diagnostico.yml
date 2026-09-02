@@ -1,0 +1,29 @@
+name: Diagnóstico de conectividad
+
+# Comprueba desde un runner de GitHub si las fuentes responden (algunos boletines autonómicos
+# bloquean IPs de fuera de España). Lanzar a mano desde la pestaña Actions.
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: URLs separadas por espacios
+        required: false
+        default: >-
+          https://www.boe.es/datosabiertos/api/boe/sumario/20260901
+          https://boc.cantabria.es/boces/
+          https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46505
+          https://www.cantabria.es/o/BOC/feed/6802098
+          https://api.gbif.org/v1/occurrence/search?limit=0
+          https://nominatim.openstreetmap.org/status
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Probar URLs
+        run: |
+          for u in ${{ inputs.urls }}; do
+            code=$(curl -sS -o /dev/null -m 25 -A "observatorio-alegaciones/0.1" -w "%{http_code} %{time_total}s %{remote_ip}" "$u" 2>&1 || true)
+            echo "$code  $u"
+          done
