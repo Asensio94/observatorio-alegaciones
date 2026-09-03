@@ -77,6 +77,48 @@ python -m observatorio.cli mis-alegaciones                 # estado de los escri
 cada uno con el estado del observatorio para avisar de plazos a menos de diez días y de resoluciones
 nuevas. Con qué proyectos alega cada cual no tiene por qué estar publicado.
 
+## Vertical del litoral y del suelo turístico
+
+La costa no se transforma con un proyecto de 300 MW: se transforma con cincuenta expedientes de quince
+días que por separado parecen menores. Una reforma, un cierre de parcela, cinco viviendas, un aparcamiento
+«de temporada». El observatorio principal descarta a propósito ese material (`extract.EXCLUIR` tira las
+viviendas unifamiliares, los cambios de uso y las reformas) para no ahogarse en ruido. El módulo
+`litoral.py` lee justo ese montón de descartes, y por eso es un vertical aparte con su estado
+(`data/estado_litoral.json`) y su página propios.
+
+Dos fuentes y dos regímenes:
+
+- **BOE, sección V-B, órganos de Costas** (demarcaciones y servicios provinciales, de toda España):
+  concesiones y autorizaciones de ocupación del dominio público marítimo-terrestre, prórrogas, deslindes,
+  reservas demaniales y movimientos de arena. Ley 22/1988 de Costas y RD 876/2014. Del BOE **solo** entra
+  lo que firma un órgano de Costas: en esa misma sección conviven las confederaciones hidrográficas, y un
+  deslinde del dominio público hidráulico en Jaén no es de este vertical.
+- **BOC de Cantabria, sección 7 (Urbanismo)**: las autorizaciones en la zona de servidumbre de protección
+  del dominio público marítimo-terrestre, que son competencia autonómica (art. 229 de la Ley de Cantabria
+  5/2022), más el planeamiento municipal (estudios de detalle por el art. 101, modificaciones puntuales del
+  plan general por el art. 110) y la evaluación ambiental estratégica de esos planes. Del boletín autonómico
+  entra todo el territorio: filtrar por municipio costero dejaría fuera Potes o Soba, que es donde también
+  aprieta la presión turística.
+
+Cada expediente se clasifica por trámite y se le marcan **señales** con su apoyo normativo: uso residencial
+en la servidumbre (art. 25.1.a de la Ley de Costas, la señal que más pesa), afección a playa o duna
+(arts. 32 y 44.5), aumento de edificabilidad en la zona de influencia de los 500 metros (art. 30.1.b),
+suelo ordenado por el Plan de Ordenación del Litoral (Ley de Cantabria 2/2004), tramitación por estudio de
+detalle, parcelación de la finca, informe ambiental estratégico simplificado (arts. 29-32 de la Ley
+21/2013), suspensión de licencias (art. 89 de la Ley 5/2022) y frente costero. Los puntos ordenan la
+lectura; **no son un dictamen**: la prohibición del art. 25.1.a tiene excepciones y regímenes transitorios,
+y solo el expediente dice si aplican. A partir del umbral de puntos se cruza con Red Natura 2000 y GBIF.
+
+```bash
+python -m observatorio.cli litoral --days 20                  # BOE (Costas) + BOC, web incluida
+python -m observatorio.cli litoral --days 55 --min-puntos 5    # solo cruza los expedientes más señalados
+```
+
+La página [Litoral](https://asensio94.github.io/observatorio-alegaciones/litoral.html) separa lo que tiene
+plazo abierto de lo cerrado, y mantiene lo cerrado a la vista porque el patrón importa más que el
+expediente suelto: el mismo tramo de costa aparece una y otra vez, y la autorización, cuando llega, sí se
+puede recurrir.
+
 ## Uso local
 
 ```bash
@@ -110,10 +152,12 @@ observatorio/
   natura.py    cruce con Red Natura 2000
   species.py   especies amenazadas (GBIF)
   report.py    informe HTML por rango de fechas: mapa folium + fichas
+  litoral.py   vertical del litoral: costas, servidumbre, planeamiento y suelo turístico
   site.py      estado acumulado (data/estado.json) y web estática (docs/)
   cli.py       punto de entrada
 data/
   estado.json  todos los anuncios detectados, con su fecha límite y cruces
+  estado_litoral.json  lo mismo para el vertical del litoral (fuentes y señales distintas)
   cache/       geo, natura y gbif se versionan (aceleran Actions); boe/ y boc_cantabria/ se ignoran
   mis_alegaciones.json  registro privado de escritos propios (no se versiona)
 docs/          web publicada con GitHub Pages
@@ -138,6 +182,11 @@ del anuncio del BOE (por ejemplo `BOE-B-2026-12345`).
 - Alertas por correo o Telegram y suscripción por provincia o comarca.
 - Seguimiento: enlazar la resolución con el expediente cuando el boletín no repite el número, y
   detectar los recursos contencioso-administrativos que se publican en el propio boletín.
+- Litoral: distancia real a la ribera del mar (hoy la señal de frente costero es una lista de municipios),
+  ámbito del Plan de Ordenación del Litoral como capa, y acumulación por tramo de costa: contar cuántos
+  expedientes caen en el mismo kilómetro es el argumento de efectos acumulativos que hoy falta.
+- Litoral en otras comunidades: la parte del BOE ya cubre toda la costa española; lo que falta es el
+  boletín autonómico de cada una (Galicia, Asturias, País Vasco, Andalucía, Levante, Baleares, Canarias).
 
 ## Licencia
 

@@ -8,7 +8,7 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from . import boc_cantabria, boe, extract, geo, natura, plazos, report, seguimiento, site, species
+from . import boc_cantabria, boe, extract, geo, litoral, natura, plazos, report, seguimiento, site, species
 from .config import DATA_DIR, DOCS_DIR, FUENTES
 
 app = typer.Typer(add_completion=False, help="Observatorio de alegaciones ambientales")
@@ -138,6 +138,122 @@ def run(
         )
     console.print(t)
     console.print(f"[green]Informe:[/green] {out}")
+
+
+@app.command("litoral")
+def cmd_litoral(
+    days: int = typer.Option(20, help="Días hacia atrás desde --hasta (incluidos)"),
+    hasta: str = typer.Option(None, help="Fecha final YYYY-MM-DD (por defecto hoy)"),
+    min_puntos: int = typer.Option(3, help="Puntos de señal mínimos para cruzar con Natura/GBIF"),
+    sin_gbif: bool = typer.Option(False, help="Omitir consulta de especies (más rápido)"),
+    sin_web: bool = typer.Option(False, help="No actualizar el estado del litoral ni su página"),
+    fuentes: str = typer.Option(",".join(FUENTES), help="Fuentes separadas por coma: " + ", ".join(FUENTES)),
+):
+    """Vertical del litoral: costas, servidumbre de protección, planeamiento y suelo turístico."""
+    fin = date.fromisoformat(hasta) if hasta else date.today()
+    activas = {f.strip() for f in fuentes.split(",") if f.strip()}
+    desconocidas = activas - set(FUENTES)
+    if desconocidas:
+        raise typer.BadParameter(f"Fuentes desconocidas: {', '.join(sorted(desconocidas))}")
+    dias = boe.business_days_back(fin, days)
+    candidatos: list[boe.Anuncio] = []
+    revisados = 0
+    for d in dias:
+        resumen = []
+        if "boe" in activas:
+            try:
+                sumario = boe.fetch_sumario(d)
+            except Exception as e:  # noqa: BLE001
+                console.print(f"[red]{d}: error descargando sumario BOE: {e}[/red]")
+                sumario = None
+            n = 0
+            if sumario:
+                for a in boe.iter_items(sumario, d, secciones=litoral.SECCIONES_BOE):
+                    revisados += 1
+                    # El filtro de ámbito va antes de bajar el texto: en la V-B el BOE mezcla las
+                    # demarcaciones de costas con las confederaciones hidrográficas.
+                    if litoral.es_candidato(a) and litoral.en_ambito(a):
+                        candidatos.append(a); n += 1
+            resumen.append(f"BOE {n if sumario else '-'}")
+        if "boc_cantabria" in activas:
+            try:
+                anuncios_boc = boc_cantabria.anuncios_dia(d)
+            except boc_cantabria.BOCInaccesible:
+                console.print(f"[yellow]{d}: BOC sin volcado local y no accesible desde esta red[/yellow]")
+                anuncios_boc = None
+            except Exception as e:  # noqa: BLE001
+                console.print(f"[red]{d}: error descargando BOC: {e}[/red]")
+                anuncios_boc = None
+            n = 0
+            for a in anuncios_boc or []:
+                revisados += 1
+                if litoral.es_candidato(a):
+                    candidatos.append(a); n += 1
+            resumen.append(f"BOC {n if anuncios_boc is not None else '-'}")
+        console.print(f"{d}: " + " · ".join(resumen))
+    console.print(f"[bold]{len(candidatos)} candidatos de {revisados} anuncios revisados[/bold]")
+
+    resultados: list[dict] = []
+    for a in candidatos:
+        if a.fuente == "BOE" and not a.texto:
+            try:
+                a.texto = boe.fetch_texto(a)
+            except Exception as e:  # noqa: BLE001
+                console.print(f"  [red]{a.identificador}: error descargando texto: {e}[/red]")
+        litoral.clasificar(a)
+        extract.extraer_datos(a)
+        comunidad = None
+        if a.fuente == boc_cantabria.FUENTE:
+            boc_cantabria.completar_geo(a)
+            comunidad = boc_cantabria.COMUNIDAD
+        sen = litoral.senales(a)
+        pts = litoral.puntos(sen)
+        plazo = a.plazo_dias or litoral.plazo_por_defecto(a.categoria)
+        if plazo is None:  # la EAE informa, no abre plazo de alegaciones
+            a.fecha_limite, a.plazo_estimado = "", True
+        else:
+            lim, _ = plazos.fecha_limite(date.fromisoformat(a.fecha), plazo, comunidad)
+            a.fecha_limite, a.plazo_estimado = lim.isoformat(), a.plazo_dias is None
+        r = {"anuncio": a.to_dict(), "senales": sen, "puntos": pts, "natura": [], "especies": {}}
+        if pts >= min_puntos and a.municipios:
+            console.print(f"  [cyan]{a.identificador}[/cyan] {a.categoria} · {pts} pts · {', '.join(a.municipios[:2])}")
+            try:
+                g, _ok, _ko = geo.geom_proyecto(a.municipios, a.provincias)
+            except Exception as e:  # noqa: BLE001
+                console.print(f"    [red]Geolocalización error: {e}[/red]")
+                g = None
+            if g is not None:
+                try:
+                    r["natura"] = natura.sitios_natura(g)
+                except Exception as e:  # noqa: BLE001
+                    console.print(f"    [red]Natura error: {e}[/red]")
+                if not sin_gbif:
+                    try:
+                        r["especies"] = species.especies_amenazadas(g)
+                    except Exception as e:  # noqa: BLE001
+                        console.print(f"    [red]GBIF error: {e}[/red]")
+        else:
+            console.print(f"  [dim]{a.identificador} {a.categoria} {pts} pts (sin cruce)[/dim]")
+        resultados.append(r)
+
+    t = Table(title=f"Litoral · {dias[0]} a {fin}")
+    for c in ("Anuncio", "Fuente", "Trámite", "Pts", "Municipio", "Señal principal", "Límite"):
+        t.add_column(c)
+    for r in sorted(resultados, key=lambda r: -r["puntos"])[:40]:
+        a = r["anuncio"]
+        t.add_row(
+            a["identificador"], a["fuente"], a["categoria"], str(r["puntos"]),
+            ", ".join(a["municipios"][:2]) or "-",
+            r["senales"][0]["etiqueta"] if r["senales"] else "-",
+            (a["fecha_limite"] or "-") + ("*" if a["plazo_estimado"] and a["fecha_limite"] else ""),
+        )
+    console.print(t)
+    if not sin_web:
+        estado = litoral.cargar_estado()
+        nuevas = litoral.actualizar_estado(estado, resultados)
+        litoral.guardar_estado(estado)
+        litoral.generar_web(estado, DOCS_DIR)
+        console.print(f"[green]Litoral:[/green] {len(estado['anuncios'])} expedientes en estado ({nuevas} nuevos) · {DOCS_DIR / 'litoral.html'}")
 
 
 @app.command()

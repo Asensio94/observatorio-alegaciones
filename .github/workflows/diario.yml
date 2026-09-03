@@ -34,6 +34,16 @@ jobs:
           PYTHONIOENCODING: utf-8
         run: python -m observatorio.cli run --days 4
 
+      - name: Seguimiento de resoluciones (últimos 20 días hábiles)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m observatorio.cli resoluciones --days 20
+
+      - name: Vertical del litoral (últimos 8 días)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m observatorio.cli litoral --days 8
+
       - name: Publicar cambios (estado, caché y web)
         run: |
           git config user.name "observatorio-bot"

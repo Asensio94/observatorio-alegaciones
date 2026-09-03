@@ -120,7 +120,7 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
     ultimo_mapa = estado["informes"][0]["fichero"].replace(".html", "_mapa.html") if estado["informes"] else ""
 
     nav = ('<nav><a href="index.html">Alegaciones abiertas</a><a href="seguimiento.html">Seguimiento</a>'
-           '<a href="historico.html">Histórico</a>'
+           '<a href="litoral.html">Litoral</a><a href="historico.html">Histórico</a>'
            '<a href="https://github.com/Asensio94/observatorio-alegaciones">Código y datos</a></nav>')
     cuerpo = f"""
 <div class="kpis">

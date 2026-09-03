@@ -1,0 +1,1692 @@
+{
+ "anuncios": {
+  "BOC-2026-5588": {
+   "identificador": "BOC-2026-5588",
+   "fecha": "2026-07-10",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para la renovación de la calle la angarilla en la zona de servidumbre del dominio público marítimo terrestre del municipio de Noja. Expediente 14/26 AC.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=437954",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=45745",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=437954",
+   "fuente": "BOC",
+   "categoria": "servidumbre",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Noja"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Ayuntamiento de Noja",
+   "potencia_mw": null,
+   "expediente": "14/26",
+   "fecha_limite": "2026-08-03",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 3,
+   "natura": [
+    "ES0000143",
+    "ES1300007"
+   ],
+   "natura_nombres": [
+    "Marismas de Santoña, Victoria y Joyel y Ría de Ajo",
+    "Marismas de Santoña, Victoria y Joyel"
+   ],
+   "n_especies": 24,
+   "n_aves": 17
+  },
+  "BOC-2026-5569": {
+   "identificador": "BOC-2026-5569",
+   "fecha": "2026-07-10",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Ayuntamiento de Comillas",
+   "titulo": "Información pública de la aprobación inicial de Estudio de Detalle común de iniciativa pública en la calle Ruiz de la Rabia. Expediente 1616/2026.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=437961",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=45745",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=437961",
+   "fuente": "BOC",
+   "categoria": "planeamiento",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Comillas"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "1616/2026",
+   "fecha_limite": "2026-08-10",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "parcelacion",
+     "etiqueta": "Divide la finca en parcelas",
+     "puntos": 3,
+     "apoyo": "Dividir una finca en lotes es el primer paso material de la urbanización: cada lote pide después su licencia por separado y ningún expediente parece grande. Conviene comprobar la clasificación del suelo y si la división encubre una parcelación urbanística, que fuera del suelo urbanizado no cabe."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "estudio_detalle",
+     "etiqueta": "Se tramita por estudio de detalle",
+     "puntos": 2,
+     "apoyo": "El estudio de detalle es el instrumento más ligero del planeamiento: no puede aumentar el aprovechamiento ni alterar la ordenación estructural, solo reordenar volúmenes. Por eso conviene leer la memoria y comprobar si el reajuste sube en realidad altura, ocupación o edificabilidad, que es la forma habitual de saltarse una modificación del plan general."
+    }
+   ],
+   "puntos": 7,
+   "natura": [
+    "ES1300003"
+   ],
+   "natura_nombres": [
+    "Rias occidentales y Duna de Oyambre"
+   ],
+   "n_especies": 22,
+   "n_aves": 9
+  },
+  "BOE-B-2026-24239": {
+   "identificador": "BOE-B-2026-24239",
+   "fecha": "2026-07-15",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas de Castellón relativo a la solicitud de autorización para la ocupación de terrenos de dominio público marítimo-terrestre con las instalaciones desmontables definidas en el \"PROYECTO DE PEATONALIZACIÓN LÍNEA COSTA SUR CORRESPONDIENTE A ACTUACIÓN Nº 14 DEL EJE PROGRAMÁTICO 5. MOVILIDAD SOSTENIBLE DEL PLAN DE SOSTENIBILIDAD TURÍSTICA EN DESTINO DE PEÑISCOLA\", término municipal de Peñíscola (Castellón). Ref.: AUT02/25/12/0063.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-24239",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-24239",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/07/15/pdfs/BOE-B-2026-24239.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Peñíscola"
+   ],
+   "provincias": [
+    "Castellón"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-08-12",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "temporada",
+     "etiqueta": "Instalación de temporada que se repite cada año",
+     "puntos": 2,
+     "apoyo": "Las instalaciones desmontables de temporada se autorizan año tras año sobre el mismo suelo. Conviene vigilar si lo desmontable se ha vuelto permanente, que es el modo habitual de consolidar la ocupación."
+    }
+   ],
+   "puntos": 7,
+   "natura": [
+    "ES5223036",
+    "ES0000444",
+    "ES5222002",
+    "ES0000512"
+   ],
+   "natura_nombres": [
+    "Serra d'Irta",
+    "Serra d'Irta (ZEPA)",
+    "Marjal de Peníscola",
+    "Espacio marino del Delta de l'Ebre-Illes Columbretes"
+   ],
+   "n_especies": 40,
+   "n_aves": 12
+  },
+  "BOC-2026-5697": {
+   "identificador": "BOC-2026-5697",
+   "fecha": "2026-07-15",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Ayuntamiento de Potes",
+   "titulo": "Aprobación inicial y exposición pública de la Modificación Puntual del Plan General de Ordenación Urbana de Potes en el Sector de Suelo Urbanizable SUR-2 Santa Olaja y en el SUNC-2. Expediente 546/2024.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438148",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=45825",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438148",
+   "fuente": "BOC",
+   "categoria": "planeamiento",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Potes"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 45,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "546/2024",
+   "fecha_limite": "2026-09-18",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "eae_simplificada",
+     "etiqueta": "Se resolvió por evaluación ambiental estratégica simplificada",
+     "puntos": 3,
+     "apoyo": "El informe ambiental estratégico es la salida de la evaluación simplificada (artículos 29 a 32 de la Ley 21/2013): concluye que el plan no necesita evaluación ordinaria. No se recurre solo, pero sí junto con la aprobación del plan, y el punto débil habitual es que no valora los efectos acumulativos con el resto de desarrollos previstos en el mismo municipio."
+    }
+   ],
+   "puntos": 3,
+   "natura": [
+    "ES1300001",
+    "ES1300008"
+   ],
+   "natura_nombres": [
+    "Liébana",
+    "Rio Deva"
+   ],
+   "n_especies": 6,
+   "n_aves": 1
+  },
+  "BOC-2026-5698": {
+   "identificador": "BOC-2026-5698",
+   "fecha": "2026-07-15",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Ayuntamiento de Potes",
+   "titulo": "Aprobación inicial y exposición pública de la Modificación Puntual del Plan General de Ordenación Urbana de Potes en el Sector de Suelo Urbanizable SUR-4 La Tejera. Expediente 562/2024.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438150",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=45825",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438150",
+   "fuente": "BOC",
+   "categoria": "planeamiento",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Potes"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 45,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "562/2024",
+   "fecha_limite": "2026-09-18",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "eae_simplificada",
+     "etiqueta": "Se resolvió por evaluación ambiental estratégica simplificada",
+     "puntos": 3,
+     "apoyo": "El informe ambiental estratégico es la salida de la evaluación simplificada (artículos 29 a 32 de la Ley 21/2013): concluye que el plan no necesita evaluación ordinaria. No se recurre solo, pero sí junto con la aprobación del plan, y el punto débil habitual es que no valora los efectos acumulativos con el resto de desarrollos previstos en el mismo municipio."
+    }
+   ],
+   "puntos": 3,
+   "natura": [
+    "ES1300001",
+    "ES1300008"
+   ],
+   "natura_nombres": [
+    "Liébana",
+    "Rio Deva"
+   ],
+   "n_especies": 6,
+   "n_aves": 1
+  },
+  "BOC-2026-5675": {
+   "identificador": "BOC-2026-5675",
+   "fecha": "2026-07-20",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Declaración Ambiental Estratégica del Estudio de Detalle Especial de la Unidad de Actuación de la parcela número 58, barrio Sierra, La Cuestona, en el término municipal de Ruiloba.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438127",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=45905",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438127",
+   "fuente": "BOC",
+   "categoria": "eae",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Ruiloba"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 45,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-23",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "eae_simplificada",
+     "etiqueta": "Se resolvió por evaluación ambiental estratégica simplificada",
+     "puntos": 3,
+     "apoyo": "El informe ambiental estratégico es la salida de la evaluación simplificada (artículos 29 a 32 de la Ley 21/2013): concluye que el plan no necesita evaluación ordinaria. No se recurre solo, pero sí junto con la aprobación del plan, y el punto débil habitual es que no valora los efectos acumulativos con el resto de desarrollos previstos en el mismo municipio."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "estudio_detalle",
+     "etiqueta": "Se tramita por estudio de detalle",
+     "puntos": 2,
+     "apoyo": "El estudio de detalle es el instrumento más ligero del planeamiento: no puede aumentar el aprovechamiento ni alterar la ordenación estructural, solo reordenar volúmenes. Por eso conviene leer la memoria y comprobar si el reajuste sube en realidad altura, ocupación o edificabilidad, que es la forma habitual de saltarse una modificación del plan general."
+    }
+   ],
+   "puntos": 7,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 5,
+   "n_aves": 1
+  },
+  "BOE-B-2026-24788": {
+   "identificador": "BOE-B-2026-24788",
+   "fecha": "2026-07-21",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia sobre otorgamiento de concesión administrativa de ocupación de dominio público marítimo-terrestre con destino a la regularización y ejecución de obras de reconstrucción del puente de La Isleta, sito en la calle Anticitera de La Manga del Mar Menor, en el término municipal de Cartagena (Murcia). Referencia CNC02/25/30/0010.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-24788",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-24788",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/07/21/pdfs/BOE-B-2026-24788.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cartagena"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-08-18",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000264",
+    "ES6200015",
+    "ES6200001",
+    "ES6200024",
+    "ES6200006",
+    "ES0000199",
+    "ES0000260",
+    "ES6200025",
+    "ES6200040",
+    "ES6200044",
+    "ES6200030",
+    "ES6200007",
+    "ES0000200",
+    "ES6200048",
+    "ES6200029",
+    "ES0000256",
+    "ES0000271",
+    "ES0000508",
+    "ES0000507"
+   ],
+   "natura_nombres": [
+    "La Muela-Cabo Tiñoso",
+    "La Muela y Cabo Tiñoso",
+    "Calblanque, Monte de las Cenizas y Peña del Águila",
+    "Cabezo de Roldán",
+    "Espacios Abiertos e Islas del Mar Menor",
+    "Sierra de la Fausilla"
+   ],
+   "n_especies": 40,
+   "n_aves": 28
+  },
+  "BOE-B-2026-24790": {
+   "identificador": "BOE-B-2026-24790",
+   "fecha": "2026-07-21",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas de Tenerife, en procedimiento de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, en aplicación de lo establecido en la Disposición Transitoria Primera de la Ley 22/1988, de 28 de julio, de Costas, correspondiente con la finca inscrita con el número 15500 en el Registro de la Propiedad de Granadilla de Abona, situada en zona de Playa Chica, en El Médano, t.m. de Granadilla de Abona (isla de Tenerife).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-24790",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-24790",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/07/21/pdfs/BOE-B-2026-24790.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Granadilla de Abona"
+   ],
+   "provincias": [
+    "Santa Cruz de Tenerife"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "CNC12/25/38/0004",
+   "fecha_limite": "2026-08-18",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000107",
+    "ES7020054",
+    "ES7020043",
+    "ES7020049",
+    "ES7020111",
+    "ES7020116",
+    "ES7020058",
+    "ES7020129"
+   ],
+   "natura_nombres": [
+    "Montes y cumbre de Tenerife",
+    "Corona Forestal",
+    "Parque Nacional del Teide",
+    "Montaña Roja",
+    "Barranco de Orchilla",
+    "Sebadales del sur de Tenerife"
+   ],
+   "n_especies": 40,
+   "n_aves": 16
+  },
+  "BOC-2026-5818": {
+   "identificador": "BOC-2026-5818",
+   "fecha": "2026-07-21",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Informe Ambiental Estratégico de la Modificación Puntual número 16 del Plan Especial de Ordenación del Sistema General Portuario del Puerto de Santander (PEOSGPS), en el área 11: Zona Logística de Raos, Municipio de Santander.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438355",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=45845",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438355",
+   "fuente": "BOC",
+   "categoria": "eae",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Santander"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "DES01/11/39/0001",
+   "fecha_limite": "",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "eae_simplificada",
+     "etiqueta": "Se resolvió por evaluación ambiental estratégica simplificada",
+     "puntos": 3,
+     "apoyo": "El informe ambiental estratégico es la salida de la evaluación simplificada (artículos 29 a 32 de la Ley 21/2013): concluye que el plan no necesita evaluación ordinaria. No se recurre solo, pero sí junto con la aprobación del plan, y el punto débil habitual es que no valora los efectos acumulativos con el resto de desarrollos previstos en el mismo municipio."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 33,
+   "n_aves": 20
+  },
+  "BOE-B-2026-24975": {
+   "identificador": "BOE-B-2026-24975",
+   "fecha": "2026-07-23",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Asturias sobre otorgamiento de concesión de ocupación de terrenos de dominio público marítimo-terrestre, con destino a acondicionamiento de parcela para creación de itinerario peatonal de acceso a la playa de Verdicio, t.m. de Gozón (Asturias). Ref. CNC02/25/33/0004.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-24975",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-24975",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/07/23/pdfs/BOE-B-2026-24975.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Gozón"
+   ],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": null,
+   "promotor": "Ayuntamiento de Gozón",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-08-20",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES1200055",
+    "ES0000318",
+    "ES0000320"
+   ],
+   "natura_nombres": [
+    "Cabo Busto-Luanco",
+    "Cabo Busto-Luanco",
+    "Embalses del centro (San Andrés, la Granda, Trasona y la Furta)"
+   ],
+   "n_especies": 40,
+   "n_aves": 33
+  },
+  "BOE-B-2026-25487": {
+   "identificador": "BOE-B-2026-25487",
+   "fecha": "2026-07-28",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cantabria de información pública sobre procedimiento de autorización para aprovechamiento agrario de las parcelas catastrales 39029A008001880000UP y 39029A014000230000UL, situadas en Montehano, en el término municipal de Escalante. Referencia: AUT10/26/39/0002.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-25487",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-25487",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/07/28/pdfs/BOE-B-2026-25487.pdf",
+   "fuente": "BOE",
+   "categoria": "costas_otro",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Escalante"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-08-25",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOE-B-2026-25589": {
+   "identificador": "BOE-B-2026-25589",
+   "fecha": "2026-07-29",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia de Información Pública sobre la concesión transitoria de ocupación de dominio público marítimo-terrestre con destino a paseo marítimo, en aplicación de la legislación transitoria de costas. Referencia CNC12/24/30/0002.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-25589",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-25589",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/07/29/pdfs/BOE-B-2026-25589.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Javier"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-08-26",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000260",
+    "ES6200006",
+    "ES0000175",
+    "ES6200030",
+    "ES6200029",
+    "ES6200007",
+    "ES0000508",
+    "ES0000200"
+   ],
+   "natura_nombres": [
+    "Mar Menor",
+    "Espacios Abiertos e Islas del Mar Menor",
+    "Salinas y Arenales de San Pedro del Pinatar",
+    "Mar Menor",
+    "Franja Litoral Sumergida de la Región de Murcia",
+    "Islas e Islotes del Litoral Mediterráneo"
+   ],
+   "n_especies": 40,
+   "n_aves": 24
+  },
+  "BOE-B-2026-25598": {
+   "identificador": "BOE-B-2026-25598",
+   "fecha": "2026-07-29",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas de Gipuzkoa por el que se somete a Información Pública la solicitud de adscripción formulada por el Departamento de Infraestructuras Viarias y Estrategia Territorial de la Diputación Foral de Gipuzkoa, para la ocupación de bienes de dominio público marítimo-terrestre con destino a la ejecución de las obras del Proyecto de vía ciclista-peatonal (tramo 01 014F) paralela a la N-638 entre Amute (PK 1+400) y la rotonda Kosta (PK. 2+300), en el término municipal de Hondarribia (Gipuzkoa). Ref.: ADS03/26/20/0002.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-25598",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-25598",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/07/29/pdfs/BOE-B-2026-25598.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Hondarribia"
+   ],
+   "provincias": [
+    "Gipuzkoa"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-08-26",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOC-2026-4745": {
+   "identificador": "BOC-2026-4745",
+   "fecha": "2026-07-30",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Ayuntamiento de Cabezón de Liébana",
+   "titulo": "Información pública de la aprobación inicial del Estudio de Detalle que afecta a una parcela situada en Cahecho.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=436652",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46045",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=436652",
+   "fuente": "BOC",
+   "categoria": "planeamiento",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cabezón de Liébana"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-08-27",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "estudio_detalle",
+     "etiqueta": "Se tramita por estudio de detalle",
+     "puntos": 2,
+     "apoyo": "El estudio de detalle es el instrumento más ligero del planeamiento: no puede aumentar el aprovechamiento ni alterar la ordenación estructural, solo reordenar volúmenes. Por eso conviene leer la memoria y comprobar si el reajuste sube en realidad altura, ocupación o edificabilidad, que es la forma habitual de saltarse una modificación del plan general."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOE-B-2026-26068": {
+   "identificador": "BOE-B-2026-26068",
+   "fecha": "2026-08-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas en Tarragona por el que se somete a información pública el proyecto de reubicación de arenas en el borde litoral del Delta del Ebro. Fase II.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-26068",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-26068",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-B-2026-26068.pdf",
+   "fuente": "BOE",
+   "categoria": "regeneracion",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-15",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOE-B-2026-26070": {
+   "identificador": "BOE-B-2026-26070",
+   "fecha": "2026-08-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas de Canarias en el trámite de información pública sobre expediente de concesión para la determinación de derechos que pudieran corresponder según la Disposición Transitoria primera de la Ley de Costas, en el término municipal de San Bartolomé de Tirajana, isla de Gran Canaria, incluida en el dominio público marítimo-terrestre por deslinde denominado C-Dl-50 \"Santa Águeda – Bahía El Pajar\", aprobado por O.M. de fecha 23 de enero de 1987.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-26070",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-26070",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-B-2026-26070.pdf",
+   "fuente": "BOE",
+   "categoria": "deslinde",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Las Palmas"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-01",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOE-B-2026-26092": {
+   "identificador": "BOE-B-2026-26092",
+   "fecha": "2026-08-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cantabria sobre la solicitud de concesión de ocupación de dominio público marítimo terrestre para un centro de actividades náuticas en el edificio Rema, en el término municipal de Santander (Cantabria). Referencia: CNC02/25/39/0004.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-26092",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-26092",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-B-2026-26092.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Santander"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-01",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOC-2026-5815": {
+   "identificador": "BOC-2026-5815",
+   "fecha": "2026-08-04",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para instalación de dos remolques móviles para establecimiento de comida en la zona de servidumbre del dominio público marítimo terrestre de barrio La Barra, término municipal de Miengo. Expediente 108/25 AC.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438366",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46085",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438366",
+   "fuente": "BOC",
+   "categoria": "servidumbre",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Miengo"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "GDJ Event Waiters, SL",
+   "potencia_mw": null,
+   "expediente": "108/25",
+   "fecha_limite": "2026-08-25",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 3,
+   "natura": [
+    "ES1300004",
+    "ES0000492",
+    "ES1300010"
+   ],
+   "natura_nombres": [
+    "Dunas de Liencres y Estuario del Pas",
+    "Espacio marino de los Islotes de Portios-Isla Conejera-Isla de Mouro",
+    "Río Pas"
+   ],
+   "n_especies": 26,
+   "n_aves": 20
+  },
+  "BOC-2026-5658": {
+   "identificador": "BOC-2026-5658",
+   "fecha": "2026-08-04",
+   "seccion": "7.5. Varios",
+   "departamento": "Ayuntamiento de Santillana del Mar",
+   "titulo": "Información pública del expediente de solicitud de licencia de actividad para legalización de actividad de Parador de Turismo. Expediente 971/2026.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438088",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46085",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438088",
+   "fuente": "BOC",
+   "categoria": "turistico",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Santillana del Mar"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "971/2026",
+   "fecha_limite": "2026-09-01",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOE-B-2026-26175": {
+   "identificador": "BOE-B-2026-26175",
+   "fecha": "2026-08-05",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Valencia sobre la solicitud de concesión en el término municipal de Sagunto, presentada por la mercantil I-De Redes Electricas Inteligentes s.a.u.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-26175",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-26175",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/05/pdfs/BOE-B-2026-26175.pdf",
+   "fuente": "BOE",
+   "categoria": "costas_otro",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Sagunto"
+   ],
+   "provincias": [
+    "València"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-02",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOC-2026-6101": {
+   "identificador": "BOC-2026-6101",
+   "fecha": "2026-08-05",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para la construcción de cinco viviendas unifamiliares en la zona de servidumbre del dominio público marítimo terrestre del barrio Arnía, municipio de Piélagos. Expediente 39/25 AC.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438747",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46125",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438747",
+   "fuente": "BOC",
+   "categoria": "servidumbre",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Piélagos"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Residencial Villimar Siglo XXI, SL",
+   "potencia_mw": null,
+   "expediente": "39/25",
+   "fecha_limite": "2026-08-26",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "residencial_servidumbre",
+     "etiqueta": "Uso residencial en la servidumbre de protección",
+     "puntos": 5,
+     "apoyo": "El artículo 25.1.a) de la Ley 22/1988 de Costas prohíbe en la servidumbre de protección las edificaciones destinadas a residencia o habitación. Solo caben las excepciones del artículo 25.3 (autorización del Consejo de Ministros por razones de utilidad pública) y los regímenes transitorios de la propia ley. Conviene comprobar cuál se invoca y si está acreditado."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 8,
+   "natura": [
+    "ES1300004",
+    "ES1300010",
+    "ES0000492"
+   ],
+   "natura_nombres": [
+    "Dunas de Liencres y Estuario del Pas",
+    "Río Pas",
+    "Espacio marino de los Islotes de Portios-Isla Conejera-Isla de Mouro"
+   ],
+   "n_especies": 32,
+   "n_aves": 16
+  },
+  "BOC-2026-6198": {
+   "identificador": "BOC-2026-6198",
+   "fecha": "2026-08-07",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Ayuntamiento de Bareyo",
+   "titulo": "Información pública de la aprobación inicial de Estudio de Detalle de una parcela en la calle El Charcón, 240 en Güemes.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438964",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46165",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438964",
+   "fuente": "BOC",
+   "categoria": "planeamiento",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Bareyo"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-04",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "parcelacion",
+     "etiqueta": "Divide la finca en parcelas",
+     "puntos": 3,
+     "apoyo": "Dividir una finca en lotes es el primer paso material de la urbanización: cada lote pide después su licencia por separado y ningún expediente parece grande. Conviene comprobar la clasificación del suelo y si la división encubre una parcelación urbanística, que fuera del suelo urbanizado no cabe."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "estudio_detalle",
+     "etiqueta": "Se tramita por estudio de detalle",
+     "puntos": 2,
+     "apoyo": "El estudio de detalle es el instrumento más ligero del planeamiento: no puede aumentar el aprovechamiento ni alterar la ordenación estructural, solo reordenar volúmenes. Por eso conviene leer la memoria y comprobar si el reajuste sube en realidad altura, ocupación o edificabilidad, que es la forma habitual de saltarse una modificación del plan general."
+    }
+   ],
+   "puntos": 7,
+   "natura": [
+    "ES0000143",
+    "ES1300006"
+   ],
+   "natura_nombres": [
+    "Marismas de Santoña, Victoria y Joyel y Ría de Ajo",
+    "Costa central y Ría de Ajo"
+   ],
+   "n_especies": 31,
+   "n_aves": 20
+  },
+  "BOC-2026-6377": {
+   "identificador": "BOC-2026-6377",
+   "fecha": "2026-08-12",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Ayuntamiento de Ribamontán al Mar",
+   "titulo": "Información pública de la aprobación inicial del Estudio de Detalle que afecta a varias parcelas situadas en Carriazo. Expediente 2334/2025.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439225",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46225",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439225",
+   "fuente": "BOC",
+   "categoria": "planeamiento",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ribamontán al Mar"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "2334/2025",
+   "fecha_limite": "2026-09-09",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "estudio_detalle",
+     "etiqueta": "Se tramita por estudio de detalle",
+     "puntos": 2,
+     "apoyo": "El estudio de detalle es el instrumento más ligero del planeamiento: no puede aumentar el aprovechamiento ni alterar la ordenación estructural, solo reordenar volúmenes. Por eso conviene leer la memoria y comprobar si el reajuste sube en realidad altura, ocupación o edificabilidad, que es la forma habitual de saltarse una modificación del plan general."
+    }
+   ],
+   "puntos": 4,
+   "natura": [
+    "ES1300005",
+    "ES1300006",
+    "ES1300015"
+   ],
+   "natura_nombres": [
+    "Dunas del Puntal y Estuario del Miera",
+    "Costa central y Ría de Ajo",
+    "Río Miera"
+   ],
+   "n_especies": 36,
+   "n_aves": 22
+  },
+  "BOC-2026-6417": {
+   "identificador": "BOC-2026-6417",
+   "fecha": "2026-08-13",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Ayuntamiento de Santander",
+   "titulo": "Información pública de la aprobación inicial del Estudio de Detalle de la Unidad de Actuación 5 en el Área de Reparto 21 del Plan General de Ordenación Urbana de Santander.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439264",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46245",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439264",
+   "fuente": "BOC",
+   "categoria": "planeamiento",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Santander"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-10",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "estudio_detalle",
+     "etiqueta": "Se tramita por estudio de detalle",
+     "puntos": 2,
+     "apoyo": "El estudio de detalle es el instrumento más ligero del planeamiento: no puede aumentar el aprovechamiento ni alterar la ordenación estructural, solo reordenar volúmenes. Por eso conviene leer la memoria y comprobar si el reajuste sube en realidad altura, ocupación o edificabilidad, que es la forma habitual de saltarse una modificación del plan general."
+    }
+   ],
+   "puntos": 4,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 33,
+   "n_aves": 20
+  },
+  "BOC-2026-6256": {
+   "identificador": "BOC-2026-6256",
+   "fecha": "2026-08-17",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para el aparcamiento temporal en finca del barrio Trasierra, en la zona de servidumbre del dominio público marítimo terrestre del municipio de Ruiloba. Expediente 33/26 AC.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439050",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46285",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439050",
+   "fuente": "BOC",
+   "categoria": "servidumbre",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ruiloba"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Eduardo Ramos Sánchez",
+   "potencia_mw": null,
+   "expediente": "33/26",
+   "fecha_limite": "2026-09-07",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 3,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 5,
+   "n_aves": 1
+  },
+  "BOC-2025-3374": {
+   "identificador": "BOC-2025-3374",
+   "fecha": "2026-08-19",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública de solicitud de autorización para reparación de cierre de parcela en la zona de servidumbre del dominio público marítimo terrestre de La Atalaya, municipio de Limpias. Expediente 8/25 AC.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=419044",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46325",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=419044",
+   "fuente": "BOC",
+   "categoria": "servidumbre",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Limpias"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "8/25",
+   "fecha_limite": "2026-09-09",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 3,
+   "natura": [
+    "ES0000143",
+    "ES1300007"
+   ],
+   "natura_nombres": [
+    "Marismas de Santoña, Victoria y Joyel y Ría de Ajo",
+    "Marismas de Santoña, Victoria y Joyel"
+   ],
+   "n_especies": 7,
+   "n_aves": 5
+  },
+  "BOC-2026-6175": {
+   "identificador": "BOC-2026-6175",
+   "fecha": "2026-08-25",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para instalación hotelera y piscina en Bellota, término municipal de Laredo. Expediente 317170.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438869",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46405",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438869",
+   "fuente": "BOC",
+   "categoria": "turistico",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Laredo"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Amara Diego Gómez",
+   "potencia_mw": null,
+   "expediente": "317170",
+   "fecha_limite": "2026-09-16",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "suelo_rustico",
+     "etiqueta": "En suelo rústico",
+     "puntos": 2,
+     "apoyo": "La autorización en suelo rústico es excepcional y debe justificar la necesidad del emplazamiento concreto; el trámite es el del artículo 228 de la Ley de Cantabria 5/2022."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000143",
+    "ES1300007"
+   ],
+   "natura_nombres": [
+    "Marismas de Santoña, Victoria y Joyel y Ría de Ajo",
+    "Marismas de Santoña, Victoria y Joyel"
+   ],
+   "n_especies": 32,
+   "n_aves": 20
+  },
+  "BOE-B-2026-27851": {
+   "identificador": "BOE-B-2026-27851",
+   "fecha": "2026-08-26",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas de Canarias en el trámite de información pública sobre expedientes de concesión para la determinación de derechos que pudieran corresponder según la Disposición Transitoria Primera de la Ley de Costas, en el islote de Lobos, término municipal de La Oliva (Fuerteventura. Las Palmas).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-27851",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-27851",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/26/pdfs/BOE-B-2026-27851.pdf",
+   "fuente": "BOE",
+   "categoria": "costas_otro",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "La Oliva"
+   ],
+   "provincias": [
+    "Las Palmas"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-23",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000042",
+    "ES7010032",
+    "ES0000348",
+    "ES7010023",
+    "ES7010031",
+    "ES7011006",
+    "ES0000531",
+    "ES7010022",
+    "ESZZ15002",
+    "ES0000349",
+    "ES0000101"
+   ],
+   "natura_nombres": [
+    "Dunas de Corralejo e Isla de Lobos",
+    "Corralejo",
+    "Costa del norte de Fuerteventura",
+    "Malpaís de la Arena",
+    "Islote de Lobos",
+    "Cueva del Llano"
+   ],
+   "n_especies": 37,
+   "n_aves": 20
+  },
+  "BOE-B-2026-28001": {
+   "identificador": "BOE-B-2026-28001",
+   "fecha": "2026-08-28",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cantabria sobre la solicitud de concesión de ocupación de dominio público marítimo-terrestre con destino a la instalación del cable submarino de fibra óptica Sol, en el término municipal de Santander (Cantabria). Referencia: CNC02/26/39/0002.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28001",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28001",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/28/pdfs/BOE-B-2026-28001.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Santander"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-25",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOC-2026-6187": {
+   "identificador": "BOC-2026-6187",
+   "fecha": "2026-08-28",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenacióndel Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para rehabilitación y ampliación de vivienda y apartamento extrahotelero en La Medal, término municipal de Soba. Expediente 316849.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438930",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46385",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438930",
+   "fuente": "BOC",
+   "categoria": "turistico",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Soba"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "316849",
+   "fecha_limite": "2026-09-21",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "suelo_rustico",
+     "etiqueta": "En suelo rústico",
+     "puntos": 2,
+     "apoyo": "La autorización en suelo rústico es excepcional y debe justificar la necesidad del emplazamiento concreto; el trámite es el del artículo 228 de la Ley de Cantabria 5/2022."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 3,
+   "natura": [
+    "ES1300002",
+    "ES1300011",
+    "ES1300015",
+    "ES2130002"
+   ],
+   "natura_nombres": [
+    "Montaña oriental",
+    "Río Asón",
+    "Río Miera",
+    "Ordunte"
+   ],
+   "n_especies": 20,
+   "n_aves": 4
+  },
+  "BOE-B-2026-28216": {
+   "identificador": "BOE-B-2026-28216",
+   "fecha": "2026-08-31",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas en Lugo de información pública sobre expedientes de concesión administrativa de bienes de dominio público marítimo-terrestre, correspondientes con las fincas inscritas con los números 19998, 19999, 20001, 20002 y 20003 en el Registro de la Propiedad de Viveiro, situadas en lugar As Aceñas, en el término municipal de Viveiro (Lugo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28216",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28216",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-B-2026-28216.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Viveiro"
+   ],
+   "provincias": [
+    "Lugo"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-28",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOE-B-2026-28220": {
+   "identificador": "BOE-B-2026-28220",
+   "fecha": "2026-08-31",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cantabria sobre solicitud de prórroga de la concesión de dominio público marítimo-terrestre con destino a centro de surf en el paseo marítimo de Somo, en el término municipal de Ribamontán al Mar. Referencia: CNC02/10/39/0016-CNC13/01.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28220",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28220",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-B-2026-28220.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ribamontán al Mar"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-28",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES1300005",
+    "ES1300006",
+    "ES1300015"
+   ],
+   "natura_nombres": [
+    "Dunas del Puntal y Estuario del Miera",
+    "Costa central y Ría de Ajo",
+    "Río Miera"
+   ],
+   "n_especies": 36,
+   "n_aves": 22
+  },
+  "BOC-2026-6773": {
+   "identificador": "BOC-2026-6773",
+   "fecha": "2026-08-31",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenacióndel Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para consolidación y modernización con cambio de uso parcial y legalización de reforma en la zona de servidumbre del dominio público marítimo terrestre de Galizano, término municipal de Ribamontán al Mar. Expediente 36/25 AC.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439846",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46485",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439846",
+   "fuente": "BOC",
+   "categoria": "servidumbre",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ribamontán al Mar"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "David Brenes Senesteva",
+   "potencia_mw": null,
+   "expediente": "36/25",
+   "fecha_limite": "2026-09-22",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 3,
+   "natura": [
+    "ES1300005",
+    "ES1300006",
+    "ES1300015"
+   ],
+   "natura_nombres": [
+    "Dunas del Puntal y Estuario del Miera",
+    "Costa central y Ría de Ajo",
+    "Río Miera"
+   ],
+   "n_especies": 36,
+   "n_aves": 22
+  },
+  "BOC-2026-6769": {
+   "identificador": "BOC-2026-6769",
+   "fecha": "2026-09-01",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Información pública del expediente de solicitud de autorización para construcción de hotel rural en Tagle, en el municipio de Suances. Expediente 316613.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439857",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46105",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=439857",
+   "fuente": "BOC",
+   "categoria": "turistico",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Suances"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Miren Itziar López Pérez",
+   "potencia_mw": null,
+   "expediente": "316613",
+   "fecha_limite": "2026-09-23",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    },
+    {
+     "clave": "suelo_rustico",
+     "etiqueta": "En suelo rústico",
+     "puntos": 2,
+     "apoyo": "La autorización en suelo rústico es excepcional y debe justificar la necesidad del emplazamiento concreto; el trámite es el del artículo 228 de la Ley de Cantabria 5/2022."
+    },
+    {
+     "clave": "plazo_corto",
+     "etiqueta": "Plazo de quince días",
+     "puntos": 1,
+     "apoyo": "Quince días es el mínimo. Si el expediente es voluminoso puede pedirse ampliación del plazo (artículo 32 de la Ley 39/2015) y, en todo caso, acceso al expediente (artículo 53.1.a)."
+    }
+   ],
+   "puntos": 5,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 40,
+   "n_aves": 28
+  }
+ }
+}
