@@ -96,6 +96,11 @@ _RUIDO = re.compile(
     re.I,
 )
 
+# La resolución de la evaluación estratégica, no su información pública: no cuenta plazo de alegaciones.
+_EAE_RESOLUCION = re.compile(
+    r"^\s*(?:declaraci[oó]n|informe|memoria)\s+ambiental\s+estrat[eé]gic", re.I
+)
+
 # Anuncios de Costas que abren plazo sin usar la fórmula "información pública" en el título.
 _COSTAS_TRAMITE = re.compile(
     r"solicitud\s+de\s+(?:concesi[oó]n|autorizaci[oó]n|reserva)|otorgamiento\s+de\s+concesi[oó]n|"
@@ -229,6 +234,20 @@ def es_candidato(a: Anuncio) -> bool:
         return True
     # Vivienda suelta: solo interesa si está en la costa
     return bool(_RESIDENCIAL.search(t) and _COSTA_FISICA.search(t))
+
+
+def abre_plazo(a: Anuncio) -> bool:
+    """Distingue el trámite del resultado.
+
+    En evaluación ambiental estratégica el boletín publica dos cosas con vocabulario casi idéntico: la
+    información pública del estudio ambiental estratégico, que sí abre plazo de alegaciones, y la
+    declaración o el informe ambiental estratégico, que es ya la resolución. La segunda no tiene plazo que
+    contar: se impugna con la aprobación del plan, y el texto suele citar plazos de otras fases que la
+    extracción confundiría con el propio.
+    """
+    if _EAE_RESOLUCION.search(a.titulo) and not INFO_PUBLICA.search(a.titulo):
+        return False
+    return True
 
 
 def es_costas(a: Anuncio) -> bool:

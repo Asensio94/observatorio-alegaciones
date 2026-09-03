@@ -208,8 +208,8 @@ def cmd_litoral(
             comunidad = boc_cantabria.COMUNIDAD
         sen = litoral.senales(a)
         pts = litoral.puntos(sen)
-        plazo = a.plazo_dias or litoral.plazo_por_defecto(a.categoria)
-        if plazo is None:  # la EAE informa, no abre plazo de alegaciones
+        plazo = (a.plazo_dias or litoral.plazo_por_defecto(a.categoria)) if litoral.abre_plazo(a) else None
+        if plazo is None:  # la declaración o el informe ambiental estratégico es resolución, no trámite
             a.fecha_limite, a.plazo_estimado = "", True
         else:
             lim, _ = plazos.fecha_limite(date.fromisoformat(a.fecha), plazo, comunidad)
