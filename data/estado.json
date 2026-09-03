@@ -1500,8 +1500,8 @@
      "tipo": "ZEPA"
     }
    ],
-   "n_especies": 37,
-   "n_aves": 18,
+   "n_especies": 35,
+   "n_aves": 17,
    "especies_top": [
     {
      "scientificName": "Anguilla anguilla",
@@ -1540,14 +1540,14 @@
      "class": "Bivalvia"
     },
     {
-     "scientificName": "Pluvialis squatarola",
-     "vernacular_es": "Chorlito Gris",
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
      "categoria_uicn": "VU",
-     "class": "Aves"
+     "class": "Amphibia"
     },
     {
-     "scientificName": "Melanitta fusca",
-     "vernacular_es": "Negreta ala blanca",
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
@@ -1558,22 +1558,22 @@
      "class": "Amphibia"
     },
     {
-     "scientificName": "Rana iberica",
-     "vernacular_es": "Rana Patilarga",
-     "categoria_uicn": "VU",
-     "class": "Amphibia"
-    },
-    {
      "scientificName": "Rissa tridactyla",
      "vernacular_es": "Gallego patinegro",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
     {
-     "scientificName": "Calidris ferruginea",
-     "vernacular_es": "Correlimos zarapitín",
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
      "categoria_uicn": "VU",
      "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
     }
    ],
    "informe": "informes/informe_20260831_20260903.html",
@@ -1799,14 +1799,14 @@
      "class": "Insecta"
     },
     {
-     "scientificName": "Lanius meridionalis",
-     "vernacular_es": "Alcaudón real",
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
     {
-     "scientificName": "Pluvialis squatarola",
-     "vernacular_es": "Chorlito Gris",
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
      "categoria_uicn": "VU",
      "class": "Aves"
     }
@@ -2528,7 +2528,7 @@
     }
    ],
    "n_especies": 40,
-   "n_aves": 22,
+   "n_aves": 20,
    "especies_top": [
     {
      "scientificName": "Puffinus mauretanicus",
@@ -2537,10 +2537,16 @@
      "class": "Aves"
     },
     {
-     "scientificName": "Anguilla anguilla",
-     "vernacular_es": "Anguila",
+     "scientificName": "Mauremys sinensis",
+     "vernacular_es": "Galápago de cuello rayado",
      "categoria_uicn": "CR",
-     "class": null
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Andrena bicolor",
+     "vernacular_es": "",
+     "categoria_uicn": "CR",
+     "class": "Insecta"
     },
     {
      "scientificName": "Cheilosia morio",
@@ -2555,10 +2561,10 @@
      "class": "Aves"
     },
     {
-     "scientificName": "Cetorhinus maximus",
-     "vernacular_es": "Colayo",
+     "scientificName": "Lasioglossum breviventre",
+     "vernacular_es": "",
      "categoria_uicn": "EN",
-     "class": "Elasmobranchii"
+     "class": "Insecta"
     },
     {
      "scientificName": "Aythya ferina",
@@ -2567,14 +2573,14 @@
      "class": "Aves"
     },
     {
-     "scientificName": "Pluvialis squatarola",
-     "vernacular_es": "Chorlito Gris",
+     "scientificName": "Podiceps auritus",
+     "vernacular_es": "",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
     {
-     "scientificName": "Podiceps auritus",
-     "vernacular_es": "",
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
      "categoria_uicn": "VU",
      "class": "Aves"
     },
@@ -2595,12 +2601,6 @@
      "vernacular_es": "",
      "categoria_uicn": "VU",
      "class": "Aves"
-    },
-    {
-     "scientificName": "Haliotis tuberculata",
-     "vernacular_es": "oreja de mar",
-     "categoria_uicn": "VU",
-     "class": "Gastropoda"
     }
    ],
    "informe": "informes/informe_20260831_20260903.html",
