@@ -67,6 +67,35 @@ def badge_fuente(fuente: str) -> str:
     return f"<span class='badge' style='background:{COLORES_FUENTE.get(fuente, '#555')}'>{esc(fuente)}</span>"
 
 
+# Estado de tramitación de un expediente. El color distingue el momento procesal, no si el resultado
+# gusta o no: eso lo juzga quien lee.
+COLORES_ESTADO = {
+    "abierto": "#1565c0",
+    "pendiente": "#78909c",
+    "demorado": "#b26a00",
+    "posible": "#7b1fa2",
+    "resuelto_fav": "#8d6e63",
+    "resuelto": "#455a64",
+    "parado": "#00695c",
+    "nueva_eia": "#f57c00",
+    "sin_plazo": "#9e9e9e",
+}
+
+COLORES_SENTIDO = {
+    "favorable": "#8d6e63", "condicionada": "#8d6e63", "sin_eia": "#8d6e63",
+    "desfavorable": "#00695c", "denegada": "#00695c", "caducidad": "#00695c",
+    "a_ordinaria": "#f57c00", "parcial": "#7b1fa2",
+}
+
+
+def badge_estado(clave: str, etiqueta: str) -> str:
+    return f"<span class='badge' style='background:{COLORES_ESTADO.get(clave, '#555')}'>{esc(etiqueta)}</span>"
+
+
+def badge_estado_sentido(clave: str, etiqueta: str) -> str:
+    return f"<span class='badge' style='background:{COLORES_SENTIDO.get(clave, '#9e9e9e')}'>{esc(etiqueta)}</span>"
+
+
 def enlace_pdf(a: dict) -> str:
     """Enlace al PDF solo si es distinto del enlace principal (en el BOC ambos son el mismo PDF)."""
     if a.get("url_pdf") and a["url_pdf"] != a.get("url_html"):

@@ -49,6 +49,34 @@ para el Programador de tareas de Windows. Si el volcado no llega, Actions sigue 
 - La extracción es por reglas (expresiones regulares), sin LLM. Puede fallar en municipios,
   provincias o plazos. Siempre hay enlace al anuncio original del BOE: **comprueba allí**.
 
+## Seguimiento de expedientes
+
+Alegar es la mitad del trabajo; la otra es enterarse de en qué acaba. El mismo boletín que publica el
+trámite de información pública publica después la resolución que lo cierra: la declaración o el informe
+de impacto ambiental (art. 41 de la Ley 21/2013) y la autorización administrativa del proyecto
+(art. 125 del RD 1955/2000). El módulo `seguimiento.py` detecta esas resoluciones, las clasifica por tipo
+y por sentido, e intenta emparejarlas con los expedientes que el observatorio ya venía siguiendo.
+
+El emparejamiento exige coincidencia estructural: mismo expediente, mismo promotor o municipios en común.
+Sin eso no empareja, aunque compartan vocabulario. Con 6 puntos o más se considera firme y se enlaza; por
+debajo se muestra como *emparejamiento no confirmado*. Se recalcula en cada ejecución, así que una mejora
+del algoritmo corrige el pasado. Un plazo de alegaciones abierto manda sobre cualquier resolución
+emparejada: un proyecto ya autorizado puede tener otro trámite vivo (el urbanístico, por ejemplo).
+
+La página [Seguimiento](https://asensio94.github.io/observatorio-alegaciones/seguimiento.html) muestra los
+expedientes cerrados, las resoluciones sin emparejar y cómo pedir el expediente completo al órgano
+sustantivo (Ley 27/2006, un mes para contestar).
+
+```bash
+python -m observatorio.cli resoluciones --days 60          # rellena hacia atrás sin repetir el análisis
+python -m observatorio.cli mis-alegaciones                 # estado de los escritos propios (registro local)
+```
+
+`mis-alegaciones` lee `data/mis_alegaciones.json`, que **no se versiona**: es una lista de objetos con
+`proyecto`, `expediente`, `identificador`, `plazo`, `presentada`, `escrito`, `organo` y `notas`, y cruza
+cada uno con el estado del observatorio para avisar de plazos a menos de diez días y de resoluciones
+nuevas. Con qué proyectos alega cada cual no tiene por qué estar publicado.
+
 ## Uso local
 
 ```bash
@@ -87,6 +115,7 @@ observatorio/
 data/
   estado.json  todos los anuncios detectados, con su fecha límite y cruces
   cache/       geo, natura y gbif se versionan (aceleran Actions); boe/ y boc_cantabria/ se ignoran
+  mis_alegaciones.json  registro privado de escritos propios (no se versiona)
 docs/          web publicada con GitHub Pages
 ```
 
@@ -107,6 +136,8 @@ del anuncio del BOE (por ejemplo `BOE-B-2026-12345`).
 - Huella real del proyecto (coordenadas UTM, parcelas catastrales) en lugar del municipio completo. En espera.
 - IBAs (SEO/BirdLife), Catálogo Español de Especies Amenazadas, hábitats de interés comunitario.
 - Alertas por correo o Telegram y suscripción por provincia o comarca.
+- Seguimiento: enlazar la resolución con el expediente cuando el boletín no repite el número, y
+  detectar los recursos contencioso-administrativos que se publican en el propio boletín.
 
 ## Licencia
 
