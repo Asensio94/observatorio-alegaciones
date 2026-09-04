@@ -1489,8 +1489,8 @@
     "Río Miera",
     "Ordunte"
    ],
-   "n_especies": 0,
-   "n_aves": 0
+   "n_especies": 20,
+   "n_aves": 4
   },
   "BOE-B-2026-28216": {
    "identificador": "BOE-B-2026-28216",
@@ -1581,8 +1581,8 @@
     "Costa central y Ría de Ajo",
     "Río Miera"
    ],
-   "n_especies": 0,
-   "n_aves": 0
+   "n_especies": 36,
+   "n_aves": 22
   },
   "BOC-2026-6773": {
    "identificador": "BOC-2026-6773",
@@ -1634,8 +1634,8 @@
     "Costa central y Ría de Ajo",
     "Río Miera"
    ],
-   "n_especies": 0,
-   "n_aves": 0
+   "n_especies": 36,
+   "n_aves": 22
   },
   "BOC-2026-6769": {
    "identificador": "BOC-2026-6769",
@@ -1685,8 +1685,63 @@
    "puntos": 5,
    "natura": [],
    "natura_nombres": [],
-   "n_especies": 0,
-   "n_aves": 0
+   "n_especies": 40,
+   "n_aves": 28
+  },
+  "BOC-2026-6237": {
+   "identificador": "BOC-2026-6237",
+   "fecha": "2026-09-03",
+   "seccion": "7.1. Urbanismo",
+   "departamento": "Consejería de Fomento, Vivienda, Ordenación del Territorio y Medio Ambiente",
+   "titulo": "Informe Ambiental Estratégico del Estudio de Detalle Especial de una parcela situada en la avenida Las Casucas, 13 en el municipio de Cabezón de la Sal.",
+   "url_html": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438980",
+   "url_xml": "https://boc.cantabria.es/boces/verXmlAction.do?idBlob=46426",
+   "url_pdf": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=438980",
+   "fuente": "BOC",
+   "categoria": "eae",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Cabezón de la Sal"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "mas_edificabilidad",
+     "etiqueta": "Aumenta edificabilidad, altura o clasifica suelo",
+     "puntos": 3,
+     "apoyo": "En la zona de influencia (500 m desde el límite interior de la ribera del mar) la ordenación debe evitar la formación de pantallas arquitectónicas y no puede superar la densidad edificatoria media del suelo urbanizable del municipio (artículo 30.1.b de la Ley 22/1988). Es el argumento más directo contra un aumento de aprovechamiento en primera línea."
+    },
+    {
+     "clave": "eae_simplificada",
+     "etiqueta": "Se resolvió por evaluación ambiental estratégica simplificada",
+     "puntos": 3,
+     "apoyo": "El informe ambiental estratégico es la salida de la evaluación simplificada (artículos 29 a 32 de la Ley 21/2013): concluye que el plan no necesita evaluación ordinaria. No se recurre solo, pero sí junto con la aprobación del plan, y el punto débil habitual es que no valora los efectos acumulativos con el resto de desarrollos previstos en el mismo municipio."
+    },
+    {
+     "clave": "estudio_detalle",
+     "etiqueta": "Se tramita por estudio de detalle",
+     "puntos": 2,
+     "apoyo": "El estudio de detalle es el instrumento más ligero del planeamiento: no puede aumentar el aprovechamiento ni alterar la ordenación estructural, solo reordenar volúmenes. Por eso conviene leer la memoria y comprobar si el reajuste sube en realidad altura, ocupación o edificabilidad, que es la forma habitual de saltarse una modificación del plan general."
+    }
+   ],
+   "puntos": 8,
+   "natura": [
+    "ES1300020"
+   ],
+   "natura_nombres": [
+    "Río Saja"
+   ],
+   "n_especies": 13,
+   "n_aves": 4
   }
  }
 }

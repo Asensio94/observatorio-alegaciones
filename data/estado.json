@@ -1681,8 +1681,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260831_20260903.html",
-   "actualizado": "2026-09-03"
+   "informe": "informes/informe_20260901_20260904.html",
+   "actualizado": "2026-09-04"
   },
   "BOE-B-2026-28327": {
    "identificador": "BOE-B-2026-28327",
@@ -1811,8 +1811,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260831_20260903.html",
-   "actualizado": "2026-09-03",
+   "informe": "informes/informe_20260901_20260904.html",
+   "actualizado": "2026-09-04",
    "resolucion_posible": {
     "identificador": "BOE-A-2026-18572",
     "fecha": "2026-09-03",
@@ -1965,8 +1965,8 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20260831_20260903.html",
-   "actualizado": "2026-09-03"
+   "informe": "informes/informe_20260901_20260904.html",
+   "actualizado": "2026-09-04"
   },
   "BOC-2026-5932": {
    "identificador": "BOC-2026-5932",
@@ -2603,11 +2603,298 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260831_20260903.html",
-   "actualizado": "2026-09-03"
+   "informe": "informes/informe_20260901_20260904.html",
+   "actualizado": "2026-09-04"
+  },
+  "BOE-B-2026-28543": {
+   "identificador": "BOE-B-2026-28543",
+   "fecha": "2026-09-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de autorización para la construcción de dos pasarelas, demolición de muros y actuaciones de recuperación ambiental, afectando mediante cruce y recorrido en zona de policía al rego do Caúño, al río Limia (embalse de As Conchas) y a un afluente de este, en el término municipal de Muíños (Ourense).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28543",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28543",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/04/pdfs/BOE-B-2026-28543.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Muíños"
+   ],
+   "provincias": [
+    "Ourense"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Ayuntamiento de Muíños",
+   "potencia_mw": null,
+   "expediente": "A/32/37571",
+   "fecha_limite": "2026-10-19",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1130001",
+     "nombre": "Baixa Limia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000376",
+     "nombre": "Baixa Limia - Serra do Xurés",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "PTZPE0002",
+     "nombre": "Serra do Gerês",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "PTCON0001",
+     "nombre": "Peneda / Gerês",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 18,
+   "n_aves": 7,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pyrgus malvoides",
+     "vernacular_es": "Ajedrezada Menor",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Squalius carolitertii",
+     "vernacular_es": "Bordallo",
+     "categoria_uicn": "NT",
+     "class": null
+    }
+   ],
+   "informe": "informes/informe_20260901_20260904.html",
+   "actualizado": "2026-09-04"
+  },
+  "BOE-B-2026-28561": {
+   "identificador": "BOE-B-2026-28561",
+   "fecha": "2026-09-04",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+   "titulo": "Anuncio del Servicio de Ordenación Industrial, Energética y Minera sobre admisión definitiva de la solicitud del Permiso de Investigación para recursos geotérmicos, denominado \"Plasencia\", N.º 10D10403-00 en los términos municipales de Cabezabellosa, Casas del Castañar, Malpartida de Plasencia, Oliva de Plasencia y Plasencia, en la provincia de Cáceres, e información pública del Plan de Restauración.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28561",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28561",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/04/pdfs/BOE-B-2026-28561.pdf",
+   "fuente": "BOE",
+   "categoria": "mineria",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cabezabellosa",
+    "Casas del Castañar",
+    "Malpartida de Plasencia",
+    "Oliva de Plasencia",
+    "Plasencia"
+   ],
+   "provincias": [
+    "Cáceres"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-19",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000014",
+     "nombre": "Monfragüe y las Dehesas del Entorno",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4320077",
+     "nombre": "Monfragüe",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4320038",
+     "nombre": "Sierra de Gredos y Valle del Jerte",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4320060",
+     "nombre": "Arroyos Barbaon y Calzones",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4320071",
+     "nombre": "Ríos Alagon y Jerte",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4320031",
+     "nombre": "Río Tietar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000427",
+     "nombre": "Río y Pinares del Tietar",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000534",
+     "nombre": "Colonias de Cernícalo Primilla y El Cachón de Plasencia",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 18,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ceratophyus martinezi",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cobitis vettonica",
+     "vernacular_es": "Colmilleja del Alagón",
+     "categoria_uicn": "VU",
+     "class": null
+    }
+   ],
+   "informe": "informes/informe_20260901_20260904.html",
+   "actualizado": "2026-09-04"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260901_20260904.html",
+   "desde": "2026-09-01",
+   "hasta": "2026-09-04",
+   "generado": "2026-09-04",
+   "n": 6
+  },
   {
    "fichero": "informes/informe_20260831_20260903.html",
    "desde": "2026-08-31",
@@ -6405,6 +6692,48 @@
     "mismo promotor (Red Eléctrica de España, S.A.U, Paseo Conde de los Gaitanes 177, La Moraleja, Alcobendas, 28109 Madrid)",
     "misma categoría (red_electrica)"
    ],
+   "firme": false
+  },
+  "BOE-A-2026-18635": {
+   "identificador": "BOE-A-2026-18635",
+   "fecha": "2026-09-04",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 24 de agosto de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Modificación del proyecto del parque eólico Alcocero de Mola, de 78 MW de potencia instalada, y sus infraestructuras de evacuación, en la provincia de Burgos».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18635",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18635",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/04/pdfs/BOE-A-2026-18635.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alcocero de Mola",
+    "Arraya de Oca",
+    "Cerratón de Juarros",
+    "Espinosa del Camino",
+    "Valle de Oca",
+    "Villafranca Montes de Oca",
+    "Alcocero de Mora",
+    "Carrias",
+    "Prádanos de Bureba"
+   ],
+   "provincias": [
+    "Burgos"
+   ],
+   "plazo_dias": null,
+   "promotor": "Iberenova Promociones, SAU",
+   "potencia_mw": 102.0,
+   "expediente": "FV/601",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "iia",
+   "tipo_etiqueta": "Informe de impacto ambiental",
+   "sentido": "a_ordinaria",
+   "sentido_etiqueta": "obligado a evaluación de impacto ambiental ordinaria",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
    "firme": false
   }
  }
