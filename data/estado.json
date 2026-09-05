@@ -1965,8 +1965,8 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20260901_20260904.html",
-   "actualizado": "2026-09-04"
+   "informe": "informes/informe_20260902_20260905.html",
+   "actualizado": "2026-09-05"
   },
   "BOC-2026-5932": {
    "identificador": "BOC-2026-5932",
@@ -2603,8 +2603,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260901_20260904.html",
-   "actualizado": "2026-09-04"
+   "informe": "informes/informe_20260902_20260905.html",
+   "actualizado": "2026-09-05"
   },
   "BOE-B-2026-28543": {
    "identificador": "BOE-B-2026-28543",
@@ -2731,8 +2731,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260901_20260904.html",
-   "actualizado": "2026-09-04"
+   "informe": "informes/informe_20260902_20260905.html",
+   "actualizado": "2026-09-05"
   },
   "BOE-B-2026-28561": {
    "identificador": "BOE-B-2026-28561",
@@ -2883,11 +2883,18 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260901_20260904.html",
-   "actualizado": "2026-09-04"
+   "informe": "informes/informe_20260902_20260905.html",
+   "actualizado": "2026-09-05"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260902_20260905.html",
+   "desde": "2026-09-02",
+   "hasta": "2026-09-05",
+   "generado": "2026-09-05",
+   "n": 4
+  },
   {
    "fichero": "informes/informe_20260901_20260904.html",
    "desde": "2026-09-01",
@@ -6731,6 +6738,114 @@
    "tipo_etiqueta": "Informe de impacto ambiental",
    "sentido": "a_ordinaria",
    "sentido_etiqueta": "obligado a evaluación de impacto ambiental ordinaria",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-18694": {
+   "identificador": "BOE-A-2026-18694",
+   "fecha": "2026-09-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de agosto de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Sistemas Energéticos Boyal, SL, autorización administrativa previa y autorización administrativa de construcción para el proyecto de parque eólico «Boyal I», de 5 MW de potencia instalada, y para su infraestructura de evacuación, en Borja y Mallén (Zaragoza) y Cortes (Navarra), y se declara, en concreto, su utilidad pública.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18694",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18694",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18694.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Borja",
+    "Mallén",
+    "Cortes"
+   ],
+   "provincias": [
+    "Zaragoza",
+    "Navarra"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Sistemas Energéticos Boyal",
+   "potencia_mw": 15.0,
+   "expediente": "P24-0252",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-18695": {
+   "identificador": "BOE-A-2026-18695",
+   "fecha": "2026-09-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de agosto de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Sistemas Energéticos Boyal, SL, autorización administrativa previa y autorización administrativa de construcción para el proyecto de parque eólico «Boyal II», de 5 MW de potencia instalada, y para su infraestructura de evacuación, en Borja y Mallén (Zaragoza) y Cortes (Navarra), y se declara, en concreto, su utilidad pública.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18695",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18695",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18695.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Borja",
+    "Mallén",
+    "Cortes"
+   ],
+   "provincias": [
+    "Zaragoza",
+    "Navarra"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Sistemas Energéticos Boyal",
+   "potencia_mw": 15.0,
+   "expediente": "P24-0252",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-18696": {
+   "identificador": "BOE-A-2026-18696",
+   "fecha": "2026-09-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 8 de julio de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 20 de abril de 2023, por la que se otorga a Elawan Energy Olmedo 2, SL, autorización administrativa previa para la instalación fotovoltaica «Elawan Olmedo II», de 49,61 MW de potencia instalada y sus infraestructuras de evacuación, en Ramiro (Valladolid).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18696",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-18696",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18696.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ramiro"
+   ],
+   "provincias": [
+    "Valladolid"
+   ],
+   "plazo_dias": null,
+   "promotor": "Elawan Energy Olmedo 2",
+   "potencia_mw": 50.064,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
