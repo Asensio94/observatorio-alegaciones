@@ -1742,6 +1742,67 @@
    ],
    "n_especies": 13,
    "n_aves": 4
+  },
+  "BOE-B-2026-28985": {
+   "identificador": "BOE-B-2026-28985",
+   "fecha": "2026-09-07",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia de Información Pública sobre solicitud de autorización formulada por la Dirección General de Patrimonio Natural y Acción Climática para ocupación de DPMT con destino a instalación de un cercado para la protección del nido de tortuga boba (Caretta caretta) en la playa \"Ensenada del Esparto\", término municipal de San Javier (Murcia). Referencia AUT02.26.30.0043.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28985",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28985",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-B-2026-28985.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Javier"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-05",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000260",
+    "ES6200006",
+    "ES0000175",
+    "ES6200030",
+    "ES6200029",
+    "ES6200007",
+    "ES0000508",
+    "ES0000200"
+   ],
+   "natura_nombres": [
+    "Mar Menor",
+    "Espacios Abiertos e Islas del Mar Menor",
+    "Salinas y Arenales de San Pedro del Pinatar",
+    "Mar Menor",
+    "Franja Litoral Sumergida de la Región de Murcia",
+    "Islas e Islotes del Litoral Mediterráneo"
+   ],
+   "n_especies": 40,
+   "n_aves": 24
   }
  }
 }

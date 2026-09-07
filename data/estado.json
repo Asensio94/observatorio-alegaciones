@@ -2731,8 +2731,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260902_20260905.html",
-   "actualizado": "2026-09-05"
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
   },
   "BOE-B-2026-28561": {
    "identificador": "BOE-B-2026-28561",
@@ -2883,11 +2883,330 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260902_20260905.html",
-   "actualizado": "2026-09-05"
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
+  },
+  "BOE-B-2026-28985": {
+   "identificador": "BOE-B-2026-28985",
+   "fecha": "2026-09-07",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia de Información Pública sobre solicitud de autorización formulada por la Dirección General de Patrimonio Natural y Acción Climática para ocupación de DPMT con destino a instalación de un cercado para la protección del nido de tortuga boba (Caretta caretta) en la playa \"Ensenada del Esparto\", término municipal de San Javier (Murcia). Referencia AUT02.26.30.0043.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28985",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28985",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-B-2026-28985.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Javier"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-05",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000260",
+     "nombre": "Mar Menor",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200006",
+     "nombre": "Espacios Abiertos e Islas del Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000175",
+     "nombre": "Salinas y Arenales de San Pedro del Pinatar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200030",
+     "nombre": "Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200029",
+     "nombre": "Franja Litoral Sumergida de la Región de Murcia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200007",
+     "nombre": "Islas e Islotes del Litoral Mediterráneo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000508",
+     "nombre": "Espacio marino de Tabarca-Cabo de Palos",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000200",
+     "nombre": "Isla Grosa",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 24,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rhinobatos rhinobatos",
+     "vernacular_es": "Guitarra",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Gymnura altavela",
+     "vernacular_es": "Manta",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Raja radula",
+     "vernacular_es": "Raya áspera",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
+  },
+  "BOE-B-2026-28990": {
+   "identificador": "BOE-B-2026-28990",
+   "fecha": "2026-09-07",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la presa de Arroyo de la Luz. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28990",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28990",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-B-2026-28990.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-28",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
+  },
+  "BOE-B-2026-28992": {
+   "identificador": "BOE-B-2026-28992",
+   "fecha": "2026-09-07",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la presa de Casar de Cáceres. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28992",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28992",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-B-2026-28992.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cáceres"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-28",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
+  },
+  "BOE-B-2026-28997": {
+   "identificador": "BOE-B-2026-28997",
+   "fecha": "2026-09-07",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación presa de Los Morales. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28997",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-28997",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-B-2026-28997.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-28",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
+  },
+  "BOE-B-2026-29000": {
+   "identificador": "BOE-B-2026-29000",
+   "fecha": "2026-09-07",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la presa de Mata de Alcántara. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29000",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29000",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-B-2026-29000.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-28",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
+  },
+  "BOE-B-2026-29002": {
+   "identificador": "BOE-B-2026-29002",
+   "fecha": "2026-09-07",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la presa de Navalmoral de la Mata. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29002",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29002",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-B-2026-29002.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-28",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260904_20260907.html",
+   "actualizado": "2026-09-07"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260904_20260907.html",
+   "desde": "2026-09-04",
+   "hasta": "2026-09-07",
+   "generado": "2026-09-07",
+   "n": 8
+  },
   {
    "fichero": "informes/informe_20260902_20260905.html",
    "desde": "2026-09-02",
@@ -6830,15 +7149,13 @@
    "categoria": "fotovoltaica",
    "prioridad": 3,
    "tramite_ambiental": false,
-   "municipios": [
-    "Ramiro"
-   ],
+   "municipios": [],
    "provincias": [
     "Valladolid"
    ],
    "plazo_dias": null,
    "promotor": "Elawan Energy Olmedo 2",
-   "potencia_mw": 50.064,
+   "potencia_mw": 49.61,
    "expediente": "",
    "fecha_limite": "",
    "plazo_estimado": false,
