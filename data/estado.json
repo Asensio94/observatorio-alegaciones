@@ -3031,8 +3031,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260904_20260907.html",
-   "actualizado": "2026-09-07"
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
   },
   "BOE-B-2026-28990": {
    "identificador": "BOE-B-2026-28990",
@@ -3064,8 +3064,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260904_20260907.html",
-   "actualizado": "2026-09-07"
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
   },
   "BOE-B-2026-28992": {
    "identificador": "BOE-B-2026-28992",
@@ -3096,8 +3096,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260904_20260907.html",
-   "actualizado": "2026-09-07"
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
   },
   "BOE-B-2026-28997": {
    "identificador": "BOE-B-2026-28997",
@@ -3129,8 +3129,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260904_20260907.html",
-   "actualizado": "2026-09-07"
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
   },
   "BOE-B-2026-29000": {
    "identificador": "BOE-B-2026-29000",
@@ -3162,8 +3162,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260904_20260907.html",
-   "actualizado": "2026-09-07"
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
   },
   "BOE-B-2026-29002": {
    "identificador": "BOE-B-2026-29002",
@@ -3195,11 +3195,449 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260904_20260907.html",
-   "actualizado": "2026-09-07"
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29132": {
+   "identificador": "BOE-B-2026-29132",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la modificación de la concesión administrativa C-1177 de titularidad de Dos Fuentes, S.L.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29132",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29132",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29132.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-06",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29136": {
+   "identificador": "BOE-B-2026-29136",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Asturias sobre información pública del \"Proyecto de permeabilización y adecuación del borde costero de la playa de la Isla, t.m. Colunga (Asturias)\".",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29136",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29136",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29136.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Colunga"
+   ],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-06",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1200043",
+     "nombre": "Sierra del Sueve",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1200047",
+     "nombre": "Yacimientos de Icnitas",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 36,
+   "n_aves": 20,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Haliotis tuberculata",
+     "vernacular_es": "oreja de mar",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Podiceps auritus",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29141": {
+   "identificador": "BOE-B-2026-29141",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la presa de Torrejoncillo. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29141",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29141",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29141.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29142": {
+   "identificador": "BOE-B-2026-29142",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la presa de Villar de Plasencia. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29142",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29142",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29142.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29144": {
+   "identificador": "BOE-B-2026-29144",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la presa de Zarza la Mayor. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29144",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29144",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29144.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29184": {
+   "identificador": "BOE-B-2026-29184",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública de la Tarifa de Utilización del Agua para el abastecimiento de la Presa de Santa Lucía. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29184",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29184",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29184.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Madrid",
+    "Cuenca"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29189": {
+   "identificador": "BOE-B-2026-29189",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo sobre la Información Pública del Canon de Regulación de la Presa de Villanueva de la Vera. Año 2027.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29189",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29189",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29189.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cuenca",
+    "Madrid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
+  },
+  "BOE-B-2026-29192": {
+   "identificador": "BOE-B-2026-29192",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de la Consejería de Economía, Hacienda, Fondos Europeos y Diálogo Social y de Industria, Energía y Minas en Córdoba, por el que se somete a información pública la solicitud de autorización administrativa, aprobación del proyecto de ejecución y declaración en concreto de utilidad pública de las instalaciones de gas natural correspondientes al proyecto denominado \"Proyecto para solicitar declaración de utilidad pública, autorización administrativa y ejecución de instalaciones para la ampliación de red y nueva acometida de gas natural a la industria Aceites la Pedriza S.A. en MOP 45 bar en el T.M. de Cabra (Córdoba)\". (EXPTE. EGC 25/37).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29192",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29192",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29192.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrocarburos_gas",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cabra",
+    "Paraje"
+   ],
+   "provincias": [
+    "Córdoba"
+   ],
+   "plazo_dias": 20,
+   "promotor": "Nedgia Andalucía, S.A",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-06",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Paraje"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES6130002",
+     "nombre": "Sierras Subbéticas",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 29,
+   "n_aves": 11,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Iberus ortizi",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Austropotamobius pallipes",
+     "vernacular_es": "Cangrejo de Río Europeo",
+     "categoria_uicn": "EN",
+     "class": "Malacostraca"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Cerambyx cerdo",
+     "vernacular_es": "Gran capricornio de las encinas",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Caretta caretta",
+     "vernacular_es": "Caguama",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Rhinolophus mehelyi",
+     "vernacular_es": "Murciélago Mediano de Herradura",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    }
+   ],
+   "informe": "informes/informe_20260905_20260908.html",
+   "actualizado": "2026-09-08"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260905_20260908.html",
+   "desde": "2026-09-05",
+   "hasta": "2026-09-08",
+   "generado": "2026-09-08",
+   "n": 14
+  },
   {
    "fichero": "informes/informe_20260904_20260907.html",
    "desde": "2026-09-04",
@@ -7157,6 +7595,72 @@
    "promotor": "Elawan Energy Olmedo 2",
    "potencia_mw": 49.61,
    "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-29193": {
+   "identificador": "BOE-B-2026-29193",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda, Fondos Europeos, Diálogo Social y de Industria, Energía y Minas en Sevilla, por la que se concede modificación de autorización administrativa previa y de construcción y declaración, en concreto, de utilidad pública de la instalación eléctrica de la referencia que se cita. Expediente 296.494.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29193",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29193",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29193.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 0,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Dos Hermanas"
+   ],
+   "provincias": [
+    "Sevilla"
+   ],
+   "plazo_dias": 30,
+   "promotor": "ES Planta Solar 2, S.L., número de identificación fiscal B40545527",
+   "potencia_mw": 75.5,
+   "expediente": "296.494",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-29194": {
+   "identificador": "BOE-B-2026-29194",
+   "fecha": "2026-09-08",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS",
+   "titulo": "Resolución de fecha 18 de agosto de 2026, del Dirección General de Energía y Minería de la Consejería de Ciencia, Industria y Empleo, de rectificación de error material en los datos correspondientes a las afecciones de la parcela identificada con el número de orden 28 en la Resolución de 23 de marzo de 2026 de declaración de la utilidad pública de las instalaciones del Parque Eólico \"Viento de Sellía\". Expte. PE-227-DUP/AUTO/2024/10013.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29194",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29194",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/08/pdfs/BOE-B-2026-29194.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 60,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "PE-227-DUP/AUTO/2024/10013",
    "fecha_limite": "",
    "plazo_estimado": false,
    "tipo": "autorizacion",
