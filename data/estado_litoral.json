@@ -1854,6 +1854,111 @@
    ],
    "n_especies": 36,
    "n_aves": 20
+  },
+  "BOE-B-2026-29346": {
+   "identificador": "BOE-B-2026-29346",
+   "fecha": "2026-09-10",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas de Castellón de información pública del proyecto \"Estabilización y Adaptación al Cambio Climático del tramo de costa situado entre el cabo de Oropesa y el río Chinchilla del término municipal de Oropesa (Castellón)\" y su correspondiente Estudio de Impacto Ambiental, expediente: 12-0366.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29346",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29346",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/10/pdfs/BOE-B-2026-29346.pdf",
+   "fuente": "BOE",
+   "categoria": "costas_otro",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Oropesa"
+   ],
+   "provincias": [
+    "Castellón"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "12-0366",
+   "fecha_limite": "2026-10-23",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES5223037",
+    "ES0000447",
+    "ES5223053",
+    "ES0000512"
+   ],
+   "natura_nombres": [
+    "Litoral de Benicàssim",
+    "Espacio marino de Orpesa y Benicàssim",
+    "Forat d'en Ferràs-Orpesa",
+    "Espacio marino del Delta de l'Ebre-Illes Columbretes"
+   ],
+   "n_especies": 24,
+   "n_aves": 8
+  },
+  "BOE-B-2026-29348": {
+   "identificador": "BOE-B-2026-29348",
+   "fecha": "2026-09-10",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Dirección General de la Costa y el Mar, en procedimiento de deslinde aprobado por la Orden Ministerial de 30 de julio de 2026, en varios tramos de costa de unos dos mil doscientos cuarenta y nueve (2.249) metros de longitud, comprendidos entre la Playa dels Cossis y el entorno del Barranco d´Aigua Oliva, en los términos municipales de Vinaròs y Benicarló (Castellón). DES01/24/12/0002.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29348",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29348",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/10/pdfs/BOE-B-2026-29348.pdf",
+   "fuente": "BOE",
+   "categoria": "deslinde",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Vinaròs",
+    "Benicarló"
+   ],
+   "provincias": [
+    "Castellón"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-23",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000512"
+   ],
+   "natura_nombres": [
+    "Espacio marino del Delta de l'Ebre-Illes Columbretes"
+   ],
+   "n_especies": 24,
+   "n_aves": 15
   }
  }
 }
