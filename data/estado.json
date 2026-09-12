@@ -3733,8 +3733,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29272": {
    "identificador": "BOE-B-2026-29272",
@@ -3856,8 +3856,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29324": {
    "identificador": "BOE-B-2026-29324",
@@ -3888,8 +3888,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29325": {
    "identificador": "BOE-B-2026-29325",
@@ -4010,8 +4010,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29329": {
    "identificador": "BOE-B-2026-29329",
@@ -4180,8 +4180,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29346": {
    "identificador": "BOE-B-2026-29346",
@@ -4308,8 +4308,8 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29359": {
    "identificador": "BOE-B-2026-29359",
@@ -4342,8 +4342,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29362": {
    "identificador": "BOE-B-2026-29362",
@@ -4374,8 +4374,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29428": {
    "identificador": "BOE-B-2026-29428",
@@ -4406,8 +4406,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29433": {
    "identificador": "BOE-B-2026-29433",
@@ -4527,8 +4527,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29434": {
    "identificador": "BOE-B-2026-29434",
@@ -4656,8 +4656,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29447": {
    "identificador": "BOE-B-2026-29447",
@@ -4730,8 +4730,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   },
   "BOE-B-2026-29448": {
    "identificador": "BOE-B-2026-29448",
@@ -4837,11 +4837,18 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "informe": "informes/informe_20260909_20260912.html",
+   "actualizado": "2026-09-12"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260909_20260912.html",
+   "desde": "2026-09-09",
+   "hasta": "2026-09-12",
+   "generado": "2026-09-12",
+   "n": 13
+  },
   {
    "fichero": "informes/informe_20260908_20260911.html",
    "desde": "2026-09-08",
@@ -9106,6 +9113,44 @@
    "promotor": "",
    "potencia_mw": 144.0,
    "expediente": "SGIISE/PEol-382",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "denegada",
+   "sentido_etiqueta": "denegada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-19108": {
+   "identificador": "BOE-A-2026-19108",
+   "fecha": "2026-09-12",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 31 de agosto de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energía Inagotable de Tara, SL, de autorización administrativa previa del parque solar fotovoltaico «Tara», de 23,7 MW de potencia instalada, en Tauste (Zaragoza), y de su infraestructura de evacuación asociada, en las provincias de Zaragoza, Navarra, La Rioja, Álava y Burgos.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19108",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19108",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/12/pdfs/BOE-A-2026-19108.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Tauste"
+   ],
+   "provincias": [
+    "Zaragoza",
+    "Navarra",
+    "La Rioja",
+    "Álava",
+    "Burgos"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": 50.0,
+   "expediente": "PFot-753",
    "fecha_limite": "",
    "plazo_estimado": false,
    "tipo": "autorizacion",
