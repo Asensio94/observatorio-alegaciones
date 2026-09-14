@@ -4406,8 +4406,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260909_20260912.html",
-   "actualizado": "2026-09-12"
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
   },
   "BOE-B-2026-29433": {
    "identificador": "BOE-B-2026-29433",
@@ -4527,8 +4527,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260909_20260912.html",
-   "actualizado": "2026-09-12"
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
   },
   "BOE-B-2026-29434": {
    "identificador": "BOE-B-2026-29434",
@@ -4656,8 +4656,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260909_20260912.html",
-   "actualizado": "2026-09-12"
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
   },
   "BOE-B-2026-29447": {
    "identificador": "BOE-B-2026-29447",
@@ -4730,8 +4730,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260909_20260912.html",
-   "actualizado": "2026-09-12"
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
   },
   "BOE-B-2026-29448": {
    "identificador": "BOE-B-2026-29448",
@@ -4837,11 +4837,455 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260909_20260912.html",
-   "actualizado": "2026-09-12"
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
+  },
+  "BOE-B-2026-29803": {
+   "identificador": "BOE-B-2026-29803",
+   "fecha": "2026-09-14",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por Congelados y Refrigerados Seppialis, S.L., de modificación sustancial de concesión administrativa.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29803",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29803",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-B-2026-29803.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-13",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
+  },
+  "BOE-B-2026-29804": {
+   "identificador": "BOE-B-2026-29804",
+   "fecha": "2026-09-14",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Cuenca, por el que se somete al trámite de Información Pública el Estudio de Impacto Ambiental, la Solicitud de Autorización Administrativa Previa, la Solicitud de Autorización Administrativa de Construcción y la Solicitud de Declaración de Utilidad Pública para el módulo de generación eólico \"Hibridación FV-PEol Salinas III\", de 36 MW de potencia instalada, en la provincia de Cuenca, para su hibridación con el parque fotovoltaico existente FV Salinas III, de 43,896 MW de potencia instalada, y su infraestructura de evacuación, conformando una instalación híbrida de 79,896 MW de potencia instalada.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29804",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29804",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-B-2026-29804.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alcázar del Rey",
+    "Campos del Paraíso",
+    "Carpos del Paraíso",
+    "Carmpos del Paraíso"
+   ],
+   "provincias": [
+    "Cuenca"
+   ],
+   "plazo_dias": 30,
+   "promotor": "ENERGÍAS EÓLICAS DE HERMES S.L",
+   "potencia_mw": 79.896,
+   "expediente": "PEol-FV-313",
+   "fecha_limite": "2026-10-27",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Carpos del Paraíso",
+    "Carmpos del Paraíso"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES4230012",
+     "nombre": "Estepas yesosas de La Alcarria conquense",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4240018",
+     "nombre": "Sierra de Altomira",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 18,
+   "n_aves": 12,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Squalius pyrenaicus",
+     "vernacular_es": "Cacho",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris alpina",
+     "vernacular_es": "Correlimos Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Platystolus surcularius",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    }
+   ],
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
+  },
+  "BOE-B-2026-29805": {
+   "identificador": "BOE-B-2026-29805",
+   "fecha": "2026-09-14",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia de Información Pública sobre la concesión transitoria de ocupación de dominio público marítimo-terrestre con destino a paseo marítimo, en aplicación de la legislación transitoria de costas. Referencia CNC12.21.30.0044.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29805",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29805",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-B-2026-29805.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Javier"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-13",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000260",
+     "nombre": "Mar Menor",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200006",
+     "nombre": "Espacios Abiertos e Islas del Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000175",
+     "nombre": "Salinas y Arenales de San Pedro del Pinatar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200030",
+     "nombre": "Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200029",
+     "nombre": "Franja Litoral Sumergida de la Región de Murcia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200007",
+     "nombre": "Islas e Islotes del Litoral Mediterráneo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000508",
+     "nombre": "Espacio marino de Tabarca-Cabo de Palos",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000200",
+     "nombre": "Isla Grosa",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 24,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rhinobatos rhinobatos",
+     "vernacular_es": "Guitarra",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Gymnura altavela",
+     "vernacular_es": "Manta",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Raja radula",
+     "vernacular_es": "Raya áspera",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
+  },
+  "BOE-B-2026-29813": {
+   "identificador": "BOE-B-2026-29813",
+   "fecha": "2026-09-14",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de autorización de vertido de aguas residuales de Restauración de la concesión de explotación Matilde, en As Gándaras Guillarei, término municipal de Tui (Pontevedra).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29813",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29813",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-B-2026-29813.pdf",
+   "fuente": "BOE",
+   "categoria": "mineria",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Tui"
+   ],
+   "provincias": [
+    "Pontevedra"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Sucesores de Severino Gómez, S.A",
+   "potencia_mw": null,
+   "expediente": "V/36/00838",
+   "fecha_limite": "2026-10-27",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1140005",
+     "nombre": "Monte Aloia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1140007",
+     "nombre": "Baixo Miño",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1140011",
+     "nombre": "Gándaras de Budiño",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "PTCON0019",
+     "nombre": "Rio Minho",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000375",
+     "nombre": "Esteiro do Miño",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 25,
+   "n_aves": 5,
+   "especies_top": [
+    {
+     "scientificName": "Myliobatis aquila",
+     "vernacular_es": "Aguila de mar",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Alosa alosa",
+     "vernacular_es": "",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Macromia splendens",
+     "vernacular_es": "Macromia espléndida",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Chioglossa lusitanica",
+     "vernacular_es": "Salamandra Rabilarga",
+     "categoria_uicn": "NT",
+     "class": "Amphibia"
+    }
+   ],
+   "informe": "informes/informe_20260911_20260914.html",
+   "actualizado": "2026-09-14"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260911_20260914.html",
+   "desde": "2026-09-11",
+   "hasta": "2026-09-14",
+   "generado": "2026-09-14",
+   "n": 9
+  },
   {
    "fichero": "informes/informe_20260909_20260912.html",
    "desde": "2026-09-09",
@@ -9157,6 +9601,74 @@
    "tipo_etiqueta": "Autorización administrativa",
    "sentido": "denegada",
    "sentido_etiqueta": "denegada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-19187": {
+   "identificador": "BOE-A-2026-19187",
+   "fecha": "2026-09-14",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 29 de julio de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Fénix Renovable, SL, autorización administrativa y de construcción para la instalación fotovoltaica PSF Puerto Real, de 133,5708 MW, incluida la subestación 220/20 kV y la línea aérea a 220 kV para evacuación, ubicada en Puerto Real y Jerez de la Frontera (Cádiz), y se declara, en concreto, su utilidad pública.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19187",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19187",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-A-2026-19187.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Puerto Real",
+    "Jerez de la Frontera",
+    "Cádiz"
+   ],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Fénix Renovable",
+   "potencia_mw": 5708.0,
+   "expediente": "PFot-026",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-19188": {
+   "identificador": "BOE-A-2026-19188",
+   "fecha": "2026-09-14",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 18 de agosto de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 1 de julio de 2026, por la que se acepta el desistimiento formulado por Desarrollos Renovables Eólicos y Solares, SLU, de la solicitud de autorización administrativa previa y autorización administrativa de construcción del parque eólico «Taraguilla», de 62,7 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Cádiz.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19188",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19188",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/14/pdfs/BOE-A-2026-19188.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": 62.7,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
