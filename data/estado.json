@@ -4869,8 +4869,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260911_20260914.html",
-   "actualizado": "2026-09-14"
+   "informe": "informes/informe_20260912_20260915.html",
+   "actualizado": "2026-09-15"
   },
   "BOE-B-2026-29804": {
    "identificador": "BOE-B-2026-29804",
@@ -4993,8 +4993,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20260911_20260914.html",
-   "actualizado": "2026-09-14"
+   "informe": "informes/informe_20260912_20260915.html",
+   "actualizado": "2026-09-15"
   },
   "BOE-B-2026-29805": {
    "identificador": "BOE-B-2026-29805",
@@ -5141,8 +5141,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260911_20260914.html",
-   "actualizado": "2026-09-14"
+   "informe": "informes/informe_20260912_20260915.html",
+   "actualizado": "2026-09-15"
   },
   "BOE-B-2026-29813": {
    "identificador": "BOE-B-2026-29813",
@@ -5274,11 +5274,186 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20260911_20260914.html",
-   "actualizado": "2026-09-14"
+   "informe": "informes/informe_20260912_20260915.html",
+   "actualizado": "2026-09-15"
+  },
+  "BOE-B-2026-29930": {
+   "identificador": "BOE-B-2026-29930",
+   "fecha": "2026-09-15",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Extremadura, por el que se somete a Información Pública la solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción de la Subestación Eléctrica Enlace (SET Enlace) 400/220 kV y línea aérea de suministro 400 kV SE Riocaya - SET Enlace para la conexión del Data Center Nostrum Evergreen con la red de transporte en la provincia de Badajoz. Exp.: CON - 01.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29930",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-29930",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/15/pdfs/BOE-B-2026-29930.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Badajoz"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Data Riocaya, S.L.U",
+   "potencia_mw": 300.0,
+   "expediente": "CON-01",
+   "fecha_limite": "2026-10-28",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000398",
+     "nombre": "Llanos y Complejo Lagunar de la Albuera",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310003",
+     "nombre": "Complejo Lagunar de la Albuera",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310027",
+     "nombre": "Río Guadiana Internacional",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000393",
+     "nombre": "Azud de Badajoz",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310059",
+     "nombre": "Río Gevora Bajo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310032",
+     "nombre": "Rivera de los Limonetes - Nogales",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000070",
+     "nombre": "Sierra de San Pedro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310062",
+     "nombre": "Laguna temporal de Tres Arroyos",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "PTCON0032",
+     "nombre": "Guadiana / Juromenha",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "PTCON0030",
+     "nombre": "Caia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "PTCON0007",
+     "nombre": "São Mamede",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "PTZPE0043",
+     "nombre": "Campo Maior",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 25,
+   "especies_top": [
+    {
+     "scientificName": "Alosa alosa",
+     "vernacular_es": "",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Vanellus gregarius",
+     "vernacular_es": "Avefría sociable",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anser cygnoides",
+     "vernacular_es": "Ganso cisne asiático",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Unio delphinus",
+     "vernacular_es": "Náyade delfín",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Potomida littoralis",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    }
+   ],
+   "informe": "informes/informe_20260912_20260915.html",
+   "actualizado": "2026-09-15"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260912_20260915.html",
+   "desde": "2026-09-12",
+   "hasta": "2026-09-15",
+   "generado": "2026-09-15",
+   "n": 5
+  },
   {
    "fichero": "informes/informe_20260911_20260914.html",
    "desde": "2026-09-11",
