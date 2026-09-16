@@ -3627,7 +3627,23 @@
     }
    ],
    "informe": "informes/informe_20260908_20260911.html",
-   "actualizado": "2026-09-11"
+   "actualizado": "2026-09-11",
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-19315",
+    "fecha": "2026-09-16",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 2 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Cabra, en el parque de 400 kV, mediante la instalación de un compensador síncrono y su posición asociada, en Cabra (Córdoba).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19315",
+    "fuente": "BOE",
+    "puntos": 4,
+    "motivos": [
+     "1 municipio(s) en común",
+     "coinciden: cabra, cordoba"
+    ]
+   }
   },
   "BOE-B-2026-29262": {
    "identificador": "BOE-B-2026-29262",
@@ -4181,7 +4197,24 @@
     }
    ],
    "informe": "informes/informe_20260909_20260912.html",
-   "actualizado": "2026-09-12"
+   "actualizado": "2026-09-12",
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-19316",
+    "fecha": "2026-09-16",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 3 de septiembre de 2026 de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la línea aérea de transporte de energía eléctrica a 400 kV, doble circuito, Gaussa-Saguntum, y el by-pass de las líneas a 400 kV Eliana-Gaussa y Morvedre-Gaussa 2, en Sagunto (Valencia), y se declara, en concreto, la utilidad pública.",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19316",
+    "fuente": "BOE",
+    "puntos": 5,
+    "motivos": [
+     "mismo promotor (Red Eléctrica de España Sociedad Anónima Unipersonal)",
+     "misma categoría (red_electrica)",
+     "coinciden: doble"
+    ]
+   }
   },
   "BOE-B-2026-29346": {
    "identificador": "BOE-B-2026-29346",
@@ -4869,8 +4902,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260912_20260915.html",
-   "actualizado": "2026-09-15"
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
   },
   "BOE-B-2026-29804": {
    "identificador": "BOE-B-2026-29804",
@@ -4993,8 +5026,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20260912_20260915.html",
-   "actualizado": "2026-09-15"
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
   },
   "BOE-B-2026-29805": {
    "identificador": "BOE-B-2026-29805",
@@ -5141,8 +5174,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260912_20260915.html",
-   "actualizado": "2026-09-15"
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
   },
   "BOE-B-2026-29813": {
    "identificador": "BOE-B-2026-29813",
@@ -5274,8 +5307,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20260912_20260915.html",
-   "actualizado": "2026-09-15"
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
   },
   "BOE-B-2026-29930": {
    "identificador": "BOE-B-2026-29930",
@@ -5442,11 +5475,828 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20260912_20260915.html",
-   "actualizado": "2026-09-15"
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
+  },
+  "BOE-B-2026-30020": {
+   "identificador": "BOE-B-2026-30020",
+   "fecha": "2026-09-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Extremadura por el que se publica la Resolución del Ministerio de Transportes y Movilidad Sostenible en la que se aprueba el expediente de información pública y definitiva de Modificación de semienlace situado en la autovía A-66, P-K- 654 TM Almendralejo. Provincia de Badajoz . Clave: 33-BA-4070.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30020",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30020",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-B-2026-30020.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Almendralejo"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-29",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000331",
+     "nombre": "Colonias de Cernícalo Primilla de Almendralejo",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 18,
+   "n_aves": 11,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Carcharodus baeticus",
+     "vernacular_es": "Piquitos del marrubio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caprimulgus ruficollis",
+     "vernacular_es": "Chotacabras Pardo",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    }
+   ],
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
+  },
+  "BOE-B-2026-30021": {
+   "identificador": "BOE-B-2026-30021",
+   "fecha": "2026-09-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en la Comunidad Valenciana sobre la aprobación del Expediente de Información Pública y definitiva del Documento técnico para las expropiaciones de las obras de emergencia para la reconstrucción de tres pasarelas sobre la Rambla del Poyo en Picanya y Paiporta. Provincia de Valencia. Clave EM DANA MUN EXP.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30021",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30021",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-B-2026-30021.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "València"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
+  },
+  "BOE-B-2026-30022": {
+   "identificador": "BOE-B-2026-30022",
+   "fecha": "2026-09-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Asturias, relativo a la información pública sobre la convocatoria para el levantamiento de actas previas a la ocupación en el expediente de expropiación forzosa de los bienes y derechos afectados por las obras del proyecto de construcción de la obra \"Rehabilitación superficial del firme en la carretera N-634, del P.K. 357+550 al 387+887. Tramo: Villamayor - Marcenado\". Clave de contrato: OC-O-26001, Clave de actuación: 32-O-6240.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30022",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30022",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-B-2026-30022.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Nava"
+   ],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-09-30",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 13,
+   "n_aves": 2,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Nomada argentata",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Pyrgus malvoides",
+     "vernacular_es": "Ajedrezada Menor",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Gypaetus barbatus",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera seoanei",
+     "vernacular_es": "Víbora cantábrica",
+     "categoria_uicn": "NT",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Formica pratensis",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Plecotus austriacus",
+     "vernacular_es": "Murciélago orejudo gris",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
+  },
+  "BOE-B-2026-30024": {
+   "identificador": "BOE-B-2026-30024",
+   "fecha": "2026-09-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio del Administrador de Infraestructuras Ferroviarias por el que se somete a información pública a efectos de declaración de la necesidad de ocupación el Proyecto Básico de Servicios Afectados por la Línea Aérea de Contacto y Sistemas Asociados de la Línea Puertollano - Mérida.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30024",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30024",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-B-2026-30024.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Puertollano",
+    "Almodóvar del Campo",
+    "Guadalmez",
+    "Almadenejos",
+    "Brazatortas",
+    "Chillón",
+    "Benquerencia de la Serena",
+    "Castuera",
+    "Villanueva de la Serena",
+    "Cabeza del Buey",
+    "Magacela",
+    "Don Benito",
+    "Mérida",
+    "Mengabril",
+    "Campanario",
+    "Villagonzalo",
+    "Don Álvaro",
+    "Medellín",
+    "Guareña",
+    "Valdetorres"
+   ],
+   "provincias": [
+    "Madrid",
+    "Badajoz"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-29",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4310010",
+     "nombre": "La Serena",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000069",
+     "nombre": "Embalse de Cornalvo y Sierra Bermeja",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4220015",
+     "nombre": "Sierras de Almadén - Chillón y Guadalmez",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000400",
+     "nombre": "Arrozales de Palazuelo y Guadalperales",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000334",
+     "nombre": "Sierras Centrales y Embalse de Alange",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310026",
+     "nombre": "Río Guadiana Alto - Zujar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4220013",
+     "nombre": "Sierra de Los Canalizos",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4220007",
+     "nombre": "Ríos Quejigal, Valdeazogues y Alcudia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000399",
+     "nombre": "Embalse del Zujar",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310024",
+     "nombre": "Río Guadamez",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310048",
+     "nombre": "Corredor del Lacara",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000327",
+     "nombre": "Embalse de los Canchales",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000068",
+     "nombre": "Embalse de Orellana y Sierra de Pela",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000328",
+     "nombre": "Embalse de Montijo",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310017",
+     "nombre": "Río Aljucén Bajo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310064",
+     "nombre": "Río Ortiga",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310060",
+     "nombre": "Corredores de Siruela",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6130012",
+     "nombre": "Río Zújar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310061",
+     "nombre": "Laguna temporal de Murtales",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000404",
+     "nombre": "Colonias de Cernícalo Primilla de Guareña",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000070",
+     "nombre": "Sierra de San Pedro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6130004",
+     "nombre": "Río Guadalmez",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000395",
+     "nombre": "Charca la Vega del Machal",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000090",
+     "nombre": "Sierra Morena",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4220005",
+     "nombre": "Lagunas volcánicas del Campo de Calatrava",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310040",
+     "nombre": "Sierra de Moraleja",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6130003",
+     "nombre": "Sierra de Santa Eufemia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4320016",
+     "nombre": "Río Aljucen Alto",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000367",
+     "nombre": "La Serena y Sierras Periféricas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000397",
+     "nombre": "Embalse de la Serena",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000550",
+     "nombre": "Colonias de cernícalo primilla en iglesias de Almodovar del Campo y Tierteafuea",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000371",
+     "nombre": "Sierra de Moraleja y Piedra Santa",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 24,
+   "especies_top": [
+    {
+     "scientificName": "Vanellus gregarius",
+     "vernacular_es": "Avefría sociable",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Geronticus eremita",
+     "vernacular_es": "Ibis eremita",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ammotragus lervia",
+     "vernacular_es": "Arrui",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
+  },
+  "BOE-B-2026-30027": {
+   "identificador": "BOE-B-2026-30027",
+   "fecha": "2026-09-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Cantabria sobre la resolución de la Dirección General de Carreteras, por la que se aprueba provisionalmente el proyecto de trazado: Autovía A-73, Burgos - Aguilar de Campoo. Tramo: Báscones de Valdivia - Aguilar De Campoo, redactado con fecha de 26 de mayo de 2026, y se ordena la incoación del expediente de información pública a los efectos de lo previsto en los artículos 17, 18 y 19.1 de la Ley de 16 de diciembre de 1954, de expropiación forzosa. Clave: T2-P-3130.ACT. Provincia de PALENCIA.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30027",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30027",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-B-2026-30027.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Pomar de Valdivia"
+   ],
+   "provincias": [
+    "Cantabria",
+    "Burgos",
+    "Palencia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-29",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4140027",
+     "nombre": "Covalagua",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4140026",
+     "nombre": "Las Tuerces",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 21,
+   "n_aves": 8,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erebia epistygne",
+     "vernacular_es": "erebia primaveral",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Chersophilus duponti",
+     "vernacular_es": "Alondra de Dupont",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Pyrgus malvoides",
+     "vernacular_es": "Ajedrezada Menor",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erebia triarius",
+     "vernacular_es": "Montañesa vacilante",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    }
+   ],
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
+  },
+  "BOE-B-2026-30029": {
+   "identificador": "BOE-B-2026-30029",
+   "fecha": "2026-09-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Huelva por el que se somete a información pública, la solicitud de autorización administrativa previa y autorización administrativa de construcción para el proyecto del módulo de almacenamiento por baterías \"BESS FV La Puebla 3\", de 150,8 MW de potencia instalada para su hibridación con el parque solar fotovoltaico La Puebla 3 y su infraestructura de evacuación, Término Municipal de Cerro de Andévalo, en la provincia de Huelva. PFOT-ALM-1154.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30029",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30029",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-B-2026-30029.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Cerro de Andévalo"
+   ],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Jinko Greenfield Spain 1, S.L",
+   "potencia_mw": 150.8,
+   "expediente": "PFOT-1110",
+   "fecha_limite": "2026-10-07",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [
+    "Cerro de Andévalo"
+   ],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
+  },
+  "BOE-B-2026-30030": {
+   "identificador": "BOE-B-2026-30030",
+   "fecha": "2026-09-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en Zaragoza por el que se somete a información pública la solicitud de la autorización administrativa previa de las modificaciones, la autorización administrativa de construcción y declaración, en concreto, de utilidad pública del proyecto PFot-1117, que comprende la planta solar fotovoltaica Los Vientos I, con una potencia de 65,32 MWp y 54,52 MWins y su infraestructura de evacuación en los términos municipales de Alfamén y Muel, en la provincia de Zaragoza.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30030",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30030",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-B-2026-30030.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alfamén",
+    "Muel"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 30,
+   "promotor": "AES Project X, SL (CIF: B72935547)",
+   "potencia_mw": 56.51,
+   "expediente": "",
+   "fecha_limite": "2026-10-29",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000300",
+     "nombre": "Río Huerva y Las Planas",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 17,
+   "n_aves": 13,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Tetrax tetrax",
+     "vernacular_es": "Sisón",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260913_20260916.html",
+   "actualizado": "2026-09-16"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260913_20260916.html",
+   "desde": "2026-09-13",
+   "hasta": "2026-09-16",
+   "generado": "2026-09-16",
+   "n": 12
+  },
   {
    "fichero": "informes/informe_20260912_20260915.html",
    "desde": "2026-09-12",
@@ -9844,6 +10694,147 @@
    "tipo_etiqueta": "Autorización administrativa",
    "sentido": "caducidad",
    "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-19314": {
+   "identificador": "BOE-A-2026-19314",
+   "fecha": "2026-09-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 31 de agosto de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energía Inagotable de Umiko, SL, de autorización administrativa previa del parque solar fotovoltaico “Umiko”, de 46,5 MW de potencia instalada, en Tauste (Zaragoza).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19314",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19314",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19314.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Tauste"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": 50.0,
+   "expediente": "PFot-752",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "denegada",
+   "sentido_etiqueta": "denegada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-19315": {
+   "identificador": "BOE-A-2026-19315",
+   "fecha": "2026-09-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 2 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Cabra, en el parque de 400 kV, mediante la instalación de un compensador síncrono y su posición asociada, en Cabra (Córdoba).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19315",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19315",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19315.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Cabra"
+   ],
+   "provincias": [
+    "Córdoba"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España",
+   "potencia_mw": null,
+   "expediente": "PRE26-4052",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-29192",
+   "puntos": 4,
+   "motivos": [
+    "1 municipio(s) en común",
+    "coinciden: cabra, cordoba"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-19316": {
+   "identificador": "BOE-A-2026-19316",
+   "fecha": "2026-09-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de septiembre de 2026 de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la línea aérea de transporte de energía eléctrica a 400 kV, doble circuito, Gaussa-Saguntum, y el by-pass de las líneas a 400 kV Eliana-Gaussa y Morvedre-Gaussa 2, en Sagunto (Valencia), y se declara, en concreto, la utilidad pública.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19316",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19316",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19316.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Sagunto"
+   ],
+   "provincias": [
+    "València"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-29329",
+   "puntos": 5,
+   "motivos": [
+    "mismo promotor (Red Eléctrica de España Sociedad Anónima Unipersonal)",
+    "misma categoría (red_electrica)",
+    "coinciden: doble"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-19317": {
+   "identificador": "BOE-A-2026-19317",
+   "fecha": "2026-09-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 8 de julio de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 24 de mayo de 2024, por la que se otorga a Elawan Energy Olmedo 1, SL, autorización administrativa previa de modificaciones y autorización administrativa de construcción para la instalación fotovoltaica “Elawan Olmedo I”, de 50,064 MW de potencia instalada, y sus infraestructuras de evacuación, en Ramiro y Medina del Campo (Valladolid).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19317",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19317",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/16/pdfs/BOE-A-2026-19317.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Valladolid"
+   ],
+   "plazo_dias": null,
+   "promotor": "Elawan Energy Olmedo 1",
+   "potencia_mw": 50.064,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
