@@ -4902,8 +4902,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-29804": {
    "identificador": "BOE-B-2026-29804",
@@ -5026,8 +5026,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-29805": {
    "identificador": "BOE-B-2026-29805",
@@ -5174,8 +5174,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-29813": {
    "identificador": "BOE-B-2026-29813",
@@ -5307,8 +5307,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-29930": {
    "identificador": "BOE-B-2026-29930",
@@ -5475,8 +5475,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-30020": {
    "identificador": "BOE-B-2026-30020",
@@ -5588,8 +5588,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-30021": {
    "identificador": "BOE-B-2026-30021",
@@ -5620,8 +5620,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-30022": {
    "identificador": "BOE-B-2026-30022",
@@ -5727,8 +5727,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-30024": {
    "identificador": "BOE-B-2026-30024",
@@ -6015,8 +6015,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-30027": {
    "identificador": "BOE-B-2026-30027",
@@ -6135,8 +6135,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-30029": {
    "identificador": "BOE-B-2026-30029",
@@ -6171,8 +6171,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   },
   "BOE-B-2026-30030": {
    "identificador": "BOE-B-2026-30030",
@@ -6285,11 +6285,749 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260913_20260916.html",
-   "actualizado": "2026-09-16"
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
+  },
+  "BOE-B-2026-30092": {
+   "identificador": "BOE-B-2026-30092",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Agencia Estatal de Seguridad Aérea (AESA) por el que se somete a información pública el estudio de impacto ambiental y la documentación técnica del proyecto Nuevo Edificio Procesador en el complejo terminal T123 en el aeropuerto Adolfo Suárez Madrid-Barajas.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30092",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30092",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30092.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Madrid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-30",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
+  },
+  "BOE-B-2026-30093": {
+   "identificador": "BOE-B-2026-30093",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Baleares por el que se somete a información pública el proyecto básico correspondiente a la oferta presentada por la empresa Pescados Sur Mar SA, al concurso público para la explotación, en régimen de concesión administrativa, de un bar-cafetería-restaurante en la Punta del Gas del puerto de Palma (CC-C-P-0006).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30093",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30093",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30093.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Palma"
+   ],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-16",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000083",
+     "nombre": "Arxipèlag de Cabrera",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310102",
+     "nombre": "Xorrigo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310080",
+     "nombre": "Puigpunyent",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310042",
+     "nombre": "Avenc d'en Corbera",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 20,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Myliobatis aquila",
+     "vernacular_es": "Aguila de mar",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Podarcis pityusensis",
+     "vernacular_es": "Lagartija de las Pitiusas",
+     "categoria_uicn": "EN",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Raja radula",
+     "vernacular_es": "Raya áspera",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Testudo hermanni",
+     "vernacular_es": "Tortuga Mediterranea",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Caretta caretta",
+     "vernacular_es": "Caguama",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    }
+   ],
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
+  },
+  "BOE-B-2026-30094": {
+   "identificador": "BOE-B-2026-30094",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Baleares de información pública de la solicitud de Menorca Publicidad S.A. para el otorgamiento en concesión de unas superficies con destino a información en Moll de Ponent en la zona portuaria del puerto de Maó.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30094",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30094",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30094.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Maó"
+   ],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-16",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000235",
+     "nombre": "De s'Albufera a la Mola",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000234",
+     "nombre": "S'Albufera des Grau",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000386",
+     "nombre": "Capell de Ferro",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000237",
+     "nombre": "Des Canutells a Llucalari",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310119",
+     "nombre": "Penyes d'Egipte",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000233",
+     "nombre": "D'Addaia a s'Albufera",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310071",
+     "nombre": "Cala en Brut",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310072",
+     "nombre": "Caleta de Binillautí",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ESZZ16002",
+     "nombre": "Canal de Menorca",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000522",
+     "nombre": "Espacio marino del sureste de Menorca",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 39,
+   "n_aves": 23,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Testudo hermanni",
+     "vernacular_es": "Tortuga Mediterranea",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Epinephelus marginatus",
+     "vernacular_es": "Mero de Vientre Amarillo",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Puffinus yelkouan",
+     "vernacular_es": "Pardela Mediterránea",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
+  },
+  "BOE-B-2026-30098": {
+   "identificador": "BOE-B-2026-30098",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en Guadalajara por el que se somete a información pública la solicitud de Autorización Administrativa Previa de modificaciones, Autorización Administrativa de Construcción de modificaciones y la Declaración, en concreto, de Utilidad Pública para la instalación fotovoltaica Acequia Solar, de 44 MW de potencia instalada, y sus infraestructuras de evacuación, en los términos municipales de Guadalajara y Tórtola de Henares, en la provincia de Guadalajara. Expte. PFot-602.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30098",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30098",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30098.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Guadalajara",
+    "Tórtola de Henares",
+    "Yunquera de Henares",
+    "Fontanar",
+    "Chiloeches",
+    "Pozo de Guadalajara",
+    "Santorcaz",
+    "Los Santos de la Humosa",
+    "Alcalá de Henares",
+    "Polígono"
+   ],
+   "provincias": [
+    "Guadalajara"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Acequia Solar, S.L.U",
+   "potencia_mw": 44.0,
+   "expediente": "PFot-602",
+   "fecha_limite": "2026-10-30",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES3110001",
+     "nombre": "Cuencas de los ríos Jarama y Henares",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000139",
+     "nombre": "Estepas cerealistas de los ríos Jarama y Henares",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4240003",
+     "nombre": "Riberas del Henares",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 36,
+   "n_aves": 17,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Carcharodus baeticus",
+     "vernacular_es": "Piquitos del marrubio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    }
+   ],
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
+  },
+  "BOE-B-2026-30099": {
+   "identificador": "BOE-B-2026-30099",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Valladolid por el que se somete a información pública la solicitud de procedimiento simplificado de autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento de energía por baterías Solaria-Tordesillas II de 19,993 MW, para su hibridación con la instalación fotovoltaica Solaria-Tordesillas II, de 49,969 MW, y su infraestructura de evacuación, en Valladolid.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30099",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30099",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30099.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Tordesillas"
+   ],
+   "provincias": [
+    "Valladolid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Planta FV101, SL",
+   "potencia_mw": 49.969,
+   "expediente": "PFot-ALM-162",
+   "fecha_limite": "2026-10-08",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4180017",
+     "nombre": "Riberas de Castronuño",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4170083",
+     "nombre": "Riberas del Río Duero y afluentes",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000362",
+     "nombre": "La Nava-Rueda",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 19,
+   "n_aves": 9,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cerambyx cerdo",
+     "vernacular_es": "Gran capricornio de las encinas",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Miniopterus schreibersii",
+     "vernacular_es": "Murciélago de Cueva",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
+  },
+  "BOE-B-2026-30100": {
+   "identificador": "BOE-B-2026-30100",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Valladolid por el que se somete a información pública la solicitud de procedimiento simplificado de autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento de energía \"Pegaso\", de 31 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica \"Pegaso Solar\", de 77,35 MW de potencia instalada, ubicada en el término municipal de Valladolid, en la provincia de Valladolid.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30100",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30100",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30100.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Valladolid"
+   ],
+   "provincias": [
+    "Valladolid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Planta FV112, SL",
+   "potencia_mw": 77.35,
+   "expediente": "PFot-111-ALM",
+   "fecha_limite": "2026-10-08",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4170083",
+     "nombre": "Riberas del Río Duero y afluentes",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4180081",
+     "nombre": "Riberas del Río Adaja y afluentes",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4140129",
+     "nombre": "Montes Torozos y Páramos de Torquemada-Astudillo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4180070",
+     "nombre": "Riberas del Río Cega",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 23,
+   "n_aves": 13,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
+  },
+  "BOE-B-2026-30102": {
+   "identificador": "BOE-B-2026-30102",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de información pública de la Confederación Hidrográfica del Segura, O.A en el procedimiento de autorización de producción de aguas regeneradas de la depuradora sita en el polígono industrial Los Camachos (Actinio, 12, parcela 158, manzana 22) del t.m. de Cartagena (Murcia). Expediente SPAR-0006/2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30102",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30102",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30102.pdf",
+   "fuente": "BOE",
+   "categoria": "agua_concesion",
+   "prioridad": 1,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cartagena"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Unidad de Recuperación de Aguas de Cartagena S.L.U",
+   "potencia_mw": null,
+   "expediente": "SPAR-0006/2026",
+   "fecha_limite": "2026-10-30",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260914_20260917.html",
+   "actualizado": "2026-09-17"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260914_20260917.html",
+   "desde": "2026-09-14",
+   "hasta": "2026-09-17",
+   "generado": "2026-09-17",
+   "n": 19
+  },
   {
    "fichero": "informes/informe_20260913_20260916.html",
    "desde": "2026-09-13",
@@ -10835,6 +11573,75 @@
    "tipo_etiqueta": "Autorización administrativa",
    "sentido": "favorable",
    "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-19403": {
+   "identificador": "BOE-A-2026-19403",
+   "fecha": "2026-09-17",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto “Proyectos básicos de filtros verdes y humedales seminaturales en el entorno del Mar Menor”.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19403",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19403",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-A-2026-19403.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 2,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Cartagena",
+    "Los Alcázares",
+    "San Javier",
+    "La Unión"
+   ],
+   "provincias": [],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "dia",
+   "tipo_etiqueta": "Declaración de impacto ambiental",
+   "sentido": "condicionada",
+   "sentido_etiqueta": "formulada con condiciones",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-30124": {
+   "identificador": "BOE-B-2026-30124",
+   "fecha": "2026-09-17",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Industria, Energía y Minas en Granada, por la que se declara, en concreto, de utilidad pública, el proyecto denominado Reforma de la Línea Aérea Alta Tensión DC Fargue–Valcaire Órgiva-Valcaire a 132 kV y nuevo apoyo T1 por conexión de la Línea Subterránea Alta Tensión de evacuación P.F.V. Virgen de las Angustias, en el término municipal de Padul (Granada).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30124",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30124",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-B-2026-30124.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Padul"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "E-7977",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "",
+   "sentido_etiqueta": "sentido no determinado",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
