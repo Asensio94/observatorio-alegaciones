@@ -7048,8 +7048,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "informe": "informes/informe_20260918_20260921.html",
+   "actualizado": "2026-09-21"
   },
   "BOE-B-2026-30163": {
    "identificador": "BOE-B-2026-30163",
@@ -7256,11 +7256,135 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "informe": "informes/informe_20260918_20260921.html",
+   "actualizado": "2026-09-21"
+  },
+  "BOE-B-2026-30456": {
+   "identificador": "BOE-B-2026-30456",
+   "fecha": "2026-09-21",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia del Área de Industria y Energía de la Subdelegación del Gobierno en Pontevedra (actuando sobre la provincia de Ourense) y de la Subdelegación del Gobierno en León por el que se somete a información pública la solicitud de Autorización Administrativa Previa y el Estudio de Impacto Ambiental del Parque eólico Ferromolín, de 27 MW, y su infraestructura de evacuación, en los términos municipales de Vilamartín de Valdeorras y O Barco de Valdeorras (provincia de Ourense) y Oencia (provincia de León).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30456",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30456",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/21/pdfs/BOE-B-2026-30456.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Vilamartín de Valdeorras",
+    "O Barco de Valdeorras",
+    "X y"
+   ],
+   "provincias": [
+    "Pontevedra",
+    "Ourense",
+    "León"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": 27.0,
+   "expediente": "",
+   "fecha_limite": "2026-11-03",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1120001",
+     "nombre": "Ancares - Courel",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 16,
+   "n_aves": 3,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Sylvia undata",
+     "vernacular_es": "Curruca Rabilarga",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20260918_20260921.html",
+   "actualizado": "2026-09-21"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260918_20260921.html",
+   "desde": "2026-09-18",
+   "hasta": "2026-09-21",
+   "generado": "2026-09-21",
+   "n": 3
+  },
   {
    "fichero": "informes/informe_20260916_20260919.html",
    "desde": "2026-09-16",
