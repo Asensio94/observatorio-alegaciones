@@ -7373,11 +7373,376 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260918_20260921.html",
-   "actualizado": "2026-09-21"
+   "informe": "informes/informe_20260919_20260922.html",
+   "actualizado": "2026-09-22"
+  },
+  "BOE-B-2026-30625": {
+   "identificador": "BOE-B-2026-30625",
+   "fecha": "2026-09-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Castilla-La Mancha, por el que se somete a Información Pública el documento para Información Pública de la conexión provisional inicial del proyecto de trazado: Autovía A-32 Linares - Albacete. Tramo: Robledo - Enlace con la CM-313. Clave: 12-AB-4530.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30625",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30625",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-B-2026-30625.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Albacete"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-04",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260919_20260922.html",
+   "actualizado": "2026-09-22"
+  },
+  "BOE-B-2026-30628": {
+   "identificador": "BOE-B-2026-30628",
+   "fecha": "2026-09-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio del Administrador de Infraestructuras Ferroviarias por el que se somete a información pública a efectos de declaración de la necesidad de ocupación el Proyecto modificado nº 1 del proyecto de construcción de la ampliación de la red de cercanías de Madrid hasta Soto del Real. Fase 1. Infraestructura, vía y línea aérea de contacto.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30628",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30628",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-B-2026-30628.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Colmenar Viejo"
+   ],
+   "provincias": [
+    "Madrid"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-04",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 33,
+   "n_aves": 16,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Geronticus eremita",
+     "vernacular_es": "Ibis eremita",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Saga pedo",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Squalius pyrenaicus",
+     "vernacular_es": "Cacho",
+     "categoria_uicn": "VU",
+     "class": null
+    }
+   ],
+   "informe": "informes/informe_20260919_20260922.html",
+   "actualizado": "2026-09-22"
+  },
+  "BOE-B-2026-30630": {
+   "identificador": "BOE-B-2026-30630",
+   "fecha": "2026-09-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área Funcional de Industria y Energía de la Delegación del Gobierno en Madrid, por el que se somete a información pública la Solicitud de la Autorización Administrativa Previa para las modificaciones del proyecto, así como la Autorización Administrativa de Construcción para las modificaciones de los proyectos y Declaración de Utilidad Pública de la subestación ST Grillete 220/30 kV, la subestación ST Noguera 220 kV, la infraestructura de evacuación L/220 kV Noguera – AP157, la infraestructura de evacuación L/220 kV AP157 – ST San Fernando Renovables, la subestación ST San Fernando Renovables 400/220 kV, y la infraestructura de evacuación L/400 kV ST San Fernando Renovables – ST San Fernando REE. Exp.: PFOT-208.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30630",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30630",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-B-2026-30630.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Pozuelo del Rey",
+    "Torres de la Alameda",
+    "San Fernando de Henares",
+    "Polígono"
+   ],
+   "provincias": [
+    "Madrid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Grillete Solar S.L.U",
+   "potencia_mw": 210.0,
+   "expediente": "PFOT-208",
+   "fecha_limite": "2026-11-04",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 20,
+   "n_aves": 13,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Carcharodus baeticus",
+     "vernacular_es": "Piquitos del marrubio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260919_20260922.html",
+   "actualizado": "2026-09-22"
+  },
+  "BOE-B-2026-30631": {
+   "identificador": "BOE-B-2026-30631",
+   "fecha": "2026-09-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Extremadura, por el que se somete a información pública la solicitud de Modificación de Autorización Administrativa Previa, Declaración de Utilidad Pública, y Autorización Administrativa de Construcción del proyecto Planta Solar Fotovoltaica Calzadilla de 114 MW de potencia instalada fotovoltaica e infraestructura de evacuación, con punto de conexión a la red eléctrica en la subestación de transporte Zarzón (Pinofranqueado) 400 kV, en los términos municipales de Calzadilla (Cáceres) y Guijo de Coria (Cáceres), promovido por Proyecto Fotovoltaico Calzadilla, S.L.U. Exp.: PFot - 1126.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30631",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30631",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-B-2026-30631.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Calzadilla",
+    "Guijo de Coria",
+    "Polígono"
+   ],
+   "provincias": [
+    "Cáceres"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Proyecto Fotovoltaico Calzadilla, SLU",
+   "potencia_mw": 114.0,
+   "expediente": "PFot-1126",
+   "fecha_limite": "2026-11-04",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 23,
+   "n_aves": 16,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Cobitis vettonica",
+     "vernacular_es": "Colmilleja del Alagón",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260919_20260922.html",
+   "actualizado": "2026-09-22"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260919_20260922.html",
+   "desde": "2026-09-19",
+   "hasta": "2026-09-22",
+   "generado": "2026-09-22",
+   "n": 5
+  },
   {
    "fichero": "informes/informe_20260918_20260921.html",
    "desde": "2026-09-18",
@@ -12082,6 +12447,109 @@
    "promotor": "Redexis Infraestructuras",
    "potencia_mw": null,
    "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-30637": {
+   "identificador": "BOE-B-2026-30637",
+   "fecha": "2026-09-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de la Dirección General de Política Energética y Minas por la que se otorga a Redexis Infraestructuras, S.L. autorización administrativa y aprobación del Proyecto de nueva posición sobre el gasoducto Linares-Villacarrillo para inyección de biometano en el término municipal de Úbeda (Jaén).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30637",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30637",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-B-2026-30637.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrocarburos_gas",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Úbeda"
+   ],
+   "provincias": [
+    "Jaén"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Redexis Infraestructuras",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-30660": {
+   "identificador": "BOE-B-2026-30660",
+   "fecha": "2026-09-22",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por la que se declara, en concreto, de utilidad pública, el proyecto denominado «Cierre de LMT línea Campo_Cama 20 kv subestación Jabalcón con línea Castril 20 kv subestación Baza entre el apoyo nº 1 y el apoyo nº 28, Parajes la Granja, Cortijo Grande, Hoyas de Luna, Cortijo Nuevo y LLano Pozos», T.M. de Baza y Benamaurel (Granada).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30660",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30660",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-B-2026-30660.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Baza",
+    "Benamaurel"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "E-5316",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "",
+   "sentido_etiqueta": "sentido no determinado",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-30661": {
+   "identificador": "BOE-B-2026-30661",
+   "fecha": "2026-09-22",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+   "titulo": "Resolución del Servicio de Ordenación Industrial, Energética y Minera, de la Dirección General de Industria, Energía y Minas, por la que se declara en concreto de utilidad pública las instalaciones correspondientes al proyecto denominado Nuevo centro de transformación 201028 CT28MO Aparcamiento y línea subterránea de MT de unión entre los CT 201001, 201012 y 201002. Término Municipal: Monesterio. Expediente: 06AT-14208-18536.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30661",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30661",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-B-2026-30661.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 0,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Monesterio"
+   ],
+   "provincias": [
+    "Sevilla"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "06AT-14208-18536",
    "fecha_limite": "",
    "plazo_estimado": false,
    "tipo": "autorizacion",
