@@ -7373,8 +7373,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260919_20260922.html",
-   "actualizado": "2026-09-22"
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
   },
   "BOE-B-2026-30625": {
    "identificador": "BOE-B-2026-30625",
@@ -7405,8 +7405,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20260919_20260922.html",
-   "actualizado": "2026-09-22"
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
   },
   "BOE-B-2026-30628": {
    "identificador": "BOE-B-2026-30628",
@@ -7435,7 +7435,28 @@
    "plazo_estimado": true,
    "geolocalizado": true,
    "municipios_no_resueltos": [],
-   "natura": [],
+   "natura": [
+    {
+     "sitecode": "ES3110004",
+     "nombre": "Cuenca del río Manzanares",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES3110003",
+     "nombre": "Cuenca del río Guadalix",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000011",
+     "nombre": "Monte de El Pardo",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000012",
+     "nombre": "Soto de Viñuelas",
+     "tipo": "ZEPA"
+    }
+   ],
    "n_especies": 33,
    "n_aves": 16,
    "especies_top": [
@@ -7512,8 +7533,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260919_20260922.html",
-   "actualizado": "2026-09-22"
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
   },
   "BOE-B-2026-30630": {
    "identificador": "BOE-B-2026-30630",
@@ -7545,7 +7566,23 @@
    "plazo_estimado": false,
    "geolocalizado": true,
    "municipios_no_resueltos": [],
-   "natura": [],
+   "natura": [
+    {
+     "sitecode": "ES3110006",
+     "nombre": "Vegas, cuestas y páramos del sureste de Madrid",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000142",
+     "nombre": "Cortados y cantiles de los ríos Jarama y Manzanares",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES3110001",
+     "nombre": "Cuencas de los ríos Jarama y Henares",
+     "tipo": "LIC/ZEC"
+    }
+   ],
    "n_especies": 20,
    "n_aves": 13,
    "especies_top": [
@@ -7622,8 +7659,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260919_20260922.html",
-   "actualizado": "2026-09-22"
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
   },
   "BOE-B-2026-30631": {
    "identificador": "BOE-B-2026-30631",
@@ -7654,7 +7691,18 @@
    "plazo_estimado": false,
    "geolocalizado": true,
    "municipios_no_resueltos": [],
-   "natura": [],
+   "natura": [
+    {
+     "sitecode": "ES4320061",
+     "nombre": "Arroyos Patana y Regueros",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000071",
+     "nombre": "Llanos de Cáceres y Sierra de Fuentes",
+     "tipo": "ZEPA"
+    }
+   ],
    "n_especies": 23,
    "n_aves": 16,
    "especies_top": [
@@ -7731,11 +7779,420 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260919_20260922.html",
-   "actualizado": "2026-09-22"
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
+  },
+  "BOE-B-2026-30717": {
+   "identificador": "BOE-B-2026-30717",
+   "fecha": "2026-09-23",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Huelva referente al trámite de información pública, relativo a la solicitud presentada por la mercantil Moeve, S.A. de una concesión administrativa en la zona de servicio del Puerto de Huelva.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30717",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30717",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/23/pdfs/BOE-B-2026-30717.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Huelva",
+    "Palos de la Frontera"
+   ],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-22",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000025",
+     "nombre": "Marismas del Odiel",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150014",
+     "nombre": "Marismas y Riberas del Tinto",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150029",
+     "nombre": "Estuario del Río Tinto",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150004",
+     "nombre": "Lagunas de Palos y Las Madres",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150003",
+     "nombre": "Estero de Domingo Rubio",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150013",
+     "nombre": "Dunas del Odiel",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000501",
+     "nombre": "Espacio marino del Tinto y del Odiel",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000024",
+     "nombre": "Doñana",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150012",
+     "nombre": "Dehesa del Estero y Montes de Moguer",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150017",
+     "nombre": "Marisma de Las Carboneras",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 30,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Tringa flavipes",
+     "vernacular_es": "\"Patiamarillo Menor, Chorlo Chico\"",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
+  },
+  "BOE-B-2026-30740": {
+   "identificador": "BOE-B-2026-30740",
+   "fecha": "2026-09-23",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia para la información pública relativa a la recuperación posesoria de oficio del dominio público marítimo-terrestre ocupado por embarcación, velero, de unos 11 metros de eslora, varado a unos 15 metros de la orilla en playa La Llana, en T.M de San Pedro del Pinatar (Murcia). Referencia REP01.26.30.0004.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30740",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30740",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/23/pdfs/BOE-B-2026-30740.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Pedro del Pinatar"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-05",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000175",
+     "nombre": "Salinas y Arenales de San Pedro del Pinatar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200030",
+     "nombre": "Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000260",
+     "nombre": "Mar Menor",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200029",
+     "nombre": "Franja Litoral Sumergida de la Región de Murcia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000508",
+     "nombre": "Espacio marino de Tabarca-Cabo de Palos",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 33,
+   "n_aves": 28,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Clangula hyemalis",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Limnodromus griseus",
+     "vernacular_es": "Agujeta Común",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
+  },
+  "BOE-B-2026-30746": {
+   "identificador": "BOE-B-2026-30746",
+   "fecha": "2026-09-23",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Universidad, Industria, Energía e Innovación en Sevilla, por el que se somete a información pública la petición realizada por la mercantil Green Ric Energy, s.l.u, por la que se solicita la modificación de la autorización administrativa previa y de construcción, así como la declaración en concreto de utilidad pública para la hibridación mediante almacenamiento con baterías BESS de la instalación de generación denominada \"HSF híbrida Greencar 3\", ubicada en el término municipal de Carmona (Sevilla). Exp. 280.523.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30746",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-30746",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/23/pdfs/BOE-B-2026-30746.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrogeno_baterias",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Carmona",
+    "Paraje"
+   ],
+   "provincias": [
+    "Sevilla"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Green Ric Energy, S. L. U. (B88155494)",
+   "potencia_mw": 45.635,
+   "expediente": "280.523",
+   "fecha_limite": "2026-11-05",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Paraje"
+   ],
+   "natura": [],
+   "n_especies": 28,
+   "n_aves": 16,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Mauremys reevesii",
+     "vernacular_es": "Galápago chino",
+     "categoria_uicn": "EN",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Potomida littoralis",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Sabaterpia hispanica",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20260920_20260923.html",
+   "actualizado": "2026-09-23"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260920_20260923.html",
+   "desde": "2026-09-20",
+   "hasta": "2026-09-23",
+   "generado": "2026-09-23",
+   "n": 8
+  },
   {
    "fichero": "informes/informe_20260919_20260922.html",
    "desde": "2026-09-19",
