@@ -119,6 +119,50 @@ plazo abierto de lo cerrado, y mantiene lo cerrado a la vista porque el patrón 
 expediente suelto: el mismo tramo de costa aparece una y otra vez, y la autorización, cuando llega, sí se
 puede recurrir.
 
+## Después del sí: qué se cumple de cada declaración
+
+Una declaración de impacto ambiental favorable no es el final del expediente: es una lista de obligaciones.
+El módulo `condicionado.py` lee las resoluciones de la Dirección General de Calidad y Evaluación Ambiental
+en la sección III del BOE (desde 2022) y, de cada una, extrae:
+
+- **tipo y sentido**: declaración, informe de impacto ambiental (evaluación simplificada) o modificación de
+  condiciones; favorable con condiciones, desfavorable, favorable en parte o sin efectos significativos. Las
+  correcciones de errores no son fichas: se anotan en la resolución a la que corrigen.
+- **promotor, órgano sustantivo y provincias**, desde los antecedentes y el título.
+- **el condicionado troceado**: cada condición con su número, el factor ambiental al que se refiere, el
+  bloque (condiciones generales, medidas, programa de vigilancia), unos temas (avifauna, quirópteros,
+  seguimiento de mortalidad, agua, suelo, paisaje…) y si obliga a **entregar** algo: informes, planes,
+  estudios o comunicaciones que alguien debería poder pedir después.
+- **la vigencia**: cuatro años desde la publicación para empezar la ejecución (art. 43.1 de la Ley 21/2013;
+  art. 47.4 para los informes de impacto ambiental), prorrogables otros dos. La base no sabe si la obra ha
+  empezado: la fecha es la de caducidad **si no ha empezado**, y es justo lo que hay que preguntar.
+- **las modificaciones**, enlazadas con la declaración original cuando esta es de 2022 o posterior.
+
+Con eso genera, para cada declaración con condiciones, una **solicitud de acceso a la información
+ambiental** (Ley 27/2006) lista para firmar, en dos versiones: al órgano sustantivo, que es quien vigila el
+cumplimiento (art. 52 de la Ley 21/2013), pidiendo la autorización, el inicio de obras, los informes de
+seguimiento con su listado de comprobación, los documentos que el condicionado exige y, si lo hay, el
+seguimiento de mortalidad de fauna; y al órgano ambiental, por la vigencia, las prórrogas y las
+modificaciones. El plazo de respuesta es de un mes (art. 10.2.c), ampliable a dos si se justifica.
+
+```bash
+python -m observatorio.cli condicionado --days 8                     # lo que entra cada día (Actions)
+python -m observatorio.cli condicionado --desde 2022-01-01 --sin-web # relleno histórico
+python -m observatorio.cli solicitud BOE-A-2025-19771 --a sustantivo --salida escudo.txt
+python -m observatorio.cli solicitud BOE-A-2025-19771 --presentada 2026-09-24 --registro REGAGE…
+python -m observatorio.cli mis-solicitudes                           # cuándo vence el mes de cada una
+```
+
+La página [Después del sí](https://asensio94.github.io/observatorio-alegaciones/condicionado.html) filtra
+por tipo, sentido, categoría, provincia y tema, marca lo que caduca en los próximos doce meses y abre cada
+declaración con su condicionado y sus dos solicitudes. La base completa está en `docs/datos/condicionado/`
+(un JSON por resolución más `indice.json`), para quien quiera usarla sin la página.
+
+**Límites.** Solo el BOE, que recoge lo que evalúa el Ministerio. Lo autonómico va en cada boletín: el del
+BOC de Cantabria y el BOCYL están pendientes. El troceado sigue la numeración de cada resolución, que no
+es uniforme; en unas pocas el texto no trae epígrafe de condiciones reconocible y salen sin condiciones.
+Los registros de solicitudes presentadas (`data/mis_solicitudes.json`) no se versionan.
+
 ## Uso local
 
 ```bash
@@ -153,6 +197,8 @@ observatorio/
   species.py   especies amenazadas (GBIF)
   report.py    informe HTML por rango de fechas: mapa folium + fichas
   litoral.py   vertical del litoral: costas, servidumbre, planeamiento y suelo turístico
+  condicionado.py  «Después del sí»: DIA del BOE, condicionado troceado, vigencia y solicitudes Ley 27/2006
+  condicionado_web.py  página docs/condicionado.html (tabla, filtros y ficha de cada declaración)
   site.py      estado acumulado (data/estado.json) y web estática (docs/)
   cli.py       punto de entrada
 data/

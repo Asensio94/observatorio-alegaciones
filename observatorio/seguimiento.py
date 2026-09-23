@@ -62,18 +62,20 @@ _POSITIVO = re.compile(
     re.I,
 )
 _ARCHIVO = re.compile(
-    r"desistimiento|caducidad\s+d[eo]l?\s+(?:expediente|procedimiento|solicitud)|se\s+archiva|archivo\s+d[eo]l?\s+expediente",
+    r"desistimiento|caducidad\s+d[eo]l?\s+(?:expediente|procedimiento|solicitud)|se\s+archiva|archivo\s+d[eo]l?\s+expediente|"
+    r"archivar\s+(?:el\s+)?expediente",
     re.I,
 )
 # Fallos propios de la evaluación ambiental. Una declaración de impacto ambiental del Estado
 # normalmente no dice "favorable": se formula con condiciones, y solo se califica cuando es negativa.
 _AMB_DESFAVORABLE = re.compile(
-    r"(?:declaraci[oó]n|informe)\s+de\s+impacto\s+ambiental\s+desfavorable|(?:formula|formular|emitir)[^.]{0,70}desfavorable",
+    r"(?:declaraci[oó]n|informe)\s+de\s+impacto\s+ambiental\s+desfavorable|\b(?:formula|formular|emitir)\b[^.]{0,70}\bdesfavorable\b",
     re.I,
 )
 _AMB_A_ORDINARIA = re.compile(
     r"deb(?:e|er[aá])\s+someterse\s+a\s+(?:una\s+)?evaluaci[oó]n\s+de\s+impacto\s+ambiental\s+ordinaria|"
-    r"someterse\s+al\s+procedimiento\s+de\s+evaluaci[oó]n\s+de\s+impacto\s+ambiental\s+ordinaria",
+    r"someterse\s+al\s+procedimiento\s+de\s+evaluaci[oó]n\s+de\s+impacto\s+ambiental\s+ordinaria|"
+    r"es\s+necesario\s+el\s+sometimiento\s+al\s+procedimiento\s+de\s+evaluaci[oó]n\s+(?:de\s+impacto\s+)?ambiental\s+ordinaria",
     re.I,
 )
 _AMB_SIN_EFECTOS = re.compile(
@@ -81,6 +83,32 @@ _AMB_SIN_EFECTOS = re.compile(
     r"(?:adversos\s+)?significativos|no\s+tiene\s+efectos\s+(?:adversos\s+)?significativos",
     re.I,
 )
+# El informe de impacto ambiental del Estado resuelve "que no es necesario el sometimiento al
+# procedimiento de evaluación ambiental ordinaria", y antes cita el art. 47 con la alternativa contraria.
+_AMB_NO_ORDINARIA = re.compile(
+    # Cantabria: "NO se considera necesario someter este proyecto a la tramitación de evaluación de
+    # impacto ambiental ordinaria".
+    r"no\s+(?:es\s+|resulta\s+|se\s+considera\s+|considera\s+)?(?:necesario|procede)\s+(?:el\s+)?"
+    r"somet(?:imiento|er(?:lo|se)?)\b[^.]{0,80}?evaluaci[oó]n\s+(?:de\s+impacto\s+)?ambiental\s+ordinaria",
+    re.I,
+)
+# Cantabria abre sus informes enumerando las tres salidas del art. 47 (a, b, c): no es el fallo.
+_ENUMERACION_47 = re.compile(
+    r"a\)\s+el\s+proyecto\s+debe\s+someterse.*?\n\s*c\)[^\n]*|si\s+debe,?\s+o\s+no,?\s+someterse[^.]*", re.I | re.S
+)
+# El párrafo que resuelve: el cuerpo repite el vocabulario de todas las alternativas (análisis de
+# criterios, citas legales), así que el sentido se busca primero ahí.
+_FALLO = re.compile(
+    r"(?:Direcci[oó]n\s+General|Consejer[ií]a|[oó]rgano\s+ambiental|Viceconsejer[ií]a)[^.]{0,250}?"
+    r"(?:\bresuelve\b|\bformula\b|\bacuerda\b)|\bRESUELV[EO]\b|En\s+(?:su\s+)?virtud,?\s+(?:esta|este|se)\b",
+)
+
+
+def _fallo(cuerpo: str) -> str:
+    ms = list(_FALLO.finditer(cuerpo))
+    return cuerpo[ms[-1].start():ms[-1].start() + 2500] if ms else ""
+
+
 # Sentidos que dejan al proyecto en condiciones de seguir adelante, y los que lo frenan.
 SENTIDOS_VERDES = ("favorable", "condicionada", "sin_eia")
 SENTIDOS_ROJOS = ("desfavorable", "denegada", "caducidad")
@@ -176,15 +204,37 @@ def sentido(a: Anuncio, tipo: str = "") -> tuple[str, str]:
     cuerpo = a.texto
     if not cuerpo:
         return "", "sentido no determinado"
-    if _ARCHIVO.search(cuerpo[:3000]):
+    fallo = _fallo(cuerpo) if tipo in ("dia", "iia", "ambiental_otro") else ""
+    # Los antecedentes cuentan desistimientos de procedimientos anteriores del mismo proyecto: si hay
+    # párrafo resolutorio, el archivo se busca solo en él.
+    if _ARCHIVO.search(fallo[:1500] if fallo else cuerpo[:3000]):
         return "caducidad", "desistida o archivada"
     if tipo in ("dia", "iia", "ambiental_otro"):
+        if fallo:
+            if _AMB_DESFAVORABLE.search(fallo):
+                return "desfavorable", "desfavorable"
+            # En una DIA, "no se prevén efectos significativos" describe el proyecto con las condiciones
+            # puestas. Pero el BOE titula a veces "declaración" lo que es un informe de evaluación
+            # simplificada, y entonces el fallo dice expresamente que no hace falta la ordinaria.
+            if _AMB_NO_ORDINARIA.search(fallo) or (tipo != "dia" and _AMB_SIN_EFECTOS.search(fallo)):
+                return "sin_eia", "sin efectos significativos, no se somete a evaluación ordinaria"
+            if _AMB_A_ORDINARIA.search(fallo):
+                return "a_ordinaria", "obligado a evaluación de impacto ambiental ordinaria"
+        cuerpo = _ENUMERACION_47.sub(" ", cuerpo)
+        if tipo == "dia":
+            return ("desfavorable", "desfavorable") if _AMB_DESFAVORABLE.search(cuerpo) else (
+                "condicionada", "formulada con condiciones")
+        if _AMB_NO_ORDINARIA.search(cuerpo):
+            return "sin_eia", "sin efectos significativos, no se somete a evaluación ordinaria"
         if _AMB_DESFAVORABLE.search(cuerpo):
             return "desfavorable", "desfavorable"
         if _AMB_A_ORDINARIA.search(cuerpo):
             return "a_ordinaria", "obligado a evaluación de impacto ambiental ordinaria"
         if _AMB_SIN_EFECTOS.search(cuerpo):
             return "sin_eia", "sin efectos significativos, no se somete a evaluación ordinaria"
+        if tipo == "iia":
+            # El BOC a veces publica solo el encabezado del informe, sin el fallo.
+            return "", "sentido no determinado"
         return "condicionada", "formulada con condiciones"
     if _NEGATIVO.search(cuerpo[:2500]):
         return "denegada", "denegada"

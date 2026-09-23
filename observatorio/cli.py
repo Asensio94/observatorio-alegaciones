@@ -357,5 +357,98 @@ def mis_alegaciones():
     )
 
 
+@app.command("condicionado")
+def cmd_condicionado(
+    days: int = typer.Option(8, help="Días hacia atrás desde --hasta (incluidos)"),
+    hasta: str = typer.Option(None, help="Fecha final YYYY-MM-DD (por defecto hoy)"),
+    desde: str = typer.Option(None, help="Fecha inicial YYYY-MM-DD; si se da, manda sobre --days (relleno histórico)"),
+    sin_web: bool = typer.Option(False, help="No regenerar docs/condicionado.html"),
+):
+    """Después del sí: DIA del BOE con su condicionado troceado, vigencia y solicitud de información modelo."""
+    from datetime import timedelta
+
+    from . import condicionado, condicionado_web
+
+    fin = date.fromisoformat(hasta) if hasta else date.today()
+    if desde:
+        ini = date.fromisoformat(desde)
+        dias = [ini + timedelta(days=i) for i in range((fin - ini).days + 1)]
+    else:
+        dias = boe.business_days_back(fin, days)
+    fichas, nuevas = condicionado.actualizar(dias, aviso=lambda s: console.print(f"[yellow]{s}[/yellow]"))
+    n_cond = sum(len(f["condiciones"]) for f in fichas.values())
+    console.print(f"[green]Condicionado:[/green] {len(fichas)} resoluciones ({nuevas} nuevas) · {n_cond} condiciones")
+    if not sin_web:
+        console.print(f"[green]Web:[/green] {condicionado_web.generar_web(DOCS_DIR)}")
+
+
+# Registro privado de solicitudes de información presentadas (no se versiona, como mis_alegaciones.json).
+MIS_SOLICITUDES_PATH = DATA_DIR / "mis_solicitudes.json"
+
+
+@app.command("solicitud")
+def cmd_solicitud(
+    identificador: str = typer.Argument(..., help="Identificador BOE de la DIA, p. ej. BOE-A-2022-16172"),
+    a: str = typer.Option("sustantivo", "--a", help="Destinatario: sustantivo o ambiental"),
+    salida: str = typer.Option(None, help="Fichero donde escribir el texto (por defecto, pantalla)"),
+    presentada: str = typer.Option(None, help="Fecha YYYY-MM-DD en que se registró: la anota en el registro privado"),
+    registro: str = typer.Option("", help="Número de registro de entrada, si se tiene"),
+):
+    """Redacta la solicitud de información ambiental de una DIA y, si ya se presentó, la anota."""
+    import json
+    from pathlib import Path
+
+    from . import condicionado
+
+    if a not in ("sustantivo", "ambiental"):
+        raise typer.BadParameter("--a debe ser sustantivo o ambiental")
+    ruta = condicionado.DATOS_DIR / f"{identificador}.json"
+    if not ruta.exists():
+        console.print(f"[red]{identificador} no está en la base. Ejecuta antes `condicionado`.[/red]")
+        raise typer.Exit(1)
+    f = json.loads(ruta.read_text(encoding="utf-8"))
+    texto = condicionado.solicitud(f, a)
+    if salida:
+        Path(salida).write_text(texto, encoding="utf-8")
+        console.print(f"[green]Escrita en {salida}[/green]")
+    else:
+        console.print(texto, markup=False, highlight=False)
+    if presentada:
+        reg = json.loads(MIS_SOLICITUDES_PATH.read_text(encoding="utf-8")) if MIS_SOLICITUDES_PATH.exists() else []
+        reg.append({
+            "identificador": identificador, "proyecto": f.get("proyecto", ""), "destinatario": a,
+            "organo": f.get("organo_sustantivo", "") if a == "sustantivo" else condicionado.ORGANO_AMBIENTAL,
+            "presentada": presentada, "registro": registro, "respuesta": "", "notas": "",
+        })
+        MIS_SOLICITUDES_PATH.write_text(json.dumps(reg, ensure_ascii=False, indent=1), encoding="utf-8")
+        console.print(f"[green]Anotada en {MIS_SOLICITUDES_PATH}[/green]")
+
+
+@app.command("mis-solicitudes")
+def mis_solicitudes():
+    """Solicitudes de información presentadas: cuándo vence el mes para responder (art. 10.2.c Ley 27/2006)."""
+    import json
+
+    if not MIS_SOLICITUDES_PATH.exists():
+        console.print("[yellow]Aún no hay solicitudes anotadas. Usa `solicitud <id> --presentada AAAA-MM-DD`.[/yellow]")
+        raise typer.Exit(1)
+    hoy = date.today()
+    t = Table(title="Mis solicitudes de información ambiental")
+    for c in ("Proyecto", "Destinatario", "Presentada", "Respuesta antes de", "Estado"):
+        t.add_column(c)
+    for s in json.loads(MIS_SOLICITUDES_PATH.read_text(encoding="utf-8")):
+        p = date.fromisoformat(s["presentada"])
+        limite = p.replace(month=p.month % 12 + 1, year=p.year + (p.month == 12), day=min(p.day, 28))
+        if s.get("respuesta"):
+            estado = f"respondida {s['respuesta']}"
+        elif hoy > limite:
+            estado = "[red]plazo vencido: cabe reclamar o recurrir (art. 20)[/red]"
+        else:
+            estado = f"quedan {(limite - hoy).days} días"
+        t.add_row(s.get("proyecto", "")[:60], s.get("organo", "")[:50], s["presentada"], limite.isoformat(), estado)
+    console.print(t)
+    console.print("\nEl plazo puede ampliarse a dos meses si la Administración lo notifica por volumen o complejidad.")
+
+
 if __name__ == "__main__":
     app()

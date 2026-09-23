@@ -43,6 +43,11 @@ CSS = """
  .wrap{overflow-x:auto}
 """
 
+NAV = ('<nav><a href="index.html">Alegaciones abiertas</a><a href="seguimiento.html">Seguimiento</a>'
+       '<a href="condicionado.html">Después del sí</a><a href="litoral.html">Litoral</a>'
+       '<a href="historico.html">Histórico</a>'
+       '<a href="https://github.com/Asensio94/observatorio-alegaciones">Código y datos</a></nav>')
+
 AVISO_METODO = (
     "El cruce con Red Natura 2000 y con especies amenazadas se hace sobre el <b>término municipal completo</b>, "
     "no sobre la huella de las obras. Indica que la zona merece atención, no que el proyecto afecte al espacio protegido. "

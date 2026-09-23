@@ -44,6 +44,11 @@ jobs:
           PYTHONIOENCODING: utf-8
         run: python -m observatorio.cli litoral --days 8
 
+      - name: Después del sí (condicionado de las DIA, últimos 8 días)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m observatorio.cli condicionado --days 8
+
       - name: Publicar cambios (estado, caché y web)
         run: |
           git config user.name "observatorio-bot"

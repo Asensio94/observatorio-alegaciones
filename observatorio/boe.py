@@ -97,22 +97,53 @@ def iter_items(sumario: dict, day: date, secciones: tuple[str, ...] = ("5B",)) -
                     )
 
 
-def fetch_texto(anuncio: Anuncio) -> str:
-    """Descarga el XML del anuncio y devuelve el texto plano (cacheado)."""
-    cache = CACHE_DIR / "boe" / f"{anuncio.identificador}.txt"
-    if cache.exists():
-        return cache.read_text(encoding="utf-8")
+def _descargar(anuncio: Anuncio) -> tuple[str, dict]:
+    """Descarga el XML y guarda en caché el texto y las referencias posteriores."""
     r = SESSION.get(anuncio.url_xml, timeout=90, headers={"Accept": "application/xml"})
     r.raise_for_status()
     root = etree.fromstring(r.content)
-    texto_el = root.find(".//texto")
+    # El <texto> del documento es hijo directo de la raíz. Buscarlo con ".//texto" devuelve el primero
+    # que aparezca, y en documentos con referencias posteriores ese es la nota de <analisis>
+    # (", por Resolución de 15 de junio de 2023"), no la resolución.
+    texto_el = root.find("texto")
     if texto_el is None:
         texto = ""
     else:
         parts = [t for t in texto_el.itertext()]
         texto = re.sub(r"[ \t]+", " ", "\n".join(p.strip() for p in parts if p.strip()))
-    cache.write_text(texto, encoding="utf-8")
-    return texto
+    refs = {
+        "anulada": (root.findtext("metadatos/judicialmente_anulada") or "").strip() == "S",
+        "posteriores": [
+            {
+                "referencia": p.get("referencia", ""),
+                "relacion": (p.findtext("palabra") or "").strip(),
+                "texto": re.sub(r"\s+", " ", p.findtext("texto") or "").strip(" ,"),
+            }
+            for p in root.findall("analisis/referencias/posteriores/posterior")
+        ],
+    }
+    (CACHE_DIR / "boe" / f"{anuncio.identificador}.txt").write_text(texto, encoding="utf-8")
+    (CACHE_DIR / "boe" / f"{anuncio.identificador}.ref.json").write_text(
+        json.dumps(refs, ensure_ascii=False), encoding="utf-8"
+    )
+    return texto, refs
+
+
+def fetch_texto(anuncio: Anuncio) -> str:
+    """Descarga el XML del anuncio y devuelve el texto plano (cacheado)."""
+    cache = CACHE_DIR / "boe" / f"{anuncio.identificador}.txt"
+    if cache.exists():
+        return cache.read_text(encoding="utf-8")
+    return _descargar(anuncio)[0]
+
+
+def fetch_referencias(anuncio: Anuncio, refrescar: bool = False) -> dict:
+    """Referencias posteriores que el BOE anota en el documento (correcciones, modificaciones,
+    anulaciones judiciales). Cambian con el tiempo: `refrescar` vuelve a pedirlas."""
+    cache = CACHE_DIR / "boe" / f"{anuncio.identificador}.ref.json"
+    if cache.exists() and not refrescar:
+        return json.loads(cache.read_text(encoding="utf-8"))
+    return _descargar(anuncio)[1]
 
 
 def business_days_back(end: date, n_days: int) -> list[date]:

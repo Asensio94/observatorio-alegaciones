@@ -7,3 +7,4 @@ data/cache/boc_cantabria/
 scripts/boc_local.log
 # Registro privado de escritos propios: con qué proyectos alega uno no tiene por qué publicarse
 data/mis_alegaciones.json
+data/mis_solicitudes.json

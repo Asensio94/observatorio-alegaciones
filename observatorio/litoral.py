@@ -32,7 +32,7 @@ from .boe import Anuncio
 from .config import DATA_DIR
 from .extract import INFO_PUBLICA, _strip_accents
 from .plazos import dias_restantes
-from .report import esc, pagina
+from .report import NAV, esc, pagina
 
 SECCIONES_BOE = ("5B",)
 ESTADO_PATH = DATA_DIR / "estado_litoral.json"
@@ -443,9 +443,7 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
                       key=_lim, reverse=True)
     urgentes = [a for a in abiertos if dias_restantes(_lim(a), hoy) <= 7]
     graves = [a for a in anuncios if any(s["clave"] == "residencial_servidumbre" for s in a.get("senales", []))]
-    nav = ('<nav><a href="index.html">Alegaciones abiertas</a><a href="seguimiento.html">Seguimiento</a>'
-           '<a href="litoral.html">Litoral</a><a href="historico.html">Histórico</a>'
-           '<a href="https://github.com/Asensio94/observatorio-alegaciones">Código y datos</a></nav>')
+    nav = NAV
     cuerpo = f"""
 <div class="kpis">
  <div class="kpi"><b>{len(abiertos)}</b>trámites con plazo abierto</div>

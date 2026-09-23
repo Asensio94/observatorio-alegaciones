@@ -11,6 +11,7 @@ from .config import ESTADO_PATH
 from .plazos import dias_restantes
 from .report import (
     AVISO_METODO,
+    NAV,
     badge,
     badge_estado,
     badge_estado_sentido,
@@ -119,9 +120,7 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
     urgentes = [a for a in abiertos if dias_restantes(_lim(a), hoy) <= 7]
     ultimo_mapa = estado["informes"][0]["fichero"].replace(".html", "_mapa.html") if estado["informes"] else ""
 
-    nav = ('<nav><a href="index.html">Alegaciones abiertas</a><a href="seguimiento.html">Seguimiento</a>'
-           '<a href="litoral.html">Litoral</a><a href="historico.html">Histórico</a>'
-           '<a href="https://github.com/Asensio94/observatorio-alegaciones">Código y datos</a></nav>')
+    nav = NAV
     cuerpo = f"""
 <div class="kpis">
  <div class="kpi"><b>{len(abiertos)}</b>alegaciones abiertas</div>
