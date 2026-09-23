@@ -12139,8 +12139,8 @@
    "plazo_estimado": false,
    "tipo": "iia",
    "tipo_etiqueta": "Informe de impacto ambiental",
-   "sentido": "a_ordinaria",
-   "sentido_etiqueta": "obligado a evaluación de impacto ambiental ordinaria",
+   "sentido": "sin_eia",
+   "sentido_etiqueta": "sin efectos significativos, no se somete a evaluación ordinaria",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
@@ -12233,13 +12233,15 @@
    "categoria": "fotovoltaica",
    "prioridad": 3,
    "tramite_ambiental": false,
-   "municipios": [],
+   "municipios": [
+    "Ramiro"
+   ],
    "provincias": [
     "Valladolid"
    ],
    "plazo_dias": null,
    "promotor": "Elawan Energy Olmedo 2",
-   "potencia_mw": 49.61,
+   "potencia_mw": 50.064,
    "expediente": "",
    "fecha_limite": "",
    "plazo_estimado": false,
@@ -12759,7 +12761,10 @@
    "categoria": "fotovoltaica",
    "prioridad": 3,
    "tramite_ambiental": false,
-   "municipios": [],
+   "municipios": [
+    "Ramiro",
+    "Medina del Campo"
+   ],
    "provincias": [
     "Valladolid"
    ],
@@ -12874,8 +12879,8 @@
    "plazo_estimado": false,
    "tipo": "iia",
    "tipo_etiqueta": "Informe de impacto ambiental",
-   "sentido": "a_ordinaria",
-   "sentido_etiqueta": "obligado a evaluación de impacto ambiental ordinaria",
+   "sentido": "sin_eia",
+   "sentido_etiqueta": "sin efectos significativos, no se somete a evaluación ordinaria",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
