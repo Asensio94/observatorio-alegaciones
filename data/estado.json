@@ -7955,8 +7955,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30740": {
    "identificador": "BOE-B-2026-30740",
@@ -8088,8 +8088,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30746": {
    "identificador": "BOE-B-2026-30746",
@@ -8198,8 +8198,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30839": {
    "identificador": "BOE-B-2026-30839",
@@ -8399,8 +8399,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30850": {
    "identificador": "BOE-B-2026-30850",
@@ -8569,8 +8569,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30851": {
    "identificador": "BOE-B-2026-30851",
@@ -8685,8 +8685,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30854": {
    "identificador": "BOE-B-2026-30854",
@@ -8803,8 +8803,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30930": {
    "identificador": "BOE-B-2026-30930",
@@ -8910,8 +8910,8 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30931": {
    "identificador": "BOE-B-2026-30931",
@@ -9005,8 +9005,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30933": {
    "identificador": "BOE-B-2026-30933",
@@ -9123,8 +9123,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30959": {
    "identificador": "BOE-B-2026-30959",
@@ -9233,8 +9233,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   },
   "BOE-B-2026-30960": {
    "identificador": "BOE-B-2026-30960",
@@ -9340,11 +9340,18 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "informe": "informes/informe_20260923_20260926.html",
+   "actualizado": "2026-09-26"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260923_20260926.html",
+   "desde": "2026-09-23",
+   "hasta": "2026-09-26",
+   "generado": "2026-09-26",
+   "n": 12
+  },
   {
    "fichero": "informes/informe_20260922_20260925.html",
    "desde": "2026-09-22",
@@ -14295,6 +14302,115 @@
    "tipo_etiqueta": "Autorización administrativa",
    "sentido": "",
    "sentido_etiqueta": "sentido no determinado",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-19992": {
+   "identificador": "BOE-A-2026-19992",
+   "fecha": "2026-09-26",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la nueva subestación Saguntum 400 kV, con cinco nuevas posiciones, en Sagunto (Valencia).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19992",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19992",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-A-2026-19992.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Sagunto"
+   ],
+   "provincias": [
+    "València"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-28327",
+   "puntos": 4,
+   "motivos": [
+    "mismo promotor (Red Eléctrica de España, S.A.U, Paseo Conde de los Gaitanes 177, La Moraleja, Alcobendas, 28109 Madrid)",
+    "misma categoría (red_electrica)"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-19993": {
+   "identificador": "BOE-A-2026-19993",
+   "fecha": "2026-09-26",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la nueva subestación Moreruela 400 kV, con cinco nuevas posiciones, en Moreruela de los Infanzones y Piedrahita de Castro (Zamora), y se declara, en concreto, la utilidad pública.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19993",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19993",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-A-2026-19993.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Moreruela de los Infanzones",
+    "Piedrahita de Castro"
+   ],
+   "provincias": [
+    "Zamora"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-28327",
+   "puntos": 4,
+   "motivos": [
+    "mismo promotor (Red Eléctrica de España, S.A.U, Paseo Conde de los Gaitanes 177, La Moraleja, Alcobendas, 28109 Madrid)",
+    "misma categoría (red_electrica)"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-19994": {
+   "identificador": "BOE-A-2026-19994",
+   "fecha": "2026-09-26",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 8 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Redexis Infraestructuras, SL, autorización administrativa, aprobación del proyecto de ejecución y declaración, en concreto, de utilidad pública de las instalaciones del «Proyecto de nueva posición sobre el gasoducto “Segovia Norte” para inyección de biometano en Carbonero el Mayor (Segovia)».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19994",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-19994",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-A-2026-19994.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrocarburos_gas",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Carbonero el Mayor"
+   ],
+   "provincias": [
+    "Segovia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Redexis Infraestructuras",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
