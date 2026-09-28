@@ -8910,8 +8910,8 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20260923_20260926.html",
-   "actualizado": "2026-09-26"
+   "informe": "informes/informe_20260925_20260928.html",
+   "actualizado": "2026-09-28"
   },
   "BOE-B-2026-30931": {
    "identificador": "BOE-B-2026-30931",
@@ -9005,8 +9005,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260923_20260926.html",
-   "actualizado": "2026-09-26"
+   "informe": "informes/informe_20260925_20260928.html",
+   "actualizado": "2026-09-28"
   },
   "BOE-B-2026-30933": {
    "identificador": "BOE-B-2026-30933",
@@ -9123,8 +9123,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260923_20260926.html",
-   "actualizado": "2026-09-26"
+   "informe": "informes/informe_20260925_20260928.html",
+   "actualizado": "2026-09-28"
   },
   "BOE-B-2026-30959": {
    "identificador": "BOE-B-2026-30959",
@@ -9233,8 +9233,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260923_20260926.html",
-   "actualizado": "2026-09-26"
+   "informe": "informes/informe_20260925_20260928.html",
+   "actualizado": "2026-09-28"
   },
   "BOE-B-2026-30960": {
    "identificador": "BOE-B-2026-30960",
@@ -9340,11 +9340,310 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260923_20260926.html",
-   "actualizado": "2026-09-26"
+   "informe": "informes/informe_20260925_20260928.html",
+   "actualizado": "2026-09-28"
+  },
+  "BOE-B-2026-31419": {
+   "identificador": "BOE-B-2026-31419",
+   "fecha": "2026-09-28",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Tarragona por el que se somete a información pública la solicitud de autorización administrativa, aprobación del proyecto de ejecución y reconocimiento, en concreto, de utilidad pública de las instalaciones del proyecto denominado PCI 9.1.3. Infraestructura interior de hidrógeno en España. Tramo Tivissa-P.I. Tarragona-Planta Barcelona. Segmento Tivissa-P.I. Tarragona, en la provincia de Tarragona, y su estudio de impacto ambiental.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31419",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31419",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/28/pdfs/BOE-B-2026-31419.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrogeno_baterias",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Constantí",
+    "Móra la Nova",
+    "Tivissa",
+    "Vandellòs i l’Hospitalet de l’Infant",
+    "Pratdip",
+    "Mont-roig del Camp",
+    "Cambrils",
+    "Vinyols i els Arcs",
+    "Vila-seca",
+    "Reus",
+    "La Canonja",
+    "Tarragona",
+    "Ca-cambrils",
+    "Ci-constantí",
+    "Lc-la Canonja",
+    "Mo-mont-roig del Camp",
+    "Mn-móra la Nova",
+    "Pt-pratdip",
+    "Re-reus",
+    "Ta-tarragona",
+    "Ti-tivissa",
+    "Va-vandellòs i L'hospitalet de L'infant",
+    "Vi-vila-seca",
+    "Vñ-vinyols i Els Arcs"
+   ],
+   "provincias": [
+    "Tarragona",
+    "Barcelona"
+   ],
+   "plazo_dias": 15,
+   "promotor": "Enagás Infraestructuras de Hidrógeno, S.L.U",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-20",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Mo-mont-roig del Camp",
+    "Pt-pratdip",
+    "Re-reus",
+    "Ta-tarragona",
+    "Ti-tivissa",
+    "Vñ-vinyols i Els Arcs"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES5140009",
+     "nombre": "Tivissa-Vandellòs-Llaberia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140001",
+     "nombre": "Litoral meridional tarragoní",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140007",
+     "nombre": "Costes del Tarragonès",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140016",
+     "nombre": "Tossal de Montagut",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140010",
+     "nombre": "Riberes i Illes de l'Ebre",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140004",
+     "nombre": "Sèquia Major",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140019",
+     "nombre": "Riu Gaià",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000512",
+     "nombre": "Espacio marino del Delta de l'Ebre-Illes Columbretes",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 28,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Psittacus erithacus",
+     "vernacular_es": "Loro gris",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Puffinus yelkouan",
+     "vernacular_es": "Pardela Mediterránea",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila clanga",
+     "vernacular_es": "Aguila Moteada",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caretta caretta",
+     "vernacular_es": "Caguama",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260925_20260928.html",
+   "actualizado": "2026-09-28"
+  },
+  "BOE-B-2026-31424": {
+   "identificador": "BOE-B-2026-31424",
+   "fecha": "2026-09-28",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Galicia de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, respecto de finca situada en el tramo de costa Playa de Barraña, en el término municipal de Boiro (A Coruña).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31424",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31424",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/28/pdfs/BOE-B-2026-31424.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Boiro"
+   ],
+   "provincias": [
+    "A Coruña"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "CNC12/24/15/0001",
+   "fecha_limite": "2026-10-27",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000554",
+     "nombre": "Corredor migratorio galaico-cantábrico occidental",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 31,
+   "n_aves": 15,
+   "especies_top": [
+    {
+     "scientificName": "Myliobatis aquila",
+     "vernacular_es": "Aguila de mar",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Geronticus eremita",
+     "vernacular_es": "Ibis eremita",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Tringa flavipes",
+     "vernacular_es": "\"Patiamarillo Menor, Chorlo Chico\"",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260925_20260928.html",
+   "actualizado": "2026-09-28"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260925_20260928.html",
+   "desde": "2026-09-25",
+   "hasta": "2026-09-28",
+   "generado": "2026-09-28",
+   "n": 7
+  },
   {
    "fichero": "informes/informe_20260923_20260926.html",
    "desde": "2026-09-23",
@@ -14404,6 +14703,113 @@
    "plazo_dias": 30,
    "promotor": "Redexis Infraestructuras",
    "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-20137": {
+   "identificador": "BOE-A-2026-20137",
+   "fecha": "2026-09-28",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 2 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 19 de junio de 2026, por la que se desestima la solicitud de Maracaibo Solar, SL, de autorización administrativa previa del parque eólico «Satrebares», de 125 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Lugo y A Coruña.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20137",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20137",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/28/pdfs/BOE-A-2026-20137.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Monfero",
+    "Aranga",
+    "Curtis",
+    "Oza Cesuras",
+    "Abegondo"
+   ],
+   "provincias": [
+    "Lugo",
+    "A Coruña"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": 125.0,
+   "expediente": "PEol-910",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "denegada",
+   "sentido_etiqueta": "denegada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-20138": {
+   "identificador": "BOE-A-2026-20138",
+   "fecha": "2026-09-28",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 20 de julio de 2026, por la que se otorga a GR Bañuela Renovables, SLU, autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento Bañuela, de 21,69 MW, y su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica existente «FV Bañuela», de 49,7 MW de potencia instalada, que conforman una instalación híbrida de 50 MW de potencia instalada, en Altarejos (Cuenca).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20138",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20138",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/28/pdfs/BOE-A-2026-20138.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Altarejos"
+   ],
+   "provincias": [
+    "Cuenca"
+   ],
+   "plazo_dias": null,
+   "promotor": "GR Bañuela Renovables",
+   "potencia_mw": 50.0,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-20139": {
+   "identificador": "BOE-A-2026-20139",
+   "fecha": "2026-09-28",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 3 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 20 de julio de 2026, por la que se otorga a GR Turbón Renovables, SLU, autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento Turbón, de 21,69 MW, y su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica existente «FV Turbón», de 49,7 MW de potencia instalada, que conforman una instalación híbrida de 50 MW de potencia instalada, en Altarejos (Cuenca).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20139",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20139",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/28/pdfs/BOE-A-2026-20139.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Altarejos"
+   ],
+   "provincias": [
+    "Cuenca"
+   ],
+   "plazo_dias": null,
+   "promotor": "GR Turbón Renovables",
+   "potencia_mw": 50.0,
    "expediente": "",
    "fecha_limite": "",
    "plazo_estimado": false,

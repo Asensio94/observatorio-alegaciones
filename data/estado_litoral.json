@@ -2228,6 +2228,55 @@
    ],
    "n_especies": 40,
    "n_aves": 30
+  },
+  "BOE-B-2026-31424": {
+   "identificador": "BOE-B-2026-31424",
+   "fecha": "2026-09-28",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Galicia de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, respecto de finca situada en el tramo de costa Playa de Barraña, en el término municipal de Boiro (A Coruña).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31424",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31424",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/28/pdfs/BOE-B-2026-31424.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Boiro"
+   ],
+   "provincias": [
+    "A Coruña"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "CNC12/24/15/0001",
+   "fecha_limite": "2026-10-27",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000554"
+   ],
+   "natura_nombres": [
+    "Corredor migratorio galaico-cantábrico occidental"
+   ],
+   "n_especies": 31,
+   "n_aves": 15
   }
  }
 }
