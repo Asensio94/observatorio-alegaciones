@@ -9519,8 +9519,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   },
   "BOE-B-2026-31424": {
    "identificador": "BOE-B-2026-31424",
@@ -9632,8 +9632,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   },
   "BOE-B-2026-31549": {
    "identificador": "BOE-B-2026-31549",
@@ -9755,8 +9755,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   },
   "BOE-B-2026-31550": {
    "identificador": "BOE-B-2026-31550",
@@ -9844,8 +9844,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   },
   "BOE-B-2026-31551": {
    "identificador": "BOE-B-2026-31551",
@@ -9957,8 +9957,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   },
   "BOE-B-2026-31570": {
    "identificador": "BOE-B-2026-31570",
@@ -10037,8 +10037,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   },
   "BOE-B-2026-31585": {
    "identificador": "BOE-B-2026-31585",
@@ -10168,8 +10168,8 @@
      "class": "Squamata"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   },
   "BOE-B-2026-31586": {
    "identificador": "BOE-B-2026-31586",
@@ -10312,11 +10312,888 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260926_20260929.html",
-   "actualizado": "2026-09-29"
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
+  },
+  "BOE-B-2026-31654": {
+   "identificador": "BOE-B-2026-31654",
+   "fecha": "2026-09-30",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Andalucía por el que se somete a información pública la solicitud de autorización administrativa, aprobación del proyecto de ejecución y reconocimiento, en concreto, de utilidad pública de las instalaciones del proyecto denominado \"PCI 9.1.3. Infraestructura interior de hidrógeno en España. Tramo Huelva - Mérida, segmento Huelva - Aznalcázar\", en las provincias de Huelva y Sevilla, y su estudio de impacto ambiental. Expdte 149/2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31654",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31654",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-B-2026-31654.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrogeno_baterias",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Pilas",
+    "Palos de la Frontera",
+    "Moguer",
+    "Lucena del Puerto",
+    "Bonares",
+    "Almonte",
+    "Hinojos",
+    "Al-almonte",
+    "Bo-bonares",
+    "Hi - Hinojos",
+    "Lp-lucena del Puerto",
+    "Mg-moguer",
+    "Pl-palos de la Frontera",
+    "Pi-pilas",
+    "Vi- Villamanrique de la Condesa"
+   ],
+   "provincias": [
+    "Huelva",
+    "Sevilla"
+   ],
+   "plazo_dias": 15,
+   "promotor": "ENAGÁS INFRAESTRUCTURAS DE HIDRÓGENO, S.L.U",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-22",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Hi - Hinojos",
+    "Lp-lucena del Puerto",
+    "Mg-moguer",
+    "Pl-palos de la Frontera",
+    "Pi-pilas"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES0000024",
+     "nombre": "Doñana",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150012",
+     "nombre": "Dehesa del Estero y Montes de Moguer",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150014",
+     "nombre": "Marismas y Riberas del Tinto",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150023",
+     "nombre": "Dehesa de Torrecuadros y Arroyo de Pilas",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150004",
+     "nombre": "Lagunas de Palos y Las Madres",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150019",
+     "nombre": "Bajo Guadalquivir",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150003",
+     "nombre": "Estero de Domingo Rubio",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150021",
+     "nombre": "Corredor Ecológico del Río Tinto",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6180005",
+     "nombre": "Corredor Ecológico del Río Guadiamar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150013",
+     "nombre": "Dunas del Odiel",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150029",
+     "nombre": "Estuario del Río Tinto",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150009",
+     "nombre": "Doñana Norte y Oeste",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000501",
+     "nombre": "Espacio marino del Tinto y del Odiel",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 26,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Testudo graeca",
+     "vernacular_es": "Tortuga Mora",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Podarcis carbonelli",
+     "vernacular_es": "Lagartija de Carbonell",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    }
+   ],
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
+  },
+  "BOE-B-2026-31655": {
+   "identificador": "BOE-B-2026-31655",
+   "fecha": "2026-09-30",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Zaragoza, la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Teruel y la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Tarragona por el que se somete a información pública la solicitud de autorización administrativa, aprobación del proyecto de ejecución y reconocimiento, en concreto, de utilidad pública de las instalaciones del proyecto denominado PCI 9.1.3. INFRAESTRUCTURA INTERIOR DE HIDRÓGENO EN ESPAÑA. TRAMO ZARAGOZA-TIVISSA. SEGMENTO CASPE-TIVISSA en las provincias de Zaragoza y Teruel (Comunidad Autónoma de Aragón) y Tarragona (Comunidad Autónoma de Cataluña), y su estudio de impacto ambiental.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31655",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31655",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-B-2026-31655.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrogeno_baterias",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Caspe",
+    "Móra La Nova",
+    "Maella",
+    "Calaceite",
+    "Benissanet",
+    "Batea",
+    "Corbera d’Ebre",
+    "Caseres",
+    "Gandesa",
+    "Mora d’Ebre"
+   ],
+   "provincias": [
+    "Zaragoza",
+    "Teruel",
+    "Tarragona"
+   ],
+   "plazo_dias": 15,
+   "promotor": "ENAGÁS INFRAESTRUCTURAS DE HIDRÓGENO, S.L.U",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-10-22",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000182",
+     "nombre": "Valcuerna, Serreta Negra y Liberola",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000298",
+     "nombre": "Matarraña - Aiguabarreix",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES2430096",
+     "nombre": "Río Guadalope, Val de Fabara y Val de Pilas",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140011",
+     "nombre": "Sistema Prelitoral meridional",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2410030",
+     "nombre": "Serreta Negra",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140003",
+     "nombre": "Ribera de l'Algars",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2420099",
+     "nombre": "Sierra de Vizcuerno",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2430033",
+     "nombre": "Efesa de la Villa",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000181",
+     "nombre": "La Retuerta y saladas de Sástago",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES2430082",
+     "nombre": "Monegros",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2430097",
+     "nombre": "Río Matarranya",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5140010",
+     "nombre": "Riberes i Illes de l'Ebre",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2420118",
+     "nombre": "Río Algars",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 32,
+   "n_aves": 19,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Euchloe bazae",
+     "vernacular_es": "Azufrada Ibérica",
+     "categoria_uicn": "EN",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Potomida littoralis",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila clanga",
+     "vernacular_es": "Aguila Moteada",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Chersophilus duponti",
+     "vernacular_es": "Alondra de Dupont",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
+  },
+  "BOE-B-2026-31656": {
+   "identificador": "BOE-B-2026-31656",
+   "fecha": "2026-09-30",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Burgos por el que se somete a Información Pública la solicitud de Declaración de Impacto Ambiental y Autorización Administrativa Previa de la Instalación Fotovoltaica «Eclipse Solar» de 99,935 MW de potencia instalada, y su infraestructura de evacuación, en los términos municipales de Briviesca, Grisaleña, Berzosa de Bureba, Zuñeda y Fuentebureba, en la provincia de Burgos; promovida por la mercantil «SOLARIA Promoción y Desarrollo Fotovoltaico, S.L.U.». Código PFot-1229.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31656",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31656",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-B-2026-31656.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Briviesca",
+    "Grisaleña",
+    "Berzosa de Bureba",
+    "Zuñeda",
+    "Fuentebureba"
+   ],
+   "provincias": [
+    "Burgos"
+   ],
+   "plazo_dias": null,
+   "promotor": "peticionario: «SOLARIA Promoción y Desarrollo Fotovoltaico, S.L.U.»",
+   "potencia_mw": 99.935,
+   "expediente": "",
+   "fecha_limite": "2026-11-12",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4120073",
+     "nombre": "Riberas del Río Oca y afluentes",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4120075",
+     "nombre": "Riberas del Río Tirón y afluentes",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 18,
+   "n_aves": 10,
+   "especies_top": [
+    {
+     "scientificName": "Mustela lutreola",
+     "vernacular_es": "",
+     "categoria_uicn": "CR",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Tetrax tetrax",
+     "vernacular_es": "Sisón",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
+  },
+  "BOE-B-2026-31657": {
+   "identificador": "BOE-B-2026-31657",
+   "fecha": "2026-09-30",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Burgos por el que se somete a Información Pública la solicitud de Declaración de Impacto Ambiental y Autorización Administrativa Previa de la instalación Parque Eólico «Vientos del Cid I» de 78 MW de potencia instalada, y su infraestructura de evacuación, en los términos municipales de Villayerno Morquillas, Valle de las Navas, Hurones y Burgos, en la provincia de Burgos; promovida por la mercantil «Ener Epsilon, S.L.». código PEol-1024.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31657",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31657",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-B-2026-31657.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Villayerno Morquillas",
+    "Valle de las Navas",
+    "Hurones",
+    "Burgos"
+   ],
+   "provincias": [
+    "Burgos"
+   ],
+   "plazo_dias": null,
+   "promotor": "peticionario: «Ener Epsilon, S.L.»",
+   "potencia_mw": 78.0,
+   "expediente": "",
+   "fecha_limite": "2026-11-12",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4120072",
+     "nombre": "Riberas del Río Arlanzón y afluentes",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 33,
+   "n_aves": 17,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Psittacus erithacus",
+     "vernacular_es": "Loro gris",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Vipera aspis",
+     "vernacular_es": "Vibora áspid",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
+  },
+  "BOE-B-2026-31664": {
+   "identificador": "BOE-B-2026-31664",
+   "fecha": "2026-09-30",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Galicia de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, correspondiente con escaleras y muros de contención asociados a ascensor y acceso a playa de Lago, en el término municipal de Miño (A Coruña).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31664",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31664",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-B-2026-31664.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Miño"
+   ],
+   "provincias": [
+    "A Coruña"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "CNC12/25/15/0001",
+   "fecha_limite": "2026-10-29",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1110007",
+     "nombre": "Betanzos - Mandeo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000554",
+     "nombre": "Corredor migratorio galaico-cantábrico occidental",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 15,
+   "n_aves": 5,
+   "especies_top": [
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Haliotis tuberculata",
+     "vernacular_es": "oreja de mar",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Haematopus ostralegus",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris alpina",
+     "vernacular_es": "Correlimos Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Chioglossa lusitanica",
+     "vernacular_es": "Salamandra Rabilarga",
+     "categoria_uicn": "NT",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Calidris canutus",
+     "vernacular_es": "\"Playero Rojo, Playero Pecho Rufo\"",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Chelon labrosus",
+     "vernacular_es": "Corcón",
+     "categoria_uicn": "NT",
+     "class": null
+    }
+   ],
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
+  },
+  "BOE-B-2026-31682": {
+   "identificador": "BOE-B-2026-31682",
+   "fecha": "2026-09-30",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CANTABRIA",
+   "titulo": "Anuncio de la Dirección General de Industria, Energía y Minas de la Consejería de Industria, Empleo, Innovación y Comercio del Gobierno de Cantabria relativa a la Información pública de nueva solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública y evaluación de impacto ambiental del proyecto de ejecución del parque eólico ALSA, de 18 MW y su infraestructura de evacuación, situado en los términos municipales de Campoo de Yuso, San Miguel de Aguayo y Molledo. Expediente nº: EOL-73-2025.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31682",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31682",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-B-2026-31682.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Campoo de Yuso",
+    "San Miguel de Aguayo",
+    "Molledo",
+    "Polígono"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 30,
+   "promotor": "PARQUE EÓLICO ALSA, S.L.U. (B74449000)",
+   "potencia_mw": 20.0,
+   "expediente": "EOL-73-2025",
+   "fecha_limite": "2026-11-12",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000252",
+     "nombre": "Embalse del Ebro",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES1300016",
+     "nombre": "Sierra del Escudo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1300013",
+     "nombre": "Río y Embalse del Ebro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1300021",
+     "nombre": "Valles altos del Nansa y Saja y Alto Campoo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000191",
+     "nombre": "Embalse del Ebro",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 32,
+   "n_aves": 16,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Galemys pyrenaicus",
+     "vernacular_es": "Almizclera",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Anser erythropus",
+     "vernacular_es": "Ansar Chico",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Miniopterus schreibersii",
+     "vernacular_es": "Murciélago de Cueva",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cobitis calderoni",
+     "vernacular_es": "Lamprehuela",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20260927_20260930.html",
+   "actualizado": "2026-09-30"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260927_20260930.html",
+   "desde": "2026-09-27",
+   "hasta": "2026-09-30",
+   "generado": "2026-09-30",
+   "n": 14
+  },
   {
    "fichero": "informes/informe_20260926_20260929.html",
    "desde": "2026-09-26",
