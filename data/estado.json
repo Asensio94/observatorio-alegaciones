@@ -3629,19 +3629,19 @@
    "informe": "informes/informe_20260908_20260911.html",
    "actualizado": "2026-09-11",
    "resolucion_posible": {
-    "identificador": "BOE-A-2026-19315",
-    "fecha": "2026-09-16",
+    "identificador": "BOE-B-2026-31789",
+    "fecha": "2026-10-01",
     "tipo": "autorizacion",
     "tipo_etiqueta": "Autorización administrativa",
     "sentido": "favorable",
     "sentido_etiqueta": "favorable",
-    "titulo": "Resolución de 2 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Cabra, en el parque de 400 kV, mediante la instalación de un compensador síncrono y su posición asociada, en Cabra (Córdoba).",
-    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19315",
+    "titulo": "Resolución de la Delegación Territorial de la Consejería de Economía, Hacienda, Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se declara la Utilidad Pública del Proyecto de Reforma de LAMT denominada \"Cabra2\" a 25 kV entre los apoyos A531714 y A531668, sito en los términos municipales de Montilla y Cabra (Córdoba) y se convoca para el levantamiento de actas previas a la ocupación de las fincas afectadas. Expte.: AT 101/2021.",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31789",
     "fuente": "BOE",
-    "puntos": 4,
+    "puntos": 5,
     "motivos": [
-     "1 municipio(s) en común",
-     "coinciden: cabra, cordoba"
+     "2 municipio(s) en común",
+     "coinciden: cabra, cordoba, economia, europeos"
     ]
    }
   },
@@ -9519,8 +9519,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31424": {
    "identificador": "BOE-B-2026-31424",
@@ -9632,8 +9632,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31549": {
    "identificador": "BOE-B-2026-31549",
@@ -9755,8 +9755,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31550": {
    "identificador": "BOE-B-2026-31550",
@@ -9844,8 +9844,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31551": {
    "identificador": "BOE-B-2026-31551",
@@ -9957,8 +9957,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31570": {
    "identificador": "BOE-B-2026-31570",
@@ -10037,8 +10037,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31585": {
    "identificador": "BOE-B-2026-31585",
@@ -10168,8 +10168,8 @@
      "class": "Squamata"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31586": {
    "identificador": "BOE-B-2026-31586",
@@ -10312,8 +10312,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31654": {
    "identificador": "BOE-B-2026-31654",
@@ -10506,8 +10506,8 @@
      "class": "Squamata"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31655": {
    "identificador": "BOE-B-2026-31655",
@@ -10690,8 +10690,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31656": {
    "identificador": "BOE-B-2026-31656",
@@ -10812,8 +10812,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31657": {
    "identificador": "BOE-B-2026-31657",
@@ -10928,8 +10928,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31664": {
    "identificador": "BOE-B-2026-31664",
@@ -11046,8 +11046,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   },
   "BOE-B-2026-31682": {
    "identificador": "BOE-B-2026-31682",
@@ -11182,11 +11182,450 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20260927_20260930.html",
-   "actualizado": "2026-09-30"
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
+  },
+  "BOE-B-2026-31753": {
+   "identificador": "BOE-B-2026-31753",
+   "fecha": "2026-10-01",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete a información pública la solicitud presentada por el Ayuntamiento de Calella para la modificación sustancial de la concesión administrativa de que es titular en el faro de Calella, destinada a la instalación y gestión de un museo. Exp. 2026/001666.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31753",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31753",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-B-2026-31753.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Barcelona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "2026/001666",
+   "fecha_limite": "2026-10-30",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
+  },
+  "BOE-B-2026-31758": {
+   "identificador": "BOE-B-2026-31758",
+   "fecha": "2026-10-01",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en La Rioja por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción del proyecto de ampliación de la subestación de Santa Engracia 400 kV, en el término municipal de Santa Engracia de Jubera (La Rioja).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31758",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31758",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-B-2026-31758.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Santa Engracia de Jubera"
+   ],
+   "provincias": [
+    "La Rioja"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España, S.A.U",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-13",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [
+    "Santa Engracia de Jubera"
+   ],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
+  },
+  "BOE-B-2026-31759": {
+   "identificador": "BOE-B-2026-31759",
+   "fecha": "2026-10-01",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Huelva, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de la ampliación de la subestación Puebla de Guzmán en el parque de 400 kV con una nueva posición de interruptor y la máquina asociada (reactancia REA-1), en el término municipal de Puebla de Guzmán, provincia de Huelva. Expediente: 151/2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31759",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31759",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-B-2026-31759.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Puebla de Guzmán"
+   ],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+   "potencia_mw": null,
+   "expediente": "151/2026",
+   "fecha_limite": "2026-11-13",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6150010",
+     "nombre": "Andévalo Occidental",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6150018",
+     "nombre": "Río Guadiana y Ribera de Chanza",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 25,
+   "n_aves": 12,
+   "especies_top": [
+    {
+     "scientificName": "Alosa alosa",
+     "vernacular_es": "",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Lynx pardinus",
+     "vernacular_es": "Lince iberico",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Miniopterus schreibersii",
+     "vernacular_es": "Murciélago de Cueva",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
+  },
+  "BOE-B-2026-31783": {
+   "identificador": "BOE-B-2026-31783",
+   "fecha": "2026-10-01",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Ebro de información pública de una solicitud de revisión de autorización de vertido de aguas residuales procedentes de una empresa de comercio de maquinaria, equipos y suministros agrícolas en el término municipal de Zuera (Zaragoza). Expediente 2025-S-32.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31783",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31783",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-B-2026-31783.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Zuera"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "2025-S-32",
+   "fecha_limite": "2026-11-13",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES2430078",
+     "nombre": "Montes de Zuera",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000293",
+     "nombre": "Montes de Zuera, Castejón de Valdejasa y El Castellar",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000295",
+     "nombre": "Sierra de Alcubierre",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES2430077",
+     "nombre": "Bajo Gállego",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 33,
+   "n_aves": 23,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cobitis calderoni",
+     "vernacular_es": "Lamprehuela",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Aquila clanga",
+     "vernacular_es": "Aguila Moteada",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
+  },
+  "BOE-B-2026-31787": {
+   "identificador": "BOE-B-2026-31787",
+   "fecha": "2026-10-01",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación territorial de Economía, Hacienda y Fondos Europeos y de Industria, Energía y Minas en Málaga por el que se somete al trámite de información pública la solicitud de declaración, en concreto de utilidad pública del proyecto de la planta solar fotovoltaica denominada \"PSF Ronda 3\" y de la línea subterránea de alta tensión 30kV, para la conexión de la citada planta fotovoltaica con la SET Ronda Promotores FV (220/30kV), en el término municipal de Cañete la Real (Málaga), formulada por Cobra Concesiones, S.L. (expediente CG-870).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31787",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31787",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-B-2026-31787.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cañete la Real",
+    "Superficie a Expropiar",
+    "Longitud Zanja"
+   ],
+   "provincias": [
+    "Málaga"
+   ],
+   "plazo_dias": 30,
+   "promotor": "COBRA CONCESIONES, S.L. (CIF B84878883)",
+   "potencia_mw": null,
+   "expediente": "CG-870",
+   "fecha_limite": "2026-11-13",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Superficie a Expropiar",
+    "Longitud Zanja"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES6180011",
+     "nombre": "Río Corbones",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 26,
+   "n_aves": 15,
+   "especies_top": [
+    {
+     "scientificName": "Gyps rueppellii",
+     "vernacular_es": "Buitre moteado",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Geronticus eremita",
+     "vernacular_es": "Ibis eremita",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Squalius pyrenaicus",
+     "vernacular_es": "Cacho",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Rhinolophus mehelyi",
+     "vernacular_es": "Murciélago Mediano de Herradura",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20260928_20261001.html",
+   "actualizado": "2026-10-01"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20260928_20261001.html",
+   "desde": "2026-09-28",
+   "hasta": "2026-10-01",
+   "generado": "2026-10-01",
+   "n": 19
+  },
   {
    "fichero": "informes/informe_20260927_20260930.html",
    "desde": "2026-09-27",
@@ -16384,6 +16823,84 @@
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-31788": {
+   "identificador": "BOE-B-2026-31788",
+   "fecha": "2026-10-01",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por la que se declara, en concreto, de utilidad pública, el proyecto denominado «Cierre de LMT Línea Freila subestación Jabalcón con Línea Zújar subestación Baza entre el apoyo nº 1 y el CT 106253 CDAT. Secc. Parque Jaufi sito en los parajes Loberas, Cortijo Túnel, Llano Guadix y Loma Rul», en los términos municipales de Freila y Zújar (Granada).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31788",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31788",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-B-2026-31788.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Freila",
+    "Zújar",
+    "Referencia Catastral"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "",
+   "sentido_etiqueta": "sentido no determinado",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-31789": {
+   "identificador": "BOE-B-2026-31789",
+   "fecha": "2026-10-01",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de la Consejería de Economía, Hacienda, Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se declara la Utilidad Pública del Proyecto de Reforma de LAMT denominada \"Cabra2\" a 25 kV entre los apoyos A531714 y A531668, sito en los términos municipales de Montilla y Cabra (Córdoba) y se convoca para el levantamiento de actas previas a la ocupación de las fincas afectadas. Expte.: AT 101/2021.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31789",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-31789",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-B-2026-31789.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Montilla",
+    "Cabra",
+    "Paraje Castañía",
+    "Río Frío",
+    "Montilla y Cabra",
+    "Paraje"
+   ],
+   "provincias": [
+    "Córdoba"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-29192",
+   "puntos": 5,
+   "motivos": [
+    "2 municipio(s) en común",
+    "coinciden: cabra, cordoba, economia, europeos"
+   ],
    "firme": false
   }
  }
