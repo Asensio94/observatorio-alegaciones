@@ -100,11 +100,13 @@ def _celda_huella(a: dict) -> str:
     if not fp or not fp.get("geojson"):
         return ""
     sitios = "; ".join(esc(s["nombre"]) for s in fp["natura"][:3]) or "ninguno"
+    m2 = sum(fp["declared_m2"].values())
+    # Algunas tablas no traen superficies: un cero ahí sería un dato falso.
+    declarada = f"{_es_num(m2 / 1e4, 1)} ha declaradas en " if m2 else "superficie afectada no declarada en la tabla · "
     return (
         f"<br><small><b>En las parcelas afectadas:</b> {sitios}<br>"
         f"{fp['n_matched']} de {fp['n_parcels']} parcelas localizadas · "
-        f"{_es_num(sum(fp['declared_m2'].values()) / 1e4, 1)} ha declaradas en "
-        f"{_es_num(fp['parcels_m2'] / 1e4)} ha de parcelas · <a href='{esc(fp['geojson'])}'>GeoJSON</a></small>"
+        f"{declarada}{_es_num(fp['parcels_m2'] / 1e4)} ha de parcelas · <a href='{esc(fp['geojson'])}'>GeoJSON</a></small>"
     )
 
 
