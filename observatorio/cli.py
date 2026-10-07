@@ -8,7 +8,7 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from . import boc_cantabria, boe, extract, geo, litoral, natura, plazos, report, seguimiento, site, species
+from . import boc_cantabria, boe, extract, footprint, geo, litoral, natura, plazos, report, seguimiento, site, species
 from .config import DATA_DIR, DOCS_DIR, FUENTES
 
 app = typer.Typer(add_completion=False, help="Observatorio de alegaciones ambientales")
@@ -110,6 +110,18 @@ def run(
                     except Exception as e:  # noqa: BLE001
                         console.print(f"    [red]GBIF error: {e}[/red]")
                 console.print(f"    Natura: {len(r['natura'])} · especies amenazadas: {r['especies'].get('n_especies', '-')}")
+            if a.fuente == "BOE" and footprint.lists_affected_land(a.titulo + " " + (a.texto or "")):
+                try:
+                    fp = footprint.footprint(a.identificador, a.municipios, a.provincias)
+                    r["footprint"] = fp
+                    if fp.geometry:
+                        # Parcels are metres wide: keep the footprint almost unsimplified.
+                        r["natura_footprint"] = natura.sitios_natura(fp.shape(), tolerance=0.00005)
+                        footprint.publish(a.identificador, fp, DOCS_DIR / "datos" / "footprints")
+                    console.print(f"    Footprint: {fp.status} · {fp.n_matched}/{fp.n_parcels} parcels · "
+                                  f"Natura in footprint: {len(r.get('natura_footprint', []))}")
+                except Exception as e:  # noqa: BLE001
+                    console.print(f"    [red]Footprint error: {e}[/red]")
         else:
             console.print(f"  [dim]{a.identificador} {a.categoria} prio={a.prioridad} munis={len(a.municipios)} (sin cruce)[/dim]")
         resultados.append(r)
@@ -138,6 +150,35 @@ def run(
         )
     console.print(t)
     console.print(f"[green]Informe:[/green] {out}")
+
+
+@app.command("footprints")
+def cmd_footprints(
+    regenerate_web: bool = typer.Option(True, help="Rebuild the web after updating the state"),
+):
+    """Backfill the cadastral footprint of notices already in the state that list affected land."""
+    estado = site.cargar_estado()
+    done = 0
+    for ident, a in estado["anuncios"].items():
+        if a.get("fuente", "BOE") != "BOE" or not footprint.lists_affected_land(a.get("titulo", "")):
+            continue
+        if (a.get("footprint") or {}).get("version") == footprint.VERSION:
+            continue
+        try:
+            fp = footprint.footprint(ident, a.get("municipios", []), a.get("provincias", []))
+        except Exception as e:  # noqa: BLE001
+            console.print(f"  [red]{ident}: {e}[/red]")
+            continue
+        sites = natura.sitios_natura(fp.shape(), tolerance=0.00005) if fp.geometry else []
+        if fp.geometry:
+            footprint.publish(ident, fp, DOCS_DIR / "datos" / "footprints")
+        a["footprint"] = site.footprint_summary(ident, fp, sites)
+        done += 1
+        console.print(f"  {ident} {fp.status} {fp.n_matched}/{fp.n_parcels} parcels · Natura in footprint: {len(sites)}")
+    site.guardar_estado(estado)
+    console.print(f"[green]{done} footprints[/green]")
+    if regenerate_web:
+        site.generar_web(estado, DOCS_DIR)
 
 
 @app.command("litoral")

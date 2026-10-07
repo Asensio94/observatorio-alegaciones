@@ -19,9 +19,9 @@ _SESSION.headers.update({"User-Agent": USER_AGENT})
 _SESSION.mount("https://", HTTPAdapter(max_retries=Retry(total=4, backoff_factor=1.5, status_forcelist=[429, 500, 502, 503, 504])))
 
 
-def _esri_polygon(geom: BaseGeometry) -> dict:
+def _esri_polygon(geom: BaseGeometry, tolerance: float = 0.002) -> dict:
     """Convierte Polygon/MultiPolygon shapely en geometría Esri JSON (solo anillos exteriores + agujeros)."""
-    gj = mapping(geom.simplify(0.002, preserve_topology=True))
+    gj = mapping(geom.simplify(tolerance, preserve_topology=True))
     rings: list[list[list[float]]] = []
     if gj["type"] == "Polygon":
         polys = [gj["coordinates"]]
@@ -33,9 +33,9 @@ def _esri_polygon(geom: BaseGeometry) -> dict:
     return {"rings": rings, "spatialReference": {"wkid": 4326}}
 
 
-def sitios_natura(geom: BaseGeometry) -> list[dict]:
+def sitios_natura(geom: BaseGeometry, tolerance: float = 0.002) -> list[dict]:
     """Espacios Natura 2000 que intersectan la geometría. Devuelve lista de dicts con geometría GeoJSON."""
-    esri = _esri_polygon(geom)
+    esri = _esri_polygon(geom, tolerance)
     key = hashlib.md5(json.dumps(esri, sort_keys=True).encode()).hexdigest()[:16]
     cache = CACHE_DIR / "natura" / f"{key}.json"
     if cache.exists():

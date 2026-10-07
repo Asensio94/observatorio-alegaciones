@@ -42,12 +42,39 @@ para el Programador de tareas de Windows. Si el volcado no llega, Actions sigue 
 
 - El cruce con Natura 2000 y especies se hace con el **término municipal completo**, no con la huella
   real de las obras. Es un **filtro de atención**, no una evaluación de afección: un proyecto puede tener
-  espacios protegidos en su municipio y no tocarlos, o al revés.
+  espacios protegidos en su municipio y no tocarlos, o al revés. Cuando el anuncio trae la relación de
+  bienes y derechos afectados, se añade el cruce con la **huella catastral** (ver abajo).
 - La **fecha límite es estimada**: se cuentan días hábiles descontando festivos nacionales y, en el BOC, los
   dos autonómicos fijos de Cantabria (los locales no). Cuando
   el anuncio no indica plazo se asumen 30 días hábiles y se marca como estimado.
 - La extracción es por reglas (expresiones regulares), sin LLM. Puede fallar en municipios,
   provincias o plazos. Siempre hay enlace al anuncio original del BOE: **comprueba allí**.
+
+## Huella catastral: las parcelas que el propio anuncio declara
+
+Los anuncios de expropiación, servidumbre o necesidad de ocupación publican una tabla con cada finca
+afectada: municipio, polígono y parcela, o la referencia catastral completa. `observatorio/footprint.py`
+lee esas tablas, localiza cada parcela en el servicio INSPIRE del Catastro y une sus geometrías. Sobre esa
+huella se repite el cruce con la Red Natura 2000, que en la web aparece como «En las parcelas afectadas»
+debajo del cruce por municipio.
+
+- **Datos personales.** Las tablas traen nombre, domicilio y DNI de los titulares. Solo se leen las columnas
+  catastrales y las superficies declaradas; el resto se descarta en memoria y no se guarda ni se publica.
+- **Sobreestima.** La huella es la parcela entera. Una línea que cruza una finca de 30 ha con 400 m² de
+  servidumbre dibuja las 30 ha. Por eso se publican las dos cifras: superficie declarada y superficie de las
+  parcelas. En infraestructuras lineales la diferencia es de dos órdenes de magnitud.
+- **Territorios forales.** Navarra y el País Vasco tienen catastro propio, fuera del servicio estatal: sus
+  parcelas quedan como «forales», sin huella.
+- **Parcelas de dominio público** (9000-9999: caminos, cauces) se cuentan aparte cuando el Catastro no las dibuja.
+- Cada huella se publica en `docs/datos/footprints/<identificador>.geojson` para que otras herramientas
+  (centinela-natura) busquen obra fuera de lo autorizado.
+
+En la primera versión, sobre los 35 anuncios con relación de bienes del estado: 6.666 parcelas, el 98,7 %
+de las de catastro común localizadas, 650 forales (gasoducto de Bizkaia).
+
+```bash
+python -m observatorio.cli footprints   # calcula las que falten (se ejecuta a diario en Actions)
+```
 
 ## Seguimiento de expedientes
 
