@@ -11904,8 +11904,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   },
   "BOE-B-2026-32288": {
    "identificador": "BOE-B-2026-32288",
@@ -12032,8 +12032,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   },
   "BOE-B-2026-32296": {
    "identificador": "BOE-B-2026-32296",
@@ -12184,8 +12184,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   },
   "BOE-B-2026-32445": {
    "identificador": "BOE-B-2026-32445",
@@ -12267,8 +12267,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   },
   "BOE-B-2026-32447": {
    "identificador": "BOE-B-2026-32447",
@@ -12374,8 +12374,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   },
   "BOE-B-2026-32448": {
    "identificador": "BOE-B-2026-32448",
@@ -12519,8 +12519,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   },
   "BOE-B-2026-32451": {
    "identificador": "BOE-B-2026-32451",
@@ -12560,8 +12560,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   },
   "BOE-B-2026-32471": {
    "identificador": "BOE-B-2026-32471",
@@ -12682,11 +12682,128 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261003_20261006.html",
-   "actualizado": "2026-10-06"
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
+  },
+  "BOE-B-2026-32591": {
+   "identificador": "BOE-B-2026-32591",
+   "fecha": "2026-10-07",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+   "titulo": "Anuncio de la Dirección General de Energía del Departamento del Territorio, Vivienda y Transición Ecológica de la Generalitat de Cataluña, Servicios Territoriales en Girona, por el cual se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción, autorización del proyecto de actuación específica de interés público en suelo no urbanizable, evaluación de impacto ambiental y declaración de utilidad pública, en concreto, del proyecto de la planta solar fotovoltaica de 1.575 kW, y de la planta de almacenaje de 990 kW, ambos formando parte de la instalación híbrida denominada \"PS_PB BESS Brunyola\", sobre terreno en suelo no urbanizable, en el término municipal de Brunyola y Sant Martí Sapresa, en la provincia de Girona y su infraestructura de evacuación, líneas soterradas a 25 kV (exp. FUE-2025-04777585, ref. 03442).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32591",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32591",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-B-2026-32591.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Brunyola",
+    "Sant Martí Sapresa"
+   ],
+   "provincias": [
+    "Girona"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "FUE-2025-04777585",
+   "fecha_limite": "2026-11-19",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Sant Martí Sapresa"
+   ],
+   "natura": [],
+   "n_especies": 12,
+   "n_aves": 2,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Phyllodesma ilicifolia",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Cophopodisma pyrenaea",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261004_20261007.html",
+   "actualizado": "2026-10-07"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261004_20261007.html",
+   "desde": "2026-10-04",
+   "hasta": "2026-10-07",
+   "generado": "2026-10-07",
+   "n": 9
+  },
   {
    "fichero": "informes/informe_20261003_20261006.html",
    "desde": "2026-10-03",
@@ -18060,6 +18177,45 @@
    "tipo_etiqueta": "Autorización administrativa",
    "sentido": "favorable",
    "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-20900": {
+   "identificador": "BOE-A-2026-20900",
+   "fecha": "2026-10-07",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 25 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Modificación de características de la concesión inscrita en el registro de aguas, sección A, tomo 7, hoja 1348, por inclusión del sondeo Alguazas».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20900",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20900",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20900.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 2,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alguazas",
+    "Ceutí",
+    "Las Torres de Cotillas",
+    "Lorquí",
+    "Molina de Segura",
+    "Murcia"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "ASM-0017/2024",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "iia",
+   "tipo_etiqueta": "Informe de impacto ambiental",
+   "sentido": "sin_eia",
+   "sentido_etiqueta": "sin efectos significativos, no se somete a evaluación ordinaria",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
