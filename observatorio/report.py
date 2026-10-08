@@ -10,7 +10,8 @@ from pathlib import Path
 import folium
 from shapely.geometry import mapping, shape
 
-from .plazos import dias_restantes
+from .config import GBIF_THREAT_CATEGORIES, GBIF_YEAR_FROM
+from .plazos import FESTIVOS_NACIONALES, PLAZO_POR_DEFECTO, dias_restantes
 
 COLORES = {
     "eolica": "#d62728",
@@ -27,26 +28,63 @@ COLORES = {
     "otros": "#444444",
 }
 
-CSS = """
- html,body{background:#fff} body{font-family:system-ui,Segoe UI,Roboto,sans-serif;margin:0;padding:1.5rem;max-width:1200px;margin:auto;color:#222;color-scheme:light}
- h1{margin-bottom:.2rem} .sub{color:#666;margin-top:0} nav a{margin-right:1rem}
- .kpis{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0} .kpi{background:#f4f6f8;border-radius:8px;padding:.8rem 1.2rem;min-width:150px}
- .kpi b{font-size:1.6rem;display:block}
- table{border-collapse:collapse;width:100%;font-size:.92rem} th,td{border-bottom:1px solid #e5e5e5;padding:.35rem .5rem;text-align:left;vertical-align:top}
- table.meta th{width:240px;color:#555;font-weight:600} thead th{background:#f4f6f8}
- .ficha{border:1px solid #ddd;border-radius:10px;padding:1rem 1.2rem;margin:1.5rem 0}
- .badge{color:#fff;border-radius:6px;padding:.1rem .5rem;font-size:.8rem;vertical-align:middle;margin-right:.4rem;white-space:nowrap}
- .titulo{color:#333} .warn{color:#b26a00} .urgente{color:#c62828;font-weight:600} .cerrado{color:#888}
- .mapa iframe{width:100%;height:520px;border:0}
- .aviso{background:#fff8e1;border-left:4px solid #f9a825;padding:.6rem 1rem;margin:1rem 0;font-size:.9rem}
- footer{color:#777;font-size:.85rem;margin-top:2rem}
- .wrap{overflow-x:auto}
-"""
+# Shared look of the sibling projects: common.css is copied verbatim from the style guide and inlined
+# before this repo's own rules, so every page stays a single self-contained file.
+COMMON_CSS = (Path(__file__).resolve().parent / "common.css").read_text(encoding="utf-8")
+ACCENT_CSS = ":root{--accent:#9f1d35;--accent-dark:#f0708a}"
+FONTS_URL = (
+    "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700"
+    "&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+)
 
-NAV = ('<nav><a href="index.html">Alegaciones abiertas</a><a href="seguimiento.html">Seguimiento</a>'
-       '<a href="condicionado.html">Después del sí</a><a href="litoral.html">Litoral</a>'
-       '<a href="historico.html">Histórico</a>'
-       '<a href="https://github.com/Asensio94/observatorio-alegaciones">Código y datos</a></nav>')
+# Colours with a meaning (deadlines, warnings) stay in this repo, with a lighter variant for dark mode.
+_DARK_TOKENS = "--urgent:#f08a80;--warn:#e3a93c;--notice-bg:#2a2214;--notice-line:#b8862a;"
+CSS = (
+    ":root{--urgent:#b3261e;--warn:#9a5b00;--notice-bg:#fbf3dc;--notice-line:#c99a2e}"
+    f"@media (prefers-color-scheme: dark){{:root:not([data-theme=\"light\"]){{{_DARK_TOKENS}}}}}"
+    f":root[data-theme=\"dark\"]{{{_DARK_TOKENS}}}"
+    """
+ .site-nav{display:flex;flex-wrap:wrap;gap:4px 18px;font:600 14px/1.3 var(--font-title);text-transform:uppercase;letter-spacing:.08em}
+ .site-nav a{color:var(--muted);text-decoration:none} .site-nav a:hover{color:var(--ink)} .site-nav a[aria-current]{color:var(--accent)}
+ .figures a{text-decoration-color:var(--line)}
+ main.content{max-width:1440px;margin:0 auto;padding:0 16px 8px}
+ h2{font:700 26px/1.05 var(--font-title);text-transform:uppercase;letter-spacing:.03em;margin:28px 0 10px}
+ h3{font:600 18px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.05em}
+ .sub{color:var(--muted)}
+ table{border-collapse:collapse;width:100%;font-size:15px} th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+ thead th{background:var(--paper);font:600 13px/1.25 var(--font-title);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+ table.meta th{width:240px;color:var(--muted);font-weight:600}
+ .wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line)}
+ .ficha{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);padding:16px;margin:24px 0}
+ .ficha h2{margin-top:0} .ficha .wrap{border:0}
+ .badge{color:#fff;border:0;border-radius:2px;padding:4px 7px 3px;margin-right:.4rem;vertical-align:middle;white-space:nowrap}
+ .warn{color:var(--warn)} .urgente{color:var(--urgent);font-weight:600} .cerrado{color:var(--muted)}
+ .mapa iframe{display:block;width:100%;height:520px;border:1px solid var(--line);background:var(--paper)}
+ .aviso{background:var(--notice-bg);border-left:4px solid var(--notice-line);padding:10px 16px;margin:16px 0;font-size:15px}
+ .method ol li{margin:6px 0} .method table.params{margin:6px 0 4px}
+ @media (max-width:640px){table.meta th{width:38%} table.params th{white-space:normal} .mapa iframe{height:420px}}
+"""
+)
+
+_NAV_LINKS = [
+    ("index.html", "Alegaciones abiertas"),
+    ("seguimiento.html", "Seguimiento"),
+    ("condicionado.html", "Después del sí"),
+    ("litoral.html", "Litoral"),
+    ("historico.html", "Histórico"),
+]
+REPO_URL = "https://github.com/Asensio94/observatorio-alegaciones"
+
+
+def site_nav(current: str = "") -> str:
+    """Section links; the page being rendered is marked with aria-current."""
+    links = "".join(
+        f'<a href="{href}"{" aria-current=page" if href == current else ""}>{label}</a>' for href, label in _NAV_LINKS
+    )
+    return f'<nav class="site-nav" aria-label="Secciones">{links}<a href="{REPO_URL}">Código y datos</a></nav>'
+
+
+NAV = site_nav()
 
 AVISO_METODO = (
     "El cruce con Red Natura 2000 y con especies amenazadas se hace sobre el <b>término municipal completo</b>, "
@@ -204,13 +242,137 @@ def ficha(r: dict) -> str:
 </section>"""
 
 
-def pagina(titulo: str, sub: str, cuerpo: str, nav: str = "") -> str:
+SIBLINGS = [
+    ("observatorio-alegaciones", "Observatorio de alegaciones"),
+    ("vigia-incendios", "Vigía de incendios"),
+    ("centinela-natura", "Centinela Natura"),
+    ("vigilancia-humedales", "Vigilancia de humedales"),
+    ("sub-nocte", "Sub Nocte"),
+    ("riesgo-tendidos-aves", "Riesgo de tendidos para aves"),
+    ("grafo-promotores", "Grafo de promotores"),
+    ("cartera-cotizadas", "Cartera de las cotizadas"),
+    ("cuaderno-campo", "Cuaderno de campo"),
+]
+THIS_PROJECT = "observatorio-alegaciones"
+
+
+def _sibling_items() -> str:
+    current = ' aria-current="page"'
+    return "".join(
+        f'    <li{current if slug == THIS_PROJECT else ""}><a href="https://asensio94.github.io/{slug}/">{name}</a></li>\n'
+        for slug, name in SIBLINGS
+    )
+
+
+SITE_FOOTER = f"""<footer class="site-footer">
+  <p class="principle">Datos públicos, reglas a la vista y cada cifra enlazada a su fuente. Indicios, no veredictos.</p>
+  <p>Fuentes: BOE (datos abiertos), BOC Boletín Oficial de Cantabria (XML diario), Agencia Europea de Medio Ambiente (Natura 2000, versión 2024), GBIF (registros de animales con coordenadas desde 2005, categorías UICN), OpenStreetMap/Nominatim (límites municipales), Catastro (parcelas INSPIRE).
+  Código abierto con licencia MIT: <a href="{REPO_URL}">github.com/Asensio94/observatorio-alegaciones</a>. Datos propios con licencia CC BY 4.0; los de terceros conservan la suya.</p>
+  <nav aria-label="Proyectos hermanos"><ul class="siblings">
+{_sibling_items()}  </ul></nav>
+</footer>"""
+
+
+def _years(years) -> str:
+    ys = sorted(years)
+    return f"{ys[0]}-{ys[-1]}" if len(ys) > 1 else str(ys[0])
+
+
+# «Cómo se calcula» for the pages built from data/estado.json (open, closed and the dated reports).
+# Every statement comes from the README or from the code constants interpolated here.
+MAIN_METHOD = f"""
+<p>Cada mañana laborable se leen los anuncios de información pública del <b>BOE</b> (sección V-B) y del
+<b>Boletín Oficial de Cantabria</b> (secciones 5 y 7), se detectan proyectos con posible afección ambiental
+(eólica, fotovoltaica, líneas eléctricas, minería, infraestructuras, costas, hidráulica), se localizan sus
+municipios y se cruzan con la Red Natura 2000 y con los registros de especies animales amenazadas. El objetivo
+es que los grupos locales y las organizaciones de conservación conozcan los proyectos <b>mientras aún se puede
+alegar</b>. Proyecto abierto: el código, los datos y las mejoras están en GitHub.</p>
+<ol>
+ <li><b>Lectura.</b> A las 07:30 UTC, de lunes a sábado, se leen los anuncios de los últimos cuatro días del BOE
+  (sección V-B, «Otros anuncios oficiales») y del BOC (secciones 5 y 7). Los servidores del BOC no responden
+  desde GitHub, así que un equipo en España descarga sus anuncios y los sube al repositorio.</li>
+ <li><b>Selección.</b> Reglas escritas (expresiones regulares) separan los proyectos con posible afección
+  ambiental, les dan categoría y prioridad, y extraen municipios, provincias, plazo, promotor, potencia y
+  expediente.</li>
+ <li><b>Fecha límite.</b> Se cuentan los días hábiles del plazo desde el día siguiente a la publicación, sin
+  sábados ni domingos y descontando los festivos nacionales y, en el BOC, los dos autonómicos fijos de
+  Cantabria. Si el anuncio no dice el plazo se asumen {PLAZO_POR_DEFECTO} días hábiles y se marca como estimado.</li>
+ <li><b>Localización.</b> Cada municipio se convierte en su polígono de OpenStreetMap (Nominatim).</li>
+ <li><b>Cruces.</b> Los proyectos de prioridad 3 o más con municipios detectados se cruzan con los espacios Red
+  Natura 2000 (LIC/ZEC y ZEPA) que tocan el término municipal y con los registros GBIF de especies animales en
+  categoría UICN {", ".join(GBIF_THREAT_CATEGORIES)} desde {GBIF_YEAR_FROM}.</li>
+ <li><b>Huella catastral.</b> Si el anuncio del BOE trae la relación de bienes y derechos afectados, cada
+  parcela se localiza en el servicio INSPIRE del Catastro, se unen sus geometrías y se repite el cruce con Red
+  Natura 2000 sobre esa huella («En las parcelas afectadas»). De esas tablas solo se leen las columnas
+  catastrales y las superficies; los datos personales se descartan sin guardarse.</li>
+ <li><b>Publicación.</b> Todo se acumula en <code>data/estado.json</code> y se regeneran estas páginas. Un
+  proyecto pasa al histórico cuando su fecha límite estimada ya ha pasado.</li>
+</ol>
+<h3>Parámetros</h3>
+<table class="params">
+ <tr><th>Ventana de lectura diaria</th><td class="num">4 días</td></tr>
+ <tr><th>Plazo si el anuncio no lo dice</th><td class="num">{PLAZO_POR_DEFECTO} días hábiles</td></tr>
+ <tr><th>Festivos nacionales cargados</th><td class="num">{_years(FESTIVOS_NACIONALES)}</td></tr>
+ <tr><th>Aviso de plazo urgente</th><td class="num">7 días o menos</td></tr>
+ <tr><th>Prioridad mínima para cruzar</th><td class="num">3</td></tr>
+ <tr><th>Especies (GBIF)</th><td class="num">UICN {"/".join(GBIF_THREAT_CATEGORIES)} · desde {GBIF_YEAR_FROM}</td></tr>
+ <tr><th>Red Natura 2000</th><td class="num">versión 2024</td></tr>
+</table>
+<h3>Validación</h3>
+<p>Pendiente: no hay todavía un contraste sistemático de la detección ni de las fechas límite contra una
+lista de referencia. Sí está medida la localización de la huella catastral: en la primera versión, sobre los
+35 anuncios con relación de bienes del estado, 6.666 parcelas, de las que 650 son forales; de las de catastro
+común se localizó el 98,7 %.</p>
+<h3>Límites</h3>
+<ul>
+ <li>El cruce se hace sobre el <b>término municipal completo</b>, no sobre la huella de las obras: es un filtro
+  de atención, no una evaluación de afección.</li>
+ <li>La huella catastral es la parcela entera, así que sobreestima: por eso se dan la superficie declarada y la
+  de las parcelas. Navarra y el País Vasco tienen catastro propio y sus parcelas quedan como forales, sin huella.</li>
+ <li>Las fechas límite son orientativas: no descuentan festivos locales ni autonómicos móviles.</li>
+ <li>La extracción por reglas puede fallar en municipios, provincias o plazos. Cada fila enlaza al anuncio
+  oficial: compruébalo allí.</li>
+ <li>Solo se leen el BOE y el BOC de Cantabria; el resto de boletines autonómicos está pendiente.</li>
+</ul>
+"""
+
+
+def figures_html(figures) -> str:
+    """Key figures for the header: an iterable of (value_html, label_html)."""
+    items = "".join(f"<div><b>{value}</b><span>{label}</span></div>" for value, label in figures)
+    return f'<div class="figures">{items}</div>' if items else ""
+
+
+def pagina(titulo: str, sub: str, cuerpo: str, nav: str = "", *, heading: str | None = None,
+           figures=(), method: str = "") -> str:
+    """Whole page: header (nav, h1, lede, figures), content, «Cómo se calcula» and the shared footer.
+
+    `heading` is trusted HTML for the h1 (key word wrapped in <span>); it defaults to the escaped title.
+    """
+    method_html = (
+        f'<section class="method" aria-labelledby="como-se-calcula"><h2 id="como-se-calcula">Cómo se calcula</h2>'
+        f"{method}</section>"
+        if method else ""
+    )
     return f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(titulo)}</title><style>{CSS}</style></head><body>
-<h1>{esc(titulo)}</h1><p class="sub">{sub}</p>{nav}
+<title>{esc(titulo)}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{esc(FONTS_URL)}">
+<style>
+{COMMON_CSS}
+{ACCENT_CSS}
+{CSS}</style></head><body>
+<header class="site-header">
+{nav}
+<h1>{heading if heading is not None else esc(titulo)}</h1>
+<p class="lede">{sub}</p>
+{figures_html(figures)}
+</header>
+<main class="content">
 {cuerpo}
-<footer><p>Fuentes: BOE (datos abiertos), BOC Boletín Oficial de Cantabria (XML diario), Agencia Europea de Medio Ambiente (Natura 2000, versión 2024), GBIF (registros de animales con coordenadas desde 2005, categorías UICN), OpenStreetMap/Nominatim (límites municipales).
-Código abierto: <a href="https://github.com/Asensio94/observatorio-alegaciones">github.com/Asensio94/observatorio-alegaciones</a>.</p></footer>
+</main>
+{method_html}
+{SITE_FOOTER}
 </body></html>"""
 
 
@@ -236,24 +398,29 @@ def generar_informe(resultados: list[dict], desde: date, hasta: date, out_dir: P
         f"<td>{texto_plazo(r['anuncio'])}</td></tr>"
         for r in resultados
     )
+    figures = [
+        (len(resultados), "proyectos en información pública"),
+        (n_geo, "geolocalizados"),
+        (n_natura, "con Natura 2000 en el municipio"),
+        (sum(1 for r in resultados if r['anuncio']['tramite_ambiental']), "con trámite ambiental explícito"),
+    ]
     cuerpo = f"""
-<div class="kpis">
- <div class="kpi"><b>{len(resultados)}</b>proyectos en información pública</div>
- <div class="kpi"><b>{n_geo}</b>geolocalizados</div>
- <div class="kpi"><b>{n_natura}</b>con Natura 2000 en el municipio</div>
- <div class="kpi"><b>{sum(1 for r in resultados if r['anuncio']['tramite_ambiental'])}</b>con trámite ambiental explícito</div>
-</div>
 <div class="aviso">{AVISO_METODO}</div>
-<div class="mapa"><iframe src="{esc(mapa_file)}" loading="lazy"></iframe></div>
+<div class="mapa"><iframe src="{esc(mapa_file)}" loading="lazy" title="Mapa de los proyectos del informe"></iframe></div>
 <h2>Índice</h2>
 <div class="wrap"><table class="datos"><thead><tr><th>Anuncio</th><th>Fuente</th><th>Publicado</th><th>Categoría</th><th>EIA</th><th>Provincias</th><th>Natura (municipio)</th><th>Esp. amen.</th><th>Aves</th><th>Fecha límite (est.)</th></tr></thead><tbody>{indice}</tbody></table></div>
 {''.join(ficha(r) for r in resultados)}"""
-    nav = '<nav><a href="../index.html">← Alegaciones abiertas</a><a href="../historico.html">Histórico</a></nav>'
+    nav = ('<nav class="site-nav" aria-label="Secciones"><a href="../index.html">← Alegaciones abiertas</a>'
+           '<a href="../historico.html">Histórico</a></nav>')
     doc = pagina(
         "Observatorio de alegaciones ambientales",
-        f"Informe · BOE sección V-B · anuncios publicados entre {desde} y {hasta} · generado {date.today()}",
+        f"Informe de los anuncios de información pública publicados entre el {desde:%d/%m/%Y} y el {hasta:%d/%m/%Y} "
+        f"en el BOE (sección V-B) y el BOC de Cantabria, con mapa y ficha de cada proyecto. Generado el {date.today():%d/%m/%Y}.",
         cuerpo,
         nav,
+        heading="Observatorio de <span>alegaciones</span> ambientales",
+        figures=figures,
+        method=MAIN_METHOD,
     )
     out = out_dir / nombre
     out.write_text(doc, encoding="utf-8")

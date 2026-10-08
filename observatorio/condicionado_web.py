@@ -12,31 +12,40 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from .condicionado import ETIQUETA_TEMA, INDICE_PATH, PRORROGA_ANOS, VIGENCIA_ANOS
-from .report import COLORES, NAV, esc, pagina
+from .report import COLORES, esc, pagina, site_nav
 
-CSS_EXTRA = """
- .filtros{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;margin:1rem 0;padding:.7rem 1rem;background:#f4f6f8;border-radius:8px}
- .filtros input[type=search]{min-width:260px;padding:.35rem .5rem} .filtros select{padding:.3rem}
- .filtros label{font-size:.9rem;white-space:nowrap}
- #cuenta{color:#555;font-size:.9rem;margin:.3rem 0}
- tr.fila{cursor:pointer} tr.fila:hover td{background:#fafbfc} tr.fila:focus-visible td{outline:2px solid #1f77b4}
- td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
- .sent{border-radius:6px;padding:.05rem .45rem;font-size:.8rem;white-space:nowrap;border:1px solid}
- .s-condicionada{color:#1b5e20;border-color:#a5d6a7;background:#f1f8f1} .s-parcial{color:#6d4c00;border-color:#ffd54f;background:#fffbea}
- .s-desfavorable{color:#b71c1c;border-color:#ef9a9a;background:#fdf1f1} .s-sin_eia{color:#1a4d7a;border-color:#90caf9;background:#f0f6fc}
- .s-a_ordinaria{color:#4a148c;border-color:#ce93d8;background:#f8f0fa} .s-{color:#555;border-color:#ccc}
- .vence{color:#c62828;font-weight:600}
- #detalle{border:1px solid #ccd;border-radius:10px;padding:1rem 1.2rem;margin:1.2rem 0;background:#fff}
+# Result chips keep their meaning colours; the dark variants are lighter so they stay readable.
+_DARK_CHIPS = "--s-cond:#7cc184;--s-parc:#e3b450;--s-desf:#f08a80;--s-sin:#7fb6e6;--s-ord:#c39be0;--doc:#7fb6e6;"
+CSS_EXTRA = (
+    ":root{--s-cond:#2f6b34;--s-parc:#8a6100;--s-desf:#b3261e;--s-sin:#1d5a8a;--s-ord:#6a2d8f;--doc:#1d5a8a}"
+    f"@media (prefers-color-scheme: dark){{:root:not([data-theme=\"light\"]){{{_DARK_CHIPS}}}}}"
+    f":root[data-theme=\"dark\"]{{{_DARK_CHIPS}}}"
+    """
+ .filtros{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:16px 0;padding:12px 16px;background:var(--paper);border:1px solid var(--line)}
+ .filtros input[type=search]{min-width:260px;padding:6px 8px} .filtros select{padding:5px}
+ .filtros input,.filtros select{font:15px/1.3 var(--font-text);color:var(--ink);background:var(--ground);border:1px solid var(--line)}
+ .filtros label{font-size:15px;white-space:nowrap}
+ #cuenta{color:var(--muted);font:14px/1.4 var(--font-data);margin:6px 0}
+ tr.fila{cursor:pointer} tr.fila:hover td{background:var(--ground)} tr.fila:focus-visible td{outline:2px solid var(--accent)}
+ td.num{text-align:right;font-family:var(--font-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+ .sent{padding:1px 7px;font:600 12px/1.4 var(--font-title);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;border:1px solid;background:color-mix(in srgb,currentColor 9%,transparent)}
+ .s-condicionada{color:var(--s-cond)} .s-parcial{color:var(--s-parc)} .s-desfavorable{color:var(--s-desf)}
+ .s-sin_eia{color:var(--s-sin)} .s-a_ordinaria{color:var(--s-ord)} .s-{color:var(--muted)}
+ .vence{color:var(--urgent);font-weight:600}
+ #detalle{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);padding:16px;margin:20px 0}
  #detalle h2{margin-top:0} .conds{list-style:none;padding:0;margin:0}
- .conds li{border-top:1px solid #eee;padding:.5rem 0;font-size:.92rem;line-height:1.45}
- .conds li.entrega{border-left:3px solid #1f77b4;padding-left:.6rem}
- .conds .cab{font-weight:600;color:#333} .tag{display:inline-block;font-size:.75rem;background:#eef1f4;color:#333;border-radius:4px;padding:0 .35rem;margin:0 .25rem .15rem 0}
- .tag.doc{background:#e3eefa;color:#0d3c6e} details.texto summary{cursor:pointer;color:#1a4d7a}
- textarea.sol{width:100%;min-height:22rem;font:13px/1.45 ui-monospace,Consolas,monospace;padding:.6rem;box-sizing:border-box}
- .botones{display:flex;gap:.6rem;flex-wrap:wrap;margin:.5rem 0} .botones button{padding:.35rem .8rem;cursor:pointer}
- .grupo{margin:1rem 0 .3rem;font-size:1rem;color:#444;text-transform:uppercase;letter-spacing:.04em}
- @media (max-width:700px){body{padding:1rem} .filtros input[type=search]{min-width:0;width:100%}}
+ .conds li{border-top:1px solid var(--line);padding:8px 0;font-size:15px;line-height:1.5}
+ .conds li.entrega{border-left:3px solid var(--accent);padding-left:10px}
+ .conds .cab{font-weight:600} .tag{display:inline-block;font:500 12px/1.5 var(--font-data);background:var(--ground);color:var(--ink);border:1px solid var(--line);padding:0 6px;margin:0 4px 3px 0}
+ .tag.doc{color:var(--doc);border-color:currentColor} details.texto summary{cursor:pointer;color:var(--muted)}
+ textarea.sol{width:100%;min-height:22rem;font:13px/1.45 var(--font-data);padding:10px;color:var(--ink);background:var(--ground);border:1px solid var(--line)}
+ .botones{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0}
+ .botones button{padding:6px 12px;cursor:pointer;font:600 14px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.06em;color:var(--ink);background:var(--paper);border:1px solid var(--line)}
+ .botones button[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}
+ .grupo{margin:16px 0 4px;font:600 15px/1.2 var(--font-title);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+ @media (max-width:700px){.filtros input[type=search]{min-width:0;width:100%}}
 """
+)
 
 SENTIDOS = {
     "condicionada": "con condiciones",
@@ -196,6 +205,47 @@ def _miles(n: int) -> str:
     return f"{n:,}".replace(",", ".")
 
 
+# «Cómo se calcula» for this page; the years come from observatorio/condicionado.py.
+METHOD = f"""
+<ol>
+ <li><b>Lectura.</b> Se leen las resoluciones de la Dirección General de Calidad y Evaluación Ambiental en la
+  sección III del BOE desde 2022; cada mañana entran las de los últimos ocho días.</li>
+ <li><b>Tipo y sentido.</b> Cada resolución se clasifica como declaración, informe de impacto ambiental
+  (evaluación simplificada) o modificación de condiciones, y por su sentido. Las correcciones de errores no son
+  fichas: se anotan en la resolución a la que corrigen.</li>
+ <li><b>Datos del expediente.</b> El promotor, el órgano sustantivo y las provincias salen de los antecedentes y
+  del título.</li>
+ <li><b>Condicionado.</b> El texto se trocea condición a condición, con su número, el factor ambiental, el bloque
+  (condiciones generales, medidas, programa de vigilancia), unos temas y si obliga a entregar algún documento.</li>
+ <li><b>Vigencia.</b> {VIGENCIA_ANOS} años desde la publicación para empezar la ejecución (art. 43.1 de la Ley
+  21/2013; art. 47.4 para los informes de impacto ambiental), prorrogables {PRORROGA_ANOS} más. «Caducan en 12
+  meses» marca las que llegan a esa fecha dentro del próximo año.</li>
+ <li><b>Modificaciones.</b> Se enlazan con la declaración original cuando esta es de 2022 o posterior.</li>
+ <li><b>Solicitud.</b> Para cada declaración con condiciones se redacta una solicitud de información ambiental
+  (Ley 27/2006) en dos versiones: al órgano sustantivo, que vigila el cumplimiento (art. 52 de la Ley 21/2013), y
+  al órgano ambiental, por la vigencia, las prórrogas y las modificaciones.</li>
+</ol>
+<h3>Parámetros</h3>
+<table class="params">
+ <tr><th>Vigencia sin empezar la obra</th><td class="num">{VIGENCIA_ANOS} años</td></tr>
+ <tr><th>Prórroga máxima</th><td class="num">{PRORROGA_ANOS} años</td></tr>
+ <tr><th>Aviso «caducan en 12 meses»</th><td class="num">365 días</td></tr>
+ <tr><th>Filas que muestra la tabla</th><td class="num">600 más recientes</td></tr>
+ <tr><th>Plazo de respuesta a la solicitud</th><td class="num">1 mes (art. 10.2.c)</td></tr>
+</table>
+<h3>Validación</h3>
+<p>Pendiente: el troceo y las etiquetas no se han contrastado todavía contra una muestra revisada a mano.</p>
+<h3>Límites</h3>
+<ul>
+ <li>Solo el BOE, que recoge lo que evalúa el Ministerio. Lo autonómico va en cada boletín: el del BOC de
+  Cantabria y el BOCYL están pendientes.</li>
+ <li>El troceado sigue la numeración de cada resolución, que no es uniforme; en unas pocas el texto no trae
+  epígrafe de condiciones reconocible y salen sin condiciones.</li>
+ <li>La base no sabe si la obra ha empezado: la vigencia es la de caducidad si no ha empezado.</li>
+</ul>
+"""
+
+
 def generar_web(docs_dir: Path, hoy: date | None = None) -> Path:
     hoy = hoy or date.today()
     fichas = json.loads(INDICE_PATH.read_text(encoding="utf-8"))["fichas"]
@@ -207,14 +257,14 @@ def generar_web(docs_dir: Path, hoy: date | None = None) -> Path:
     n_cond = sum(f["n_condiciones"] for f in fichas)
     n_ent = sum(f["n_entregables"] for f in fichas)
     desde = min(f["fecha_publicacion"] for f in fichas)
+    figures = [
+        (len(con_cond), "declaraciones con condicionado"),
+        (_miles(n_cond), f"condiciones extraídas, {_miles(n_ent)} con entrega de documentos"),
+        (len(mort), "exigen seguimiento de mortalidad de fauna"),
+        (len(vencen), "caducarían en los próximos 12 meses si no han empezado"),
+    ]
     cuerpo = f"""
 <style>{CSS_EXTRA}</style>
-<div class="kpis">
- <div class="kpi"><b>{len(con_cond)}</b>declaraciones con condicionado</div>
- <div class="kpi"><b>{_miles(n_cond)}</b>condiciones extraídas, {_miles(n_ent)} con entrega de documentos</div>
- <div class="kpi"><b>{len(mort)}</b>exigen seguimiento de mortalidad de fauna</div>
- <div class="kpi"><b class="vence">{len(vencen)}</b>caducarían en los próximos 12 meses si no han empezado</div>
-</div>
 {COMO_USAR}
 <div class="filtros" role="search">
  <input type="search" id="q" placeholder="Proyecto, promotor, provincia…" aria-label="Buscar">
@@ -239,8 +289,11 @@ const COLORES = {json.dumps(COLORES)};
 </script>"""
     ruta = docs_dir / "condicionado.html"
     ruta.write_text(
-        pagina("Después del sí", f"Qué se cumple de cada declaración de impacto ambiental · BOE desde {desde[:4]} · "
-               f"actualizado el {hoy:%d/%m/%Y}", cuerpo, NAV),
+        pagina("Después del sí",
+               "Qué se cumple de cada declaración de impacto ambiental: el condicionado de las resoluciones "
+               f"publicadas en el BOE desde {desde[:4]}, troceado condición a condición. Actualizado el {hoy:%d/%m/%Y}.",
+               cuerpo, site_nav("condicionado.html"),
+               heading="Después del <span>sí</span>", figures=figures, method=METHOD),
         encoding="utf-8",
     )
     return ruta
