@@ -33,17 +33,56 @@ CSS_EXTRA = (
  .s-sin_eia{color:var(--s-sin)} .s-a_ordinaria{color:var(--s-ord)} .s-{color:var(--muted)}
  .vence{color:var(--urgent);font-weight:600}
  #detalle{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);padding:16px;margin:20px 0}
- #detalle h2{margin-top:0} .conds{list-style:none;padding:0;margin:0}
- .conds li{border-top:1px solid var(--line);padding:8px 0;font-size:15px;line-height:1.5}
- .conds li.entrega{border-left:3px solid var(--accent);padding-left:10px}
- .conds .cab{font-weight:600} .tag{display:inline-block;font:500 12px/1.5 var(--font-data);background:var(--ground);color:var(--ink);border:1px solid var(--line);padding:0 6px;margin:0 4px 3px 0}
- .tag.doc{color:var(--doc);border-color:currentColor} details.texto summary{cursor:pointer;color:var(--muted)}
+ #detalle h2{margin-top:0;padding-right:7rem}
+ .cerrar{float:right;padding:6px 12px;cursor:pointer;font:600 14px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.06em;color:var(--ink);background:var(--paper);border:1px solid var(--line)}
+ .tag{display:inline-block;font:500 12px/1.5 var(--font-data);background:var(--ground);color:var(--ink);border:1px solid var(--line);padding:0 6px;margin:0 4px 3px 0}
+ .tag.doc{color:var(--doc);border-color:currentColor}
+ .vista{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px 32px;margin:12px 0 4px}
+ .vista .grupo{margin-top:0}
+ .fases{list-style:none;padding:0;margin:10px 0 0;display:flex;position:relative}
+ .fases::before{content:"";position:absolute;left:10%;right:10%;top:16px;border-top:2px solid var(--line)}
+ .fases li{flex:1;position:relative}
+ .fases button,.factores button{all:unset;box-sizing:border-box;cursor:pointer;width:100%;color:var(--ink)}
+ .fases button{display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center;font:13px/1.25 var(--font-text)}
+ .fases .n{display:grid;place-items:center;min-width:34px;height:34px;padding:0 4px;background:var(--paper);border:2px solid var(--accent);font:600 14px/1 var(--font-data);color:var(--accent)}
+ .fases button[aria-pressed=true] .n{background:var(--accent);color:var(--paper)}
+ .fases button:disabled{cursor:default;opacity:.4}
+ .factores{list-style:none;padding:0;margin:8px 0 0}
+ .factores button{display:grid;grid-template-columns:minmax(7rem,11rem) 1fr 2.4rem;gap:10px;align-items:center;padding:3px 0;font:14px/1.3 var(--font-text)}
+ .factores .barra{height:10px;background:var(--ground);border:1px solid var(--line)} .factores .barra i{display:block;height:100%;background:var(--accent)}
+ .factores .n{text-align:right;font:13px/1 var(--font-data);color:var(--muted)}
+ .factores:has([aria-pressed=true]) button:not([aria-pressed=true]),.fases:has([aria-pressed=true]) button:not([aria-pressed=true]){opacity:.45}
+ .fases button:not(:disabled):hover .t,.factores button:hover .t{text-decoration:underline}
+ .fases button[aria-pressed=true] .t,.factores button[aria-pressed=true] .t{font-weight:600;color:var(--accent)}
+ .vista .nota{margin:8px 0 0;font-size:13px;color:var(--muted)}
+ .barra-cond{position:sticky;top:0;z-index:1;display:flex;gap:8px 10px;flex-wrap:wrap;align-items:center;margin:12px -16px 0;padding:10px 16px;background:var(--paper);border-bottom:1px solid var(--line)}
+ .barra-cond button{padding:6px 12px;cursor:pointer;font:600 14px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.06em;color:var(--ink);background:var(--paper);border:1px solid var(--line)}
+ .barra-cond button[aria-pressed=true],.barra-cond #todas{border-color:var(--accent);color:var(--accent)}
+ #cuenta-cond{font:14px/1.4 var(--font-data);color:var(--muted)}
+ details.bloque{margin:18px 0 0}
+ details.bloque>summary{cursor:pointer;list-style:none;padding:6px 0;border-bottom:2px solid var(--line);font:600 15px/1.2 var(--font-title);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+ details.bloque>summary::before{content:"▸ "} details.bloque[open]>summary::before{content:"▾ "}
+ details.bloque>summary .n,li.cond .num{font-family:var(--font-data)}
+ summary::-webkit-details-marker{display:none}
+ .conds{list-style:none;padding:0;margin:0}
+ li.cond{border-bottom:1px solid var(--line);font-size:15px;line-height:1.5}
+ li.cond.entrega{border-left:3px solid var(--accent)}
+ li.cond>details>summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:3.2rem minmax(0,1fr);gap:10px;padding:8px 8px 8px 0}
+ li.cond>details>summary:hover{background:var(--ground)}
+ li.cond .num{font-weight:600;font-size:13px;line-height:1.7;color:var(--muted);text-align:right;white-space:nowrap}
+ li.cond .num::before{content:"▸ "} li.cond>details[open] .num::before{content:"▾ "}
+ li.cond .cab{font-weight:600} li.cond .cab .tag{font-weight:500}
+ li.cond .extracto{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--muted)}
+ li.cond>details[open] .extracto{display:none}
+ li.cond .cuerpo{padding:0 8px 12px calc(3.2rem + 10px)} li.cond .cuerpo p{margin:0 0 8px}
+ li.cond dl{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;margin:0;font-size:14px}
+ li.cond dt{color:var(--muted)} li.cond dd{margin:0}
  textarea.sol{width:100%;min-height:22rem;font:13px/1.45 var(--font-data);padding:10px;color:var(--ink);background:var(--ground);border:1px solid var(--line)}
  .botones{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0}
  .botones button{padding:6px 12px;cursor:pointer;font:600 14px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.06em;color:var(--ink);background:var(--paper);border:1px solid var(--line)}
  .botones button[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}
  .grupo{margin:16px 0 4px;font:600 15px/1.2 var(--font-title);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
- @media (max-width:700px){.filtros input[type=search]{min-width:0;width:100%}}
+ @media (max-width:700px){.filtros input[type=search]{min-width:0;width:100%} .vista{grid-template-columns:1fr} .fases .t{font-size:12px} .factores button{grid-template-columns:7.5rem 1fr 2rem} li.cond>details>summary{grid-template-columns:2.6rem minmax(0,1fr)} li.cond .cuerpo{padding-left:8px}}
 """
 )
 
@@ -118,6 +157,111 @@ function pintar(lista) {
   if (lista.length > 600) $('#cuenta').textContent += ' (se muestran las 600 más recientes; afina los filtros)';
 }
 
+const FASES = [['proyecto', 'Proyecto'], ['antes_obras', 'Antes de las obras'], ['obras', 'Obras'],
+  ['antes_explotacion', 'Antes de explotar'], ['explotacion', 'Explotación'], ['cese', 'Cese']];
+// Each resolution names the environmental factors its own way ("Flora, vegetación e HICs", "Vegetación…"); group them.
+const FACTORES = [
+  ['Fauna', /fauna|avifauna|quir[oó]pt|lince|pesquer|marisq/i], ['Flora y hábitats', /flora|vegeta|h[aá]bitat|\bhics?\b|montes/i],
+  ['Agua', /agua|hidrol|h[ií]dric|riego/i], ['Suelo y geología', /suelo|geol|geomorf|geodiv/i],
+  ['Paisaje', /paisaj/i], ['Patrimonio y vías pecuarias', /patrimon|pecuari|arqueol/i],
+  ['Población y salud', /poblaci|salud|socioecon/i], ['Aire, ruido y clima', /atm[oó]sf|\baire\b|ruido|ac[uú]st|clim|lum[ií]n/i],
+  ['Red Natura y biodiversidad', /natura 2000|biodivers|espacios|\bzepa\b|\blic\b|\bzec\b/i],
+  ['Riesgos y accidentes', /vulnerab|accident|cat[aá]strof|riesgo/i],
+  ['Medidas compensatorias', /compensator/i],
+  ['Residuos y bienes materiales', /residu|bienes materiales|material/i],
+  ['Efectos acumulativos', /sinergi|acumulativ|transfronteriz/i],
+];
+const GRUPOS = {generales: 'Condiciones generales', medidas: 'Medidas y condiciones específicas', pva: 'Programa de vigilancia ambiental'};
+
+function factorDe(c) {
+  if (!c.factor) return 'Sin factor';
+  for (const [nombre, re] of FACTORES) if (re.test(c.factor)) return nombre;
+  return 'Otros';
+}
+
+function condLi(c, i) {
+  const fases = (c.momento || []).map(m => (FASES.find(f => f[0] === m) || [m, m])[1]);
+  const datos = [['Cuándo', fases.join(' · ')], ['Periodicidad', c.periodicidad], ['Duración', c.duracion],
+    ['Destinatario', (c.destinatarios || []).join('; ')]].filter(x => x[1]);
+  return `<li class="cond${c.entregable ? ' entrega' : ''}" data-i="${i}"><details><summary>
+    <span class="num">${esc(c.num)}</span>
+    <span><span class="cab">${esc(c.factor)} ${c.entregable ? '<span class="tag doc">entrega de documento</span>' : ''}${(c.temas || []).map(t => `<span class="tag">${esc(TEMAS[t] || t)}</span>`).join('')}</span>
+    <span class="extracto">${esc(c.texto)}</span></span></summary>
+    <div class="cuerpo"><p>${esc(c.texto).replace(/\n/g, '<br>')}</p>
+    ${datos.length ? `<dl>${datos.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>` : ''}</div></details></li>`;
+}
+
+function condicionado(conds) {
+  const ent = conds.filter(c => c.entregable).length;
+  const porFase = Object.fromEntries(FASES.map(([k]) => [k, conds.filter(c => (c.momento || []).includes(k)).length]));
+  const sinFase = conds.filter(c => !(c.momento || []).length).length;
+  const porFactor = {};
+  conds.forEach(c => { const f = factorDe(c); porFactor[f] = (porFactor[f] || 0) + 1; });
+  const ultimo = f => f === 'Sin factor' ? 2 : f === 'Otros' ? 1 : 0;
+  const factores = Object.entries(porFactor).sort((a, b) => ultimo(a[0]) - ultimo(b[0]) || b[1] - a[1]);
+  const max = Math.max(...factores.map(x => x[1]));
+  let h = `<section aria-labelledby="cond-h"><h3 id="cond-h">Condicionado</h3>
+    <p class="sub">${conds.length} condiciones, ${ent} con entrega de documentos. Pulsa una fase o un factor para quedarte solo con sus condiciones.</p>
+    <div class="vista">
+     <div><div class="grupo">Cuándo obliga</div>
+      <ol class="fases">${FASES.filter(([k]) => k !== 'antes_explotacion' || porFase[k]).map(([k, t]) =>
+        `<li><button type="button" data-fase="${k}" aria-pressed="false"${porFase[k] ? '' : ' disabled'}><span class="n">${porFase[k]}</span><span class="t">${t}</span></button></li>`).join('')}</ol>
+      ${sinFase ? `<p class="nota">${sinFase} de ${conds.length} no dicen en qué fase: rigen durante toda la vida del proyecto o el texto no lo precisa.</p>` : ''}</div>
+     <div><div class="grupo">Qué protege</div>
+      <ul class="factores">${factores.map(([f, v]) =>
+        `<li><button type="button" data-factor="${esc(f)}" aria-pressed="false"><span class="t">${esc(f)}</span><span class="barra"><i style="width:${(100 * v / max).toFixed(1)}%"></i></span><span class="n">${v}</span></button></li>`).join('')}</ul></div>
+    </div>
+    <div class="barra-cond">
+     <button type="button" id="todas" aria-expanded="false">Desplegar todas</button>
+     <button type="button" id="solo-ent" aria-pressed="false">Solo con entrega (${ent})</button>
+     <button type="button" id="limpiar" hidden>Quitar filtro</button>
+     <span id="cuenta-cond" aria-live="polite"></span>
+    </div>`;
+  for (const [clave, titulo] of Object.entries(GRUPOS)) {
+    const gs = conds.map((c, i) => [c, i]).filter(([c]) => c.bloque === clave);
+    if (!gs.length) continue;
+    h += `<details class="bloque" open><summary>${titulo} · <span class="n">${gs.length}</span></summary>
+      <ol class="conds">${gs.map(([c, i]) => condLi(c, i)).join('')}</ol></details>`;
+  }
+  return h + '</section>';
+}
+
+function activarCondicionado(d, conds) {
+  const st = {fase: '', factor: '', ent: false};
+  const items = [...d.querySelectorAll('li.cond')];
+  const aplicar = () => {
+    let vis = 0;
+    for (const li of items) {
+      const c = conds[li.dataset.i];
+      const ok = (!st.fase || (c.momento || []).includes(st.fase)) && (!st.factor || factorDe(c) === st.factor) && (!st.ent || c.entregable);
+      li.hidden = !ok; vis += ok;
+    }
+    d.querySelectorAll('details.bloque').forEach(b => {
+      const n = b.querySelectorAll('li.cond:not([hidden])').length;
+      b.hidden = !n; b.querySelector('summary .n').textContent = n;
+    });
+    d.querySelectorAll('[data-fase]').forEach(b => b.setAttribute('aria-pressed', b.dataset.fase === st.fase));
+    d.querySelectorAll('[data-factor]').forEach(b => b.setAttribute('aria-pressed', b.dataset.factor === st.factor));
+    d.querySelector('#solo-ent').setAttribute('aria-pressed', st.ent);
+    const filtrado = st.fase || st.factor || st.ent;
+    d.querySelector('#limpiar').hidden = !filtrado;
+    d.querySelector('#cuenta-cond').textContent = filtrado ? `${vis} de ${conds.length} condiciones` : '';
+  };
+  d.querySelectorAll('[data-fase]').forEach(b => b.onclick = () => { st.fase = st.fase === b.dataset.fase ? '' : b.dataset.fase; aplicar(); });
+  d.querySelectorAll('[data-factor]').forEach(b => b.onclick = () => { st.factor = st.factor === b.dataset.factor ? '' : b.dataset.factor; aplicar(); });
+  d.querySelector('#solo-ent').onclick = () => { st.ent = !st.ent; aplicar(); };
+  d.querySelector('#limpiar').onclick = () => { st.fase = st.factor = ''; st.ent = false; aplicar(); };
+  const todas = d.querySelector('#todas');
+  todas.onclick = () => {
+    const desplegar = todas.getAttribute('aria-expanded') !== 'true';
+    d.querySelectorAll('details.bloque').forEach(b => { b.open = true; });
+    items.forEach(li => { li.firstElementChild.open = desplegar; });
+    todas.setAttribute('aria-expanded', desplegar);
+    todas.textContent = desplegar ? 'Replegar todas' : 'Desplegar todas';
+  };
+  aplicar();
+}
+
 async function abrir(id) {
   const d = $('#detalle');
   d.hidden = false;
@@ -125,9 +269,8 @@ async function abrir(id) {
   let f;
   try { f = await (await fetch(`datos/condicionado/${id}.json`)).json(); }
   catch (e) { d.innerHTML = `<p>No se pudo cargar ${esc(id)}. Recarga la página e inténtalo de nuevo.</p>`; return; }
-  const grupos = {generales: 'Condiciones generales', medidas: 'Medidas y condiciones específicas', pva: 'Programa de vigilancia ambiental'};
   const conds = f.condiciones || [];
-  let html = `<h2>${esc(f.proyecto || f.identificador)}</h2>
+  let html = `<button type="button" class="cerrar" id="cerrar">Cerrar ✕</button><h2>${esc(f.proyecto || f.identificador)}</h2>
     <table class="meta">
       <tr><th>Resolución</th><td>${esc(TIPOS[f.tipo] || f.tipo)} · ${sentido(f)} · resuelta el ${fmt(f.fecha_resolucion)}, publicada el ${fmt(f.fecha_publicacion)}
         · <a href="${esc(f.url_html)}" target="_blank" rel="noopener">${esc(f.identificador)} en el BOE</a>${f.url_pdf ? ` · <a href="${esc(f.url_pdf)}" target="_blank" rel="noopener">PDF</a>` : ''}</td></tr>
@@ -146,22 +289,14 @@ async function abrir(id) {
       <button id="copiar">Copiar texto</button><button id="bajar">Descargar .txt</button></div>
       <textarea class="sol" id="sol" spellcheck="false" aria-label="Texto de la solicitud"></textarea>`;
   }
-  if (conds.length) {
-    html += `<h3>Condicionado (${conds.length} condiciones, ${conds.filter(c => c.entregable).length} con entrega de documentos)</h3>`;
-    for (const [clave, titulo] of Object.entries(grupos)) {
-      const gs = conds.filter(c => c.bloque === clave);
-      if (!gs.length) continue;
-      html += `<div class="grupo">${titulo}</div><ol class="conds">` + gs.map(c => `
-        <li class="${c.entregable ? 'entrega' : ''}"><span class="cab">${esc(c.num)}${c.factor ? ' · ' + esc(c.factor) : ''}</span>
-        ${c.entregable ? '<span class="tag doc">entrega de documento</span>' : ''}
-        ${c.periodicidad ? `<span class="tag">${esc(c.periodicidad)}</span>` : ''}
-        ${(c.temas || []).map(t => `<span class="tag">${esc(TEMAS[t] || t)}</span>`).join('')}
-        ${(c.destinatarios || []).length ? `<br><small>Destinatario: ${esc(c.destinatarios.join('; '))}</small>` : ''}
-        ${c.texto.length <= 420 ? `<p>${esc(c.texto).replace(/\n/g, '<br>')}</p>` :
-          `<details class="texto"><summary>${esc(c.texto.slice(0, 200))}…</summary><p>${esc(c.texto).replace(/\n/g, '<br>')}</p></details>`}</li>`).join('') + '</ol>';
-    }
-  }
+  if (conds.length) html += condicionado(conds);
   d.innerHTML = html;
+  if (conds.length) activarCondicionado(d, conds);
+  $('#cerrar').onclick = () => {
+    d.hidden = true;
+    const tr = document.querySelector(`tr.fila[data-id="${CSS.escape(f.identificador)}"]`);
+    if (tr) { tr.scrollIntoView({block: 'center'}); tr.focus({preventScroll: true}); }
+  };
   if (f.solicitudes) {
     const ver = k => { $('#sol').value = f.solicitudes[k]; d.querySelectorAll('[data-sol]').forEach(b => b.setAttribute('aria-pressed', b.dataset.sol === k)); };
     d.querySelectorAll('[data-sol]').forEach(b => b.onclick = () => ver(b.dataset.sol));
