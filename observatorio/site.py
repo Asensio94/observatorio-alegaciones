@@ -11,13 +11,14 @@ from .config import ESTADO_PATH
 from .plazos import dias_restantes
 from .report import (
     AVISO_METODO,
-    NAV,
+    MAIN_METHOD,
     badge,
     badge_estado,
     badge_estado_sentido,
     badge_fuente,
     esc,
     pagina,
+    site_nav,
     texto_plazo,
 )
 
@@ -111,10 +112,19 @@ def _celda_huella(a: dict) -> str:
 
 
 def _fila(a: dict) -> str:
-    aves = ", ".join(
-        f"<i>{esc(e['scientificName'])}</i>" + (f" ({esc(e['vernacular_es'])})" if e.get("vernacular_es") else "")
-        for e in a.get("especies_top", []) if e.get("class") == "Aves"
-    )[:400]
+    # Cut by whole names, not by characters: slicing the HTML string left tags half-open.
+    aves_items, used = [], 0
+    for e in a.get("especies_top", []):
+        if e.get("class") != "Aves":
+            continue
+        visible = e["scientificName"] + (f" ({e['vernacular_es']})" if e.get("vernacular_es") else "")
+        if aves_items and used + len(visible) > 400:
+            break
+        used += len(visible) + 2
+        aves_items.append(
+            f"<i>{esc(e['scientificName'])}</i>" + (f" ({esc(e['vernacular_es'])})" if e.get("vernacular_es") else "")
+        )
+    aves = ", ".join(aves_items)
     natura = "; ".join(f"{esc(s['nombre'])} ({esc(s['tipo'])})" for s in a.get("natura", [])[:4])
     if len(a.get("natura", [])) > 4:
         natura += f" y {len(a['natura']) - 4} más"
@@ -153,37 +163,48 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
     urgentes = [a for a in abiertos if dias_restantes(_lim(a), hoy) <= 7]
     ultimo_mapa = estado["informes"][0]["fichero"].replace(".html", "_mapa.html") if estado["informes"] else ""
 
-    nav = NAV
+    figures = [
+        (len(abiertos), "alegaciones abiertas"),
+        (len(urgentes), "vencen en 7 días o menos"),
+        (sum(1 for a in abiertos if a.get('natura')), "con Natura 2000 en el municipio"),
+        (len(anuncios), "proyectos seguidos en total"),
+        (f"{sum(1 for a in abiertos if a.get('fuente', 'BOE') == 'BOE')} / {sum(1 for a in abiertos if a.get('fuente') == 'BOC')}",
+         "abiertas BOE / BOC Cantabria"),
+        (len(estado.get('resoluciones', {})), '<a href="seguimiento.html">resoluciones seguidas</a>'),
+    ]
     cuerpo = f"""
-<div class="kpis">
- <div class="kpi"><b>{len(abiertos)}</b>alegaciones abiertas</div>
- <div class="kpi"><b>{len(urgentes)}</b>vencen en 7 días o menos</div>
- <div class="kpi"><b>{sum(1 for a in abiertos if a.get('natura'))}</b>con Natura 2000 en el municipio</div>
- <div class="kpi"><b>{len(anuncios)}</b>proyectos seguidos en total</div>
- <div class="kpi"><b>{sum(1 for a in abiertos if a.get('fuente', 'BOE') == 'BOE')} / {sum(1 for a in abiertos if a.get('fuente') == 'BOC')}</b>abiertas BOE / BOC Cantabria</div>
- <div class="kpi"><b>{len(estado.get('resoluciones', {}))}</b><a href="seguimiento.html">resoluciones seguidas</a></div>
-</div>
 <div class="aviso">{AVISO_METODO}</div>
-{f'<div class="mapa"><iframe src="{esc(ultimo_mapa)}" loading="lazy"></iframe></div>' if ultimo_mapa else ''}
+{f'<div class="mapa"><iframe src="{esc(ultimo_mapa)}" loading="lazy" title="Mapa del último informe"></iframe></div>' if ultimo_mapa else ''}
 <h2>Proyectos con plazo de alegaciones abierto</h2>
 {_tabla([_fila(a) for a in abiertos])}
 <h2>Informes diarios</h2>
-<ul>{''.join(f"<li><a href='{esc(i['fichero'])}'>Anuncios del {esc(i['desde'])} al {esc(i['hasta'])}</a> · {i['n']} proyectos · generado {esc(i['generado'])}</li>" for i in estado['informes'][:30])}</ul>
-<h2>Qué es esto</h2>
-<p>Cada mañana laborable se leen los anuncios de información pública del <b>BOE</b> (sección V-B) y del <b>Boletín Oficial de Cantabria</b> (secciones 5 y 7), se detectan proyectos con posible afección ambiental
-(eólica, fotovoltaica, líneas eléctricas, minería, infraestructuras, costas, hidráulica), se localizan sus municipios y se cruzan con la Red Natura 2000
-y con los registros de especies animales amenazadas. El objetivo es que los grupos locales y las organizaciones de conservación conozcan los proyectos
-<b>mientras aún se puede alegar</b>. Proyecto abierto: el código, los datos y las mejoras están en GitHub.</p>"""
+<ul>{''.join(f"<li><a href='{esc(i['fichero'])}'>Anuncios del {esc(i['desde'])} al {esc(i['hasta'])}</a> · {i['n']} proyectos · generado {esc(i['generado'])}</li>" for i in estado['informes'][:30])}</ul>"""
     (docs_dir / "index.html").write_text(
-        pagina("Observatorio de alegaciones ambientales", f"Alegaciones abiertas a {hoy:%d/%m/%Y} · fuentes: BOE y BOC (Cantabria)", cuerpo, nav),
+        pagina(
+            "Observatorio de alegaciones ambientales",
+            "Proyectos en información pública en el BOE y en el Boletín Oficial de Cantabria, con su fecha límite "
+            "estimada para alegar y su cruce con la Red Natura 2000 y con los registros de especies amenazadas de "
+            f"GBIF. Alegaciones abiertas a {hoy:%d/%m/%Y}.",
+            cuerpo, site_nav("index.html"),
+            heading="Observatorio de <span>alegaciones</span> ambientales",
+            figures=figures, method=MAIN_METHOD,
+        ),
         encoding="utf-8",
     )
     cuerpo_h = f"<h2>Plazos cerrados ({len(cerrados)})</h2>{_tabla([_fila(a) for a in cerrados])}"
     (docs_dir / "historico.html").write_text(
-        pagina("Observatorio de alegaciones ambientales · histórico", f"Proyectos cuyo plazo estimado ya ha vencido · {hoy:%d/%m/%Y}", cuerpo_h, nav),
+        pagina(
+            "Observatorio de alegaciones ambientales · histórico",
+            "Proyectos seguidos cuyo plazo estimado de alegaciones ya ha vencido, con los mismos cruces que la "
+            f"portada. Actualizado el {hoy:%d/%m/%Y}.",
+            cuerpo_h, site_nav("historico.html"),
+            heading="Observatorio de alegaciones · <span>histórico</span>",
+            figures=[(len(cerrados), "plazos cerrados"), (len(anuncios), "proyectos seguidos en total")],
+            method=MAIN_METHOD,
+        ),
         encoding="utf-8",
     )
-    (docs_dir / "seguimiento.html").write_text(_pagina_seguimiento(estado, cerrados, hoy, nav), encoding="utf-8")
+    (docs_dir / "seguimiento.html").write_text(_pagina_seguimiento(estado, cerrados, hoy, site_nav("seguimiento.html")), encoding="utf-8")
     (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
 
 
@@ -209,7 +230,38 @@ Lo que sí es obligatorio es esto, y es lo que esta página rastrea:</p>
    formular la declaración, prorrogables por dos más. Los expedientes marcados como demorados llevan más de seis
    meses cerrados sin resolución publicada.</li>
 </ul>
-<p class="aviso">El emparejamiento entre una resolución y su información pública es automático (expediente,
+"""
+
+
+# «Cómo se calcula» for the follow-up page; thresholds come from observatorio/seguimiento.py.
+SEGUIMIENTO_METHOD = f"""
+<ol>
+ <li><b>Lectura.</b> Cada mañana se leen las resoluciones de los últimos 20 días hábiles en la sección III del
+  BOE (Dirección General de Política Energética y Minas y Dirección General de Calidad y Evaluación Ambiental) y
+  en la sección 7.2 del BOC de Cantabria (Medio Ambiente y Energía).</li>
+ <li><b>Clasificación.</b> Cada resolución se clasifica por tipo (por ejemplo, declaración o informe de impacto
+  ambiental, o autorización administrativa) y por sentido.</li>
+ <li><b>Emparejamiento.</b> Se compara con los expedientes ya seguidos y se suman puntos por expediente,
+  promotor, municipios, categoría, potencia y palabras distintivas del título. Sin coincidencia estructural (mismo
+  expediente, mismo promotor o municipios en común) no se empareja, aunque compartan vocabulario.</li>
+ <li><b>Confianza.</b> Con {seguimiento.UMBRAL_FIRME} puntos o más el emparejamiento se da por firme y se
+  enlaza; desde {seguimiento.UMBRAL_SUGERENCIA} puntos se publica como «emparejamiento no confirmado»; por
+  debajo, no se empareja.</li>
+ <li><b>Estado.</b> Un plazo de alegaciones abierto manda sobre cualquier resolución emparejada. Un expediente
+  con el plazo cerrado y sin resolución publicada pasa a demorado a los {seguimiento.MESES_DIA} meses.</li>
+ <li><b>Recálculo.</b> Todo se recalcula en cada ejecución, así que una mejora del algoritmo corrige el pasado.</li>
+</ol>
+<h3>Parámetros</h3>
+<table class="params">
+ <tr><th>Ventana de lectura diaria</th><td class="num">20 días hábiles</td></tr>
+ <tr><th>Emparejamiento firme</th><td class="num">{seguimiento.UMBRAL_FIRME} puntos o más</td></tr>
+ <tr><th>Emparejamiento no confirmado</th><td class="num">{seguimiento.UMBRAL_SUGERENCIA} a {seguimiento.UMBRAL_FIRME - 1} puntos</td></tr>
+ <tr><th>Demorado</th><td class="num">{seguimiento.MESES_DIA} meses sin resolución</td></tr>
+</table>
+<h3>Validación</h3>
+<p>Pendiente: el emparejamiento no se ha contrastado todavía contra una lista revisada a mano.</p>
+<h3>Límites</h3>
+<p>El emparejamiento entre una resolución y su información pública es automático (expediente,
 promotor, municipios, potencia y palabras distintivas del título). Los emparejamientos por debajo del umbral
 de confianza se marcan como no confirmados, y hay resoluciones que corresponden a expedientes anteriores al
 arranque del observatorio, por lo que aparecen sin asociar. Comprueba siempre el anuncio oficial.</p>
@@ -231,13 +283,13 @@ def _pagina_seguimiento(estado: dict, cerrados: list[dict], hoy: date, nav: str)
         f"<br><small>{esc(r['titulo'][:230])}…</small></td></tr>"
         for r in sueltas[:80]
     )
+    figures = [
+        (len(resoluciones), "resoluciones detectadas"),
+        (len(con_res), "expedientes seguidos con resolución localizada"),
+        (len(pendientes), "con el plazo cerrado y sin resolución"),
+        (len(demorados), f"sin resolución tras más de {seguimiento.MESES_DIA} meses"),
+    ]
     cuerpo = f"""
-<div class="kpis">
- <div class="kpi"><b>{len(resoluciones)}</b>resoluciones detectadas</div>
- <div class="kpi"><b>{len(con_res)}</b>expedientes seguidos con resolución localizada</div>
- <div class="kpi"><b>{len(pendientes)}</b>con el plazo cerrado y sin resolución</div>
- <div class="kpi"><b>{len(demorados)}</b>sin resolución tras más de {seguimiento.MESES_DIA} meses</div>
-</div>
 {COMO_SEGUIR}
 <h2>Expedientes seguidos cuyo plazo ya cerró ({len(cerrados)})</h2>
 {_tabla([_fila(a) for a in sorted(con_res + pendientes, key=lambda a: a.get('fecha_limite', ''), reverse=True)])}
@@ -250,7 +302,11 @@ proyectos en tramitación y porque dejan ver el ritmo y el sentido de lo que se 
 """
     return pagina(
         "Observatorio de alegaciones ambientales · seguimiento",
-        f"Qué ha pasado con los proyectos: declaraciones de impacto ambiental y autorizaciones · {hoy:%d/%m/%Y}",
+        "Qué ha pasado con los proyectos: declaraciones de impacto ambiental y autorizaciones publicadas en el BOE "
+        f"y en el BOC de Cantabria, emparejadas con los expedientes seguidos. Actualizado el {hoy:%d/%m/%Y}.",
         cuerpo,
         nav,
+        heading="Observatorio de alegaciones · <span>seguimiento</span>",
+        figures=figures,
+        method=SEGUIMIENTO_METHOD,
     )

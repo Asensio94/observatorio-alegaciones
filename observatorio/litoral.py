@@ -32,7 +32,7 @@ from .boe import Anuncio
 from .config import DATA_DIR
 from .extract import INFO_PUBLICA, _strip_accents
 from .plazos import dias_restantes
-from .report import NAV, esc, pagina
+from .report import esc, pagina, site_nav
 
 SECCIONES_BOE = ("5B",)
 ESTADO_PATH = DATA_DIR / "estado_litoral.json"
@@ -425,9 +425,53 @@ una reforma, un cierre de parcela, cinco viviendas, un aparcamiento de temporada
  expediente (artículo 53.1.a de la Ley 39/2015, o la Ley 27/2006 si eres tercero) y se citan los documentos del
  propio promotor. Lo de aquí sirve para llegar a tiempo, no para argumentar.</li>
 </ul>
-<p class="sub">Los plazos son estimados, en días hábiles desde el día siguiente a la publicación, descontando
-festivos nacionales y los dos autonómicos fijos de Cantabria. Cuando el anuncio no dice el plazo se asume el
-habitual del trámite y se marca «(est.)». Comprueba siempre el anuncio original.</p>
+"""
+
+
+def _method_html() -> str:
+    """«Cómo se calcula» for the coast page, built from the categories and signals defined above."""
+    plazos = "".join(
+        f"<tr><th>{esc(etiqueta)}</th><td class='num'>{f'{dias} días hábiles' if dias else 'sin plazo por defecto'}</td></tr>"
+        for _clave, etiqueta, _pat, _prio, dias in CATEGORIAS
+    ) + "".join(
+        f"<tr><th>{esc(etiqueta)}</th><td class='num'>{f'{dias} días hábiles' if dias else 'sin plazo por defecto'}</td></tr>"
+        for etiqueta, _prio, dias in OTRAS_CATEGORIAS.values()
+    )
+    senales = "".join(
+        f"<tr><th>{esc(etiqueta)}</th><td class='num'>{pts}</td></tr>" for _clave, etiqueta, _pat, pts, _apoyo in SENALES
+    )
+    return f"""
+<ol>
+ <li><b>Lectura.</b> Cada mañana se leen los anuncios de los últimos ocho días de dos fuentes: del BOE (sección
+  V-B), solo lo que firma un órgano de Costas (demarcaciones y servicios provinciales de toda España); del BOC de
+  Cantabria (sección 7, Urbanismo), todo el territorio, porque la presión turística no se queda en los municipios
+  costeros.</li>
+ <li><b>Trámite.</b> Reglas escritas clasifican cada expediente por trámite: deslinde, obra en la servidumbre de
+  protección, ocupación del dominio público marítimo-terrestre, planeamiento, evaluación ambiental estratégica,
+  instalación turística, obra portuaria o edificación residencial.</li>
+ <li><b>Plazo.</b> Se cuentan días hábiles desde el día siguiente a la publicación, descontando festivos
+  nacionales y los dos autonómicos fijos de Cantabria. Cuando el anuncio no dice el plazo se asume el habitual
+  del trámite (tabla) y se marca «(est.)».</li>
+ <li><b>Señales.</b> Cada expediente suma los puntos de las señales que se le detectan, cada una con el
+  precepto donde mirar (pasa el ratón por la etiqueta para leerlo). Los puntos ordenan la lectura; no son un
+  dictamen.</li>
+ <li><b>Cruces.</b> Los expedientes con 3 puntos o más y municipio detectado se cruzan con la Red Natura 2000 y
+  con los registros de especies amenazadas de GBIF.</li>
+</ol>
+<h3>Plazo por defecto de cada trámite</h3>
+<table class="params">{plazos}</table>
+<h3>Puntos de cada señal</h3>
+<table class="params">{senales}</table>
+<h3>Validación</h3>
+<p>Pendiente: la clasificación y las señales no se han contrastado todavía contra una muestra revisada a mano.</p>
+<h3>Límites</h3>
+<ul>
+ <li>La prohibición del artículo 25.1.a de la Ley de Costas tiene excepciones y regímenes transitorios: solo el
+  expediente dice si aplican.</li>
+ <li>La señal de frente costero es una lista de municipios, no la distancia real a la ribera del mar.</li>
+ <li>Del boletín autonómico solo se lee el de Cantabria.</li>
+ <li>Los plazos son estimados. Comprueba siempre el anuncio original.</li>
+</ul>
 """
 
 
@@ -443,14 +487,13 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
                       key=_lim, reverse=True)
     urgentes = [a for a in abiertos if dias_restantes(_lim(a), hoy) <= 7]
     graves = [a for a in anuncios if any(s["clave"] == "residencial_servidumbre" for s in a.get("senales", []))]
-    nav = NAV
+    figures = [
+        (len(abiertos), "trámites con plazo abierto"),
+        (len(urgentes), "vencen en 7 días o menos"),
+        (len(graves), "uso residencial en servidumbre de protección"),
+        (len(anuncios), "expedientes seguidos en total"),
+    ]
     cuerpo = f"""
-<div class="kpis">
- <div class="kpi"><b>{len(abiertos)}</b>trámites con plazo abierto</div>
- <div class="kpi"><b>{len(urgentes)}</b>vencen en 7 días o menos</div>
- <div class="kpi"><b>{len(graves)}</b>uso residencial en servidumbre de protección</div>
- <div class="kpi"><b>{len(anuncios)}</b>expedientes seguidos en total</div>
-</div>
 {COMO_ALEGAR}
 <h2>Con plazo abierto ({len(abiertos)})</h2>
 {_tabla([_fila(a, hoy) for a in abiertos])}
@@ -459,7 +502,10 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
 costa aparece una y otra vez, y porque la autorización, cuando llega, sí se puede recurrir.</p>
 {_tabla([_fila(a, hoy) for a in cerrados[:150]])}"""
     (docs_dir / "litoral.html").write_text(
-        pagina("Observatorio del litoral", f"Costa y suelo turístico · {hoy:%d/%m/%Y} · BOE (Costas) y BOC (Cantabria)",
-               cuerpo, nav),
+        pagina("Observatorio del litoral",
+               "Costa y suelo turístico: trámites de los órganos de Costas en el BOE y de urbanismo en el BOC de "
+               f"Cantabria, con su plazo y las señales que conviene mirar. Actualizado el {hoy:%d/%m/%Y}.",
+               cuerpo, site_nav("litoral.html"),
+               heading="Observatorio del <span>litoral</span>", figures=figures, method=_method_html()),
         encoding="utf-8",
     )
