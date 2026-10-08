@@ -35,6 +35,16 @@ def guardar_estado(estado: dict) -> None:
     ESTADO_PATH.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def footprint_summary(identifier: str, fp, sites: list[dict]) -> dict:
+    """What the state keeps of a footprint: counts, areas and the Natura sites inside it."""
+    return {
+        "version": fp.version, "status": fp.status, "public_domain": fp.public_domain, "n_parcels": fp.n_parcels, "n_matched": fp.n_matched, "foral": fp.foral,
+        "declared_m2": fp.declared_m2, "parcels_m2": fp.parcels_m2, "catastro_date": fp.catastro_date,
+        "geojson": f"datos/footprints/{identifier}.geojson" if fp.geometry else None,
+        "natura": [{"sitecode": s["sitecode"], "nombre": s["nombre"], "tipo": s["tipo"]} for s in sites],
+    }
+
+
 def actualizar_estado(resultados: list[dict], informe_rel: str, desde: date, hasta: date) -> dict:
     """Incorpora los resultados de una ejecución al estado acumulado (clave: identificador BOE)."""
     estado = cargar_estado()
@@ -56,6 +66,9 @@ def actualizar_estado(resultados: list[dict], informe_rel: str, desde: date, has
             "informe": informe_rel,
             "actualizado": date.today().isoformat(),
         }
+        if r.get("footprint") is not None:
+            estado["anuncios"][a["identificador"]]["footprint"] = footprint_summary(
+                a["identificador"], r["footprint"], r.get("natura_footprint", []))
     estado["informes"] = [i for i in estado["informes"] if i["fichero"] != informe_rel]
     estado["informes"].append({"fichero": informe_rel, "desde": desde.isoformat(), "hasta": hasta.isoformat(), "generado": date.today().isoformat(), "n": len(resultados)})
     estado["informes"].sort(key=lambda i: i["hasta"], reverse=True)
@@ -77,6 +90,26 @@ def _celda_estado(a: dict) -> str:
     return out
 
 
+def _es_num(x: float, dec: int = 0) -> str:
+    return f"{x:,.{dec}f}".replace(",", " ").replace(".", ",").replace(" ", ".")
+
+
+def _celda_huella(a: dict) -> str:
+    """Natura 2000 dentro de las parcelas que el propio anuncio declara afectadas."""
+    fp = a.get("footprint")
+    if not fp or not fp.get("geojson"):
+        return ""
+    sitios = "; ".join(esc(s["nombre"]) for s in fp["natura"][:3]) or "ninguno"
+    m2 = sum(fp["declared_m2"].values())
+    # Algunas tablas no traen superficies: un cero ahí sería un dato falso.
+    declarada = f"{_es_num(m2 / 1e4, 1)} ha declaradas en " if m2 else "superficie afectada no declarada en la tabla · "
+    return (
+        f"<br><small><b>En las parcelas afectadas:</b> {sitios}<br>"
+        f"{fp['n_matched']} de {fp['n_parcels']} parcelas localizadas · "
+        f"{declarada}{_es_num(fp['parcels_m2'] / 1e4)} ha de parcelas · <a href='{esc(fp['geojson'])}'>GeoJSON</a></small>"
+    )
+
+
 def _fila(a: dict) -> str:
     aves = ", ".join(
         f"<i>{esc(e['scientificName'])}</i>" + (f" ({esc(e['vernacular_es'])})" if e.get("vernacular_es") else "")
@@ -92,7 +125,7 @@ def _fila(a: dict) -> str:
         f"<td><a href='{esc(a['informe'])}#{esc(a['identificador'])}'>{esc(a['identificador'])}</a><br><small>{esc(a['titulo'][:220])}…</small><br>"
         f"<small><a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Anuncio en el {esc(a.get('fuente', 'BOE'))}</a></small></td>"
         f"<td>{esc(', '.join(a.get('provincias', [])[:3]))}<br><small>{esc(', '.join(a.get('municipios', [])[:6]))}</small></td>"
-        f"<td>{natura or '<i>ninguno</i>'}</td>"
+        f"<td>{natura or '<i>ninguno</i>'}{_celda_huella(a)}</td>"
         f"<td>{a.get('n_especies', 0)} esp. / {a.get('n_aves', 0)} aves<br><small>{aves}</small></td></tr>"
     )
 

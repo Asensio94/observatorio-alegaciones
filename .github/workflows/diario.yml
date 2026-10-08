@@ -34,6 +34,11 @@ jobs:
           PYTHONIOENCODING: utf-8
         run: python -m observatorio.cli run --days 4
 
+      - name: Huella catastral (parcelas de la relación de bienes y derechos)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m observatorio.cli footprints
+
       - name: Seguimiento de resoluciones (últimos 20 días hábiles)
         env:
           PYTHONIOENCODING: utf-8
