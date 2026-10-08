@@ -11,6 +11,7 @@ import folium
 from shapely.geometry import mapping, shape
 
 from .config import GBIF_THREAT_CATEGORIES, GBIF_YEAR_FROM
+from .logo import LOGO_SVG, favicon_link
 from .plazos import FESTIVOS_NACIONALES, PLAZO_POR_DEFECTO, dias_restantes
 
 COLORES = {
@@ -31,6 +32,8 @@ COLORES = {
 # Shared look of the sibling projects: common.css is copied verbatim from the style guide and inlined
 # before this repo's own rules, so every page stays a single self-contained file.
 COMMON_CSS = (Path(__file__).resolve().parent / "common.css").read_text(encoding="utf-8")
+# The robin, shared logo of the sibling projects; only its breast takes this project's accent.
+FAVICON = favicon_link("#9f1d35", "#f0708a")
 ACCENT_CSS = ":root{--accent:#9f1d35;--accent-dark:#f0708a}"
 FONTS_URL = (
     "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700"
@@ -356,6 +359,7 @@ def pagina(titulo: str, sub: str, cuerpo: str, nav: str = "", *, heading: str | 
     )
     return f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(titulo)}</title>
+{FAVICON}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{esc(FONTS_URL)}">
 <style>
@@ -364,7 +368,7 @@ def pagina(titulo: str, sub: str, cuerpo: str, nav: str = "", *, heading: str | 
 {CSS}</style></head><body>
 <header class="site-header">
 {nav}
-<h1>{heading if heading is not None else esc(titulo)}</h1>
+<h1>{LOGO_SVG}{heading if heading is not None else esc(titulo)}</h1>
 <p class="lede">{sub}</p>
 {figures_html(figures)}
 </header>
