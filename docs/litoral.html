@@ -1,9 +1,10 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Observatorio del litoral</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cstyle%3E.b%7Bfill%3A%23221d1a%7D.p%7Bfill%3A%239f1d35%7D.l%7Bstroke%3A%23221d1a%7D%40media%20%28prefers-color-scheme%3Adark%29%7B.b%7Bfill%3A%23ede6e0%7D.p%7Bfill%3A%23f0708a%7D.l%7Bstroke%3A%23ede6e0%7D%7D%3C/style%3E%3Cg%20class%3D%22b%22%3E%3Ccircle%20cx%3D%2234%22%20cy%3D%2231%22%20r%3D%2219%22/%3E%3Cpath%20d%3D%22M19%2040%207%2050.5l3.5%204L25%2046z%22/%3E%3Cpath%20d%3D%22M52%2022l8%202.5-8%202.5z%22/%3E%3C/g%3E%3Cpath%20class%3D%22p%22%20d%3D%22M34%2012a19%2019%200%200%201%2015%2030.8C42%2041%2037%2034%2037%2026c0-6%201.5-10.5%204-12.6A19%2019%200%200%200%2034%2012z%22/%3E%3Cg%20fill%3D%22%23221d1a%22%3E%3Ccircle%20cx%3D%2245%22%20cy%3D%2221.5%22%20r%3D%222.1%22/%3E%3C/g%3E%3Cpath%20class%3D%22l%22%20d%3D%22M31%2049.5V60m7-11v11m-10.5.2h6m1.5%200h6%22%20fill%3D%22none%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
 <style>
-/* common.css v1 — shared look of the nine open-data projects (vigia-incendios is the reference).
+/* common.css v1.1 — shared look of the nine open-data projects (vigia-incendios is the reference).
    Copy this file verbatim into each repo; change it in all repos at once, never in one.
    Each repo sets only --accent and --accent-dark below it and adds its own rules after it.
 
@@ -46,6 +47,9 @@ img,svg{max-width:100%}
 .site-header{max-width:1440px;margin:0 auto;padding:28px 16px 18px;display:grid;gap:14px}
 .site-header h1{margin:0;font:700 clamp(40px,6vw,64px)/.9 var(--font-title);text-transform:uppercase;letter-spacing:.02em}
 .site-header h1 span{color:var(--accent)}
+/* Logo: the robin from logo.py before the title; same shape everywhere, breast in the accent. */
+.logo{display:inline-block;width:1.05em;height:1.05em;margin-right:.16em;vertical-align:-.13em;color:var(--ink);overflow:visible}
+.logo .logo-breast{fill:var(--accent)}
 .site-header .lede{margin:0;max-width:72ch;font-size:18px}
 .figures{display:flex;flex-wrap:wrap;gap:12px 28px;margin:0;padding:12px 0 0;border-top:1px solid var(--line)}
 .figures div{display:grid;gap:2px}
@@ -107,7 +111,7 @@ table.params td.num,table.params th.num{text-align:right;font-family:var(--font-
 </style></head><body>
 <header class="site-header">
 <nav class="site-nav" aria-label="Secciones"><a href="index.html">Alegaciones abiertas</a><a href="seguimiento.html">Seguimiento</a><a href="condicionado.html">Después del sí</a><a href="litoral.html" aria-current=page>Litoral</a><a href="historico.html">Histórico</a><a href="https://github.com/Asensio94/observatorio-alegaciones">Código y datos</a></nav>
-<h1>Observatorio del <span>litoral</span></h1>
+<h1><svg class="logo" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><g fill="currentColor"><circle cx="34" cy="31" r="19"/><path d="M19 40 7 50.5l3.5 4L25 46z"/><path d="M52 22l8 2.5-8 2.5z"/></g><path class="logo-breast" d="M34 12a19 19 0 0 1 15 30.8C42 41 37 34 37 26c0-6 1.5-10.5 4-12.6A19 19 0 0 0 34 12z"/><g fill="#221d1a"><circle cx="45" cy="21.5" r="2.1"/></g><path d="M31 49.5V60m7-11v11m-10.5.2h6m1.5 0h6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Observatorio del <span>litoral</span></h1>
 <p class="lede">Costa y suelo turístico: trámites de los órganos de Costas en el BOE y de urbanismo en el BOC de Cantabria, con su plazo y las señales que conviene mirar. Actualizado el 08/10/2026.</p>
 <div class="figures"><div><b>10</b><span>trámites con plazo abierto</span></div><div><b>2</b><span>vencen en 7 días o menos</span></div><div><b>1</b><span>uso residencial en servidumbre de protección</span></div><div><b>47</b><span>expedientes seguidos en total</span></div></div>
 </header>
