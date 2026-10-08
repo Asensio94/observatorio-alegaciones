@@ -147,7 +147,24 @@
     }
    ],
    "informe": "informes/informe_20260825_20260901.html",
-   "actualizado": "2026-09-02"
+   "actualizado": "2026-09-02",
+   "footprint": {
+    "version": 6,
+    "status": "unresolved",
+    "public_domain": 0,
+    "n_parcels": 14,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 33843,
+     "easement": 11555,
+     "temporary": 7820
+    },
+    "parcels_m2": 0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   },
   "BOE-B-2026-27790": {
    "identificador": "BOE-B-2026-27790",
@@ -1177,7 +1194,24 @@
     }
    ],
    "informe": "informes/informe_20260831_20260903.html",
-   "actualizado": "2026-09-03"
+   "actualizado": "2026-09-03",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 170,
+    "n_matched": 170,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 183687,
+     "easement": 14539,
+     "temporary": 64129
+    },
+    "parcels_m2": 2994952,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-28210.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-28211": {
    "identificador": "BOE-B-2026-28211",
@@ -1439,7 +1473,55 @@
     }
    ],
    "informe": "informes/informe_20260831_20260903.html",
-   "actualizado": "2026-09-03"
+   "actualizado": "2026-09-03",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 87,
+    "n_matched": 84,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 19203993,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-28212.geojson",
+    "natura": [
+     {
+      "sitecode": "ES3110005",
+      "nombre": "Cuenca del río Guadarrama",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES4160109",
+      "nombre": "Sierra de Guadarrama",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES0000010",
+      "nombre": "Sierra de Guadarrama - ZEPA",
+      "tipo": "ZEPA"
+     },
+     {
+      "sitecode": "ES3110002",
+      "nombre": "Cuenca del río Lozoya y Sierra Norte",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES0000057",
+      "nombre": "Alto Lozoya",
+      "tipo": "ZEPA"
+     },
+     {
+      "sitecode": "ES3110004",
+      "nombre": "Cuenca del río Manzanares",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-28216": {
    "identificador": "BOE-B-2026-28216",
@@ -1813,6 +1895,23 @@
    ],
    "informe": "informes/informe_20260901_20260904.html",
    "actualizado": "2026-09-04",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 3,
+    "n_matched": 3,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 7294
+    },
+    "parcels_m2": 420057,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-28327.geojson",
+    "natura": []
+   },
    "resolucion_posible": {
     "identificador": "BOE-A-2026-18572",
     "fecha": "2026-09-03",
@@ -3628,6 +3727,23 @@
    ],
    "informe": "informes/informe_20260908_20260911.html",
    "actualizado": "2026-09-11",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 3,
+    "n_matched": 3,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 107176,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-29192.geojson",
+    "natura": []
+   },
    "resolucion_posible": {
     "identificador": "BOE-B-2026-31789",
     "fecha": "2026-10-01",
@@ -3874,6 +3990,19 @@
    ],
    "informe": "informes/informe_20260909_20260912.html",
    "actualizado": "2026-09-12",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   },
    "resolucion": {
     "identificador": "BOE-A-2026-19932",
     "fecha": "2026-09-25",
@@ -4215,6 +4344,23 @@
    ],
    "informe": "informes/informe_20260909_20260912.html",
    "actualizado": "2026-09-12",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 77,
+    "n_matched": 75,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 142370,
+     "temporary": 58967
+    },
+    "parcels_m2": 4045038,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-29329.geojson",
+    "natura": []
+   },
    "resolucion_posible": {
     "identificador": "BOE-A-2026-19316",
     "fecha": "2026-09-16",
@@ -4578,7 +4724,24 @@
     }
    ],
    "informe": "informes/informe_20260911_20260914.html",
-   "actualizado": "2026-09-14"
+   "actualizado": "2026-09-14",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 109,
+    "n_matched": 109,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 8819373,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-29433.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-29434": {
    "identificador": "BOE-B-2026-29434",
@@ -4707,7 +4870,30 @@
     }
    ],
    "informe": "informes/informe_20260911_20260914.html",
-   "actualizado": "2026-09-14"
+   "actualizado": "2026-09-14",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 320,
+    "n_matched": 320,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 7787,
+     "easement": 4336,
+     "temporary": 46348
+    },
+    "parcels_m2": 16369264,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-29434.geojson",
+    "natura": [
+     {
+      "sitecode": "ES4230012",
+      "nombre": "Estepas yesosas de La Alcarria conquense",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-29447": {
    "identificador": "BOE-B-2026-29447",
@@ -4781,7 +4967,20 @@
     }
    ],
    "informe": "informes/informe_20260911_20260914.html",
-   "actualizado": "2026-09-14"
+   "actualizado": "2026-09-14",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   },
   "BOE-B-2026-29448": {
    "identificador": "BOE-B-2026-29448",
@@ -5044,7 +5243,24 @@
     }
    ],
    "informe": "informes/informe_20260914_20260917.html",
-   "actualizado": "2026-09-17"
+   "actualizado": "2026-09-17",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 94,
+    "n_matched": 94,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 8072044,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-29804.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-29805": {
    "identificador": "BOE-B-2026-29805",
@@ -5638,7 +5854,20 @@
    "n_aves": 0,
    "especies_top": [],
    "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "actualizado": "2026-09-19",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   },
   "BOE-B-2026-30022": {
    "identificador": "BOE-B-2026-30022",
@@ -5745,7 +5974,24 @@
     }
    ],
    "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "actualizado": "2026-09-19",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 9,
+    "n_matched": 9,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 31,
+     "easement": 0,
+     "temporary": 276
+    },
+    "parcels_m2": 38336,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30022.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-30024": {
    "identificador": "BOE-B-2026-30024",
@@ -6033,7 +6279,55 @@
     }
    ],
    "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "actualizado": "2026-09-19",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 1,
+    "n_parcels": 450,
+    "n_matched": 448,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 12074,
+     "easement": 195326,
+     "temporary": 211893
+    },
+    "parcels_m2": 45960099,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30024.geojson",
+    "natura": [
+     {
+      "sitecode": "ES4310010",
+      "nombre": "La Serena",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES4220015",
+      "nombre": "Sierras de Almadén - Chillón y Guadalmez",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES4310026",
+      "nombre": "Río Guadiana Alto - Zujar",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES4310024",
+      "nombre": "Río Guadamez",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6130003",
+      "nombre": "Sierra de Santa Eufemia",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES0000367",
+      "nombre": "La Serena y Sierras Periféricas",
+      "tipo": "ZEPA"
+     }
+    ]
+   }
   },
   "BOE-B-2026-30027": {
    "identificador": "BOE-B-2026-30027",
@@ -6153,7 +6447,20 @@
     }
    ],
    "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "actualizado": "2026-09-19",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   },
   "BOE-B-2026-30029": {
    "identificador": "BOE-B-2026-30029",
@@ -6303,7 +6610,24 @@
     }
    ],
    "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "actualizado": "2026-09-19",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 214,
+    "n_matched": 212,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 4437307,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30030.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-30092": {
    "identificador": "BOE-B-2026-30092",
@@ -6749,7 +7073,24 @@
     }
    ],
    "informe": "informes/informe_20260916_20260919.html",
-   "actualizado": "2026-09-19"
+   "actualizado": "2026-09-19",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 161,
+    "n_matched": 161,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 27926,
+     "temporary": 83622
+    },
+    "parcels_m2": 3939730,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30098.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-30099": {
    "identificador": "BOE-B-2026-30099",
@@ -7274,7 +7615,45 @@
     }
    ],
    "informe": "informes/informe_20260918_20260921.html",
-   "actualizado": "2026-09-21"
+   "actualizado": "2026-09-21",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 522,
+    "n_matched": 522,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 83011,
+     "easement": 1274275,
+     "temporary": 52494
+    },
+    "parcels_m2": 21206995,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30163.geojson",
+    "natura": [
+     {
+      "sitecode": "ES6110006",
+      "nombre": "Ramblas de Gérgal, Tabernas y Sur de Sierra Alhamilla",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6110002",
+      "nombre": "Karst en Yesos de Sorbas",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6110005",
+      "nombre": "Sierra de Cabrera-Bédar",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6110017",
+      "nombre": "Río Antas",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-30456": {
    "identificador": "BOE-B-2026-30456",
@@ -7551,7 +7930,24 @@
     }
    ],
    "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "actualizado": "2026-09-25",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 2,
+    "n_matched": 2,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 295,
+     "temporary": 804
+    },
+    "parcels_m2": 4526,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30628.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-30630": {
    "identificador": "BOE-B-2026-30630",
@@ -7677,7 +8073,35 @@
     }
    ],
    "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "actualizado": "2026-09-25",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 156,
+    "n_matched": 153,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 18359,
+     "temporary": 17278
+    },
+    "parcels_m2": 8478221,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30630.geojson",
+    "natura": [
+     {
+      "sitecode": "ES3110006",
+      "nombre": "Vegas, cuestas y páramos del sureste de Madrid",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES0000142",
+      "nombre": "Cortados y cantiles de los ríos Jarama y Manzanares",
+      "tipo": "ZEPA"
+     }
+    ]
+   }
   },
   "BOE-B-2026-30631": {
    "identificador": "BOE-B-2026-30631",
@@ -7797,7 +8221,30 @@
     }
    ],
    "informe": "informes/informe_20260922_20260925.html",
-   "actualizado": "2026-09-25"
+   "actualizado": "2026-09-25",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 155,
+    "n_matched": 155,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 2314738,
+     "easement": 6459,
+     "temporary": 26737
+    },
+    "parcels_m2": 17896228,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30631.geojson",
+    "natura": [
+     {
+      "sitecode": "ES4320061",
+      "nombre": "Arroyos Patana y Regueros",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-30717": {
    "identificador": "BOE-B-2026-30717",
@@ -8199,7 +8646,24 @@
     }
    ],
    "informe": "informes/informe_20260923_20260926.html",
-   "actualizado": "2026-09-26"
+   "actualizado": "2026-09-26",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 4,
+    "n_matched": 4,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 3938,
+     "temporary": 6069
+    },
+    "parcels_m2": 913197,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30746.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-30839": {
    "identificador": "BOE-B-2026-30839",
@@ -8570,7 +9034,35 @@
     }
    ],
    "informe": "informes/informe_20260923_20260926.html",
-   "actualizado": "2026-09-26"
+   "actualizado": "2026-09-26",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 35,
+    "n_matched": 35,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 3698154,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30850.geojson",
+    "natura": [
+     {
+      "sitecode": "ES4250005",
+      "nombre": "Montes de Toledo",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES4210017",
+      "nombre": "Lagunas de Ruidera",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-30851": {
    "identificador": "BOE-B-2026-30851",
@@ -9234,7 +9726,24 @@
     }
    ],
    "informe": "informes/informe_20260925_20260928.html",
-   "actualizado": "2026-09-28"
+   "actualizado": "2026-09-28",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 1,
+    "n_matched": 1,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 671,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-30959.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-30960": {
    "identificador": "BOE-B-2026-30960",
@@ -9520,7 +10029,30 @@
     }
    ],
    "informe": "informes/informe_20260928_20261001.html",
-   "actualizado": "2026-10-01"
+   "actualizado": "2026-10-01",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 892,
+    "n_matched": 883,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 1486590
+    },
+    "parcels_m2": 18534335,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31419.geojson",
+    "natura": [
+     {
+      "sitecode": "ES5140009",
+      "nombre": "Tivissa-Vandellòs-Llaberia",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-31424": {
    "identificador": "BOE-B-2026-31424",
@@ -9756,7 +10288,24 @@
     }
    ],
    "informe": "informes/informe_20260929_20261002.html",
-   "actualizado": "2026-10-02"
+   "actualizado": "2026-10-02",
+   "footprint": {
+    "version": 6,
+    "status": "foral",
+    "public_domain": 0,
+    "n_parcels": 650,
+    "n_matched": 0,
+    "foral": 650,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 770377
+    },
+    "parcels_m2": 0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   },
   "BOE-B-2026-31550": {
    "identificador": "BOE-B-2026-31550",
@@ -9958,7 +10507,24 @@
     }
    ],
    "informe": "informes/informe_20260929_20261002.html",
-   "actualizado": "2026-10-02"
+   "actualizado": "2026-10-02",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 180,
+    "n_matched": 180,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 549111,
+     "easement": 16367,
+     "temporary": 0
+    },
+    "parcels_m2": 1167482,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31551.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-31570": {
    "identificador": "BOE-B-2026-31570",
@@ -10169,7 +10735,35 @@
     }
    ],
    "informe": "informes/informe_20260929_20261002.html",
-   "actualizado": "2026-10-02"
+   "actualizado": "2026-10-02",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 7,
+    "n_matched": 7,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 881427,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31585.geojson",
+    "natura": [
+     {
+      "sitecode": "ES4320077",
+      "nombre": "Monfragüe",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES0000014",
+      "nombre": "Monfragüe y las Dehesas del Entorno",
+      "tipo": "ZEPA"
+     }
+    ]
+   }
   },
   "BOE-B-2026-31586": {
    "identificador": "BOE-B-2026-31586",
@@ -10313,7 +10907,24 @@
     }
    ],
    "informe": "informes/informe_20260929_20261002.html",
-   "actualizado": "2026-10-02"
+   "actualizado": "2026-10-02",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 6,
+    "n_matched": 6,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 48828,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31586.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-31654": {
    "identificador": "BOE-B-2026-31654",
@@ -10507,7 +11118,60 @@
     }
    ],
    "informe": "informes/informe_20260930_20261003.html",
-   "actualizado": "2026-10-03"
+   "actualizado": "2026-10-03",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 354,
+    "n_matched": 346,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 85247048,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31654.geojson",
+    "natura": [
+     {
+      "sitecode": "ES0000024",
+      "nombre": "Doñana",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6150009",
+      "nombre": "Doñana Norte y Oeste",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6150012",
+      "nombre": "Dehesa del Estero y Montes de Moguer",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6150003",
+      "nombre": "Estero de Domingo Rubio",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6150013",
+      "nombre": "Dunas del Odiel",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6150029",
+      "nombre": "Estuario del Río Tinto",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES6150004",
+      "nombre": "Lagunas de Palos y Las Madres",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-31655": {
    "identificador": "BOE-B-2026-31655",
@@ -10691,7 +11355,60 @@
     }
    ],
    "informe": "informes/informe_20260930_20261003.html",
-   "actualizado": "2026-10-03"
+   "actualizado": "2026-10-03",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 2,
+    "n_parcels": 885,
+    "n_matched": 882,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 1532485
+    },
+    "parcels_m2": 35844794,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31655.geojson",
+    "natura": [
+     {
+      "sitecode": "ES0000298",
+      "nombre": "Matarraña - Aiguabarreix",
+      "tipo": "ZEPA"
+     },
+     {
+      "sitecode": "ES2420099",
+      "nombre": "Sierra de Vizcuerno",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES5140011",
+      "nombre": "Sistema Prelitoral meridional",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES2430097",
+      "nombre": "Río Matarranya",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES2430096",
+      "nombre": "Río Guadalope, Val de Fabara y Val de Pilas",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES5140010",
+      "nombre": "Riberes i Illes de l'Ebre",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES2420118",
+      "nombre": "Río Algars",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-31656": {
    "identificador": "BOE-B-2026-31656",
@@ -11183,7 +11900,30 @@
     }
    ],
    "informe": "informes/informe_20260930_20261003.html",
-   "actualizado": "2026-10-03"
+   "actualizado": "2026-10-03",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 64,
+    "n_matched": 64,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 403059,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31682.geojson",
+    "natura": [
+     {
+      "sitecode": "ES0000252",
+      "nombre": "Embalse del Ebro",
+      "tipo": "ZEPA"
+     }
+    ]
+   }
   },
   "BOE-B-2026-31753": {
    "identificador": "BOE-B-2026-31753",
@@ -11615,7 +12355,24 @@
     }
    ],
    "informe": "informes/informe_20260930_20261003.html",
-   "actualizado": "2026-10-03"
+   "actualizado": "2026-10-03",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 12,
+    "n_matched": 12,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 10332
+    },
+    "parcels_m2": 1092302,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31787.geojson",
+    "natura": []
+   }
   },
   "BOE-B-2026-31849": {
    "identificador": "BOE-B-2026-31849",
@@ -11871,7 +12628,35 @@
     }
    ],
    "informe": "informes/informe_20261002_20261005.html",
-   "actualizado": "2026-10-05"
+   "actualizado": "2026-10-05",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 1020,
+    "n_matched": 1006,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 13001,
+     "temporary": 579061
+    },
+    "parcels_m2": 24655552,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-31903.geojson",
+    "natura": [
+     {
+      "sitecode": "ES5110015",
+      "nombre": "Sistema Prelitoral Central",
+      "tipo": "LIC/ZEC"
+     },
+     {
+      "sitecode": "ES5140021",
+      "nombre": "Obagues del riu Corb",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
   },
   "BOE-B-2026-32284": {
    "identificador": "BOE-B-2026-32284",
@@ -11904,8 +12689,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
   },
   "BOE-B-2026-32288": {
    "identificador": "BOE-B-2026-32288",
@@ -12032,8 +12817,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
   },
   "BOE-B-2026-32296": {
    "identificador": "BOE-B-2026-32296",
@@ -12184,8 +12969,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
   },
   "BOE-B-2026-32445": {
    "identificador": "BOE-B-2026-32445",
@@ -12267,8 +13052,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
   },
   "BOE-B-2026-32447": {
    "identificador": "BOE-B-2026-32447",
@@ -12374,8 +13159,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
   },
   "BOE-B-2026-32448": {
    "identificador": "BOE-B-2026-32448",
@@ -12519,8 +13304,21 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   },
   "BOE-B-2026-32451": {
    "identificador": "BOE-B-2026-32451",
@@ -12560,8 +13358,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
   },
   "BOE-B-2026-32471": {
    "identificador": "BOE-B-2026-32471",
@@ -12682,8 +13480,31 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 9,
+    "n_matched": 9,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 1656949,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-32471.geojson",
+    "natura": [
+     {
+      "sitecode": "ES0000400",
+      "nombre": "Arrozales de Palazuelo y Guadalperales",
+      "tipo": "ZEPA"
+     }
+    ]
+   }
   },
   "BOE-B-2026-32591": {
    "identificador": "BOE-B-2026-32591",
@@ -12792,11 +13613,987 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261004_20261007.html",
-   "actualizado": "2026-10-07"
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 2,
+    "n_matched": 2,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 650
+    },
+    "parcels_m2": 36113,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-32591.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-32674": {
+   "identificador": "BOE-B-2026-32674",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Andalucía Oriental sobre aprobación del expediente de información pública y la aprobación definitiva del \"Estudio Puntual de Delimitación de Tramos Urbanos y fijación de la línea límite de edificación en parcela situada en Urbanización Las Buganvillas junto a la A-7, p.k. 1022+820, M.D. T.M. Mijas (Málaga)\".",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32674",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32674",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32674.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Mijas"
+   ],
+   "provincias": [
+    "Málaga"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6170022",
+     "nombre": "Río Fuengirola",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6170030",
+     "nombre": "Calahonda",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 38,
+   "n_aves": 22,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Clangula hyemalis",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Haliotis tuberculata",
+     "vernacular_es": "oreja de mar",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    }
+   ],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
+  },
+  "BOE-B-2026-32678": {
+   "identificador": "BOE-B-2026-32678",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha por el que se somete a información pública la solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción del Proyecto de línea directa de entrada y salida en Subestación Eléctrica \"Venero 220/20 kV\" del circuito 220 kV SE Las Loberas- SE La Platera y del Proyecto Subestación Eléctrica \"Venero 220/20 kV\", en el término municipal de Méntrida (Toledo), promovido por SOLARIA PROMOCIÓN Y DESARROLLO FOTOVOLTAICO, S.L.U. [Con-09 (Línea Directa CPD PFot-417 AC)].",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32678",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32678",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32678.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Méntrida"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 30,
+   "promotor": "SOLARIA PROMOCIÓN Y DESARROLLO FOTOVOLTAICO, S.L.U. [Con-09 (Línea Directa CPD PFot-417 AC)]",
+   "potencia_mw": null,
+   "expediente": "PFot-417AC",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4250001",
+     "nombre": "Sierra de San Vicente y valles del Tiétar y Alberche",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES3110007",
+     "nombre": "Cuencas de los ríos Alberche y Cofio",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000056",
+     "nombre": "Encinares del río Alberche y río Cofio",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 17,
+   "n_aves": 12,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Squalius pyrenaicus",
+     "vernacular_es": "Cacho",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Tetrax tetrax",
+     "vernacular_es": "Sisón",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caprimulgus ruficollis",
+     "vernacular_es": "Chotacabras Pardo",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
+  },
+  "BOE-B-2026-32679": {
+   "identificador": "BOE-B-2026-32679",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha sobre información pública de la solicitud de Declaración, en concreto, de Utilidad Pública de los proyectos de las Plantas Solares Fotovoltaicas Zednemen Fase III, Zednemen fase II y Zednemen, y sus infraestructuras de evacuación, ubicadas en el término municipal de Casarrubios del Monte, en la provincia de Toledo, y de Fuenlabrada y Alcorcón en la Comunidad de Madrid, cuyo peticionario es ENERGÍAS RENOVABLES ZEDNEMEN, S.L. [Expediente: PFot-593/PFot-594/PFot-596].",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32679",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32679",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32679.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Casarrubios del Monte",
+    "Fuenlabrada",
+    "Alcorcón",
+    "Titular"
+   ],
+   "provincias": [
+    "Toledo",
+    "Madrid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Energía Ebisu, S.L",
+   "potencia_mw": 147.56,
+   "expediente": "PFot-593/PFot-594/PFot-596",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Titular"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES3110005",
+     "nombre": "Cuenca del río Guadarrama",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 19,
+   "n_aves": 14,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Unio delphinus",
+     "vernacular_es": "Náyade delfín",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Carcharodus baeticus",
+     "vernacular_es": "Piquitos del marrubio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 2,
+    "n_parcels": 426,
+    "n_matched": 391,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 2370061,
+     "easement": 125322,
+     "temporary": 0
+    },
+    "parcels_m2": 5818740,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-32679.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-32680": {
+   "identificador": "BOE-B-2026-32680",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Delegación del Gobierno en Asturias de información pública de la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública, y estudio de impacto ambiental del proyecto \"Nueva subestación Reboria 400 kV\". Expediente: 86-G/2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32680",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32680",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32680.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Reboria"
+   ],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+   "potencia_mw": 0.0,
+   "expediente": "86-G/2026",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [
+    "Reboria"
+   ],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 42,
+    "n_matched": 42,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 3939
+    },
+    "parcels_m2": 268020,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-32680.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-32681": {
+   "identificador": "BOE-B-2026-32681",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Delegación del Gobierno en Asturias de Información pública de la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública, y estudio de impacto ambiental, del proyecto \"Nueva línea aérea de transporte de energía eléctrica a 400 kV, doble circuito, subestación Cardoso- subestación Reboria\". Expediente: 85-G/2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32681",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32681",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32681.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Carreño"
+   ],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+   "potencia_mw": null,
+   "expediente": "85-G/2026",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 29,
+   "n_aves": 16,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Fratercula arctica",
+     "vernacular_es": "Frailecillo Atlántico",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 132,
+    "n_matched": 129,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 139929,
+     "temporary": 163932
+    },
+    "parcels_m2": 1595296,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-32681.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-32682": {
+   "identificador": "BOE-B-2026-32682",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Valladolid por el que se somete a información pública la solicitud de nueva modificación de autorización administrativa previa, de autorización administrativa de construcción y declaración, en concreto, de utilidad pública del parque eólico Mudarra de 100 MW, y su infraestructura de evacuación, en los términos municipales de Villabrágima, Medina de Rioseco, Valverde de Campos, Castromonte y La Mudarra, en la provincia de Valladolid.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32682",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32682",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32682.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Villabrágima",
+    "Medina de Rioseco",
+    "Valverde de Campos",
+    "Castromonte",
+    "La Mudarra",
+    "Valdenebro de los Valles",
+    "Polígono"
+   ],
+   "provincias": [
+    "Valladolid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Abei Energy CSPV Six, SL",
+   "potencia_mw": 100.0,
+   "expediente": "PEol-406",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000216",
+     "nombre": "La Nava-Campos Sur",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4140129",
+     "nombre": "Montes Torozos y Páramos de Torquemada-Astudillo",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 22,
+   "n_aves": 13,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 230,
+    "n_matched": 228,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 20365,
+     "easement": 0,
+     "temporary": 179163
+    },
+    "parcels_m2": 21466400,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-32682.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-32686": {
+   "identificador": "BOE-B-2026-32686",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Tajo por el que se somete a información pública el proyecto y el estudio de impacto ambiental del «proyecto de modificación de características de una concesión de aguas para riego por goteo en la finca Silillos 1», en el término municipal de Valdetorres de Jarama (Madrid), referencia M-0098/2022.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32686",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32686",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32686.pdf",
+   "fuente": "BOE",
+   "categoria": "agua_concesion",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Valdetorres de Jarama"
+   ],
+   "provincias": [
+    "Madrid"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES3110001",
+     "nombre": "Cuencas de los ríos Jarama y Henares",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000139",
+     "nombre": "Estepas cerealistas de los ríos Jarama y Henares",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 17,
+   "n_aves": 11,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Cobitis calderoni",
+     "vernacular_es": "Lamprehuela",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
+  },
+  "BOE-B-2026-32687": {
+   "identificador": "BOE-B-2026-32687",
+   "fecha": "2026-10-08",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Subdirección General de Minas por el que se somete a información pública la solicitud de prórroga de la Concesión de Explotación \"QUINTANILLA\" N.º 16.361.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32687",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32687",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-B-2026-32687.pdf",
+   "fuente": "BOE",
+   "categoria": "mineria",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Valderredible"
+   ],
+   "provincias": [
+    "Cantabria",
+    "Palencia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-20",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000253",
+     "nombre": "Hoces del Ebro",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES1300013",
+     "nombre": "Río y Embalse del Ebro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4120036",
+     "nombre": "Hoces del Alto Ebro y Rudrón - ZEPA",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4140027",
+     "nombre": "Covalagua",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4120090",
+     "nombre": "Embalse del Ebro - Monte Hijedo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4120089",
+     "nombre": "Hoces del Alto Ebro y Rudrón",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 32,
+   "n_aves": 10,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Unio mancus",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Potomida littoralis",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Galemys pyrenaicus",
+     "vernacular_es": "Almizclera",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Nyctalus lasiopterus",
+     "vernacular_es": "Murciélago nóctulo grande",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Vipera aspis",
+     "vernacular_es": "Vibora áspid",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    }
+   ],
+   "informe": "informes/informe_20261005_20261008.html",
+   "actualizado": "2026-10-08"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261005_20261008.html",
+   "desde": "2026-10-05",
+   "hasta": "2026-10-08",
+   "generado": "2026-10-08",
+   "n": 17
+  },
   {
    "fichero": "informes/informe_20261004_20261007.html",
    "desde": "2026-10-04",
