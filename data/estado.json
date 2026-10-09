@@ -13052,8 +13052,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08"
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
   },
   "BOE-B-2026-32447": {
    "identificador": "BOE-B-2026-32447",
@@ -13159,8 +13159,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08"
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
   },
   "BOE-B-2026-32448": {
    "identificador": "BOE-B-2026-32448",
@@ -13304,8 +13304,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08",
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -13358,8 +13358,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08"
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
   },
   "BOE-B-2026-32471": {
    "identificador": "BOE-B-2026-32471",
@@ -13480,8 +13480,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08",
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -13613,8 +13613,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08",
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -13748,8 +13748,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08"
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
   },
   "BOE-B-2026-32678": {
    "identificador": "BOE-B-2026-32678",
@@ -13871,8 +13871,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08"
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
   },
   "BOE-B-2026-32679": {
    "identificador": "BOE-B-2026-32679",
@@ -13990,8 +13990,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08",
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -14043,8 +14043,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08",
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -14167,8 +14167,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08",
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -14308,8 +14308,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08",
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -14443,8 +14443,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08"
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
   },
   "BOE-B-2026-32687": {
    "identificador": "BOE-B-2026-32687",
@@ -14582,11 +14582,552 @@
      "class": "Squamata"
     }
    ],
-   "informe": "informes/informe_20261005_20261008.html",
-   "actualizado": "2026-10-08"
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
+  },
+  "BOE-B-2026-32779": {
+   "identificador": "BOE-B-2026-32779",
+   "fecha": "2026-10-09",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Madrid sobre resolución del Ministerio de Transportes y Movilidad Sostenible por la que se aprueba el expediente de información pública y definitivamente el estudio de delimitación de tramos urbanos y fijación de la línea límite de edificación N-6 a la altura de la Calle Estrella Polar 2, T.M. Guadarrama (Madrid).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32779",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32779",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/09/pdfs/BOE-B-2026-32779.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Guadarrama"
+   ],
+   "provincias": [
+    "Madrid"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-23",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES3110005",
+     "nombre": "Cuenca del río Guadarrama",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4110097",
+     "nombre": "Campo Azálvaro - Pinares de Peguerinos",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000189",
+     "nombre": "Campo Azálvaro - Pinares de Peguerinos - ZEPA",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4160109",
+     "nombre": "Sierra de Guadarrama",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000010",
+     "nombre": "Sierra de Guadarrama - ZEPA",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 27,
+   "n_aves": 10,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Galemys pyrenaicus",
+     "vernacular_es": "Almizclera",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Squalius pyrenaicus",
+     "vernacular_es": "Cacho",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
+  },
+  "BOE-B-2026-32784": {
+   "identificador": "BOE-B-2026-32784",
+   "fecha": "2026-10-09",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Baleares de información pública de la solicitud de Cardtronics Spain SL para el otorgamiento en concesión de unas parcelas en las zonas del Muelle de Comercial y Calasfons del puerto de Maó.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32784",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32784",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/09/pdfs/BOE-B-2026-32784.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Maó"
+   ],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-09",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000235",
+     "nombre": "De s'Albufera a la Mola",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000234",
+     "nombre": "S'Albufera des Grau",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000386",
+     "nombre": "Capell de Ferro",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000237",
+     "nombre": "Des Canutells a Llucalari",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310119",
+     "nombre": "Penyes d'Egipte",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000233",
+     "nombre": "D'Addaia a s'Albufera",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310071",
+     "nombre": "Cala en Brut",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310072",
+     "nombre": "Caleta de Binillautí",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ESZZ16002",
+     "nombre": "Canal de Menorca",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000522",
+     "nombre": "Espacio marino del sureste de Menorca",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 39,
+   "n_aves": 23,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Testudo hermanni",
+     "vernacular_es": "Tortuga Mediterranea",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Epinephelus marginatus",
+     "vernacular_es": "Mero de Vientre Amarillo",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Puffinus yelkouan",
+     "vernacular_es": "Pardela Mediterránea",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
+  },
+  "BOE-B-2026-32792": {
+   "identificador": "BOE-B-2026-32792",
+   "fecha": "2026-10-09",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+   "titulo": "Resolución de la Dirección General de Desarrollo Rural, Innovación y Formación Agroalimentaria por la que se somete a Información Pública la relación de titulares, bienes y derechos afectados y se convoca al levantamiento de Actas Previas a la Ocupación y, en su caso, Actas de Ocupación Definitivas, de determinados bienes y derechos necesarios para la realización de las obras comprendidas en el \"Proyecto de Modernización del regadío en la Comunidad de Regantes del Canal de Villadangos (León). Fase I-SEIASA\". Nº de expediente SGRCNIR: 21.311.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32792",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32792",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/09/pdfs/BOE-B-2026-32792.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Villadangos del Páramo",
+    "Cimanes del Tejar",
+    "Santa Marina del Rey"
+   ],
+   "provincias": [
+    "León"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-23",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4130065",
+     "nombre": "Riberas del Río Órbigo y afluentes",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 26,
+   "n_aves": 12,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Galemys pyrenaicus",
+     "vernacular_es": "Almizclera",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cobitis calderoni",
+     "vernacular_es": "Lamprehuela",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 52,
+    "n_matched": 52,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 397408,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-32792.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-32834": {
+   "identificador": "BOE-B-2026-32834",
+   "fecha": "2026-10-09",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Guadalquivir, O.A., de información pública de procedimiento de modificación de características y novación de una concesión de aguas públicas para riego y un volumen de 226.716,6 m³/año a captar de Río Genil aguas abajo de la presa de la Cordobilla en el término municipal de Écija (Sevilla). Expediente 7204/2021.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32834",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32834",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/09/pdfs/BOE-B-2026-32834.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Écija"
+   ],
+   "provincias": [
+    "Sevilla"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "7204/2021",
+   "fecha_limite": "2026-11-09",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6180017",
+     "nombre": "Campiñas de Sevilla",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 27,
+   "n_aves": 20,
+   "especies_top": [
+    {
+     "scientificName": "Vanellus gregarius",
+     "vernacular_es": "Avefría sociable",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Falco cherrug",
+     "vernacular_es": "Halcón Sacre",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20261006_20261009.html",
+   "actualizado": "2026-10-09"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261006_20261009.html",
+   "desde": "2026-10-06",
+   "hasta": "2026-10-09",
+   "generado": "2026-10-09",
+   "n": 18
+  },
   {
    "fichero": "informes/informe_20261005_20261008.html",
    "desde": "2026-10-05",

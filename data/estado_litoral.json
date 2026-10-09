@@ -2373,6 +2373,106 @@
    "natura_nombres": [],
    "n_especies": 33,
    "n_aves": 20
+  },
+  "BOE-B-2026-32820": {
+   "identificador": "BOE-B-2026-32820",
+   "fecha": "2026-10-09",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cantabria sobre la solicitud de concesión de ocupación de dominio público marítimo-terrestre para el mantenimiento del muro del molino Viejo en el Ribero, en el término municipal de Argoños. Referencia: CNC02/25/39/0007.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32820",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32820",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/09/pdfs/BOE-B-2026-32820.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Argoños"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-09",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
+  },
+  "BOE-B-2026-32833": {
+   "identificador": "BOE-B-2026-32833",
+   "fecha": "2026-10-09",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia sobre otorgamiento de concesión administrativa de ocupación de dominio público marítimo-terrestre. Referencia CNC02/23/30/0006.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-32833",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-32833",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/09/pdfs/BOE-B-2026-32833.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Águilas"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-09",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES0000261",
+    "ES6200035",
+    "ES6200031",
+    "ES6200010",
+    "ES6200029",
+    "ES6200007",
+    "ES6110012",
+    "ES0000507"
+   ],
+   "natura_nombres": [
+    "Almenara-Moreras-Cabo Cope",
+    "Sierra de Almenara",
+    "Cabo Cope",
+    "Cuatro Calas",
+    "Franja Litoral Sumergida de la Región de Murcia",
+    "Islas e Islotes del Litoral Mediterráneo"
+   ],
+   "n_especies": 33,
+   "n_aves": 21
   }
  }
 }
