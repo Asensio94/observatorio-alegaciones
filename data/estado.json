@@ -4173,7 +4173,23 @@
     }
    ],
    "informe": "informes/informe_20260909_20260912.html",
-   "actualizado": "2026-09-12"
+   "actualizado": "2026-09-12",
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-21156",
+    "fecha": "2026-10-10",
+    "tipo": "iia",
+    "tipo_etiqueta": "Informe de impacto ambiental",
+    "sentido": "a_ordinaria",
+    "sentido_etiqueta": "obligado a evaluación de impacto ambiental ordinaria",
+    "titulo": "Resolución de 28 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Terminación de la autovía de acceso al puerto del Musel GJ-20. Duplicación de GJ-10 desde el enlace de Lloreda al semienlace de Veriña».",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21156",
+    "fuente": "BOE",
+    "puntos": 3,
+    "motivos": [
+     "1 municipio(s) en común",
+     "coinciden: puerto"
+    ]
+   }
   },
   "BOE-B-2026-29329": {
    "identificador": "BOE-B-2026-29329",
@@ -13613,8 +13629,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09",
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -13748,8 +13764,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10"
   },
   "BOE-B-2026-32678": {
    "identificador": "BOE-B-2026-32678",
@@ -13871,8 +13887,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10"
   },
   "BOE-B-2026-32679": {
    "identificador": "BOE-B-2026-32679",
@@ -13990,8 +14006,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09",
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -14043,8 +14059,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09",
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -14167,8 +14183,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09",
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -14308,8 +14324,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09",
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -14443,8 +14459,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10"
   },
   "BOE-B-2026-32687": {
    "identificador": "BOE-B-2026-32687",
@@ -14582,8 +14598,8 @@
      "class": "Squamata"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10"
   },
   "BOE-B-2026-32779": {
    "identificador": "BOE-B-2026-32779",
@@ -14715,8 +14731,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10"
   },
   "BOE-B-2026-32784": {
    "identificador": "BOE-B-2026-32784",
@@ -14871,8 +14887,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10"
   },
   "BOE-B-2026-32792": {
    "identificador": "BOE-B-2026-32792",
@@ -14986,8 +15002,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09",
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -15116,11 +15132,108 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10"
+  },
+  "BOE-B-2026-33134": {
+   "identificador": "BOE-B-2026-33134",
+   "fecha": "2026-10-10",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Corrección de errores del anuncio de la Delegación del Gobierno en Asturias de información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública, y estudio de impacto ambiental del proyecto de \"Nueva subestación Reboria 400 kV\". Expediente 86-G/2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33134",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33134",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-B-2026-33134.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "86-G/2026",
+   "fecha_limite": "2026-11-23",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
+  },
+  "BOE-B-2026-33135": {
+   "identificador": "BOE-B-2026-33135",
+   "fecha": "2026-10-10",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Corrección de errores del anuncio de la Delegación del Gobierno en Asturias de información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública, y estudio de impacto ambiental del proyecto de \"Nueva línea aérea de transporte de energía eléctrica a 400 kV, doble circuito, subestación Cardoso- subestación Reboria\". Expediente 85-G/2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33135",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33135",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-B-2026-33135.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "85-G/2026",
+   "fecha_limite": "2026-11-23",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261007_20261010.html",
+   "actualizado": "2026-10-10",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261007_20261010.html",
+   "desde": "2026-10-07",
+   "hasta": "2026-10-10",
+   "generado": "2026-10-10",
+   "n": 15
+  },
   {
    "fichero": "informes/informe_20261006_20261009.html",
    "desde": "2026-10-06",
@@ -20557,6 +20670,75 @@
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21155": {
+   "identificador": "BOE-A-2026-21155",
+   "fecha": "2026-10-10",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 22 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Ejecución de una batería de sondeos de investigación derivados de la solicitud prórroga del permiso de investigación de minas \"Melilla Geothermal Energy\" n.º 001».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21155",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21155",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-A-2026-21155.pdf",
+   "fuente": "BOE",
+   "categoria": "mineria",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Melilla"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "iia",
+   "tipo_etiqueta": "Informe de impacto ambiental",
+   "sentido": "sin_eia",
+   "sentido_etiqueta": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21156": {
+   "identificador": "BOE-A-2026-21156",
+   "fecha": "2026-10-10",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 28 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Terminación de la autovía de acceso al puerto del Musel GJ-20. Duplicación de GJ-10 desde el enlace de Lloreda al semienlace de Veriña».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21156",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21156",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-A-2026-21156.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Gijón"
+   ],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "iia",
+   "tipo_etiqueta": "Informe de impacto ambiental",
+   "sentido": "a_ordinaria",
+   "sentido_etiqueta": "obligado a evaluación de impacto ambiental ordinaria",
+   "emparejado_con": "BOE-B-2026-29325",
+   "puntos": 3,
+   "motivos": [
+    "1 municipio(s) en común",
+    "coinciden: puerto"
+   ],
    "firme": false
   }
  }
