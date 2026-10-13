@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f5c4129039982e94c5b4199150f663a1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f5c4129039982e94c5b4199150f663a1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f5c4129039982e94c5b4199150f663a1 = L.map(
+                "map_f5c4129039982e94c5b4199150f663a1",
+                {
+                    center: [40.2, -3.7],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1e2566ad6ac80bf9f98d47f0e12795a6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1e2566ad6ac80bf9f98d47f0e12795a6.addTo(map_f5c4129039982e94c5b4199150f663a1);
+        
+    
+            var feature_group_25e55907b5d5a837d6bc3853f5bd39df = L.featureGroup(
+                {
+}
+            );
+        
+    
+        function geo_json_8ec2c32f8c15db00368a1552970dea31_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_8ec2c32f8c15db00368a1552970dea31_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_8ec2c32f8c15db00368a1552970dea31 = L.geoJson(null, {
+                onEachFeature: geo_json_8ec2c32f8c15db00368a1552970dea31_onEachFeature,
+            
+                style: geo_json_8ec2c32f8c15db00368a1552970dea31_styler,
+            ...{
+}
+        });
+
+        function geo_json_8ec2c32f8c15db00368a1552970dea31_add (data) {
+            geo_json_8ec2c32f8c15db00368a1552970dea31
+                .addData(data);
+        }
+            geo_json_8ec2c32f8c15db00368a1552970dea31_add({"features": [{"geometry": {"coordinates": [[[[1.7709, 41.5632], [1.7716, 41.5665], [1.7745, 41.5662], [1.7712, 41.5755], [1.7729, 41.5815], [1.7656, 41.5853], [1.7667, 41.5871], [1.7643, 41.5857], [1.7622, 41.5909], [1.7588, 41.5891], [1.7581, 41.592], [1.7485, 41.5936], [1.7496, 41.5877], [1.7334, 41.5804], [1.7457, 41.5718], [1.7582, 41.5725], [1.7598, 41.5687], [1.7709, 41.5632]]], [[[1.96, 41.565], [1.9641, 41.5663], [1.9632, 41.5738], [1.9509, 41.5836], [1.9218, 41.5843], [1.9207, 41.5758], [1.9276, 41.5767], [1.9294, 41.5733], [1.9221, 41.5702], [1.9329, 41.5693], [1.94, 41.5645], [1.9544, 41.5687], [1.96, 41.565]]], [[[1.9462, 41.4666], [1.9478, 41.4683], [1.9389, 41.4744], [1.9331, 41.4858], [1.9222, 41.4906], [1.9269, 41.5009], [1.9241, 41.504], [1.9166, 41.5036], [1.9189, 41.5144], [1.9156, 41.517], [1.9118, 41.5337], [1.8918, 41.535], [1.8818, 41.5429], [1.8731, 41.5446], [1.8816, 41.5618], [1.8829, 41.5572], [1.893, 41.5592], [1.9082, 41.5556], [1.9102, 41.5634], [1.9167, 41.5619], [1.9159, 41.5672], [1.9193, 41.5667], [1.9185, 41.5843], [1.8966, 41.593], [1.8901, 41.5867], [1.8881, 41.6019], [1.8744, 41.6022], [1.8723, 41.6054], [1.8619, 41.603], [1.8631, 41.5924], [1.8508, 41.591], [1.8539, 41.5953], [1.8497, 41.5994], [1.8511, 41.6037], [1.8442, 41.604], [1.8428, 41.6087], [1.8334, 41.6086], [1.8413, 41.6217], [1.8361, 41.6253], [1.8311, 41.624], [1.8089, 41.6305], [1.8073, 41.6217], [1.8009, 41.6138], [1.8044, 41.6302], [1.8003, 41.6317], [1.7732, 41.6261], [1.7642, 41.6199], [1.7632, 41.6112], [1.7695, 41.5932], [1.7742, 41.5898], [1.7824, 41.5905], [1.8092, 41.5829], [1.8147, 41.5756], [1.8305, 41.5707], [1.8333, 41.5614], [1.8411, 41.5551], [1.8653, 41.5505], [1.8646, 41.5549], [1.8698, 41.5557], [1.8635, 41.5611], [1.871, 41.5632], [1.8722, 41.5655], [1.8688, 41.5668], [1.872, 41.5668], [1.8628, 41.5689], [1.8569, 41.5732], [1.8627, 41.5731], [1.8646, 41.5691], [1.8777, 41.5689], [1.8792, 41.5573], [1.8751, 41.5547], [1.8723, 41.5437], [1.8828, 41.5409], [1.8925, 41.5327], [1.9103, 41.5329], [1.911, 41.53], [1.906, 41.5293], [1.913, 41.5211], [1.9103, 41.5214], [1.9096, 41.5175], [1.9127, 41.5185], [1.9159, 41.5117], [1.9145, 41.5019], [1.9236, 41.5002], [1.9208, 41.494], [1.9224, 41.4887], [1.9313, 41.4855], [1.933, 41.4783], [1.9462, 41.4666]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_8ec2c32f8c15db00368a1552970dea31.bindTooltip(
+                `<div>
+                     ES5110012 Montserrat-Roques Blanques-riu Llobregat (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_8ec2c32f8c15db00368a1552970dea31.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_225b64acebf8f1bd95ea38df31daf0cc_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_225b64acebf8f1bd95ea38df31daf0cc_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_225b64acebf8f1bd95ea38df31daf0cc = L.geoJson(null, {
+                onEachFeature: geo_json_225b64acebf8f1bd95ea38df31daf0cc_onEachFeature,
+            
+                style: geo_json_225b64acebf8f1bd95ea38df31daf0cc_styler,
+            ...{
+}
+        });
+
+        function geo_json_225b64acebf8f1bd95ea38df31daf0cc_add (data) {
+            geo_json_225b64acebf8f1bd95ea38df31daf0cc
+                .addData(data);
+        }
+            geo_json_225b64acebf8f1bd95ea38df31daf0cc_add({"features": [{"geometry": {"coordinates": [[[-1.1193, 37.5339], [-1.1068, 37.5358], [-1.1171, 37.545], [-1.1255, 37.5473], [-1.1272, 37.5522], [-1.1215, 37.5573], [-1.1225, 37.5598], [-1.1183, 37.5598], [-1.1197, 37.5627], [-1.1088, 37.5693], [-1.0956, 37.5689], [-1.0912, 37.5754], [-1.0826, 37.5774], [-1.0714, 37.5861], [-1.0724, 37.584], [-1.0664, 37.5799], [-1.0534, 37.5828], [-1.046, 37.5795], [-1.0308, 37.5791], [-1.0179, 37.5728], [-1.012, 37.5758], [-1.0142, 37.589], [-1.0288, 37.6014], [-1.0377, 37.6], [-1.0491, 37.6028], [-1.0542, 37.5974], [-1.0712, 37.5953], [-1.0701, 37.6073], [-1.0654, 37.6064], [-1.0589, 37.6132], [-1.0738, 37.6193], [-1.0963, 37.6182], [-1.0998, 37.6237], [-1.0953, 37.6393], [-1.0975, 37.6433], [-1.1403, 37.6435], [-1.1502, 37.6479], [-1.1752, 37.6386], [-1.1901, 37.6364], [-1.1849, 37.6299], [-1.1895, 37.6246], [-1.1977, 37.6252], [-1.2063, 37.6197], [-1.2104, 37.6066], [-1.2083, 37.6016], [-1.2142, 37.5984], [-1.2139, 37.5931], [-1.2234, 37.588], [-1.2219, 37.5827], [-1.2103, 37.5804], [-1.2067, 37.5863], [-1.208, 37.5826], [-1.2025, 37.5798], [-1.1921, 37.5825], [-1.1914, 37.5883], [-1.1786, 37.5835], [-1.1718, 37.5898], [-1.1739, 37.5826], [-1.17, 37.5806], [-1.1704, 37.5694], [-1.1623, 37.5602], [-1.1673, 37.5516], [-1.1749, 37.551], [-1.1713, 37.5448], [-1.1527, 37.5399], [-1.1472, 37.5424], [-1.1431, 37.5392], [-1.1222, 37.5385], [-1.1193, 37.5339]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_225b64acebf8f1bd95ea38df31daf0cc.bindTooltip(
+                `<div>
+                     ES0000264 La Muela-Cabo Tiñoso (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_225b64acebf8f1bd95ea38df31daf0cc.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_a98709a7c8fd6d073d92f471f3013193_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_a98709a7c8fd6d073d92f471f3013193_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_a98709a7c8fd6d073d92f471f3013193 = L.geoJson(null, {
+                onEachFeature: geo_json_a98709a7c8fd6d073d92f471f3013193_onEachFeature,
+            
+                style: geo_json_a98709a7c8fd6d073d92f471f3013193_styler,
+            ...{
+}
+        });
+
+        function geo_json_a98709a7c8fd6d073d92f471f3013193_add (data) {
+            geo_json_a98709a7c8fd6d073d92f471f3013193
+                .addData(data);
+        }
+            geo_json_a98709a7c8fd6d073d92f471f3013193_add({"features": [{"geometry": {"coordinates": [[[-1.1193, 37.5339], [-1.1068, 37.5358], [-1.1171, 37.545], [-1.127, 37.5489], [-1.1226, 37.5597], [-1.1184, 37.5597], [-1.1197, 37.5627], [-1.1086, 37.5694], [-1.0956, 37.5689], [-1.0912, 37.5754], [-1.0826, 37.5774], [-1.0772, 37.5825], [-1.083, 37.5866], [-1.0794, 37.5915], [-1.0824, 37.5973], [-1.0794, 37.5988], [-1.0821, 37.5996], [-1.0782, 37.6009], [-1.0939, 37.6065], [-1.0997, 37.6126], [-1.0928, 37.6171], [-1.0992, 37.6172], [-1.1035, 37.6222], [-1.1265, 37.613], [-1.131, 37.6171], [-1.1372, 37.6152], [-1.1335, 37.617], [-1.1359, 37.6197], [-1.1305, 37.6192], [-1.1361, 37.6237], [-1.1286, 37.6219], [-1.1324, 37.6264], [-1.1301, 37.6269], [-1.1318, 37.6325], [-1.1283, 37.6341], [-1.1427, 37.633], [-1.1454, 37.6349], [-1.1378, 37.6394], [-1.1459, 37.6371], [-1.1435, 37.6395], [-1.1474, 37.644], [-1.1609, 37.6364], [-1.152, 37.6326], [-1.1527, 37.6293], [-1.1566, 37.6302], [-1.1568, 37.6262], [-1.1649, 37.6288], [-1.1712, 37.6266], [-1.1728, 37.6296], [-1.1772, 37.6256], [-1.1832, 37.6307], [-1.1895, 37.6246], [-1.1977, 37.6252], [-1.2063, 37.6197], [-1.2104, 37.6066], [-1.2083, 37.6016], [-1.2142, 37.5984], [-1.2139, 37.5931], [-1.2254, 37.5883], [-1.2223, 37.5827], [-1.2039, 37.5795], [-1.1964, 37.5833], [-1.1947, 37.5807], [-1.1854, 37.5924], [-1.1838, 37.5838], [-1.1782, 37.5836], [-1.1732, 37.5888], [-1.1692, 37.5888], [-1.1685, 37.5793], [-1.1828, 37.5735], [-1.1724, 37.5699], [-1.1742, 37.566], [-1.1617, 37.5569], [-1.1635, 37.5522], [-1.1749, 37.551], [-1.1713, 37.5448], [-1.1527, 37.5399], [-1.1472, 37.5424], [-1.1431, 37.5392], [-1.1222, 37.5385], [-1.1193, 37.5339]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_a98709a7c8fd6d073d92f471f3013193.bindTooltip(
+                `<div>
+                     ES6200015 La Muela y Cabo Tiñoso (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_a98709a7c8fd6d073d92f471f3013193.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_cd4eba5622fc8572b82b79d123edb868_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_cd4eba5622fc8572b82b79d123edb868_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_cd4eba5622fc8572b82b79d123edb868 = L.geoJson(null, {
+                onEachFeature: geo_json_cd4eba5622fc8572b82b79d123edb868_onEachFeature,
+            
+                style: geo_json_cd4eba5622fc8572b82b79d123edb868_styler,
+            ...{
+}
+        });
+
+        function geo_json_cd4eba5622fc8572b82b79d123edb868_add (data) {
+            geo_json_cd4eba5622fc8572b82b79d123edb868
+                .addData(data);
+        }
+            geo_json_cd4eba5622fc8572b82b79d123edb868_add({"features": [{"geometry": {"coordinates": [[[-0.8201, 37.575], [-0.8036, 37.5865], [-0.7887, 37.5876], [-0.783, 37.5946], [-0.7505, 37.5977], [-0.7177, 37.6068], [-0.7145, 37.6165], [-0.7204, 37.6258], [-0.773, 37.6182], [-0.7766, 37.6085], [-0.7864, 37.6083], [-0.7979, 37.6013], [-0.7919, 37.5939], [-0.7987, 37.5894], [-0.8079, 37.5924], [-0.8102, 37.5901], [-0.8153, 37.5987], [-0.8214, 37.5968], [-0.8293, 37.6005], [-0.827, 37.6049], [-0.8175, 37.6018], [-0.811, 37.6099], [-0.812, 37.6153], [-0.8055, 37.6182], [-0.811, 37.6243], [-0.8214, 37.6213], [-0.8212, 37.6131], [-0.8252, 37.6154], [-0.8305, 37.6121], [-0.83, 37.6161], [-0.8354, 37.6126], [-0.8374, 37.6158], [-0.842, 37.6142], [-0.8427, 37.6097], [-0.8549, 37.6032], [-0.8448, 37.5898], [-0.8367, 37.5887], [-0.8394, 37.5789], [-0.8427, 37.5774], [-0.832, 37.5785], [-0.8201, 37.575]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_cd4eba5622fc8572b82b79d123edb868.bindTooltip(
+                `<div>
+                     ES6200001 Calblanque, Monte de las Cenizas y Peña del Águila (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_cd4eba5622fc8572b82b79d123edb868.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_4371d824cd3fb916feb3efd03f4e4c27_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_4371d824cd3fb916feb3efd03f4e4c27_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_4371d824cd3fb916feb3efd03f4e4c27 = L.geoJson(null, {
+                onEachFeature: geo_json_4371d824cd3fb916feb3efd03f4e4c27_onEachFeature,
+            
+                style: geo_json_4371d824cd3fb916feb3efd03f4e4c27_styler,
+            ...{
+}
+        });
+
+        function geo_json_4371d824cd3fb916feb3efd03f4e4c27_add (data) {
+            geo_json_4371d824cd3fb916feb3efd03f4e4c27
+                .addData(data);
+        }
+            geo_json_4371d824cd3fb916feb3efd03f4e4c27_add({"features": [{"geometry": {"coordinates": [[[-1.0232, 37.5732], [-1.0123, 37.575], [-1.012, 37.5819], [-1.0222, 37.5983], [-1.0533, 37.6037], [-1.0621, 37.6102], [-1.0683, 37.607], [-1.0717, 37.5979], [-1.0659, 37.5847], [-1.0689, 37.5808], [-1.0593, 37.5799], [-1.0534, 37.5828], [-1.046, 37.5795], [-1.0308, 37.5791], [-1.0232, 37.5732]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_4371d824cd3fb916feb3efd03f4e4c27.bindTooltip(
+                `<div>
+                     ES6200024 Cabezo de Roldán (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_4371d824cd3fb916feb3efd03f4e4c27.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_1eadec19ccdc88c7a449f3a72735daf8_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_1eadec19ccdc88c7a449f3a72735daf8_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_1eadec19ccdc88c7a449f3a72735daf8 = L.geoJson(null, {
+                onEachFeature: geo_json_1eadec19ccdc88c7a449f3a72735daf8_onEachFeature,
+            
+                style: geo_json_1eadec19ccdc88c7a449f3a72735daf8_styler,
+            ...{
+}
+        });
+
+        function geo_json_1eadec19ccdc88c7a449f3a72735daf8_add (data) {
+            geo_json_1eadec19ccdc88c7a449f3a72735daf8
+                .addData(data);
+        }
+            geo_json_1eadec19ccdc88c7a449f3a72735daf8_add({"features": [{"geometry": {"coordinates": [[[[-0.7294, 37.626], [-0.7111, 37.6301], [-0.7089, 37.6366], [-0.7057, 37.6376], [-0.7096, 37.6413], [-0.722, 37.6392], [-0.7294, 37.6339], [-0.7246, 37.6303], [-0.7304, 37.6292], [-0.7294, 37.626]]], [[[-0.7968, 37.613], [-0.7981, 37.6193], [-0.7953, 37.6231], [-0.8013, 37.6234], [-0.8035, 37.6313], [-0.8065, 37.621], [-0.805, 37.6156], [-0.7968, 37.613]]], [[[-0.8238, 37.6303], [-0.8198, 37.635], [-0.8223, 37.6399], [-0.8335, 37.6434], [-0.8379, 37.6395], [-0.8335, 37.632], [-0.8238, 37.6303]]], [[[-0.7357, 37.6581], [-0.7349, 37.6624], [-0.7405, 37.6611], [-0.7395, 37.6587], [-0.7357, 37.6581]]], [[[-0.7501, 37.6657], [-0.7485, 37.6651], [-0.7477, 37.6657], [-0.7501, 37.6657]]], [[[-0.7404, 37.6705], [-0.7401, 37.6687], [-0.739, 37.6694], [-0.7404, 37.6705]]], [[[-0.7991, 37.6528], [-0.7973, 37.6554], [-0.8187, 37.6698], [-0.8279, 37.667], [-0.8242, 37.6598], [-0.7991, 37.6528]]], [[[-0.8427, 37.6847], [-0.8393, 37.6899], [-0.8465, 37.69], [-0.8459, 37.6855], [-0.8427, 37.6847]]], [[[-0.7685, 37.6903], [-0.7648, 37.6919], [-0.765, 37.6957], [-0.7718, 37.7029], [-0.7761, 37.6957], [-0.7685, 37.6903]]], [[[-0.7975, 37.696], [-0.7965, 37.7019], [-0.8034, 37.7027], [-0.8043, 37.7014], [-0.7975, 37.696]]], [[[-0.8549, 37.691], [-0.8403, 37.6966], [-0.8597, 37.7173], [-0.8589, 37.7245], [-0.8513, 37.731], [-0.8557, 37.734], [-0.8616, 37.7286], [-0.861, 37.7142], [-0.8662, 37.6978], [-0.8584, 37.696], [-0.8549, 37.691]]], [[[-0.8205, 37.7624], [-0.8159, 37.7663], [-0.8168, 37.7688], [-0.826, 37.7641], [-0.8205, 37.7624]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_1eadec19ccdc88c7a449f3a72735daf8.bindTooltip(
+                `<div>
+                     ES6200006 Espacios Abiertos e Islas del Mar Menor (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_1eadec19ccdc88c7a449f3a72735daf8.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_463bf124b20098f9c993cd26b6c10e54_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_463bf124b20098f9c993cd26b6c10e54_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_463bf124b20098f9c993cd26b6c10e54 = L.geoJson(null, {
+                onEachFeature: geo_json_463bf124b20098f9c993cd26b6c10e54_onEachFeature,
+            
+                style: geo_json_463bf124b20098f9c993cd26b6c10e54_styler,
+            ...{
+}
+        });
+
+        function geo_json_463bf124b20098f9c993cd26b6c10e54_add (data) {
+            geo_json_463bf124b20098f9c993cd26b6c10e54
+                .addData(data);
+        }
+            geo_json_463bf124b20098f9c993cd26b6c10e54_add({"features": [{"geometry": {"coordinates": [[[-0.9193, 37.554], [-0.9039, 37.5634], [-0.8794, 37.5697], [-0.8787, 37.5762], [-0.8712, 37.5748], [-0.8646, 37.5799], [-0.8654, 37.5827], [-0.8701, 37.5886], [-0.8766, 37.5892], [-0.8787, 37.5875], [-0.8757, 37.5862], [-0.8794, 37.5842], [-0.8876, 37.5848], [-0.8874, 37.5813], [-0.8942, 37.5749], [-0.8985, 37.5762], [-0.9148, 37.5708], [-0.9185, 37.5662], [-0.9361, 37.5696], [-0.953, 37.5586], [-0.9339, 37.559], [-0.9193, 37.554]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_463bf124b20098f9c993cd26b6c10e54.bindTooltip(
+                `<div>
+                     ES0000199 Sierra de la Fausilla (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_463bf124b20098f9c993cd26b6c10e54.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_42cf20982779c05f0af9be99be8152b6_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_42cf20982779c05f0af9be99be8152b6_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_42cf20982779c05f0af9be99be8152b6 = L.geoJson(null, {
+                onEachFeature: geo_json_42cf20982779c05f0af9be99be8152b6_onEachFeature,
+            
+                style: geo_json_42cf20982779c05f0af9be99be8152b6_styler,
+            ...{
+}
+        });
+
+        function geo_json_42cf20982779c05f0af9be99be8152b6_add (data) {
+            geo_json_42cf20982779c05f0af9be99be8152b6
+                .addData(data);
+        }
+            geo_json_42cf20982779c05f0af9be99be8152b6_add({"features": [{"geometry": {"coordinates": [[[[-0.7294, 37.626], [-0.7111, 37.6301], [-0.7089, 37.6366], [-0.7057, 37.6376], [-0.7096, 37.6413], [-0.7144, 37.6388], [-0.7223, 37.6427], [-0.7221, 37.6474], [-0.719, 37.6483], [-0.7239, 37.6515], [-0.7243, 37.6596], [-0.7342, 37.6635], [-0.7333, 37.6751], [-0.7426, 37.6901], [-0.7401, 37.6916], [-0.7414, 37.7012], [-0.7456, 37.7061], [-0.7388, 37.737], [-0.744, 37.7436], [-0.7404, 37.7433], [-0.7338, 37.747], [-0.7443, 37.751], [-0.7417, 37.7531], [-0.7472, 37.7585], [-0.7488, 37.7691], [-0.7596, 37.7825], [-0.7621, 37.8002], [-0.7762, 37.8201], [-0.7833, 37.8196], [-0.7841, 37.8139], [-0.7959, 37.811], [-0.8037, 37.7979], [-0.8005, 37.7832], [-0.804, 37.7778], [-0.8157, 37.7679], [-0.826, 37.7641], [-0.821, 37.7626], [-0.8274, 37.756], [-0.845, 37.7488], [-0.8522, 37.7315], [-0.8556, 37.734], [-0.8596, 37.7321], [-0.8661, 37.6968], [-0.8584, 37.696], [-0.8549, 37.691], [-0.8406, 37.6964], [-0.829, 37.6827], [-0.8269, 37.6747], [-0.8195, 37.6697], [-0.8279, 37.667], [-0.8242, 37.6598], [-0.7991, 37.6528], [-0.7973, 37.6553], [-0.7607, 37.6422], [-0.7509, 37.6415], [-0.7522, 37.6369], [-0.7498, 37.6352], [-0.7246, 37.6303], [-0.7304, 37.6292], [-0.7294, 37.626]], [[-0.7232, 37.6372], [-0.7225, 37.6422], [-0.7173, 37.6392], [-0.7232, 37.6372]], [[-0.7378, 37.745], [-0.7388, 37.7467], [-0.7366, 37.7464], [-0.7378, 37.745]]], [[[-0.7438, 37.6033], [-0.7329, 37.6044], [-0.7444, 37.6044], [-0.7438, 37.6033]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_42cf20982779c05f0af9be99be8152b6.bindTooltip(
+                `<div>
+                     ES0000260 Mar Menor (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_42cf20982779c05f0af9be99be8152b6.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_0861d59173272e5c8a67a5125d2e7570_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_0861d59173272e5c8a67a5125d2e7570_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_0861d59173272e5c8a67a5125d2e7570 = L.geoJson(null, {
+                onEachFeature: geo_json_0861d59173272e5c8a67a5125d2e7570_onEachFeature,
+            
+                style: geo_json_0861d59173272e5c8a67a5125d2e7570_styler,
+            ...{
+}
+        });
+
+        function geo_json_0861d59173272e5c8a67a5125d2e7570_add (data) {
+            geo_json_0861d59173272e5c8a67a5125d2e7570
+                .addData(data);
+        }
+            geo_json_0861d59173272e5c8a67a5125d2e7570_add({"features": [{"geometry": {"coordinates": [[[-0.9193, 37.554], [-0.9039, 37.5634], [-0.8794, 37.5697], [-0.8787, 37.5762], [-0.8712, 37.5748], [-0.8646, 37.5799], [-0.8654, 37.5827], [-0.8701, 37.5886], [-0.8766, 37.5892], [-0.8787, 37.5875], [-0.8748, 37.5857], [-0.8812, 37.5851], [-0.884, 37.5798], [-0.8889, 37.5804], [-0.8942, 37.5749], [-0.8985, 37.5762], [-0.9114, 37.5714], [-0.9106, 37.5687], [-0.9148, 37.5708], [-0.9185, 37.5662], [-0.9361, 37.5696], [-0.953, 37.5586], [-0.9339, 37.559], [-0.9193, 37.554]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_0861d59173272e5c8a67a5125d2e7570.bindTooltip(
+                `<div>
+                     ES6200025 Sierra de la Fausilla (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_0861d59173272e5c8a67a5125d2e7570.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_a89a8e8799c5a74a1f8ca417eb0313b2_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_a89a8e8799c5a74a1f8ca417eb0313b2_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_a89a8e8799c5a74a1f8ca417eb0313b2 = L.geoJson(null, {
+                onEachFeature: geo_json_a89a8e8799c5a74a1f8ca417eb0313b2_onEachFeature,
+            
+                style: geo_json_a89a8e8799c5a74a1f8ca417eb0313b2_styler,
+            ...{
+}
+        });
+
+        function geo_json_a89a8e8799c5a74a1f8ca417eb0313b2_add (data) {
+            geo_json_a89a8e8799c5a74a1f8ca417eb0313b2
+                .addData(data);
+        }
+            geo_json_a89a8e8799c5a74a1f8ca417eb0313b2_add({"features": [{"geometry": {"coordinates": [[[-1.1298, 37.649], [-1.1247, 37.6534], [-1.1293, 37.6556], [-1.1241, 37.6578], [-1.1296, 37.6636], [-1.1271, 37.6655], [-1.1244, 37.6632], [-1.1238, 37.6672], [-1.1172, 37.6614], [-1.1186, 37.6701], [-1.1092, 37.6669], [-1.1149, 37.6735], [-1.1091, 37.6765], [-1.1042, 37.6717], [-1.1029, 37.6748], [-1.107, 37.6761], [-1.1048, 37.678], [-1.107, 37.68], [-1.1141, 37.6798], [-1.1076, 37.684], [-1.1037, 37.6805], [-1.1027, 37.6852], [-1.1093, 37.6852], [-1.1172, 37.681], [-1.1204, 37.6833], [-1.1261, 37.6794], [-1.1288, 37.681], [-1.1308, 37.6737], [-1.1268, 37.6689], [-1.1341, 37.6702], [-1.132, 37.6678], [-1.1382, 37.667], [-1.1287, 37.6593], [-1.1294, 37.6562], [-1.1391, 37.653], [-1.141, 37.6567], [-1.1364, 37.659], [-1.1405, 37.6604], [-1.1457, 37.6562], [-1.1414, 37.649], [-1.1366, 37.6482], [-1.1373, 37.6518], [-1.1316, 37.6534], [-1.1298, 37.649]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_a89a8e8799c5a74a1f8ca417eb0313b2.bindTooltip(
+                `<div>
+                     ES6200040 Cabezos del Pericón (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_a89a8e8799c5a74a1f8ca417eb0313b2.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_77e1805e90750fccc892a752a7ad45c9_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_77e1805e90750fccc892a752a7ad45c9_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_77e1805e90750fccc892a752a7ad45c9 = L.geoJson(null, {
+                onEachFeature: geo_json_77e1805e90750fccc892a752a7ad45c9_onEachFeature,
+            
+                style: geo_json_77e1805e90750fccc892a752a7ad45c9_styler,
+            ...{
+}
+        });
+
+        function geo_json_77e1805e90750fccc892a752a7ad45c9_add (data) {
+            geo_json_77e1805e90750fccc892a752a7ad45c9
+                .addData(data);
+        }
+            geo_json_77e1805e90750fccc892a752a7ad45c9_add({"features": [{"geometry": {"coordinates": [[[-1.1282, 37.6868], [-1.1235, 37.6892], [-1.127, 37.6907], [-1.1241, 37.6955], [-1.1275, 37.6987], [-1.1208, 37.6989], [-1.1238, 37.7012], [-1.1183, 37.7019], [-1.1206, 37.7046], [-1.1162, 37.704], [-1.1204, 37.7082], [-1.1154, 37.7149], [-1.1256, 37.714], [-1.1219, 37.7112], [-1.1263, 37.7107], [-1.1243, 37.7037], [-1.1313, 37.7056], [-1.1321, 37.7017], [-1.1283, 37.6991], [-1.1329, 37.699], [-1.131, 37.6956], [-1.1363, 37.6964], [-1.1339, 37.6941], [-1.1381, 37.6938], [-1.1282, 37.6868]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_77e1805e90750fccc892a752a7ad45c9.bindTooltip(
+                `<div>
+                     ES6200044 Sierra de los Victorias (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_77e1805e90750fccc892a752a7ad45c9.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_0160c6e0bf6a908434fe6457c8dd0461_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_0160c6e0bf6a908434fe6457c8dd0461_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_0160c6e0bf6a908434fe6457c8dd0461 = L.geoJson(null, {
+                onEachFeature: geo_json_0160c6e0bf6a908434fe6457c8dd0461_onEachFeature,
+            
+                style: geo_json_0160c6e0bf6a908434fe6457c8dd0461_styler,
+            ...{
+}
+        });
+
+        function geo_json_0160c6e0bf6a908434fe6457c8dd0461_add (data) {
+            geo_json_0160c6e0bf6a908434fe6457c8dd0461
+                .addData(data);
+        }
+            geo_json_0160c6e0bf6a908434fe6457c8dd0461_add({"features": [{"geometry": {"coordinates": [[[-0.7449, 37.633], [-0.7281, 37.633], [-0.7225, 37.6422], [-0.7167, 37.6392], [-0.7223, 37.6427], [-0.7221, 37.6474], [-0.719, 37.6483], [-0.7239, 37.6515], [-0.7235, 37.6586], [-0.7342, 37.6635], [-0.7333, 37.6751], [-0.7426, 37.6901], [-0.74, 37.6927], [-0.742, 37.7044], [-0.7456, 37.706], [-0.7388, 37.737], [-0.744, 37.7436], [-0.7404, 37.7433], [-0.7338, 37.747], [-0.7443, 37.751], [-0.7417, 37.7531], [-0.7472, 37.7585], [-0.7488, 37.7691], [-0.7596, 37.7825], [-0.7621, 37.8002], [-0.7762, 37.8201], [-0.7833, 37.8196], [-0.7841, 37.8139], [-0.7959, 37.811], [-0.8037, 37.7979], [-0.8005, 37.7832], [-0.804, 37.7778], [-0.8146, 37.7711], [-0.8159, 37.7663], [-0.8274, 37.756], [-0.845, 37.7488], [-0.8513, 37.731], [-0.8598, 37.7228], [-0.8597, 37.7173], [-0.8293, 37.6831], [-0.8269, 37.6747], [-0.7857, 37.6504], [-0.7509, 37.6415], [-0.7521, 37.6366], [-0.7449, 37.633]], [[-0.7357, 37.6581], [-0.7395, 37.6587], [-0.7405, 37.6611], [-0.7349, 37.6624], [-0.7357, 37.6581]], [[-0.7477, 37.6657], [-0.7498, 37.6651], [-0.7501, 37.6657], [-0.7477, 37.6657]], [[-0.7401, 37.6687], [-0.7404, 37.6705], [-0.739, 37.6694], [-0.7401, 37.6687]], [[-0.7685, 37.6903], [-0.7761, 37.6957], [-0.7718, 37.7029], [-0.765, 37.6957], [-0.7648, 37.6919], [-0.7685, 37.6903]], [[-0.7975, 37.696], [-0.8043, 37.7014], [-0.8034, 37.7027], [-0.7965, 37.7019], [-0.7975, 37.696]], [[-0.7378, 37.745], [-0.7388, 37.7467], [-0.7366, 37.7464], [-0.7378, 37.745]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_0160c6e0bf6a908434fe6457c8dd0461.bindTooltip(
+                `<div>
+                     ES6200030 Mar Menor (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_0160c6e0bf6a908434fe6457c8dd0461.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_49433bfe7ba3582b5c3ac03414072ae2_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_49433bfe7ba3582b5c3ac03414072ae2_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_49433bfe7ba3582b5c3ac03414072ae2 = L.geoJson(null, {
+                onEachFeature: geo_json_49433bfe7ba3582b5c3ac03414072ae2_onEachFeature,
+            
+                style: geo_json_49433bfe7ba3582b5c3ac03414072ae2_styler,
+            ...{
+}
+        });
+
+        function geo_json_49433bfe7ba3582b5c3ac03414072ae2_add (data) {
+            geo_json_49433bfe7ba3582b5c3ac03414072ae2
+                .addData(data);
+        }
+            geo_json_49433bfe7ba3582b5c3ac03414072ae2_add({"features": [{"geometry": {"coordinates": [[[[-1.5438, 37.4089], [-1.5437, 37.4088], [-1.5437, 37.4089], [-1.5438, 37.4089]]], [[[-1.5485, 37.4081], [-1.5452, 37.4083], [-1.5439, 37.4089], [-1.5485, 37.4081]]], [[[-0.9708, 37.5588], [-0.9678, 37.5602], [-0.9717, 37.5594], [-0.9708, 37.5588]]], [[[-1.042, 37.5699], [-1.0415, 37.5699], [-1.0414, 37.5702], [-1.042, 37.5699]]], [[[-1.0413, 37.5702], [-1.0412, 37.5703], [-1.0413, 37.5703], [-1.0413, 37.5702]]], [[[-1.0182, 37.5733], [-1.0172, 37.5732], [-1.0171, 37.5737], [-1.0182, 37.5733]]], [[[-1.0409, 37.571], [-1.0415, 37.5705], [-1.0407, 37.5704], [-1.0409, 37.571]]], [[[-1.2667, 37.5548], [-1.2665, 37.5576], [-1.2692, 37.5571], [-1.2697, 37.5549], [-1.2667, 37.5548]]], [[[-1.3284, 37.5567], [-1.3277, 37.5569], [-1.3279, 37.5572], [-1.3284, 37.5567]]], [[[-1.2088, 37.5714], [-1.2075, 37.5708], [-1.2074, 37.5721], [-1.2088, 37.5714]]], [[[-0.6533, 37.6524], [-0.6533, 37.6523], [-0.6532, 37.6523], [-0.6533, 37.6524]]], [[[-0.6527, 37.6526], [-0.6525, 37.6526], [-0.6525, 37.6527], [-0.6527, 37.6526]]], [[[-0.6524, 37.6527], [-0.6524, 37.6528], [-0.6525, 37.6527], [-0.6525, 37.6527], [-0.6524, 37.6527]]], [[[-0.6526, 37.6527], [-0.6525, 37.6528], [-0.6526, 37.6528], [-0.6526, 37.6527]]], [[[-0.6494, 37.6557], [-0.6482, 37.6561], [-0.6483, 37.6566], [-0.6494, 37.6557]]], [[[-0.7081, 37.7252], [-0.7048, 37.7282], [-0.7061, 37.7305], [-0.7093, 37.7302], [-0.7081, 37.7252]]], [[[-0.6984, 37.7318], [-0.6977, 37.7317], [-0.6978, 37.7319], [-0.6984, 37.7318]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_49433bfe7ba3582b5c3ac03414072ae2.bindTooltip(
+                `<div>
+                     ES6200007 Islas e Islotes del Litoral Mediterráneo (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_49433bfe7ba3582b5c3ac03414072ae2.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_c96aaa43590508508c34c7bb31dc1674_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_c96aaa43590508508c34c7bb31dc1674_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_c96aaa43590508508c34c7bb31dc1674 = L.geoJson(null, {
+                onEachFeature: geo_json_c96aaa43590508508c34c7bb31dc1674_onEachFeature,
+            
+                style: geo_json_c96aaa43590508508c34c7bb31dc1674_styler,
+            ...{
+}
+        });
+
+        function geo_json_c96aaa43590508508c34c7bb31dc1674_add (data) {
+            geo_json_c96aaa43590508508c34c7bb31dc1674
+                .addData(data);
+        }
+            geo_json_c96aaa43590508508c34c7bb31dc1674_add({"features": [{"geometry": {"coordinates": [[[[-0.6984, 37.7318], [-0.6977, 37.7317], [-0.6978, 37.7319], [-0.6984, 37.7318]]], [[[-0.7081, 37.7252], [-0.7048, 37.7282], [-0.7061, 37.7305], [-0.7093, 37.7302], [-0.7081, 37.7252]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_c96aaa43590508508c34c7bb31dc1674.bindTooltip(
+                `<div>
+                     ES0000200 Isla Grosa (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_c96aaa43590508508c34c7bb31dc1674.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4 = L.geoJson(null, {
+                onEachFeature: geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4_onEachFeature,
+            
+                style: geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4_styler,
+            ...{
+}
+        });
+
+        function geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4_add (data) {
+            geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4
+                .addData(data);
+        }
+            geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4_add({"features": [{"geometry": {"coordinates": [[[-0.5546, 37.3884], [-0.5491, 37.6303], [-0.6826, 37.633], [-0.6847, 37.6249], [-0.6919, 37.6227], [-0.7165, 37.5994], [-0.7205, 37.5996], [-0.7216, 37.5922], [-0.7446, 37.5678], [-0.7675, 37.5564], [-0.7855, 37.5556], [-0.8229, 37.5743], [-0.8516, 37.5795], [-0.8595, 37.5761], [-0.8674, 37.578], [-0.8763, 37.5732], [-0.88, 37.5669], [-0.9228, 37.5526], [-0.9383, 37.5566], [-0.9712, 37.5577], [-0.9842, 37.5766], [-1.0032, 37.58], [-1.0193, 37.5693], [-1.0376, 37.573], [-1.0393, 37.5687], [-1.0445, 37.5675], [-1.0443, 37.5727], [-1.0752, 37.5791], [-1.0958, 37.5683], [-1.1054, 37.5679], [-1.1149, 37.5623], [-1.1202, 37.5541], [-1.1175, 37.5456], [-1.1057, 37.5362], [-1.1108, 37.5336], [-1.1684, 37.5418], [-1.1844, 37.554], [-1.213, 37.5646], [-1.242, 37.5645], [-1.2518, 37.554], [-1.2769, 37.5492], [-1.331, 37.5525], [-1.3528, 37.5423], [-1.362, 37.5344], [-1.3649, 37.5277], [-1.3833, 37.5193], [-1.3977, 37.5002], [-1.4213, 37.5004], [-1.4503, 37.4854], [-1.4682, 37.4587], [-1.4753, 37.4399], [-1.4744, 37.4293], [-1.4816, 37.4223], [-1.4925, 37.4188], [-1.5056, 37.4245], [-1.5137, 37.4237], [-1.5439, 37.4054], [-1.55, 37.4048], [-0.5546, 37.3884]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4.bindTooltip(
+                `<div>
+                     ES6200048 Valles submarinos del Escarpe de Mazarrón (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_509d3a8aef8bb5c04c95eba6eb85ddf4.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_f9d13aaf94713100460099028418f36d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_f9d13aaf94713100460099028418f36d_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_f9d13aaf94713100460099028418f36d = L.geoJson(null, {
+                onEachFeature: geo_json_f9d13aaf94713100460099028418f36d_onEachFeature,
+            
+                style: geo_json_f9d13aaf94713100460099028418f36d_styler,
+            ...{
+}
+        });
+
+        function geo_json_f9d13aaf94713100460099028418f36d_add (data) {
+            geo_json_f9d13aaf94713100460099028418f36d
+                .addData(data);
+        }
+            geo_json_f9d13aaf94713100460099028418f36d_add({"features": [{"geometry": {"coordinates": [[[[-1.6121, 37.3625], [-1.6011, 37.3746], [-1.5722, 37.3961], [-1.5439, 37.4054], [-1.5179, 37.4224], [-1.5056, 37.4245], [-1.4925, 37.4188], [-1.4816, 37.4223], [-1.4744, 37.4293], [-1.4743, 37.4439], [-1.4829, 37.4442], [-1.4837, 37.4339], [-1.4764, 37.4314], [-1.4875, 37.4222], [-1.4982, 37.4227], [-1.5027, 37.432], [-1.5189, 37.4319], [-1.5305, 37.4214], [-1.5414, 37.4191], [-1.5477, 37.4108], [-1.5596, 37.4114], [-1.5621, 37.4068], [-1.5594, 37.4045], [-1.5664, 37.4025], [-1.5667, 37.4068], [-1.5751, 37.4075], [-1.5789, 37.4042], [-1.5737, 37.4032], [-1.5782, 37.401], [-1.5891, 37.4025], [-1.6044, 37.3948], [-1.6119, 37.3845], [-1.6193, 37.3842], [-1.6282, 37.3774], [-1.6255, 37.3748], [-1.6283, 37.3739], [-1.6121, 37.3625]], [[-1.5452, 37.4083], [-1.5485, 37.4081], [-1.5439, 37.4089], [-1.5452, 37.4083]], [[-1.5437, 37.4088], [-1.5438, 37.4089], [-1.5437, 37.4089], [-1.5437, 37.4088]]], [[[-0.9676, 37.5578], [-0.9675, 37.5605], [-0.9724, 37.5602], [-0.972, 37.558], [-0.9676, 37.5578]], [[-0.9678, 37.5602], [-0.9708, 37.5588], [-0.9717, 37.5594], [-0.9678, 37.5602]]], [[[-1.044, 37.5675], [-1.0393, 37.5687], [-1.0387, 37.572], [-1.0439, 37.5728], [-1.044, 37.5675]], [[-1.0415, 37.5705], [-1.0423, 37.5712], [-1.0407, 37.5704], [-1.0415, 37.5705]], [[-1.0412, 37.5703], [-1.0413, 37.5702], [-1.0413, 37.5703], [-1.0412, 37.5703]], [[-1.0415, 37.5699], [-1.042, 37.5699], [-1.0414, 37.5702], [-1.0415, 37.5699]]], [[[-1.1108, 37.5336], [-1.1057, 37.5362], [-1.1175, 37.5456], [-1.1202, 37.5541], [-1.1149, 37.5623], [-1.1034, 37.5678], [-1.1065, 37.5695], [-1.1197, 37.5627], [-1.1183, 37.5598], [-1.1225, 37.5598], [-1.1215, 37.5573], [-1.1272, 37.5522], [-1.1255, 37.5473], [-1.1171, 37.545], [-1.1068, 37.5358], [-1.1091, 37.5347], [-1.1193, 37.5339], [-1.1222, 37.5385], [-1.1431, 37.5392], [-1.1472, 37.5424], [-1.1527, 37.5399], [-1.1742, 37.5451], [-1.1637, 37.5407], [-1.124, 37.5372], [-1.1195, 37.5336], [-1.1108, 37.5336]]], [[[-1.267, 37.5542], [-1.2652, 37.5556], [-1.2655, 37.5581], [-1.2698, 37.5577], [-1.2702, 37.5548], [-1.267, 37.5542]], [[-1.2667, 37.5548], [-1.2697, 37.5549], [-1.2692, 37.5571], [-1.2665, 37.5576], [-1.2667, 37.5548]]], [[[-1.3277, 37.5559], [-1.3272, 37.5575], [-1.3283, 37.5575], [-1.3288, 37.5563], [-1.3277, 37.5559]], [[-1.3277, 37.5569], [-1.3284, 37.5567], [-1.3279, 37.5572], [-1.3277, 37.5569]]], [[[-0.6603, 37.6576], [-0.652, 37.6474], [-0.6224, 37.6632], [-0.6307, 37.6733], [-0.6603, 37.6576]], [[-0.6482, 37.6561], [-0.6494, 37.6557], [-0.6483, 37.6566], [-0.6482, 37.6561]], [[-0.6525, 37.6528], [-0.6526, 37.6527], [-0.6526, 37.6528], [-0.6525, 37.6528]], [[-0.6524, 37.6527], [-0.6525, 37.6527], [-0.6524, 37.6528], [-0.6524, 37.6527]], [[-0.6525, 37.6526], [-0.6527, 37.6526], [-0.6525, 37.6527], [-0.6525, 37.6526]], [[-0.6535, 37.6521], [-0.6536, 37.6524], [-0.6532, 37.6523], [-0.6535, 37.6521]]], [[[-0.7675, 37.5564], [-0.7446, 37.5678], [-0.7216, 37.5922], [-0.7205, 37.5996], [-0.7165, 37.5994], [-0.6919, 37.6227], [-0.6847, 37.6249], [-0.6834, 37.6377], [-0.6768, 37.6412], [-0.685, 37.6486], [-0.6961, 37.669], [-0.6955, 37.7167], [-0.6868, 37.7455], [-0.6955, 37.7574], [-0.7057, 37.7865], [-0.7217, 37.8182], [-0.7299, 37.8477], [-0.7625, 37.8472], [-0.7627, 37.845], [-0.7573, 37.8229], [-0.7517, 37.823], [-0.7506, 37.8212], [-0.7575, 37.8226], [-0.7574, 37.8193], [-0.7528, 37.821], [-0.758, 37.8182], [-0.7579, 37.8152], [-0.7516, 37.7947], [-0.7409, 37.7741], [-0.7425, 37.7754], [-0.7459, 37.7692], [-0.7455, 37.7597], [-0.7359, 37.7496], [-0.7302, 37.7481], [-0.7279, 37.7504], [-0.7213, 37.7401], [-0.7272, 37.7468], [-0.7338, 37.747], [-0.7283, 37.7445], [-0.7345, 37.7444], [-0.7344, 37.7387], [-0.7288, 37.7388], [-0.7379, 37.7366], [-0.7403, 37.7053], [-0.7315, 37.6784], [-0.724, 37.6646], [-0.7195, 37.6639], [-0.7217, 37.6617], [-0.71, 37.6416], [-0.6997, 37.6331], [-0.6892, 37.6365], [-0.6882, 37.6329], [-0.6944, 37.6293], [-0.6991, 37.6303], [-0.6989, 37.6312], [-0.7004, 37.6311], [-0.702, 37.6333], [-0.7026, 37.6329], [-0.7011, 37.6308], [-0.6995, 37.631], [-0.7114, 37.6174], [-0.7149, 37.618], [-0.7177, 37.6068], [-0.7505, 37.5977], [-0.783, 37.5946], [-0.7887, 37.5876], [-0.8036, 37.5865], [-0.8222, 37.5739], [-0.7855, 37.5556], [-0.7675, 37.5564]], [[-0.6977, 37.7317], [-0.6984, 37.7318], [-0.6978, 37.7319], [-0.6977, 37.7317]], [[-0.7081, 37.7252], [-0.7093, 37.7302], [-0.7061, 37.7305], [-0.7048, 37.7282], [-0.7081, 37.7252]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_f9d13aaf94713100460099028418f36d.bindTooltip(
+                `<div>
+                     ES6200029 Franja Litoral Sumergida de la Región de Murcia (LIC/ZEC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_f9d13aaf94713100460099028418f36d.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_024d374160b2145903b2baf52b06ef21_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_024d374160b2145903b2baf52b06ef21_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_024d374160b2145903b2baf52b06ef21 = L.geoJson(null, {
+                onEachFeature: geo_json_024d374160b2145903b2baf52b06ef21_onEachFeature,
+            
+                style: geo_json_024d374160b2145903b2baf52b06ef21_styler,
+            ...{
+}
+        });
+
+        function geo_json_024d374160b2145903b2baf52b06ef21_add (data) {
+            geo_json_024d374160b2145903b2baf52b06ef21
+                .addData(data);
+        }
+            geo_json_024d374160b2145903b2baf52b06ef21_add({"features": [{"geometry": {"coordinates": [[[-0.6502, 37.6475], [-0.6444, 37.6507], [-0.6441, 37.6563], [-0.6495, 37.6599], [-0.6562, 37.6588], [-0.6584, 37.6507], [-0.6502, 37.6475]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_024d374160b2145903b2baf52b06ef21.bindTooltip(
+                `<div>
+                     ES0000256 Islas Hormigas (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_024d374160b2145903b2baf52b06ef21.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_03b3cfed1e6a7688b6bb93b6901a7aea_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_03b3cfed1e6a7688b6bb93b6901a7aea_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_03b3cfed1e6a7688b6bb93b6901a7aea = L.geoJson(null, {
+                onEachFeature: geo_json_03b3cfed1e6a7688b6bb93b6901a7aea_onEachFeature,
+            
+                style: geo_json_03b3cfed1e6a7688b6bb93b6901a7aea_styler,
+            ...{
+}
+        });
+
+        function geo_json_03b3cfed1e6a7688b6bb93b6901a7aea_add (data) {
+            geo_json_03b3cfed1e6a7688b6bb93b6901a7aea
+                .addData(data);
+        }
+            geo_json_03b3cfed1e6a7688b6bb93b6901a7aea_add({"features": [{"geometry": {"coordinates": [[[-1.0412, 37.568], [-1.0384, 37.5715], [-1.0433, 37.5731], [-1.0449, 37.5697], [-1.0412, 37.568]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_03b3cfed1e6a7688b6bb93b6901a7aea.bindTooltip(
+                `<div>
+                     ES0000271 Isla de las Palomas (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_03b3cfed1e6a7688b6bb93b6901a7aea.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_c4b0af1eb5c8e864138300e5bc92ecdd_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_c4b0af1eb5c8e864138300e5bc92ecdd_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_c4b0af1eb5c8e864138300e5bc92ecdd = L.geoJson(null, {
+                onEachFeature: geo_json_c4b0af1eb5c8e864138300e5bc92ecdd_onEachFeature,
+            
+                style: geo_json_c4b0af1eb5c8e864138300e5bc92ecdd_styler,
+            ...{
+}
+        });
+
+        function geo_json_c4b0af1eb5c8e864138300e5bc92ecdd_add (data) {
+            geo_json_c4b0af1eb5c8e864138300e5bc92ecdd
+                .addData(data);
+        }
+            geo_json_c4b0af1eb5c8e864138300e5bc92ecdd_add({"features": [{"geometry": {"coordinates": [[[-0.5509, 37.6079], [-0.3552, 38.277], [-0.4043, 38.2928], [-0.4567, 38.2502], [-0.461, 38.2075], [-0.4551, 38.192], [-0.4377, 38.169], [-0.4394, 38.1607], [-0.4504, 38.1541], [-0.4893, 38.1481], [-0.5276, 38.1531], [-0.5534, 38.1526], [-0.5765, 38.1448], [-0.6107, 38.1409], [-0.6238, 38.1291], [-0.6336, 38.0823], [-0.6254, 38.0749], [-0.6169, 38.0569], [-0.6251, 38.0477], [-0.6305, 38.0284], [-0.64, 38.01], [-0.6363, 38.0031], [-0.6439, 37.9981], [-0.6468, 37.9834], [-0.6707, 37.9592], [-0.6723, 37.9541], [-0.6914, 37.9411], [-0.6895, 37.9382], [-0.6957, 37.9375], [-0.6944, 37.9335], [-0.6994, 37.9338], [-0.7068, 37.9279], [-0.7097, 37.9146], [-0.7148, 37.9093], [-0.7126, 37.908], [-0.7216, 37.8991], [-0.7265, 37.8909], [-0.7253, 37.8882], [-0.734, 37.8838], [-0.7367, 37.8788], [-0.7325, 37.8495], [-0.7383, 37.8313], [-0.7383, 37.8121], [-0.757, 37.8121], [-0.7441, 37.7798], [-0.7113, 37.7504], [-0.7113, 37.731], [-0.7383, 37.7308], [-0.7408, 37.709], [-0.7315, 37.6784], [-0.724, 37.6646], [-0.7195, 37.6639], [-0.7217, 37.6617], [-0.7084, 37.6399], [-0.699, 37.6328], [-0.6919, 37.6347], [-0.6906, 37.6365], [-0.6899, 37.6334], [-0.6881, 37.6339], [-0.6944, 37.6293], [-0.7022, 37.6304], [-0.704, 37.6274], [-0.7031, 37.6258], [-0.7037, 37.6253], [-0.705, 37.6252], [-0.7057, 37.6248], [-0.7058, 37.6226], [-0.7085, 37.6219], [-0.7073, 37.6209], [-0.7149, 37.618], [-0.7153, 37.6158], [-0.7147, 37.6144], [-0.7173, 37.6125], [-0.7182, 37.6079], [-0.5509, 37.6079]], [[-0.7179, 37.6085], [-0.718, 37.6085], [-0.718, 37.6085], [-0.7179, 37.6085]], [[-0.7177, 37.6096], [-0.7178, 37.6096], [-0.7176, 37.6097], [-0.7177, 37.6096]], [[-0.7148, 37.6172], [-0.715, 37.6172], [-0.7148, 37.6173], [-0.7148, 37.6172]], [[-0.7083, 37.6182], [-0.7086, 37.6185], [-0.7084, 37.6185], [-0.7083, 37.6182]], [[-0.7104, 37.6182], [-0.7107, 37.6183], [-0.7107, 37.6184], [-0.7104, 37.6182]], [[-0.711, 37.6182], [-0.7111, 37.6183], [-0.711, 37.6183], [-0.711, 37.6182]], [[-0.7094, 37.6186], [-0.7096, 37.6184], [-0.7097, 37.6188], [-0.7094, 37.6186]], [[-0.7091, 37.6197], [-0.7088, 37.619], [-0.7093, 37.6195], [-0.7091, 37.6197]], [[-0.7056, 37.6227], [-0.7057, 37.6226], [-0.7057, 37.6227], [-0.7056, 37.6227]], [[-0.7017, 37.624], [-0.7019, 37.6239], [-0.7019, 37.624], [-0.7017, 37.624]], [[-0.7018, 37.6241], [-0.702, 37.6241], [-0.702, 37.6243], [-0.7018, 37.6241]], [[-0.7027, 37.6246], [-0.7034, 37.6243], [-0.7034, 37.6244], [-0.7027, 37.6246]], [[-0.7038, 37.6249], [-0.7041, 37.625], [-0.7038, 37.625], [-0.7038, 37.6249]], [[-0.7054, 37.6248], [-0.7055, 37.6249], [-0.7054, 37.6249], [-0.7054, 37.6248]], [[-0.7051, 37.625], [-0.7051, 37.6249], [-0.7051, 37.625], [-0.7051, 37.625]], [[-0.7027, 37.6258], [-0.7027, 37.626], [-0.7024, 37.6259], [-0.7027, 37.6258]], [[-0.7015, 37.6275], [-0.7016, 37.6274], [-0.7016, 37.6275], [-0.7015, 37.6275]], [[-0.7024, 37.6291], [-0.7025, 37.6291], [-0.7023, 37.6292], [-0.7024, 37.6291]], [[-0.702, 37.6294], [-0.7021, 37.6294], [-0.7021, 37.6295], [-0.7022, 37.6295], [-0.7022, 37.6295], [-0.7021, 37.6295], [-0.702, 37.6294]], [[-0.7021, 37.6294], [-0.7021, 37.6294], [-0.7021, 37.6294], [-0.7021, 37.6294], [-0.7021, 37.6294], [-0.7021, 37.6294]], [[-0.702, 37.6296], [-0.7021, 37.6295], [-0.7021, 37.6296], [-0.7021, 37.6296], [-0.702, 37.6296]], [[-0.7021, 37.6295], [-0.7022, 37.6295], [-0.7022, 37.6295], [-0.7021, 37.6295]], [[-0.7017, 37.6296], [-0.7018, 37.6297], [-0.7017, 37.6297], [-0.7017, 37.6296]], [[-0.7021, 37.6297], [-0.702, 37.6296], [-0.7021, 37.6296], [-0.7021, 37.6297]], [[-0.6891, 37.6316], [-0.6897, 37.6314], [-0.6893, 37.6317], [-0.6891, 37.6316]], [[-0.689, 37.6319], [-0.6895, 37.6319], [-0.689, 37.632], [-0.689, 37.6319]], [[-0.6887, 37.6321], [-0.6888, 37.6322], [-0.6887, 37.6322], [-0.6887, 37.6321]], [[-0.6886, 37.6324], [-0.6887, 37.6323], [-0.6887, 37.6324], [-0.6886, 37.6324]], [[-0.6883, 37.6323], [-0.6884, 37.6324], [-0.6883, 37.6324], [-0.6883, 37.6323]], [[-0.6875, 37.6328], [-0.6879, 37.633], [-0.6875, 37.6331], [-0.6875, 37.6328]], [[-0.6882, 37.6328], [-0.6882, 37.6329], [-0.6881, 37.6328], [-0.6882, 37.6328]], [[-0.6868, 37.6336], [-0.687, 37.6335], [-0.6869, 37.6336], [-0.6868, 37.6336]], [[-0.6872, 37.6334], [-0.6872, 37.6334], [-0.6872, 37.6334], [-0.6872, 37.6334]], [[-0.688, 37.6333], [-0.6881, 37.6333], [-0.688, 37.6334], [-0.688, 37.6334], [-0.688, 37.6333]], [[-0.6875, 37.6334], [-0.6876, 37.6335], [-0.6875, 37.6335], [-0.6875, 37.6334]], [[-0.6872, 37.6337], [-0.6874, 37.6335], [-0.6873, 37.6335], [-0.6872, 37.6337]], [[-0.6882, 37.6336], [-0.6882, 37.6335], [-0.6882, 37.6336], [-0.6882, 37.6336], [-0.6882, 37.6336], [-0.6882, 37.6336]], [[-0.6884, 37.6339], [-0.6887, 37.6338], [-0.6886, 37.6339], [-0.6884, 37.6339]], [[-0.6951, 37.6344], [-0.6952, 37.6345], [-0.695, 37.6346], [-0.6951, 37.6344]], [[-0.6879, 37.6361], [-0.6881, 37.6358], [-0.6884, 37.6358], [-0.6879, 37.6361]], [[-0.6887, 37.6365], [-0.689, 37.6366], [-0.6887, 37.6366], [-0.6887, 37.6365]], [[-0.6885, 37.6367], [-0.6887, 37.6367], [-0.6885, 37.6368], [-0.6885, 37.6367]], [[-0.6502, 37.6475], [-0.6584, 37.6507], [-0.6562, 37.6588], [-0.6495, 37.6599], [-0.6441, 37.6563], [-0.6444, 37.6507], [-0.6502, 37.6475]], [[-0.7184, 37.6646], [-0.7188, 37.6647], [-0.7183, 37.665], [-0.7184, 37.6646]], [[-0.7081, 37.7252], [-0.7093, 37.7302], [-0.7061, 37.7305], [-0.7048, 37.7282], [-0.7081, 37.7252]], [[-0.6977, 37.7316], [-0.6984, 37.7318], [-0.6978, 37.7319], [-0.6977, 37.7316]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_c4b0af1eb5c8e864138300e5bc92ecdd.bindTooltip(
+                `<div>
+                     ES0000508 Espacio marino de Tabarca-Cabo de Palos (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_c4b0af1eb5c8e864138300e5bc92ecdd.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+        function geo_json_be16473c4a68f9707d185bc84d03712f_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#2e7d32", "fillColor": "#66bb6a", "fillOpacity": 0.2, "weight": 1};
+            }
+        }
+
+        function geo_json_be16473c4a68f9707d185bc84d03712f_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_be16473c4a68f9707d185bc84d03712f = L.geoJson(null, {
+                onEachFeature: geo_json_be16473c4a68f9707d185bc84d03712f_onEachFeature,
+            
+                style: geo_json_be16473c4a68f9707d185bc84d03712f_styler,
+            ...{
+}
+        });
+
+        function geo_json_be16473c4a68f9707d185bc84d03712f_add (data) {
+            geo_json_be16473c4a68f9707d185bc84d03712f
+                .addData(data);
+        }
+            geo_json_be16473c4a68f9707d185bc84d03712f_add({"features": [{"geometry": {"coordinates": [[[[-0.9939, 37.5222], [-0.9939, 37.555], [-1.0275, 37.5556], [-1.0269, 37.5764], [-1.0296, 37.5786], [-1.0553, 37.5829], [-1.0664, 37.5799], [-1.0743, 37.5842], [-1.0826, 37.5774], [-1.0904, 37.5756], [-1.0904, 37.5222], [-0.9939, 37.5222]], [[-1.0412, 37.568], [-1.0449, 37.5697], [-1.0433, 37.5731], [-1.0384, 37.5715], [-1.0412, 37.568]]], [[[-1.5836, 37.3021], [-1.5835, 37.4002], [-1.5836, 37.401], [-1.5848, 37.4013], [-1.5842, 37.4022], [-1.5852, 37.4028], [-1.5948, 37.3997], [-1.5908, 37.3934], [-1.6012, 37.3892], [-1.6047, 37.3944], [-1.6119, 37.3845], [-1.6258, 37.3803], [-1.6282, 37.3774], [-1.626, 37.3741], [-1.6368, 37.3753], [-1.6432, 37.3726], [-1.6534, 37.3542], [-1.6654, 37.3582], [-1.6767, 37.3532], [-1.689, 37.3395], [-1.7058, 37.3102], [-1.7065, 37.306], [-1.7114, 37.3021], [-1.5836, 37.3021]], [[-1.7015, 37.3154], [-1.7016, 37.3153], [-1.7016, 37.3154], [-1.7015, 37.3154]], [[-1.6996, 37.3172], [-1.6998, 37.3173], [-1.6996, 37.3173], [-1.6996, 37.3172]], [[-1.6998, 37.3174], [-1.7001, 37.3174], [-1.6998, 37.3175], [-1.6998, 37.3174]], [[-1.6994, 37.3174], [-1.6996, 37.3174], [-1.6996, 37.3175], [-1.6994, 37.3174]], [[-1.6986, 37.3193], [-1.6991, 37.3194], [-1.6985, 37.3195], [-1.6986, 37.3193]], [[-1.6984, 37.32], [-1.6985, 37.3199], [-1.6985, 37.32], [-1.6984, 37.32]], [[-1.699, 37.3202], [-1.6989, 37.3201], [-1.699, 37.3201], [-1.699, 37.3202]], [[-1.6986, 37.3202], [-1.6987, 37.3203], [-1.6986, 37.3203], [-1.6986, 37.3202]], [[-1.6987, 37.3203], [-1.6989, 37.3203], [-1.6987, 37.3205], [-1.6987, 37.3203]], [[-1.6981, 37.3218], [-1.6983, 37.3216], [-1.6983, 37.3218], [-1.6981, 37.3218]], [[-1.6969, 37.3229], [-1.6972, 37.3228], [-1.6971, 37.323], [-1.6969, 37.3229]], [[-1.6965, 37.325], [-1.6967, 37.3251], [-1.6965, 37.3251], [-1.6965, 37.325]], [[-1.6518, 37.3478], [-1.6522, 37.3472], [-1.6531, 37.3472], [-1.6518, 37.3478]], [[-1.6485, 37.3592], [-1.6489, 37.3599], [-1.648, 37.3599], [-1.6485, 37.3592]], [[-1.6231, 37.3782], [-1.6234, 37.3784], [-1.6231, 37.3783], [-1.6231, 37.3782]], [[-1.5926, 37.3995], [-1.5925, 37.3998], [-1.5924, 37.3997], [-1.5926, 37.3995]], [[-1.5837, 37.4008], [-1.5838, 37.4007], [-1.5838, 37.4008], [-1.5837, 37.4008]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_be16473c4a68f9707d185bc84d03712f.bindTooltip(
+                `<div>
+                     ES0000507 Espacio marino de los Islotes Litorales de Murcia y Almería (ZEPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_be16473c4a68f9707d185bc84d03712f.addTo(feature_group_25e55907b5d5a837d6bc3853f5bd39df);
+        
+    
+            feature_group_25e55907b5d5a837d6bc3853f5bd39df.addTo(map_f5c4129039982e94c5b4199150f663a1);
+        
+    
+            var feature_group_90bcde08fb2fcd7f43e3f24d45597dd8 = L.featureGroup(
+                {
+}
+            );
+        
+    
+        function geo_json_7a6f058dc251ac03bde560cb013593cb_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#9467bd", "fillColor": "#9467bd", "fillOpacity": 0.25, "weight": 2};
+            }
+        }
+
+        function geo_json_7a6f058dc251ac03bde560cb013593cb_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_7a6f058dc251ac03bde560cb013593cb = L.geoJson(null, {
+                onEachFeature: geo_json_7a6f058dc251ac03bde560cb013593cb_onEachFeature,
+            
+                style: geo_json_7a6f058dc251ac03bde560cb013593cb_styler,
+            ...{
+}
+        });
+
+        function geo_json_7a6f058dc251ac03bde560cb013593cb_add (data) {
+            geo_json_7a6f058dc251ac03bde560cb013593cb
+                .addData(data);
+        }
+            geo_json_7a6f058dc251ac03bde560cb013593cb_add({"features": [{"geometry": {"coordinates": [[[1.7426182, 41.5744562], [1.745411, 41.5718287], [1.7428963, 41.5686014], [1.7456159, 41.5648154], [1.7498662, 41.5611461], [1.7531028, 41.5613092], [1.7560905, 41.5587364], [1.7546492, 41.5554066], [1.7559645, 41.5511442], [1.7587307, 41.5482806], [1.7584504, 41.5461486], [1.7609561, 41.541255], [1.7607986, 41.536041], [1.7708225, 41.5304294], [1.7757245, 41.5250844], [1.7783864, 41.52365], [1.7795593, 41.5252578], [1.7789876, 41.5274155], [1.78001, 41.5284443], [1.7820175, 41.5278835], [1.8006102, 41.5213806], [1.8025395, 41.5202554], [1.8025151, 41.5175013], [1.8054186, 41.5183702], [1.8053704, 41.5161033], [1.8073216, 41.5160845], [1.8090122, 41.5140059], [1.8110603, 41.5144872], [1.8115482, 41.5129902], [1.8195437, 41.5114571], [1.8208459, 41.5097997], [1.8218537, 41.511432], [1.8254347, 41.5099759], [1.8274102, 41.5110903], [1.8295977, 41.510386], [1.8308991, 41.512258], [1.8330471, 41.5119874], [1.8346304, 41.5136224], [1.8354448, 41.5112111], [1.8385553, 41.510999], [1.8454304, 41.5066662], [1.8542167, 41.506916], [1.8555663, 41.5086236], [1.8554129, 41.5124926], [1.8536994, 41.5139247], [1.855279, 41.5174391], [1.8536492, 41.5198736], [1.8420992, 41.5235532], [1.8373199, 41.5286958], [1.8308329, 41.5324198], [1.8266018, 41.5389911], [1.8237302, 41.5407712], [1.8256209, 41.5427165], [1.8235838, 41.5429028], [1.8201352, 41.545881], [1.8172556, 41.5509648], [1.8173571, 41.5543941], [1.8077266, 41.5569318], [1.8056608, 41.5563404], [1.8026995, 41.5582354], [1.7986661, 41.5581791], [1.794348, 41.5616425], [1.7975287, 41.5637971], [1.7972694, 41.5683121], [1.7949508, 41.5692193], [1.7913389, 41.57371], [1.7852342, 41.5757925], [1.7768648, 41.5748178], [1.7758643, 41.5729598], [1.7736106, 41.5726394], [1.7715249, 41.5749231], [1.7649493, 41.5764839], [1.755248, 41.5767965], [1.7426182, 41.5744562]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_7a6f058dc251ac03bde560cb013593cb.bindTooltip(
+                `<div>
+                     BOE-B-2026-33266 · red_electrica
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+        var popup_1fb6e9a21d5a66e75973e5402ee225ab = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f8e670188758f08a60863459322c1747 = $(`<div id="html_f8e670188758f08a60863459322c1747" style="width: 100.0%; height: 100.0%;"><b>BOE-B-2026-33266</b><br>Anuncio del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en Barcelona por el que se somete a información pública las solicitudes de Autorización Administrativa Previa y Autorización Administrativa de Construcción de la Adenda del Proyecto Técnico Administrativo para la inst…<br><b>Categoría:</b> red_electrica · <b>Natura 2000 en el municipio:</b> 1 · <b>Especies amenazadas:</b> 11<br><b>Fecha límite (est.):</b> 2026-11-24<br><a href='https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33266' target='_blank' rel='noopener'>Ver anuncio oficial (BOE)</a></div>`)[0];
+                popup_1fb6e9a21d5a66e75973e5402ee225ab.setContent(html_f8e670188758f08a60863459322c1747);
+            
+        
+
+        geo_json_7a6f058dc251ac03bde560cb013593cb.bindPopup(popup_1fb6e9a21d5a66e75973e5402ee225ab)
+        ;
+
+        
+    
+    
+            geo_json_7a6f058dc251ac03bde560cb013593cb.addTo(feature_group_90bcde08fb2fcd7f43e3f24d45597dd8);
+        
+    
+        function geo_json_6d37b18b7d8de83c2488dbcf6c93d529_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#17becf", "fillColor": "#17becf", "fillOpacity": 0.25, "weight": 2};
+            }
+        }
+
+        function geo_json_6d37b18b7d8de83c2488dbcf6c93d529_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_6d37b18b7d8de83c2488dbcf6c93d529 = L.geoJson(null, {
+                onEachFeature: geo_json_6d37b18b7d8de83c2488dbcf6c93d529_onEachFeature,
+            
+                style: geo_json_6d37b18b7d8de83c2488dbcf6c93d529_styler,
+            ...{
+}
+        });
+
+        function geo_json_6d37b18b7d8de83c2488dbcf6c93d529_add (data) {
+            geo_json_6d37b18b7d8de83c2488dbcf6c93d529
+                .addData(data);
+        }
+            geo_json_6d37b18b7d8de83c2488dbcf6c93d529_add({"features": [{"geometry": {"coordinates": [[[[-0.9711206, 37.5593677], [-0.9677964, 37.5601847], [-0.966984, 37.5592259], [-0.9678754, 37.5585869], [-0.9711206, 37.5593677]]], [[[-1.042533, 37.5708087], [-1.0407348, 37.5704368], [-1.0420542, 37.5698271], [-1.042533, 37.5708087]]], [[[-1.2085072, 37.5710973], [-1.207984, 37.5723488], [-1.2073842, 37.5720425], [-1.2075322, 37.5708873], [-1.2085072, 37.5710973]]], [[[-0.972065, 37.5749827], [-0.972065, 37.5751953], [-0.9718075, 37.5751698], [-0.972065, 37.5749827]]], [[[-0.9749762, 37.5809687], [-0.9750909, 37.5809324], [-0.9750533, 37.5810703], [-0.9749762, 37.5809687]]], [[[-1.2260972, 37.5736757], [-1.2206525, 37.5836598], [-1.2232682, 37.5884523], [-1.2151777, 37.5924847], [-1.2158816, 37.597319], [-1.2133656, 37.6008769], [-1.208689, 37.6015281], [-1.2126668, 37.6069667], [-1.208491, 37.6111641], [-1.2115107, 37.6175046], [-1.2090645, 37.6181666], [-1.2082443, 37.620603], [-1.2157743, 37.6303729], [-1.2088753, 37.6345312], [-1.2037446, 37.6315872], [-1.1996706, 37.6332374], [-1.189583, 37.6328486], [-1.1882199, 37.6334496], [-1.1878537, 37.6367616], [-1.1809793, 37.6377423], [-1.1757162, 37.6421731], [-1.1749583, 37.6442178], [-1.1764244, 37.6458937], [-1.1749763, 37.6491383], [-1.1754425, 37.6527377], [-1.1768139, 37.6540201], [-1.1763498, 37.6593264], [-1.1712967, 37.6613336], [-1.142824, 37.6899196], [-1.1340758, 37.6953931], [-1.1299465, 37.6940749], [-1.1280334, 37.6993437], [-1.1228584, 37.7030555], [-1.1224231, 37.708618], [-1.1207619, 37.7110609], [-1.1210379, 37.7127055], [-1.1227164, 37.7131738], [-1.1229709, 37.7167329], [-1.1180914, 37.7307359], [-1.1118728, 37.7298097], [-1.1090403, 37.7242939], [-1.1050921, 37.7216292], [-1.0945468, 37.7202663], [-1.0895353, 37.7165202], [-1.0855657, 37.7158243], [-1.0684006, 37.7169989], [-1.0558682, 37.7222572], [-1.040024, 37.7207838], [-1.0209995, 37.7266191], [-1.0179954, 37.7265003], [-1.0025245, 37.7201865], [-0.9962159, 37.7210182], [-0.9877401, 37.7251764], [-0.9831482, 37.7238356], [-0.9720117, 37.7241751], [-0.9644072, 37.7212802], [-0.9370207, 37.724169], [-0.9198936, 37.7230451], [-0.9128058, 37.7204604], [-0.9065781, 37.7202429], [-0.8750052, 37.7226714], [-0.8671771, 37.720517], [-0.8600353, 37.7215211], [-0.8596966, 37.7174736], [-0.854223, 37.709992], [-0.8406839, 37.6972858], [-0.8352356, 37.6903515], [-0.8347292, 37.6876708], [-0.8285769, 37.6823507], [-0.8263792, 37.6777105], [-0.8251498, 37.6780682], [-0.8250532, 37.6788651], [-0.8241305, 37.6791114], [-0.8233259, 37.6784915], [-0.823261, 37.6774417], [-0.8241627, 37.679018], [-0.823916, 37.6774555], [-0.8263327, 37.6776333], [-0.824133, 37.6741647], [-0.809705, 37.662814], [-0.796297, 37.6548755], [-0.7810436, 37.649217], [-0.7754077, 37.6483179], [-0.7739564, 37.6493533], [-0.7728279, 37.6474683], [-0.7697597, 37.6465065], [-0.76818, 37.6465887], [-0.7677314, 37.6469082], [-0.7681873, 37.6474717], [-0.7680776, 37.6476342], [-0.7666, 37.6470223], [-0.7662717, 37.6452567], [-0.7611867, 37.6446094], [-0.7603676, 37.6431327], [-0.7607403, 37.6449218], [-0.7589687, 37.6420534], [-0.7508232, 37.6419241], [-0.7500641, 37.6400071], [-0.7517378, 37.6380874], [-0.7505244, 37.6362293], [-0.7445536, 37.6333315], [-0.7376654, 37.6320166], [-0.729527, 37.6338226], [-0.7248675, 37.6372655], [-0.723969, 37.6385917], [-0.7246797, 37.6405863], [-0.7223628, 37.6430761], [-0.7224395, 37.6469006], [-0.7196709, 37.6483723], [-0.7205798, 37.6527083], [-0.7176378, 37.6547945], [-0.710563, 37.6424895], [-0.7018976, 37.6343758], [-0.6974671, 37.6329041], [-0.6919755, 37.6347357], [-0.6905748, 37.6365562], [-0.6885151, 37.6358309], [-0.6900094, 37.6335997], [-0.6883055, 37.6328662], [-0.6919434, 37.63208], [-0.693507, 37.6299264], [-0.695183, 37.6304941], [-0.6959528, 37.6297634], [-0.6971843, 37.6309524], [-0.6989547, 37.6302555], [-0.6988611, 37.6312194], [-0.7025979, 37.632903], [-0.7007305, 37.6310876], [-0.70328, 37.6289562], [-0.7033929, 37.62574], [-0.7060528, 37.6244156], [-0.7066193, 37.6223215], [-0.7084088, 37.6220609], [-0.7081205, 37.6202344], [-0.7094128, 37.6205758], [-0.7110137, 37.6177969], [-0.711963, 37.6180145], [-0.7112521, 37.6173759], [-0.7149613, 37.6179754], [-0.7148756, 37.6144289], [-0.7174836, 37.6122897], [-0.7183046, 37.6091737], [-0.7176862, 37.6068573], [-0.7195534, 37.6074363], [-0.7208227, 37.6055625], [-0.7286939, 37.6045149], [-0.7316658, 37.6015264], [-0.7469463, 37.5994927], [-0.7501274, 37.5978284], [-0.7640706, 37.5973248], [-0.7667697, 37.5960011], [-0.7704407, 37.5971109], [-0.7723236, 37.5954879], [-0.7739973, 37.5959469], [-0.7765937, 37.5934562], [-0.7792973, 37.5949013], [-0.7828532, 37.594594], [-0.7881101, 37.5909996], [-0.7887127, 37.5875813], [-0.7909229, 37.5865356], [-0.7968755, 37.5867318], [-0.7978121, 37.5854104], [-0.8034219, 37.5865441], [-0.8130552, 37.5811882], [-0.8144607, 37.5778891], [-0.8224, 37.574811], [-0.8321525, 37.5785183], [-0.8413696, 37.5778219], [-0.8420873, 37.5806079], [-0.8405822, 37.6019699], [-0.8483739, 37.6077357], [-0.8533883, 37.6088864], [-0.8542484, 37.6162921], [-0.8640686, 37.6215169], [-0.8652367, 37.6234576], [-0.869365, 37.624109], [-0.8699475, 37.6259309], [-0.8688021, 37.6271538], [-0.8720461, 37.6290238], [-0.8775548, 37.6289609], [-0.8814098, 37.6385242], [-0.8925663, 37.6392399], [-0.8977343, 37.6410648], [-0.9043658, 37.6457464], [-0.9106739, 37.6443949], [-0.9162958, 37.6394807], [-0.9230609, 37.6383443], [-0.9292278, 37.6347505], [-0.926283, 37.6318118], [-0.927078, 37.6293613], [-0.9258047, 37.6223229], [-0.9234143, 37.6188672], [-0.913121, 37.6217779], [-0.9070721, 37.62163], [-0.9029061, 37.6244594], [-0.9001127, 37.6213892], [-0.8998514, 37.6165812], [-0.8902314, 37.6066135], [-0.8887935, 37.6005769], [-0.8819586, 37.5961356], [-0.8801002, 37.5971857], [-0.8781637, 37.5939877], [-0.8739158, 37.594836], [-0.8736529, 37.5871772], [-0.8708924, 37.574811], [-0.8734143, 37.5755386], [-0.8743909, 37.5772213], [-0.8772507, 37.5769895], [-0.879341, 37.573866], [-0.877881, 37.571727], [-0.878907, 37.569691], [-0.902305, 37.563817], [-0.906609, 37.559912], [-0.914924, 37.5588882], [-0.9190834, 37.5539531], [-0.9327091, 37.5572022], [-0.9340287, 37.5592009], [-0.9436632, 37.5594731], [-0.9521886, 37.5577077], [-0.9667516, 37.5591264], [-0.9674383, 37.5605107], [-0.9717779, 37.5596385], [-0.9794729, 37.5669197], [-0.973229, 37.5613971], [-0.9666259, 37.5625197], [-0.9679519, 37.5675981], [-0.9668001, 37.5682923], [-0.9710099, 37.5685473], [-0.9710049, 37.5692092], [-0.9672444, 37.5693618], [-0.9613563, 37.5635424], [-0.9505171, 37.5683593], [-0.9524135, 37.5678882], [-0.9554593, 37.5714612], [-0.9590125, 37.5700643], [-0.9603806, 37.5712855], [-0.9579166, 37.5728176], [-0.9586383, 37.5740551], [-0.964445, 37.5743638], [-0.9656438, 37.5733839], [-0.9667195, 37.574908], [-0.969652, 37.5735813], [-0.9691764, 37.5754097], [-0.9759355, 37.5773314], [-0.9748519, 37.5812426], [-0.9771727, 37.5808779], [-0.9788621, 37.5820796], [-0.9753039, 37.5884736], [-0.9835688, 37.5890909], [-0.9756333, 37.5893635], [-0.9736343, 37.593177], [-0.9756128, 37.5962786], [-0.9738218, 37.5963618], [-0.9731221, 37.5972371], [-0.9760629, 37.5988793], [-0.9750668, 37.5968594], [-0.9819711, 37.5963826], [-0.9775994, 37.5955666], [-0.9851367, 37.5953085], [-0.9838635, 37.595677], [-0.9853677, 37.595887], [-0.9853951, 37.5961227], [-0.9826449, 37.5958774], [-0.9827006, 37.5972602], [-0.9898627, 37.597407], [-0.9911361, 37.6008108], [-0.9894978, 37.6014586], [-0.9942306, 37.6011348], [-0.9935442, 37.5954738], [-0.9893692, 37.5960597], [-0.9865327, 37.5929293], [-0.9868443, 37.5905393], [-0.9885833, 37.5899444], [-0.9892781, 37.5880352], [-0.9840484, 37.5843268], [-0.9864802, 37.5850125], [-0.9895562, 37.5814599], [-0.991818, 37.582711], [-0.993558, 37.5858555], [-0.9995845, 37.5874818], [-1.0015576, 37.5897033], [-0.9987616, 37.5859576], [-0.9989228, 37.5844945], [-1.0096818, 37.585885], [-1.0081399, 37.5836608], [-1.0052778, 37.5836828], [-1.011958, 37.5820806], [-1.0123335, 37.5750743], [-1.0171615, 37.5740454], [-1.0178804, 37.5728209], [-1.018723, 37.5744226], [-1.0231218, 37.5732152], [-1.0308315, 37.5790607], [-1.0457596, 37.5795159], [-1.0484526, 37.5818711], [-1.0518322, 37.58148], [-1.05548, 37.5830019], [-1.0580334, 37.5823303], [-1.0592351, 37.5799496], [-1.0663268, 37.5799581], [-1.0688159, 37.5808253], [-1.0691366, 37.5823562], [-1.0703698, 37.5820074], [-1.0702107, 37.5833392], [-1.0741281, 37.5842097], [-1.076214, 37.5814654], [-1.0795319, 37.5817877], [-1.080293, 37.5791791], [-1.0826454, 37.5774157], [-1.0848019, 37.5779854], [-1.0914001, 37.575392], [-1.0919151, 37.5724328], [-1.09577, 37.568895], [-1.0985348, 37.5695246], [-1.101337, 37.5678991], [-1.1085597, 37.569494], [-1.1143613, 37.5643805], [-1.1197896, 37.5623781], [-1.118331, 37.5598501], [-1.1226204, 37.5598603], [-1.1217068, 37.5570966], [-1.1271198, 37.5522127], [-1.1256883, 37.5506638], [-1.1269881, 37.5490183], [-1.1255558, 37.5474136], [-1.117125, 37.544982], [-1.1170557, 37.5431775], [-1.1154165, 37.5428028], [-1.1123684, 37.5389544], [-1.1067955, 37.5357887], [-1.1114117, 37.5341331], [-1.1130457, 37.5349913], [-1.119597, 37.5339576], [-1.1202469, 37.5369385], [-1.1222756, 37.538433], [-1.132359, 37.538015], [-1.1360487, 37.5402846], [-1.1429157, 37.5391187], [-1.1470286, 37.5412017], [-1.1471976, 37.5423523], [-1.1517418, 37.5397802], [-1.1543366, 37.5418065], [-1.1549031, 37.5404612], [-1.1659854, 37.5420605], [-1.1680056, 37.5440404], [-1.1708418, 37.5443922], [-1.1748871, 37.5510233], [-1.1703215, 37.5523528], [-1.1708482, 37.5538527], [-1.1686881, 37.5576089], [-1.173633, 37.5626625], [-1.17942, 37.565848], [-1.190009, 37.568323], [-1.191581, 37.570017], [-1.2031358, 37.5738761], [-1.2094468, 37.572802], [-1.2134374, 37.5753748], [-1.2196799, 37.575536], [-1.2239588, 37.573232], [-1.2260972, 37.5736757]]], [[[-0.7841872, 37.6527349], [-0.7827778, 37.6511944], [-0.7821993, 37.6522441], [-0.784258, 37.6530363], [-0.7818278, 37.6523418], [-0.7829539, 37.6505591], [-0.7847499, 37.6515984], [-0.7841872, 37.6527349]]], [[[-0.7380164, 37.6610089], [-0.735561, 37.6626486], [-0.7337629, 37.661205], [-0.7354635, 37.6600344], [-0.7356147, 37.6581281], [-0.7403778, 37.6596142], [-0.7404231, 37.6612709], [-0.7380164, 37.6610089]]], [[[-0.7497134, 37.6649971], [-0.7478466, 37.6658379], [-0.747235, 37.665668], [-0.7497134, 37.6649971]]], [[[-0.7409381, 37.6685362], [-0.7403418, 37.6705425], [-0.7389519, 37.6693931], [-0.7409381, 37.6685362]]], [[[-0.694487, 37.6297383], [-0.6941832, 37.6295105], [-0.6945192, 37.629353], [-0.694487, 37.6297383]]], [[[-0.6934487, 37.6299026], [-0.6930015, 37.6297963], [-0.6933696, 37.6296028], [-0.6934487, 37.6299026]]], [[[-0.695006, 37.634598], [-0.695124, 37.6344323], [-0.695234, 37.6344472], [-0.695006, 37.634598]]], [[[-0.7244423, 37.6510981], [-0.7208663, 37.6516893], [-0.7209915, 37.6502859], [-0.7224757, 37.650225], [-0.7218821, 37.6479212], [-0.7230047, 37.6508847], [-0.7244423, 37.6510981]]], [[[-0.6536302, 37.6520529], [-0.6534823, 37.6524627], [-0.6531413, 37.6523437], [-0.6536302, 37.6520529]]], [[[-0.6526166, 37.6526006], [-0.6525307, 37.6528083], [-0.6523709, 37.6527252], [-0.6526166, 37.6526006]]], [[[-0.6495084, 37.6556135], [-0.6479296, 37.6564828], [-0.6496387, 37.6551843], [-0.6495084, 37.6556135]]], [[[-0.7339197, 37.6629872], [-0.7344998, 37.6658594], [-0.7326726, 37.6669397], [-0.7342124, 37.6678377], [-0.7265795, 37.6686498], [-0.723875, 37.6644423], [-0.7195509, 37.6639451], [-0.7216675, 37.6622818], [-0.7189653, 37.6561448], [-0.7179933, 37.6552042], [-0.7173164, 37.6555647], [-0.7172125, 37.6555565], [-0.7171, 37.6554619], [-0.722562, 37.6515642], [-0.7245298, 37.6514135], [-0.7228828, 37.6540893], [-0.724078, 37.658819], [-0.7283814, 37.6610954], [-0.730861, 37.6610379], [-0.7302774, 37.662544], [-0.7339197, 37.6629872]]], [[[-0.7096879, 37.7267528], [-0.7091042, 37.7303213], [-0.706157, 37.7304746], [-0.7066779, 37.7290251], [-0.7046772, 37.7282896], [-0.7081746, 37.7251896], [-0.7096879, 37.7267528]]]], "type": "MultiPolygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_6d37b18b7d8de83c2488dbcf6c93d529.bindTooltip(
+                `<div>
+                     BOE-B-2026-33284 · puertos_costas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+        var popup_e410105abdebaba24a19fe8d0209db38 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_13b99c767100310b0c1569c7d534b67a = $(`<div id="html_13b99c767100310b0c1569c7d534b67a" style="width: 100.0%; height: 100.0%;"><b>BOE-B-2026-33284</b><br>Anuncio de la Demarcación de Costas en Murcia de Información Pública sobre la concesión transitoria de ocupación de dominio público marítimo-terrestre con destino a mantenimiento de instalaciones fijas. Referencia CNC02/26/30/0013.…<br><b>Categoría:</b> puertos_costas · <b>Natura 2000 en el municipio:</b> 19 · <b>Especies amenazadas:</b> 40<br><b>Fecha límite (est.):</b> 2026-11-10<br><a href='https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33284' target='_blank' rel='noopener'>Ver anuncio oficial (BOE)</a></div>`)[0];
+                popup_e410105abdebaba24a19fe8d0209db38.setContent(html_13b99c767100310b0c1569c7d534b67a);
+            
+        
+
+        geo_json_6d37b18b7d8de83c2488dbcf6c93d529.bindPopup(popup_e410105abdebaba24a19fe8d0209db38)
+        ;
+
+        
+    
+    
+            geo_json_6d37b18b7d8de83c2488dbcf6c93d529.addTo(feature_group_90bcde08fb2fcd7f43e3f24d45597dd8);
+        
+    
+            feature_group_90bcde08fb2fcd7f43e3f24d45597dd8.addTo(map_f5c4129039982e94c5b4199150f663a1);
+        
+    
+            var feature_group_b1c473247bc7118cfe806cd5c8cdb156 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_b6edbdc9a3121a4ade4f0881d78a2be2 = L.circleMarker(
+                [41.5424978674684, 1.7953937332855108],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1c473247bc7118cfe806cd5c8cdb156);
+        
+    
+            circle_marker_b6edbdc9a3121a4ade4f0881d78a2be2.bindTooltip(
+                `<div>
+                     BOE-B-2026-33266 · red_electrica · límite 2026-11-24
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00cb1f7eac155447f922bea165bb839d = L.circleMarker(
+                [37.63869569655867, -0.9895622341629388],
+                {"bubblingMouseEvents": true, "color": "#17becf", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#17becf", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b1c473247bc7118cfe806cd5c8cdb156);
+        
+    
+            circle_marker_00cb1f7eac155447f922bea165bb839d.bindTooltip(
+                `<div>
+                     BOE-B-2026-33284 · puertos_costas · límite 2026-11-10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_b1c473247bc7118cfe806cd5c8cdb156.addTo(map_f5c4129039982e94c5b4199150f663a1);
+        
+    
+            var layer_control_2ca70da934502ed4575ba2f5c87199d6_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_1e2566ad6ac80bf9f98d47f0e12795a6,
+                },
+                overlays :  {
+                    "Red Natura 2000 en los municipios" : feature_group_25e55907b5d5a837d6bc3853f5bd39df,
+                    "Municipios del proyecto" : feature_group_90bcde08fb2fcd7f43e3f24d45597dd8,
+                    "Proyectos" : feature_group_b1c473247bc7118cfe806cd5c8cdb156,
+                },
+            };
+            let layer_control_2ca70da934502ed4575ba2f5c87199d6 = L.control.layers(
+                layer_control_2ca70da934502ed4575ba2f5c87199d6_layers.base_layers,
+                layer_control_2ca70da934502ed4575ba2f5c87199d6_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_f5c4129039982e94c5b4199150f663a1);
+
+        
+</script>
+</html>

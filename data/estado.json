@@ -1080,7 +1080,22 @@
     }
    ],
    "informe": "informes/informe_20260825_20260901.html",
-   "actualizado": "2026-09-02"
+   "actualizado": "2026-09-02",
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-21303",
+    "fecha": "2026-10-13",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 9 de mayo de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Naturgy Renovables, SLU, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «BESS Tabernas II», de 19,8 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Tabernas II», de 48,8 MW de potencia instalada, situada en Tabernas (Almería).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21303",
+    "fuente": "BOE",
+    "puntos": 3,
+    "motivos": [
+     "mismo promotor (Naturgy Renovables, SLU)"
+    ]
+   }
   },
   "BOE-B-2026-28210": {
    "identificador": "BOE-B-2026-28210",
@@ -3758,6 +3773,23 @@
     "motivos": [
      "2 municipio(s) en común",
      "coinciden: cabra, cordoba, economia, europeos"
+    ]
+   },
+   "resolucion": {
+    "identificador": "BOE-B-2026-33292",
+    "fecha": "2026-10-13",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos, y de Universidad, Industria, Energía e Innovación en Sevilla, por la que se declara la utilidad pública del proyecto de ejecución, realizado por Nedgia Andalucía S.A., de la instalación de distribución de gases combustibles relativa al refuerzo de las redes existentes RMB-41081 y RMB-41091 de gas natural, en los términos municipales de La Rinconada y Sevilla (Sevilla). Expediente: 294.996.",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33292",
+    "fuente": "BOE",
+    "puntos": 6,
+    "motivos": [
+     "mismo promotor (Nedgia Andalucía, S.A)",
+     "misma categoría (hidrocarburos_gas)",
+     "coinciden: economia, europeos, fondos, hacienda"
     ]
    }
   },
@@ -15164,8 +15196,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261009_20261012.html",
-   "actualizado": "2026-10-12",
+   "informe": "informes/informe_20261010_20261013.html",
+   "actualizado": "2026-10-13",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -15209,8 +15241,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261009_20261012.html",
-   "actualizado": "2026-10-12",
+   "informe": "informes/informe_20261010_20261013.html",
+   "actualizado": "2026-10-13",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -15224,9 +15256,326 @@
     "geojson": null,
     "natura": []
    }
+  },
+  "BOE-B-2026-33266": {
+   "identificador": "BOE-B-2026-33266",
+   "fecha": "2026-10-13",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en Barcelona por el que se somete a información pública las solicitudes de Autorización Administrativa Previa y Autorización Administrativa de Construcción de la Adenda del Proyecto Técnico Administrativo para la instalación de un compensador síncrono estático serie en la Subestación de Pierola 400 kV, en el término municipal Els Hostalets de Pierola, en la Provincia de Barcelona.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33266",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33266",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/13/pdfs/BOE-B-2026-33266.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Els Hostalets de Pierola"
+   ],
+   "provincias": [
+    "Barcelona"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España Sociedad Anónima Unipersonal",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-24",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES5110012",
+     "nombre": "Montserrat-Roques Blanques-riu Llobregat",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 11,
+   "n_aves": 6,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Aquila clanga",
+     "vernacular_es": "Aguila Moteada",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20261010_20261013.html",
+   "actualizado": "2026-10-13"
+  },
+  "BOE-B-2026-33284": {
+   "identificador": "BOE-B-2026-33284",
+   "fecha": "2026-10-13",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia de Información Pública sobre la concesión transitoria de ocupación de dominio público marítimo-terrestre con destino a mantenimiento de instalaciones fijas. Referencia CNC02/26/30/0013.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33284",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33284",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/13/pdfs/BOE-B-2026-33284.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cartagena"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-10",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000264",
+     "nombre": "La Muela-Cabo Tiñoso",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200015",
+     "nombre": "La Muela y Cabo Tiñoso",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200001",
+     "nombre": "Calblanque, Monte de las Cenizas y Peña del Águila",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200024",
+     "nombre": "Cabezo de Roldán",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200006",
+     "nombre": "Espacios Abiertos e Islas del Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000199",
+     "nombre": "Sierra de la Fausilla",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000260",
+     "nombre": "Mar Menor",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200025",
+     "nombre": "Sierra de la Fausilla",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200040",
+     "nombre": "Cabezos del Pericón",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200044",
+     "nombre": "Sierra de los Victorias",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200030",
+     "nombre": "Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200007",
+     "nombre": "Islas e Islotes del Litoral Mediterráneo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000200",
+     "nombre": "Isla Grosa",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200048",
+     "nombre": "Valles submarinos del Escarpe de Mazarrón",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200029",
+     "nombre": "Franja Litoral Sumergida de la Región de Murcia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000256",
+     "nombre": "Islas Hormigas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000271",
+     "nombre": "Isla de las Palomas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000508",
+     "nombre": "Espacio marino de Tabarca-Cabo de Palos",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000507",
+     "nombre": "Espacio marino de los Islotes Litorales de Murcia y Almería",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 28,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Rhinobatos rhinobatos",
+     "vernacular_es": "Guitarra",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Gymnura altavela",
+     "vernacular_es": "Manta",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261010_20261013.html",
+   "actualizado": "2026-10-13"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261010_20261013.html",
+   "desde": "2026-10-10",
+   "hasta": "2026-10-13",
+   "generado": "2026-10-13",
+   "n": 4
+  },
   {
    "fichero": "informes/informe_20261009_20261012.html",
    "desde": "2026-10-09",
@@ -20895,6 +21244,81 @@
    "puntos": 0,
    "motivos": [],
    "firme": false
+  },
+  "BOE-A-2026-21303": {
+   "identificador": "BOE-A-2026-21303",
+   "fecha": "2026-10-13",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 9 de mayo de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Naturgy Renovables, SLU, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «BESS Tabernas II», de 19,8 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Tabernas II», de 48,8 MW de potencia instalada, situada en Tabernas (Almería).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21303",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21303",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/13/pdfs/BOE-A-2026-21303.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Tabernas"
+   ],
+   "provincias": [
+    "Almería"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Naturgy Renovables",
+   "potencia_mw": 48.8,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-27922",
+   "puntos": 3,
+   "motivos": [
+    "mismo promotor (Naturgy Renovables, SLU)"
+   ],
+   "firme": false
+  },
+  "BOE-B-2026-33292": {
+   "identificador": "BOE-B-2026-33292",
+   "fecha": "2026-10-13",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos, y de Universidad, Industria, Energía e Innovación en Sevilla, por la que se declara la utilidad pública del proyecto de ejecución, realizado por Nedgia Andalucía S.A., de la instalación de distribución de gases combustibles relativa al refuerzo de las redes existentes RMB-41081 y RMB-41091 de gas natural, en los términos municipales de La Rinconada y Sevilla (Sevilla). Expediente: 294.996.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33292",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33292",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/13/pdfs/BOE-B-2026-33292.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrocarburos_gas",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "La Rinconada",
+    "Sevilla"
+   ],
+   "provincias": [
+    "Sevilla"
+   ],
+   "plazo_dias": 20,
+   "promotor": "Nedgia Andalucía S.A. (A-41225889)",
+   "potencia_mw": null,
+   "expediente": "294.996",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-29192",
+   "puntos": 6,
+   "motivos": [
+    "mismo promotor (Nedgia Andalucía, S.A)",
+    "misma categoría (hidrocarburos_gas)",
+    "coinciden: economia, europeos, fondos, hacienda"
+   ],
+   "firme": true
   }
  }
 }
