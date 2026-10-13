@@ -111,3 +111,13 @@ def test_web_build_rewrites_it(tmp_path):
 
     site.generar_web({"anuncios": {}, "informes": [], "resoluciones": {}}, tmp_path)
     assert json.loads((tmp_path / "signals.json").read_text(encoding="utf-8"))["signals"] == []
+
+
+def test_natural_persons_are_never_named_as_promoters():
+    for person in ("D. Juan Pérez García", "Dña. Ana López", "Doña Ana López", "D.ª Ana López", "Don Juan Pérez"):
+        assert signals.promoter(person) is None
+        assert signals.notice(_notice("BOE-B-2026-9", "2026-10-01", promotor=person))["details"]["promoter"] is None
+    # Companies without a legal form stay. A company named after a place such as Don Benito would
+    # lose its name: the rule fails on the side of naming no one.
+    for company in ("Esteyco", "Eólica Uno, SL", "Donana Solar", "DGUOT"):
+        assert signals.promoter(company) == company

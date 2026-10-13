@@ -10,6 +10,7 @@ to INE codes. The hub also adds the source and the regions, and applies its own 
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -19,6 +20,16 @@ COVERAGE = {
     "sites": None,
     "note": "Anuncios del BOE con trámite ambiental, leídos cada mañana.",
 }
+
+
+# The bulletins name a natural person as «D. Nombre Apellidos»; companies and bodies carry no
+# honorific. Many companies carry no legal form either, so the test is the honorific, not its absence.
+_PERSON = re.compile(r"^\s*(D\.ª|Dª|Dña\.?|D\.|Don|Doña|Sr\.|Sra\.)\s", re.IGNORECASE)
+
+
+def promoter(name: str | None) -> str | None:
+    """The promoter as published, or None when it is a natural person: no person is named here."""
+    return None if not name or _PERSON.match(name) else name
 
 
 def _signal(x: dict, kind: str, precision: str, sites: list[dict], deadline: str | None, status: str | None,
@@ -38,7 +49,7 @@ def notice(a: dict) -> dict:
     natura, precision = (in_footprint, "parcelas") if in_footprint else (a.get("natura") or [], "municipio")
     return _signal(a, "notice", precision, [{"code": s["sitecode"]} for s in natura],
                    deadline=a.get("fecha_limite") or None, status=None,
-                   details={"category": a.get("categoria"), "promoter": a.get("promotor") or None,
+                   details={"category": a.get("categoria"), "promoter": promoter(a.get("promotor")),
                             "file": a.get("expediente") or None, "department": a.get("departamento")})
 
 
@@ -47,7 +58,7 @@ def resolution(r: dict, paired: dict | None) -> dict:
     return _signal(r, "resolution", paired["precision"] if paired else "municipio",
                    list(paired["sites"]) if paired else [], deadline=None,
                    status=r.get("sentido_etiqueta") or r.get("sentido"),
-                   details={"category": r.get("categoria"), "promoter": r.get("promotor") or None,
+                   details={"category": r.get("categoria"), "promoter": promoter(r.get("promotor")),
                             "file": r.get("expediente") or None, "paired_with": paired["id"] if paired else None})
 
 
