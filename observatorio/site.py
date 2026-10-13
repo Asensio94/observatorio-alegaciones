@@ -6,7 +6,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from . import seguimiento
+from . import seguimiento, signals
 from .config import ESTADO_PATH
 from .plazos import dias_restantes
 from .report import (
@@ -205,6 +205,8 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
         encoding="utf-8",
     )
     (docs_dir / "seguimiento.html").write_text(_pagina_seguimiento(estado, cerrados, hoy, site_nav("seguimiento.html")), encoding="utf-8")
+    # run, footprints and resoluciones all end here after saving the state: signals.json follows the pages.
+    signals.write(estado, docs_dir)
     (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
 
 

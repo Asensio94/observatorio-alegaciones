@@ -261,6 +261,7 @@ observatorio/
   condicionado_web.py  página docs/condicionado.html (tabla, filtros y ficha de cada declaración)
   seguimiento.py  resoluciones que cierran un expediente y su emparejamiento
   site.py      estado acumulado (data/estado.json) y web estática (docs/)
+  signals.py   docs/signals.json: anuncios y resoluciones en el formato común de Estado de las IBA
   cli.py       punto de entrada
 docs/          web publicada con GitHub Pages (la regenera el flujo diario: se cambia el generador, no el HTML)
 ```
@@ -278,6 +279,7 @@ docs/          web publicada con GitHub Pages (la regenera el flujo diario: se c
 | `docs/informes/` | informe HTML, mapa y JSON de cada ejecución |
 | `docs/datos/footprints/<identificador>.geojson` | huella catastral de cada anuncio con relación de bienes |
 | `docs/datos/condicionado/` | un JSON por resolución más `indice.json` |
+| `docs/signals.json` | cada anuncio y cada resolución como señal para [Estado de las IBA](https://asensio94.github.io/estado-iba/): espacios Natura 2000 (por la huella catastral si la hay, si no por el municipio), municipios, plazo y promotor; se regenera con la web |
 
 ## Fuentes y licencias
 
