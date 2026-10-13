@@ -22,7 +22,7 @@ import re
 from dataclasses import dataclass, field
 from datetime import date
 
-from . import boc_cantabria, boe, extract
+from . import boc_cantabria, boe, extract, privacy
 from .boe import Anuncio
 
 # --- Detección ---------------------------------------------------------------
@@ -356,7 +356,7 @@ def recolectar(dias: list[date], activas: set[str], aviso=lambda s: None) -> lis
             if not a.promotor:
                 m = _PROMOTOR_RES.search(a.titulo) or _PROMOTOR_RES.search(a.texto[:4000])
                 if m:
-                    a.promotor = m.group("p").strip(" ,.")
+                    privacy.set_promoter(a, m.group("p").strip(" ,."))
             if a.fuente == boc_cantabria.FUENTE:
                 boc_cantabria.completar_geo(a)
             clave, etiqueta = tipo_resolucion(a)

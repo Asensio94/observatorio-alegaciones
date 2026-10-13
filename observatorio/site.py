@@ -6,7 +6,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from . import seguimiento, signals
+from . import privacy, seguimiento, signals
 from .config import ESTADO_PATH
 from .plazos import dias_restantes
 from .report import (
@@ -25,7 +25,9 @@ from .report import (
 
 def cargar_estado() -> dict:
     if ESTADO_PATH.exists():
-        estado = json.loads(ESTADO_PATH.read_text(encoding="utf-8"))
+        # Scrubbed on load: the daily commands save the state and rebuild the pages from it, so whatever
+        # was stored before the rule leaves on the next daily run.
+        estado = privacy.scrub(json.loads(ESTADO_PATH.read_text(encoding="utf-8")))
         estado.setdefault("resoluciones", {})
         return estado
     return {"anuncios": {}, "informes": [], "resoluciones": {}}

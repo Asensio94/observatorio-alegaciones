@@ -9,6 +9,7 @@ from __future__ import annotations
 import re
 import unicodedata
 
+from . import privacy
 from .boe import Anuncio
 
 # --- Clasificación -----------------------------------------------------------
@@ -228,7 +229,7 @@ def extraer_datos(a: Anuncio) -> Anuncio:
         a.potencia_mw = max(mws)
     m = _PROMOTOR_RE.search(a.texto)
     if m:
-        a.promotor = m.group("p").strip(" ,.")
+        privacy.set_promoter(a, m.group("p").strip(" ,."))
     m = _EXPEDIENTE_RE.search(a.titulo) or _EXPEDIENTE_RE.search(a.texto)
     if m:
         a.expediente = m.group("e").strip(" .,")

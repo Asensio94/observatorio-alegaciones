@@ -297,7 +297,7 @@ alegar</b>. Proyecto abierto: el código, los datos y las mejoras están en GitH
   desde GitHub, así que un equipo en España descarga sus anuncios y los sube al repositorio.</li>
  <li><b>Selección.</b> Reglas escritas (expresiones regulares) separan los proyectos con posible afección
   ambiental, les dan categoría y prioridad, y extraen municipios, provincias, plazo, promotor, potencia y
-  expediente.</li>
+  expediente. Si el promotor es una persona física, su nombre no se guarda ni se publica.</li>
  <li><b>Fecha límite.</b> Se cuentan los días hábiles del plazo desde el día siguiente a la publicación, sin
   sábados ni domingos y descontando los festivos nacionales y, en el BOC, los dos autonómicos fijos de
   Cantabria. Si el anuncio no dice el plazo se asumen {PLAZO_POR_DEFECTO} días hábiles y se marca como estimado.</li>
