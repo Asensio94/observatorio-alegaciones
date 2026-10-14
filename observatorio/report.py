@@ -256,6 +256,7 @@ SIBLINGS = [
     ("cartera-cotizadas", "Cartera de las cotizadas"),
     ("cuaderno-campo", "Cuaderno de campo"),
     ("caudal-ecologico", "Caudal ecológico"),
+    ("estado-iba", "Estado de las IBA"),
 ]
 THIS_PROJECT = "observatorio-alegaciones"
 
