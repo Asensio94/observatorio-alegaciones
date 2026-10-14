@@ -14,7 +14,9 @@ El objetivo es que grupos locales y organizaciones de conservación conozcan los
 1. Un flujo de **GitHub Actions** (`.github/workflows/diario.yml`) se ejecuta cada mañana laborable
    (07:30 UTC, lunes a sábado) y también se puede lanzar a mano desde la pestaña *Actions*.
 2. Lee los últimos 4 días del BOE (sección V-B, *Otros anuncios oficiales*) y del BOC (secciones 5 y 7)
-   y procesa los candidatos: la extracción es por reglas (expresiones regulares).
+   y procesa los candidatos: la extracción es por reglas (expresiones regulares). Un promotor que es
+   persona física (el boletín la nombra «D.», «Dña.»…) no se guarda ni se publica, y su nombre se quita
+   también del título y del texto; empresas y organismos sí.
 3. Calcula la fecha límite en días hábiles, descontando festivos nacionales y, en el BOC, los dos
    autonómicos fijos de Cantabria; si el anuncio no indica plazo se asumen 30 días hábiles.
 4. Geolocaliza los municipios y los cruza con Natura 2000 y especies; si el anuncio trae la relación de
@@ -261,6 +263,8 @@ observatorio/
   condicionado_web.py  página docs/condicionado.html (tabla, filtros y ficha de cada declaración)
   seguimiento.py  resoluciones que cierran un expediente y su emparejamiento
   site.py      estado acumulado (data/estado.json) y web estática (docs/)
+  signals.py   docs/signals.json: anuncios y resoluciones en el formato común de Estado de las IBA
+  privacy.py   ninguna persona física como promotor: la regla, al extraer y al cargar lo ya guardado
   cli.py       punto de entrada
 docs/          web publicada con GitHub Pages (la regenera el flujo diario: se cambia el generador, no el HTML)
 ```
@@ -278,6 +282,7 @@ docs/          web publicada con GitHub Pages (la regenera el flujo diario: se c
 | `docs/informes/` | informe HTML, mapa y JSON de cada ejecución |
 | `docs/datos/footprints/<identificador>.geojson` | huella catastral de cada anuncio con relación de bienes |
 | `docs/datos/condicionado/` | un JSON por resolución más `indice.json` |
+| `docs/signals.json` | cada anuncio y cada resolución como señal para [Estado de las IBA](https://asensio94.github.io/estado-iba/): espacios Natura 2000 (por la huella catastral si la hay, si no por el municipio), municipios, plazo y promotor; se regenera con la web |
 
 ## Fuentes y licencias
 

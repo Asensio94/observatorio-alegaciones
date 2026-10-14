@@ -28,6 +28,7 @@ import re
 from datetime import date
 from pathlib import Path
 
+from . import privacy
 from .boe import Anuncio
 from .config import DATA_DIR
 from .extract import INFO_PUBLICA, _strip_accents
@@ -326,7 +327,8 @@ def puntos(sen: list[dict]) -> int:
 
 def cargar_estado() -> dict:
     if ESTADO_PATH.exists():
-        e = json.loads(ESTADO_PATH.read_text(encoding="utf-8"))
+        # Scrubbed on load: whatever was stored before the rule leaves on the next save.
+        e = privacy.scrub(json.loads(ESTADO_PATH.read_text(encoding="utf-8")))
         e.setdefault("anuncios", {})
         return e
     return {"anuncios": {}}

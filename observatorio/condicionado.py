@@ -25,7 +25,7 @@ from dataclasses import dataclass, field
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import boe, extract, seguimiento
+from . import boe, extract, privacy, seguimiento
 from .boe import Anuncio
 from .config import DOCS_DIR
 
@@ -497,7 +497,8 @@ def ficha(a: Anuncio) -> dict:
     if tipo in ("dia", "iia") and (s_clave in seguimiento.SENTIDOS_VERDES or s_clave == "parcial"):
         f["vigencia_hasta"] = _suma_anos(pub, VIGENCIA_ANOS).isoformat()
         f["vigencia_max_con_prorroga"] = _suma_anos(pub, VIGENCIA_ANOS + PRORROGA_ANOS).isoformat()
-    return f
+    # A promoter who is a natural person is not kept, nor named in the title or the conditions.
+    return privacy.scrub(f)
 
 
 def resumen(f: dict) -> dict:
@@ -706,7 +707,8 @@ def _con_solicitudes(f: dict) -> dict:
 def cargar() -> dict[str, dict]:
     if not DATOS_DIR.exists():
         return {}
-    return {p.stem: json.loads(p.read_text(encoding="utf-8")) for p in DATOS_DIR.glob("BOE-*.json")}
+    # Scrubbed on load: `guardar` rewrites every sheet that changes, and the index, on the next run.
+    return {p.stem: privacy.scrub(json.loads(p.read_text(encoding="utf-8"))) for p in DATOS_DIR.glob("BOE-*.json")}
 
 
 def guardar(fichas: dict[str, dict]) -> None:

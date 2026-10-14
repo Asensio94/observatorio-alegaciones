@@ -6,7 +6,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from . import seguimiento
+from . import privacy, seguimiento, signals
 from .config import ESTADO_PATH
 from .plazos import dias_restantes
 from .report import (
@@ -25,7 +25,9 @@ from .report import (
 
 def cargar_estado() -> dict:
     if ESTADO_PATH.exists():
-        estado = json.loads(ESTADO_PATH.read_text(encoding="utf-8"))
+        # Scrubbed on load: the daily commands save the state and rebuild the pages from it, so whatever
+        # was stored before the rule leaves on the next daily run.
+        estado = privacy.scrub(json.loads(ESTADO_PATH.read_text(encoding="utf-8")))
         estado.setdefault("resoluciones", {})
         return estado
     return {"anuncios": {}, "informes": [], "resoluciones": {}}
@@ -205,6 +207,8 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
         encoding="utf-8",
     )
     (docs_dir / "seguimiento.html").write_text(_pagina_seguimiento(estado, cerrados, hoy, site_nav("seguimiento.html")), encoding="utf-8")
+    # run, footprints and resoluciones all end here after saving the state: signals.json follows the pages.
+    signals.write(estado, docs_dir)
     (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
 
 
