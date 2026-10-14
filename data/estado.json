@@ -13208,7 +13208,25 @@
     }
    ],
    "informe": "informes/informe_20261006_20261009.html",
-   "actualizado": "2026-10-09"
+   "actualizado": "2026-10-09",
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-21434",
+    "fecha": "2026-10-14",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 7 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Ictio Solar Berenice, SL, la autorización administrativa previa para el módulo de almacenamiento por baterías «ALM Ictio Alcázar III», de 19,96 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica existente, «FV Ictio Alcázar III», de 47,19 MW de potencia instalada, conformando una instalación de 67,15 MW de potencia instalada, en Alcázar de San Juan (Ciudad Real).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21434",
+    "fuente": "BOE",
+    "puntos": 3,
+    "motivos": [
+     "expedientes distintos (SGIISE/PFot-ALM-059 / PFot-ALM-158)",
+     "misma categoría (fotovoltaica)",
+     "misma potencia (66.0 MW)",
+     "coinciden: ciudad, modulo, real"
+    ]
+   }
   },
   "BOE-B-2026-32448": {
    "identificador": "BOE-B-2026-32448",
@@ -15361,8 +15379,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261010_20261013.html",
-   "actualizado": "2026-10-13"
+   "informe": "informes/informe_20261011_20261014.html",
+   "actualizado": "2026-10-14"
   },
   "BOE-B-2026-33284": {
    "identificador": "BOE-B-2026-33284",
@@ -15564,11 +15582,168 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261010_20261013.html",
-   "actualizado": "2026-10-13"
+   "informe": "informes/informe_20261011_20261014.html",
+   "actualizado": "2026-10-14"
+  },
+  "BOE-B-2026-33410": {
+   "identificador": "BOE-B-2026-33410",
+   "fecha": "2026-10-14",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Avilés por el que se somete a información pública la solicitud de modificación sustancial de concesión administrativa presentada por la empresa Ingeniería y Diseño Europeo, S.A.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33410",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33410",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-B-2026-33410.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Avilés"
+   ],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-11",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1200055",
+     "nombre": "Cabo Busto-Luanco",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000318",
+     "nombre": "Cabo Busto-Luanco",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 31,
+   "n_aves": 19,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anser cygnoides",
+     "vernacular_es": "Ganso cisne asiático",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Podiceps auritus",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Clangula hyemalis",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    }
+   ],
+   "informe": "informes/informe_20261011_20261014.html",
+   "actualizado": "2026-10-14"
+  },
+  "BOE-B-2026-33442": {
+   "identificador": "BOE-B-2026-33442",
+   "fecha": "2026-10-14",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de información pública de la Confederación Hidrográfica del Segura, O.A. sobre el procedimiento de revisión de la autorización de vertido indirecto a las aguas subterráneas mediante filtro verde de las aguas residuales procedentes de la nueva EDAR y tanque de tormentas de la urbanización Los Valientes, t.m de Molina de Segura (Murcia), tanto en tiempo seco como en tiempo de lluvia. Expediente RV-0072/2025.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33442",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33442",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-B-2026-33442.pdf",
+   "fuente": "BOE",
+   "categoria": "agua_concesion",
+   "prioridad": 1,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Molina de Segura"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "RV-0072/2025",
+   "fecha_limite": "2026-11-25",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261011_20261014.html",
+   "actualizado": "2026-10-14"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261011_20261014.html",
+   "desde": "2026-10-11",
+   "hasta": "2026-10-14",
+   "generado": "2026-10-14",
+   "n": 4
+  },
   {
    "fichero": "informes/informe_20261010_20261013.html",
    "desde": "2026-10-10",
@@ -21319,6 +21494,115 @@
     "coinciden: economia, europeos, fondos, hacienda"
    ],
    "firme": true
+  },
+  "BOE-A-2026-21433": {
+   "identificador": "BOE-A-2026-21433",
+   "fecha": "2026-10-14",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 7 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Ictio Solar Auriga, SL, la autorización administrativa previa para el módulo de almacenamiento por baterías «ALM Ictio Alcázar II», de 19,96 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica existente, «FV Ictio Alcázar II», de 47,19 MW de potencia instalada, conformando una instalación de 67,15 MW de potencia instalada, en Alcázar de San Juan (Ciudad Real).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21433",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21433",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-A-2026-21433.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alcázar de San Juan"
+   ],
+   "provincias": [
+    "Ciudad Real"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Ictio Solar Auriga",
+   "potencia_mw": 67.15,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21434": {
+   "identificador": "BOE-A-2026-21434",
+   "fecha": "2026-10-14",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 7 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Ictio Solar Berenice, SL, la autorización administrativa previa para el módulo de almacenamiento por baterías «ALM Ictio Alcázar III», de 19,96 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica existente, «FV Ictio Alcázar III», de 47,19 MW de potencia instalada, conformando una instalación de 67,15 MW de potencia instalada, en Alcázar de San Juan (Ciudad Real).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21434",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21434",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-A-2026-21434.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alcázar de San Juan"
+   ],
+   "provincias": [
+    "Ciudad Real"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Ictio Solar Berenice",
+   "potencia_mw": 67.15,
+   "expediente": "SGIISE/PFot-ALM-059",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-32447",
+   "puntos": 3,
+   "motivos": [
+    "expedientes distintos (SGIISE/PFot-ALM-059 / PFot-ALM-158)",
+    "misma categoría (fotovoltaica)",
+    "misma potencia (66.0 MW)",
+    "coinciden: ciudad, modulo, real"
+   ],
+   "firme": false
+  },
+  "BOE-B-2026-33451": {
+   "identificador": "BOE-B-2026-33451",
+   "fecha": "2026-10-14",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+   "titulo": "Resolución de la Dirección General de Energía, del Departamento de Territorio, Vivienda y Transición Ecológica, por la que se otorga a la empresa Desarrollos Eólicos Anoia y Segarra II, SLU, la declaración de utilidad pública del proyecto del parque eólico denominado PE Anoia y Segarra II, de 29'9 MW sobre terreno en suelo no urbanizable, y su infraestructura de evacuación, en los términos municipales de Ivorra y Estaràs, en la comarca de La Segarra (Lleida), y Castellfollit de Riubregós y Pujalt, en la comarca de Anoia (Barcelona) (exp. FUE-2021-02161704).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33451",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33451",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-B-2026-33451.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Ivorra",
+    "Estaràs"
+   ],
+   "provincias": [
+    "Lleida",
+    "Barcelona"
+   ],
+   "plazo_dias": 30,
+   "promotor": "la empresa Desarrollos Eólicos Anoia y Segarra II",
+   "potencia_mw": 9.0,
+   "expediente": "FUE-2021-02161704",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
   }
  }
 }
