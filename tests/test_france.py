@@ -148,3 +148,38 @@ def test_a_person_as_developer_leaves_only_a_fingerprint():
 def test_a_commune_with_et_is_kept_whole_for_the_lookup():
     h = fr_avis.read_header("Nom du pétitionnaire X SAS\nCommune Chemaudin et Vaux, Dannemarie\nDépartement Doubs (25)\n")
     assert h["communes"] == ["Chemaudin et Vaux", "Dannemarie"]
+
+
+# --- French pages ----------------------------------------------------------
+
+from observatorio import fr_site, i18n  # noqa: E402
+
+
+def test_french_typography():
+    assert i18n.n(46709, "fr") == "46 709" and i18n.n(46709, "es") == "46.709"
+    assert i18n.p(0.15, "fr") == "15 %"
+    assert i18n.day("2026-10-01", "fr") == "1er octobre 2026" and i18n.day("2026-11-02", "fr") == "2 novembre 2026"
+
+
+def test_open_and_closed_split_on_the_closing_day():
+    today = date(2026, 11, 2)
+    last_day = _french_notice(identificador="FR-PE-1", cruce="ok")
+    closed = _french_notice(identificador="FR-PE-2", fecha_limite="2026-10-30",
+                            consultation={"ouverture": "2026-10-01", "fermeture": "2026-10-30", "etat": "clos"})
+    open_, past = fr_site.split({"anuncios": {"1": last_day, "2": closed}}, today)
+    assert [a["identificador"] for a in open_] == ["FR-PE-1"] and [a["identificador"] for a in past] == ["FR-PE-2"]
+    assert "dernier jour" in fr_site.closing(last_day, today)
+
+
+def test_french_pages_are_in_french_and_explain_the_method(tmp_path):
+    notice = _french_notice(cruce="ok", promotor="Carrières du Jura", n_especies=3, n_aves=2,
+                            especies_top=[{"scientificName": "Milvus milvus", "vernacular_fr": "Milan royal",
+                                           "categoria_uicn": "NT", "class": "Aves"}])
+    index, archives = fr_site.build({"anuncios": {"FR-PE-1": notice}}, tmp_path, today=date(2026, 10, 15))
+    html = index.read_text(encoding="utf-8")
+    assert '<html lang="fr">' in html and "Comment c’est calculé" in html
+    assert "Ce qui est laissé de côté" in html and "Limites" in html and "Données personnelles" in html
+    assert "carrières et mines" in html and "Val-d&#x27;Épy <small>(39209)</small>" in html
+    assert "ZSC / SIC" in html and "Milan royal" in html and "quasi menacée" in html
+    assert "encore 18 jours" in html and "Cómo se calcula" not in html
+    assert "Aucune consultation" in archives.read_text(encoding="utf-8")

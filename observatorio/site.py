@@ -210,6 +210,10 @@ def generar_web(estado: dict, docs_dir: Path, france: dict | None = None) -> Non
     # run, footprints and resoluciones all end here after saving the state: signals.json follows the pages.
     # France has its own state and pages (fr_site); the commands pass its state so the signals carry both.
     signals.write(estado, docs_dir, france)
+    if france is not None:
+        from . import fr_site
+
+        fr_site.build(france, docs_dir, hoy)
     (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
 
 

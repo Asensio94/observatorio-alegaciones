@@ -8,7 +8,7 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from . import boc_cantabria, boe, extract, footprint, fr_projets, geo, litoral, natura, plazos, report, seguimiento, signals, site, species
+from . import boc_cantabria, boe, extract, footprint, fr_projets, fr_site, geo, litoral, natura, plazos, report, seguimiento, signals, site, species
 from .config import DATA_DIR, DOCS_DIR, FUENTES
 
 app = typer.Typer(add_completion=False, help="Observatorio de alegaciones ambientales")
@@ -523,6 +523,7 @@ def cmd_france(
         estado["anuncios"][ident] = a
     fr_projets.guardar_estado(estado)
     signals.write(site.cargar_estado(), DOCS_DIR, estado)
+    fr_site.build(estado, DOCS_DIR)
     pendientes = sum(1 for a in estado["anuncios"].values() if not a.get("cruce"))
     console.print(f"[green]Francia:[/green] {len(records)} consultas · {cruzados} cruzadas ahora · "
                   f"{pendientes} sin cruzar · {errores} errores · {fr_projets.ESTADO_PATH}")

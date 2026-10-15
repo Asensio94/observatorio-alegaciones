@@ -75,6 +75,7 @@ _NAV_LINKS = [
     ("condicionado.html", "Después del sí"),
     ("litoral.html", "Litoral"),
     ("historico.html", "Histórico"),
+    ("fr/index.html", "Francia"),
 ]
 REPO_URL = "https://github.com/Asensio94/observatorio-alegaciones"
 
