@@ -9,6 +9,8 @@ geolocaliza por término municipal y los cruza con la **Red Natura 2000** y con 
 El objetivo es que grupos locales y organizaciones de conservación conozcan los proyectos
 **mientras aún se puede alegar**. Es un proyecto abierto y sin ánimo de lucro.
 
+> **Estado: activo.** Se actualiza solo y sigue en desarrollo.
+
 ## Cómo funciona
 
 1. Un flujo de **GitHub Actions** (`.github/workflows/diario.yml`) se ejecuta cada mañana laborable
