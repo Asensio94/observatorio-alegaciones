@@ -117,3 +117,34 @@ def test_both_countries_in_one_document():
     assert [s["country"] for s in doc["signals"]] == ["FR"]
     assert "Francia" in doc["coverage"]["label"]
     assert "Francia" not in signals.build(estado)["coverage"]["label"]
+
+
+# --- avis header -----------------------------------------------------------
+
+from observatorio import fr_avis  # noqa: E402
+
+MRAE_BOX = ("Mission Régionale d’ Autorité Environnementale Grand Est\nNom du pétitionnaire Soulanges Énergies SAS – filiale des "
+            "sociétés BayWa r.e France  \net C4B Finances\nCommune Soulanges\nDépartement Marne (51)\nObjet de la demande …\n")
+NOUVELLE_AQUITAINE = ("Région Nouvelle-Aquitaine\nLocalisation du projet : Commune de SAINT-MARTIAL (16)\n"
+                      "Maître(s) d’ouvrage(s) : Société PHOTOSOL Développement\nAvis émis à la demande …\n")
+RUNNING_TEXT = ("Avis sur la création d’une centrale photovoltaïque au sol -\nCommune de Laveraët (Gers)\nPar courrier … sur la "
+                "commune de Laveraët porté par la société CORFU So-\nlaire.\n")
+
+
+def test_avis_headers_in_their_three_forms():
+    assert fr_avis.read_header(MRAE_BOX) == {"promoter": "Soulanges Énergies SAS", "person": [], "communes": ["Soulanges"]}
+    assert fr_avis.read_header(NOUVELLE_AQUITAINE) == {"promoter": "PHOTOSOL Développement", "person": [], "communes": ["SAINT-MARTIAL"]}
+    assert fr_avis.read_header(RUNNING_TEXT) == {"promoter": "CORFU Solaire", "person": [], "communes": ["Laveraët"]}
+
+
+def test_a_person_as_developer_leaves_only_a_fingerprint():
+    h = fr_avis.read_header("Nom du pétitionnaire EARL Dupont\nCommune Plouay\nDépartement Morbihan (56)\n")
+    assert h["promoter"] is None and "Dupont" not in str(h)
+    assert fr_avis.redact_title("Extension élevage porcin Dupont à Plouay", h["person"]) == \
+        "Extension élevage porcin [personne physique] à Plouay"
+    assert fr_avis.redact_title("Parc éolien de Plouay", h["person"]) == "Parc éolien de Plouay"
+
+
+def test_a_commune_with_et_is_kept_whole_for_the_lookup():
+    h = fr_avis.read_header("Nom du pétitionnaire X SAS\nCommune Chemaudin et Vaux, Dannemarie\nDépartement Doubs (25)\n")
+    assert h["communes"] == ["Chemaudin et Vaux", "Dannemarie"]

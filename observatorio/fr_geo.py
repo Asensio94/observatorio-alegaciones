@@ -87,6 +87,10 @@ def commune_by_name(name: str, postcode: str | None, department: str | None) -> 
     if department:
         params["codeDepartement"] = department
     found = _get("/communes", params, f"nom_{department or 'fr'}_{want}") or []
+    # The same name, whatever the score (the API scores some exact names low); else a close enough one.
+    for c in found:
+        if fold(c["nom"]) == want:
+            return {"code": c["code"], "nom": c["nom"]}
     for c in found:
         if c.get("_score", 0) >= MIN_SCORE:
             return {"code": c["code"], "nom": c["nom"]}

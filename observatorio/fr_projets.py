@@ -115,7 +115,20 @@ def _geometry(record: dict) -> BaseGeometry | None:
     return None
 
 
-def locate(record: dict) -> tuple[list[dict], BaseGeometry | None, str]:
+def communes_named(names: list[str], department: str | None) -> list[dict]:
+    """Communes from names read in an avis; «A et B» is tried whole first, then as two communes."""
+    out: dict[str, dict] = {}
+    for name in names:
+        c = fr_geo.commune_by_name(name, None, department)
+        found = [c] if c else [fr_geo.commune_by_name(p, None, department)
+                               for p in re.split(r"\s+et\s+(?:de\s+|d['’]\s*)?", name) if p != name]
+        for c in found:
+            if c:
+                out.setdefault(c["code"], c)
+    return list(out.values())
+
+
+def locate(record: dict, avis_communes: list[str] | None = None) -> tuple[list[dict], BaseGeometry | None, str]:
     """(communes, geometry for the Natura and GBIF cross, precision). A polygon is crossed as drawn
     («perimetro»); a town or a point is crossed through its commune's outline («municipio»)."""
     department = fr_geo.department_of(record.get("departement_de_la_prefecture"))
@@ -130,6 +143,8 @@ def locate(record: dict) -> tuple[list[dict], BaseGeometry | None, str]:
         communes = [c] if c else []
     else:
         communes = []
+    if not communes and avis_communes:  # a filing with only its department: the avis names the place
+        communes = communes_named(avis_communes, department)
     return communes, fr_geo.project_geometry(communes) if communes else None, "municipio"
 
 
@@ -190,9 +205,18 @@ def _located(prev: dict | None) -> bool:
 def process(record: dict, prev: dict | None, with_gbif: bool = True) -> tuple[dict, bool]:
     """The notice for `record`, crossed with Natura 2000 and GBIF unless `prev` already was. Returns
     (notice, crossed now). Dates, state and documents always come fresh from the register."""
-    from . import natura, species  # heavy clients, only when crossing
+    from . import fr_avis, natura, species  # heavy clients, only when crossing
 
     a = notice(record)
+    head = None
+    if a["documents"].get("avis_ae"):
+        try:
+            head = fr_avis.header(str(record["recordsid"]), a["documents"]["avis_ae"])
+        except requests.RequestException:
+            head = None  # tried again on the next run: nothing is cached
+    if head:
+        a["promotor"] = head.get("promoter") or ""
+        a["titulo"] = fr_avis.redact_title(a["titulo"], head.get("person") or [])
     if _located(prev):
         keep = ("municipios", "municipios_insee", "precision", "natura", "n_especies", "n_aves", "especies_top", "cruce")
         a.update({k: prev[k] for k in keep if k in prev})
@@ -200,7 +224,7 @@ def process(record: dict, prev: dict | None, with_gbif: bool = True) -> tuple[di
             if "vernacular_fr" not in e and with_gbif:
                 e["vernacular_fr"] = species.vernacular_fr(e["key"]) if e.get("key") else ""
         return stamp(a), False
-    communes, g, precision = locate(record)
+    communes, g, precision = locate(record, (head or {}).get("communes"))
     a["municipios"] = [c["nom"] for c in communes]
     a["municipios_insee"] = [c["code"] for c in communes]
     a["precision"] = precision
