@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-13T15:46Z",
+ "generated": "2026-10-15T12:50Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -9217,6 +9217,566 @@
     "promoter": "Nedgia Andalucía S.A. (A-41225889)",
     "file": "294.996",
     "paired_with": "BOE-B-2026-29192"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21433",
+   "kind": "resolution",
+   "date": "2026-10-14",
+   "title": "Resolución de 7 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Ictio Solar Auriga, SL, la autorización administrativa previa para el módulo de almacenamiento por baterías «ALM Ictio Alcázar II», de 19,96 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica existente, «FV Ictio Alcázar II», de 47,19 MW de potencia instalada, conformando una instalación de 67,15 MW de potencia instalada, en Alcázar de San Juan (Ciudad Real).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21433",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Alcázar de San Juan"
+   ],
+   "provinces": [
+    "Ciudad Real"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 67.15,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Ictio Solar Auriga",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21434",
+   "kind": "resolution",
+   "date": "2026-10-14",
+   "title": "Resolución de 7 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Ictio Solar Berenice, SL, la autorización administrativa previa para el módulo de almacenamiento por baterías «ALM Ictio Alcázar III», de 19,96 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica existente, «FV Ictio Alcázar III», de 47,19 MW de potencia instalada, conformando una instalación de 67,15 MW de potencia instalada, en Alcázar de San Juan (Ciudad Real).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21434",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Alcázar de San Juan"
+   ],
+   "provinces": [
+    "Ciudad Real"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 67.15,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Ictio Solar Berenice",
+    "file": "SGIISE/PFot-ALM-059",
+    "paired_with": "BOE-B-2026-32447"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33410",
+   "kind": "notice",
+   "date": "2026-10-14",
+   "title": "Anuncio de la Autoridad Portuaria de Avilés por el que se somete a información pública la solicitud de modificación sustancial de concesión administrativa presentada por la empresa Ingeniería y Diseño Europeo, S.A.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33410",
+   "sites": [
+    {
+     "code": "ES1200055"
+    },
+    {
+     "code": "ES0000318"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Avilés"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-11",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33442",
+   "kind": "notice",
+   "date": "2026-10-14",
+   "title": "Anuncio de información pública de la Confederación Hidrográfica del Segura, O.A. sobre el procedimiento de revisión de la autorización de vertido indirecto a las aguas subterráneas mediante filtro verde de las aguas residuales procedentes de la nueva EDAR y tanque de tormentas de la urbanización Los Valientes, t.m de Molina de Segura (Murcia), tanto en tiempo seco como en tiempo de lluvia. Expediente RV-0072/2025.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33442",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Molina de Segura"
+   ],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-25",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "agua_concesion",
+    "promoter": null,
+    "file": "RV-0072/2025",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33451",
+   "kind": "resolution",
+   "date": "2026-10-14",
+   "title": "Resolución de la Dirección General de Energía, del Departamento de Territorio, Vivienda y Transición Ecológica, por la que se otorga a la empresa Desarrollos Eólicos Anoia y Segarra II, SLU, la declaración de utilidad pública del proyecto del parque eólico denominado PE Anoia y Segarra II, de 29'9 MW sobre terreno en suelo no urbanizable, y su infraestructura de evacuación, en los términos municipales de Ivorra y Estaràs, en la comarca de La Segarra (Lleida), y Castellfollit de Riubregós y Pujalt, en la comarca de Anoia (Barcelona) (exp. FUE-2021-02161704).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33451",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Ivorra",
+    "Estaràs"
+   ],
+   "provinces": [
+    "Lleida",
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 9.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "la empresa Desarrollos Eólicos Anoia y Segarra II",
+    "file": "FUE-2021-02161704",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21516",
+   "kind": "resolution",
+   "date": "2026-10-15",
+   "title": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a EDistribución Redes Digitales, SLU, autorización administrativa previa y autorización administrativa de construcción del proyecto «Variante de media tensión desde SET Cortes», en Mallén (Zaragoza) y Cortes (Navarra).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21516",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Mallén"
+   ],
+   "provinces": [
+    "Zaragoza",
+    "Navarra"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": "EDistribución Redes Digitales",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-33512",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Autoridad Portuaria de Baleares por el que se somete a información pública la solicitud de Langosta Hotel y Restaurante SL, para el otorgamiento directo de una concesión para la ocupación de una superficie 903,40 m2 de dominio público portuario con destino a terraza y piscina del Hotel Portitxol, en la zona del Portitxol del puerto de Palma (CC-D-P-0114).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33512",
+   "sites": [
+    {
+     "code": "ES0000083"
+    },
+    {
+     "code": "ES5310102"
+    },
+    {
+     "code": "ES5310080"
+    },
+    {
+     "code": "ES5310042"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Palma"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-12",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33517",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio del Adif-Alta Velocidad por el que se somete a información pública a efectos de declaración de la necesidad de ocupación el Proyecto modificado del proyecto de construcción de plataforma. Integración del ferrocarril en la ciudad de Palencia. Tramo: P.K. 232+130 - Grijota.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33517",
+   "sites": [
+    {
+     "code": "ES4140077"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Palencia"
+   ],
+   "provinces": [
+    "Palencia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-26",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33518",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete a información pública la solicitud presentada por la sociedad Hymet Barcelona, S.L. para el otorgamiento de una concesión administrativa destinada a la construcción de una planta de producción de hidrógeno verde y de una planta de producción de e-metanol o metanol renovable en el puerto de Barcelona. Exp. 2025/001086.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33518",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-12",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidrogeno_baterias",
+    "promoter": null,
+    "file": "2025/001086",
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33520",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Resolución de la Autoridad Portuaria de Almería por la que se abre un periodo de información pública sobre Plan de acción contra el ruido del Puerto de Almería.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33520",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Almería"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-26",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33524",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio del Administrador de Infraestructuras Ferroviarias por el que se somete a información pública a efectos de declaración de la necesidad de ocupación el Proyecto Básico de servicios afectados por la línea aérea de contacto del tramo Illescas-Talayuela de la línea L500 Madrid - Extremadura.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33524",
+   "sites": [
+    {
+     "code": "ES0000168"
+    },
+    {
+     "code": "ES0000435"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Numancia de La Sagra",
+    "Yuncos",
+    "Yuncler",
+    "Villaluenga de La Sagra",
+    "Cabañas de La Sagra",
+    "Magan",
+    "Olias del Rey",
+    "Bargas",
+    "Villamiel de Toledo",
+    "Rielves",
+    "Barcience",
+    "Torrijos",
+    "Santo Domingo-Caudilla",
+    "Carmena",
+    "Santa Olalla",
+    "Erustes",
+    "Illan De Vacas",
+    "Montearagon",
+    "Talavera de La Reina",
+    "Cazalegas",
+    "Pepino",
+    "Calera",
+    "Chozas",
+    "Alcañizo",
+    "Oropesa",
+    "Lagartera",
+    "Herreruela de Oropesa"
+   ],
+   "provinces": [
+    "Madrid"
+   ],
+   "precision": "parcelas",
+   "deadline": "2026-11-26",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33525",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Autoridad Portuaria de Sevilla de información pública de la solicitud presentada por Negocios Raiseber, S.L.U. de otorgamiento de concesión administrativa para la ocupación de una parcela situada en el Área 10 Zona Franca de la zona de servicio del Puerto de Sevilla con destino a centro de mantenimiento integral de motores aeronáuticos y sistemas de propulsión (C2026_33).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33525",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-12",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33526",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Subdirección General de Planificación Ferroviaria sobre la aprobación del expediente de información pública y audiencia y la aprobación definitiva del Estudio Informativo Complementario del Proyecto de la Red Arterial Ferroviaria de Alicante. Variante de Torrellano.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33526",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Alicante"
+   ],
+   "precision": "municipio",
+   "deadline": "2027-01-13",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33527",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete a información pública la solicitud presentada por la sociedad Nova Bocana Barcelona, S.A.U. para la modificación sustancial de la concesión administrativa de que es titular destinada a la gestión, desarrollo, construcción y explotación del ámbito relativo al Plan Especial de la Nova Bocana del Puerto de Barcelona. Exp. 2026/001615.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33527",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-12",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "2026/001615",
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33528",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Autoridad Portuaria de Avilés por el que se somete a información pública el Estudio de Impacto Ambiental del Proyecto de dragado de mantenimiento en el Puerto de Avilés para cuatro años y del Proyecto de recinto en tierra en el canal de entrada para material de dragado.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33528",
+   "sites": [
+    {
+     "code": "ES1200055"
+    },
+    {
+     "code": "ES0000318"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Avilés"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-26",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33533",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Demarcación de Costas en Murcia de información pública de la solicitud de autorización de ocupación del dominio público marítimo-terrestre en explanada de Lo Pagán, término municipal de San Pedro del Pinatar (Murcia), para las anualidades 2026-2029. Referencia: AUT01/26/30/0108.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33533",
+   "sites": [
+    {
+     "code": "ES0000175"
+    },
+    {
+     "code": "ES6200030"
+    },
+    {
+     "code": "ES0000260"
+    },
+    {
+     "code": "ES6200029"
+    },
+    {
+     "code": "ES0000508"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "San Pedro del Pinatar"
+   ],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-12",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33537",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio de la Confederación Hidrográfica del Guadiana de sometimiento a información pública la instalación de un pantalán flotante en el Embalse de la Serena en el T.M. de Esparragosa de Lares (Badajoz). Referencia: OBCA 18-26.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33537",
+   "sites": [
+    {
+     "code": "ES4310010"
+    },
+    {
+     "code": "ES0000068"
+    },
+    {
+     "code": "ES0000399"
+    },
+    {
+     "code": "ES0000367"
+    },
+    {
+     "code": "ES0000397"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Esparragosa de Lares"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-26",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": "Ayuntamiento de Esparragosa de Lares",
+    "file": "D-0150/2026",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33542",
+   "kind": "notice",
+   "date": "2026-10-15",
+   "title": "Anuncio del Departamento de Territorio, Vivienda y Transición Ecológica por el cual se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración de utilidad pública, autorización del proyecto de actuación específica de interés público en suelo no urbanizable y evaluación de impacto ambiental del proyecto de la planta solar fotovoltaica Solana de 5,000 MW sobre terreno en suelo no urbanizable, en el término municipal de Constantí y su infraestructura de evacuación en los términos municipales de Constantí y Tarragona, en la provincia de Tarragona (exp. FUE-2024-03832707).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33542",
+   "sites": [
+    {
+     "code": "ES5140007"
+    },
+    {
+     "code": "ES0000319"
+    },
+    {
+     "code": "ES5140019"
+    },
+    {
+     "code": "ES0000512"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tarragona",
+    "Constantí",
+    "Po Pn"
+   ],
+   "provinces": [
+    "Tarragona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-05",
+   "status": null,
+   "value": {
+    "amount": 5.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "FUE-2024-03832707",
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
    }
   }
  ]
