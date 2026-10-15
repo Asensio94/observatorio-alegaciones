@@ -173,11 +173,14 @@ def guardar_estado(estado: dict) -> None:
     ESTADO_PATH.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 
 
-def species_summary(esp: dict) -> dict:
-    """What the state keeps of the GBIF cross: counts and the dozen most threatened species, never a record."""
+def species_summary(esp: dict, vernacular=None) -> dict:
+    """What the state keeps of the GBIF cross: counts and the dozen most threatened species, never a record
+    or a point. `vernacular(key)` gives the French common name (species.vernacular_fr)."""
+    top = esp.get("especies", [])[:12]
     return {"n_especies": esp.get("n_especies", 0), "n_aves": esp.get("n_aves", 0),
-            "especies_top": [{"key": e.get("key"), "scientificName": e["scientificName"], "categoria_uicn": e["categoria_uicn"],
-                              "class": e.get("class", "")} for e in esp.get("especies", [])[:12]]}
+            "especies_top": [{"key": e.get("key"), "scientificName": e["scientificName"],
+                              "vernacular_fr": (vernacular(e["key"]) if vernacular and e.get("key") else ""),
+                              "categoria_uicn": e["categoria_uicn"], "class": e.get("class", "")} for e in top]}
 
 
 def _located(prev: dict | None) -> bool:
@@ -193,6 +196,9 @@ def process(record: dict, prev: dict | None, with_gbif: bool = True) -> tuple[di
     if _located(prev):
         keep = ("municipios", "municipios_insee", "precision", "natura", "n_especies", "n_aves", "especies_top", "cruce")
         a.update({k: prev[k] for k in keep if k in prev})
+        for e in a.get("especies_top") or []:  # crossed before the French names were kept
+            if "vernacular_fr" not in e and with_gbif:
+                e["vernacular_fr"] = species.vernacular_fr(e["key"]) if e.get("key") else ""
         return stamp(a), False
     communes, g, precision = locate(record)
     a["municipios"] = [c["nom"] for c in communes]
@@ -202,7 +208,7 @@ def process(record: dict, prev: dict | None, with_gbif: bool = True) -> tuple[di
     if g is not None:
         a["natura"] = [{"sitecode": s["sitecode"], "nombre": s["nombre"], "tipo": s["tipo"]} for s in natura.sitios_natura(g)]
         if with_gbif:
-            a.update(species_summary(species.especies_amenazadas(g)))
+            a.update(species_summary(species.especies_amenazadas(g), species.vernacular_fr))
     # A record with no place found is crossed again on the next run: the avis may name the commune.
     a["cruce"] = "ok" if g is not None and (with_gbif or a["natura"]) else ""
     return stamp(a), True

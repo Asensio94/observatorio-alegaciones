@@ -53,6 +53,19 @@ def _species_info(key: int) -> dict:
     return info
 
 
+def vernacular_fr(key: int) -> str:
+    """French common name from GBIF, for the French pages. Kept in its own cache file so the Spanish
+    species cache (species_{key}.json) is never rewritten."""
+    cache = CACHE_DIR / "gbif" / f"vern_fr_{key}.json"
+    if cache.exists():
+        return json.loads(cache.read_text(encoding="utf-8"))
+    r = _SESSION.get(GBIF_SPECIES_URL.format(key=key) + "/vernacularNames", params={"limit": 100}, timeout=60)
+    names = [v.get("vernacularName", "") for v in r.json().get("results", []) if v.get("language") == "fra"] if r.ok else []
+    name = names[0] if names else ""
+    cache.write_text(json.dumps(name, ensure_ascii=False), encoding="utf-8")
+    return name
+
+
 def especies_amenazadas(geom: BaseGeometry, max_species: int = 40) -> dict:
     """Devuelve resumen de especies amenazadas (UICN CR/EN/VU/NT) con registros en la geometría."""
     wkt = to_wkt_simplificado(geom)
