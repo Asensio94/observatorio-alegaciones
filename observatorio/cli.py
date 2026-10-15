@@ -8,7 +8,7 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from . import boc_cantabria, boe, extract, footprint, geo, litoral, natura, plazos, report, seguimiento, site, species
+from . import boc_cantabria, boe, extract, footprint, fr_projets, geo, litoral, natura, plazos, report, seguimiento, signals, site, species
 from .config import DATA_DIR, DOCS_DIR, FUENTES
 
 app = typer.Typer(add_completion=False, help="Observatorio de alegaciones ambientales")
@@ -134,7 +134,7 @@ def run(
         nuevas, firmes = seguimiento.incorporar(estado, res)
         site.guardar_estado(estado)
         console.print(f"[cyan]Resoluciones:[/cyan] {len(res)} en estos días ({nuevas} nuevas) · {firmes} emparejadas con expedientes seguidos")
-        site.generar_web(estado, DOCS_DIR)
+        site.generar_web(estado, DOCS_DIR, france=fr_projets.cargar_estado())
         console.print(f"[green]Web:[/green] {DOCS_DIR / 'index.html'} · {len(estado['anuncios'])} proyectos en estado")
 
     t = Table(title="Resumen")
@@ -178,7 +178,7 @@ def cmd_footprints(
     site.guardar_estado(estado)
     console.print(f"[green]{done} footprints[/green]")
     if regenerate_web:
-        site.generar_web(estado, DOCS_DIR)
+        site.generar_web(estado, DOCS_DIR, france=fr_projets.cargar_estado())
 
 
 @app.command("litoral")
@@ -351,7 +351,7 @@ def resoluciones(
     console.print(t)
     console.print(f"[green]{len(res)} resoluciones ({nuevas} nuevas) · {firmes} emparejadas con expedientes seguidos[/green]")
     if not sin_web:
-        site.generar_web(estado, DOCS_DIR)
+        site.generar_web(estado, DOCS_DIR, france=fr_projets.cargar_estado())
         console.print(f"[green]Web:[/green] {DOCS_DIR / 'seguimiento.html'}")
 
 
@@ -489,6 +489,43 @@ def mis_solicitudes():
         t.add_row(s.get("proyecto", "")[:60], s.get("organo", "")[:50], s["presentada"], limite.isoformat(), estado)
     console.print(t)
     console.print("\nEl plazo puede ampliarse a dos meses si la Administración lo notifica por volumen o complejidad.")
+
+
+@app.command("france")
+def cmd_france(
+    desde: str = typer.Option(fr_projets.SINCE.isoformat(), help="Publicados desde YYYY-MM-DD"),
+    max_cruces: int = typer.Option(80, help="Proyectos nuevos que se cruzan con Natura/GBIF en esta ejecución"),
+    sin_gbif: bool = typer.Option(False, help="Omitir consulta de especies (más rápido)"),
+):
+    """Francia: consultas públicas de projets-environnement.gouv.fr, con INSEE, Natura 2000 y GBIF."""
+    since = date.fromisoformat(desde)
+    records = [r for r in fr_projets.fetch(since) if fr_projets.is_notice(r, since)]
+    estado = fr_projets.cargar_estado()
+    # A notice that left the window (its consultation opened before `desde`) leaves the state.
+    vigentes = {f"FR-PE-{r['recordsid']}" for r in records}
+    for ident in [i for i, a in estado["anuncios"].items() if i not in vigentes and (a.get("fecha") or "") < desde]:
+        del estado["anuncios"][ident]
+    cruzados = errores = 0
+    for r in sorted(records, key=lambda r: r.get("date_de_diffusion") or "", reverse=True):
+        ident = f"FR-PE-{r['recordsid']}"
+        prev = estado["anuncios"].get(ident)
+        if cruzados >= max_cruces and not (prev and prev.get("cruce")):
+            if prev is None:
+                estado["anuncios"][ident] = fr_projets.stamp(fr_projets.notice(r))
+            continue
+        try:
+            a, crossed = fr_projets.process(r, prev, with_gbif=not sin_gbif)
+        except Exception as e:  # noqa: BLE001
+            console.print(f"  [red]{ident}: {e}[/red]")
+            errores += 1
+            continue
+        cruzados += crossed
+        estado["anuncios"][ident] = a
+    fr_projets.guardar_estado(estado)
+    signals.write(site.cargar_estado(), DOCS_DIR, estado)
+    pendientes = sum(1 for a in estado["anuncios"].values() if not a.get("cruce"))
+    console.print(f"[green]Francia:[/green] {len(records)} consultas · {cruzados} cruzadas ahora · "
+                  f"{pendientes} sin cruzar · {errores} errores · {fr_projets.ESTADO_PATH}")
 
 
 if __name__ == "__main__":

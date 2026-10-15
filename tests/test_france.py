@@ -1,0 +1,119 @@
+"""France: projets-environnement records as notices, INSEE helpers, the French privacy rule, the signals."""
+from datetime import date
+
+from observatorio import fr_geo, fr_projets, privacy, signals
+
+
+def _record(**kw) -> dict:
+    return {"recordsid": "2026D001402174", "source": "GUNenv", "titre": "Exploitation de carrière",
+            "nature": "Carrières soumises à autorisation mentionnées par la rubrique ICPE 2510 et leurs extensions",
+            "type_de_procedure": "AENV", "etat_de_la_consultation_publique": "ouvert",
+            "date_de_diffusion": "2026-10-10T08:00:00+00:00", "dateouverture": "2026-10-01", "datefermeture": "2026-11-02",
+            "departement_de_la_prefecture": "39 - Jura", "location_ville": "Val-d'Épy", "code_postal": "39160",
+            "descriptif_du_projet": "M. Jean Dupont exploite…", "dc_relation_websitedebate": "https://registre.example/carriere",
+            "dc_relation_expertise_avisae": "None", **kw}
+
+
+# --- privacy ---------------------------------------------------------------
+
+def test_french_honorifics_and_one_person_firms_are_people():
+    for name in ("M. Jean Dupont", "Mme Durand", "Monsieur Petit", "EARL Martin", "GAEC du Bois Joli", "SCEA de la Grange"):
+        assert privacy.promoter(name, "FR") is None
+    for name in ("Soulanges Énergies SAS", "Carrières du Jura", "Commune de Plouay"):
+        assert privacy.promoter(name, "FR") == name
+
+
+def test_spanish_rule_is_unchanged_by_the_french_one():
+    assert privacy.promoter("M. Jean Dupont") == "M. Jean Dupont"
+    assert privacy.promoter("D. Juan Pérez") is None
+
+
+def test_french_titles_lose_the_names_and_keep_the_rest():
+    assert privacy.redact_fr("Extension de l'élevage porcin de l'EARL Martin à Plouay") == \
+        "Extension de l'élevage porcin de l'[personne physique] à Plouay"
+    assert privacy.redact_fr("Carrière de M. Martin et Mme Petit") == "Carrière de [personne physique] et [personne physique]"
+    assert privacy.redact_fr("Parc éolien de Soulanges") == "Parc éolien de Soulanges"
+    # A title, not a person: «le maire» is lower case.
+    assert privacy.redact_fr("Centrale de Saint-Martin (M. le maire)") == "Centrale de Saint-Martin (M. le maire)"
+
+
+def test_french_state_is_scrubbed_by_pattern():
+    assert privacy.scrub({"titulo": "Forage de M. Dupont"}, "FR") == {"titulo": "Forage de [personne physique]"}
+
+
+# --- INSEE helpers ---------------------------------------------------------
+
+def test_names_fold_accents_hyphens_and_saint():
+    assert fr_geo.fold("Val-d'Épy") == fr_geo.fold("Val d Epy")
+    assert fr_geo.fold("St-Jean-de-Luz") == fr_geo.fold("Saint Jean de Luz")
+
+
+def test_departments_from_the_register_and_from_postcodes():
+    assert fr_geo.department_of("13 - Bouches-du-Rhône") == "13"
+    assert fr_geo.department_of("2a") == "2A"
+    assert fr_geo.department_of("974 - La Réunion") == "974"
+    assert fr_geo.department_of("") is None
+    assert fr_geo._department_of_postcode("39160") == "39"
+    assert fr_geo._department_of_postcode("97400") == "974"
+    assert fr_geo._department_of_postcode("20000") is None  # 2A or 2B: the name search decides
+
+
+# --- records → notices -----------------------------------------------------
+
+def test_a_record_with_consultation_dates_is_a_notice():
+    assert fr_projets.is_notice(_record())
+    assert not fr_projets.is_notice(_record(dateouverture=None))
+    # Published again in 2026 because a decision was added; its consultation was in 2024.
+    assert not fr_projets.is_notice(_record(dateouverture="2024-04-22", datefermeture="2024-05-24"))
+    assert fr_projets.is_notice(_record(dateouverture="2024-04-22", datefermeture="2024-05-24"), since=date(2024, 1, 1))
+
+
+def test_notice_fields():
+    a = fr_projets.notice(_record())
+    assert (a["country"], a["identificador"], a["fecha"], a["fecha_limite"]) == ("FR", "FR-PE-2026D001402174", "2026-10-01", "2026-11-02")
+    assert (a["categoria"], a["procedure"], a["departement"], a["provincias"]) == ("mineria", "Autorisation environnementale", "39", ["39"])
+    assert a["documents"] == {"registre": "https://registre.example/carriere"}
+    # The free-text description may name people: it is not kept.
+    assert "M. Jean Dupont" not in str(a)
+
+
+def test_notice_title_is_redacted():
+    assert fr_projets.notice(_record(titre="Création site volailles SCEA Martin"))["titulo"] == "Création site volailles [personne physique]"
+
+
+def test_categories_follow_the_spanish_ones():
+    assert fr_projets.category({"titre": "Parc éolien du Moulin", "nature": "Installations classées"}) == "eolica"
+    assert fr_projets.category({"titre": "Centrale agrivoltaïque", "nature": "ICPE"}) == "fotovoltaica"
+    assert fr_projets.category({"titre": "Système d'assainissement", "nature": ""}) == "agua_concesion"
+    assert fr_projets.category({"titre": "Divers", "nature": ""}) == "otros"
+
+
+# --- signals ---------------------------------------------------------------
+
+def _french_notice(**kw) -> dict:
+    a = fr_projets.notice(_record())
+    a.update({"municipios": ["Val-d'Épy"], "municipios_insee": ["39209"], "precision": "municipio",
+              "natura": [{"sitecode": "FR4301334", "nombre": "Petite montagne du Jura", "tipo": "LIC/ZEC"}], **kw})
+    return a
+
+
+def test_french_signal_carries_country_and_insee_codes():
+    s = signals.notice_fr(_french_notice())
+    assert (s["country"], s["kind"], s["precision"]) == ("FR", "notice", "municipio")
+    assert (s["municipalities"], s["municipality_names"], s["provinces"]) == (["39209"], ["Val-d'Épy"], ["39"])
+    assert s["sites"] == [{"code": "FR4301334"}]
+    assert s["deadline"] == "2026-11-02"
+    assert s["details"]["consultation"] == {"opens": "2026-10-01", "closes": "2026-11-02"}
+
+
+def test_polygon_notice_is_perimetro_and_corsica_keeps_its_letters():
+    s = signals.notice_fr(_french_notice(precision="perimetro", municipios_insee=["2A004"]))
+    assert (s["precision"], s["municipalities"]) == ("perimetro", ["2A004"])
+
+
+def test_both_countries_in_one_document():
+    estado = {"anuncios": {}, "resoluciones": {}}
+    doc = signals.build(estado, france={"anuncios": {"FR-PE-1": _french_notice(identificador="FR-PE-1")}})
+    assert [s["country"] for s in doc["signals"]] == ["FR"]
+    assert "Francia" in doc["coverage"]["label"]
+    assert "Francia" not in signals.build(estado)["coverage"]["label"]

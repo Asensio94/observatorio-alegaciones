@@ -152,7 +152,7 @@ def _tabla(filas: list[str]) -> str:
     )
 
 
-def generar_web(estado: dict, docs_dir: Path) -> None:
+def generar_web(estado: dict, docs_dir: Path, france: dict | None = None) -> None:
     docs_dir.mkdir(parents=True, exist_ok=True)
     hoy = date.today()
     anuncios = list(estado["anuncios"].values())
@@ -208,7 +208,8 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
     )
     (docs_dir / "seguimiento.html").write_text(_pagina_seguimiento(estado, cerrados, hoy, site_nav("seguimiento.html")), encoding="utf-8")
     # run, footprints and resoluciones all end here after saving the state: signals.json follows the pages.
-    signals.write(estado, docs_dir)
+    # France has its own state and pages (fr_site); the commands pass its state so the signals carry both.
+    signals.write(estado, docs_dir, france)
     (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
 
 
