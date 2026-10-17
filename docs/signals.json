@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-16T12:42Z",
+ "generated": "2026-10-17T11:43Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -10237,6 +10237,64 @@
     "promoter": "i-DE Redes Eléctricas Inteligentes, S.A.U",
     "file": "06AT-10177-18614",
     "department": "COMUNIDAD AUTÓNOMA DE EXTREMADURA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21662",
+   "kind": "resolution",
+   "date": "2026-10-17",
+   "title": "Resolución de 21 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Modificaciones en la instalación solar fotovoltaica \"Baluma Solar\", de 58,14 MW de potencia instalada, y en su infraestructura de evacuación, en la provincia de Granada».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21662",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Atarfe"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "value": {
+    "amount": 62.5,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21663",
+   "kind": "resolution",
+   "date": "2026-10-17",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Cefiro Holdco 8, SL, de autorización administrativa previa del parque eólico Ampliación El Páramo, de 50,88 MW, en la provincia de León.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21663",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Igüeña",
+    "Páramo del Sil",
+    "Toreno"
+   ],
+   "provinces": [
+    "León"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 92.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-929",
+    "paired_with": null
    }
   }
  ]
