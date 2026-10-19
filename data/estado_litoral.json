@@ -2551,6 +2551,45 @@
    "natura_nombres": [],
    "n_especies": 0,
    "n_aves": 0
+  },
+  "BOE-B-2026-34021": {
+   "identificador": "BOE-B-2026-34021",
+   "fecha": "2026-10-19",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cantabria sobre resolución de otorgamiento de la prórroga de la concesión con destino a la construcción de colectores de saneamiento del barrio de Río Negro, en el término municipal de Escalante (Cantabria). Referencia: CNC02/10/39/0022.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34021",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34021",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-B-2026-34021.pdf",
+   "fuente": "BOE",
+   "categoria": "costas_otro",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Escalante"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": null,
+   "promotor": "Ayuntamiento de Escalante",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-16",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0
   }
  }
 }

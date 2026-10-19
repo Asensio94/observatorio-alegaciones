@@ -7138,6 +7138,25 @@
     "catastro_date": "2026-08-21",
     "geojson": "datos/footprints/BOE-B-2026-30098.geojson",
     "natura": []
+   },
+   "resolucion": {
+    "identificador": "BOE-A-2026-21767",
+    "fecha": "2026-10-19",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Vega Solar, SLU, la declaración, en concreto, de utilidad pública para la planta fotovoltaica Vega Solar, de 39,93 MW de potencia instalada, y su infraestructura de evacuación, en Tórtola de Henares, Guadalajara, Chiloeches, y Pozo de Guadalajara (Guadalajara) y Santorcaz, Los Santos de la Humosa y Alcalá de Henares (Madrid).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21767",
+    "fuente": "BOE",
+    "puntos": 12,
+    "motivos": [
+     "expediente contenido (SGIISE/PFot-602 / PFot-602)",
+     "9 municipio(s) en común",
+     "misma categoría (fotovoltaica)",
+     "misma potencia (44.0 MW)",
+     "coinciden: guadalajara, henares, tortola"
+    ]
    }
   },
   "BOE-B-2026-30099": {
@@ -16931,8 +16950,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261014_20261017.html",
-   "actualizado": "2026-10-17"
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19"
   },
   "BOE-B-2026-33615": {
    "identificador": "BOE-B-2026-33615",
@@ -17074,8 +17093,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261014_20261017.html",
-   "actualizado": "2026-10-17",
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19",
    "footprint": {
     "version": 6,
     "status": "unresolved",
@@ -17213,8 +17232,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261014_20261017.html",
-   "actualizado": "2026-10-17"
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19"
   },
   "BOE-B-2026-33618": {
    "identificador": "BOE-B-2026-33618",
@@ -17334,8 +17353,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261014_20261017.html",
-   "actualizado": "2026-10-17",
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -17542,8 +17561,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261014_20261017.html",
-   "actualizado": "2026-10-17",
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -17724,8 +17743,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261014_20261017.html",
-   "actualizado": "2026-10-17",
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -17894,8 +17913,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20261014_20261017.html",
-   "actualizado": "2026-10-17",
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -17919,9 +17938,216 @@
      }
     ]
    }
+  },
+  "BOE-B-2026-33991": {
+   "identificador": "BOE-B-2026-33991",
+   "fecha": "2026-10-19",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Castellón por el que se somete a información pública la solicitud de modificación sustancial de la concesión administrativa del titular Club actividades subacuáticas Escorpa.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33991",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33991",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-B-2026-33991.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Castellón"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-16",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19"
+  },
+  "BOE-B-2026-33994": {
+   "identificador": "BOE-B-2026-33994",
+   "fecha": "2026-10-19",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de A Coruña por el que se somete a información pública una solicitud de concesión administrativa en el Puerto Exterior de A Coruña.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33994",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-33994",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-B-2026-33994.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "A Coruña"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-16",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19"
+  },
+  "BOE-B-2026-34024": {
+   "identificador": "BOE-B-2026-34024",
+   "fecha": "2026-10-19",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción y la declaración, en concreto, de utilidad pública del proyecto denominado Adecuación de la línea aérea de media tensión Benalu_DI SG01038 Plan Choperas. Tramo Camarate – Cjo. La Torre – Área de servicio, en el término municipal de Guadix.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34024",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34024",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-B-2026-34024.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Guadix"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "E-Distribución Redes Digitales, S.L.U",
+   "potencia_mw": null,
+   "expediente": "E-5368",
+   "fecha_limite": "2026-11-30",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6140006",
+     "nombre": "Sierra de Arana",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6140004",
+     "nombre": "Sierra Nevada",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6160015",
+     "nombre": "Río Guadiana Menor - Tramo Superior",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 24,
+   "n_aves": 8,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Alytes dickhilleni",
+     "vernacular_es": "Sapo Partero Bético",
+     "categoria_uicn": "EN",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Miniopterus schreibersii",
+     "vernacular_es": "Murciélago de Cueva",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Squalius pyrenaicus",
+     "vernacular_es": "Cacho",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Chersophilus duponti",
+     "vernacular_es": "Alondra de Dupont",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261016_20261019.html",
+   "actualizado": "2026-10-19",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261016_20261019.html",
+   "desde": "2026-10-16",
+   "hasta": "2026-10-19",
+   "generado": "2026-10-19",
+   "n": 10
+  },
   {
    "fichero": "informes/informe_20261014_20261017.html",
    "desde": "2026-10-14",
@@ -24134,6 +24360,158 @@
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21766": {
+   "identificador": "BOE-A-2026-21766",
+   "fecha": "2026-10-19",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 17, SL, la autorización administrativa previa y la autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Los Arcos», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Los Arcos», de 43,90 MW de potencia instalada, en Andorra (Teruel).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21766",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21766",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21766.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Andorra"
+   ],
+   "provincias": [
+    "Teruel"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Planta Solar OPDE 17, SL, (Número de Expediente INAGA 500201/01A/2020/08000)",
+   "potencia_mw": 43.9,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21767": {
+   "identificador": "BOE-A-2026-21767",
+   "fecha": "2026-10-19",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Vega Solar, SLU, la declaración, en concreto, de utilidad pública para la planta fotovoltaica Vega Solar, de 39,93 MW de potencia instalada, y su infraestructura de evacuación, en Tórtola de Henares, Guadalajara, Chiloeches, y Pozo de Guadalajara (Guadalajara) y Santorcaz, Los Santos de la Humosa y Alcalá de Henares (Madrid).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21767",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21767",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21767.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Tórtola de Henares",
+    "Guadalajara",
+    "Yunquera de Henares",
+    "Fontanar",
+    "Chiloeches",
+    "Pozo de Guadalajara",
+    "Santorcaz",
+    "Los Santos de la Humosa",
+    "Alcalá de Henares"
+   ],
+   "provincias": [
+    "Guadalajara",
+    "Madrid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Vega Solar",
+   "potencia_mw": 43.23,
+   "expediente": "SGIISE/PFot-602",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-30098",
+   "puntos": 12,
+   "motivos": [
+    "expediente contenido (SGIISE/PFot-602 / PFot-602)",
+    "9 municipio(s) en común",
+    "misma categoría (fotovoltaica)",
+    "misma potencia (44.0 MW)",
+    "coinciden: guadalajara, henares, tortola"
+   ],
+   "firme": true
+  },
+  "BOE-A-2026-21768": {
+   "identificador": "BOE-A-2026-21768",
+   "fecha": "2026-10-19",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Greenalia Wind Power Mistral, SLU, de la solicitud de autorización administrativa previa del parque eólico «Mistral», de 106,4 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Lugo.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21768",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21768",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21768.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Lugo"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": 106.4,
+   "expediente": "PEol-338",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21769": {
+   "identificador": "BOE-A-2026-21769",
+   "fecha": "2026-10-19",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Enel Green Power España, SL, autorización administrativa previa y autorización administrativa de construcción de la instalación de almacenamiento por baterías «Tesouro Storage», de 17,5 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con el parque eólico «Tesouro», de 50,4 MW de potencia instalada, en As Pontes de García Rodríguez (A Coruña).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21769",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21769",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21769.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "As Pontes de García Rodríguez"
+   ],
+   "provincias": [
+    "A Coruña"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Enel Green Power España",
+   "potencia_mw": 62.0,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-28327",
+   "puntos": 4,
+   "motivos": [
+    "1 municipio(s) en común",
+    "coinciden: coruna, garcia, pontes, rodriguez"
+   ],
    "firme": false
   }
  }

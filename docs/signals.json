@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-17T11:43Z",
+ "generated": "2026-10-19T14:50Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -10295,6 +10295,229 @@
     "promoter": null,
     "file": "PEol-929",
     "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21766",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 17, SL, la autorización administrativa previa y la autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Los Arcos», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Los Arcos», de 43,90 MW de potencia instalada, en Andorra (Teruel).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21766",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Andorra"
+   ],
+   "provinces": [
+    "Teruel"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 43.9,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta Solar OPDE 17, SL, (Número de Expediente INAGA 500201/01A/2020/08000)",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21767",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Vega Solar, SLU, la declaración, en concreto, de utilidad pública para la planta fotovoltaica Vega Solar, de 39,93 MW de potencia instalada, y su infraestructura de evacuación, en Tórtola de Henares, Guadalajara, Chiloeches, y Pozo de Guadalajara (Guadalajara) y Santorcaz, Los Santos de la Humosa y Alcalá de Henares (Madrid).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21767",
+   "sites": [
+    {
+     "code": "ES3110001"
+    },
+    {
+     "code": "ES0000139"
+    },
+    {
+     "code": "ES4240003"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tórtola de Henares",
+    "Guadalajara",
+    "Yunquera de Henares",
+    "Fontanar",
+    "Chiloeches",
+    "Pozo de Guadalajara",
+    "Santorcaz",
+    "Los Santos de la Humosa",
+    "Alcalá de Henares"
+   ],
+   "provinces": [
+    "Guadalajara",
+    "Madrid"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 43.23,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Vega Solar",
+    "file": "SGIISE/PFot-602",
+    "paired_with": "BOE-B-2026-30098"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21768",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Greenalia Wind Power Mistral, SLU, de la solicitud de autorización administrativa previa del parque eólico «Mistral», de 106,4 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Lugo.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21768",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Lugo"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 106.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-338",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21769",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 29 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Enel Green Power España, SL, autorización administrativa previa y autorización administrativa de construcción de la instalación de almacenamiento por baterías «Tesouro Storage», de 17,5 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con el parque eólico «Tesouro», de 50,4 MW de potencia instalada, en As Pontes de García Rodríguez (A Coruña).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21769",
+   "sites": [
+    {
+     "code": "ES1110003"
+    },
+    {
+     "code": "ES1110013"
+    },
+    {
+     "code": "ES1120015"
+    },
+    {
+     "code": "ES1110001"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "As Pontes de García Rodríguez"
+   ],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 62.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Enel Green Power España",
+    "file": null,
+    "paired_with": "BOE-B-2026-28327"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33991",
+   "kind": "notice",
+   "date": "2026-10-19",
+   "title": "Anuncio de la Autoridad Portuaria de Castellón por el que se somete a información pública la solicitud de modificación sustancial de la concesión administrativa del titular Club actividades subacuáticas Escorpa.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33991",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Castellón"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-16",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33994",
+   "kind": "notice",
+   "date": "2026-10-19",
+   "title": "Anuncio de la Autoridad Portuaria de A Coruña por el que se somete a información pública una solicitud de concesión administrativa en el Puerto Exterior de A Coruña.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33994",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-16",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34024",
+   "kind": "notice",
+   "date": "2026-10-19",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción y la declaración, en concreto, de utilidad pública del proyecto denominado Adecuación de la línea aérea de media tensión Benalu_DI SG01038 Plan Choperas. Tramo Camarate – Cjo. La Torre – Área de servicio, en el término municipal de Guadix.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34024",
+   "sites": [
+    {
+     "code": "ES6140006"
+    },
+    {
+     "code": "ES6140004"
+    },
+    {
+     "code": "ES6160015"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Guadix"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-30",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "E-Distribución Redes Digitales, S.L.U",
+    "file": "E-5368",
+    "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
    }
   }
  ]
