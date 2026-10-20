@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-19T14:50Z",
+ "generated": "2026-10-20T12:52Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -10518,6 +10518,462 @@
     "promoter": "E-Distribución Redes Digitales, S.L.U",
     "file": "E-5368",
     "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21854",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Iberenova Promociones, SA, de autorización administrativa previa y autorización de construcción de la instalación fotovoltaica Los Campillos, de 33,825 MW de potencia instalada, para su hibridación con el parque eólico Los Campillos, de 34 MW de potencia instalada, en la provincia de Soria.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21854",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Velamazán",
+    "Caltojar",
+    "Centenera de Andaluz"
+   ],
+   "provinces": [
+    "Soria"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Iberenova Promociones, SA, por no reunir los requisitos establecidos en el Real Decreto-ley 20/2022",
+    "file": "PEol-FV-151",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21855",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta FV100, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento de energía por baterías «Solaria-Santiz I», de 19,993 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la instalación fotovoltaica existente «FV Solaria-Santiz I», de 49,989 MW, en Valdelosa (Salamanca).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21855",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Valdelosa",
+    "Santiz"
+   ],
+   "provinces": [
+    "Salamanca"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 49.989,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "«Planta FV3, SL»",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21856",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 3, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Los Belos», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Los Belos», de 41,6 MW de potencia instalada, en La Muela y Muel (Zaragoza).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21856",
+   "sites": [
+    {
+     "code": "ES0000300"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "La Muela",
+    "Muel"
+   ],
+   "provinces": [
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 41.6,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta Solar OPDE 3",
+    "file": null,
+    "paired_with": "BOE-B-2026-30030"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21857",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Brovales, en el parque de 400 kV, mediante la instalación de un compensador síncrono y su posición asociada, en Jerez de los Caballeros (Badajoz).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21857",
+   "sites": [
+    {
+     "code": "ES5110012"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Jerez de los Caballeros"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España",
+    "file": "INF/DE/163/26",
+    "paired_with": "BOE-B-2026-33266"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21858",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Iberdrola Renovables Aragón, SAU, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento por baterías «BESS Hibridación FV Teruel», de 27,64 MW de potencia instalada, y para una parte de su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica existente «FV Teruel», de 42,56 MW de potencia instalada, en Azaila (Teruel).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21858",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Azaila"
+   ],
+   "provinces": [
+    "Teruel"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 42.56,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Iberdrola Renovables Aragón",
+    "file": "TE-AT1265/17",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21859",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Greenalia Wind Power Nordés, SLU, de la solicitud de autorización administrativa previa del parque eólico «Nordés», de 67,2 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Lugo y A Coruña.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21859",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Lugo",
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 106.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-334",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-34142",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Autoridad Portuaria de Almería de corrección de errores de la Resolución por la que se abre un periodo de información pública sobre el Plan de acción contra el ruido del Puerto de Almería.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34142",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Almería"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34144",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Extremadura, por el que se somete a Información Pública la solicitud de autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento \"ALM HIB San Serván 2020\", para su hibridación con el parque fotovoltaico existente \"FV San Serván 2020\", y para una parte de su infraestructura de evacuación, en la provincia de Badajoz. Exp.: PFOT-ALM-173.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34144",
+   "sites": [
+    {
+     "code": "ES0000069"
+    },
+    {
+     "code": "ES0000334"
+    },
+    {
+     "code": "ES4310048"
+    },
+    {
+     "code": "ES0000327"
+    },
+    {
+     "code": "ES0000328"
+    },
+    {
+     "code": "ES4310017"
+    },
+    {
+     "code": "ES4310026"
+    },
+    {
+     "code": "ES4310061"
+    },
+    {
+     "code": "ES0000070"
+    },
+    {
+     "code": "ES0000395"
+    },
+    {
+     "code": "ES4320016"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Mérida"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-10",
+   "status": null,
+   "value": {
+    "amount": 45.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "ALTER ENERSUN MÉRIDA UNO S.A",
+    "file": "PFOT-ALM-173",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34146",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Demarcación de Costas en Cataluña de información pública de la solicitud de inicio de trámites de declaración de zona de reserva de DPMT en los términos municipales de Sant Pere de Ribes y Sitges (Barcelona). Referencia RES01/26/08/0002.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34146",
+   "sites": [
+    {
+     "code": "ES5110013"
+    },
+    {
+     "code": "ES5110020"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Sant Pere de Ribes",
+    "Sitges"
+   ],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34147",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de extinción del aprovechamiento de 0,81 l/s de agua procedente de un pozo en el Polígono Industrial de Ribadil, término municipal de A Cañiza (Pontevedra), con destino a uso industrial y sanitario. Expediente: A/36/03186/E.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34147",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "A Cañiza",
+    "Pontevedra"
+   ],
+   "provinces": [
+    "Pontevedra"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "agua_concesion",
+    "promoter": "Galimetal, S.A",
+    "file": "A/36/03186/E",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34151",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de la Dirección General de Política Energética y Minas por la que se otorga a Naturgy Renovables S.L.U. autorización administrativa de construcción para el módulo fotovoltaico \"El Almendro\", de 36 MW de potencia instalada y su infraestructura de evacuación, en el término municipal de El Almendro, en la provincia de Huelva, para su hibridación con el parque eólico existente PE El Almendro, y se declara, en concreto, su utilidad pública.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34151",
+   "sites": [
+    {
+     "code": "ES4140129"
+    },
+    {
+     "code": "ES4140077"
+    },
+    {
+     "code": "ES0000205"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "El Almendro",
+    "Puebla de Guzmán"
+   ],
+   "provinces": [
+    "Huelva"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 43.5,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Naturgy Renovables S.L.U",
+    "file": null,
+    "paired_with": "BOE-B-2026-27922"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34162",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Demarcación de Costas en Galicia de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, en relación con talud costero, muros de contención, escaleras, caminos acceso al mar y estructura cubierta en lugar denominado Celeiro (Centroña), en el término municipal de Pontedeume (A Coruña).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34162",
+   "sites": [
+    {
+     "code": "ES1110003"
+    },
+    {
+     "code": "ES0000554"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Pontedeume"
+   ],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "CNC12/23/15/0002",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34189",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Dirección General de Energía, Departamento de Territorio, Vivienda y Transición Ecológica de la Generalitat de Cataluña, por el cual se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto de la planta de almacenamiento de 5,5 MW denominada PHFV CENTELLES, en el término municipal de Centelles, en la comarca de Osona, y su infraestructura de evacuación, línea subterránea de 25 kV en el municipio de Centelles (exp. FUE-2024-04113547, referencia 03150).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34189",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Centelles",
+    "Finca"
+   ],
+   "provinces": [
+    "Madrid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": {
+    "amount": 5.5,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": "FUE-2024-04113547",
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34190",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio del Departamento de Territorio, Vivienda y Servicios, Territoriales en Girona, de la Generalitat de Catalunya por el cual se somete a información pública la solicitud de declaración de utilidad pública, en concreto, del proyecto de la planta solar fotovoltaica denominada \"PS el Pla\", de 5 MW, de potencia instalada sobre terreno en suelo no urbanizable, en el término municipal de Llagostera, en la comarca del Gironès y su infraestructura de evacuación, líneas soterradas a 25 kV, en los términos municipales de Llagostera y Cassà de la Selva, en la comarca del Gironès (exp. FUE-2023-03317266, referencia 02739).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34190",
+   "sites": [
+    {
+     "code": "ES5120010"
+    },
+    {
+     "code": "ES5120013"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Llagostera",
+    "Cassà de la Selva"
+   ],
+   "provinces": [
+    "Girona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": {
+    "amount": 5.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "FUE-2023-03317266",
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
    }
   }
  ]

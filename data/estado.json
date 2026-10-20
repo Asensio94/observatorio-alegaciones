@@ -1082,18 +1082,19 @@
    "informe": "informes/informe_20260825_20260901.html",
    "actualizado": "2026-09-02",
    "resolucion_posible": {
-    "identificador": "BOE-A-2026-21303",
-    "fecha": "2026-10-13",
+    "identificador": "BOE-B-2026-34151",
+    "fecha": "2026-10-20",
     "tipo": "autorizacion",
     "tipo_etiqueta": "Autorización administrativa",
     "sentido": "favorable",
     "sentido_etiqueta": "favorable",
-    "titulo": "Resolución de 9 de mayo de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Naturgy Renovables, SLU, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «BESS Tabernas II», de 19,8 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Tabernas II», de 48,8 MW de potencia instalada, situada en Tabernas (Almería).",
-    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21303",
+    "titulo": "Resolución de la Dirección General de Política Energética y Minas por la que se otorga a Naturgy Renovables S.L.U. autorización administrativa de construcción para el módulo fotovoltaico \"El Almendro\", de 36 MW de potencia instalada y su infraestructura de evacuación, en el término municipal de El Almendro, en la provincia de Huelva, para su hibridación con el parque eólico existente PE El Almendro, y se declara, en concreto, su utilidad pública.",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34151",
     "fuente": "BOE",
-    "puntos": 3,
+    "puntos": 4,
     "motivos": [
-     "mismo promotor (Naturgy Renovables, SLU)"
+     "mismo promotor (Naturgy Renovables, SLU)",
+     "misma categoría (eolica)"
     ]
    }
   },
@@ -6675,6 +6676,23 @@
     "catastro_date": "2026-08-21",
     "geojson": "datos/footprints/BOE-B-2026-30030.geojson",
     "natura": []
+   },
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-21856",
+    "fecha": "2026-10-20",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 3, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Los Belos», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Los Belos», de 41,6 MW de potencia instalada, en La Muela y Muel (Zaragoza).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21856",
+    "fuente": "BOE",
+    "puntos": 5,
+    "motivos": [
+     "1 municipio(s) en común",
+     "misma categoría (fotovoltaica)",
+     "coinciden: muel, zaragoza"
+    ]
    }
   },
   "BOE-B-2026-30092": {
@@ -15399,7 +15417,24 @@
     }
    ],
    "informe": "informes/informe_20261013_20261016.html",
-   "actualizado": "2026-10-16"
+   "actualizado": "2026-10-16",
+   "resolucion": {
+    "identificador": "BOE-A-2026-21857",
+    "fecha": "2026-10-20",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Brovales, en el parque de 400 kV, mediante la instalación de un compensador síncrono y su posición asociada, en Jerez de los Caballeros (Badajoz).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21857",
+    "fuente": "BOE",
+    "puntos": 6,
+    "motivos": [
+     "mismo promotor (Red Eléctrica de España Sociedad Anónima Unipersonal)",
+     "misma categoría (red_electrica)",
+     "coinciden: compensador, sincrono"
+    ]
+   }
   },
   "BOE-B-2026-33284": {
    "identificador": "BOE-B-2026-33284",
@@ -17968,8 +18003,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261016_20261019.html",
-   "actualizado": "2026-10-19"
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20"
   },
   "BOE-B-2026-33994": {
    "identificador": "BOE-B-2026-33994",
@@ -18000,8 +18035,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261016_20261019.html",
-   "actualizado": "2026-10-19"
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20"
   },
   "BOE-B-2026-34024": {
    "identificador": "BOE-B-2026-34024",
@@ -18123,8 +18158,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261016_20261019.html",
-   "actualizado": "2026-10-19",
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -18138,9 +18173,746 @@
     "geojson": null,
     "natura": []
    }
+  },
+  "BOE-B-2026-34142": {
+   "identificador": "BOE-B-2026-34142",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Almería de corrección de errores de la Resolución por la que se abre un periodo de información pública sobre el Plan de acción contra el ruido del Puerto de Almería.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34142",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34142",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34142.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Almería"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-01",
+   "plazo_estimado": true,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20"
+  },
+  "BOE-B-2026-34144": {
+   "identificador": "BOE-B-2026-34144",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Extremadura, por el que se somete a Información Pública la solicitud de autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento \"ALM HIB San Serván 2020\", para su hibridación con el parque fotovoltaico existente \"FV San Serván 2020\", y para una parte de su infraestructura de evacuación, en la provincia de Badajoz. Exp.: PFOT-ALM-173.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34144",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34144",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34144.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Mérida"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": 15,
+   "promotor": "ALTER ENERSUN MÉRIDA UNO S.A",
+   "potencia_mw": 45.0,
+   "expediente": "PFOT-ALM-173",
+   "fecha_limite": "2026-11-10",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000069",
+     "nombre": "Embalse de Cornalvo y Sierra Bermeja",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000334",
+     "nombre": "Sierras Centrales y Embalse de Alange",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310048",
+     "nombre": "Corredor del Lacara",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000327",
+     "nombre": "Embalse de los Canchales",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000328",
+     "nombre": "Embalse de Montijo",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310017",
+     "nombre": "Río Aljucén Bajo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310026",
+     "nombre": "Río Guadiana Alto - Zujar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310061",
+     "nombre": "Laguna temporal de Murtales",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000070",
+     "nombre": "Sierra de San Pedro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000395",
+     "nombre": "Charca la Vega del Machal",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4320016",
+     "nombre": "Río Aljucen Alto",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 27,
+   "especies_top": [
+    {
+     "scientificName": "Alosa alosa",
+     "vernacular_es": "",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Gyps rueppellii",
+     "vernacular_es": "Buitre moteado",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Anser cygnoides",
+     "vernacular_es": "Ganso cisne asiático",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20"
+  },
+  "BOE-B-2026-34146": {
+   "identificador": "BOE-B-2026-34146",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cataluña de información pública de la solicitud de inicio de trámites de declaración de zona de reserva de DPMT en los términos municipales de Sant Pere de Ribes y Sitges (Barcelona). Referencia RES01/26/08/0002.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34146",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34146",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34146.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Sant Pere de Ribes",
+    "Sitges"
+   ],
+   "provincias": [
+    "Barcelona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-17",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES5110013",
+     "nombre": "Serres del Litoral central",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5110020",
+     "nombre": "Costes del Garraf",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 36,
+   "n_aves": 21,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Cerambyx cerdo",
+     "vernacular_es": "Gran capricornio de las encinas",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Puffinus yelkouan",
+     "vernacular_es": "Pardela Mediterránea",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    }
+   ],
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20"
+  },
+  "BOE-B-2026-34147": {
+   "identificador": "BOE-B-2026-34147",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de extinción del aprovechamiento de 0,81 l/s de agua procedente de un pozo en el Polígono Industrial de Ribadil, término municipal de A Cañiza (Pontevedra), con destino a uso industrial y sanitario. Expediente: A/36/03186/E.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34147",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34147",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34147.pdf",
+   "fuente": "BOE",
+   "categoria": "agua_concesion",
+   "prioridad": 1,
+   "tramite_ambiental": false,
+   "municipios": [
+    "A Cañiza",
+    "Pontevedra"
+   ],
+   "provincias": [
+    "Pontevedra"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Galimetal, S.A",
+   "potencia_mw": null,
+   "expediente": "A/36/03186/E",
+   "fecha_limite": "2026-12-01",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20"
+  },
+  "BOE-B-2026-34162": {
+   "identificador": "BOE-B-2026-34162",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Galicia de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, en relación con talud costero, muros de contención, escaleras, caminos acceso al mar y estructura cubierta en lugar denominado Celeiro (Centroña), en el término municipal de Pontedeume (A Coruña).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34162",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34162",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34162.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Pontedeume"
+   ],
+   "provincias": [
+    "A Coruña"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "CNC12/23/15/0002",
+   "fecha_limite": "2026-11-17",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1110003",
+     "nombre": "Fragas do Eume",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000554",
+     "nombre": "Corredor migratorio galaico-cantábrico occidental",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 20,
+   "n_aves": 9,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Melanitta fusca",
+     "vernacular_es": "Negreta ala blanca",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Haematopus ostralegus",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Numenius arquata",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Chioglossa lusitanica",
+     "vernacular_es": "Salamandra Rabilarga",
+     "categoria_uicn": "NT",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Calidris alpina",
+     "vernacular_es": "Correlimos Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20"
+  },
+  "BOE-B-2026-34189": {
+   "identificador": "BOE-B-2026-34189",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+   "titulo": "Anuncio de la Dirección General de Energía, Departamento de Territorio, Vivienda y Transición Ecológica de la Generalitat de Cataluña, por el cual se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto de la planta de almacenamiento de 5,5 MW denominada PHFV CENTELLES, en el término municipal de Centelles, en la comarca de Osona, y su infraestructura de evacuación, línea subterránea de 25 kV en el municipio de Centelles (exp. FUE-2024-04113547, referencia 03150).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34189",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34189",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34189.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Centelles",
+    "Finca"
+   ],
+   "provincias": [
+    "Madrid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": 5.5,
+   "expediente": "FUE-2024-04113547",
+   "fecha_limite": "2026-12-01",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Finca"
+   ],
+   "natura": [],
+   "n_especies": 14,
+   "n_aves": 4,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Arvicola sapidus",
+     "vernacular_es": "Rata de Agua",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Sylvia undata",
+     "vernacular_es": "Curruca Rabilarga",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 7,
+    "n_matched": 7,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 1620
+    },
+    "parcels_m2": 57398,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-34189.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-34190": {
+   "identificador": "BOE-B-2026-34190",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+   "titulo": "Anuncio del Departamento de Territorio, Vivienda y Servicios, Territoriales en Girona, de la Generalitat de Catalunya por el cual se somete a información pública la solicitud de declaración de utilidad pública, en concreto, del proyecto de la planta solar fotovoltaica denominada \"PS el Pla\", de 5 MW, de potencia instalada sobre terreno en suelo no urbanizable, en el término municipal de Llagostera, en la comarca del Gironès y su infraestructura de evacuación, líneas soterradas a 25 kV, en los términos municipales de Llagostera y Cassà de la Selva, en la comarca del Gironès (exp. FUE-2023-03317266, referencia 02739).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34190",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34190",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34190.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Llagostera",
+    "Cassà de la Selva"
+   ],
+   "provincias": [
+    "Girona"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": 5.0,
+   "expediente": "FUE-2023-03317266",
+   "fecha_limite": "2026-12-01",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES5120010",
+     "nombre": "Les Gavarres",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5120013",
+     "nombre": "Massís de les Cadiretes",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 36,
+   "n_aves": 13,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Vertigo pygmaea",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Epinephelus marginatus",
+     "vernacular_es": "Mero de Vientre Amarillo",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Palinurus elephas",
+     "vernacular_es": "Langosta europea",
+     "categoria_uicn": "VU",
+     "class": "Malacostraca"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261017_20261020.html",
+   "actualizado": "2026-10-20",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 2,
+    "n_matched": 2,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 77682,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-34190.geojson",
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261017_20261020.html",
+   "desde": "2026-10-17",
+   "hasta": "2026-10-20",
+   "generado": "2026-10-20",
+   "n": 10
+  },
   {
    "fichero": "informes/informe_20261016_20261019.html",
    "desde": "2026-10-16",
@@ -24511,6 +25283,259 @@
    "motivos": [
     "1 municipio(s) en común",
     "coinciden: coruna, garcia, pontes, rodriguez"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-21854": {
+   "identificador": "BOE-A-2026-21854",
+   "fecha": "2026-10-20",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Iberenova Promociones, SA, de autorización administrativa previa y autorización de construcción de la instalación fotovoltaica Los Campillos, de 33,825 MW de potencia instalada, para su hibridación con el parque eólico Los Campillos, de 34 MW de potencia instalada, en la provincia de Soria.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21854",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21854",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21854.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Velamazán",
+    "Caltojar",
+    "Centenera de Andaluz"
+   ],
+   "provincias": [
+    "Soria"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Iberenova Promociones, SA, por no reunir los requisitos establecidos en el Real Decreto-ley 20/2022",
+   "potencia_mw": 50.0,
+   "expediente": "PEol-FV-151",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "denegada",
+   "sentido_etiqueta": "denegada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21855": {
+   "identificador": "BOE-A-2026-21855",
+   "fecha": "2026-10-20",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta FV100, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento de energía por baterías «Solaria-Santiz I», de 19,993 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la instalación fotovoltaica existente «FV Solaria-Santiz I», de 49,989 MW, en Valdelosa (Salamanca).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21855",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21855",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21855.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Valdelosa",
+    "Santiz"
+   ],
+   "provincias": [
+    "Salamanca"
+   ],
+   "plazo_dias": 90,
+   "promotor": "«Planta FV3, SL»",
+   "potencia_mw": 49.989,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21856": {
+   "identificador": "BOE-A-2026-21856",
+   "fecha": "2026-10-20",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 3, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Los Belos», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Los Belos», de 41,6 MW de potencia instalada, en La Muela y Muel (Zaragoza).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21856",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21856",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21856.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "La Muela",
+    "Muel"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Planta Solar OPDE 3",
+   "potencia_mw": 41.6,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-30030",
+   "puntos": 5,
+   "motivos": [
+    "1 municipio(s) en común",
+    "misma categoría (fotovoltaica)",
+    "coinciden: muel, zaragoza"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-21857": {
+   "identificador": "BOE-A-2026-21857",
+   "fecha": "2026-10-20",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Brovales, en el parque de 400 kV, mediante la instalación de un compensador síncrono y su posición asociada, en Jerez de los Caballeros (Badajoz).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21857",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21857",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21857.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Jerez de los Caballeros"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España",
+   "potencia_mw": null,
+   "expediente": "INF/DE/163/26",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-33266",
+   "puntos": 6,
+   "motivos": [
+    "mismo promotor (Red Eléctrica de España Sociedad Anónima Unipersonal)",
+    "misma categoría (red_electrica)",
+    "coinciden: compensador, sincrono"
+   ],
+   "firme": true
+  },
+  "BOE-A-2026-21858": {
+   "identificador": "BOE-A-2026-21858",
+   "fecha": "2026-10-20",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Iberdrola Renovables Aragón, SAU, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento por baterías «BESS Hibridación FV Teruel», de 27,64 MW de potencia instalada, y para una parte de su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica existente «FV Teruel», de 42,56 MW de potencia instalada, en Azaila (Teruel).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21858",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21858",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21858.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Azaila"
+   ],
+   "provincias": [
+    "Teruel"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Iberdrola Renovables Aragón",
+   "potencia_mw": 42.56,
+   "expediente": "TE-AT1265/17",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-21859": {
+   "identificador": "BOE-A-2026-21859",
+   "fecha": "2026-10-20",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Greenalia Wind Power Nordés, SLU, de la solicitud de autorización administrativa previa del parque eólico «Nordés», de 67,2 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Lugo y A Coruña.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21859",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21859",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21859.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Lugo",
+    "A Coruña"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": 106.4,
+   "expediente": "PEol-334",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-34151": {
+   "identificador": "BOE-B-2026-34151",
+   "fecha": "2026-10-20",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de la Dirección General de Política Energética y Minas por la que se otorga a Naturgy Renovables S.L.U. autorización administrativa de construcción para el módulo fotovoltaico \"El Almendro\", de 36 MW de potencia instalada y su infraestructura de evacuación, en el término municipal de El Almendro, en la provincia de Huelva, para su hibridación con el parque eólico existente PE El Almendro, y se declara, en concreto, su utilidad pública.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34151",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34151",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-B-2026-34151.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "El Almendro",
+    "Puebla de Guzmán"
+   ],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Naturgy Renovables S.L.U",
+   "potencia_mw": 43.5,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-27922",
+   "puntos": 4,
+   "motivos": [
+    "mismo promotor (Naturgy Renovables, SLU)",
+    "misma categoría (eolica)"
    ],
    "firme": false
   }
