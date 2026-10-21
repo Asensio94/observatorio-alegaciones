@@ -54,6 +54,13 @@ jobs:
           PYTHONIOENCODING: utf-8
         run: python -m observatorio.cli condicionado --days 8
 
+      # Un fallo de las fuentes francesas no debe impedir publicar lo de España.
+      - name: Francia (consultas de projets-environnement desde 2026)
+        continue-on-error: true
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m observatorio.cli france
+
       - name: Publicar cambios (estado, caché y web)
         run: |
           git config user.name "observatorio-bot"

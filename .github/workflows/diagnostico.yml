@@ -1,7 +1,8 @@
 name: Diagnóstico de conectividad
 
 # Comprueba desde un runner de GitHub si las fuentes responden (algunos boletines autonómicos
-# bloquean IPs de fuera de España). Lanzar a mano desde la pestaña Actions.
+# bloquean IPs de fuera de España, y las fuentes francesas podrían hacer lo mismo con las de fuera
+# de Francia). Lanzar a mano desde la pestaña Actions.
 on:
   workflow_dispatch:
     inputs:
@@ -15,6 +16,14 @@ on:
           https://www.cantabria.es/o/BOC/feed/6802098
           https://api.gbif.org/v1/occurrence/search?limit=0
           https://nominatim.openstreetmap.org/status
+          https://www.projets-environnement.gouv.fr/api/explore/v2.1/catalog/datasets/sico_to_ods/records?limit=1
+          https://www.projets-environnement.gouv.fr/api/explore/v2.1/catalog/datasets/sico_to_ods/exports/json
+          https://sicodei.projets-environnement.gouv.fr/2026/10/15/D001402174/fichierResumeNontechniqueEtudeImpact.pdf
+          https://gatew-evaluation-environnementale.developpement-durable.gouv.fr/api/PublishedDocument/Get?start=0&length=10&descending_order_id=true
+          https://gatew-evaluation-environnementale.developpement-durable.gouv.fr/api/Attachment/PublishedDownload?ctsFileId=463751
+          https://www.igedd.developpement-durable.gouv.fr/autorite-environnementale-les-avis-deliberes-2026-a4348.html
+          https://geo.api.gouv.fr/communes?codePostal=39320&fields=code,nom
+          https://www.gironde.gouv.fr/Publications/Recueil-des-Actes-Administratifs
 
 jobs:
   probar:
@@ -22,8 +31,11 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Probar URLs
+        # Through env, not interpolated into the script: URLs carry «&», which the shell would parse.
+        env:
+          URLS: ${{ inputs.urls }}
         run: |
-          for u in ${{ inputs.urls }}; do
-            code=$(curl -sS -o /dev/null -m 25 -A "observatorio-alegaciones/0.1" -w "%{http_code} %{time_total}s %{remote_ip}" "$u" 2>&1 || true)
+          for u in $URLS; do
+            code=$(curl -sS -o /dev/null -m 60 -A "observatorio-alegaciones/0.1" -w "%{http_code} %{size_download}B %{time_total}s %{remote_ip}" "$u" 2>&1 || true)
             echo "$code  $u"
           done
