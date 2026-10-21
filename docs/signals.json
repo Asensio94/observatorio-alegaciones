@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-20T12:52Z",
+ "generated": "2026-10-21T13:05Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -10974,6 +10974,173 @@
     "promoter": null,
     "file": "FUE-2023-03317266",
     "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21938",
+   "kind": "resolution",
+   "date": "2026-10-21",
+   "title": "Resolución de 9 de mayo de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Naturgy Renovables, SLU, la autorización administrativa previa y la autorización administrativa de construcción del módulo de almacenamiento por baterías «BESS Tabernas I», de 19,8 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Tabernas I», de 48,8 MW de potencia instalada, situado en Tabernas (Almería).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21938",
+   "sites": [
+    {
+     "code": "ES4140129"
+    },
+    {
+     "code": "ES4140077"
+    },
+    {
+     "code": "ES0000205"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tabernas"
+   ],
+   "provinces": [
+    "Almería"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 48.8,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Naturgy Renovables",
+    "file": null,
+    "paired_with": "BOE-B-2026-27922"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21939",
+   "kind": "resolution",
+   "date": "2026-10-21",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Cefiro Holdco 7, SL, de autorización administrativa previa del parque eólico El Páramo, de 92,4 MW, en la provincia de León.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21939",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Igüeña",
+    "Noceda del Bierzo",
+    "Páramo del Sil",
+    "Toreno"
+   ],
+   "provinces": [
+    "León"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 92.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-899",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-34264",
+   "kind": "notice",
+   "date": "2026-10-21",
+   "title": "Anuncio de Adif-Alta Velocidad por el que se somete a información pública a efectos de declaración de la necesidad de ocupación el Proyecto Básico de la Conexión Ferroviaria de la Línea de Alta Velocidad Castejón-Pamplona en el entorno de Castejón de Ebro.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34264",
+   "sites": [
+    {
+     "code": "ES2200037"
+    },
+    {
+     "code": "ES2200040"
+    },
+    {
+     "code": "ES2200041"
+    },
+    {
+     "code": "ES0000172"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tudela",
+    "Castejón"
+   ],
+   "provinces": [
+    "Navarra",
+    "Madrid",
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-02",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34284",
+   "kind": "notice",
+   "date": "2026-10-21",
+   "title": "Anuncio de la Confederación Hidrográfica del Guadiana de sometimiento a información pública para la ejecución de varios badenes en el arroyo del Cuervo en el T.M. Puerto de Santa Cruz (Cáceres). Referencia: PUPA 6/26.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34284",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Puerto de Santa Cruz"
+   ],
+   "provinces": [
+    "Cáceres"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-02",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": "Junta de Extremadura (Servicio de Infraestructuras Rurales)",
+    "file": "PS-0028/2026",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34293",
+   "kind": "resolution",
+   "date": "2026-10-21",
+   "title": "Resolución de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, de autorización administrativa previa y autorización administrativa de construcción y declaración, en concreto, de utilidad pública del proyecto cambio de conductor de la línea eléctrica de alta tensión 66 kV SC/DC Agribética-Cantillana y cambio de cable de tierra por fibra óptica entre los apoyos 40 a 78, en los términos municipales de Brenes, Cantillana y La Rinconada (Sevilla). Cód. plan: SX.05270/081.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34293",
+   "sites": [
+    {
+     "code": "ES6160014"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Brenes",
+    "Cantillana",
+    "La Rinconada",
+    "Cantillana y la Rinconada"
+   ],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "parcelas",
+   "deadline": null,
+   "status": "sentido no determinado",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "EDISTRIBUCION REDES DIGITALES, S.L.U",
+    "file": "291653",
+    "paired_with": "BOE-B-2026-33651"
    }
   }
  ]
