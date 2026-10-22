@@ -23,6 +23,24 @@ def promoter(name: str | None) -> str | None:
     return None if not name or _PERSON.match(name) else name
 
 
+# What a company or a public body carries and a person does not: a legal form, a kind of body or a sector
+# word. Not an acronym: a name written in capitals would pass for one. Used where most applicants are people (the coast: a house in the protection strip),
+# so a name is published only when it is recognisably not a person. The BOC names people without «D.».
+_ENTITY = re.compile(
+    r"\b(?:S\.?\s?L\.?(?:U|L)?|S\.?\s?A\.?U?|S\.?\s?C\.?(?:P|L)?|C\.?\s?B\.?|S\.?\s?Coop|A\.?\s?I\.?\s?E|U\.?\s?T\.?\s?E|"
+    r"Sociedad|Compañía|Empresa|Grupo|Holding|Inversiones|Promociones|Inmobiliaria|Construcciones|Hoteles?|"
+    r"Ayuntamiento|Concello|Junta|Gobierno|Consejería|Ministerio|Diputación|Cabildo|Consell|Mancomunidad|"
+    r"Consorcio|Confederación|Demarcación|Dirección|Servicio|Agencia|Instituto|Organismo|Autoridad|Puertos?|"
+    r"Comunidad|Asociación|Fundación|Cofradía|Club|Federación|Universidad|Parroquia|Obispado|Hermandad|"
+    r"Energ\w*|Solar|Renovables?|Hidro\w*|Eólica|Ltd|GmbH|Inc|SAU|SLU)\b",
+)
+
+
+def entity(name: str | None) -> str | None:
+    """The name when it is recognisably a company or a public body, else None (it may be a person)."""
+    return name if name and promoter(name) and _ENTITY.search(name) else None
+
+
 def redact(text: str, names: Iterable[str]) -> str:
     """`text` without any of `names`, with or without the honorific."""
     for name in sorted(names, key=len, reverse=True):
@@ -31,6 +49,25 @@ def redact(text: str, names: Iterable[str]) -> str:
         for s in (name, bare) if len(bare.split()) >= 2 else (name,):
             text = text.replace(s, REDACTED)
     return text
+
+
+# The list of affected owners of an expropriation goes whole: names and addresses, never needed here.
+# A pattern for «Apellido Apellido, Nombre» was tried and dropped: in these texts it mostly matches bodies
+# («Dirección General de Medio Ambiente, …») and places, which the municipalities are read from.
+_OWNERS = re.compile(
+    r"relaci[oó]n\s+(?:concreta\s+e\s+individualizada\s+)?de\s+(?:los\s+)?(?:bienes|propietarios|titulares)",
+    re.IGNORECASE,
+)
+OWNERS_CUT = "[Relación de bienes y titulares: no se guarda aquí; está en el boletín]"
+
+
+def strip_people(text: str, names: Iterable[str] = ()) -> str:
+    """A bulletin text that can be stored: without the list of affected owners and without `names`
+    (applicants found to be people)."""
+    m = None if text.endswith(OWNERS_CUT) else _OWNERS.search(text)  # the cut itself names the list
+    if m:
+        text = text[: m.start()] + OWNERS_CUT
+    return redact(text, names)
 
 
 def set_promoter(a, name: str) -> None:
@@ -43,16 +80,18 @@ def set_promoter(a, name: str) -> None:
         a.titulo, a.texto = redact(a.titulo, [name]), redact(a.texto or "", [name])
 
 
-def scrub(data):
+def scrub(data, strict: bool = False):
     """Applies the rule to stored data (a state, a report, a resolution sheet): every `promotor` who is
     a natural person is emptied, and the name is taken out of every other text in `data` (titles,
-    pairing reasons). Changes `data` in place and returns it."""
+    pairing reasons). With `strict`, every promoter that is not recognisably an `entity` counts as a
+    person. Changes `data` in place and returns it."""
     names: set[str] = set()
+    keep = entity if strict else promoter
 
     def find(x) -> None:
         if isinstance(x, dict):
             p = x.get("promotor")
-            if isinstance(p, str) and p and promoter(p) is None:
+            if isinstance(p, str) and p and keep(p) is None:
                 names.add(p)
                 x["promotor"] = ""
             for v in x.values():

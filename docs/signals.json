@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-21T13:05Z",
+ "generated": "2026-10-22T09:26Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -11141,6 +11141,452 @@
     "promoter": "EDISTRIBUCION REDES DIGITALES, S.L.U",
     "file": "291653",
     "paired_with": "BOE-B-2026-33651"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22067",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 2 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Ampliación de los parques eólicos Coll del Moro, de 11 MW de potencia instalada, y Torre Madrina, de 11 MW de potencia instalada, y su infraestructura de evacuación, en la provincia de Tarragona».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22067",
+   "sites": [
+    {
+     "code": "ES0000298"
+    },
+    {
+     "code": "ES2420099"
+    },
+    {
+     "code": "ES5140011"
+    },
+    {
+     "code": "ES2430097"
+    },
+    {
+     "code": "ES2430096"
+    },
+    {
+     "code": "ES5140010"
+    },
+    {
+     "code": "ES2420118"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Gandesa",
+    "Batea"
+   ],
+   "provinces": [
+    "Tarragona"
+   ],
+   "precision": "parcelas",
+   "deadline": null,
+   "status": "formulada con condiciones",
+   "value": {
+    "amount": 22.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Parque eólico de Coll del Moro, SLU, y Parque eólico Torre Madrina, SLU",
+    "file": null,
+    "paired_with": "BOE-B-2026-31655"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22068",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 29 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta FV 115, SL, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento con baterías Castor, de 19,993 MW de potencia instalada, y su infraestructura de evacuación para su hibridación con la planta fotovoltaica Castor Solar, de 49,99 MW de potencia instalada, en Huecas (Toledo).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22068",
+   "sites": [
+    {
+     "code": "ES0000168"
+    },
+    {
+     "code": "ES0000435"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Huecas",
+    "Torrijos",
+    "Novés",
+    "Barcience"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "parcelas",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 68.11,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta FV 115",
+    "file": "PE-602",
+    "paired_with": "BOE-B-2026-33524"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22069",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 1 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Renovalia Guara, SLU, la declaración, en concreto, de utilidad pública del parque eólico Valiente II, de 88,4 MW, y su infraestructura de evacuación, en Gurrea de Gállego, Alcalá de Gurrea, Almudévar, Lupiñén-Ortilla y La Sotonera (Huesca).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22069",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Gurrea de Gállego",
+    "Alcalá de Gurrea",
+    "Almudévar",
+    "Lupiñén-Ortilla",
+    "La Sotonera"
+   ],
+   "provinces": [
+    "Huesca"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 88.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Renovalia Guara",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22070",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 2 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Planta FV 130, SLU, de la solicitud de autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica «Valentina Solar», de 60,382 MW de potencia instalada, y su infraestructura de evacuación, en Asturianos, Rosinos de la Requejada y Palacios de Sanabria (Zamora).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22070",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Asturianos",
+    "Rosinos de la Requejada",
+    "Palacios de Sanabria",
+    "Espadañedo"
+   ],
+   "provinces": [
+    "Zamora"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 124.881,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "Peol-FV-256",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22071",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 2 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Planta FV 130, SLU, de la solicitud de autorización administrativa previa para el parque eólico Valentina, de 90 MW, para su hibridación con la instalación solar fotovoltaica Valentina Solar, de 60,382 MW, y de una parte de su infraestructura de evacuación, en Rosinos de la Requejada, Espadañedo y Asturianos (Zamora).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22071",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Rosinos de la Requejada",
+    "Espadañedo",
+    "Asturianos",
+    "Palacios de Sanabria"
+   ],
+   "provinces": [
+    "Zamora"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 124.881,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PFot-233",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22072",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Agos Fotovoltaicas, SL, la declaración, en concreto, de utilidad pública, para la planta fotovoltaica Marcote, de 23,36 MW de potencia instalada, y su infraestructura de evacuación, en Villarrubia de Santiago (Toledo).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22072",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Ocaña",
+    "Noblejas",
+    "Villatobas",
+    "Villarrubia de Santiago"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 27.25,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Agos Fotovoltaicas",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22073",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Corona Fotovoltaicas, SL, la declaración, en concreto, de utilidad pública, para la planta fotovoltaica Morata de Tajuña 3, de 42 MW de potencia instalada, y su infraestructura de evacuación, en Ocaña, Noblejas y Villarrubia de Santiago (Toledo).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22073",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Ocaña",
+    "Noblejas",
+    "Villatobas",
+    "Villarrubia de Santiago"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 49.49,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Corona Fotovoltaicas",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22074",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Jul Solar, SL, la declaración, en concreto, de utilidad pública, para la planta fotovoltaica Tobizar, de 22,80 MW de potencia instalada, y su infraestructura de evacuación, en Villarrubia de Santiago (Toledo).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22074",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Ocaña",
+    "Noblejas",
+    "Villatobas",
+    "Villarrubia de Santiago"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 27.25,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Jul Solar",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22075",
+   "kind": "resolution",
+   "date": "2026-10-22",
+   "title": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 6, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Montesol», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Montesol», de 41,6 MW de potencia instalada, en Cañada Vellida (Teruel).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22075",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Cañada Vellida"
+   ],
+   "provinces": [
+    "Teruel"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 41.6,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta Solar OPDE 6",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-34364",
+   "kind": "notice",
+   "date": "2026-10-22",
+   "title": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete nuevamente a información pública la solicitud presentada por Terminal Port Nou, S.A., para la modificación sustancial de la concesión administrativa destinada a la explotación de una terminal multipropósito en el puerto de Barcelona. Exp. 075/2026 SGSJC.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34364",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-19",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "075/2026",
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34373",
+   "kind": "notice",
+   "date": "2026-10-22",
+   "title": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Zaragoza por el que se somete a información pública la solicitud de Autorización Administrativa Previa y la solicitud de Autorización Administrativa de Construcción del proyecto PFot-ALM-125 Módulo de almacenamiento Hibridación Larral, de 26,74 MW de potencia instalada, para su hibridación con el parque fotovoltaico existente Larral de 43,9 MW de potencia instalada y su infraestructura de evacuación, en el término municipal de Zaragoza, en la provincia de Zaragoza.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34373",
+   "sites": [
+    {
+     "code": "ES2430080"
+    },
+    {
+     "code": "ES2430091"
+    },
+    {
+     "code": "ES0000300"
+    },
+    {
+     "code": "ES0000136"
+    },
+    {
+     "code": "ES0000293"
+    },
+    {
+     "code": "ES0000138"
+    },
+    {
+     "code": "ES2430077"
+    },
+    {
+     "code": "ES2430081"
+    },
+    {
+     "code": "ES2430152"
+    },
+    {
+     "code": "ES2430078"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Zaragoza"
+   ],
+   "provinces": [
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-03",
+   "status": null,
+   "value": {
+    "amount": 43.9,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "PLANTA SOLAR OPDE 8, S.L",
+    "file": "PFot-ALM-125",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34388",
+   "kind": "notice",
+   "date": "2026-10-22",
+   "title": "Anuncio de la Consejería de Ciencia, Industria y Empleo del Principado de Asturias sobre la información pública relativa a solicitud de declaración de utilidad pública de Parque Eólico. Expte.: AUTO/2022/2977 (PE-72-DUP).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34388",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Catastro"
+   ],
+   "provinces": [
+    "Asturias"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-03",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "eolica",
+    "promoter": "Terranova Energy Corporation SA",
+    "file": "AUTO/2022/2977",
+    "department": "COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34389",
+   "kind": "notice",
+   "date": "2026-10-22",
+   "title": "Anuncio de 09/10/2026, de la Delegación Provincial de Desarrollo Sostenible de Toledo, sometiendo a información pública el proyecto de explotación, el plan de restauración y el estudio de impacto ambiental de la concesión directa de explotación San Bartolomé Agregación número 4209 (0-0-1).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34389",
+   "sites": [
+    {
+     "code": "ES0000170"
+    },
+    {
+     "code": "ES3110006"
+    },
+    {
+     "code": "ES4250009"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Villarrubia de Santiago"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-03",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "otros",
+    "promoter": "ÁRIDOS TÉCNICOS, S.A., Recursos Geológicos: Sección C) arenas y gravas",
+    "file": null,
+    "department": "COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA"
    }
   }
  ]
