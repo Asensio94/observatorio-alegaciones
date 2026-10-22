@@ -185,7 +185,7 @@ def cmd_footprints(
 def cmd_litoral(
     days: int = typer.Option(20, help="Días hacia atrás desde --hasta (incluidos)"),
     hasta: str = typer.Option(None, help="Fecha final YYYY-MM-DD (por defecto hoy)"),
-    min_puntos: int = typer.Option(3, help="Puntos de señal mínimos para cruzar con Natura/GBIF"),
+    min_puntos: int = typer.Option(litoral.MIN_PUNTOS_CRUCE, help="Puntos de señal mínimos para cruzar con Natura/GBIF"),
     sin_gbif: bool = typer.Option(False, help="Omitir consulta de especies (más rápido)"),
     sin_web: bool = typer.Option(False, help="No actualizar el estado del litoral ni su página"),
     fuentes: str = typer.Option(",".join(FUENTES), help="Fuentes separadas por coma: " + ", ".join(FUENTES)),
@@ -255,7 +255,7 @@ def cmd_litoral(
         else:
             lim, _ = plazos.fecha_limite(date.fromisoformat(a.fecha), plazo, comunidad)
             a.fecha_limite, a.plazo_estimado = lim.isoformat(), a.plazo_dias is None
-        r = {"anuncio": a.to_dict(), "senales": sen, "puntos": pts, "natura": [], "especies": {}}
+        r = {"anuncio": a.to_dict(), "senales": sen, "puntos": pts, "natura": [], "especies": {}, "geolocalizado": False}
         if pts >= min_puntos and a.municipios:
             console.print(f"  [cyan]{a.identificador}[/cyan] {a.categoria} · {pts} pts · {', '.join(a.municipios[:2])}")
             try:
@@ -263,6 +263,7 @@ def cmd_litoral(
             except Exception as e:  # noqa: BLE001
                 console.print(f"    [red]Geolocalización error: {e}[/red]")
                 g = None
+            r["geolocalizado"] = g is not None
             if g is not None:
                 try:
                     r["natura"] = natura.sitios_natura(g)

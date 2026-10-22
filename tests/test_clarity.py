@@ -2,7 +2,7 @@
 
 from datetime import date, timedelta
 
-from observatorio import report, species
+from observatorio import litoral, report, species
 
 
 def _anuncio(**kw):
@@ -46,3 +46,25 @@ def test_non_native_species_dropped():
     out = species.nativas(resumen)
     assert [e["scientificName"] for e in out["especies"]] == ["Otis tarda"]
     assert (out["n_especies"], out["n_aves"], out["total_registros_amenazadas"]) == (1, 1, 6)
+
+
+def test_litoral_uncrossed_is_not_none_found(tmp_path):
+    hoy = date.today()
+    base = {"titulo": "Concesión en el DPMT", "url_html": "https://www.boe.es/x", "categoria": "dpmt",
+            "fecha_limite": (hoy + timedelta(days=5)).isoformat(), "municipios": ["X"], "provincias": [],
+            "senales": [], "natura_nombres": [], "n_especies": 0}
+    anuncios = {
+        "CRUZADO": {**base, "identificador": "CRUZADO", "puntos": 5, "geolocalizado": True},
+        "POCOS": {**base, "identificador": "POCOS", "puntos": 2, "geolocalizado": False},
+        "SIN-MUNI": {**base, "identificador": "SIN-MUNI", "puntos": 5, "municipios": [], "geolocalizado": False},
+    }
+    assert litoral.motivo_sin_cruce(anuncios["CRUZADO"]) == ""
+    assert litoral.motivo_sin_cruce(anuncios["POCOS"]) == "sin cruce: menos de 3 puntos de señal"
+    assert litoral.motivo_sin_cruce(anuncios["SIN-MUNI"]) == "sin cruce: municipios no detectados"
+    # States saved before the flag: what the run was meant to cross counts as crossed.
+    legado = {k: v for k, v in anuncios["CRUZADO"].items() if k != "geolocalizado"}
+    assert litoral.motivo_sin_cruce(legado) == ""
+    litoral.generar_web({"anuncios": anuncios}, tmp_path)
+    html = (tmp_path / "litoral.html").read_text(encoding="utf-8")
+    assert html.count("ninguno encontrado") == 1 and "sin cruce: menos de 3 puntos" in html
+    assert "quedan 5 días naturales" in html and "Ocupación del dominio público marítimo-terrestre" in html
