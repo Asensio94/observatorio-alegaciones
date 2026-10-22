@@ -2550,7 +2550,8 @@
    "natura": [],
    "natura_nombres": [],
    "n_especies": 0,
-   "n_aves": 0
+   "n_aves": 0,
+   "geolocalizado": false
   },
   "BOE-B-2026-34021": {
    "identificador": "BOE-B-2026-34021",
@@ -2589,7 +2590,8 @@
    "natura": [],
    "natura_nombres": [],
    "n_especies": 0,
-   "n_aves": 0
+   "n_aves": 0,
+   "geolocalizado": false
   },
   "BOE-B-2026-34146": {
    "identificador": "BOE-B-2026-34146",
@@ -2629,7 +2631,8 @@
    "natura": [],
    "natura_nombres": [],
    "n_especies": 0,
-   "n_aves": 0
+   "n_aves": 0,
+   "geolocalizado": false
   },
   "BOE-B-2026-34162": {
    "identificador": "BOE-B-2026-34162",
@@ -2668,7 +2671,8 @@
    "natura": [],
    "natura_nombres": [],
    "n_especies": 0,
-   "n_aves": 0
+   "n_aves": 0,
+   "geolocalizado": false
   },
   "BOE-B-2026-34386": {
    "identificador": "BOE-B-2026-34386",
@@ -2732,7 +2736,8 @@
     "Playa de Sotavento de Jandía"
    ],
    "n_especies": 40,
-   "n_aves": 24
+   "n_aves": 24,
+   "geolocalizado": true
   }
  }
 }
