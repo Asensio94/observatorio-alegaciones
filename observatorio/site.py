@@ -155,16 +155,6 @@ def _fila(a: dict) -> str:
     )
 
 
-def _tabla(filas: list[str]) -> str:
-    if not filas:
-        return "<p><i>Nada que mostrar.</i></p>"
-    return (
-        "<div class='wrap'><table class='datos'><thead><tr><th>Fecha límite (est.)</th><th>Estado</th><th>Tipo / fuente</th><th>Anuncio</th>"
-        "<th>Provincias / municipios</th><th>Natura 2000 en el municipio</th><th>Especies amenazadas (UICN)</th></tr></thead>"
-        f"<tbody>{''.join(filas)}</tbody></table></div>"
-    )
-
-
 def _sin_no_nativas(anuncios: list[dict], docs_dir: Path) -> None:
     """Drops non-native species from the state's counts. The state keeps only the first 12 species, so the
     counts are rebuilt from the full list in the published report when it may hide a non-native one."""
@@ -191,15 +181,25 @@ def _sin_no_nativas(anuncios: list[dict], docs_dir: Path) -> None:
         a["especies_top"] = nativas({"especies": top})["especies"]
 
 
+def _tabla(filas: list[str]) -> str:
+    if not filas:
+        return "<p><i>Nada que mostrar.</i></p>"
+    return (
+        "<div class='wrap'><table class='datos'><thead><tr><th>Fecha límite (est.)</th><th>Estado</th><th>Tipo / fuente</th><th>Anuncio</th>"
+        "<th>Provincias / municipios</th><th>Natura 2000 en el municipio</th><th>Especies amenazadas (UICN)</th></tr></thead>"
+        f"<tbody>{''.join(filas)}</tbody></table></div>"
+    )
+
+
 def generar_web(estado: dict, docs_dir: Path) -> None:
     docs_dir.mkdir(parents=True, exist_ok=True)
     hoy = date.today()
     anuncios = list(estado["anuncios"].values())
-    _sin_no_nativas(anuncios, docs_dir)
 
     def _lim(a):
         return date.fromisoformat(a["fecha_limite"]) if a.get("fecha_limite") else hoy
 
+    _sin_no_nativas(anuncios, docs_dir)
     abiertos = sorted((a for a in anuncios if dias_restantes(_lim(a), hoy) >= 0), key=_lim)
     cerrados = sorted((a for a in anuncios if dias_restantes(_lim(a), hoy) < 0), key=_lim, reverse=True)
     urgentes = [a for a in abiertos if dias_restantes(_lim(a), hoy) <= 7]
