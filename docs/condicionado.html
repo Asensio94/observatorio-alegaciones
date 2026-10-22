@@ -214,6 +214,7 @@ const SENTIDOS = {"condicionada": "con condiciones", "parcial": "desfavorable en
 const TIPOS = {"dia": "Declaración de impacto ambiental", "iia": "Informe de impacto ambiental", "modificacion": "Modificación de condiciones"};
 const TEMAS = {"mortalidad": "mortalidad de fauna", "avifauna": "aves", "quiropteros": "quirópteros", "parada": "parada de aerogeneradores", "compensatoria": "medidas compensatorias", "vallado": "vallado", "agua": "agua", "patrimonio": "patrimonio", "flora": "flora y hábitats", "ruido": "ruido", "paisaje": "paisaje", "incendios": "incendios", "desmantelamiento": "desmantelamiento"};
 const COLORES = {"eolica": "#d62728", "fotovoltaica": "#ff7f0e", "red_electrica": "#9467bd", "hidrogeno_baterias": "#8c564b", "hidrocarburos_gas": "#7f7f7f", "mineria": "#bcbd22", "transporte": "#1f77b4", "puertos_costas": "#17becf", "hidraulica": "#2ca02c", "urbanismo_industria": "#e377c2", "agua_concesion": "#aec7e8", "otros": "#444444"};
+const CATEGORIAS = {"eolica": "Eólica", "fotovoltaica": "Fotovoltaica", "red_electrica": "Red eléctrica", "hidrogeno_baterias": "Hidrógeno y baterías", "hidrocarburos_gas": "Hidrocarburos y gas", "mineria": "Minería", "transporte": "Transporte", "puertos_costas": "Puertos y costas", "hidraulica": "Hidráulica", "urbanismo_industria": "Urbanismo e industria", "agua_concesion": "Concesión de agua", "otros": "Otros"};
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -223,7 +224,7 @@ let FICHAS = [];
 
 function fmt(iso) { return iso ? iso.split('-').reverse().join('/') : ''; }
 function sentido(f) { return `<span class="sent s-${esc(f.sentido)}">${esc(SENTIDOS[f.sentido] ?? f.sentido)}</span>`; }
-function cat(c) { return c ? `<span class="badge" style="background:${COLORES[c] || '#444'}">${esc(c)}</span>` : ''; }
+function cat(c) { return c ? `<span class="badge" style="background:${COLORES[c] || '#444'}">${esc(CATEGORIAS[c] || c)}</span>` : ''; }
 function vence(f) { return f.vigencia_hasta && f.vigencia_hasta >= HOY && f.vigencia_hasta <= LIMITE; }
 
 function opciones(sel, valores, etiqueta = v => v) {
@@ -422,7 +423,7 @@ async function iniciar() {
   try { FICHAS = (await (await fetch('datos/condicionado/indice.json')).json()).fichas; }
   catch (e) { $('#cuenta').textContent = 'No se pudo cargar el índice.'; return; }
   const uniq = xs => [...new Set(xs.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es'));
-  opciones($('#cat'), uniq(FICHAS.map(f => f.categoria)));
+  opciones($('#cat'), uniq(FICHAS.map(f => f.categoria)), v => CATEGORIAS[v] || v);
   opciones($('#prov'), uniq(FICHAS.flatMap(f => f.provincias || [])));
   opciones($('#tema'), Object.keys(TEMAS), t => TEMAS[t]);
   const p = new URLSearchParams(location.hash.slice(1));
@@ -480,18 +481,21 @@ iniciar();
   <p class="principle">Datos públicos, reglas a la vista y cada cifra enlazada a su fuente. Indicios, no veredictos.</p>
   <p>Fuentes: BOE (datos abiertos), BOC Boletín Oficial de Cantabria (XML diario), Agencia Europea de Medio Ambiente (Natura 2000, versión 2024), GBIF (registros de animales con coordenadas desde 2005, categorías UICN), OpenStreetMap/Nominatim (límites municipales), Catastro (parcelas INSPIRE).
   Código abierto con licencia MIT: <a href="https://github.com/Asensio94/observatorio-alegaciones">github.com/Asensio94/observatorio-alegaciones</a>. Datos propios con licencia CC BY 4.0; los de terceros conservan la suya.</p>
+  <p class="hub"><a href="https://asensio94.github.io/terra-aperta/">← Terra Aperta: todos los proyectos</a></p>
+  <p>Proyectos hermanos:</p>
   <nav aria-label="Proyectos hermanos"><ul class="siblings">
-    <li aria-current="page"><a href="https://asensio94.github.io/observatorio-alegaciones/">Observatorio de alegaciones</a></li>
+    <li><a href="https://asensio94.github.io/sub-nocte/">Sub Nocte</a></li>
     <li><a href="https://asensio94.github.io/vigia-incendios/">Vigía de incendios</a></li>
     <li><a href="https://asensio94.github.io/centinela-natura/">Centinela Natura</a></li>
-    <li><a href="https://asensio94.github.io/vigilancia-humedales/">Vigilancia de humedales</a></li>
-    <li><a href="https://asensio94.github.io/sub-nocte/">Sub Nocte</a></li>
-    <li><a href="https://asensio94.github.io/riesgo-tendidos-aves/">Riesgo de tendidos para aves</a></li>
-    <li><a href="https://asensio94.github.io/grafo-promotores/">Grafo de promotores</a></li>
-    <li><a href="https://asensio94.github.io/cartera-cotizadas/">Cartera de las cotizadas</a></li>
-    <li><a href="https://asensio94.github.io/cuaderno-campo/">Cuaderno de campo</a></li>
-    <li><a href="https://asensio94.github.io/caudal-ecologico/">Caudal ecológico</a></li>
     <li><a href="https://asensio94.github.io/estado-iba/">Estado de las IBA</a></li>
+    <li><a href="https://asensio94.github.io/riesgo-tendidos-aves/">Riesgo de tendidos para aves</a></li>
+    <li aria-current="page">Observatorio de alegaciones</li>
+    <li><a href="https://asensio94.github.io/grafo-promotores/">Grafo de promotores</a></li>
+    <li><a href="https://asensio94.github.io/vigilancia-humedales/">Vigilancia de humedales</a></li>
+    <li><a href="https://asensio94.github.io/caudal-ecologico/">Caudal ecológico</a></li>
+    <li><a href="https://asensio94.github.io/acuiferos-francia/">Acuíferos de Francia</a></li>
+    <li><a href="https://asensio94.github.io/depuracion-y-bano/">Depuración y baño</a></li>
+    <li><a href="https://asensio94.github.io/zona-inundable/">Construir en zona inundable</a></li>
   </ul></nav>
 </footer>
 </body></html>

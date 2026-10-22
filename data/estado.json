@@ -18339,8 +18339,8 @@
      "tipo": "LIC/ZEC"
     }
    ],
-   "n_especies": 40,
-   "n_aves": 27,
+   "n_especies": 39,
+   "n_aves": 26,
    "especies_top": [
     {
      "scientificName": "Alosa alosa",
@@ -18371,12 +18371,6 @@
      "vernacular_es": "Conejo",
      "categoria_uicn": "EN",
      "class": "Mammalia"
-    },
-    {
-     "scientificName": "Anser cygnoides",
-     "vernacular_es": "Ganso cisne asiático",
-     "categoria_uicn": "EN",
-     "class": "Aves"
     },
     {
      "scientificName": "Lanius meridionalis",
@@ -18411,6 +18405,12 @@
     {
      "scientificName": "Ichthyaetus audouinii",
      "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
      "categoria_uicn": "VU",
      "class": "Aves"
     }
@@ -18458,8 +18458,8 @@
      "tipo": "LIC/ZEC"
     }
    ],
-   "n_especies": 36,
-   "n_aves": 21,
+   "n_especies": 35,
+   "n_aves": 20,
    "especies_top": [
     {
      "scientificName": "Puffinus mauretanicus",
@@ -19319,8 +19319,8 @@
      "tipo": "LIC/ZEC"
     }
    ],
-   "n_especies": 40,
-   "n_aves": 25,
+   "n_especies": 39,
+   "n_aves": 24,
    "especies_top": [
     {
      "scientificName": "Neophron percnopterus",
