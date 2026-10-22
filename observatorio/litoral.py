@@ -33,10 +33,13 @@ from .boe import Anuncio
 from .config import DATA_DIR
 from .extract import INFO_PUBLICA, _strip_accents
 from .plazos import dias_restantes
-from .report import esc, pagina, site_nav
+from . import report
+from .report import PRIORIDAD_CRUCE, esc, pagina, quedan, sin_cruce, site_nav
 
 SECCIONES_BOE = ("5B",)
 ESTADO_PATH = DATA_DIR / "estado_litoral.json"
+# Expedientes with fewer signal points are listed but not crossed with Natura 2000 and GBIF (cli litoral).
+MIN_PUNTOS_CRUCE = 3
 
 # --- Materia -----------------------------------------------------------------
 
@@ -287,7 +290,7 @@ def etiqueta_categoria(clave: str) -> str:
             return etiqueta
     if clave in OTRAS_CATEGORIAS:
         return OTRAS_CATEGORIAS[clave][0]
-    return "Otro trámite del litoral"
+    return report.etiqueta_categoria(clave) if clave else "Otro trámite del litoral"
 
 
 def plazo_por_defecto(clave: str) -> int | None:
@@ -354,6 +357,7 @@ def actualizar_estado(estado: dict, resultados: list[dict]) -> int:
         esp = r.get("especies") or {}
         a["n_especies"] = esp.get("n_especies", 0)
         a["n_aves"] = esp.get("n_aves", 0)
+        a["geolocalizado"] = bool(r.get("geolocalizado"))
         a.pop("texto", None)  # el texto completo no se versiona: pesa y está en el boletín
         estado["anuncios"][i] = a
     return nuevas
@@ -364,6 +368,28 @@ def _badge_senal(s: dict) -> str:
     return f'<span class="badge" style="background:{color}" title="{esc(s["apoyo"])}">{esc(s["etiqueta"])}</span>'
 
 
+def motivo_sin_cruce(a: dict) -> str:
+    """Why an expediente was not crossed with Natura 2000 and GBIF, or "" if it was.
+
+    Same wording as the main pages (report.sin_cruce); only the threshold differs: here it is signal points,
+    not priority. States saved before the flag existed assume the run crossed what it was meant to cross.
+    """
+    pocos = a.get("puntos", 0) < MIN_PUNTOS_CRUCE
+    cruzado = a.get("geolocalizado", bool(a.get("municipios")) and not pocos)
+    if not cruzado and a.get("municipios") and pocos:
+        return "sin cruce: menos de 3 puntos de señal"
+    return sin_cruce({**a, "geolocalizado": cruzado, "prioridad": PRIORIDAD_CRUCE})
+
+
+def _celda_cruce(a: dict) -> str:
+    motivo = motivo_sin_cruce(a)
+    if motivo:
+        return f"<i>{motivo}</i>"
+    nat = esc(", ".join(a.get("natura_nombres", [])[:2])) or "<i>ninguno encontrado</i>"
+    n = a.get("n_especies", 0)
+    return f"{nat}<br><small>{n} esp. amenazada{'' if n == 1 else 's'}</small>"
+
+
 def _fila(a: dict, hoy: date) -> str:
     lim = date.fromisoformat(a["fecha_limite"]) if a.get("fecha_limite") else None
     if lim is None:
@@ -372,12 +398,11 @@ def _fila(a: dict, hoy: date) -> str:
         d = dias_restantes(lim, hoy)
         est = " (est.)" if a.get("plazo_estimado") else ""
         if d < 0:
-            plazo = f"<span class=cerrado>{lim:%d/%m/%Y} · cerrado</span>{est}"
+            plazo = f"<span class=cerrado>{lim:%d/%m/%Y} · plazo cerrado</span>{est}"
         else:
-            plazo = f"<span class='{'urgente' if d <= 7 else ''}'>{lim:%d/%m/%Y} · quedan {d} d</span>{est}"
+            plazo = f"<span class='{'urgente' if d <= 7 else ''}'>{lim:%d/%m/%Y} · {quedan(d)}</span>{est}"
     munis = esc(", ".join(a.get("municipios", []))) or "<i>no detectado</i>"
     sen = "".join(_badge_senal(s) for s in a.get("senales", [])) or "<i>ninguna</i>"
-    nat = ", ".join(a.get("natura_nombres", [])[:2])
     return (
         f"<tr><td>{plazo}</td>"
         f"<td>{esc(etiqueta_categoria(a.get('categoria', '')))}</td>"
@@ -386,7 +411,7 @@ def _fila(a: dict, hoy: date) -> str:
         f"<td>{munis}<br><small>{esc(', '.join(a.get('provincias', [])))}</small></td>"
         f"<td>{esc(a.get('promotor', '') or '—')}</td>"
         f"<td>{sen}</td>"
-        f"<td>{esc(nat) or '—'}{(' · ' + str(a['n_especies']) + ' esp.') if a.get('n_especies') else ''}</td></tr>"
+        f"<td>{_celda_cruce(a)}</td></tr>"
     )
 
 
@@ -395,7 +420,7 @@ def _tabla(filas: list[str]) -> str:
         return "<p><i>Nada que mostrar.</i></p>"
     return (
         "<div class='wrap'><table class='datos'><thead><tr><th>Plazo</th><th>Trámite</th><th>Anuncio</th>"
-        "<th>Municipio</th><th>Promotor</th><th>Señales</th><th>Espacios protegidos</th></tr></thead>"
+        "<th>Municipio</th><th>Promotor</th><th>Señales</th><th>Natura 2000 y especies</th></tr></thead>"
         f"<tbody>{''.join(filas)}</tbody></table></div>"
     )
 
@@ -458,8 +483,10 @@ def _method_html() -> str:
  <li><b>Señales.</b> Cada expediente suma los puntos de las señales que se le detectan, cada una con el
   precepto donde mirar (pasa el ratón por la etiqueta para leerlo). Los puntos ordenan la lectura; no son un
   dictamen.</li>
- <li><b>Cruces.</b> Los expedientes con 3 puntos o más y municipio detectado se cruzan con la Red Natura 2000 y
-  con los registros de especies amenazadas de GBIF.</li>
+ <li><b>Cruces.</b> Los expedientes con {MIN_PUNTOS_CRUCE} puntos o más y municipio detectado se cruzan con la Red
+  Natura 2000 y con los registros de especies amenazadas de GBIF. «Sin cruce» quiere decir que el expediente no se
+  ha cruzado (menos de {MIN_PUNTOS_CRUCE} puntos, municipio no detectado o no localizado), no que no haya espacios ni
+  especies. «Ninguno encontrado» quiere decir que el cruce se hizo y no dio espacios Natura 2000.</li>
 </ol>
 <h3>Plazo por defecto de cada trámite</h3>
 <table class="params">{plazos}</table>
@@ -473,6 +500,10 @@ def _method_html() -> str:
   expediente dice si aplican.</li>
  <li>La señal de frente costero es una lista de municipios, no la distancia real a la ribera del mar.</li>
  <li>Del boletín autonómico solo se lee el de Cantabria.</li>
+ <li>La categoría UICN de GBIF es la mundial, así que se descartan las especies que no son nativas en España
+  (aves de jaula escapadas, galápagos asiáticos, gacelas en cautividad, arruí…); la lista está en
+  <code>observatorio/species.py</code> (<code>NO_NATIVAS</code>). Los recuentos de los expedientes leídos antes de
+  ese filtro pueden incluir alguna: se corrigen cuando el expediente vuelve a leerse.</li>
  <li>Los plazos son estimados. Comprueba siempre el anuncio original.</li>
 </ul>
 """
