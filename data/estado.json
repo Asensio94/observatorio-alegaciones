@@ -11493,6 +11493,22 @@
       "tipo": "LIC/ZEC"
      }
     ]
+   },
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-22067",
+    "fecha": "2026-10-22",
+    "tipo": "dia",
+    "tipo_etiqueta": "Declaración de impacto ambiental",
+    "sentido": "condicionada",
+    "sentido_etiqueta": "formulada con condiciones",
+    "titulo": "Resolución de 2 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Ampliación de los parques eólicos Coll del Moro, de 11 MW de potencia instalada, y Torre Madrina, de 11 MW de potencia instalada, y su infraestructura de evacuación, en la provincia de Tarragona».",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22067",
+    "fuente": "BOE",
+    "puntos": 4,
+    "motivos": [
+     "2 municipio(s) en común",
+     "coinciden: tarragona"
+    ]
    }
   },
   "BOE-B-2026-31656": {
@@ -16331,6 +16347,21 @@
       "tipo": "ZEPA"
      }
     ]
+   },
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-22068",
+    "fecha": "2026-10-22",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta FV 115, SL, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento con baterías Castor, de 19,993 MW de potencia instalada, y su infraestructura de evacuación para su hibridación con la planta fotovoltaica Castor Solar, de 49,99 MW de potencia instalada, en Huecas (Toledo).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22068",
+    "fuente": "BOE",
+    "puntos": 3,
+    "motivos": [
+     "2 municipio(s) en común"
+    ]
    }
   },
   "BOE-B-2026-33525": {
@@ -18021,8 +18052,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   },
   "BOE-B-2026-33994": {
    "identificador": "BOE-B-2026-33994",
@@ -18053,8 +18084,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   },
   "BOE-B-2026-34024": {
    "identificador": "BOE-B-2026-34024",
@@ -18176,8 +18207,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21",
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -18221,8 +18252,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   },
   "BOE-B-2026-34144": {
    "identificador": "BOE-B-2026-34144",
@@ -18384,8 +18415,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   },
   "BOE-B-2026-34146": {
    "identificador": "BOE-B-2026-34146",
@@ -18503,8 +18534,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   },
   "BOE-B-2026-34147": {
    "identificador": "BOE-B-2026-34147",
@@ -18538,8 +18569,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   },
   "BOE-B-2026-34162": {
    "identificador": "BOE-B-2026-34162",
@@ -18656,8 +18687,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   },
   "BOE-B-2026-34189": {
    "identificador": "BOE-B-2026-34189",
@@ -18766,8 +18797,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21",
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -18902,8 +18933,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21",
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -19050,8 +19081,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21",
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22",
    "footprint": {
     "version": 6,
     "status": "unresolved",
@@ -19174,11 +19205,384 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261018_20261021.html",
-   "actualizado": "2026-10-21"
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
+  },
+  "BOE-B-2026-34364": {
+   "identificador": "BOE-B-2026-34364",
+   "fecha": "2026-10-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete nuevamente a información pública la solicitud presentada por Terminal Port Nou, S.A., para la modificación sustancial de la concesión administrativa destinada a la explotación de una terminal multipropósito en el puerto de Barcelona. Exp. 075/2026 SGSJC.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34364",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34364",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-B-2026-34364.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Barcelona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "075/2026",
+   "fecha_limite": "2026-11-19",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
+  },
+  "BOE-B-2026-34373": {
+   "identificador": "BOE-B-2026-34373",
+   "fecha": "2026-10-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Zaragoza por el que se somete a información pública la solicitud de Autorización Administrativa Previa y la solicitud de Autorización Administrativa de Construcción del proyecto PFot-ALM-125 Módulo de almacenamiento Hibridación Larral, de 26,74 MW de potencia instalada, para su hibridación con el parque fotovoltaico existente Larral de 43,9 MW de potencia instalada y su infraestructura de evacuación, en el término municipal de Zaragoza, en la provincia de Zaragoza.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34373",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34373",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-B-2026-34373.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Zaragoza"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 30,
+   "promotor": "PLANTA SOLAR OPDE 8, S.L",
+   "potencia_mw": 43.9,
+   "expediente": "PFot-ALM-125",
+   "fecha_limite": "2026-12-03",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES2430080",
+     "nombre": "El Castellar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2430091",
+     "nombre": "Planas y estepas de la margen derecha del Ebro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000300",
+     "nombre": "Río Huerva y Las Planas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000136",
+     "nombre": "Estepas de Belchite - El Planerón - La Lomaza",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000293",
+     "nombre": "Montes de Zuera, Castejón de Valdejasa y El Castellar",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000138",
+     "nombre": "Galachos de la Alfranca de Pastriz, La Cartuja y El Burgo de Ebro",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES2430077",
+     "nombre": "Bajo Gállego",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2430081",
+     "nombre": "Sotos y mejanas del Ebro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2430152",
+     "nombre": "Galachos de la Alfranca de Pastriz, La Cartuja y El Burgo de Ebro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2430078",
+     "nombre": "Montes de Zuera",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 25,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Unio mancus",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Potomida littoralis",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Chersophilus duponti",
+     "vernacular_es": "Alondra de Dupont",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Clangula hyemalis",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
+  },
+  "BOE-B-2026-34388": {
+   "identificador": "BOE-B-2026-34388",
+   "fecha": "2026-10-22",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS",
+   "titulo": "Anuncio de la Consejería de Ciencia, Industria y Empleo del Principado de Asturias sobre la información pública relativa a solicitud de declaración de utilidad pública de Parque Eólico. Expte.: AUTO/2022/2977 (PE-72-DUP).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34388",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34388",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-B-2026-34388.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Catastro"
+   ],
+   "provincias": [
+    "Asturias"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Terranova Energy Corporation SA",
+   "potencia_mw": null,
+   "expediente": "AUTO/2022/2977",
+   "fecha_limite": "2026-12-03",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [
+    "Catastro"
+   ],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 14,
+    "n_matched": 14,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 3260,
+     "temporary": 39176
+    },
+    "parcels_m2": 2198475,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-34388.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-34389": {
+   "identificador": "BOE-B-2026-34389",
+   "fecha": "2026-10-22",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA",
+   "titulo": "Anuncio de 09/10/2026, de la Delegación Provincial de Desarrollo Sostenible de Toledo, sometiendo a información pública el proyecto de explotación, el plan de restauración y el estudio de impacto ambiental de la concesión directa de explotación San Bartolomé Agregación número 4209 (0-0-1).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34389",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34389",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-B-2026-34389.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Villarrubia de Santiago"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 30,
+   "promotor": "ÁRIDOS TÉCNICOS, S.A., Recursos Geológicos: Sección C) arenas y gravas",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-03",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000170",
+     "nombre": "Área esteparia de La Mancha norte",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES3110006",
+     "nombre": "Vegas, cuestas y páramos del sureste de Madrid",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4250009",
+     "nombre": "Yesares del valle del Tajo",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 13,
+   "n_aves": 9,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Microtus cabrerae",
+     "vernacular_es": "Topillo De Cabrera",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Tetrax tetrax",
+     "vernacular_es": "Sisón",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20261019_20261022.html",
+   "actualizado": "2026-10-22"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261019_20261022.html",
+   "desde": "2026-10-19",
+   "hasta": "2026-10-22",
+   "generado": "2026-10-22",
+   "n": 16
+  },
   {
    "fichero": "informes/informe_20261018_20261021.html",
    "desde": "2026-10-18",
@@ -25932,6 +26336,340 @@
     "misma categoría (red_electrica)",
     "coinciden: economia, europeos, fondos, hacienda"
    ],
+   "firme": false
+  },
+  "BOE-A-2026-22067": {
+   "identificador": "BOE-A-2026-22067",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 2 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Ampliación de los parques eólicos Coll del Moro, de 11 MW de potencia instalada, y Torre Madrina, de 11 MW de potencia instalada, y su infraestructura de evacuación, en la provincia de Tarragona».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22067",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22067",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22067.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Gandesa",
+    "Batea"
+   ],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": null,
+   "promotor": "Parque eólico de Coll del Moro, SLU, y Parque eólico Torre Madrina, SLU",
+   "potencia_mw": 22.0,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "dia",
+   "tipo_etiqueta": "Declaración de impacto ambiental",
+   "sentido": "condicionada",
+   "sentido_etiqueta": "formulada con condiciones",
+   "emparejado_con": "BOE-B-2026-31655",
+   "puntos": 4,
+   "motivos": [
+    "2 municipio(s) en común",
+    "coinciden: tarragona"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-22068": {
+   "identificador": "BOE-A-2026-22068",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta FV 115, SL, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento con baterías Castor, de 19,993 MW de potencia instalada, y su infraestructura de evacuación para su hibridación con la planta fotovoltaica Castor Solar, de 49,99 MW de potencia instalada, en Huecas (Toledo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22068",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22068",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22068.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Huecas",
+    "Torrijos",
+    "Novés",
+    "Barcience"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Planta FV 115",
+   "potencia_mw": 68.11,
+   "expediente": "PE-602",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-33524",
+   "puntos": 3,
+   "motivos": [
+    "2 municipio(s) en común"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-22069": {
+   "identificador": "BOE-A-2026-22069",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 1 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Renovalia Guara, SLU, la declaración, en concreto, de utilidad pública del parque eólico Valiente II, de 88,4 MW, y su infraestructura de evacuación, en Gurrea de Gállego, Alcalá de Gurrea, Almudévar, Lupiñén-Ortilla y La Sotonera (Huesca).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22069",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22069",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22069.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Gurrea de Gállego",
+    "Alcalá de Gurrea",
+    "Almudévar",
+    "Lupiñén-Ortilla",
+    "La Sotonera"
+   ],
+   "provincias": [
+    "Huesca"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Renovalia Guara",
+   "potencia_mw": 88.4,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22070": {
+   "identificador": "BOE-A-2026-22070",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 2 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Planta FV 130, SLU, de la solicitud de autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica «Valentina Solar», de 60,382 MW de potencia instalada, y su infraestructura de evacuación, en Asturianos, Rosinos de la Requejada y Palacios de Sanabria (Zamora).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22070",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22070",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22070.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Asturianos",
+    "Rosinos de la Requejada",
+    "Palacios de Sanabria",
+    "Espadañedo"
+   ],
+   "provincias": [
+    "Zamora"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 124.881,
+   "expediente": "Peol-FV-256",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22071": {
+   "identificador": "BOE-A-2026-22071",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 2 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Planta FV 130, SLU, de la solicitud de autorización administrativa previa para el parque eólico Valentina, de 90 MW, para su hibridación con la instalación solar fotovoltaica Valentina Solar, de 60,382 MW, y de una parte de su infraestructura de evacuación, en Rosinos de la Requejada, Espadañedo y Asturianos (Zamora).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22071",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22071",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22071.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Rosinos de la Requejada",
+    "Espadañedo",
+    "Asturianos",
+    "Palacios de Sanabria"
+   ],
+   "provincias": [
+    "Zamora"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 124.881,
+   "expediente": "PFot-233",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22072": {
+   "identificador": "BOE-A-2026-22072",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Agos Fotovoltaicas, SL, la declaración, en concreto, de utilidad pública, para la planta fotovoltaica Marcote, de 23,36 MW de potencia instalada, y su infraestructura de evacuación, en Villarrubia de Santiago (Toledo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22072",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22072",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22072.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ocaña",
+    "Noblejas",
+    "Villatobas",
+    "Villarrubia de Santiago"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Agos Fotovoltaicas",
+   "potencia_mw": 27.25,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22073": {
+   "identificador": "BOE-A-2026-22073",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Corona Fotovoltaicas, SL, la declaración, en concreto, de utilidad pública, para la planta fotovoltaica Morata de Tajuña 3, de 42 MW de potencia instalada, y su infraestructura de evacuación, en Ocaña, Noblejas y Villarrubia de Santiago (Toledo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22073",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22073",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22073.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ocaña",
+    "Noblejas",
+    "Villatobas",
+    "Villarrubia de Santiago"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Corona Fotovoltaicas",
+   "potencia_mw": 49.49,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22074": {
+   "identificador": "BOE-A-2026-22074",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Jul Solar, SL, la declaración, en concreto, de utilidad pública, para la planta fotovoltaica Tobizar, de 22,80 MW de potencia instalada, y su infraestructura de evacuación, en Villarrubia de Santiago (Toledo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22074",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22074",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22074.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Ocaña",
+    "Noblejas",
+    "Villatobas",
+    "Villarrubia de Santiago"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Jul Solar",
+   "potencia_mw": 27.25,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22075": {
+   "identificador": "BOE-A-2026-22075",
+   "fecha": "2026-10-22",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 5 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 6, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Montesol», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Montesol», de 41,6 MW de potencia instalada, en Cañada Vellida (Teruel).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22075",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22075",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-22075.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Cañada Vellida"
+   ],
+   "provincias": [
+    "Teruel"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Planta Solar OPDE 6",
+   "potencia_mw": 41.6,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
    "firme": false
   }
  }

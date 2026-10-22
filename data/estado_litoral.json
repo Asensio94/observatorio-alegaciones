@@ -2669,6 +2669,70 @@
    "natura_nombres": [],
    "n_especies": 0,
    "n_aves": 0
+  },
+  "BOE-B-2026-34386": {
+   "identificador": "BOE-B-2026-34386",
+   "fecha": "2026-10-22",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas de Canarias sobre el otorgamiento de concesión de dominio público marítimo – terrestre en aplicación de la disposición transitoria primera de la Ley 22/1988, de 28 de julio, de Costas, en relación con la finca inscrita con el número 14.125 del Registro de la Propiedad de Pájara incluida en el dominio público marítimo-terrestre, en la playa del matorral, término municipal de Pájara (Fuerteventura).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34386",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-34386",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-B-2026-34386.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Pájara"
+   ],
+   "provincias": [
+    "Las Palmas"
+   ],
+   "plazo_dias": null,
+   "promotor": "Altamarena, S.A",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-19",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES7010033",
+    "ES0000097",
+    "ES7010034",
+    "ES7010062",
+    "ES7010014",
+    "ES7010035",
+    "ES7010042",
+    "ES7010064",
+    "ES7010024",
+    "ESZZ15002",
+    "ES0000039"
+   ],
+   "natura_nombres": [
+    "Jandía",
+    "Betancuria",
+    "Montaña Cardón",
+    "Betancuria",
+    "Cueva de Lobos",
+    "Playa de Sotavento de Jandía"
+   ],
+   "n_especies": 40,
+   "n_aves": 24
   }
  }
 }
