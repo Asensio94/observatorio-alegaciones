@@ -31,6 +31,23 @@ def test_redact_takes_out_the_name_with_or_without_honorific():
     assert privacy.redact("Embalse de San Juan", ["D. Juan"]) == "Embalse de San Juan"
 
 
+def test_on_the_coast_only_recognisable_bodies_are_named():
+    # The BOC names people without «D.»: on the coast a promoter is published only if it is clearly not one.
+    for person in ("Ana Ejemplo Ficticio", "JUAN PÉREZ GIL", "Juan Pérez", PERSON):
+        assert privacy.entity(person) is None
+    for body in ("Ayuntamiento de Suances", "Hoteles del Norte, S.L.", "Demarcación de Costas en Cantabria",
+                 "Cofradía de Pescadores de Laredo", "Iberdrola Renovables", "Playa Sol SA"):
+        assert privacy.entity(body) == body
+    titulo = "Solicitud de autorización de Ana Ejemplo Ficticio en Suances"
+    data = {"anuncios": {"BOC-1": {"promotor": "Ana Ejemplo Ficticio", "titulo": titulo},
+                         "BOC-2": {"promotor": "Ayuntamiento de Suances", "titulo": "Paseo marítimo"}}}
+    out = privacy.scrub(data, strict=True)["anuncios"]
+    assert out["BOC-1"] == {"promotor": "", "titulo": "Solicitud de autorización de [persona física] en Suances"}
+    assert out["BOC-2"]["promotor"] == "Ayuntamiento de Suances"
+    # The general rule is unchanged: without strict, a company with no legal form keeps its name.
+    assert privacy.scrub({"promotor": "Esteyco"}) == {"promotor": "Esteyco"}
+
+
 def test_extraction_drops_a_person():
     a = extract.extraer_datos(_anuncio(
         f"Se somete a información pública el Expediente: D-0101/2026.\nPeticionario: {PERSON}.\n"
@@ -118,3 +135,24 @@ def test_scrub_reaches_every_text_of_a_report():
     privacy.scrub(report)
     assert report[0]["anuncio"] == {"promotor": "", "titulo": "Boya de amarre",
                                     "texto": "Peticionario: [persona física].\nSolicita la instalación."}
+
+
+def test_stored_bulletin_texts_lose_owner_lists_and_applicants(tmp_path):
+    texto = ("Solicitante: Ana Ejemplo Ficticio, para la construcción de un muro en Suances.\n"
+             "Relación de bienes y derechos afectados:\nFinca 1. Ficticio Prueba, Luis. Calle Mayor 1.")
+    a = _anuncio(texto, titulo="Muro en Suances")
+    from observatorio import boc_cantabria
+    assert boc_cantabria._sin_personas(a)
+    assert "Ficticio" not in a.texto and a.texto.startswith("Solicitante: [persona física]")
+    assert a.texto.endswith(privacy.OWNERS_CUT)
+    assert not boc_cantabria._sin_personas(a)  # a clean act stays as it is
+
+
+def test_published_reports_carry_no_full_text(tmp_path):
+    from observatorio import report
+    old = [{"anuncio": {"identificador": "BOE-B-2026-1", "texto": "Relación de bienes: Ficticio Prueba, Luis"}}]
+    (tmp_path / "informe_x.json").write_text(json.dumps(old), encoding="utf-8")
+    assert report.limpiar_informes(tmp_path) == 1
+    assert json.loads((tmp_path / "informe_x.json").read_text(encoding="utf-8")) == [
+        {"anuncio": {"identificador": "BOE-B-2026-1"}}]
+    assert report.limpiar_informes(tmp_path) == 0

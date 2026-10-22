@@ -298,7 +298,9 @@ alegar</b>. Proyecto abierto: el código, los datos y las mejoras están en GitH
   desde GitHub, así que un equipo en España descarga sus anuncios y los sube al repositorio.</li>
  <li><b>Selección.</b> Reglas escritas (expresiones regulares) separan los proyectos con posible afección
   ambiental, les dan categoría y prioridad, y extraen municipios, provincias, plazo, promotor, potencia y
-  expediente. Si el promotor es una persona física, su nombre no se guarda ni se publica.</li>
+  expediente. Si el promotor es una persona física, su nombre no se guarda ni se publica. Tampoco se publica
+  el texto completo de los anuncios: las relaciones de bienes afectados, con nombres y direcciones de sus
+  propietarios, se leen solo en el boletín.</li>
  <li><b>Fecha límite.</b> Se cuentan los días hábiles del plazo desde el día siguiente a la publicación, sin
   sábados ni domingos y descontando los festivos nacionales y, en el BOC, los dos autonómicos fijos de
   Cantabria. Si el anuncio no dice el plazo se asumen {PLAZO_POR_DEFECTO} días hábiles y se marca como estimado.</li>
@@ -432,9 +434,32 @@ def generar_informe(resultados: list[dict], desde: date, hasta: date, out_dir: P
     out.write_text(doc, encoding="utf-8")
     (out_dir / nombre.replace(".html", ".json")).write_text(
         json.dumps(
-            [{**r, "geom": None, "natura": [{k: v for k, v in s.items() if k != "geometry"} for s in r["natura"]]} for r in resultados],
+            [{**r, "anuncio": _sin_texto(r["anuncio"]), "geom": None,
+              "natura": [{k: v for k, v in s.items() if k != "geometry"} for s in r["natura"]]} for r in resultados],
             ensure_ascii=False, indent=1, default=str,
         ),
         encoding="utf-8",
     )
+    limpiar_informes(out_dir)
     return out
+
+
+def _sin_texto(anuncio) -> dict:
+    """The act as published: without its full text. The text is in the bulletin, and it carries what is
+    never published here: the lists of affected owners of an expropriation, with names and addresses."""
+    a = anuncio.to_dict() if hasattr(anuncio, "to_dict") else dict(anuncio)
+    a.pop("texto", None)
+    return a
+
+
+def limpiar_informes(out_dir: Path) -> int:
+    """Takes the full text out of the reports published before `_sin_texto`. Returns how many changed."""
+    n = 0
+    for f in sorted(out_dir.glob("informe_*.json")):
+        data = json.loads(f.read_text(encoding="utf-8"))
+        if any(isinstance(r, dict) and "texto" in (r.get("anuncio") or {}) for r in data):
+            data = [{**r, "anuncio": _sin_texto(r["anuncio"])} if isinstance(r, dict) and r.get("anuncio") else r
+                    for r in data]
+            f.write_text(json.dumps(data, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
+            n += 1
+    return n

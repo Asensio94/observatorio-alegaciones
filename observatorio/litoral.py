@@ -327,8 +327,9 @@ def puntos(sen: list[dict]) -> int:
 
 def cargar_estado() -> dict:
     if ESTADO_PATH.exists():
-        # Scrubbed on load: whatever was stored before the rule leaves on the next save.
-        e = privacy.scrub(json.loads(ESTADO_PATH.read_text(encoding="utf-8")))
+        # Scrubbed on load: whatever was stored before the rule leaves on the next save. Strict, because on
+        # the coast most applicants are people and the BOC names them without «D.».
+        e = privacy.scrub(json.loads(ESTADO_PATH.read_text(encoding="utf-8")), strict=True)
         e.setdefault("anuncios", {})
         return e
     return {"anuncios": {}}
@@ -342,7 +343,7 @@ def actualizar_estado(estado: dict, resultados: list[dict]) -> int:
     """Incorpora resultados nuevos. Devuelve cuántos no estaban. Los ya conocidos se refrescan."""
     nuevas = 0
     for r in resultados:
-        a = dict(r["anuncio"])
+        a = privacy.scrub(dict(r["anuncio"]), strict=True)
         i = a["identificador"]
         if i not in estado["anuncios"]:
             nuevas += 1

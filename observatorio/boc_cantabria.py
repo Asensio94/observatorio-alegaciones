@@ -21,6 +21,7 @@ from datetime import date
 import requests
 from lxml import etree
 
+from . import privacy
 from .boe import Anuncio
 from .config import BOC_ANUNCIO_URL, BOC_CVE_URL, BOC_SUMARIO_URL, BOC_XML_URL, CACHE_DIR, FUENTES_DIR, USER_AGENT
 
@@ -104,8 +105,13 @@ def anuncios_dia(day: date, secciones: tuple[str, ...] = SECCIONES_POR_DEFECTO) 
     if store.exists():
         data = json.loads(store.read_text(encoding="utf-8"))
         lst = None if data is None else [Anuncio(**d) for d in data]
+        # A dump stored before the rule is rewritten clean the first time it is read.
+        if lst is not None and sum(_sin_personas(a) for a in lst):
+            store.write_text(json.dumps([a.to_dict() for a in lst], ensure_ascii=False), encoding="utf-8")
     else:
         lst = _descargar_dia(day)
+        for a in lst or []:
+            _sin_personas(a)
         STORE.mkdir(parents=True, exist_ok=True)
         store.write_text(
             json.dumps(None if lst is None else [a.to_dict() for a in lst], ensure_ascii=False), encoding="utf-8"
@@ -113,6 +119,20 @@ def anuncios_dia(day: date, secciones: tuple[str, ...] = SECCIONES_POR_DEFECTO) 
     if lst is None:
         return None
     return [a for a in lst if a.seccion.split(".")[0].strip() in secciones]
+
+
+def _sin_personas(a: Anuncio) -> bool:
+    """Takes people out of an act before it is versioned (the dumps are public): the list of affected owners
+    and every applicant that is not recognisably a company or a body. The BOC names people without «D.».
+    Returns whether anything changed."""
+    from .extract import _PROMOTOR_RE  # extract does not import this module; kept local all the same
+
+    names = [n for m in _PROMOTOR_RE.finditer(a.texto or "")
+             if not privacy.entity(n := m.group("p").strip(" ,."))]
+    texto, titulo = privacy.strip_people(a.texto or "", names), privacy.redact(a.titulo, names)
+    changed = (texto, titulo) != (a.texto or "", a.titulo)
+    a.texto, a.titulo = texto, titulo
+    return changed
 
 
 def _descargar_dia(day: date, secciones: tuple[str, ...] = SECCIONES_POR_DEFECTO) -> list[Anuncio] | None:
