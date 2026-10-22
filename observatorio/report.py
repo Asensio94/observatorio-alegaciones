@@ -245,27 +245,29 @@ def ficha(r: dict) -> str:
 </section>"""
 
 
+# Common footer of the Terra Aperta projects, in the hub's menu order. The current project is plain text.
+HUB_URL = "https://asensio94.github.io/terra-aperta/"
 SIBLINGS = [
-    ("observatorio-alegaciones", "Observatorio de alegaciones"),
+    ("sub-nocte", "Sub Nocte"),
     ("vigia-incendios", "Vigía de incendios"),
     ("centinela-natura", "Centinela Natura"),
-    ("vigilancia-humedales", "Vigilancia de humedales"),
-    ("sub-nocte", "Sub Nocte"),
-    ("riesgo-tendidos-aves", "Riesgo de tendidos para aves"),
-    ("grafo-promotores", "Grafo de promotores"),
-    ("cartera-cotizadas", "Cartera de las cotizadas"),
-    ("cuaderno-campo", "Cuaderno de campo"),
-    ("caudal-ecologico", "Caudal ecológico"),
     ("estado-iba", "Estado de las IBA"),
+    ("riesgo-tendidos-aves", "Riesgo de tendidos para aves"),
+    ("observatorio-alegaciones", "Observatorio de alegaciones"),
+    ("grafo-promotores", "Grafo de promotores"),
+    ("vigilancia-humedales", "Vigilancia de humedales"),
+    ("caudal-ecologico", "Caudal ecológico"),
     ("acuiferos-francia", "Acuíferos de Francia"),
+    ("depuracion-y-bano", "Depuración y baño"),
+    ("zona-inundable", "Construir en zona inundable"),
 ]
 THIS_PROJECT = "observatorio-alegaciones"
 
 
 def _sibling_items() -> str:
-    current = ' aria-current="page"'
     return "".join(
-        f'    <li{current if slug == THIS_PROJECT else ""}><a href="https://asensio94.github.io/{slug}/">{name}</a></li>\n'
+        f'    <li aria-current="page">{name}</li>\n' if slug == THIS_PROJECT
+        else f'    <li><a href="https://asensio94.github.io/{slug}/">{name}</a></li>\n'
         for slug, name in SIBLINGS
     )
 
@@ -274,6 +276,8 @@ SITE_FOOTER = f"""<footer class="site-footer">
   <p class="principle">Datos públicos, reglas a la vista y cada cifra enlazada a su fuente. Indicios, no veredictos.</p>
   <p>Fuentes: BOE (datos abiertos), BOC Boletín Oficial de Cantabria (XML diario), Agencia Europea de Medio Ambiente (Natura 2000, versión 2024), GBIF (registros de animales con coordenadas desde 2005, categorías UICN), OpenStreetMap/Nominatim (límites municipales), Catastro (parcelas INSPIRE).
   Código abierto con licencia MIT: <a href="{REPO_URL}">github.com/Asensio94/observatorio-alegaciones</a>. Datos propios con licencia CC BY 4.0; los de terceros conservan la suya.</p>
+  <p class="hub"><a href="{HUB_URL}">← Terra Aperta: todos los proyectos</a></p>
+  <p>Proyectos hermanos:</p>
   <nav aria-label="Proyectos hermanos"><ul class="siblings">
 {_sibling_items()}  </ul></nav>
 </footer>"""
