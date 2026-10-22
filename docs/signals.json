@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-15T12:50Z",
+ "generated": "2026-10-21T13:05Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -9777,6 +9777,1370 @@
     "promoter": null,
     "file": "FUE-2024-03832707",
     "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21602",
+   "kind": "resolution",
+   "date": "2026-10-16",
+   "title": "Resolución de 21 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Módulos de generación eólica \"Parque eólico Elawan Belinchón I, II y III híbridos\", para su hibridación con los parques fotovoltaicos existentes y su infraestructura de evacuación, en la provincia de Cuenca».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21602",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Belinchón",
+    "Zarza de Tajo",
+    "Barajas de Melo",
+    "Leganiel",
+    "Huelves"
+   ],
+   "provinces": [
+    "Cuenca"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desfavorable",
+   "value": {
+    "amount": 72.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Elawan Fotovoltaica Belinchón 1, SL",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21603",
+   "kind": "resolution",
+   "date": "2026-10-16",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Biovent Energía, SA, de autorización administrativa previa y autorización de construcción de la instalación fotovoltaica Bordecorex Norte, de 44,199 MW de potencia instalada, para su hibridación con el parque eólico Bordecorex Norte, de 44,35 MW de potencia instalada, en la provincia de Soria.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21603",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Velamazán",
+    "Barca",
+    "Caltojar",
+    "Berlanga de Duero",
+    "Centenera de Andaluz"
+   ],
+   "provinces": [
+    "Soria"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-FV-152",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21604",
+   "kind": "resolution",
+   "date": "2026-10-16",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Iberdrola Renovables Castilla y León, SA, de autorización administrativa previa y autorización administrativa de construcción de la instalación fotovoltaica Ventosa del Ducado, de 43,89 MW de potencia instalada, para su hibridación con el parque eólico Ventosa del Ducado, de 44 MW de potencia instalada, en la provincia de Soria.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21604",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Miño de Medinaceli"
+   ],
+   "provinces": [
+    "León",
+    "Soria"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Iberdrola Renovables Castilla y León, SA",
+    "file": "PEol-FV-157",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21605",
+   "kind": "resolution",
+   "date": "2026-10-16",
+   "title": "Resolución de 14 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Khons Sun Power, SL, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento con baterías Tagus 2 HBESS, de 176,44 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica Tagus 2, de 224,4 MW de potencia instalada, ubicadas en Ocaña y Ontígola (Toledo).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21605",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Ocaña",
+    "Ontígola",
+    "Colmenar de Oreja",
+    "Villaconejos",
+    "Chinchón",
+    "Morata de Tajuña",
+    "Arganda del Rey"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 400.84,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Khons Sun Power",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21606",
+   "kind": "resolution",
+   "date": "2026-10-16",
+   "title": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción del proyecto de ejecución «Repotenciación de la línea aérea de transporte de energía eléctrica a 400 kV Tajo de la Encantada–Archidona–Caparacena–Huéneja–Tabernas–Litoral», en las provincias de Málaga, Granada y Almería.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21606",
+   "sites": [
+    {
+     "code": "ES0000182"
+    },
+    {
+     "code": "ES2410030"
+    },
+    {
+     "code": "ES2410084"
+    },
+    {
+     "code": "ES0000183"
+    },
+    {
+     "code": "ES0000181"
+    },
+    {
+     "code": "ES2430082"
+    },
+    {
+     "code": "ES5130040"
+    },
+    {
+     "code": "ES0000021"
+    },
+    {
+     "code": "ES2410073"
+    },
+    {
+     "code": "ES5130017"
+    },
+    {
+     "code": "ES5130013"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Málaga",
+    "Granada",
+    "Almería"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España",
+    "file": null,
+    "paired_with": "BOE-B-2026-29329"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33614",
+   "kind": "notice",
+   "date": "2026-10-16",
+   "title": "Anuncio de la Autoridad Portuaria de la Bahía de Algeciras por la que se somete a información pública la solicitud de concesión demanial formulada por Moeve Commercial, SAU.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33614",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-13",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33615",
+   "kind": "notice",
+   "date": "2026-10-16",
+   "title": "Anuncio de la Subdirección General de Aeropuertos y Navegación Aérea, por el que se acuerda el inicio de la fase de Información Pública de los bienes y derechos necesarios para la ejecución de las obras del expediente 120-AENA/26 \"Expropiación de los terrenos necesarios para nueva urbanización, plataforma y edificio de aviación general. Aeropuerto de Alicante - Elche Miguel Hernández\", en el término municipal de Elche (Alicante).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33615",
+   "sites": [
+    {
+     "code": "ES0000484"
+    },
+    {
+     "code": "ES0000058"
+    },
+    {
+     "code": "ES0000120"
+    },
+    {
+     "code": "ES0000486"
+    },
+    {
+     "code": "ES0000462"
+    },
+    {
+     "code": "ES5213025"
+    },
+    {
+     "code": "ES0000214"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Elche"
+   ],
+   "provinces": [
+    "Alicante"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-06",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": "120-AENA/26",
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33616",
+   "kind": "notice",
+   "date": "2026-10-16",
+   "title": "Anuncio de la Autoridad Portuaria de Gijón por el que se somete a información pública solicitud de modificación sustancial de la concesión administrativa de Grúas Roxu S.A.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33616",
+   "sites": [
+    {
+     "code": "ES0000320"
+    },
+    {
+     "code": "ES1200047"
+    },
+    {
+     "code": "ES1200038"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Gijón",
+    "El Musel"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-13",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "EXP2024/000353",
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33618",
+   "kind": "notice",
+   "date": "2026-10-16",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Universidad, Industria, Energía e Innovación en Sevilla, por el que se somete a información pública la petición realizada por la mercantil Verde Solar IFV 14, S.L., por la que se solicita Autorización Administrativa de Construcción así como la Declaración en Concreto de Utilidad Pública, para la instalación de generación de energía eléctrica denominada \"HSF ENTRENUCLEOS 5\", ubicada en el término municipal de Dos Hermanas (Sevilla).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33618",
+   "sites": [
+    {
+     "code": "ES0000272"
+    },
+    {
+     "code": "ES6150019"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Dos Hermanas",
+    "Paraje"
+   ],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-27",
+   "status": null,
+   "value": {
+    "amount": 4.995,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "VERDE SOLAR IFV14, S.L. (B06941595)",
+    "file": "292.193",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33627",
+   "kind": "notice",
+   "date": "2026-10-16",
+   "title": "Anuncio de la Confederación Hidrográfica del Guadiana relativo a la información pública y anexo con relación de bienes y derechos afectados por las expropiaciones de los proyectos de implantación de los planes de emergencia de las presas de Cancho del Fresno (Cáceres), Ruecas (Cáceres), Cubilar (Cáceres), Gargáligas (Cáceres y Badajoz), y Sierra Brava (Cáceres y Badajoz).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33627",
+   "sites": [
+    {
+     "code": "ES0000333"
+    },
+    {
+     "code": "ES0000408"
+    },
+    {
+     "code": "ES4320005"
+    },
+    {
+     "code": "ES0000400"
+    },
+    {
+     "code": "ES4320029"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Cañamero",
+    "Logrosán",
+    "Navalvillar de Pela",
+    "Puebla de Alcocer",
+    "Zorita",
+    "Madrigalejo",
+    "Alcollarín",
+    "Campo Lugar"
+   ],
+   "provinces": [
+    "Cáceres",
+    "Badajoz"
+   ],
+   "precision": "parcelas",
+   "deadline": "2026-11-13",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": null,
+    "file": "04.118-0027/2111",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33651",
+   "kind": "notice",
+   "date": "2026-10-16",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Jaén de la Junta de Andalucía, por el que se somete a información pública la solicitud de declaración en concreto, de utilidad pública realizada por E-Distribución Redes Digitales, S.L.U. relativa a la instalación de energía eléctrica \"línea aérea de alimentación a nueva subestación \"El Condado\" desde la línea 132 kV Úbeda - Villanueva del Arzobispo\".",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33651",
+   "sites": [
+    {
+     "code": "ES6160014"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Santisteban del Puerto",
+    "Castellar",
+    "Iznatoraf",
+    "Villacarrillo",
+    "Polig"
+   ],
+   "provinces": [
+    "Jaén"
+   ],
+   "precision": "parcelas",
+   "deadline": "2026-11-27",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "E-Distribución Redes Digitales, S.L.U",
+    "file": "AT-013-2022",
+    "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33653",
+   "kind": "resolution",
+   "date": "2026-10-16",
+   "title": "Resolución del Servicio de Ordenación Industrial, Energética y Minera, de la Consejería de Industria, Energía, Ciencia y Territorio, por la que se declaran, en concreto de utilidad pública las instalaciones correspondientes al proyecto denominado \"Proyecto para ejecución de nuevas líneas subterráneas de AT, de 45 kV, de enlace entre la ST Los Arenales y la ST Cáceres y STR Cáceres-2, en Cáceres\". Expediente: AT-9671.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33653",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Cáceres"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": "AT-9671",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-33654",
+   "kind": "notice",
+   "date": "2026-10-16",
+   "title": "Anuncio del Servicio de Ordenación Industrial, Energética y Minera de la Dirección General de Industria, Energía y Minas, por el que se somete a información pública la petición de autorización administrativa previa y reconocimiento en concreto de la utilidad pública de las instalaciones correspondientes al proyecto denominado: Proyecto para nueva LAMT por reforma (por cambio de conductor LA-30) de la LAMT 4143-06-\"Alburquerque\" de la STR \"San Vicente de Alcántara\", de 20 kV, entre los apoyos 5105 y 2136 de la misma. Términos municipales: Alburquerque y San Vicente de Alcántara. Expediente: 06AT-10177-18614.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33654",
+   "sites": [
+    {
+     "code": "ES4310022"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Alburquerque",
+    "San Vicente de Alcántara",
+    "Tipo de Terreno"
+   ],
+   "provinces": [
+    "Cáceres"
+   ],
+   "precision": "parcelas",
+   "deadline": "2026-11-27",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "i-DE Redes Eléctricas Inteligentes, S.A.U",
+    "file": "06AT-10177-18614",
+    "department": "COMUNIDAD AUTÓNOMA DE EXTREMADURA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21662",
+   "kind": "resolution",
+   "date": "2026-10-17",
+   "title": "Resolución de 21 de septiembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Modificaciones en la instalación solar fotovoltaica \"Baluma Solar\", de 58,14 MW de potencia instalada, y en su infraestructura de evacuación, en la provincia de Granada».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21662",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Atarfe"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "value": {
+    "amount": 62.5,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21663",
+   "kind": "resolution",
+   "date": "2026-10-17",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Cefiro Holdco 8, SL, de autorización administrativa previa del parque eólico Ampliación El Páramo, de 50,88 MW, en la provincia de León.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21663",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Igüeña",
+    "Páramo del Sil",
+    "Toreno"
+   ],
+   "provinces": [
+    "León"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 92.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-929",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21766",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 17, SL, la autorización administrativa previa y la autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Los Arcos», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Los Arcos», de 43,90 MW de potencia instalada, en Andorra (Teruel).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21766",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Andorra"
+   ],
+   "provinces": [
+    "Teruel"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 43.9,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta Solar OPDE 17, SL, (Número de Expediente INAGA 500201/01A/2020/08000)",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21767",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Vega Solar, SLU, la declaración, en concreto, de utilidad pública para la planta fotovoltaica Vega Solar, de 39,93 MW de potencia instalada, y su infraestructura de evacuación, en Tórtola de Henares, Guadalajara, Chiloeches, y Pozo de Guadalajara (Guadalajara) y Santorcaz, Los Santos de la Humosa y Alcalá de Henares (Madrid).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21767",
+   "sites": [
+    {
+     "code": "ES3110001"
+    },
+    {
+     "code": "ES0000139"
+    },
+    {
+     "code": "ES4240003"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tórtola de Henares",
+    "Guadalajara",
+    "Yunquera de Henares",
+    "Fontanar",
+    "Chiloeches",
+    "Pozo de Guadalajara",
+    "Santorcaz",
+    "Los Santos de la Humosa",
+    "Alcalá de Henares"
+   ],
+   "provinces": [
+    "Guadalajara",
+    "Madrid"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 43.23,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Vega Solar",
+    "file": "SGIISE/PFot-602",
+    "paired_with": "BOE-B-2026-30098"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21768",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Greenalia Wind Power Mistral, SLU, de la solicitud de autorización administrativa previa del parque eólico «Mistral», de 106,4 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de Lugo.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21768",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Lugo"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 106.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-338",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21769",
+   "kind": "resolution",
+   "date": "2026-10-19",
+   "title": "Resolución de 29 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Enel Green Power España, SL, autorización administrativa previa y autorización administrativa de construcción de la instalación de almacenamiento por baterías «Tesouro Storage», de 17,5 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con el parque eólico «Tesouro», de 50,4 MW de potencia instalada, en As Pontes de García Rodríguez (A Coruña).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21769",
+   "sites": [
+    {
+     "code": "ES1110003"
+    },
+    {
+     "code": "ES1110013"
+    },
+    {
+     "code": "ES1120015"
+    },
+    {
+     "code": "ES1110001"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "As Pontes de García Rodríguez"
+   ],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 62.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Enel Green Power España",
+    "file": null,
+    "paired_with": "BOE-B-2026-28327"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33991",
+   "kind": "notice",
+   "date": "2026-10-19",
+   "title": "Anuncio de la Autoridad Portuaria de Castellón por el que se somete a información pública la solicitud de modificación sustancial de la concesión administrativa del titular Club actividades subacuáticas Escorpa.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33991",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Castellón"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-16",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-33994",
+   "kind": "notice",
+   "date": "2026-10-19",
+   "title": "Anuncio de la Autoridad Portuaria de A Coruña por el que se somete a información pública una solicitud de concesión administrativa en el Puerto Exterior de A Coruña.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33994",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-16",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34024",
+   "kind": "notice",
+   "date": "2026-10-19",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción y la declaración, en concreto, de utilidad pública del proyecto denominado Adecuación de la línea aérea de media tensión Benalu_DI SG01038 Plan Choperas. Tramo Camarate – Cjo. La Torre – Área de servicio, en el término municipal de Guadix.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34024",
+   "sites": [
+    {
+     "code": "ES6140006"
+    },
+    {
+     "code": "ES6140004"
+    },
+    {
+     "code": "ES6160015"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Guadix"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-30",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "E-Distribución Redes Digitales, S.L.U",
+    "file": "E-5368",
+    "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21854",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Iberenova Promociones, SA, de autorización administrativa previa y autorización de construcción de la instalación fotovoltaica Los Campillos, de 33,825 MW de potencia instalada, para su hibridación con el parque eólico Los Campillos, de 34 MW de potencia instalada, en la provincia de Soria.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21854",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Velamazán",
+    "Caltojar",
+    "Centenera de Andaluz"
+   ],
+   "provinces": [
+    "Soria"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Iberenova Promociones, SA, por no reunir los requisitos establecidos en el Real Decreto-ley 20/2022",
+    "file": "PEol-FV-151",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21855",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta FV100, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento de energía por baterías «Solaria-Santiz I», de 19,993 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la instalación fotovoltaica existente «FV Solaria-Santiz I», de 49,989 MW, en Valdelosa (Salamanca).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21855",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Valdelosa",
+    "Santiz"
+   ],
+   "provinces": [
+    "Salamanca"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 49.989,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "«Planta FV3, SL»",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21856",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 3, SL, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Hibridación Los Belos», de 26,74 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Los Belos», de 41,6 MW de potencia instalada, en La Muela y Muel (Zaragoza).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21856",
+   "sites": [
+    {
+     "code": "ES0000300"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "La Muela",
+    "Muel"
+   ],
+   "provinces": [
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 41.6,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta Solar OPDE 3",
+    "file": null,
+    "paired_with": "BOE-B-2026-30030"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21857",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 23 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Brovales, en el parque de 400 kV, mediante la instalación de un compensador síncrono y su posición asociada, en Jerez de los Caballeros (Badajoz).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21857",
+   "sites": [
+    {
+     "code": "ES5110012"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Jerez de los Caballeros"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España",
+    "file": "INF/DE/163/26",
+    "paired_with": "BOE-B-2026-33266"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21858",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Iberdrola Renovables Aragón, SAU, autorización administrativa previa y autorización administrativa de construcción para el proyecto de almacenamiento por baterías «BESS Hibridación FV Teruel», de 27,64 MW de potencia instalada, y para una parte de su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica existente «FV Teruel», de 42,56 MW de potencia instalada, en Azaila (Teruel).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21858",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Azaila"
+   ],
+   "provinces": [
+    "Teruel"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 42.56,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Iberdrola Renovables Aragón",
+    "file": "TE-AT1265/17",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-21859",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Greenalia Wind Power Nordés, SLU, de la solicitud de autorización administrativa previa del parque eólico «Nordés», de 67,2 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Lugo y A Coruña.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21859",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Lugo",
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 106.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-334",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-34142",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Autoridad Portuaria de Almería de corrección de errores de la Resolución por la que se abre un periodo de información pública sobre el Plan de acción contra el ruido del Puerto de Almería.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34142",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Almería"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34144",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Extremadura, por el que se somete a Información Pública la solicitud de autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento \"ALM HIB San Serván 2020\", para su hibridación con el parque fotovoltaico existente \"FV San Serván 2020\", y para una parte de su infraestructura de evacuación, en la provincia de Badajoz. Exp.: PFOT-ALM-173.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34144",
+   "sites": [
+    {
+     "code": "ES0000069"
+    },
+    {
+     "code": "ES0000334"
+    },
+    {
+     "code": "ES4310048"
+    },
+    {
+     "code": "ES0000327"
+    },
+    {
+     "code": "ES0000328"
+    },
+    {
+     "code": "ES4310017"
+    },
+    {
+     "code": "ES4310026"
+    },
+    {
+     "code": "ES4310061"
+    },
+    {
+     "code": "ES0000070"
+    },
+    {
+     "code": "ES0000395"
+    },
+    {
+     "code": "ES4320016"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Mérida"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-10",
+   "status": null,
+   "value": {
+    "amount": 45.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "ALTER ENERSUN MÉRIDA UNO S.A",
+    "file": "PFOT-ALM-173",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34146",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Demarcación de Costas en Cataluña de información pública de la solicitud de inicio de trámites de declaración de zona de reserva de DPMT en los términos municipales de Sant Pere de Ribes y Sitges (Barcelona). Referencia RES01/26/08/0002.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34146",
+   "sites": [
+    {
+     "code": "ES5110013"
+    },
+    {
+     "code": "ES5110020"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Sant Pere de Ribes",
+    "Sitges"
+   ],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34147",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de extinción del aprovechamiento de 0,81 l/s de agua procedente de un pozo en el Polígono Industrial de Ribadil, término municipal de A Cañiza (Pontevedra), con destino a uso industrial y sanitario. Expediente: A/36/03186/E.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34147",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "A Cañiza",
+    "Pontevedra"
+   ],
+   "provinces": [
+    "Pontevedra"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "agua_concesion",
+    "promoter": "Galimetal, S.A",
+    "file": "A/36/03186/E",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34151",
+   "kind": "resolution",
+   "date": "2026-10-20",
+   "title": "Resolución de la Dirección General de Política Energética y Minas por la que se otorga a Naturgy Renovables S.L.U. autorización administrativa de construcción para el módulo fotovoltaico \"El Almendro\", de 36 MW de potencia instalada y su infraestructura de evacuación, en el término municipal de El Almendro, en la provincia de Huelva, para su hibridación con el parque eólico existente PE El Almendro, y se declara, en concreto, su utilidad pública.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34151",
+   "sites": [
+    {
+     "code": "ES4140129"
+    },
+    {
+     "code": "ES4140077"
+    },
+    {
+     "code": "ES0000205"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "El Almendro",
+    "Puebla de Guzmán"
+   ],
+   "provinces": [
+    "Huelva"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 43.5,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Naturgy Renovables S.L.U",
+    "file": null,
+    "paired_with": "BOE-B-2026-27922"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34162",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Demarcación de Costas en Galicia de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, en relación con talud costero, muros de contención, escaleras, caminos acceso al mar y estructura cubierta en lugar denominado Celeiro (Centroña), en el término municipal de Pontedeume (A Coruña).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34162",
+   "sites": [
+    {
+     "code": "ES1110003"
+    },
+    {
+     "code": "ES0000554"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Pontedeume"
+   ],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "CNC12/23/15/0002",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34189",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio de la Dirección General de Energía, Departamento de Territorio, Vivienda y Transición Ecológica de la Generalitat de Cataluña, por el cual se somete a información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública del proyecto de la planta de almacenamiento de 5,5 MW denominada PHFV CENTELLES, en el término municipal de Centelles, en la comarca de Osona, y su infraestructura de evacuación, línea subterránea de 25 kV en el municipio de Centelles (exp. FUE-2024-04113547, referencia 03150).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34189",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Centelles",
+    "Finca"
+   ],
+   "provinces": [
+    "Madrid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": {
+    "amount": 5.5,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": "FUE-2024-04113547",
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34190",
+   "kind": "notice",
+   "date": "2026-10-20",
+   "title": "Anuncio del Departamento de Territorio, Vivienda y Servicios, Territoriales en Girona, de la Generalitat de Catalunya por el cual se somete a información pública la solicitud de declaración de utilidad pública, en concreto, del proyecto de la planta solar fotovoltaica denominada \"PS el Pla\", de 5 MW, de potencia instalada sobre terreno en suelo no urbanizable, en el término municipal de Llagostera, en la comarca del Gironès y su infraestructura de evacuación, líneas soterradas a 25 kV, en los términos municipales de Llagostera y Cassà de la Selva, en la comarca del Gironès (exp. FUE-2023-03317266, referencia 02739).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34190",
+   "sites": [
+    {
+     "code": "ES5120010"
+    },
+    {
+     "code": "ES5120013"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Llagostera",
+    "Cassà de la Selva"
+   ],
+   "provinces": [
+    "Girona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-01",
+   "status": null,
+   "value": {
+    "amount": 5.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "FUE-2023-03317266",
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21938",
+   "kind": "resolution",
+   "date": "2026-10-21",
+   "title": "Resolución de 9 de mayo de 2025, de la Dirección General de Política Energética y Minas, por la que se otorga a Naturgy Renovables, SLU, la autorización administrativa previa y la autorización administrativa de construcción del módulo de almacenamiento por baterías «BESS Tabernas I», de 19,8 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Tabernas I», de 48,8 MW de potencia instalada, situado en Tabernas (Almería).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21938",
+   "sites": [
+    {
+     "code": "ES4140129"
+    },
+    {
+     "code": "ES4140077"
+    },
+    {
+     "code": "ES0000205"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tabernas"
+   ],
+   "provinces": [
+    "Almería"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 48.8,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Naturgy Renovables",
+    "file": null,
+    "paired_with": "BOE-B-2026-27922"
+   }
+  },
+  {
+   "id": "BOE-A-2026-21939",
+   "kind": "resolution",
+   "date": "2026-10-21",
+   "title": "Resolución de 9 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Cefiro Holdco 7, SL, de autorización administrativa previa del parque eólico El Páramo, de 92,4 MW, en la provincia de León.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21939",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Igüeña",
+    "Noceda del Bierzo",
+    "Páramo del Sil",
+    "Toreno"
+   ],
+   "provinces": [
+    "León"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 92.4,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-899",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-34264",
+   "kind": "notice",
+   "date": "2026-10-21",
+   "title": "Anuncio de Adif-Alta Velocidad por el que se somete a información pública a efectos de declaración de la necesidad de ocupación el Proyecto Básico de la Conexión Ferroviaria de la Línea de Alta Velocidad Castejón-Pamplona en el entorno de Castejón de Ebro.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34264",
+   "sites": [
+    {
+     "code": "ES2200037"
+    },
+    {
+     "code": "ES2200040"
+    },
+    {
+     "code": "ES2200041"
+    },
+    {
+     "code": "ES0000172"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tudela",
+    "Castejón"
+   ],
+   "provinces": [
+    "Navarra",
+    "Madrid",
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-02",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34284",
+   "kind": "notice",
+   "date": "2026-10-21",
+   "title": "Anuncio de la Confederación Hidrográfica del Guadiana de sometimiento a información pública para la ejecución de varios badenes en el arroyo del Cuervo en el T.M. Puerto de Santa Cruz (Cáceres). Referencia: PUPA 6/26.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34284",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Puerto de Santa Cruz"
+   ],
+   "provinces": [
+    "Cáceres"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-02",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": "Junta de Extremadura (Servicio de Infraestructuras Rurales)",
+    "file": "PS-0028/2026",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34293",
+   "kind": "resolution",
+   "date": "2026-10-21",
+   "title": "Resolución de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, de autorización administrativa previa y autorización administrativa de construcción y declaración, en concreto, de utilidad pública del proyecto cambio de conductor de la línea eléctrica de alta tensión 66 kV SC/DC Agribética-Cantillana y cambio de cable de tierra por fibra óptica entre los apoyos 40 a 78, en los términos municipales de Brenes, Cantillana y La Rinconada (Sevilla). Cód. plan: SX.05270/081.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34293",
+   "sites": [
+    {
+     "code": "ES6160014"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Brenes",
+    "Cantillana",
+    "La Rinconada",
+    "Cantillana y la Rinconada"
+   ],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "parcelas",
+   "deadline": null,
+   "status": "sentido no determinado",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "EDISTRIBUCION REDES DIGITALES, S.L.U",
+    "file": "291653",
+    "paired_with": "BOE-B-2026-33651"
    }
   }
  ]
