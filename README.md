@@ -293,7 +293,7 @@ docs/          web publicada con GitHub Pages (la regenera el flujo diario: se c
 | BOE datos abiertos (`/datosabiertos/api/boe/sumario/AAAAMMDD`) | sumarios diarios y XML de cada anuncio | público, sin clave |
 | BOC Cantabria (`boletines.do` por fecha → `verXmlAction.do?idBlob=N`) | XML diario con el texto completo de cada anuncio, CVE y órgano | público, sin clave |
 | EEA Natura 2000 (ArcGIS REST) | espacios LIC/ZEC/ZEPA que intersectan el municipio | público |
-| GBIF occurrence API | especies animales con categoría UICN CR/EN/VU/NT en la zona (desde 2005) | público |
+| GBIF occurrence API | especies animales con categoría UICN CR/EN/VU/NT en la zona (desde 2005), sin las no nativas en España (`NO_NATIVAS` en `observatorio/species.py`: la categoría UICN es mundial) | público |
 | Nominatim (OSM) | polígonos municipales | público, 1 petición/s |
 | Catastro (servicio INSPIRE) | parcelas de la relación de bienes y derechos | público |
 

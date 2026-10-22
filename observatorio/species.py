@@ -28,6 +28,39 @@ _SESSION.mount("https://", HTTPAdapter(max_retries=Retry(total=4, backoff_factor
 
 _ESP_CAT = {"CR": "En peligro crítico", "EN": "En peligro", "VU": "Vulnerable", "NT": "Casi amenazada"}
 
+# GBIF gives the global IUCN category, so species threatened where they come from but not native in Spain
+# (escaped cage birds, Asian terrapins, captive gazelles, the aoudad) came out as threatened fauna here.
+# They are dropped. Wild vagrants (American waders, Rüppell's vulture) are native visitors and stay.
+NO_NATIVAS = frozenset({
+    "Agapornis fischeri",
+    "Amazona aestiva",
+    "Ammotragus lervia",
+    "Anser cygnoides",
+    "Aratinga erythrogenys",
+    "Cynops pyrrhogaster",
+    "Gazella cuvieri",
+    "Gazella dorcas",
+    "Mauremys reevesii",
+    "Mauremys sinensis",
+    "Pelodiscus sinensis",
+    "Psittacus erithacus",
+})
+
+
+def nativas(resumen: dict) -> dict:
+    """The summary without the species in NO_NATIVAS, counts recomputed."""
+    fuera = [e for e in resumen.get("especies", []) if e.get("scientificName") in NO_NATIVAS]
+    if not fuera:
+        return resumen
+    especies = [e for e in resumen["especies"] if e.get("scientificName") not in NO_NATIVAS]
+    out = {**resumen, "especies": especies}
+    if "total_registros_amenazadas" in resumen:
+        out["total_registros_amenazadas"] = resumen["total_registros_amenazadas"] - sum(e.get("registros", 0) for e in fuera)
+        out["aves_amenazadas_registros"] = sum(e.get("registros", 0) for e in especies if e.get("class") == "Aves")
+        out["n_especies"] = len(especies)
+        out["n_aves"] = sum(1 for e in especies if e.get("class") == "Aves")
+    return out
+
 
 def _species_info(key: int) -> dict:
     cache = CACHE_DIR / "gbif" / f"species_{key}.json"
@@ -59,7 +92,7 @@ def especies_amenazadas(geom: BaseGeometry, max_species: int = 40) -> dict:
     key = hashlib.md5(wkt.encode()).hexdigest()[:16]
     cache = CACHE_DIR / "gbif" / f"occ_{key}.json"
     if cache.exists():
-        return json.loads(cache.read_text(encoding="utf-8"))
+        return nativas(json.loads(cache.read_text(encoding="utf-8")))
 
     resumen: dict = {"total_registros_amenazadas": 0, "aves_amenazadas_registros": 0, "especies": []}
     params = [
@@ -117,4 +150,4 @@ def especies_amenazadas(geom: BaseGeometry, max_species: int = 40) -> dict:
     resumen["n_especies"] = len(especies)
     resumen["n_aves"] = sum(1 for e in especies if e.get("class") == "Aves")
     cache.write_text(json.dumps(resumen, ensure_ascii=False), encoding="utf-8")
-    return resumen
+    return nativas(resumen)

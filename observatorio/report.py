@@ -29,6 +29,26 @@ COLORES = {
     "otros": "#444444",
 }
 
+# What readers see instead of the internal category keys.
+ETIQUETAS_CATEGORIA = {
+    "eolica": "Eólica",
+    "fotovoltaica": "Fotovoltaica",
+    "red_electrica": "Red eléctrica",
+    "hidrogeno_baterias": "Hidrógeno y baterías",
+    "hidrocarburos_gas": "Hidrocarburos y gas",
+    "mineria": "Minería",
+    "transporte": "Transporte",
+    "puertos_costas": "Puertos y costas",
+    "hidraulica": "Hidráulica",
+    "urbanismo_industria": "Urbanismo e industria",
+    "agua_concesion": "Concesión de agua",
+    "otros": "Otros",
+}
+
+
+def etiqueta_categoria(categoria: str) -> str:
+    return ETIQUETAS_CATEGORIA.get(categoria, (categoria or "").replace("_", " ").capitalize())
+
 # Shared look of the sibling projects: common.css is copied verbatim from the style guide and inlined
 # before this repo's own rules, so every page stays a single self-contained file.
 COMMON_CSS = (Path(__file__).resolve().parent / "common.css").read_text(encoding="utf-8")
@@ -102,7 +122,7 @@ def esc(s) -> str:
 
 
 def badge(categoria: str) -> str:
-    return f'<span class="badge" style="background:{COLORES.get(categoria, "#444")}">{esc(categoria)}</span>'
+    return f'<span class="badge" style="background:{COLORES.get(categoria, "#444")}">{esc(etiqueta_categoria(categoria))}</span>'
 
 
 
@@ -162,7 +182,7 @@ def construir_mapa(resultados: list[dict]) -> folium.Map:
         color = COLORES.get(a["categoria"], "#444")
         popup = folium.Popup(
             f"<b>{esc(a['identificador'])}</b><br>{esc(a['titulo'][:300])}…<br>"
-            f"<b>Categoría:</b> {esc(a['categoria'])} · <b>Natura 2000 en el municipio:</b> {len(r['natura'])} · "
+            f"<b>Categoría:</b> {esc(etiqueta_categoria(a['categoria']))} · <b>Natura 2000 en el municipio:</b> {len(r['natura'])} · "
             f"<b>Especies amenazadas:</b> {r['especies'].get('n_especies', 0)}<br>"
             f"<b>Fecha límite (est.):</b> {esc(a.get('fecha_limite'))}<br>"
             f"<a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Ver anuncio oficial ({esc(a.get('fuente', 'BOE'))})</a>",
@@ -171,12 +191,12 @@ def construir_mapa(resultados: list[dict]) -> folium.Map:
         folium.GeoJson(
             mapping(geom.simplify(0.0008, preserve_topology=True)),
             style_function=lambda _f, c=color: {"color": c, "weight": 2, "fillColor": c, "fillOpacity": 0.25},
-            tooltip=f"{a['identificador']} · {a['categoria']}",
+            tooltip=f"{a['identificador']} · {etiqueta_categoria(a['categoria'])}",
         ).add_child(popup).add_to(proy_layer)
         c = geom.centroid
         folium.CircleMarker(
             [c.y, c.x], radius=9, color=color, fill=True, fill_opacity=0.9,
-            tooltip=f"{a['identificador']} · {a['categoria']} · límite {a.get('fecha_limite', '')}",
+            tooltip=f"{a['identificador']} · {etiqueta_categoria(a['categoria'])} · límite {a.get('fecha_limite', '')}",
         ).add_to(marcadores)
         for s in r["natura"]:
             if not s.get("geometry") or s["sitecode"] in vistos:
@@ -201,9 +221,49 @@ def texto_plazo(a: dict) -> str:
     d = dias_restantes(lim)
     est = " (plazo no detectado; se asume 30 días hábiles)" if a.get("plazo_estimado") else f" ({a.get('plazo_dias')} días hábiles)"
     if d < 0:
-        return f"<span class=cerrado>{lim:%d/%m/%Y} · cerrado</span>{est}"
+        return f"<span class=cerrado>{lim:%d/%m/%Y} · plazo cerrado</span>{est}"
     cls = "urgente" if d <= 7 else ""
-    return f"<span class='{cls}'>{lim:%d/%m/%Y} · quedan {d} días</span>{est}"
+    return f"<span class='{cls}'>{lim:%d/%m/%Y} · {quedan(d)}</span>{est}"
+
+
+def quedan(d: int) -> str:
+    """Calendar days left to a deadline that has not passed yet."""
+    if d == 0:
+        return "último día hoy"
+    if d == 1:
+        return "último día mañana"
+    return f"quedan {d} días naturales"
+
+
+def sin_cruce(a: dict) -> str:
+    """Why a project was not crossed with Natura 2000 and GBIF, or "" if it was."""
+    if a.get("geolocalizado", True):
+        return ""
+    if not a.get("municipios"):
+        return "sin cruce: municipios no detectados"
+    if a.get("prioridad", 0) < PRIORIDAD_CRUCE:
+        return "sin cruce: prioridad baja"
+    return "sin cruce: municipios no localizados"
+
+
+# Projects below this priority are listed but not crossed (cli.run, --min-prioridad).
+PRIORIDAD_CRUCE = 3
+
+
+def como_alegar(a: dict) -> str:
+    """Where, by when and with what reference, taken from the notice itself."""
+    depende = f"; depende de: {esc(a['departamento'])}" if a.get("departamento") else ""
+    ref = esc(a.get("expediente")) or esc(a["identificador"])
+    if a.get("fecha_limite"):
+        lim = date.fromisoformat(a["fecha_limite"])
+        cuando = (f"hasta el {lim:%d/%m/%Y} (estimado)" if dias_restantes(lim) >= 0
+                  else f"el plazo cerró el {lim:%d/%m/%Y} (estimado)")
+    else:
+        cuando = "en el plazo que indique el anuncio"
+    return (f"Escrito dirigido al órgano que firma el anuncio (el que nombra el título{depende}), {cuando}, "
+            f"citando <b>{ref}</b>. "
+            f"Dónde se presenta y dónde se consulta el proyecto lo dice el "
+            f"<a href=\"{esc(a['url_html'])}\" target=\"_blank\" rel=\"noopener\">anuncio oficial</a>.")
 
 
 def ficha(r: dict) -> str:
@@ -211,25 +271,31 @@ def ficha(r: dict) -> str:
     esp = r["especies"]
     munis = ", ".join(a["municipios"]) or "<i>no detectados</i>"
     no_res = r.get("municipios_no_resueltos") or []
+    cruzado = r.get("geom") is not None
+    motivo = sin_cruce({**a, "geolocalizado": cruzado})
     filas_natura = "".join(
         f"<tr><td>{esc(s['sitecode'])}</td><td>{esc(s['nombre'])}</td><td>{esc(s['tipo'])}</td></tr>"
         for s in r["natura"]
-    ) or "<tr><td colspan=3><i>Ningún espacio Natura 2000 en los municipios detectados</i></td></tr>"
+    ) or (f"<tr><td colspan=3><i>Ningún espacio Natura 2000 encontrado en los municipios</i></td></tr>" if cruzado
+          else f"<tr><td colspan=3><i>No se ha hecho el cruce: {motivo.removeprefix('sin cruce: ')}</i></td></tr>")
     filas_esp = "".join(
         f"<tr><td><i>{esc(e['scientificName'])}</i></td><td>{esc(e.get('vernacular_es', ''))}</td>"
         f"<td>{esc(e.get('class', ''))}</td><td>{esc(e['categoria_es'])}</td>"
         f"<td style='text-align:right'>{e['registros']}</td></tr>"
         for e in esp.get("especies", [])[:25]
-    ) or "<tr><td colspan=5><i>Sin registros de especies amenazadas (o zona sin geolocalizar)</i></td></tr>"
+    ) or (f"<tr><td colspan=5><i>Ningún registro de especie amenazada encontrado en los municipios</i></td></tr>" if cruzado
+          else f"<tr><td colspan=5><i>No se ha hecho el cruce: {motivo.removeprefix('sin cruce: ')}</i></td></tr>")
     mw = f"{a['potencia_mw']:g} MW" if a.get("potencia_mw") else ""
     amb = "Sí" if a.get("tramite_ambiental") else "No detectado en el título"
+    n_esp = (f"{esp.get('n_especies', 0)} especies, {esp.get('n_aves', 0)} aves, "
+             f"{esp.get('total_registros_amenazadas', 0)} registros") if cruzado else "sin cruce"
     return f"""
 <section class="ficha" id="{esc(a['identificador'])}">
   <h2>{badge(a['categoria'])}{badge_fuente(a.get('fuente', 'BOE'))} {esc(a['identificador'])} <small>(publicado {esc(a['fecha'])}, prioridad {a['prioridad']})</small></h2>
   <p class="titulo">{esc(a['titulo'])}</p>
   <table class="meta">
     <tr><th>Fecha límite de alegaciones (estimada)</th><td>{texto_plazo(a)}</td></tr>
-    <tr><th>Órgano</th><td>{esc(a['departamento'])}</td></tr>
+    <tr><th>Departamento</th><td>{esc(a['departamento'])}</td></tr>
     <tr><th>Trámite ambiental (EsIA/EIA)</th><td>{amb}</td></tr>
     <tr><th>Municipios</th><td>{esc(munis)}{(' · <span class=warn>no geolocalizados: ' + esc(', '.join(no_res)) + '</span>') if no_res else ''}</td></tr>
     <tr><th>Provincias</th><td>{esc(', '.join(a['provincias']))}</td></tr>
@@ -237,10 +303,11 @@ def ficha(r: dict) -> str:
     <tr><th>Potencia</th><td>{esc(mw)}</td></tr>
     <tr><th>Expediente</th><td>{esc(a.get('expediente', ''))}</td></tr>
     <tr><th>Anuncio oficial</th><td><a href="{esc(a['url_html'])}" target="_blank" rel="noopener">{esc(a.get('fuente', 'BOE'))}: anuncio</a>{enlace_pdf(a)}</td></tr>
+    <tr><th>Cómo alegar</th><td>{como_alegar(a)}</td></tr>
   </table>
-  <h3>Red Natura 2000 en los municipios afectados: {len(r['natura'])} <small>(zona de atención, no solape de obras)</small></h3>
+  <h3>Red Natura 2000 en los municipios afectados: {len(r['natura']) if cruzado else 'sin cruce'} <small>(zona de atención, no solape de obras)</small></h3>
   <div class="wrap"><table class="datos"><thead><tr><th>Código</th><th>Espacio</th><th>Tipo</th></tr></thead><tbody>{filas_natura}</tbody></table></div>
-  <h3>Especies animales amenazadas (UICN) con registros desde 2005 en los municipios: {esp.get('n_especies', 0)} especies, {esp.get('n_aves', 0)} aves, {esp.get('total_registros_amenazadas', 0)} registros</h3>
+  <h3>Especies animales amenazadas (UICN) con registros desde 2005 en los municipios: {n_esp}</h3>
   <div class="wrap"><table class="datos"><thead><tr><th>Especie</th><th>Nombre común</th><th>Clase</th><th>Categoría UICN</th><th>Registros</th></tr></thead><tbody>{filas_esp}</tbody></table></div>
 </section>"""
 
@@ -338,6 +405,13 @@ común se localizó el 98,7 %.</p>
  <li>La extracción por reglas puede fallar en municipios, provincias o plazos. Cada fila enlaza al anuncio
   oficial: compruébalo allí.</li>
  <li>Solo se leen el BOE y el BOC de Cantabria; el resto de boletines autonómicos está pendiente.</li>
+ <li>La categoría UICN de GBIF es la mundial. Por eso se descartan las especies que no son nativas en España
+  (aves de jaula escapadas, galápagos asiáticos, gacelas en cautividad, arruí…): estarán amenazadas en su área
+  de origen, pero en España no forman parte de la fauna silvestre nativa. La lista está en <code>observatorio/species.py</code>
+  (<code>NO_NATIVAS</code>). Las aves raras que llegan por sí solas sí se cuentan.</li>
+ <li>«Sin cruce» quiere decir que el proyecto no se ha cruzado (prioridad menor que {PRIORIDAD_CRUCE}, municipios
+  no detectados o no localizados); no que no haya espacios ni especies. «Ninguno encontrado» quiere decir que el
+  cruce se hizo y no dio resultados.</li>
 </ul>
 """
 
