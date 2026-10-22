@@ -16,11 +16,14 @@ from .report import (
     badge_estado,
     badge_estado_sentido,
     badge_fuente,
+    como_alegar,
     esc,
     pagina,
+    sin_cruce,
     site_nav,
     texto_plazo,
 )
+from .species import NO_NATIVAS, nativas
 
 
 def cargar_estado() -> dict:
@@ -102,7 +105,7 @@ def _celda_huella(a: dict) -> str:
     fp = a.get("footprint")
     if not fp or not fp.get("geojson"):
         return ""
-    sitios = "; ".join(esc(s["nombre"]) for s in fp["natura"][:3]) or "ninguno"
+    sitios = "; ".join(esc(s["nombre"]) for s in fp["natura"][:3]) or "ninguno encontrado"
     m2 = sum(fp["declared_m2"].values())
     # Algunas tablas no traen superficies: un cero ahí sería un dato falso.
     declarada = f"{_es_num(m2 / 1e4, 1)} ha declaradas en " if m2 else "superficie afectada no declarada en la tabla · "
@@ -130,16 +133,52 @@ def _fila(a: dict) -> str:
     natura = "; ".join(f"{esc(s['nombre'])} ({esc(s['tipo'])})" for s in a.get("natura", [])[:4])
     if len(a.get("natura", [])) > 4:
         natura += f" y {len(a['natura']) - 4} más"
+    motivo = sin_cruce(a)
+    if motivo:
+        natura, especies = f"<i>{motivo}</i>", f"<i>{motivo}</i>"
+    else:
+        natura = natura or "<i>ninguno encontrado</i>"
+        especies = f"{a.get('n_especies', 0)} esp. / {a.get('n_aves', 0)} aves<br><small>{aves}</small>"
+    referencia = " · ".join(x for x in (
+        f"Departamento: {esc(a['departamento'])}" if a.get("departamento") else "",
+        f"Expediente: {esc(a['expediente'])}" if a.get("expediente") else "") if x)
     return (
         f"<tr><td>{texto_plazo(a)}</td>"
         f"<td>{_celda_estado(a)}</td>"
         f"<td>{badge(a['categoria'])}{'<br><small>EIA</small>' if a.get('tramite_ambiental') else ''}<br>{badge_fuente(a.get('fuente', 'BOE'))}</td>"
         f"<td><a href='{esc(a['informe'])}#{esc(a['identificador'])}'>{esc(a['identificador'])}</a><br><small>{esc(a['titulo'][:220])}…</small><br>"
-        f"<small><a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Anuncio en el {esc(a.get('fuente', 'BOE'))}</a></small></td>"
+        f"<small><a href='{esc(a['url_html'])}' target='_blank' rel='noopener'>Anuncio en el {esc(a.get('fuente', 'BOE'))}</a></small>"
+        f"{'<br><small>' + referencia + '</small>' if referencia else ''}</td>"
         f"<td>{esc(', '.join(a.get('provincias', [])[:3]))}<br><small>{esc(', '.join(a.get('municipios', [])[:6]))}</small></td>"
-        f"<td>{natura or '<i>ninguno</i>'}{_celda_huella(a)}</td>"
-        f"<td>{a.get('n_especies', 0)} esp. / {a.get('n_aves', 0)} aves<br><small>{aves}</small></td></tr>"
+        f"<td>{natura}{_celda_huella(a)}</td>"
+        f"<td>{especies}</td></tr>"
     )
+
+
+def _sin_no_nativas(anuncios: list[dict], docs_dir: Path) -> None:
+    """Drops non-native species from the state's counts. The state keeps only the first 12 species, so the
+    counts are rebuilt from the full list in the published report when it may hide a non-native one."""
+    informes: dict[str, dict] = {}
+    for a in anuncios:
+        top = a.get("especies_top", [])
+        completa = None
+        if a.get("n_especies", 0) > len(top) and a.get("informe"):
+            ruta = docs_dir / a["informe"].replace(".html", ".json")
+            if ruta not in informes:
+                try:
+                    informes[ruta] = {r["anuncio"]["identificador"]: r for r in json.loads(ruta.read_text(encoding="utf-8"))
+                                      if isinstance(r, dict) and r.get("anuncio")}
+                except (OSError, ValueError):
+                    informes[ruta] = {}
+            r = informes[ruta].get(a["identificador"])
+            if r and len((r.get("especies") or {}).get("especies", [])) == a["n_especies"]:
+                completa = r["especies"]["especies"]
+        fuera = [e for e in (completa if completa is not None else top) if e.get("scientificName") in NO_NATIVAS]
+        if not fuera:
+            continue
+        a["n_especies"] = a.get("n_especies", 0) - len(fuera)
+        a["n_aves"] = a.get("n_aves", 0) - sum(1 for e in fuera if e.get("class") == "Aves")
+        a["especies_top"] = nativas({"especies": top})["especies"]
 
 
 def _tabla(filas: list[str]) -> str:
@@ -160,6 +199,7 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
     def _lim(a):
         return date.fromisoformat(a["fecha_limite"]) if a.get("fecha_limite") else hoy
 
+    _sin_no_nativas(anuncios, docs_dir)
     abiertos = sorted((a for a in anuncios if dias_restantes(_lim(a), hoy) >= 0), key=_lim)
     cerrados = sorted((a for a in anuncios if dias_restantes(_lim(a), hoy) < 0), key=_lim, reverse=True)
     urgentes = [a for a in abiertos if dias_restantes(_lim(a), hoy) <= 7]
@@ -176,6 +216,7 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
     ]
     cuerpo = f"""
 <div class="aviso">{AVISO_METODO}</div>
+{COMO_ALEGAR}
 {f'<div class="mapa"><iframe src="{esc(ultimo_mapa)}" loading="lazy" title="Mapa del último informe"></iframe></div>' if ultimo_mapa else ''}
 <h2>Proyectos con plazo de alegaciones abierto</h2>
 {_tabla([_fila(a) for a in abiertos])}
@@ -210,6 +251,24 @@ def generar_web(estado: dict, docs_dir: Path) -> None:
     # run, footprints and resoluciones all end here after saving the state: signals.json follows the pages.
     signals.write(estado, docs_dir)
     (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
+
+
+COMO_ALEGAR = """
+<h2>Cómo presentar una alegación</h2>
+<ul>
+ <li><b>Dónde.</b> El escrito se dirige al órgano que firma el anuncio, el que nombra su título («Anuncio de
+   la Confederación Hidrográfica…», «…de la Subdelegación del Gobierno en…»). El propio anuncio dice dónde se
+   puede consultar el proyecto y dónde presentar el escrito; además, cualquier registro
+   de las administraciones públicas o su sede electrónica lo admite (artículo 16.4 de la Ley 39/2015).</li>
+ <li><b>Hasta cuándo.</b> El plazo se cuenta desde el día siguiente a la publicación en el boletín. La fecha
+   límite de esta página es una estimación: manda la que resulte del anuncio.</li>
+ <li><b>Con qué referencia.</b> Cita el número de expediente (o, si no lo tiene, la referencia del anuncio,
+   como <code>BOE-B-…</code>) y el título del proyecto.</li>
+</ul>
+<p class="sub">Esto es una guía práctica, no asesoramiento jurídico. Para saber qué sociedades están detrás de
+los proyectos energéticos y si un proyecto parece troceado, véase el
+<a href="https://asensio94.github.io/grafo-promotores/">Grafo de promotores</a>.</p>
+"""
 
 
 COMO_SEGUIR = """

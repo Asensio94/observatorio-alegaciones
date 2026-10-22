@@ -430,7 +430,7 @@ def estado_proyecto(a: dict, hoy: date | None = None) -> tuple[str, str]:
     # El plazo abierto manda sobre cualquier resolución emparejada: si aún se puede alegar, el trámite
     # está vivo, y lo emparejado será una resolución de otro expediente del mismo proyecto.
     if dias is not None and dias >= 0:
-        return "abierto", f"en plazo, quedan {dias} días"
+        return "abierto", "en plazo"
     r = a.get("resolucion")
     if r:
         if r["sentido"] in SENTIDOS_ROJOS:

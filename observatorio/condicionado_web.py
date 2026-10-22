@@ -12,7 +12,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from .condicionado import ETIQUETA_TEMA, INDICE_PATH, PRORROGA_ANOS, VIGENCIA_ANOS
-from .report import COLORES, esc, pagina, site_nav
+from .report import COLORES, ETIQUETAS_CATEGORIA, esc, pagina, site_nav
 
 # Result chips keep their meaning colours; the dark variants are lighter so they stay readable.
 _DARK_CHIPS = "--s-cond:#7cc184;--s-parc:#e3b450;--s-desf:#f08a80;--s-sin:#7fb6e6;--s-ord:#c39be0;--doc:#7fb6e6;"
@@ -121,7 +121,7 @@ let FICHAS = [];
 
 function fmt(iso) { return iso ? iso.split('-').reverse().join('/') : ''; }
 function sentido(f) { return `<span class="sent s-${esc(f.sentido)}">${esc(SENTIDOS[f.sentido] ?? f.sentido)}</span>`; }
-function cat(c) { return c ? `<span class="badge" style="background:${COLORES[c] || '#444'}">${esc(c)}</span>` : ''; }
+function cat(c) { return c ? `<span class="badge" style="background:${COLORES[c] || '#444'}">${esc(CATEGORIAS[c] || c)}</span>` : ''; }
 function vence(f) { return f.vigencia_hasta && f.vigencia_hasta >= HOY && f.vigencia_hasta <= LIMITE; }
 
 function opciones(sel, valores, etiqueta = v => v) {
@@ -320,7 +320,7 @@ async function iniciar() {
   try { FICHAS = (await (await fetch('datos/condicionado/indice.json')).json()).fichas; }
   catch (e) { $('#cuenta').textContent = 'No se pudo cargar el índice.'; return; }
   const uniq = xs => [...new Set(xs.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es'));
-  opciones($('#cat'), uniq(FICHAS.map(f => f.categoria)));
+  opciones($('#cat'), uniq(FICHAS.map(f => f.categoria)), v => CATEGORIAS[v] || v);
   opciones($('#prov'), uniq(FICHAS.flatMap(f => f.provincias || [])));
   opciones($('#tema'), Object.keys(TEMAS), t => TEMAS[t]);
   const p = new URLSearchParams(location.hash.slice(1));
@@ -420,6 +420,7 @@ const SENTIDOS = {json.dumps(SENTIDOS, ensure_ascii=False)};
 const TIPOS = {json.dumps(TIPOS, ensure_ascii=False)};
 const TEMAS = {json.dumps(ETIQUETA_TEMA, ensure_ascii=False)};
 const COLORES = {json.dumps(COLORES)};
+const CATEGORIAS = {json.dumps(ETIQUETAS_CATEGORIA, ensure_ascii=False)};
 {JS}
 </script>"""
     ruta = docs_dir / "condicionado.html"
