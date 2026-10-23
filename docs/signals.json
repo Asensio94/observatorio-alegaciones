@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-22T13:05Z",
+ "generated": "2026-10-23T12:44Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -11587,6 +11587,121 @@
     "promoter": "ÁRIDOS TÉCNICOS, S.A., Recursos Geológicos: Sección C) arenas y gravas",
     "file": null,
     "department": "COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22213",
+   "kind": "resolution",
+   "date": "2026-10-23",
+   "title": "Resolución de 7 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Soner Picasso, SLU, autorización administrativa previa para la planta de almacenamiento con baterías BESS Cuevas, de 55,176 MW de potencia instalada, y su infraestructura de evacuación, en la Vall d'Uixó (Castellón).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22213",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Castellón"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 75.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "hidrogeno_baterias",
+    "promoter": "Soner Picasso",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-34477",
+   "kind": "notice",
+   "date": "2026-10-23",
+   "title": "Anuncio de la Autoridad Portuaria de Bilbao por el que se somete a información pública la solicitud de modificación de la concesión titularidad de \"E. Erhardt y Cía, S.A.\" en la Zona de la Ampliación del Puerto de Bilbao, en el término municipal de Santurtzi.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34477",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Santurtzi"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-20",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34478",
+   "kind": "notice",
+   "date": "2026-10-23",
+   "title": "Anuncio de la Autoridad Portuaria de Gijón por el que se somete a información pública solicitud de modificación sustancial de la concesión administrativa de American Tower España S.L.U.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34478",
+   "sites": [
+    {
+     "code": "ES0000320"
+    },
+    {
+     "code": "ES1200047"
+    },
+    {
+     "code": "ES1200038"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Gijón"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-20",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "EXP2023/000175",
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34479",
+   "kind": "notice",
+   "date": "2026-10-23",
+   "title": "Anuncio de la Dependencia del Área de Industria y Energía de la Subdelegación del Gobierno en Salamanca, cuyo ámbito territorial de actuación comprende las provincias de Salamanca y Zamora, por el que se somete a información pública la solicitud de autorización administrativa previa (AAP) y autorización administrativa de construcción (AAC) del proyecto de la instalación de almacenamiento Ribadelago Híbrido, de 32,148 MW, sita en el término municipal de Palacios de Sanabria, provincia de Zamora, para su hibridación con el parque fotovoltaico Ribadelago, de 36,96 MW, y su infraestructura de evacuación, y de la instalación de almacenamiento Sanabria Híbrido, de 37,506 MW, sita en el término municipal de Palacios de Sanabria, provincia de Zamora, para su hibridación con el parque fotovoltaico Sanabria, de 43,89 MW, y su infraestructura de evacuación.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34479",
+   "sites": [
+    {
+     "code": "ES4190033"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Palacios de Sanabria"
+   ],
+   "provinces": [
+    "Salamanca",
+    "Zamora"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-13",
+   "status": null,
+   "value": {
+    "amount": 43.89,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "o Instalación de almacenamiento Ribadelago Híbrido, y su infraestructura de evacuación: Emaldi Project Spain, S.L.U",
+    "file": "PFot-ALM-233AC",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
    }
   }
  ]
