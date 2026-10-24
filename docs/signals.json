@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-23T12:44Z",
+ "generated": "2026-10-24T12:08Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -11702,6 +11702,31 @@
     "promoter": "o Instalación de almacenamiento Ribadelago Híbrido, y su infraestructura de evacuación: Emaldi Project Spain, S.L.U",
     "file": "PFot-ALM-233AC",
     "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22285",
+   "kind": "resolution",
+   "date": "2026-10-24",
+   "title": "Resolución de 14 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Obras de rehabilitación del cauce del río Güeña, en Mestas de Con, Cangas de Onís».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22285",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Cangas de Onís"
+   ],
+   "provinces": [
+    "Asturias"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "value": null,
+   "details": {
+    "category": "otros",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
    }
   }
  ]
