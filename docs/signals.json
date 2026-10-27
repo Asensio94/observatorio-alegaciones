@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-24T12:08Z",
+ "generated": "2026-10-27T13:27Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -11727,6 +11727,138 @@
     "promoter": null,
     "file": null,
     "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-34910",
+   "kind": "notice",
+   "date": "2026-10-26",
+   "title": "Anuncio de la Autoridad Portuaria de Ceuta por el que se somete a información pública la solicitud de D.ª Ana Cristina Sánchez Pérez sobre modificación sustancial de concesión demanial.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34910",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Ceuta"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-23",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-34914",
+   "kind": "notice",
+   "date": "2026-10-26",
+   "title": "Anuncio de la Dependencia del Área de Industria y Energía de la Subdelegación del Gobierno en Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa (AAP) y autorización administrativa de construcción (AAC) del proyecto del módulo de almacenamiento de energía por baterías Sirius Solar de 19,99 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica Sirius Solar de 48,11 MW de potencia instalada, ubicado en el término municipal de Zamora, provincia de Zamora.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34914",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Zamora",
+    "Roales del Pan",
+    "Valcabado"
+   ],
+   "provinces": [
+    "Salamanca",
+    "Zamora"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-16",
+   "status": null,
+   "value": {
+    "amount": 48.11,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta FV120, S.L.U",
+    "file": "PFot-ALM-251",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22516",
+   "kind": "resolution",
+   "date": "2026-10-27",
+   "title": "Resolución de 20 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Desmontaje de la instalación de almacenamiento de hidrocarburos de AENA en el aeropuerto de Tenerife Sur».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22516",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Granadilla de Abona"
+   ],
+   "provinces": [
+    "Santa Cruz de Tenerife"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "value": null,
+   "details": {
+    "category": "hidrocarburos_gas",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-35105",
+   "kind": "notice",
+   "date": "2026-10-27",
+   "title": "Anuncio de la Demarcación de Carreteras del Estado en Castilla-La Mancha por el que se somete a información pública la aprobación provisional del Estudio de delimitación de tramo urbano y establecimiento de la línea límite de edificación en el margen izquierdo del tramo urbano de la carretera N-320 entre los puntos kilométricos 314+605 y 314+560, T.M. El Casar (Guadalajara). GUA-DTU-26-003.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35105",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "El Casar"
+   ],
+   "provinces": [
+    "Guadalajara"
+   ],
+   "precision": "municipio",
+   "deadline": "2027-01-25",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35162",
+   "kind": "notice",
+   "date": "2026-10-27",
+   "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Albacete, por el que se somete al trámite de Información Pública la Solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción para la instalación de almacenamiento \"BESS Los Pedreros\", que incluye un sistema de baterías de 25,08 MW y un volante de inercia de 0,4 MW, para su hibridación con el parque eólico existente \"Los Pedreros\", de 49,95 MW, en el término municipal de Fuente-Álamo, en la provincia de Albacete, y para su infraestructura de evacuación, conformando una instalación híbrida de 55 MW de potencia instalada.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35162",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Fuente-Álamo"
+   ],
+   "provinces": [
+    "Albacete"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-17",
+   "status": null,
+   "value": {
+    "amount": 55.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "NATURGY RENOVABLES, S.L.U",
+    "file": "PEol-FV-257-ALM",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
    }
   }
  ]
