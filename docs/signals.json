@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-27T13:27Z",
+ "generated": "2026-10-28T14:16Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -11859,6 +11859,246 @@
     "promoter": "NATURGY RENOVABLES, S.L.U",
     "file": "PEol-FV-257-ALM",
     "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22599",
+   "kind": "resolution",
+   "date": "2026-10-28",
+   "title": "Resolución de 7 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Línea eléctrica de 400 KV, simple circuito, de conexión entre la actual subestación eléctrica de Almazán y la nueva subestación eléctrica Coscurita, en Coscurita (Soria)».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22599",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Coscurita"
+   ],
+   "provinces": [
+    "Soria"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "formulada con condiciones",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22600",
+   "kind": "resolution",
+   "date": "2026-10-28",
+   "title": "Resolución de 16 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Hidroeléctrica Los Guájares, SLU, autorización administrativa previa y autorización administrativa de construcción para la central hidráulica reversible «Los Guájares», con una potencia de turbinación de 356,93 MW y una potencia de bombeo de 363,99 MW, y su infraestructura de evacuación, ubicada en Vélez de Benaudalla, El Pinar y Los Guájares (Granada).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22600",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Vélez de Benaudalla",
+    "El Pinar",
+    "Los Guájares",
+    "Padul",
+    "El Valle",
+    "Albuñuelas",
+    "Villamena"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 403.52,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "otros",
+    "promoter": "Hidroeléctrica Los Guájares",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22601",
+   "kind": "resolution",
+   "date": "2026-10-28",
+   "title": "Resolución de 13 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Iberdrola Generación, SAU, autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica «Cedillo», de 75,302 MW de potencia instalada, para su hibridación con el grupo 3 de la central hidráulica CH Cedillo, y su infraestructura de evacuación, en Cedillo (Cáceres), y la declaración, en concreto, de utilidad pública.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22601",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Cedillo",
+    "Referencia catastral"
+   ],
+   "provinces": [
+    "Cáceres"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 4432.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Iberdrola Generación",
+    "file": "GE-M-63/19",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-35252",
+   "kind": "notice",
+   "date": "2026-10-28",
+   "title": "Anuncio de la Autoridad Portuaria de Sevilla de información pública de la oferta seleccionada presentada por AG Seville Shipyard, S.L. para el otorgamiento de una concesión administrativa con destino a la ocupación y explotación del dique seco, rampa de varada, tramo sur del Muelle de Armamento del Puerto de Sevilla y oficinas con destino al desarrollo de las actividades de construcción, mantenimiento y reciclaje de buques y embarcaciones.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35252",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-25",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35253",
+   "kind": "notice",
+   "date": "2026-10-28",
+   "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Albacete, por el que se somete al trámite de Información Pública la Solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción de los módulos de almacenamiento por baterías Elawan Ayora III Híbrido y Elawan Ayora IV Híbrido, de 18 MW de potencia instalada cada uno, junto a sus infraestructuras de evacuación, en el término municipal de Carcelén (Albacete), para hibridación, respectivamente, con la instalación solar fotovoltaica Elawan Ayora III, de 20,99 MW, y con la instalación solar fotovoltaica Elawan Ayora IV, de 20,99 MW, conformando sendas instalaciones híbridas de 38,99 MW de potencia instalada cada una.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35253",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Carcelén"
+   ],
+   "provinces": [
+    "Albacete"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-18",
+   "status": null,
+   "value": {
+    "amount": 38.99,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "ELAWAN ENERGY S.L",
+    "file": "PEol-786-ALM",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35265",
+   "kind": "notice",
+   "date": "2026-10-28",
+   "title": "Anuncio de la Confederación Hidrográfica del Tajo O.A. de la información pública de la solicitud de autorización para navegar en el embalse de Gabriel y Galán con una embarcación destinada al transporte de pasajeros. Año 2027. Referencia N-1233/2027.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35265",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Cáceres",
+    "Madrid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-25",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": "Diputación Provincial de Cáceres - Turismo",
+    "file": "N-1233/2027",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35275",
+   "kind": "notice",
+   "date": "2026-10-28",
+   "title": "Anuncio de la Generalitat de Catalunya, del Departamento de Territorio, Vivienda y Transición Ecológica, Dirección general de Energía, de información pública sobre la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública correspondiente al proyecto del desmontaje y adecuación de la línea aérea-subterránea de alta tensión de 110 kV Mas Figueres - Cerdanyola, Asland - Cerdanyola y Sant Andreu - Cerdanyola, en el término municipal de Cerdanyola del Vallès (exp. FUE-2025-04400416).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35275",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Cerdanyola del Vallès"
+   ],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-10",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Edistribución Redes Digitales SLU",
+    "file": "FUE-2025-04400416",
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35276",
+   "kind": "notice",
+   "date": "2026-10-28",
+   "title": "Anuncio de la Agencia Catalana del Agua sobre información pública de autorización para verter a cauce las aguas residuales potencialmente hidrocarburadas procedentes del margen sureste del Polígono Industrial de Montferrer, situado en el municipio de Montferrer y Castellbó (Alt Urgell), solicitada por Montarros Inversions, SL.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35276",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Montferrer",
+    "Castellbó"
+   ],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-10",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "urbanismo_industria",
+    "promoter": null,
+    "file": null,
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35277",
+   "kind": "notice",
+   "date": "2026-10-28",
+   "title": "Anuncio de los Servicios Territoriales del Departamento de Territorio, Vivienda y Transición Ecológica en Lleida, de información pública sobre la solicitud de modificación de la autorización administrativa previa y de construcción, y declaración de utilidad pública de la cuarta adenda al proyecto de transformación a doble circuito de la línea de transporte de energía eléctrica a 220 kV Mangraners-Juneda-l'Espluga-Montblanc-Penedès-Begues, para la modificación del tramo Mangraners-Juneda y Mangraners-l'Espluga entre los apoyos T-7 y T-31, en los términos municipales de Lleida y Torregrossa (expediente FUE-2026-05234106).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35277",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Lleida",
+    "Torregrossa"
+   ],
+   "provinces": [
+    "Lleida"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-10",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+    "file": "FUE-2026-05234106",
+    "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
    }
   }
  ]

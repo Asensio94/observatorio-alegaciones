@@ -2800,6 +2800,46 @@
    "n_especies": 40,
    "n_aves": 24,
    "geolocalizado": true
+  },
+  "BOE-B-2026-35257": {
+   "identificador": "BOE-B-2026-35257",
+   "fecha": "2026-10-28",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia sobre otorgamiento de prórroga de la concesión administrativa de ocupación de dominio público marítimo-terrestre. Referencia C-214 (CNC02/96/30/0032).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35257",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-35257",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-B-2026-35257.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Mazarrón"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-25",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "geolocalizado": false
   }
  }
 }
