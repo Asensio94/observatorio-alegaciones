@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-28T14:16Z",
+ "generated": "2026-10-29T14:35Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -11758,7 +11758,119 @@
    "date": "2026-10-26",
    "title": "Anuncio de la Dependencia del Área de Industria y Energía de la Subdelegación del Gobierno en Salamanca, por el que se somete a información pública la solicitud de autorización administrativa previa (AAP) y autorización administrativa de construcción (AAC) del proyecto del módulo de almacenamiento de energía por baterías Sirius Solar de 19,99 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta fotovoltaica Sirius Solar de 48,11 MW de potencia instalada, ubicado en el término municipal de Zamora, provincia de Zamora.",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-34914",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES4190033"
+    },
+    {
+     "code": "ES0000208"
+    },
+    {
+     "code": "ES4150096"
+    },
+    {
+     "code": "ES0000118"
+    },
+    {
+     "code": "ES4190105"
+    },
+    {
+     "code": "ES0000004"
+    },
+    {
+     "code": "ES4190009"
+    },
+    {
+     "code": "ES0000207"
+    },
+    {
+     "code": "ES0000206"
+    },
+    {
+     "code": "ES4130024"
+    },
+    {
+     "code": "ES4190102"
+    },
+    {
+     "code": "ES0000209"
+    },
+    {
+     "code": "ES4190110"
+    },
+    {
+     "code": "ES0000358"
+    },
+    {
+     "code": "ES4190146"
+    },
+    {
+     "code": "ES0000217"
+    },
+    {
+     "code": "ES4190067"
+    },
+    {
+     "code": "ES4190133"
+    },
+    {
+     "code": "ES4190074"
+    },
+    {
+     "code": "ES4170083"
+    },
+    {
+     "code": "ES4190131"
+    },
+    {
+     "code": "ES4190132"
+    },
+    {
+     "code": "ES4190061"
+    },
+    {
+     "code": "ES4130065"
+    },
+    {
+     "code": "PTZPE0003"
+    },
+    {
+     "code": "PTCON0002"
+    },
+    {
+     "code": "PTCON0022"
+    },
+    {
+     "code": "ES0000204"
+    },
+    {
+     "code": "PTZPE0038"
+    },
+    {
+     "code": "ES1130007"
+    },
+    {
+     "code": "ES1130008"
+    },
+    {
+     "code": "ES4130079"
+    },
+    {
+     "code": "ES4190134"
+    },
+    {
+     "code": "ES4190060"
+    },
+    {
+     "code": "PTCON0021"
+    },
+    {
+     "code": "ES0000437"
+    },
+    {
+     "code": "PTZPE0037"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "Zamora",
@@ -11814,7 +11926,14 @@
    "date": "2026-10-27",
    "title": "Anuncio de la Demarcación de Carreteras del Estado en Castilla-La Mancha por el que se somete a información pública la aprobación provisional del Estudio de delimitación de tramo urbano y establecimiento de la línea límite de edificación en el margen izquierdo del tramo urbano de la carretera N-320 entre los puntos kilométricos 314+605 y 314+560, T.M. El Casar (Guadalajara). GUA-DTU-26-003.",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35105",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES3110001"
+    },
+    {
+     "code": "ES0000139"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "El Casar"
@@ -11978,7 +12097,11 @@
    "date": "2026-10-28",
    "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Albacete, por el que se somete al trámite de Información Pública la Solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción de los módulos de almacenamiento por baterías Elawan Ayora III Híbrido y Elawan Ayora IV Híbrido, de 18 MW de potencia instalada cada uno, junto a sus infraestructuras de evacuación, en el término municipal de Carcelén (Albacete), para hibridación, respectivamente, con la instalación solar fotovoltaica Elawan Ayora III, de 20,99 MW, y con la instalación solar fotovoltaica Elawan Ayora IV, de 20,99 MW, conformando sendas instalaciones híbridas de 38,99 MW de potencia instalada cada una.",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35253",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES4210001"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "Carcelén"
@@ -12030,7 +12153,11 @@
    "date": "2026-10-28",
    "title": "Anuncio de la Generalitat de Catalunya, del Departamento de Territorio, Vivienda y Transición Ecológica, Dirección general de Energía, de información pública sobre la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública correspondiente al proyecto del desmontaje y adecuación de la línea aérea-subterránea de alta tensión de 110 kV Mas Figueres - Cerdanyola, Asland - Cerdanyola y Sant Andreu - Cerdanyola, en el término municipal de Cerdanyola del Vallès (exp. FUE-2025-04400416).",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35275",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES5110024"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "Cerdanyola del Vallès"
@@ -12055,7 +12182,14 @@
    "date": "2026-10-28",
    "title": "Anuncio de la Agencia Catalana del Agua sobre información pública de autorización para verter a cauce las aguas residuales potencialmente hidrocarburadas procedentes del margen sureste del Polígono Industrial de Montferrer, situado en el municipio de Montferrer y Castellbó (Alt Urgell), solicitada por Montarros Inversions, SL.",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35276",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES5130003"
+    },
+    {
+     "code": "ES5130026"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "Montferrer",
@@ -12081,7 +12215,17 @@
    "date": "2026-10-28",
    "title": "Anuncio de los Servicios Territoriales del Departamento de Territorio, Vivienda y Transición Ecológica en Lleida, de información pública sobre la solicitud de modificación de la autorización administrativa previa y de construcción, y declaración de utilidad pública de la cuarta adenda al proyecto de transformación a doble circuito de la línea de transporte de energía eléctrica a 220 kV Mangraners-Juneda-l'Espluga-Montblanc-Penedès-Begues, para la modificación del tramo Mangraners-Juneda y Mangraners-l'Espluga entre los apoyos T-7 y T-31, en los términos municipales de Lleida y Torregrossa (expediente FUE-2026-05234106).",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35277",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES5130040"
+    },
+    {
+     "code": "ES0000021"
+    },
+    {
+     "code": "ES5130017"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "Lleida",
@@ -12099,6 +12243,307 @@
     "promoter": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
     "file": "FUE-2026-05234106",
     "department": "COMUNIDAD AUTÓNOMA DE CATALUÑA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22684",
+   "kind": "resolution",
+   "date": "2026-10-29",
+   "title": "Resolución de 13 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la ampliación de la subestación Abegondo en el parque de 400 kV, con una nueva posición de reactancia y la máquina asociada (REA-1), en Abegondo (A Coruña).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22684",
+   "sites": [
+    {
+     "code": "ES6150010"
+    },
+    {
+     "code": "ES6150018"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Abegondo"
+   ],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España",
+    "file": null,
+    "paired_with": "BOE-B-2026-31759"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35367",
+   "kind": "notice",
+   "date": "2026-10-29",
+   "title": "Anuncio de la Autoridad Portuaria de Tarragona referente al trámite de información pública relativo a la solicitud presentada por Transpais, S.A. para la ocupación en régimen de concesión administrativa, de 16.007,93 m² de superficie en la zona de la Granja de la Pineda del Puerto de Tarragona, destinada al depósito de contenedores y servicios complementarios. (Expediente administrativo 427).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35367",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Tarragona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-26",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35368",
+   "kind": "notice",
+   "date": "2026-10-29",
+   "title": "Anuncio de la Demarcación de Carreteras del Estado en Asturias sobre resolución del Ministerio de Transportes y Movilidad Sostenible por la que se aprueba definitivamente el expediente de información pública y definitivamente el \"Estudio de delimitación de tramos urbanos y fijación de la línea límite de edificación en la autovía A-64, entre los pp.kk. 28+120 y 29+450 margen derecha. T.M. de Siero (Asturias)\". Claves: SGE-DTU-26-002 y AST-DTU-26-002.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35368",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Siero"
+   ],
+   "provinces": [
+    "Asturias"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-11",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35369",
+   "kind": "notice",
+   "date": "2026-10-29",
+   "title": "Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Occidental sobre Resolución del Ministerio de Transportes y Movilidad Sostenible por la que se aprueba el expediente de Información Pública y definitivamente el Proyecto de \"Trazado Autovía A-60, Valladolid – León. Tramo: Villanubla – La Mudarra\". Provincia De Valladolid. Clave 12-VA-4200.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35369",
+   "sites": [
+    {
+     "code": "ES0000216"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Valdenebro de los Valles"
+   ],
+   "provinces": [
+    "León",
+    "Valladolid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-11",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35370",
+   "kind": "notice",
+   "date": "2026-10-29",
+   "title": "Anuncio de Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha, por el que se somete a Información Pública la Solicitud de Autorización Administrativa Previa y Declaración de Impacto Ambiental de las plantas solares fotovoltaicas \"Los Romeros\", de 62,70 MW de potencia instalada y \"Los Callejones\" de 62,70 MW de potencia instalada, y de sus infraestructuras de evacuación hasta la Subestación La Torrecilla 220 kV (REE), en los términos municipales de Ocaña, Borox y Seseña (Provincia de Toledo) y de Aranjuez, Valdemoro, Torrejón de Velasco, Pinto, Getafe y Madrid (Comunidad de Madrid). Expediente PFot-1230AC.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35370",
+   "sites": [
+    {
+     "code": "ES3110004"
+    },
+    {
+     "code": "ES0000011"
+    },
+    {
+     "code": "ES0000012"
+    },
+    {
+     "code": "ES0000170"
+    },
+    {
+     "code": "ES3110006"
+    },
+    {
+     "code": "ES0000142"
+    },
+    {
+     "code": "ES3110001"
+    },
+    {
+     "code": "ES0000119"
+    },
+    {
+     "code": "ES4250009"
+    },
+    {
+     "code": "ES4250008"
+    },
+    {
+     "code": "ES0000438"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Ocaña",
+    "Borox",
+    "Seseña",
+    "Madrid"
+   ],
+   "provinces": [
+    "Toledo",
+    "Madrid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-11",
+   "status": null,
+   "value": {
+    "amount": 79.16,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "EDP RENOVABLES ESPAÑA, S.L",
+    "file": "PFot-1230AC",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35371",
+   "kind": "notice",
+   "date": "2026-10-29",
+   "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Cuenca, por el que se somete al trámite de Información Pública la Solicitud de Autorización Administrativa Previa, Autorización Administrativa de Construcción, Declaración de Impacto Ambiental y declaración, en concreto, de Utilidad Pública del módulo de generación eólica Olmedilla, de 36 MW de potencia instalada, sito en los términos municipales de Alarcón, Pozorrubielos de la Mancha, Valhermoso de la Fuente, Motilla del Palancar, y Valverdejo en la provincia de Cuenca, para su hibridación con la planta fotovoltaica FV Olmedilla, de 42 MW de potencia instalada, y con el módulo de almacenamiento por baterías \"BESS Hibridación Olmedilla\", de 28,78 MW de potencia instalada, y su infraestructura de evacuación, conformando una instalación híbrida de 55 MW de potencia instalada.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35371",
+   "sites": [
+    {
+     "code": "ES4230006"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Alarcón",
+    "Pozorrubielos de la Mancha",
+    "Valhermoso de la Fuente",
+    "Motilla del Palancar",
+    "Valverdejo"
+   ],
+   "provinces": [
+    "Cuenca"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-11",
+   "status": null,
+   "value": {
+    "amount": 55.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "DESARROLLOS RENOVABLES FV OLMEDILLA, S.L., calle Tomás Redondo, 1, CP 28033, Madrid",
+    "file": "PFot-ALM-042-EOL",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35372",
+   "kind": "notice",
+   "date": "2026-10-29",
+   "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Cuenca, por el que se somete al trámite de Información Pública la Solicitud de Autorización Administrativa Previa, Autorización Administrativa de Construcción, Declaración de Impacto Ambiental y declaración, en concreto, de Utilidad Pública del módulo de generación eólica Romeral, de 36 MW de potencia instalada, sito en los términos municipales de Olmedilla de Alarcón y Barchín del Hoyo en la provincia de Cuenca, para su hibridación con la planta fotovoltaica FV Romeral, de 42 MW de potencia instalada, y con el módulo de almacenamiento por baterías \"BESS Romeral\", de 28,78 MW de potencia instalada, y su infraestructura de evacuación, conformando una instalación híbrida de 55 MW de potencia instalada.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35372",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Olmedilla de Alarcón",
+    "Barchín del Hoyo"
+   ],
+   "provinces": [
+    "Cuenca"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-11",
+   "status": null,
+   "value": {
+    "amount": 55.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "DESARROLLOS RENOVABLES FV ROMERAL S.L",
+    "file": "PFot-ALM-043-EOL",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35388",
+   "kind": "resolution",
+   "date": "2026-10-29",
+   "title": "Resolución de la Dirección General de Energía por la que se concede la autorización administrativa y declaración, en concreto, de utilidad pública, del proyecto denominado \"Línea aérea-subterránea de transporte de energía eléctrica a 66 kV, simple circuito, Santa Águeda - El Tablero 2\", con número de expediente AT23/015.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35388",
+   "sites": [
+    {
+     "code": "ES0000182"
+    },
+    {
+     "code": "ES2410030"
+    },
+    {
+     "code": "ES2410084"
+    },
+    {
+     "code": "ES0000183"
+    },
+    {
+     "code": "ES0000181"
+    },
+    {
+     "code": "ES2430082"
+    },
+    {
+     "code": "ES5130040"
+    },
+    {
+     "code": "ES0000021"
+    },
+    {
+     "code": "ES2410073"
+    },
+    {
+     "code": "ES5130017"
+    },
+    {
+     "code": "ES5130013"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "San Bartolomé de Tirajana",
+    "Gran Canaria"
+   ],
+   "provinces": [
+    "Las Palmas"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "la entidad Red Eléctrica de España, Sociedad Anónima Unipersonal, expediente AT23/015, y se ordena la modificación del planeamiento afectado",
+    "file": "AT23/015",
+    "paired_with": "BOE-B-2026-29329"
    }
   }
  ]
