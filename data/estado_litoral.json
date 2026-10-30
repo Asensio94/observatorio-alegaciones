@@ -2840,6 +2840,100 @@
    "n_especies": 0,
    "n_aves": 0,
    "geolocalizado": false
+  },
+  "BOE-B-2026-35486": {
+   "identificador": "BOE-B-2026-35486",
+   "fecha": "2026-10-30",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia sobre otorgamiento de prórroga de la concesión administrativa de ocupación de dominio público marítimo-terrestre. Referencia C-214/1 (CNC02/99/30/0069).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35486",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-35486",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-B-2026-35486.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Mazarrón"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-11-27",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "geolocalizado": false
+  },
+  "BOE-B-2026-35487": {
+   "identificador": "BOE-B-2026-35487",
+   "fecha": "2026-10-30",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Dirección General de la Costa y el Mar, en procedimiento de deslinde aprobado por la Orden Ministerial de 21 de octubre de 2026, del tramo de unos 572 metros, que comprende la zona de servicio del puerto de Brens, en el t.m. de Cee (A Coruña). DES01/25/15/0002.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35487",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-35487",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-B-2026-35487.pdf",
+   "fuente": "BOE",
+   "categoria": "deslinde",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cee"
+   ],
+   "provincias": [
+    "A Coruña"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-14",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 5,
+   "natura": [
+    "ES1110008",
+    "ES1110005",
+    "ES0000554"
+   ],
+   "natura_nombres": [
+    "Carnota - Monte Pindo",
+    "Costa da Morte",
+    "Corredor migratorio galaico-cantábrico occidental"
+   ],
+   "n_especies": 20,
+   "n_aves": 10,
+   "geolocalizado": true
   }
  }
 }

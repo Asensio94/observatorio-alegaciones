@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-29T14:35Z",
+ "generated": "2026-10-30T14:27Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -12544,6 +12544,305 @@
     "promoter": "la entidad Red Eléctrica de España, Sociedad Anónima Unipersonal, expediente AT23/015, y se ordena la modificación del planeamiento afectado",
     "file": "AT23/015",
     "paired_with": "BOE-B-2026-29329"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22779",
+   "kind": "resolution",
+   "date": "2026-10-30",
+   "title": "Resolución de 15 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del «Proyecto de hibridación \"PSFV OPDE Vallobar\", \"PSFV OPDE Plana de la Pena 1\" y \"PSFV OPDE Plana de la Pena 2\", de 26,74 MWp cada una, y sus infraestructuras de evacuación, en la provincia de Zaragoza».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22779",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Botorrita",
+    "La Muela"
+   ],
+   "provinces": [
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "value": {
+    "amount": 26.74,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "otros",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-35472",
+   "kind": "notice",
+   "date": "2026-10-30",
+   "title": "Anuncio de la Autoridad Portuaria de Cartagena por el que se somete a información pública la solicitud de modificación sustancial por ampliación de la superficie en más de un 10 por ciento de la concesión administrativa con destino a \"Explotación de Edificio con destino a Hostelería en general y Alimentación\" titularidad de Mercado del Puerto de Cartagena, S.L.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35472",
+   "sites": [
+    {
+     "code": "ES0000264"
+    },
+    {
+     "code": "ES6200015"
+    },
+    {
+     "code": "ES6200001"
+    },
+    {
+     "code": "ES6200024"
+    },
+    {
+     "code": "ES6200006"
+    },
+    {
+     "code": "ES0000199"
+    },
+    {
+     "code": "ES0000260"
+    },
+    {
+     "code": "ES6200025"
+    },
+    {
+     "code": "ES6200040"
+    },
+    {
+     "code": "ES6200044"
+    },
+    {
+     "code": "ES6200030"
+    },
+    {
+     "code": "ES6200007"
+    },
+    {
+     "code": "ES0000200"
+    },
+    {
+     "code": "ES6200048"
+    },
+    {
+     "code": "ES6200029"
+    },
+    {
+     "code": "ES0000256"
+    },
+    {
+     "code": "ES0000271"
+    },
+    {
+     "code": "ES0000508"
+    },
+    {
+     "code": "ES0000507"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Cartagena"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-11-27",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35476",
+   "kind": "notice",
+   "date": "2026-10-30",
+   "title": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha por el que se somete al trámite de información pública la solicitud de Declaración, en concreto, de Utilidad Pública (DUP) del proyecto de la Planta Solar Fotovoltaica Ebisu II, de 164,84 MW de potencia instalada, y su infraestructura de evacuación, en el término municipal de Casarrubios del Monte, en la provincia de Toledo, cuyo peticionario es ENVATIOS EBISU II, S.L. (Expediente: PFot-598).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35476",
+   "sites": [
+    {
+     "code": "ES3110005"
+    },
+    {
+     "code": "ES4250001"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Casarrubios del Monte",
+    "La Torre de Esteban Hambrán",
+    "Cedillo del Condado",
+    "Yuncos",
+    "Illescas",
+    "Ugena",
+    "El Viso de San Juan",
+    "Carranque"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-14",
+   "status": null,
+   "value": {
+    "amount": 164.84,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "ENVATIOS EBISU II, S.L",
+    "file": "PFot-598",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35477",
+   "kind": "notice",
+   "date": "2026-10-30",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Sevilla, por el que se somete a Información Pública la petición realizada por la mercantil Verde Solar IFV14, S.L., por la que se solicita Autorización Administrativa de Construcción así como la Declaración en Concreto de Utilidad Pública, para las Infraestructuras Eléctricas de Evacuación asociada a la instalación de generación de energía eléctrica denominada \"HSF ENTRENUCLEOS 5\", ubicada en el término municipal de Dos Hermanas (Sevilla).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35477",
+   "sites": [
+    {
+     "code": "ES0000272"
+    },
+    {
+     "code": "ES6150019"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Dos Hermanas",
+    "Paraje"
+   ],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-14",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "VERDE SOLAR IFV14, S.L. (B06941595)",
+    "file": "296.85",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35481",
+   "kind": "notice",
+   "date": "2026-10-30",
+   "title": "Anuncio de la Confederación Hidrográfica del Segura, O.A., de Información pública sobre Cánones de regulación para riego con agua regulada por el Embalse del Argos para la campaña 2027.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35481",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-20",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35482",
+   "kind": "notice",
+   "date": "2026-10-30",
+   "title": "Anuncio de la Confederación Hidrográfica del Segura, O.A., de Información pública sobre Cánones de regulación de los aprovechamientos con aguas procedentes del Embalse de La Cierva para el año 2027.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35482",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-20",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35483",
+   "kind": "notice",
+   "date": "2026-10-30",
+   "title": "Anuncio de la Confederación Hidrográfica del Segura, O.A., de Información pública sobre Cánones de regulación de los aprovechamientos con aguas procedentes de los Embalses de Puentes y Valdeinfierno para el año 2027.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35483",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-20",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-35495",
+   "kind": "notice",
+   "date": "2026-10-30",
+   "title": "Anuncio de información pública de la Dirección General de Energía relativo a la solicitud de autorización administrativa y declaración, en concreto, de utilidad pública de la instalación denominada \"PLANTA FOTOVOLTAICA TÍAS II\", de 4 MW, en el término municipal de Tías en la isla de Lanzarote. Expte.: ER250061.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35495",
+   "sites": [
+    {
+     "code": "ES0000100"
+    },
+    {
+     "code": "ES7010046"
+    },
+    {
+     "code": "ES7010021"
+    },
+    {
+     "code": "ES7011002"
+    },
+    {
+     "code": "ESZZ15002"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Tías",
+    "Lanzarote"
+   ],
+   "provinces": [
+    "Las Palmas"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-14",
+   "status": null,
+   "value": {
+    "amount": 4.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "ER250061",
+    "department": "COMUNIDAD AUTÓNOMA DE CANARIAS"
    }
   }
  ]
