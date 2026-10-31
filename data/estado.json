@@ -20495,8 +20495,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35253": {
    "identificador": "BOE-B-2026-35253",
@@ -20590,8 +20590,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35265": {
    "identificador": "BOE-B-2026-35265",
@@ -20623,8 +20623,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35275": {
    "identificador": "BOE-B-2026-35275",
@@ -20736,8 +20736,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -20872,8 +20872,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35277": {
    "identificador": "BOE-B-2026-35277",
@@ -20996,8 +20996,8 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -21041,8 +21041,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35368": {
    "identificador": "BOE-B-2026-35368",
@@ -21148,8 +21148,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35369": {
    "identificador": "BOE-B-2026-35369",
@@ -21262,8 +21262,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -21442,8 +21442,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35371": {
    "identificador": "BOE-B-2026-35371",
@@ -21559,8 +21559,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -21680,8 +21680,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -21894,8 +21894,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35476": {
    "identificador": "BOE-B-2026-35476",
@@ -22019,8 +22019,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "unresolved",
@@ -22157,8 +22157,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -22206,8 +22206,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35482": {
    "identificador": "BOE-B-2026-35482",
@@ -22238,8 +22238,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35483": {
    "identificador": "BOE-B-2026-35483",
@@ -22270,8 +22270,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30"
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31"
   },
   "BOE-B-2026-35495": {
    "identificador": "BOE-B-2026-35495",
@@ -22406,8 +22406,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20261027_20261030.html",
-   "actualizado": "2026-10-30",
+   "informe": "informes/informe_20261028_20261031.html",
+   "actualizado": "2026-10-31",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -22428,6 +22428,13 @@
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261028_20261031.html",
+   "desde": "2026-10-28",
+   "hasta": "2026-10-31",
+   "generado": "2026-10-31",
+   "n": 19
+  },
   {
    "fichero": "informes/informe_20261027_20261030.html",
    "desde": "2026-10-27",
@@ -29882,6 +29889,74 @@
    "tipo_etiqueta": "Informe de impacto ambiental",
    "sentido": "sin_eia",
    "sentido_etiqueta": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22862": {
+   "identificador": "BOE-A-2026-22862",
+   "fecha": "2026-10-31",
+   "seccion": "3",
+   "departamento": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+   "titulo": "Resolución de 16 de julio de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación de la registradora de la propiedad de Alicante n.º 4, por la que se suspende la inscripción de la división de un elemento privativo, local comercial, de un edificio en régimen de propiedad horizontal, en dos locales independientes, respecto de los que se solicita el cambio de uso a vivienda, por contravenir las normas estatutarias y no acreditarse la preceptiva autorización administrativa para el cambio de uso.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22862",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22862",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/31/pdfs/BOE-A-2026-22862.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 0,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Alicante"
+   ],
+   "plazo_dias": 60,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "",
+   "sentido_etiqueta": "sentido no determinado",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22876": {
+   "identificador": "BOE-A-2026-22876",
+   "fecha": "2026-10-31",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 20 de mayo de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento de Enel Green Power España, SL, de su solicitud de autorización administrativa previa de la instalación fotovoltaica «FV El Clavel», de 110,741 MW de potencia instalada, y de su infraestructura de evacuación, en Montealegre del Castillo, Almansa y Bonete (Albacete).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22876",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22876",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/10/31/pdfs/BOE-A-2026-22876.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Montealegre del Castillo",
+    "Almansa",
+    "Bonete"
+   ],
+   "provincias": [
+    "Albacete"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 110.741,
+   "expediente": "SGIISE/PFot-933",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],

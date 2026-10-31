@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-30T14:27Z",
+ "generated": "2026-10-31T13:47Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -12843,6 +12843,59 @@
     "promoter": null,
     "file": "ER250061",
     "department": "COMUNIDAD AUTÓNOMA DE CANARIAS"
+   }
+  },
+  {
+   "id": "BOE-A-2026-22862",
+   "kind": "resolution",
+   "date": "2026-10-31",
+   "title": "Resolución de 16 de julio de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación de la registradora de la propiedad de Alicante n.º 4, por la que se suspende la inscripción de la división de un elemento privativo, local comercial, de un edificio en régimen de propiedad horizontal, en dos locales independientes, respecto de los que se solicita el cambio de uso a vivienda, por contravenir las normas estatutarias y no acreditarse la preceptiva autorización administrativa para el cambio de uso.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22862",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Alicante"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "sentido no determinado",
+   "value": null,
+   "details": {
+    "category": "otros",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22876",
+   "kind": "resolution",
+   "date": "2026-10-31",
+   "title": "Resolución de 20 de mayo de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento de Enel Green Power España, SL, de su solicitud de autorización administrativa previa de la instalación fotovoltaica «FV El Clavel», de 110,741 MW de potencia instalada, y de su infraestructura de evacuación, en Montealegre del Castillo, Almansa y Bonete (Albacete).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22876",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Montealegre del Castillo",
+    "Almansa",
+    "Bonete"
+   ],
+   "provinces": [
+    "Albacete"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 110.741,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "SGIISE/PFot-933",
+    "paired_with": null
    }
   }
  ]
