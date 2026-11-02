@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-10-31T13:47Z",
+ "generated": "2026-11-02T17:18Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -12895,6 +12895,64 @@
     "category": "fotovoltaica",
     "promoter": null,
     "file": "SGIISE/PFot-933",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22986",
+   "kind": "resolution",
+   "date": "2026-11-02",
+   "title": "Resolución de 19 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Hibridación de la planta solar fotovoltaica PFV Herrera de los Navarros, de 21 MW de potencia instalada, con el parque eólico Herrera de los Navarros existente de 35 MW y su infraestructura de evacuación, en la provincia de Zaragoza».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22986",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Herrera de los Navarros"
+   ],
+   "provinces": [
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "formulada con condiciones",
+   "value": {
+    "amount": 876.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Sistemas Energéticos Barandón, SA",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-22987",
+   "kind": "resolution",
+   "date": "2026-11-02",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del «Proyecto Módulo de Generación Eólica \"Las Quinientas\", para su hibridación con el parque fotovoltaico existente \"Las Quinientas\", y para su infraestructura de evacuación, en la provincia de Cádiz».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22987",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Puerto Real",
+    "Jerez de la Frontera",
+    "Medina Sidonia"
+   ],
+   "provinces": [
+    "Cádiz"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "formulada con condiciones",
+   "value": {
+    "amount": 164.55,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": null,
     "paired_with": null
    }
   }

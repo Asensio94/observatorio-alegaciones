@@ -21894,8 +21894,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261028_20261031.html",
-   "actualizado": "2026-10-31"
+   "informe": "informes/informe_20261030_20261102.html",
+   "actualizado": "2026-11-02"
   },
   "BOE-B-2026-35476": {
    "identificador": "BOE-B-2026-35476",
@@ -22019,8 +22019,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261028_20261031.html",
-   "actualizado": "2026-10-31",
+   "informe": "informes/informe_20261030_20261102.html",
+   "actualizado": "2026-11-02",
    "footprint": {
     "version": 6,
     "status": "unresolved",
@@ -22157,8 +22157,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261028_20261031.html",
-   "actualizado": "2026-10-31",
+   "informe": "informes/informe_20261030_20261102.html",
+   "actualizado": "2026-11-02",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -22206,8 +22206,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261028_20261031.html",
-   "actualizado": "2026-10-31"
+   "informe": "informes/informe_20261030_20261102.html",
+   "actualizado": "2026-11-02"
   },
   "BOE-B-2026-35482": {
    "identificador": "BOE-B-2026-35482",
@@ -22238,8 +22238,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261028_20261031.html",
-   "actualizado": "2026-10-31"
+   "informe": "informes/informe_20261030_20261102.html",
+   "actualizado": "2026-11-02"
   },
   "BOE-B-2026-35483": {
    "identificador": "BOE-B-2026-35483",
@@ -22270,8 +22270,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261028_20261031.html",
-   "actualizado": "2026-10-31"
+   "informe": "informes/informe_20261030_20261102.html",
+   "actualizado": "2026-11-02"
   },
   "BOE-B-2026-35495": {
    "identificador": "BOE-B-2026-35495",
@@ -22406,8 +22406,8 @@
      "class": null
     }
    ],
-   "informe": "informes/informe_20261028_20261031.html",
-   "actualizado": "2026-10-31",
+   "informe": "informes/informe_20261030_20261102.html",
+   "actualizado": "2026-11-02",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -22428,6 +22428,13 @@
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261030_20261102.html",
+   "desde": "2026-10-30",
+   "hasta": "2026-11-02",
+   "generado": "2026-11-02",
+   "n": 7
+  },
   {
    "fichero": "informes/informe_20261028_20261031.html",
    "desde": "2026-10-28",
@@ -29957,6 +29964,76 @@
    "tipo_etiqueta": "Autorización administrativa",
    "sentido": "caducidad",
    "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22986": {
+   "identificador": "BOE-A-2026-22986",
+   "fecha": "2026-11-02",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 19 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Hibridación de la planta solar fotovoltaica PFV Herrera de los Navarros, de 21 MW de potencia instalada, con el parque eólico Herrera de los Navarros existente de 35 MW y su infraestructura de evacuación, en la provincia de Zaragoza».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22986",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22986",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22986.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Herrera de los Navarros"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Sistemas Energéticos Barandón, SA",
+   "potencia_mw": 876.0,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "dia",
+   "tipo_etiqueta": "Declaración de impacto ambiental",
+   "sentido": "condicionada",
+   "sentido_etiqueta": "formulada con condiciones",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-22987": {
+   "identificador": "BOE-A-2026-22987",
+   "fecha": "2026-11-02",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 22 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del «Proyecto Módulo de Generación Eólica \"Las Quinientas\", para su hibridación con el parque fotovoltaico existente \"Las Quinientas\", y para su infraestructura de evacuación, en la provincia de Cádiz».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22987",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22987",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22987.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Puerto Real",
+    "Jerez de la Frontera",
+    "Medina Sidonia"
+   ],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": 164.55,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "dia",
+   "tipo_etiqueta": "Declaración de impacto ambiental",
+   "sentido": "condicionada",
+   "sentido_etiqueta": "formulada con condiciones",
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
