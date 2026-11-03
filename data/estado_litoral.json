@@ -2934,6 +2934,142 @@
    "n_especies": 20,
    "n_aves": 10,
    "geolocalizado": true
+  },
+  "BOE-B-2026-35896": {
+   "identificador": "BOE-B-2026-35896",
+   "fecha": "2026-11-03",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia sobre otorgamiento de concesión administrativa de ocupación de dominio público marítimo-terrestre con destino a vivienda, en el término municipal de Águilas (Murcia). Referencia CNC12.10.30.0007.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35896",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-35896",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-B-2026-35896.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Águilas"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-01",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "mas_edificabilidad",
+     "etiqueta": "Aumenta edificabilidad, altura o clasifica suelo",
+     "puntos": 3,
+     "apoyo": "En la zona de influencia (500 m desde el límite interior de la ribera del mar) la ordenación debe evitar la formación de pantallas arquitectónicas y no puede superar la densidad edificatoria media del suelo urbanizable del municipio (artículo 30.1.b de la Ley 22/1988). Es el argumento más directo contra un aumento de aprovechamiento en primera línea."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 8,
+   "natura": [
+    "ES0000261",
+    "ES6200035",
+    "ES6200031",
+    "ES6200010",
+    "ES6200029",
+    "ES6200007",
+    "ES6110012",
+    "ES0000507"
+   ],
+   "natura_nombres": [
+    "Almenara-Moreras-Cabo Cope",
+    "Sierra de Almenara",
+    "Cabo Cope",
+    "Cuatro Calas",
+    "Franja Litoral Sumergida de la Región de Murcia",
+    "Islas e Islotes del Litoral Mediterráneo"
+   ],
+   "n_especies": 33,
+   "n_aves": 21,
+   "geolocalizado": true
+  },
+  "BOE-B-2026-35911": {
+   "identificador": "BOE-B-2026-35911",
+   "fecha": "2026-11-03",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia sobre otorgamiento de concesión administrativa de ocupación de dominio público marítimo-terrestre con destino a vivienda, en el término municipal de Águilas (Murcia). Referencia CNC12.10.30.0006.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35911",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-35911",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-B-2026-35911.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Águilas"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-01",
+   "plazo_estimado": true,
+   "senales": [
+    {
+     "clave": "playa_duna",
+     "etiqueta": "Afecta a playa, duna o acantilado",
+     "puntos": 3,
+     "apoyo": "En la playa y la zona marítimo-terrestre solo se permiten las instalaciones que por su naturaleza no puedan ubicarse fuera (artículo 32 de la Ley 22/1988), y los paseos marítimos no pueden ocupar la playa (artículo 44.5). Los sistemas dunares y los acantilados suelen ser además hábitat de interés comunitario."
+    },
+    {
+     "clave": "mas_edificabilidad",
+     "etiqueta": "Aumenta edificabilidad, altura o clasifica suelo",
+     "puntos": 3,
+     "apoyo": "En la zona de influencia (500 m desde el límite interior de la ribera del mar) la ordenación debe evitar la formación de pantallas arquitectónicas y no puede superar la densidad edificatoria media del suelo urbanizable del municipio (artículo 30.1.b de la Ley 22/1988). Es el argumento más directo contra un aumento de aprovechamiento en primera línea."
+    },
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 8,
+   "natura": [
+    "ES0000261",
+    "ES6200035",
+    "ES6200031",
+    "ES6200010",
+    "ES6200029",
+    "ES6200007",
+    "ES6110012",
+    "ES0000507"
+   ],
+   "natura_nombres": [
+    "Almenara-Moreras-Cabo Cope",
+    "Sierra de Almenara",
+    "Cabo Cope",
+    "Cuatro Calas",
+    "Franja Litoral Sumergida de la Región de Murcia",
+    "Islas e Islotes del Litoral Mediterráneo"
+   ],
+   "n_especies": 33,
+   "n_aves": 21,
+   "geolocalizado": true
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-02T17:18Z",
+ "generated": "2026-11-03T15:24Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -12952,6 +12952,34 @@
    "details": {
     "category": "eolica",
     "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-35925",
+   "kind": "resolution",
+   "date": "2026-11-03",
+   "title": "Resolución de la Delegación Territorial En Sevilla De Economía, Hacienda, Fondos Europeos y de Universidad, Industria, Energía e Innovación, por el que se concede a favor de la mercantil San Isidro Solar 6, modificación de Autorización Administrativa Previa y de Construcción para la implantación de la instalación de generación de energía eléctrica denominada \"Hsf Montellano\" con una potencia instalada de 5,6 MW el término municipal de Morón de la Frontera (Sevilla), y Declaración en concreto de Utilidad Pública para la infraestructura eléctrica de evacuación asociada.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-35925",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Morón de la Frontera"
+   ],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 5.6,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "San Isidro Solar 6, S.L",
     "file": null,
     "paired_with": null
    }

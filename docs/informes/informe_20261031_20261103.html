@@ -1,0 +1,211 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Observatorio de alegaciones ambientales</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cstyle%3E.b%7Bfill%3A%23221d1a%7D.p%7Bfill%3A%239f1d35%7D.l%7Bstroke%3A%23221d1a%7D%40media%20%28prefers-color-scheme%3Adark%29%7B.b%7Bfill%3A%23ede6e0%7D.p%7Bfill%3A%23f0708a%7D.l%7Bstroke%3A%23ede6e0%7D%7D%3C/style%3E%3Cg%20class%3D%22b%22%3E%3Ccircle%20cx%3D%2234%22%20cy%3D%2231%22%20r%3D%2219%22/%3E%3Cpath%20d%3D%22M19%2040%207%2050.5l3.5%204L25%2046z%22/%3E%3Cpath%20d%3D%22M52%2022l8%202.5-8%202.5z%22/%3E%3C/g%3E%3Cpath%20class%3D%22p%22%20d%3D%22M34%2012a19%2019%200%200%201%2015%2030.8C42%2041%2037%2034%2037%2026c0-6%201.5-10.5%204-12.6A19%2019%200%200%200%2034%2012z%22/%3E%3Cg%20fill%3D%22%23221d1a%22%3E%3Ccircle%20cx%3D%2245%22%20cy%3D%2221.5%22%20r%3D%222.1%22/%3E%3C/g%3E%3Cpath%20class%3D%22l%22%20d%3D%22M31%2049.5V60m7-11v11m-10.5.2h6m1.5%200h6%22%20fill%3D%22none%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<style>
+/* common.css v1.1 — shared look of the nine open-data projects (vigia-incendios is the reference).
+   Copy this file verbatim into each repo; change it in all repos at once, never in one.
+   Each repo sets only --accent and --accent-dark below it and adds its own rules after it.
+
+   Type:  Barlow Condensed for titles and labels, Source Serif 4 for reading, IBM Plex Mono for
+          figures, codes and dates. Load them with:
+   https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap */
+
+:root{
+  --ground:#f0edea; --paper:#faf8f6; --ink:#221d1a; --muted:#6b625c; --line:#dad2cb;
+  --accent:#c2410c; --accent-dark:#fb7b3e;
+  --natura:#2f7a55; --natura-dark:#62b88a;
+  --shadow:0 1px 0 rgba(34,29,26,.06), 0 6px 18px -10px rgba(34,29,26,.28);
+  --font-title:"Barlow Condensed","Arial Narrow",sans-serif;
+  --font-text:"Source Serif 4",Georgia,serif;
+  --font-data:"IBM Plex Mono",ui-monospace,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#15110f; --paper:#1d1815; --ink:#ede6e0; --muted:#a69a91; --line:#362d28;
+    --accent:var(--accent-dark); --natura:var(--natura-dark);
+    --shadow:0 1px 0 rgba(0,0,0,.3), 0 8px 22px -12px rgba(0,0,0,.7);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#15110f; --paper:#1d1815; --ink:#ede6e0; --muted:#a69a91; --line:#362d28;
+  --accent:var(--accent-dark); --natura:var(--natura-dark);
+  --shadow:0 1px 0 rgba(0,0,0,.3), 0 8px 22px -12px rgba(0,0,0,.7);
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font:17px/1.55 var(--font-text);overflow-wrap:break-word}
+a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+img,svg{max-width:100%}
+
+/* Header: «PROJECT NAME» with the key word in the accent colour, one sentence, then the figures. */
+.site-header{max-width:1440px;margin:0 auto;padding:28px 16px 18px;display:grid;gap:14px}
+.site-header h1{margin:0;font:700 clamp(40px,6vw,64px)/.9 var(--font-title);text-transform:uppercase;letter-spacing:.02em}
+.site-header h1 span{color:var(--accent)}
+/* Logo: the robin from logo.py before the title; same shape everywhere, breast in the accent. */
+.logo{display:inline-block;width:1.05em;height:1.05em;margin-right:.16em;vertical-align:-.13em;color:var(--ink);overflow:visible}
+.logo .logo-breast{fill:var(--accent)}
+.site-header .lede{margin:0;max-width:72ch;font-size:18px}
+.figures{display:flex;flex-wrap:wrap;gap:12px 28px;margin:0;padding:12px 0 0;border-top:1px solid var(--line)}
+.figures div{display:grid;gap:2px}
+.figures b{font:600 30px/1 var(--font-data);font-variant-numeric:tabular-nums;color:var(--accent)}
+.figures span{font:600 13px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+
+/* Text roles */
+.label{font-family:var(--font-title);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.data{font-family:var(--font-data);font-variant-numeric:tabular-nums}
+.note{color:var(--muted);font-size:14.5px}
+.badge{display:inline-block;font:600 12px/1 var(--font-title);text-transform:uppercase;letter-spacing:.09em;padding:4px 7px 3px;border:1.5px solid currentColor;color:var(--accent)}
+
+/* Cards and panels */
+.card{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);padding:16px}
+
+/* Method section: how every figure is computed, step by step */
+.method{max-width:1440px;margin:0 auto;padding:24px 16px}
+.method h2{margin:0 0 6px;font:700 28px/1 var(--font-title);text-transform:uppercase;letter-spacing:.03em}
+.method h3{margin:18px 0 4px;font:600 18px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.06em}
+.method p,.method li{max-width:72ch}
+table.params{border-collapse:collapse;font-size:14.5px;width:100%;max-width:900px}
+table.params th,table.params td{text-align:left;vertical-align:top;padding:6px 10px 6px 0;border-bottom:1px solid var(--line)}
+table.params th{font:600 14px/1.3 var(--font-title);text-transform:uppercase;letter-spacing:.05em;white-space:nowrap;padding-right:16px}
+table.params td.num,table.params th.num{text-align:right;font-family:var(--font-data);font-variant-numeric:tabular-nums}
+
+/* Footer: sources, licence, the shared principle and the sibling projects */
+.site-footer{max-width:1440px;margin:0 auto;padding:16px 16px 40px;font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);display:grid;gap:10px}
+.site-footer .principle{margin:0;color:var(--ink);font-style:italic}
+.siblings{display:flex;flex-wrap:wrap;gap:4px 14px;margin:0;padding:0;list-style:none}
+.siblings li a{text-decoration-color:var(--line)}
+.siblings li[aria-current] a{color:var(--ink);text-decoration-color:var(--accent);font-weight:600}
+
+@media (max-width:640px){
+  body{font-size:16px}
+  .figures b{font-size:24px}
+}
+
+:root{--accent:#9f1d35;--accent-dark:#f0708a}
+:root{--urgent:#b3261e;--warn:#9a5b00;--notice-bg:#fbf3dc;--notice-line:#c99a2e}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--urgent:#f08a80;--warn:#e3a93c;--notice-bg:#2a2214;--notice-line:#b8862a;}}:root[data-theme="dark"]{--urgent:#f08a80;--warn:#e3a93c;--notice-bg:#2a2214;--notice-line:#b8862a;}
+ .site-nav{display:flex;flex-wrap:wrap;gap:4px 18px;font:600 14px/1.3 var(--font-title);text-transform:uppercase;letter-spacing:.08em}
+ .site-nav a{color:var(--muted);text-decoration:none} .site-nav a:hover{color:var(--ink)} .site-nav a[aria-current]{color:var(--accent)}
+ .figures a{text-decoration-color:var(--line)}
+ main.content{max-width:1440px;margin:0 auto;padding:0 16px 8px}
+ h2{font:700 26px/1.05 var(--font-title);text-transform:uppercase;letter-spacing:.03em;margin:28px 0 10px}
+ h3{font:600 18px/1.2 var(--font-title);text-transform:uppercase;letter-spacing:.05em}
+ .sub{color:var(--muted)}
+ table{border-collapse:collapse;width:100%;font-size:15px} th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+ thead th{background:var(--paper);font:600 13px/1.25 var(--font-title);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+ table.meta th{width:240px;color:var(--muted);font-weight:600}
+ .wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line)}
+ .ficha{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);padding:16px;margin:24px 0}
+ .ficha h2{margin-top:0} .ficha .wrap{border:0}
+ .badge{color:#fff;border:0;border-radius:2px;padding:4px 7px 3px;margin-right:.4rem;vertical-align:middle;white-space:nowrap}
+ .warn{color:var(--warn)} .urgente{color:var(--urgent);font-weight:600} .cerrado{color:var(--muted)}
+ .mapa iframe{display:block;width:100%;height:520px;border:1px solid var(--line);background:var(--paper)}
+ .aviso{background:var(--notice-bg);border-left:4px solid var(--notice-line);padding:10px 16px;margin:16px 0;font-size:15px}
+ .method ol li{margin:6px 0} .method table.params{margin:6px 0 4px}
+ @media (max-width:640px){table.meta th{width:38%} table.params th{white-space:normal} .mapa iframe{height:420px}}
+</style></head><body>
+<header class="site-header">
+<nav class="site-nav" aria-label="Secciones"><a href="../index.html">← Alegaciones abiertas</a><a href="../historico.html">Histórico</a></nav>
+<h1><svg class="logo" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><g fill="currentColor"><circle cx="34" cy="31" r="19"/><path d="M19 40 7 50.5l3.5 4L25 46z"/><path d="M52 22l8 2.5-8 2.5z"/></g><path class="logo-breast" d="M34 12a19 19 0 0 1 15 30.8C42 41 37 34 37 26c0-6 1.5-10.5 4-12.6A19 19 0 0 0 34 12z"/><g fill="#221d1a"><circle cx="45" cy="21.5" r="2.1"/></g><path d="M31 49.5V60m7-11v11m-10.5.2h6m1.5 0h6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Observatorio de <span>alegaciones</span> ambientales</h1>
+<p class="lede">Informe de los anuncios de información pública publicados entre el 31/10/2026 y el 03/11/2026 en el BOE (sección V-B) y el BOC de Cantabria, con mapa y ficha de cada proyecto. Generado el 03/11/2026.</p>
+<div class="figures"><div><b>0</b><span>proyectos en información pública</span></div><div><b>0</b><span>geolocalizados</span></div><div><b>0</b><span>con Natura 2000 en el municipio</span></div><div><b>0</b><span>con trámite ambiental explícito</span></div></div>
+</header>
+<main class="content">
+
+<div class="aviso">El cruce con Red Natura 2000 y con especies amenazadas se hace sobre el <b>término municipal completo</b>, no sobre la huella de las obras. Indica que la zona merece atención, no que el proyecto afecte al espacio protegido. Las fechas límite se calculan en días hábiles descontando solo festivos nacionales y son orientativas: compruébalas siempre en el anuncio oficial.</div>
+<div class="mapa"><iframe src="informe_20261031_20261103_mapa.html" loading="lazy" title="Mapa de los proyectos del informe"></iframe></div>
+<h2>Índice</h2>
+<div class="wrap"><table class="datos"><thead><tr><th>Anuncio</th><th>Fuente</th><th>Publicado</th><th>Categoría</th><th>EIA</th><th>Provincias</th><th>Natura (municipio)</th><th>Esp. amen.</th><th>Aves</th><th>Fecha límite (est.)</th></tr></thead><tbody></tbody></table></div>
+
+</main>
+<section class="method" aria-labelledby="como-se-calcula"><h2 id="como-se-calcula">Cómo se calcula</h2>
+<p>Cada mañana laborable se leen los anuncios de información pública del <b>BOE</b> (sección V-B) y del
+<b>Boletín Oficial de Cantabria</b> (secciones 5 y 7), se detectan proyectos con posible afección ambiental
+(eólica, fotovoltaica, líneas eléctricas, minería, infraestructuras, costas, hidráulica), se localizan sus
+municipios y se cruzan con la Red Natura 2000 y con los registros de especies animales amenazadas. El objetivo
+es que los grupos locales y las organizaciones de conservación conozcan los proyectos <b>mientras aún se puede
+alegar</b>. Proyecto abierto: el código, los datos y las mejoras están en GitHub.</p>
+<ol>
+ <li><b>Lectura.</b> A las 07:30 UTC, de lunes a sábado, se leen los anuncios de los últimos cuatro días del BOE
+  (sección V-B, «Otros anuncios oficiales») y del BOC (secciones 5 y 7). Los servidores del BOC no responden
+  desde GitHub, así que un equipo en España descarga sus anuncios y los sube al repositorio.</li>
+ <li><b>Selección.</b> Reglas escritas (expresiones regulares) separan los proyectos con posible afección
+  ambiental, les dan categoría y prioridad, y extraen municipios, provincias, plazo, promotor, potencia y
+  expediente. Si el promotor es una persona física, su nombre no se guarda ni se publica. Tampoco se publica
+  el texto completo de los anuncios: las relaciones de bienes afectados, con nombres y direcciones de sus
+  propietarios, se leen solo en el boletín.</li>
+ <li><b>Fecha límite.</b> Se cuentan los días hábiles del plazo desde el día siguiente a la publicación, sin
+  sábados ni domingos y descontando los festivos nacionales y, en el BOC, los dos autonómicos fijos de
+  Cantabria. Si el anuncio no dice el plazo se asumen 30 días hábiles y se marca como estimado.</li>
+ <li><b>Localización.</b> Cada municipio se convierte en su polígono de OpenStreetMap (Nominatim).</li>
+ <li><b>Cruces.</b> Los proyectos de prioridad 3 o más con municipios detectados se cruzan con los espacios Red
+  Natura 2000 (LIC/ZEC y ZEPA) que tocan el término municipal y con los registros GBIF de especies animales en
+  categoría UICN CR, EN, VU, NT desde 2005.</li>
+ <li><b>Huella catastral.</b> Si el anuncio del BOE trae la relación de bienes y derechos afectados, cada
+  parcela se localiza en el servicio INSPIRE del Catastro, se unen sus geometrías y se repite el cruce con Red
+  Natura 2000 sobre esa huella («En las parcelas afectadas»). De esas tablas solo se leen las columnas
+  catastrales y las superficies; los datos personales se descartan sin guardarse.</li>
+ <li><b>Publicación.</b> Todo se acumula en <code>data/estado.json</code> y se regeneran estas páginas. Un
+  proyecto pasa al histórico cuando su fecha límite estimada ya ha pasado.</li>
+</ol>
+<h3>Parámetros</h3>
+<table class="params">
+ <tr><th>Ventana de lectura diaria</th><td class="num">4 días</td></tr>
+ <tr><th>Plazo si el anuncio no lo dice</th><td class="num">30 días hábiles</td></tr>
+ <tr><th>Festivos nacionales cargados</th><td class="num">2026-2028</td></tr>
+ <tr><th>Aviso de plazo urgente</th><td class="num">7 días o menos</td></tr>
+ <tr><th>Prioridad mínima para cruzar</th><td class="num">3</td></tr>
+ <tr><th>Especies (GBIF)</th><td class="num">UICN CR/EN/VU/NT · desde 2005</td></tr>
+ <tr><th>Red Natura 2000</th><td class="num">versión 2024</td></tr>
+</table>
+<h3>Validación</h3>
+<p>Pendiente: no hay todavía un contraste sistemático de la detección ni de las fechas límite contra una
+lista de referencia. Sí está medida la localización de la huella catastral: en la primera versión, sobre los
+35 anuncios con relación de bienes del estado, 6.666 parcelas, de las que 650 son forales; de las de catastro
+común se localizó el 98,7 %.</p>
+<h3>Límites</h3>
+<ul>
+ <li>El cruce se hace sobre el <b>término municipal completo</b>, no sobre la huella de las obras: es un filtro
+  de atención, no una evaluación de afección.</li>
+ <li>La huella catastral es la parcela entera, así que sobreestima: por eso se dan la superficie declarada y la
+  de las parcelas. Navarra y el País Vasco tienen catastro propio y sus parcelas quedan como forales, sin huella.</li>
+ <li>Las fechas límite son orientativas: no descuentan festivos locales ni autonómicos móviles.</li>
+ <li>La extracción por reglas puede fallar en municipios, provincias o plazos. Cada fila enlaza al anuncio
+  oficial: compruébalo allí.</li>
+ <li>Solo se leen el BOE y el BOC de Cantabria; el resto de boletines autonómicos está pendiente.</li>
+ <li>La categoría UICN de GBIF es la mundial. Por eso se descartan las especies que no son nativas en España
+  (aves de jaula escapadas, galápagos asiáticos, gacelas en cautividad, arruí…): estarán amenazadas en su área
+  de origen, pero en España no forman parte de la fauna silvestre nativa. La lista está en <code>observatorio/species.py</code>
+  (<code>NO_NATIVAS</code>). Las aves raras que llegan por sí solas sí se cuentan.</li>
+ <li>«Sin cruce» quiere decir que el proyecto no se ha cruzado (prioridad menor que 3, municipios
+  no detectados o no localizados); no que no haya espacios ni especies. «Ninguno encontrado» quiere decir que el
+  cruce se hizo y no dio resultados.</li>
+</ul>
+</section>
+<footer class="site-footer">
+  <p class="principle">Datos públicos, reglas a la vista y cada cifra enlazada a su fuente. Indicios, no veredictos.</p>
+  <p>Fuentes: BOE (datos abiertos), BOC Boletín Oficial de Cantabria (XML diario), Agencia Europea de Medio Ambiente (Natura 2000, versión 2024), GBIF (registros de animales con coordenadas desde 2005, categorías UICN), OpenStreetMap/Nominatim (límites municipales), Catastro (parcelas INSPIRE).
+  Código abierto con licencia MIT: <a href="https://github.com/Asensio94/observatorio-alegaciones">github.com/Asensio94/observatorio-alegaciones</a>. Datos propios con licencia CC BY 4.0; los de terceros conservan la suya.</p>
+  <p class="hub"><a href="https://asensio94.github.io/terra-aperta/">← Terra Aperta: todos los proyectos</a></p>
+  <p>Proyectos hermanos:</p>
+  <nav aria-label="Proyectos hermanos"><ul class="siblings">
+    <li><a href="https://asensio94.github.io/sub-nocte/">Sub Nocte</a></li>
+    <li><a href="https://asensio94.github.io/vigia-incendios/">Vigía de incendios</a></li>
+    <li><a href="https://asensio94.github.io/centinela-natura/">Centinela Natura</a></li>
+    <li><a href="https://asensio94.github.io/estado-iba/">Estado de las IBA</a></li>
+    <li><a href="https://asensio94.github.io/riesgo-tendidos-aves/">Riesgo de tendidos para aves</a></li>
+    <li aria-current="page">Observatorio de alegaciones</li>
+    <li><a href="https://asensio94.github.io/grafo-promotores/">Grafo de promotores</a></li>
+    <li><a href="https://asensio94.github.io/vigilancia-humedales/">Vigilancia de humedales</a></li>
+    <li><a href="https://asensio94.github.io/caudal-ecologico/">Caudal ecológico</a></li>
+    <li><a href="https://asensio94.github.io/acuiferos-francia/">Acuíferos de Francia</a></li>
+    <li><a href="https://asensio94.github.io/depuracion-y-bano/">Depuración y baño</a></li>
+    <li><a href="https://asensio94.github.io/zona-inundable/">Construir en zona inundable</a></li>
+  </ul></nav>
+</footer>
+</body></html>
