@@ -14462,6 +14462,24 @@
     "catastro_date": "2026-08-21",
     "geojson": "datos/footprints/BOE-B-2026-32682.geojson",
     "natura": []
+   },
+   "resolucion": {
+    "identificador": "BOE-A-2026-23160",
+    "fecha": "2026-11-04",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Estudios y Proyectos Pradamap, SLU, autorización administrativa previa y autorización administrativa de construcción para una línea subterránea a 13,2 kV y un centro de transformación de servicios auxiliares, para punto de suministro en la subestación seccionadora «Villalba 220 kV», como parte de las infraestructuras de evacuación de parque eólico «Pinta y Guindalera», en La Mudarra (Valladolid).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23160",
+    "fuente": "BOE",
+    "puntos": 8,
+    "motivos": [
+     "2 municipio(s) en común",
+     "misma categoría (eolica)",
+     "misma potencia (100.0 MW)",
+     "coinciden: mudarra, valladolid"
+    ]
    }
   },
   "BOE-B-2026-32686": {
@@ -21010,6 +21028,23 @@
     "catastro_date": null,
     "geojson": null,
     "natura": []
+   },
+   "resolucion": {
+    "identificador": "BOE-A-2026-23161",
+    "fecha": "2026-11-04",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "favorable",
+    "sentido_etiqueta": "favorable",
+    "titulo": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción de la nueva línea eléctrica aéreo-subterránea de media tensión, a 15 kV, y centro de medida y transformación de 160 kVA, para alimentación de servicios auxiliares de la subestación Maguilla 400 kV, en Maguilla (Badajoz), y se declara, en concreto, su utilidad pública.",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23161",
+    "fuente": "BOE",
+    "puntos": 6,
+    "motivos": [
+     "mismo promotor (Red Eléctrica de España, Sociedad Anónima Unipersonal)",
+     "misma categoría (red_electrica)",
+     "coinciden: servicios, transformacion"
+    ]
    }
   },
   "BOE-B-2026-35367": {
@@ -22425,9 +22460,447 @@
     "geojson": "datos/footprints/BOE-B-2026-35495.geojson",
     "natura": []
    }
+  },
+  "BOE-B-2026-36010": {
+   "identificador": "BOE-B-2026-36010",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Tarragona por la que se somete a información pública la solicitud de prórroga de la concesión administrativa titularidad de Fruport Tarragona, S.L. en el Puerto de Tarragona.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36010",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36010",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36010.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-02",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261101_20261104.html",
+   "actualizado": "2026-11-04"
+  },
+  "BOE-B-2026-36013": {
+   "identificador": "BOE-B-2026-36013",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Bizkaia, por el que se somete a Información Pública la solicitud de Autorización Administrativa Previa, Autorización Administrativa de Construcción, Declaración, en concreto, de Utilidad Pública y Declaración de Impacto Ambiental de los proyectos de Línea aérea de transporte de energía eléctrica a 400 kV doble circuito entrada y salida en Subestación Arrigorriaga de la línea Güeñes-Itxaso y la Subestación Arrigorriaga 400 kV, en la provincia de Bizkaia.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36013",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36013",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36013.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Ugao-Miraballes",
+    "Arrigorriaga"
+   ],
+   "provincias": [
+    "Bizkaia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España Sociedad Anónima Unipersonal",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 9,
+   "n_aves": 2,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Barbatula quignardi",
+     "vernacular_es": "",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Cerambyx cerdo",
+     "vernacular_es": "Gran capricornio de las encinas",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Luciobarbus graellsii",
+     "vernacular_es": "Barbo de Graells",
+     "categoria_uicn": "NT",
+     "class": null
+    },
+    {
+     "scientificName": "Parachondrostoma miegii",
+     "vernacular_es": "Madrilla",
+     "categoria_uicn": "NT",
+     "class": null
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261101_20261104.html",
+   "actualizado": "2026-11-04",
+   "footprint": {
+    "version": 6,
+    "status": "foral",
+    "public_domain": 0,
+    "n_parcels": 13,
+    "n_matched": 0,
+    "foral": 13,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 38897,
+     "temporary": 43811
+    },
+    "parcels_m2": 0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
+  },
+  "BOE-B-2026-36014": {
+   "identificador": "BOE-B-2026-36014",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Granada, por el que se somete a información pública la solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción para la Ampliación de la Subestación Caparacena en el parque de 400 kV, con objeto de instalar una nueva reactancia (REA-2). La instalación se encuentra ubicada en el término municipal de Atarfe (Granada).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36014",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36014",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36014.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Atarfe"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+   "potencia_mw": null,
+   "expediente": "6/2022",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 15,
+   "n_aves": 8,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Plebejus hesperica",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Pararge aegeria",
+     "vernacular_es": "Maculada",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Caprimulgus ruficollis",
+     "vernacular_es": "Chotacabras Pardo",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261101_20261104.html",
+   "actualizado": "2026-11-04"
+  },
+  "BOE-B-2026-36015": {
+   "identificador": "BOE-B-2026-36015",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Segura, O.A de Información Pública sobre inclusión de varias parcelas como regadío consolidado. ASM-0039/2020 (acumulado ASM-0015/2023).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36015",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36015",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36015.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Comunidad de Regantes de Lorca",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261101_20261104.html",
+   "actualizado": "2026-11-04"
+  },
+  "BOE-B-2026-36091": {
+   "identificador": "BOE-B-2026-36091",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+   "titulo": "Anuncio del Servicio de Ordenación Industrial, Energética y Minera de la Dirección General de Industria, Energía y Minas, por el que se somete a información pública la petición de autorización administrativa previa y reconocimiento en concreto de la utilidad pública de las instalaciones correspondientes al proyecto denominado: Proyecto para nueva LSAT, de 45 kV, de enlace entre la STR 4870 Don Benito y la ST 3098 Don Benito en el T.M. de Don Benito (Badajoz). Término Municipal: Don Benito. Expediente: 06AT-10177-18650.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36091",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36091",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36091.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Don Benito",
+    "Paraje"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": null,
+   "promotor": "i-DE Redes Eléctricas Inteligentes, S.A.U",
+   "potencia_mw": null,
+   "expediente": "06AT-10177-18650",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Paraje"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES4310010",
+     "nombre": "La Serena",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000367",
+     "nombre": "La Serena y Sierras Periféricas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000400",
+     "nombre": "Arrozales de Palazuelo y Guadalperales",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4310024",
+     "nombre": "Río Guadamez",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4310026",
+     "nombre": "Río Guadiana Alto - Zujar",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 38,
+   "n_aves": 22,
+   "especies_top": [
+    {
+     "scientificName": "Vanellus gregarius",
+     "vernacular_es": "Avefría sociable",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Unio tumidiformis",
+     "vernacular_es": "Náyade túmida",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Unio delphinus",
+     "vernacular_es": "Náyade delfín",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Potomida littoralis",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    }
+   ],
+   "informe": "informes/informe_20261101_20261104.html",
+   "actualizado": "2026-11-04",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 1,
+    "n_matched": 1,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 3,
+     "temporary": 25
+    },
+    "parcels_m2": 11687,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-36091.geojson",
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261101_20261104.html",
+   "desde": "2026-11-01",
+   "hasta": "2026-11-04",
+   "generado": "2026-11-04",
+   "n": 5
+  },
   {
    "fichero": "informes/informe_20261031_20261103.html",
    "desde": "2026-10-31",
@@ -30069,6 +30542,120 @@
    "promotor": "San Isidro Solar 6, S.L",
    "potencia_mw": 5.6,
    "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-23160": {
+   "identificador": "BOE-A-2026-23160",
+   "fecha": "2026-11-04",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Estudios y Proyectos Pradamap, SLU, autorización administrativa previa y autorización administrativa de construcción para una línea subterránea a 13,2 kV y un centro de transformación de servicios auxiliares, para punto de suministro en la subestación seccionadora «Villalba 220 kV», como parte de las infraestructuras de evacuación de parque eólico «Pinta y Guindalera», en La Mudarra (Valladolid).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23160",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23160",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23160.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Villalba de los Alcores",
+    "Montealegre de Campos",
+    "La Mudarra",
+    "Valdenebro de los Valles"
+   ],
+   "provincias": [
+    "Valladolid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Estudios y Proyectos Pradamap",
+   "potencia_mw": 103.5,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-32682",
+   "puntos": 8,
+   "motivos": [
+    "2 municipio(s) en común",
+    "misma categoría (eolica)",
+    "misma potencia (100.0 MW)",
+    "coinciden: mudarra, valladolid"
+   ],
+   "firme": true
+  },
+  "BOE-A-2026-23161": {
+   "identificador": "BOE-A-2026-23161",
+   "fecha": "2026-11-04",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción de la nueva línea eléctrica aéreo-subterránea de media tensión, a 15 kV, y centro de medida y transformación de 160 kVA, para alimentación de servicios auxiliares de la subestación Maguilla 400 kV, en Maguilla (Badajoz), y se declara, en concreto, su utilidad pública.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23161",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23161",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23161.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Maguilla"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-35277",
+   "puntos": 6,
+   "motivos": [
+    "mismo promotor (Red Eléctrica de España, Sociedad Anónima Unipersonal)",
+    "misma categoría (red_electrica)",
+    "coinciden: servicios, transformacion"
+   ],
+   "firme": true
+  },
+  "BOE-B-2026-36090": {
+   "identificador": "BOE-B-2026-36090",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Industria, Energía y Minas en Granada, por la que se declara, en concreto, de utilidad pública, el proyecto denominado Reforma, consolidación y soterramiento de LAMT Nivar 20 KV Subestación Fargue A CTI 54588 Ur. Jiménez, Sito en Paraje Catacena, T.M. Cogollos de la Vega (Granada).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36090",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36090",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36090.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cogollos de la Vega"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "E-4879",
    "fecha_limite": "",
    "plazo_estimado": false,
    "tipo": "autorizacion",

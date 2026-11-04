@@ -1,0 +1,842 @@
+[
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-36091",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+   "titulo": "Anuncio del Servicio de Ordenación Industrial, Energética y Minera de la Dirección General de Industria, Energía y Minas, por el que se somete a información pública la petición de autorización administrativa previa y reconocimiento en concreto de la utilidad pública de las instalaciones correspondientes al proyecto denominado: Proyecto para nueva LSAT, de 45 kV, de enlace entre la STR 4870 Don Benito y la ST 3098 Don Benito en el T.M. de Don Benito (Badajoz). Término Municipal: Don Benito. Expediente: 06AT-10177-18650.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36091",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36091",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36091.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Don Benito",
+    "Paraje"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": null,
+   "promotor": "i-DE Redes Eléctricas Inteligentes, S.A.U",
+   "potencia_mw": null,
+   "expediente": "06AT-10177-18650",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": true
+  },
+  "geom": null,
+  "natura": [
+   {
+    "sitecode": "ES4310010",
+    "nombre": "La Serena",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 42.0
+   },
+   {
+    "sitecode": "ES0000367",
+    "nombre": "La Serena y Sierras Periféricas",
+    "tipo": "ZEPA",
+    "sitetype": "A",
+    "solape_km2": 42.0
+   },
+   {
+    "sitecode": "ES0000400",
+    "nombre": "Arrozales de Palazuelo y Guadalperales",
+    "tipo": "ZEPA",
+    "sitetype": "A",
+    "solape_km2": 23.5
+   },
+   {
+    "sitecode": "ES4310024",
+    "nombre": "Río Guadamez",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 6.1
+   },
+   {
+    "sitecode": "ES4310026",
+    "nombre": "Río Guadiana Alto - Zujar",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 5.6
+   }
+  ],
+  "especies": {
+   "total_registros_amenazadas": 2747,
+   "aves_amenazadas_registros": 2690,
+   "especies": [
+    {
+     "key": 5229138,
+     "scientificName": "Vanellus gregarius",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría sociable",
+     "registros": 1,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 6548059,
+     "scientificName": "Unio tumidiformis",
+     "class": "Bivalvia",
+     "order": "Unionida",
+     "vernacular_es": "Náyade túmida",
+     "registros": 1,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 2474921,
+     "scientificName": "Otis tarda",
+     "class": "Aves",
+     "order": "Otidiformes",
+     "vernacular_es": "Avutarda",
+     "registros": 16,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2436940,
+     "scientificName": "Oryctolagus cuniculus",
+     "class": "Mammalia",
+     "order": "Lagomorpha",
+     "vernacular_es": "Conejo",
+     "registros": 6,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2480696,
+     "scientificName": "Neophron percnopterus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Alimoche",
+     "registros": 3,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 4559585,
+     "scientificName": "Unio delphinus",
+     "class": "Bivalvia",
+     "order": "Unionida",
+     "vernacular_es": "Náyade delfín",
+     "registros": 1,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 4559634,
+     "scientificName": "Potomida littoralis",
+     "class": "Bivalvia",
+     "order": "Unionida",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 7341500,
+     "scientificName": "Lanius meridionalis",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón real",
+     "registros": 397,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 42,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480510,
+     "scientificName": "Aquila adalberti",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "registros": 21,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481741,
+     "scientificName": "Calidris ferruginea",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos zarapitín",
+     "registros": 5,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2430565,
+     "scientificName": "Pelobates cultripes",
+     "class": "Amphibia",
+     "order": "Anura",
+     "vernacular_es": "Sapo de Espuelas",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2439683,
+     "scientificName": "Eliomys quercinus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Lirón Careto",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480327,
+     "scientificName": "Pluvialis squatarola",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Chorlito Gris",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2435261,
+     "scientificName": "Lynx pardinus",
+     "class": "Mammalia",
+     "order": "Carnivora",
+     "vernacular_es": "Lince iberico",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 5960896,
+     "scientificName": "Vipera latastei",
+     "class": "Squamata",
+     "order": null,
+     "vernacular_es": "Vibora hocicuda",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481685,
+     "scientificName": "Limosa limosa",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Aguja Colinegra",
+     "registros": 898,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 576,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481759,
+     "scientificName": "Calidris alpina",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos Común",
+     "registros": 312,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2474051,
+     "scientificName": "Alectoris rufa",
+     "class": "Aves",
+     "order": "Galliformes",
+     "vernacular_es": "Perdiz Roja",
+     "registros": 174,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 92,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5229165,
+     "scientificName": "Aegypius monachus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Buitre Negro",
+     "registros": 53,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5228228,
+     "scientificName": "Tetrax tetrax",
+     "class": "Aves",
+     "order": "Otidiformes",
+     "vernacular_es": "Sisón",
+     "registros": 33,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 9411857,
+     "scientificName": "Caprimulgus ruficollis",
+     "class": "Aves",
+     "order": "Caprimulgiformes",
+     "vernacular_es": "Chotacabras Pardo",
+     "registros": 27,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481792,
+     "scientificName": "Numenius arquata",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
+     "registros": 26,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2433753,
+     "scientificName": "Lutra lutra",
+     "class": "Mammalia",
+     "order": "Carnivora",
+     "vernacular_es": "",
+     "registros": 22,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5219616,
+     "scientificName": "Erinaceus europaeus",
+     "class": "Mammalia",
+     "order": "Erinaceomorpha",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "registros": 7,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492949,
+     "scientificName": "Sylvia undata",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Curruca Rabilarga",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481776,
+     "scientificName": "Arenaria interpres",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Playero Turco",
+     "registros": 3,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2360380,
+     "scientificName": "Anaecypris hispanica",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Jarabugo",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2431889,
+     "scientificName": "Triturus pygmaeus",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Tritón Pigmeo",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2438492,
+     "scientificName": "Arvicola sapidus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Rata de Agua",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480491,
+     "scientificName": "Circus macrourus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Aguilucho Papialbo",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481681,
+     "scientificName": "Limosa lapponica",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Aguja Colipinta",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2498259,
+     "scientificName": "Aythya nyroca",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5739437,
+     "scientificName": "Plecotus austriacus",
+     "class": "Mammalia",
+     "order": "Chiroptera",
+     "vernacular_es": "Murciélago orejudo gris",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8049830,
+     "scientificName": "Pararge aegeria",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Maculada",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8909809,
+     "scientificName": "Emys orbicularis",
+     "class": "Testudines",
+     "order": null,
+     "vernacular_es": "Galápago Europeo",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 38,
+   "n_aves": 22
+  },
+  "municipios_no_resueltos": [
+   "Paraje"
+  ],
+  "footprint": "Footprint(status='ok', version=6, n_rows=1, n_parcels=1, n_matched=1, unmatched=[], foral=0, public_domain=0, declared_m2={'expropriation': 0, 'easement': 3, 'temporary': 25}, parcels_m2=11687, catastro_date='2026-08-21', geometry={'type': 'Polygon', 'coordinates': (((-5.858178442941229, 38.94634343076191), (-5.858569384541014, 38.946704306448794), (-5.8577142819223775, 38.946982552536305), (-5.856711477018014, 38.94592179789934), (-5.857403002137494, 38.94552315187683), (-5.858178442941229, 38.94634343076191)),)})",
+  "natura_footprint": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-36014",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Granada, por el que se somete a información pública la solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción para la Ampliación de la Subestación Caparacena en el parque de 400 kV, con objeto de instalar una nueva reactancia (REA-2). La instalación se encuentra ubicada en el término municipal de Atarfe (Granada).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36014",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36014",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36014.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Atarfe"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+   "potencia_mw": null,
+   "expediente": "6/2022",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {
+   "total_registros_amenazadas": 132,
+   "aves_amenazadas_registros": 106,
+   "especies": [
+    {
+     "key": 2436940,
+     "scientificName": "Oryctolagus cuniculus",
+     "class": "Mammalia",
+     "order": "Lagomorpha",
+     "vernacular_es": "Conejo",
+     "registros": 10,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 43,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2498255,
+     "scientificName": "Aythya ferina",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Porrón Europeo",
+     "registros": 35,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 7341500,
+     "scientificName": "Lanius meridionalis",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón real",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2430565,
+     "scientificName": "Pelobates cultripes",
+     "class": "Amphibia",
+     "order": "Anura",
+     "vernacular_es": "Sapo de Espuelas",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2439683,
+     "scientificName": "Eliomys quercinus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Lirón Careto",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2474051,
+     "scientificName": "Alectoris rufa",
+     "class": "Aves",
+     "order": "Galliformes",
+     "vernacular_es": "Perdiz Roja",
+     "registros": 10,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 9,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5138492,
+     "scientificName": "Plebejus hesperica",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "",
+     "registros": 5,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2433753,
+     "scientificName": "Lutra lutra",
+     "class": "Mammalia",
+     "order": "Carnivora",
+     "vernacular_es": "",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8049830,
+     "scientificName": "Pararge aegeria",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Maculada",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 9411857,
+     "scientificName": "Caprimulgus ruficollis",
+     "class": "Aves",
+     "order": "Caprimulgiformes",
+     "vernacular_es": "Chotacabras Pardo",
+     "registros": 3,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2438492,
+     "scientificName": "Arvicola sapidus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Rata de Agua",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480649,
+     "scientificName": "Gypaetus barbatus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492949,
+     "scientificName": "Sylvia undata",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Curruca Rabilarga",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 15,
+   "n_aves": 8
+  },
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-36013",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Bizkaia, por el que se somete a Información Pública la solicitud de Autorización Administrativa Previa, Autorización Administrativa de Construcción, Declaración, en concreto, de Utilidad Pública y Declaración de Impacto Ambiental de los proyectos de Línea aérea de transporte de energía eléctrica a 400 kV doble circuito entrada y salida en Subestación Arrigorriaga de la línea Güeñes-Itxaso y la Subestación Arrigorriaga 400 kV, en la provincia de Bizkaia.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36013",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36013",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36013.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Ugao-Miraballes",
+    "Arrigorriaga"
+   ],
+   "provincias": [
+    "Bizkaia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España Sociedad Anónima Unipersonal",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {
+   "total_registros_amenazadas": 39,
+   "aves_amenazadas_registros": 2,
+   "especies": [
+    {
+     "key": 5212973,
+     "scientificName": "Anguilla anguilla",
+     "class": null,
+     "order": "Anguilliformes",
+     "vernacular_es": "Anguila",
+     "registros": 10,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 2357565,
+     "scientificName": "Barbatula quignardi",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "",
+     "registros": 2,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 2431886,
+     "scientificName": "Triturus marmoratus",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Tritón Jaspeado",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 5820507,
+     "scientificName": "Cerambyx cerdo",
+     "class": "Insecta",
+     "order": "Coleoptera",
+     "vernacular_es": "Gran capricornio de las encinas",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 7406504,
+     "scientificName": "Ichthyaetus audouinii",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Gaviota de Audouin",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 8049830,
+     "scientificName": "Pararge aegeria",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Maculada",
+     "registros": 12,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2363097,
+     "scientificName": "Luciobarbus graellsii",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Barbo de Graells",
+     "registros": 9,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2359297,
+     "scientificName": "Parachondrostoma miegii",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Madrilla",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 9,
+   "n_aves": 2
+  },
+  "municipios_no_resueltos": [],
+  "footprint": "Footprint(status='foral', version=6, n_rows=13, n_parcels=13, n_matched=0, unmatched=[], foral=13, public_domain=0, declared_m2={'expropriation': 0, 'easement': 38897, 'temporary': 43811}, parcels_m2=0, catastro_date=None, geometry=None)"
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-36010",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Tarragona por la que se somete a información pública la solicitud de prórroga de la concesión administrativa titularidad de Fruport Tarragona, S.L. en el Puerto de Tarragona.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36010",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36010",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36010.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-02",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-36015",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Segura, O.A de Información Pública sobre inclusión de varias parcelas como regadío consolidado. ASM-0039/2020 (acumulado ASM-0015/2023).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36015",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36015",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36015.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Comunidad de Regantes de Lorca",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ }
+]

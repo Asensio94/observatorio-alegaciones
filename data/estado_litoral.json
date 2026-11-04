@@ -3070,6 +3070,48 @@
    "n_especies": 33,
    "n_aves": 21,
    "geolocalizado": true
+  },
+  "BOE-B-2026-36082": {
+   "identificador": "BOE-B-2026-36082",
+   "fecha": "2026-11-04",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Cantabria sobre solicitud de prórroga de la concesión de dominio público marítimo-terrestre con destino al proyecto de obras complementarias del saneamiento de la Bahía de Santander, Arco Sur, en los términos municipales de Marina de Cudeyo, Medio Cudeyo y Ribamontán al Mar. Referencia: CNC10/06/39/0001-CNC13/01.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36082",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36082",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36082.pdf",
+   "fuente": "BOE",
+   "categoria": "dpmt",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Marina de Cudeyo",
+    "Medio Cudeyo",
+    "Ribamontán al Mar"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-02",
+   "plazo_estimado": false,
+   "senales": [
+    {
+     "clave": "municipio_costero",
+     "etiqueta": "Frente costero",
+     "puntos": 2,
+     "apoyo": "El municipio tiene frente marítimo, así que la actuación puede caer en la zona de influencia de los 500 metros del artículo 30 de la Ley 22/1988 y en el ámbito del Plan de Ordenación del Litoral. Merece localizar la parcela antes que nada: la distancia a la ribera del mar decide qué régimen se aplica."
+    }
+   ],
+   "puntos": 2,
+   "natura": [],
+   "natura_nombres": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "geolocalizado": false
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-03T15:24Z",
+ "generated": "2026-11-04T15:39Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -12982,6 +12982,243 @@
     "promoter": "San Isidro Solar 6, S.L",
     "file": null,
     "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23160",
+   "kind": "resolution",
+   "date": "2026-11-04",
+   "title": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Estudios y Proyectos Pradamap, SLU, autorización administrativa previa y autorización administrativa de construcción para una línea subterránea a 13,2 kV y un centro de transformación de servicios auxiliares, para punto de suministro en la subestación seccionadora «Villalba 220 kV», como parte de las infraestructuras de evacuación de parque eólico «Pinta y Guindalera», en La Mudarra (Valladolid).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23160",
+   "sites": [
+    {
+     "code": "ES0000216"
+    },
+    {
+     "code": "ES4140129"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Villalba de los Alcores",
+    "Montealegre de Campos",
+    "La Mudarra",
+    "Valdenebro de los Valles"
+   ],
+   "provinces": [
+    "Valladolid"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 103.5,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Estudios y Proyectos Pradamap",
+    "file": null,
+    "paired_with": "BOE-B-2026-32682"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23161",
+   "kind": "resolution",
+   "date": "2026-11-04",
+   "title": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción de la nueva línea eléctrica aéreo-subterránea de media tensión, a 15 kV, y centro de medida y transformación de 160 kVA, para alimentación de servicios auxiliares de la subestación Maguilla 400 kV, en Maguilla (Badajoz), y se declara, en concreto, su utilidad pública.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23161",
+   "sites": [
+    {
+     "code": "ES5130040"
+    },
+    {
+     "code": "ES0000021"
+    },
+    {
+     "code": "ES5130017"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Maguilla"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España",
+    "file": null,
+    "paired_with": "BOE-B-2026-35277"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36010",
+   "kind": "notice",
+   "date": "2026-11-04",
+   "title": "Anuncio de la Autoridad Portuaria de Tarragona por la que se somete a información pública la solicitud de prórroga de la concesión administrativa titularidad de Fruport Tarragona, S.L. en el Puerto de Tarragona.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36010",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Tarragona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-02",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36013",
+   "kind": "notice",
+   "date": "2026-11-04",
+   "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Bizkaia, por el que se somete a Información Pública la solicitud de Autorización Administrativa Previa, Autorización Administrativa de Construcción, Declaración, en concreto, de Utilidad Pública y Declaración de Impacto Ambiental de los proyectos de Línea aérea de transporte de energía eléctrica a 400 kV doble circuito entrada y salida en Subestación Arrigorriaga de la línea Güeñes-Itxaso y la Subestación Arrigorriaga 400 kV, en la provincia de Bizkaia.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36013",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Ugao-Miraballes",
+    "Arrigorriaga"
+   ],
+   "provinces": [
+    "Bizkaia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España Sociedad Anónima Unipersonal",
+    "file": null,
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36014",
+   "kind": "notice",
+   "date": "2026-11-04",
+   "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Granada, por el que se somete a información pública la solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción para la Ampliación de la Subestación Caparacena en el parque de 400 kV, con objeto de instalar una nueva reactancia (REA-2). La instalación se encuentra ubicada en el término municipal de Atarfe (Granada).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36014",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Atarfe"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+    "file": "6/2022",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36015",
+   "kind": "notice",
+   "date": "2026-11-04",
+   "title": "Anuncio de la Confederación Hidrográfica del Segura, O.A de Información Pública sobre inclusión de varias parcelas como regadío consolidado. ASM-0039/2020 (acumulado ASM-0015/2023).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36015",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": "Comunidad de Regantes de Lorca",
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36090",
+   "kind": "resolution",
+   "date": "2026-11-04",
+   "title": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Industria, Energía y Minas en Granada, por la que se declara, en concreto, de utilidad pública, el proyecto denominado Reforma, consolidación y soterramiento de LAMT Nivar 20 KV Subestación Fargue A CTI 54588 Ur. Jiménez, Sito en Paraje Catacena, T.M. Cogollos de la Vega (Granada).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36090",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Cogollos de la Vega"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": "E-4879",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-36091",
+   "kind": "notice",
+   "date": "2026-11-04",
+   "title": "Anuncio del Servicio de Ordenación Industrial, Energética y Minera de la Dirección General de Industria, Energía y Minas, por el que se somete a información pública la petición de autorización administrativa previa y reconocimiento en concreto de la utilidad pública de las instalaciones correspondientes al proyecto denominado: Proyecto para nueva LSAT, de 45 kV, de enlace entre la STR 4870 Don Benito y la ST 3098 Don Benito en el T.M. de Don Benito (Badajoz). Término Municipal: Don Benito. Expediente: 06AT-10177-18650.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36091",
+   "sites": [
+    {
+     "code": "ES4310010"
+    },
+    {
+     "code": "ES0000367"
+    },
+    {
+     "code": "ES0000400"
+    },
+    {
+     "code": "ES4310024"
+    },
+    {
+     "code": "ES4310026"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Don Benito",
+    "Paraje"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "i-DE Redes Eléctricas Inteligentes, S.A.U",
+    "file": "06AT-10177-18650",
+    "department": "COMUNIDAD AUTÓNOMA DE EXTREMADURA"
    }
   }
  ]
