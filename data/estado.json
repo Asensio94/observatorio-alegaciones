@@ -531,7 +531,23 @@
     }
    ],
    "informe": "informes/informe_20260825_20260901.html",
-   "actualizado": "2026-09-02"
+   "actualizado": "2026-09-02",
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-23246",
+    "fecha": "2026-11-05",
+    "tipo": "dia",
+    "tipo_etiqueta": "Declaración de impacto ambiental",
+    "sentido": "desfavorable",
+    "sentido_etiqueta": "desfavorable",
+    "titulo": "Resolución de 20 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Parques eólicos \"Agromaces\", de 60,67 MW, \"Ventoburgo\", de 59,85 MW, \"Sistesas\", de 55,92 MW, \"Xestiloi\", de 58,31 MW y \"Agratina\", de 56,24 MW, así como sus infraestructuras de evacuación asociadas, en las provincias de Lugo, Pontevedra y Ourense».",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23246",
+    "fuente": "BOE",
+    "puntos": 4,
+    "motivos": [
+     "1 municipio(s) en común",
+     "coinciden: lugo, ourense, provincias"
+    ]
+   }
   },
   "BOE-B-2026-27838": {
    "identificador": "BOE-B-2026-27838",
@@ -22490,8 +22506,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261101_20261104.html",
-   "actualizado": "2026-11-04"
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
   },
   "BOE-B-2026-36013": {
    "identificador": "BOE-B-2026-36013",
@@ -22580,8 +22596,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261101_20261104.html",
-   "actualizado": "2026-11-04",
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05",
    "footprint": {
     "version": 6,
     "status": "foral",
@@ -22704,8 +22720,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261101_20261104.html",
-   "actualizado": "2026-11-04"
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
   },
   "BOE-B-2026-36015": {
    "identificador": "BOE-B-2026-36015",
@@ -22736,8 +22752,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261101_20261104.html",
-   "actualizado": "2026-11-04"
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
   },
   "BOE-B-2026-36091": {
    "identificador": "BOE-B-2026-36091",
@@ -22872,8 +22888,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261101_20261104.html",
-   "actualizado": "2026-11-04",
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -22891,9 +22907,470 @@
     "geojson": "datos/footprints/BOE-B-2026-36091.geojson",
     "natura": []
    }
+  },
+  "BOE-B-2026-36160": {
+   "identificador": "BOE-B-2026-36160",
+   "fecha": "2026-11-05",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Andalucía Oriental por el que se publica la resolución del Ministerio de Transportes y Movilidad Sostenible por la que se aprueba el expediente de información pública y oficial, y definitivamente, el Proyecto de Trazado \"Autovía A-32 Bailén – Albacete. Tramo: Beas de Segura – Arroyo del Ojanco\". Obra clave: T2-J-4310.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36160",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36160",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36160.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Albacete"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-18",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
+  },
+  "BOE-B-2026-36161": {
+   "identificador": "BOE-B-2026-36161",
+   "fecha": "2026-11-05",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Andalucía Oriental por el que se publica la resolución del Ministerio de Transportes y Movilidad Sostenible por la que se aprueba el expediente de información pública y definitivamente el Proyecto de Trazado \"Autovía A-32 Bailén-Albacete. Tramo: Villanueva del Arzobispo – Beas de Segura.\" Provincia de Jaén. Obra clave: T2-J-4300.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36161",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36161",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36161.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Albacete",
+    "Jaén"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-18",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
+  },
+  "BOE-B-2026-36162": {
+   "identificador": "BOE-B-2026-36162",
+   "fecha": "2026-11-05",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Corrección de errores del anuncio de la Demarcación de Carreteras del Estado en Cantabria sobre la resolución de la Dirección General de Carreteras por la que se aprueba provisionalmente el proyecto de trazado: Autovía A-73, Burgos - Aguilar de Campoo. Tramo: Báscones de Valdivia - Aguilar de Campoo. Redactado con fecha de 26 de mayo de 2026, y se ordena la incoación del expediente de información pública a los efectos de lo previsto en los artículos 17, 18 y 19.1 de la ley de 16 de diciembre de 1954, de expropiación forzosa. Clave T2-P-3130.ACT. Provincia de Palencia.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36162",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36162",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36162.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Aguilar de Campoo"
+   ],
+   "provincias": [
+    "Cantabria",
+    "Burgos",
+    "Palencia"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-18",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES4140026",
+     "nombre": "Las Tuerces",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4140011",
+     "nombre": "Fuentes Carrionas y Fuente Cobre-Montaña Palentina",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4120093",
+     "nombre": "Humada-Peña Amaya",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000192",
+     "nombre": "Humada-Peña Amaya - ZEPA",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 39,
+   "n_aves": 18,
+   "especies_top": [
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cheilosia morio",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Limnodromus griseus",
+     "vernacular_es": "Agujeta Común",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erebia epistygne",
+     "vernacular_es": "erebia primaveral",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Cobitis calderoni",
+     "vernacular_es": "Lamprehuela",
+     "categoria_uicn": "VU",
+     "class": null
+    }
+   ],
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
+  },
+  "BOE-B-2026-36163": {
+   "identificador": "BOE-B-2026-36163",
+   "fecha": "2026-11-05",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Sevilla de información pública de la solicitud presentada por Sevitrade S.L. de modificación sustancial de concesión de que es titular en la Zona Franca del Puerto de Sevilla (Expediente E346) y unificación de concesiones de que es titular en el ámbito (Expedientes E346-E417-E493-E531).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36163",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36163",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36163.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Sevilla"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-03",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
+  },
+  "BOE-B-2026-36164": {
+   "identificador": "BOE-B-2026-36164",
+   "fecha": "2026-11-05",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Santander, por el que se somete a información pública la solicitud presentada por CLdN Shipping Lines Spain, S.L., de modificación de la concesión, de la que es titular, en el Espigón central de Raos del Puerto de Santander.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36164",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36164",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36164.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Santander"
+   ],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-03",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 32,
+   "n_aves": 19,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Fratercula arctica",
+     "vernacular_es": "Frailecillo Atlántico",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Haliotis tuberculata",
+     "vernacular_es": "oreja de mar",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Melanitta fusca",
+     "vernacular_es": "Negreta ala blanca",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Mola mola",
+     "vernacular_es": "Mola",
+     "categoria_uicn": "VU",
+     "class": null
+    }
+   ],
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
+  },
+  "BOE-B-2026-36166": {
+   "identificador": "BOE-B-2026-36166",
+   "fecha": "2026-11-05",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia del Área de Industria y Energía de la Subdelegación del Gobierno en Salamanca por el que se somete a información pública la solicitud de declaración de impacto ambiental (DIA) y autorización administrativa previa (AAP) del proyecto del módulo eólico Santiz I, de 49 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la planta híbrida Solaria-Santiz I, formada por un módulo fotovoltaico de 49,989 MW y un módulo de almacenamiento de energía por baterías, de 19,993 MW de potencia instalada, en los términos municipales de Mayalde y Peñausende, en la provincia de Zamora, y de Valdelosa, en la provincia de Salamanca.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36166",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36166",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36166.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Mayalde",
+    "Peñausende"
+   ],
+   "provincias": [
+    "Salamanca",
+    "Zamora"
+   ],
+   "plazo_dias": 45,
+   "promotor": "Planta FV100, S.L",
+   "potencia_mw": 49.989,
+   "expediente": "PFot-ALM-118",
+   "fecha_limite": "2027-01-13",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 20,
+   "n_aves": 10,
+   "especies_top": [
+    {
+     "scientificName": "Gyps africanus",
+     "vernacular_es": "Buitre de espalda blanca",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261102_20261105.html",
+   "actualizado": "2026-11-05"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261102_20261105.html",
+   "desde": "2026-11-02",
+   "hasta": "2026-11-05",
+   "generado": "2026-11-05",
+   "n": 11
+  },
   {
    "fichero": "informes/informe_20261101_20261104.html",
    "desde": "2026-11-01",
@@ -30665,6 +31142,280 @@
    "emparejado_con": "",
    "puntos": 0,
    "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-23246": {
+   "identificador": "BOE-A-2026-23246",
+   "fecha": "2026-11-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 20 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Parques eólicos \"Agromaces\", de 60,67 MW, \"Ventoburgo\", de 59,85 MW, \"Sistesas\", de 55,92 MW, \"Xestiloi\", de 58,31 MW y \"Agratina\", de 56,24 MW, así como sus infraestructuras de evacuación asociadas, en las provincias de Lugo, Pontevedra y Ourense».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23246",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23246",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23246.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "San Cristovo de Cea",
+    "Beariz",
+    "Piñor",
+    "O Carballiño",
+    "O Irixo",
+    "Boborás",
+    "Leiro",
+    "San Amaro",
+    "Cenlle",
+    "Ribadavia",
+    "Castrelo de Miño",
+    "Carballedo",
+    "Galicia"
+   ],
+   "provincias": [
+    "Lugo",
+    "Pontevedra",
+    "Ourense"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": 290.99,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "dia",
+   "tipo_etiqueta": "Declaración de impacto ambiental",
+   "sentido": "desfavorable",
+   "sentido_etiqueta": "desfavorable",
+   "emparejado_con": "BOE-B-2026-27794",
+   "puntos": 4,
+   "motivos": [
+    "1 municipio(s) en común",
+    "coinciden: lugo, ourense, provincias"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-23247": {
+   "identificador": "BOE-A-2026-23247",
+   "fecha": "2026-11-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 1 de junio de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Ekain Renovables, SL, de la solicitud de autorización administrativa previa y autorización administrativa de construcción del parque eólico «Bierzo Wind I», de 42 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de León y Ourense.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23247",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23247",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23247.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Encinedo",
+    "Benuza",
+    "Puente de Domingo Flórez"
+   ],
+   "provincias": [
+    "León",
+    "Ourense"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 50.0,
+   "expediente": "PEol-901",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-23248": {
+   "identificador": "BOE-A-2026-23248",
+   "fecha": "2026-11-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 1 de junio de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Ekain Renovables, SL, de la solicitud de autorización administrativa previa y autorización administrativa de construcción del parque eólico «Bierzo Wind II», de 9 MW de potencia instalada, y de su infraestructura de evacuación, en la provincia de León.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23248",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23248",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23248.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Encinedo",
+    "Benuza"
+   ],
+   "provincias": [
+    "León"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 50.0,
+   "expediente": "PEol-950",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-23249": {
+   "identificador": "BOE-A-2026-23249",
+   "fecha": "2026-11-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 19 de junio de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Helioceratops Invest, SL, de autorización administrativa previa del parque eólico «As Fenteiras», de 62,79 MW de potencia instalada, y de su infraestructura de evacuación, en A Cañiza y Covelo (Pontevedra).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23249",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23249",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23249.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "A Cañiza",
+    "Covelo"
+   ],
+   "provincias": [
+    "Pontevedra"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 62.79,
+   "expediente": "SGIISE/PEol-830",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "denegada",
+   "sentido_etiqueta": "denegada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-23250": {
+   "identificador": "BOE-A-2026-23250",
+   "fecha": "2026-11-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 18 de julio de 2025, por la que se otorga a Iberdrola Generación, SAU, autorización administrativa previa de la instalación solar fotovoltaica «Azután III», de 60 MW de potencia instalada, y su infraestructura de evacuación, para hibridación del grupo 3 de la central hidráulica existente Azután, en Calera y Chozas y Alcolea de Tajo (Toledo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23250",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23250",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23250.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Calera",
+    "Chozas",
+    "Alcolea de Tajo"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": null,
+   "promotor": "Iberdrola Generación",
+   "potencia_mw": 60.0,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-33524",
+   "puntos": 3,
+   "motivos": [
+    "2 municipio(s) en común"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-23251": {
+   "identificador": "BOE-A-2026-23251",
+   "fecha": "2026-11-05",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que corrigen errores en la de 18 de julio de 2025, por la que se otorga a Iberdrola Generación, SAU, autorización administrativa previa de la instalación solar fotovoltaica «Azután I», de 60 MW de potencia instalada, y su infraestructura de evacuación, para hibridación del grupo 1 de la central hidráulica existente Azután, en Calera y Chozas y Alcolea de Tajo (Toledo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23251",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23251",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23251.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Calera",
+    "Chozas",
+    "Alcolea de Tajo"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": null,
+   "promotor": "Iberdrola Generación",
+   "potencia_mw": 60.0,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-33524",
+   "puntos": 3,
+   "motivos": [
+    "2 municipio(s) en común"
+   ],
+   "firme": false
+  },
+  "BOE-B-2026-36192": {
+   "identificador": "BOE-B-2026-36192",
+   "fecha": "2026-11-05",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Universidad, Industria, Energía e Innovación en Jaén, por la que se concede a favor de E-Distribución Redes Digitales S.L.U, autorización administrativa previa y de construcción, así como, la declaración, en concreto, de utilidad pública para el proyecto de instalación de energía eléctrica \"Sustitución apoyo de MT A358989 en línea simple circuito de media tensión \"Torres\" de subestación \"MRENTR\" en el municipio de Torres (Jaén). Expediente: AT-44-2026.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36192",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36192",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36192.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 2,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Torres",
+    "Ref"
+   ],
+   "provincias": [
+    "Jaén"
+   ],
+   "plazo_dias": 30,
+   "promotor": "favor de E-Distribución Redes Digitales S.L.U",
+   "potencia_mw": null,
+   "expediente": "AT-44-2026",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-33651",
+   "puntos": 4,
+   "motivos": [
+    "expedientes distintos (AT-44-2026 / AT-013-2022)",
+    "mismo promotor (E-Distribución Redes Digitales, S.L.U)",
+    "misma categoría (red_electrica)",
+    "coinciden: digitales, economia, europeos, fondos"
+   ],
    "firme": false
   }
  }
