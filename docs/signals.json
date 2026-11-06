@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-05T15:42Z",
+ "generated": "2026-11-06T15:16Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -13630,6 +13630,233 @@
     "promoter": "favor de E-Distribución Redes Digitales S.L.U",
     "file": "AT-44-2026",
     "paired_with": "BOE-B-2026-33651"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36300",
+   "kind": "notice",
+   "date": "2026-11-06",
+   "title": "Anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Burgos, por el que se somete a Información Pública la solicitud de Autorización Administrativa Previa y de Autorización Administrativa Construcción del proyecto para la Ampliación de la Subestación Buniel 400 kV, actualmente en servicio; situada en el término municipal de Buniel, en la provincia de Burgos; promovido por la mercantil Red Eléctrica de España, Sociedad Anónima Unipersonal.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36300",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Buniel"
+   ],
+   "provinces": [
+    "Burgos"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-21",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "peticionario: Red Eléctrica de España, Sociedad Anónima Unipersonal",
+    "file": null,
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36301",
+   "kind": "notice",
+   "date": "2026-11-06",
+   "title": "Anuncio de la Dependencia del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en Soria, por el que se somete a Información Pública la solicitud de Autorización Administrativa Previa y Autorización Administrativa de Construcción del proyecto de \"Módulo de Hibridación por Baterías (30 MW de potencia instalada) de la Planta Fotovoltaica existente OPDE Trévago 2 (34,8 MW de potencia instalada) y de su infraestructura de evacuación\", promovido por la entidad Planta Solar OPDE 47 S.L.U., en los términos municipales de Fuentestrún, Castilruiz y Matalebreras, en la provincia de Soria (refª.: PFot-ALM-185).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36301",
+   "sites": [
+    {
+     "code": "ES4170055"
+    },
+    {
+     "code": "ES4170138"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Fuentestrún",
+    "Castilruiz",
+    "Matalebreras"
+   ],
+   "provinces": [
+    "Soria"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-21",
+   "status": null,
+   "value": {
+    "amount": 34.8,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "la entidad Planta Solar OPDE 47 S.L.U., en los términos municipales de Fuentestrún, Castilruiz y Matalebreras, en la provincia de Soria",
+    "file": null,
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36304",
+   "kind": "notice",
+   "date": "2026-11-06",
+   "title": "Anuncio de la Confederación Hidrográfica del Segura, O.A de Información Pública sobre un cambio parcial de uso de regadío a ganadero. (ASM-0028/2022).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36304",
+   "sites": [
+    {
+     "code": "ES6200039"
+    },
+    {
+     "code": "ES6200046"
+    },
+    {
+     "code": "ES0000262"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Puerto Lumbreras"
+   ],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-21",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": "Comunidad de Regantes de Puerto Lumbreras",
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36310",
+   "kind": "notice",
+   "date": "2026-11-06",
+   "title": "Anuncio de la Confederación Hidrográfica del Tajo O.A. de la información pública de la solicitud de autorización para navegar en el embalse de Cedillo con una embarcación destinada al transporte de pasajeros. Año 2027. Referencia N-1416/2027.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36310",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Cáceres",
+    "Madrid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-04",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": "Diputación Provincial de Cáceres - Desarrollo Sostenible",
+    "file": "N-1416/2027",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36324",
+   "kind": "notice",
+   "date": "2026-11-06",
+   "title": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Andalucía por el que se somete a información pública, la solicitud de autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento por baterías BESS Prisca, de 42 MW de potencia instalada, para su hibridación con el parque solar fotovoltaico existente Prisca, de 49,45 MW, en la provincia de Cádiz. Expdte. PFot-ALM-235.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36324",
+   "sites": [
+    {
+     "code": "ES0000027"
+    },
+    {
+     "code": "ES6120014"
+    },
+    {
+     "code": "ES6120021"
+    },
+    {
+     "code": "ES6120011"
+    },
+    {
+     "code": "ES6180014"
+    },
+    {
+     "code": "ES6120027"
+    },
+    {
+     "code": "ES0000049"
+    },
+    {
+     "code": "ES6120025"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Jerez de la Frontera"
+   ],
+   "provinces": [
+    "Cádiz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-27",
+   "status": null,
+   "value": {
+    "amount": 49.45,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Prisca Solar, S.L",
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36327",
+   "kind": "notice",
+   "date": "2026-11-06",
+   "title": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Murcia, por el que se somete al trámite de información pública la solicitud de Autorización Administrativa Previa (AAP) y de Autorización Administrativa de Construcción (AAC) para el módulo por baterías BAT Peñarrubia de 40,500 MW, para su hibridación con la planta fotovoltaica FV Peñarrubia de 44,681 MW en el término municipal de Yecla, provincia de Murcia. Expediente PFot-ALM-179.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36327",
+   "sites": [
+    {
+     "code": "ES0000196"
+    },
+    {
+     "code": "ES6200008"
+    },
+    {
+     "code": "ES6200037"
+    },
+    {
+     "code": "ES6200036"
+    },
+    {
+     "code": "ES6200009"
+    },
+    {
+     "code": "ES0000457"
+    },
+    {
+     "code": "ES0000456"
+    },
+    {
+     "code": "ES5213039"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Yecla"
+   ],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-11-27",
+   "status": null,
+   "value": {
+    "amount": 44.681,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Desarrollos Renovables Peñarrubia, S.L.U",
+    "file": "PFot-ALM-179",
+    "department": "COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA"
    }
   }
  ]
