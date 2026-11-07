@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-06T15:16Z",
+ "generated": "2026-11-07T14:16Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -13857,6 +13857,62 @@
     "promoter": "Desarrollos Renovables Peñarrubia, S.L.U",
     "file": "PFot-ALM-179",
     "department": "COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23368",
+   "kind": "resolution",
+   "date": "2026-11-07",
+   "title": "Resolución de 23 de octubre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto «Infraestructura de almacenamiento con baterías \"Hibridación la Estación\", para su hibridación con el parque fotovoltaico existente La Estación, y su infraestructura de evacuación, en la provincia de Teruel».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23368",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Cañada Vellida"
+   ],
+   "provinces": [
+    "Teruel"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "sin efectos significativos, no se somete a evaluación ordinaria",
+   "value": {
+    "amount": 19.1,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23369",
+   "kind": "resolution",
+   "date": "2026-11-07",
+   "title": "Resolución de 25 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de VE Sonnedix SPV Gamma, SLU, de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública, del parque solar fotovoltaico Aliaga Solar II, de 80 MWp, y de su infraestructura de evacuación asociada, en la provincia de Málaga.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23369",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Almogía"
+   ],
+   "provinces": [
+    "Málaga"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "SGEE/PFot-413",
+    "paired_with": null
    }
   }
  ]
