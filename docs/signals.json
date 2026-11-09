@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-07T14:16Z",
+ "generated": "2026-11-09T17:44Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -13913,6 +13913,269 @@
     "promoter": null,
     "file": "SGEE/PFot-413",
     "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23491",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de CYL Energía Eólica, SLU, de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública para la planta fotovoltaica «El Gallo», de 16,18 MW de potencia instalada, y para una parte de su infraestructura de evacuación, para su hibridación con el parque eólico existente «El Gallo», de 49,4 MW de potencia instalada, en Castrojeriz y Los Balbases (Burgos).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23491",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Castrojeriz",
+    "Los Balbases"
+   ],
+   "provinces": [
+    "Burgos"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-FV-176",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23492",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de CYL Energía Eólica, SLU, de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública para la planta fotovoltaica «La Zarzuela», de 13,685 MW de potencia instalada, para su hibridación con el parque eólico existente «La Zarzuela», de 41,8 MW, y una parte de su infraestructura de evacuación, en Castrojeriz y Los Balbases (Burgos).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23492",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Castrojeriz",
+    "Los Balbases"
+   ],
+   "provinces": [
+    "Burgos"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-FV-177",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23493",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de CYL Energía Eólica, SLU, de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública para la planta fotovoltaica «Los Zapateros», de 16,8 MW de potencia instalada, para su hibridación con el parque eólico existente «Los Zapateros», de 49,4 MW, y una parte de su infraestructura de evacuación, en Castrojeriz y Los Balbases (Burgos).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23493",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Castrojeriz",
+    "Los Balbases"
+   ],
+   "provinces": [
+    "Burgos"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": null,
+    "file": "PEol-FV-178",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23494",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Solaria Promoción y Desarrollo Fotovoltaico, SLU, autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento de energía por baterías «Agrupación Maira Alpha», de 64,44 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica «Agrupación Maira Alpha», de 165,278 MW de potencia instalada, ubicada en Llano de Bureba (Burgos).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23494",
+   "sites": [
+    {
+     "code": "ES4120073"
+    },
+    {
+     "code": "ES4120075"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Llano de Bureba",
+    "Los Barrios de Bureba",
+    "Oña"
+   ],
+   "provinces": [
+    "Burgos"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 170.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Solaria Promoción y Desarrollo Fotovoltaico",
+    "file": null,
+    "paired_with": "BOE-B-2026-31656"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23495",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Solaria Promoción y Desarrollo Fotovoltaico, SLU, autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento de energía por baterías «Agrupación Maira Beta», de 48,50 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica «Agrupación Maira Beta», de 140,127 MW de potencia instalada, ubicada en La Vid de Bureba (Burgos).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23495",
+   "sites": [
+    {
+     "code": "ES4120073"
+    },
+    {
+     "code": "ES4120075"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "La Vid de Bureba"
+   ],
+   "provinces": [
+    "Burgos"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 150.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Solaria Promoción y Desarrollo Fotovoltaico",
+    "file": null,
+    "paired_with": "BOE-B-2026-31656"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23496",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Solaria Promoción y Desarrollo Fotovoltaico, SLU, autorización administrativa previa y autorización administrativa de construcción para el módulo de almacenamiento de energía por baterías «Agrupación Maira Delta», de 48,50 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con la instalación solar fotovoltaica «Agrupación Maira Delta», de 114,976 MW de potencia instalada, en Valluércanes (Burgos).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23496",
+   "sites": [
+    {
+     "code": "ES4120073"
+    },
+    {
+     "code": "ES4120075"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Quintanilla San García",
+    "Vallarta de Bureba",
+    "Valluércanes",
+    "Cerezo del Río Tirón"
+   ],
+   "provinces": [
+    "Burgos"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 149.975,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Solaria Promoción y Desarrollo Fotovoltaico",
+    "file": null,
+    "paired_with": "BOE-B-2026-31656"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23497",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 23 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Eólica Sierra de Ávila, SL, autorización administrativa previa para la instalación fotovoltaica Cabeza Mesá, de 27,3 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con el parque eólico Cabeza Mesá, de 29,6 MW, de potencia instalada, en Padiernos y Niharra (Ávila).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23497",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Padiernos",
+    "Niharra"
+   ],
+   "provinces": [
+    "Ávila"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 37.27,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Eólica Sierra de Ávila",
+    "file": "FR-0981-AV",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23498",
+   "kind": "resolution",
+   "date": "2026-11-09",
+   "title": "Resolución de 23 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Planta Solar OPDE 42, SLU, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento de energía por baterías OPDE Trévago 1 Hibridación, de 30 MW de potencia instalada, y sus infraestructuras de evacuación, para su hibridación con la instalación fotovoltaica existente OPDE Trévago 1, de 34,8 MW de potencia instalada, en Fuentestrún, Trévago y Matalebreras (Soria).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23498",
+   "sites": [
+    {
+     "code": "ES4170055"
+    },
+    {
+     "code": "ES4170138"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Fuentestrún",
+    "Trévago",
+    "Matalebreras"
+   ],
+   "provinces": [
+    "Soria"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 34.8,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Planta Solar OPDE 42",
+    "file": "IE/FV/12-2021",
+    "paired_with": "BOE-B-2026-36301"
    }
   }
  ]
