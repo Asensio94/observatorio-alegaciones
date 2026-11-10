@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-09T17:44Z",
+ "generated": "2026-11-10T15:43Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -14176,6 +14176,269 @@
     "promoter": "Planta Solar OPDE 42",
     "file": "IE/FV/12-2021",
     "paired_with": "BOE-B-2026-36301"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36726",
+   "kind": "notice",
+   "date": "2026-11-10",
+   "title": "Anuncio de la Demarcación de Carreteras del Estado en Aragón sobre aprobación del expediente de Información Pública y aprobación definitiva del Proyecto de Trazado de la accesibilidad, nuevos caminos y nuevo paso sobre el FC Huesca-Canfranc en Sabiñánigo de la Modificación Nº 1 de la obra «Autovía A-23. Tramos: Lanave-Embalse de Jabarrella y Embalse de Jabarrella – Sabiñánigo Sur (Huesca). Clave: 12-HU-5740T.ACT.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36726",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Huesca"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-23",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36731",
+   "kind": "notice",
+   "date": "2026-11-10",
+   "title": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Sevilla, por el que se somete a información pública la solicitud de autorización administrativa previa y autorización administrativa de construcción de la ampliación de la subestación Guillena en el parque de 400 kV, con objeto de instalar una nueva reactancia (REA3) en el término municipal de Guillena, provincia de Sevilla. Expediente: 163/2026.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36731",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Guillena"
+   ],
+   "provinces": [
+    "Sevilla"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-23",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España, Sociedad Anónima Unipersonal",
+    "file": "163/2026",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36733",
+   "kind": "notice",
+   "date": "2026-11-10",
+   "title": "Anuncio de la Demarcación de Costas en Murcia de Información Pública sobre la concesión de ocupación de dominio público marítimo-terrestre con destino a mantenimiento de instalaciones fijas. Referencia CNC02/26/30/0013.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36733",
+   "sites": [
+    {
+     "code": "ES0000264"
+    },
+    {
+     "code": "ES6200015"
+    },
+    {
+     "code": "ES6200001"
+    },
+    {
+     "code": "ES6200024"
+    },
+    {
+     "code": "ES6200006"
+    },
+    {
+     "code": "ES0000199"
+    },
+    {
+     "code": "ES0000260"
+    },
+    {
+     "code": "ES6200025"
+    },
+    {
+     "code": "ES6200040"
+    },
+    {
+     "code": "ES6200044"
+    },
+    {
+     "code": "ES6200030"
+    },
+    {
+     "code": "ES6200007"
+    },
+    {
+     "code": "ES0000200"
+    },
+    {
+     "code": "ES6200048"
+    },
+    {
+     "code": "ES6200029"
+    },
+    {
+     "code": "ES0000256"
+    },
+    {
+     "code": "ES0000271"
+    },
+    {
+     "code": "ES0000508"
+    },
+    {
+     "code": "ES0000507"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Cartagena"
+   ],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-09",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36734",
+   "kind": "notice",
+   "date": "2026-11-10",
+   "title": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de extinción del aprovechamiento de 0,014 l/s de agua procedente de un pozo sito en la finca Cabrelle, en el lugar de Iglesia, parroquia de Boizán, término municipal de Vilalba (Lugo) con destino a usos domésticos y ganaderos. Expediente: A/27/14563/E.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36734",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Vilalba",
+    "Lugo"
+   ],
+   "provinces": [
+    "Lugo"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-23",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "agua_concesion",
+    "promoter": null,
+    "file": "A/27/14563/E",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36748",
+   "kind": "notice",
+   "date": "2026-11-10",
+   "title": "Anuncio de la Confederación Hidrográfica del Segura, O.A de Información Pública sobre extinción del derecho concesional de un aprovechamiento de aguas regeneradas procedentes de la EDAR Instalaciones Sistemas Integrados Sanitarios, S.A. para regadío de zonas verdes urbanas y limpieza de envases no alimentarios (CADR-0002/2026).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36748",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-23",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": "SRCL CONSENUR CEE, S.A. (actualmente CONSENUR SANITARIOS CEE, S.A.)",
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36765",
+   "kind": "notice",
+   "date": "2026-11-10",
+   "title": "Anuncio de la Demarcación de Costas en Galicia de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, en relación con finca situada en el lugar denominado Carragueiros, en el término municipal de Boiro (A Coruña).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36765",
+   "sites": [
+    {
+     "code": "ES0000554"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Boiro"
+   ],
+   "provinces": [
+    "A Coruña"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-09",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "CNC12/08/15/0008",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36784",
+   "kind": "notice",
+   "date": "2026-11-10",
+   "title": "Anuncio del Servicio de Ordenación Industrial, Energética y Minera, sobre admisión definitiva de la solicitud del Permiso de Investigación para recursos de la Sección C) (especialmente grafito), denominado \"Jola\", N.º 10C10347-00 en el término municipal de Valencia de Alcántara (Cáceres), e información pública del Plan de Restauración.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36784",
+   "sites": [
+    {
+     "code": "ES0000070"
+    },
+    {
+     "code": "ES0000407"
+    },
+    {
+     "code": "ES0000368"
+    },
+    {
+     "code": "ES4320002"
+    },
+    {
+     "code": "ES4320073"
+    },
+    {
+     "code": "ES4310022"
+    },
+    {
+     "code": "ES4320074"
+    },
+    {
+     "code": "PTCON0007"
+    },
+    {
+     "code": "ES0000424"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Valencia de Alcántara"
+   ],
+   "provinces": [
+    "València",
+    "Cáceres"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-23",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "mineria",
+    "promoter": null,
+    "file": null,
+    "department": "COMUNIDAD AUTÓNOMA DE EXTREMADURA"
    }
   }
  ]
