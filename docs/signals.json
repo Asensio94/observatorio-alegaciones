@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-10T15:43Z",
+ "generated": "2026-11-11T15:32Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -14315,7 +14315,14 @@
    "date": "2026-11-10",
    "title": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de extinción del aprovechamiento de 0,014 l/s de agua procedente de un pozo sito en la finca Cabrelle, en el lugar de Iglesia, parroquia de Boizán, término municipal de Vilalba (Lugo) con destino a usos domésticos y ganaderos. Expediente: A/27/14563/E.",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36734",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES1120015"
+    },
+    {
+     "code": "ES1120003"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "Vilalba",
@@ -14439,6 +14446,209 @@
     "promoter": null,
     "file": null,
     "department": "COMUNIDAD AUTÓNOMA DE EXTREMADURA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36890",
+   "kind": "notice",
+   "date": "2026-11-11",
+   "title": "Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Occidental sobre Resolución de la Dirección General de Carreteras por la que se aprueba provisionalmente Proyecto de Construcción \"Mejora de la movilidad y seguridad vial de la Autovía de Castilla (A-62). Tramo: Cigales - Simancas, para la ampliación de los tramos de trenzado desde el P.K. 122+200 al 122+800 y desde el P.K. 126+200 al 127+300, y la construcción del ramal Valladolid a Palencia en el enlace del P.K. 127+030\", redactado con fecha julio de 2026, y se ordena la incoación del expediente de Información Pública a los efectos de lo previsto en los artículos 17, 18 y 19.1 de la Ley de 16 de diciembre de 1954, de Expropiación Forzosa. Provincia de Valladolid. Clave 14-VA-4180.D.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36890",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "León",
+    "Valladolid",
+    "Palencia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-24",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36894",
+   "kind": "notice",
+   "date": "2026-11-11",
+   "title": "Anuncio del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en A Coruña, por el que se somete, al trámite de Información Pública (IP), la solicitud de autorización administrativa previa (AAP) y el estudio de impacto ambiental (EsIA) del parque eólico «Bátega», de 36 MW de potencia instalada, para su hibridación con la central hidroeléctrica «Belesar-Grupo 3», y de una parte de su infraestructura de evacuación asociada, en los términos municipales de Carballedo y Chantada, en la provincia de Lugo. Referencia del expediente: CHidr-070-Eol.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36894",
+   "sites": [
+    {
+     "code": "ES1120008"
+    },
+    {
+     "code": "ES1130004"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Carballedo",
+    "Chantada",
+    "Chantada y Carballedo"
+   ],
+   "provinces": [
+    "A Coruña",
+    "Lugo"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-24",
+   "status": null,
+   "value": {
+    "amount": 102.9,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Naturgy Generación, S.L.U",
+    "file": "CHidr-070-Eol",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36901",
+   "kind": "notice",
+   "date": "2026-11-11",
+   "title": "Anuncio de la Demarcación de Costas en Murcia de información pública en el expediente de autorización para la ocupación del dominio público marítimo-terrestre, con destino a embarcadero flotante desmontable, en el término municipal de San Javier (Murcia). Referencia AUT02.26.30.0039.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36901",
+   "sites": [
+    {
+     "code": "ES0000260"
+    },
+    {
+     "code": "ES6200006"
+    },
+    {
+     "code": "ES0000175"
+    },
+    {
+     "code": "ES6200030"
+    },
+    {
+     "code": "ES6200029"
+    },
+    {
+     "code": "ES6200007"
+    },
+    {
+     "code": "ES0000508"
+    },
+    {
+     "code": "ES0000200"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "San Javier"
+   ],
+   "provinces": [
+    "Murcia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-10",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36912",
+   "kind": "notice",
+   "date": "2026-11-11",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Málaga por el que se somete al trámite de información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública del proyecto nueva L.S.A.T DC a 66kV \"ELVIRIA-VENTILLA\" / \"MIJAS-VENTILLA\" y \"FUENGIROLA-VENTILLA\" / \"CORTIJO COLORADO-VENTILLA\" por conexión de nueva S.E. Ventilla en el término municipal de Mijas (Málaga), formulado por Edistribución Redes Digitales, S.L.U. (expediente AT-E-18348).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36912",
+   "sites": [
+    {
+     "code": "ES6170022"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Mijas"
+   ],
+   "provinces": [
+    "Málaga"
+   ],
+   "precision": "parcelas",
+   "deadline": "2026-12-24",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "EDISTRIBUCIÓN REDES DIGITALES, S.L.U. (CIF B82846817)",
+    "file": "AT-E-18348",
+    "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36913",
+   "kind": "notice",
+   "date": "2026-11-11",
+   "title": "Anuncio de la Delegación Territorial de la Consejería de Economía, Hacienda y Fondos Europeos y de la Consejería de Universidad, Industria, Energía e Innovación en Jaén, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción, así como la declaración, en concreto, de utilidad pública del proyecto de \"Adecuación de línea de media tensión \"Manseguilla\" para eliminar vuelo sobre el parque Vista Alegre, en el término municipal de La Guardia (Jaén). Expediente: AT-40-2025.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36913",
+   "sites": [
+    {
+     "code": "ES6160009"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "La Guardia",
+    "Referencia Catastral"
+   ],
+   "provinces": [
+    "Jaén"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-24",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "E-Distribución Redes Digitales S.L.U",
+    "file": "AT-40-2025",
+    "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36914",
+   "kind": "resolution",
+   "date": "2026-11-11",
+   "title": "Resolución de la Delegación Territorial de la Consejería Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se concede Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración, en concreto, de Utilidad Pública, para las instalaciones eléctricas de alta tensión recogidas en el proyecto denominado: Nueva línea de media tensión 15 kV entre el apoyo A553610 y el apoyo A556998 para cierre de las línea denominadas \"FTE_PA_2\" y \"PALMA_RÍO\", sito en parajes Ochavillo Bajo, Las Monjas, Casablanca, en los términos municipales de Fuente Palmera y Hornachuelos (Córdoba), y se convoca para el levantamiento de actas previas a la ocupación de las fincas afectadas. (AT 36/20-1).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36914",
+   "sites": [
+    {
+     "code": "ES6130002"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Fuente Palmera",
+    "Hornachuelos",
+    "Paraje"
+   ],
+   "provinces": [
+    "Córdoba"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": null,
+    "paired_with": "BOE-B-2026-29192"
    }
   }
  ]

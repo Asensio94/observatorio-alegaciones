@@ -24070,8 +24070,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261107_20261110.html",
-   "actualizado": "2026-11-10"
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
   },
   "BOE-B-2026-36731": {
    "identificador": "BOE-B-2026-36731",
@@ -24177,8 +24177,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261107_20261110.html",
-   "actualizado": "2026-11-10"
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
   },
   "BOE-B-2026-36733": {
    "identificador": "BOE-B-2026-36733",
@@ -24380,8 +24380,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261107_20261110.html",
-   "actualizado": "2026-11-10"
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
   },
   "BOE-B-2026-36734": {
    "identificador": "BOE-B-2026-36734",
@@ -24409,17 +24409,98 @@
    "expediente": "A/27/14563/E",
    "fecha_limite": "2026-12-23",
    "plazo_estimado": false,
-   "geolocalizado": false,
-   "municipios_no_resueltos": [
-    "Vilalba",
-    "Lugo"
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES1120015",
+     "nombre": "Serra do Xistral",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1120003",
+     "nombre": "Parga - Ladra - Támoga",
+     "tipo": "LIC/ZEC"
+    }
    ],
-   "natura": [],
-   "n_especies": 0,
-   "n_aves": 0,
-   "especies_top": [],
-   "informe": "informes/informe_20261107_20261110.html",
-   "actualizado": "2026-11-10"
+   "n_especies": 33,
+   "n_aves": 9,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Galemys pyrenaicus",
+     "vernacular_es": "Almizclera",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Myotis lucifugus",
+     "vernacular_es": "Miotis norteamericano",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Margaritifera margaritifera",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
   },
   "BOE-B-2026-36748": {
    "identificador": "BOE-B-2026-36748",
@@ -24450,8 +24531,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261107_20261110.html",
-   "actualizado": "2026-11-10"
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
   },
   "BOE-B-2026-36765": {
    "identificador": "BOE-B-2026-36765",
@@ -24563,8 +24644,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261107_20261110.html",
-   "actualizado": "2026-11-10"
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
   },
   "BOE-B-2026-36784": {
    "identificador": "BOE-B-2026-36784",
@@ -24717,11 +24798,596 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261107_20261110.html",
-   "actualizado": "2026-11-10"
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
+  },
+  "BOE-B-2026-36890": {
+   "identificador": "BOE-B-2026-36890",
+   "fecha": "2026-11-11",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Occidental sobre Resolución de la Dirección General de Carreteras por la que se aprueba provisionalmente Proyecto de Construcción \"Mejora de la movilidad y seguridad vial de la Autovía de Castilla (A-62). Tramo: Cigales - Simancas, para la ampliación de los tramos de trenzado desde el P.K. 122+200 al 122+800 y desde el P.K. 126+200 al 127+300, y la construcción del ramal Valladolid a Palencia en el enlace del P.K. 127+030\", redactado con fecha julio de 2026, y se ordena la incoación del expediente de Información Pública a los efectos de lo previsto en los artículos 17, 18 y 19.1 de la Ley de 16 de diciembre de 1954, de Expropiación Forzosa. Provincia de Valladolid. Clave 14-VA-4180.D.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36890",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36890",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36890.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "León",
+    "Valladolid",
+    "Palencia"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-24",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 14,
+    "n_matched": 14,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 12184
+    },
+    "parcels_m2": 297159,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-36890.geojson",
+    "natura": []
+   }
+  },
+  "BOE-B-2026-36894": {
+   "identificador": "BOE-B-2026-36894",
+   "fecha": "2026-11-11",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en A Coruña, por el que se somete, al trámite de Información Pública (IP), la solicitud de autorización administrativa previa (AAP) y el estudio de impacto ambiental (EsIA) del parque eólico «Bátega», de 36 MW de potencia instalada, para su hibridación con la central hidroeléctrica «Belesar-Grupo 3», y de una parte de su infraestructura de evacuación asociada, en los términos municipales de Carballedo y Chantada, en la provincia de Lugo. Referencia del expediente: CHidr-070-Eol.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36894",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36894",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36894.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Carballedo",
+    "Chantada",
+    "Chantada y Carballedo"
+   ],
+   "provincias": [
+    "A Coruña",
+    "Lugo"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Naturgy Generación, S.L.U",
+   "potencia_mw": 102.9,
+   "expediente": "CHidr-070-Eol",
+   "fecha_limite": "2026-12-24",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Chantada y Carballedo"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES1120008",
+     "nombre": "Monte Faro",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES1130004",
+     "nombre": "Pena Veidosa",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 12,
+   "n_aves": 2,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rana iberica",
+     "vernacular_es": "Rana Patilarga",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Pyrgus malvoides",
+     "vernacular_es": "Ajedrezada Menor",
+     "categoria_uicn": "NT",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Chioglossa lusitanica",
+     "vernacular_es": "Salamandra Rabilarga",
+     "categoria_uicn": "NT",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera seoanei",
+     "vernacular_es": "Víbora cantábrica",
+     "categoria_uicn": "NT",
+     "class": "Squamata"
+    }
+   ],
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
+  },
+  "BOE-B-2026-36901": {
+   "identificador": "BOE-B-2026-36901",
+   "fecha": "2026-11-11",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Demarcación de Costas en Murcia de información pública en el expediente de autorización para la ocupación del dominio público marítimo-terrestre, con destino a embarcadero flotante desmontable, en el término municipal de San Javier (Murcia). Referencia AUT02.26.30.0039.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36901",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36901",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36901.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Javier"
+   ],
+   "provincias": [
+    "Murcia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-10",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000260",
+     "nombre": "Mar Menor",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200006",
+     "nombre": "Espacios Abiertos e Islas del Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000175",
+     "nombre": "Salinas y Arenales de San Pedro del Pinatar",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200030",
+     "nombre": "Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200029",
+     "nombre": "Franja Litoral Sumergida de la Región de Murcia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200007",
+     "nombre": "Islas e Islotes del Litoral Mediterráneo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000508",
+     "nombre": "Espacio marino de Tabarca-Cabo de Palos",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000200",
+     "nombre": "Isla Grosa",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 24,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rhinobatos rhinobatos",
+     "vernacular_es": "Guitarra",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Gymnura altavela",
+     "vernacular_es": "Manta",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Raja radula",
+     "vernacular_es": "Raya áspera",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11"
+  },
+  "BOE-B-2026-36912": {
+   "identificador": "BOE-B-2026-36912",
+   "fecha": "2026-11-11",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Málaga por el que se somete al trámite de información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública del proyecto nueva L.S.A.T DC a 66kV \"ELVIRIA-VENTILLA\" / \"MIJAS-VENTILLA\" y \"FUENGIROLA-VENTILLA\" / \"CORTIJO COLORADO-VENTILLA\" por conexión de nueva S.E. Ventilla en el término municipal de Mijas (Málaga), formulado por Edistribución Redes Digitales, S.L.U. (expediente AT-E-18348).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36912",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36912",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36912.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Mijas"
+   ],
+   "provincias": [
+    "Málaga"
+   ],
+   "plazo_dias": 30,
+   "promotor": "EDISTRIBUCIÓN REDES DIGITALES, S.L.U. (CIF B82846817)",
+   "potencia_mw": null,
+   "expediente": "AT-E-18348",
+   "fecha_limite": "2026-12-24",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6170022",
+     "nombre": "Río Fuengirola",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6170030",
+     "nombre": "Calahonda",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 38,
+   "n_aves": 22,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Clangula hyemalis",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Haliotis tuberculata",
+     "vernacular_es": "oreja de mar",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    }
+   ],
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 14,
+    "n_matched": 14,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 1325537,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-36912.geojson",
+    "natura": [
+     {
+      "sitecode": "ES6170022",
+      "nombre": "Río Fuengirola",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
+  },
+  "BOE-B-2026-36913": {
+   "identificador": "BOE-B-2026-36913",
+   "fecha": "2026-11-11",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de la Consejería de Economía, Hacienda y Fondos Europeos y de la Consejería de Universidad, Industria, Energía e Innovación en Jaén, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción, así como la declaración, en concreto, de utilidad pública del proyecto de \"Adecuación de línea de media tensión \"Manseguilla\" para eliminar vuelo sobre el parque Vista Alegre, en el término municipal de La Guardia (Jaén). Expediente: AT-40-2025.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36913",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36913",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36913.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "La Guardia",
+    "Referencia Catastral"
+   ],
+   "provincias": [
+    "Jaén"
+   ],
+   "plazo_dias": 30,
+   "promotor": "E-Distribución Redes Digitales S.L.U",
+   "potencia_mw": null,
+   "expediente": "AT-40-2025",
+   "fecha_limite": "2026-12-24",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [
+    "Referencia Catastral"
+   ],
+   "natura": [
+    {
+     "sitecode": "ES6160009",
+     "nombre": "Estribaciones de Sierra Mágina",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 9,
+   "n_aves": 9,
+   "especies_top": [
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caprimulgus ruficollis",
+     "vernacular_es": "Chotacabras Pardo",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya nyroca",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261108_20261111.html",
+   "actualizado": "2026-11-11",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 17,
+    "n_matched": 17,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 139044,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-36913.geojson",
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261108_20261111.html",
+   "desde": "2026-11-08",
+   "hasta": "2026-11-11",
+   "generado": "2026-11-11",
+   "n": 12
+  },
   {
    "fichero": "informes/informe_20261107_20261110.html",
    "desde": "2026-11-07",
@@ -33171,6 +33837,45 @@
     "coinciden: fuentestrun, matalebreras, modulo, opde"
    ],
    "firme": true
+  },
+  "BOE-B-2026-36914": {
+   "identificador": "BOE-B-2026-36914",
+   "fecha": "2026-11-11",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Resolución de la Delegación Territorial de la Consejería Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se concede Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración, en concreto, de Utilidad Pública, para las instalaciones eléctricas de alta tensión recogidas en el proyecto denominado: Nueva línea de media tensión 15 kV entre el apoyo A553610 y el apoyo A556998 para cierre de las línea denominadas \"FTE_PA_2\" y \"PALMA_RÍO\", sito en parajes Ochavillo Bajo, Las Monjas, Casablanca, en los términos municipales de Fuente Palmera y Hornachuelos (Córdoba), y se convoca para el levantamiento de actas previas a la ocupación de las fincas afectadas. (AT 36/20-1).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36914",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-36914",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36914.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Fuente Palmera",
+    "Hornachuelos",
+    "Paraje"
+   ],
+   "provincias": [
+    "Córdoba"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-29192",
+   "puntos": 4,
+   "motivos": [
+    "1 municipio(s) en común",
+    "coinciden: cordoba, economia, europeos, fondos"
+   ],
+   "firme": false
   }
  }
 }
