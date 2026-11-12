@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-11T15:32Z",
+ "generated": "2026-11-12T16:09Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -14596,11 +14596,7 @@
    "date": "2026-11-11",
    "title": "Anuncio de la Delegación Territorial de la Consejería de Economía, Hacienda y Fondos Europeos y de la Consejería de Universidad, Industria, Energía e Innovación en Jaén, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción, así como la declaración, en concreto, de utilidad pública del proyecto de \"Adecuación de línea de media tensión \"Manseguilla\" para eliminar vuelo sobre el parque Vista Alegre, en el término municipal de La Guardia (Jaén). Expediente: AT-40-2025.",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36913",
-   "sites": [
-    {
-     "code": "ES6160009"
-    }
-   ],
+   "sites": [],
    "municipalities": [],
    "municipality_names": [
     "La Guardia",
@@ -14649,6 +14645,186 @@
     "promoter": null,
     "file": null,
     "paired_with": "BOE-B-2026-29192"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23737",
+   "kind": "resolution",
+   "date": "2026-11-12",
+   "title": "Resolución de 3 de noviembre de 2026, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula la declaración ambiental estratégica del «Plan de desarrollo de la red de transporte de energía eléctrica 2025-2030».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23737",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Provincias"
+   ],
+   "provinces": [
+    "Córdoba",
+    "Badajoz",
+    "Madrid",
+    "Álava",
+    "Guadalajara",
+    "Asturias"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desfavorable",
+   "value": {
+    "amount": 53.794,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Figura 3",
+    "file": null,
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23738",
+   "kind": "resolution",
+   "date": "2026-11-12",
+   "title": "Resolución de 18 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se corrigen errores en la de 18 de julio de 2025, por la que se otorga a Iberdrola Generación, SAU, autorización administrativa previa de la instalación solar fotovoltaica «Azután II», de 60 MW de potencia instalada, y su infraestructura de evacuación, para hibridación del grupo 2 de la central hidráulica existente Azután, en Calera y Chozas y Alcolea de Tajo (Toledo).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23738",
+   "sites": [
+    {
+     "code": "ES0000168"
+    },
+    {
+     "code": "ES0000435"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Calera",
+    "Chozas",
+    "Alcolea de Tajo"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "parcelas",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 60.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Iberdrola Generación",
+    "file": null,
+    "paired_with": "BOE-B-2026-33524"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36977",
+   "kind": "notice",
+   "date": "2026-11-12",
+   "title": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete a información pública el proyecto de pliego de condiciones particulares del servicio comercial de suministro de gas natural licuado (GNL) a buques como combustible en el puerto de Barcelona. Exp. 2026/003028.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36977",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-11",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidrocarburos_gas",
+    "promoter": null,
+    "file": "2026/003028",
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36981",
+   "kind": "notice",
+   "date": "2026-11-12",
+   "title": "Anuncio de la Autoridad Portuaria de Tarragona por el que se somete a información pública la solicitud de Euroports Ibérica TPS, S.L. para la obtención de una modificación sustancial por razón de ampliación de superficie de la concesión administrativa «Terminal marítima de mercancías destinada al almacenaje y distribución de carga general, productos de papel y siderúrgicos, en el muelle de Cantabria del Puerto de Tarragona» de la que es titular en el Puerto de Tarragona. (Expediente administrativo 173).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36981",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Tarragona",
+    "Cantabria"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-11",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36984",
+   "kind": "notice",
+   "date": "2026-11-12",
+   "title": "Corrección de errores del anuncio de la Delegación del Gobierno en Asturias de información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública, y estudio de impacto ambiental del proyecto de \"Nueva línea aérea de transporte de energía eléctrica a 400 kV, doble circuito, Subestación Cardoso-Subestación Reboria\". Expediente 85-G/2026.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36984",
+   "sites": [
+    {
+     "code": "ES1200047"
+    },
+    {
+     "code": "ES1200038"
+    },
+    {
+     "code": "ES0000320"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Gijón",
+    "Corvera de Asturias",
+    "Derechos afectados por el proyecto completa",
+    "Carreño"
+   ],
+   "provinces": [
+    "Asturias"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-28",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": null,
+    "file": "85-G/2026",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-36994",
+   "kind": "notice",
+   "date": "2026-11-12",
+   "title": "Anuncio de la Confederación Hidrográfica del Guadiana de sometimiento a información pública para el cambio de titulariad relativo a la autorización administrativa de un pantalán existente en zona de dominio público del Embalse de Orellana en el T.M. Orellana la Sierra (Badajoz). Referencia: OBCA 12/26.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36994",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Orellana la Sierra"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-28",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": null,
+    "file": "D-0082/2026",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
    }
   }
  ]
