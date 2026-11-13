@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-12T16:09Z",
+ "generated": "2026-11-13T15:35Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -14596,7 +14596,11 @@
    "date": "2026-11-11",
    "title": "Anuncio de la Delegación Territorial de la Consejería de Economía, Hacienda y Fondos Europeos y de la Consejería de Universidad, Industria, Energía e Innovación en Jaén, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción, así como la declaración, en concreto, de utilidad pública del proyecto de \"Adecuación de línea de media tensión \"Manseguilla\" para eliminar vuelo sobre el parque Vista Alegre, en el término municipal de La Guardia (Jaén). Expediente: AT-40-2025.",
    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36913",
-   "sites": [],
+   "sites": [
+    {
+     "code": "ES6160009"
+    }
+   ],
    "municipalities": [],
    "municipality_names": [
     "La Guardia",
@@ -14825,6 +14829,251 @@
     "promoter": null,
     "file": "D-0082/2026",
     "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37119",
+   "kind": "notice",
+   "date": "2026-11-13",
+   "title": "Anuncio de la Autoridad Portuaria de Cartagena por la que se somete a información pública la oferta seleccionada para el trámite de otorgamiento de concesión administrativa con destino a la manipulación y almacenamiento de graneles sólidos u otras mercancías en la zona de ampliación de la Dársena de Escombreras, que incluye el Proyecto Básico construcción y explotación de nave para la manipulación de graneles sólidos en la Dársena de Escombreras- Concesión 4.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37119",
+   "sites": [
+    {
+     "code": "ES0000264"
+    },
+    {
+     "code": "ES6200015"
+    },
+    {
+     "code": "ES6200001"
+    },
+    {
+     "code": "ES6200024"
+    },
+    {
+     "code": "ES6200006"
+    },
+    {
+     "code": "ES0000199"
+    },
+    {
+     "code": "ES0000260"
+    },
+    {
+     "code": "ES6200025"
+    },
+    {
+     "code": "ES6200040"
+    },
+    {
+     "code": "ES6200044"
+    },
+    {
+     "code": "ES6200030"
+    },
+    {
+     "code": "ES6200007"
+    },
+    {
+     "code": "ES0000200"
+    },
+    {
+     "code": "ES6200048"
+    },
+    {
+     "code": "ES6200029"
+    },
+    {
+     "code": "ES0000256"
+    },
+    {
+     "code": "ES0000271"
+    },
+    {
+     "code": "ES0000508"
+    },
+    {
+     "code": "ES0000507"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Cartagena"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-12-14",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37129",
+   "kind": "notice",
+   "date": "2026-11-13",
+   "title": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha por el que se somete a información pública la solicitud de Autorización Administrativa Previa de la modificaciones y Autorización Administrativa de Construcción de las modificaciones del proyecto para la instalación de módulo de baterías Almacenamiento Elawan Torrijos I Híbrido de 20 MW de potencia instalada, para su hibridación con la Planta Fotovoltaica existente Elawan Torrijos I de 48,818 MW de potencia instalada, ubicadas en el término municipal de Novés, provincia de Toledo y su infraestructura de evacuación, promovido por ELAWAN TORRIJOS 220, S.L. (Expediente: PFot-ALM-153).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37129",
+   "sites": [
+    {
+     "code": "ES0000435"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Novés"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-04",
+   "status": null,
+   "value": {
+    "amount": 48.818,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "ELAWAN TORRIJOS 220, S.L",
+    "file": "PFot-ALM-153",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37130",
+   "kind": "notice",
+   "date": "2026-11-13",
+   "title": "Anuncio de la Dependencia del Área de Industria y Energía de la Subdelegación del Gobierno en Castellón por el que se someten al trámite de información pública la solicitud de modificación de autorización administrativa previa y la solicitud de autorización administrativa de construcción para el proyecto de planta de almacenamiento de baterías BESS Cuevas de 55,176 MW, y su infraestructura de evacuación, en el término municipal de la Vall d'Uixó, provincia de Castellón. Expediente: SGIISE/ALM-024.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37130",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Castellón"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-29",
+   "status": null,
+   "value": {
+    "amount": 55.176,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "hidrogeno_baterias",
+    "promoter": "SONER PICASSO, S.L.U",
+    "file": "SGIISE/ALM-024",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37140",
+   "kind": "notice",
+   "date": "2026-11-13",
+   "title": "Anuncio del Servicio Provincial de Costas en Tarragona de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, en aplicación de lo establecido en la Disposición Transitoria Primera de la Ley 22/1988, de 28 de julio, de Costas, correspondiente con una parte de la finca inscrita con el número 11931 del Registro de la Propiedad de Amposta 2, situada en el término municipal de Alcanar (Tarragona).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37140",
+   "sites": [
+    {
+     "code": "ES5140005"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Alcanar"
+   ],
+   "provinces": [
+    "Tarragona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-14",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": "CNC12/22/43/0001",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37157",
+   "kind": "notice",
+   "date": "2026-11-13",
+   "title": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de concesión para la modificación de características del aprovechamiento de 4,348 l/s de agua del manantial \"Fonte da Cabana\" sito en Triacastela (Santiago), termino municipal de Triacastela (Lugo) para abastecimiento del nuevo polígono industrial y Triacastela, Ramil y Pasantes, parroquia de Triacastela (Santiago).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37157",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Triacastela"
+   ],
+   "provinces": [
+    "Lugo"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-29",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "agua_concesion",
+    "promoter": "Ayuntamiento de Triacastela",
+    "file": "A/27/14178",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37218",
+   "kind": "notice",
+   "date": "2026-11-13",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción y la declaración, en concreto, de utilidad pública del proyecto denominado «Cierre de línea de media tensión Ventas_Zaf perteneciente a la Subestación Alhama desde el CD 77241 hasta el apoyo existente A358851, sito en Paraje El Morrón y El Robledal», en el término municipal de Zafarraya (Granada).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37218",
+   "sites": [
+    {
+     "code": "ES6140008"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Zafarraya"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-29",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "E-Distribución Redes Digitales, S.L.U",
+    "file": "E-9393",
+    "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37222",
+   "kind": "notice",
+   "date": "2026-11-13",
+   "title": "Anuncio de la Consejería de Empresa, Autónomos y Energía de apertura del trámite de información pública, de autorización administrativa previa y de construcción, declaración en concreto de utilidad pública, con tramitación ambiental ordinaria, de la instalación de una nueva subestación, denominada San Martín 132 kV y ampliación de la actual subestación San Martín 220 kV en Alcúdia.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37222",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Illes Balears"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-29",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "Red Eléctrica de España, Sociedad Anónima",
+    "file": null,
+    "department": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS"
    }
   }
  ]

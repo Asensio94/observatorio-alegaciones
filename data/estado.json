@@ -24070,8 +24070,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36731": {
    "identificador": "BOE-B-2026-36731",
@@ -24177,8 +24177,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36733": {
    "identificador": "BOE-B-2026-36733",
@@ -24380,8 +24380,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36734": {
    "identificador": "BOE-B-2026-36734",
@@ -24499,8 +24499,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36748": {
    "identificador": "BOE-B-2026-36748",
@@ -24531,8 +24531,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36765": {
    "identificador": "BOE-B-2026-36765",
@@ -24644,8 +24644,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36784": {
    "identificador": "BOE-B-2026-36784",
@@ -24798,8 +24798,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36890": {
    "identificador": "BOE-B-2026-36890",
@@ -24832,8 +24832,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12",
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -24972,8 +24972,8 @@
      "class": "Squamata"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36901": {
    "identificador": "BOE-B-2026-36901",
@@ -25120,8 +25120,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36912": {
    "identificador": "BOE-B-2026-36912",
@@ -25238,8 +25238,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12",
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -25290,17 +25290,77 @@
    "expediente": "AT-40-2025",
    "fecha_limite": "2026-12-24",
    "plazo_estimado": false,
-   "geolocalizado": false,
+   "geolocalizado": true,
    "municipios_no_resueltos": [
-    "La Guardia",
     "Referencia Catastral"
    ],
-   "natura": [],
-   "n_especies": 0,
-   "n_aves": 0,
-   "especies_top": [],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12",
+   "natura": [
+    {
+     "sitecode": "ES6160009",
+     "nombre": "Estribaciones de Sierra Mágina",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 9,
+   "n_aves": 9,
+   "especies_top": [
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caprimulgus ruficollis",
+     "vernacular_es": "Chotacabras Pardo",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya nyroca",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -25348,8 +25408,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36981": {
    "identificador": "BOE-B-2026-36981",
@@ -25381,8 +25441,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
   },
   "BOE-B-2026-36984": {
    "identificador": "BOE-B-2026-36984",
@@ -25509,8 +25569,8 @@
      "class": "Amphibia"
     }
    ],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12",
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -25562,11 +25622,650 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261109_20261112.html",
-   "actualizado": "2026-11-12"
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
+  },
+  "BOE-B-2026-37119": {
+   "identificador": "BOE-B-2026-37119",
+   "fecha": "2026-11-13",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Cartagena por la que se somete a información pública la oferta seleccionada para el trámite de otorgamiento de concesión administrativa con destino a la manipulación y almacenamiento de graneles sólidos u otras mercancías en la zona de ampliación de la Dársena de Escombreras, que incluye el Proyecto Básico construcción y explotación de nave para la manipulación de graneles sólidos en la Dársena de Escombreras- Concesión 4.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37119",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37119",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-B-2026-37119.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Cartagena"
+   ],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-14",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000264",
+     "nombre": "La Muela-Cabo Tiñoso",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200015",
+     "nombre": "La Muela y Cabo Tiñoso",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200001",
+     "nombre": "Calblanque, Monte de las Cenizas y Peña del Águila",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200024",
+     "nombre": "Cabezo de Roldán",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200006",
+     "nombre": "Espacios Abiertos e Islas del Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000199",
+     "nombre": "Sierra de la Fausilla",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000260",
+     "nombre": "Mar Menor",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200025",
+     "nombre": "Sierra de la Fausilla",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200040",
+     "nombre": "Cabezos del Pericón",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200044",
+     "nombre": "Sierra de los Victorias",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200030",
+     "nombre": "Mar Menor",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200007",
+     "nombre": "Islas e Islotes del Litoral Mediterráneo",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000200",
+     "nombre": "Isla Grosa",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES6200048",
+     "nombre": "Valles submarinos del Escarpe de Mazarrón",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6200029",
+     "nombre": "Franja Litoral Sumergida de la Región de Murcia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000256",
+     "nombre": "Islas Hormigas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000271",
+     "nombre": "Isla de las Palomas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000508",
+     "nombre": "Espacio marino de Tabarca-Cabo de Palos",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000507",
+     "nombre": "Espacio marino de los Islotes Litorales de Murcia y Almería",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 40,
+   "n_aves": 28,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pinna nobilis",
+     "vernacular_es": "Nacra",
+     "categoria_uicn": "CR",
+     "class": "Bivalvia"
+    },
+    {
+     "scientificName": "Rhinobatos rhinobatos",
+     "vernacular_es": "Guitarra",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Gymnura altavela",
+     "vernacular_es": "Manta",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Cladocora caespitosa",
+     "vernacular_es": "madrépora mediterránea",
+     "categoria_uicn": "EN",
+     "class": "Anthozoa"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Ichthyaetus audouinii",
+     "vernacular_es": "Gaviota de Audouin",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
+  },
+  "BOE-B-2026-37129": {
+   "identificador": "BOE-B-2026-37129",
+   "fecha": "2026-11-13",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha por el que se somete a información pública la solicitud de Autorización Administrativa Previa de la modificaciones y Autorización Administrativa de Construcción de las modificaciones del proyecto para la instalación de módulo de baterías Almacenamiento Elawan Torrijos I Híbrido de 20 MW de potencia instalada, para su hibridación con la Planta Fotovoltaica existente Elawan Torrijos I de 48,818 MW de potencia instalada, ubicadas en el término municipal de Novés, provincia de Toledo y su infraestructura de evacuación, promovido por ELAWAN TORRIJOS 220, S.L. (Expediente: PFot-ALM-153).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37129",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37129",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-B-2026-37129.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Novés"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 15,
+   "promotor": "ELAWAN TORRIJOS 220, S.L",
+   "potencia_mw": 48.818,
+   "expediente": "PFot-ALM-153",
+   "fecha_limite": "2026-12-04",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000435",
+     "nombre": "Área esteparia de la margen derecha del río Guadarrama",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 7,
+   "n_aves": 7,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Tetrax tetrax",
+     "vernacular_es": "Sisón",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
+  },
+  "BOE-B-2026-37130": {
+   "identificador": "BOE-B-2026-37130",
+   "fecha": "2026-11-13",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio de la Dependencia del Área de Industria y Energía de la Subdelegación del Gobierno en Castellón por el que se someten al trámite de información pública la solicitud de modificación de autorización administrativa previa y la solicitud de autorización administrativa de construcción para el proyecto de planta de almacenamiento de baterías BESS Cuevas de 55,176 MW, y su infraestructura de evacuación, en el término municipal de la Vall d'Uixó, provincia de Castellón. Expediente: SGIISE/ALM-024.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37130",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37130",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-B-2026-37130.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrogeno_baterias",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Castellón"
+   ],
+   "plazo_dias": 30,
+   "promotor": "SONER PICASSO, S.L.U",
+   "potencia_mw": 55.176,
+   "expediente": "SGIISE/ALM-024",
+   "fecha_limite": "2026-12-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
+  },
+  "BOE-B-2026-37140": {
+   "identificador": "BOE-B-2026-37140",
+   "fecha": "2026-11-13",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas en Tarragona de información pública sobre un expediente de concesión administrativa de bienes de dominio público marítimo-terrestre, en aplicación de lo establecido en la Disposición Transitoria Primera de la Ley 22/1988, de 28 de julio, de Costas, correspondiente con una parte de la finca inscrita con el número 11931 del Registro de la Propiedad de Amposta 2, situada en el término municipal de Alcanar (Tarragona).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37140",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37140",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-B-2026-37140.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Alcanar"
+   ],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "CNC12/22/43/0001",
+   "fecha_limite": "2026-12-14",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES5140005",
+     "nombre": "Serra de Montsià",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 17,
+   "n_aves": 12,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Puffinus yelkouan",
+     "vernacular_es": "Pardela Mediterránea",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caretta caretta",
+     "vernacular_es": "Caguama",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caprimulgus ruficollis",
+     "vernacular_es": "Chotacabras Pardo",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Numenius arquata",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
+  },
+  "BOE-B-2026-37157": {
+   "identificador": "BOE-B-2026-37157",
+   "fecha": "2026-11-13",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de concesión para la modificación de características del aprovechamiento de 4,348 l/s de agua del manantial \"Fonte da Cabana\" sito en Triacastela (Santiago), termino municipal de Triacastela (Lugo) para abastecimiento del nuevo polígono industrial y Triacastela, Ramil y Pasantes, parroquia de Triacastela (Santiago).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37157",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37157",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-B-2026-37157.pdf",
+   "fuente": "BOE",
+   "categoria": "agua_concesion",
+   "prioridad": 1,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Triacastela"
+   ],
+   "provincias": [
+    "Lugo"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Ayuntamiento de Triacastela",
+   "potencia_mw": null,
+   "expediente": "A/27/14178",
+   "fecha_limite": "2026-12-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13"
+  },
+  "BOE-B-2026-37218": {
+   "identificador": "BOE-B-2026-37218",
+   "fecha": "2026-11-13",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción y la declaración, en concreto, de utilidad pública del proyecto denominado «Cierre de línea de media tensión Ventas_Zaf perteneciente a la Subestación Alhama desde el CD 77241 hasta el apoyo existente A358851, sito en Paraje El Morrón y El Robledal», en el término municipal de Zafarraya (Granada).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37218",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37218",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-B-2026-37218.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Zafarraya"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "E-Distribución Redes Digitales, S.L.U",
+   "potencia_mw": null,
+   "expediente": "E-9393",
+   "fecha_limite": "2026-12-29",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6140008",
+     "nombre": "Sierra de Loja",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 11,
+   "n_aves": 4,
+   "especies_top": [
+    {
+     "scientificName": "Alytes dickhilleni",
+     "vernacular_es": "Sapo Partero Bético",
+     "categoria_uicn": "EN",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Carcharodus baeticus",
+     "vernacular_es": "Piquitos del marrubio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Triturus pygmaeus",
+     "vernacular_es": "Tritón Pigmeo",
+     "categoria_uicn": "NT",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Caprimulgus ruficollis",
+     "vernacular_es": "Chotacabras Pardo",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
+  },
+  "BOE-B-2026-37222": {
+   "identificador": "BOE-B-2026-37222",
+   "fecha": "2026-11-13",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+   "titulo": "Anuncio de la Consejería de Empresa, Autónomos y Energía de apertura del trámite de información pública, de autorización administrativa previa y de construcción, declaración en concreto de utilidad pública, con tramitación ambiental ordinaria, de la instalación de una nueva subestación, denominada San Martín 132 kV y ampliación de la actual subestación San Martín 220 kV en Alcúdia.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37222",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37222",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-B-2026-37222.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 5,
+   "tramite_ambiental": true,
+   "municipios": [],
+   "provincias": [
+    "Illes Balears"
+   ],
+   "plazo_dias": 30,
+   "promotor": "Red Eléctrica de España, Sociedad Anónima",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-29",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261110_20261113.html",
+   "actualizado": "2026-11-13",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 5,
+    "n_matched": 3,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 0,
+     "temporary": 1436
+    },
+    "parcels_m2": 10984,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-37222.geojson",
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261110_20261113.html",
+   "desde": "2026-11-10",
+   "hasta": "2026-11-13",
+   "generado": "2026-11-13",
+   "n": 23
+  },
   {
    "fichero": "informes/informe_20261109_20261112.html",
    "desde": "2026-11-09",
