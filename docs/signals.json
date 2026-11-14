@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-13T15:35Z",
+ "generated": "2026-11-14T14:24Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -15074,6 +15074,65 @@
     "promoter": "Red Eléctrica de España, Sociedad Anónima",
     "file": null,
     "department": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37498",
+   "kind": "notice",
+   "date": "2026-11-14",
+   "title": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la solicitud de una concesión administrativa por parte de Vodafone Ono, S.A.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37498",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Huelva"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-29",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37499",
+   "kind": "notice",
+   "date": "2026-11-14",
+   "title": "Anuncio de la Autoridad Portuaria de Baleares por el que se somete a información pública la solicitud de Anima Management & Consulting SL, para el otorgamiento directo de una concesión para la explotación de un bar-cafetería-restaurante en el edificio Port Center del puerto de Palma (CC-D-P-0117).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37499",
+   "sites": [
+    {
+     "code": "ES0000083"
+    },
+    {
+     "code": "ES5310102"
+    },
+    {
+     "code": "ES5310080"
+    },
+    {
+     "code": "ES5310042"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Palma"
+   ],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-12-14",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
    }
   }
  ]
