@@ -10625,6 +10625,24 @@
     "catastro_date": "2026-08-21",
     "geojson": "datos/footprints/BOE-B-2026-31551.geojson",
     "natura": []
+   },
+   "resolucion_posible": {
+    "identificador": "BOE-A-2026-23980",
+    "fecha": "2026-11-16",
+    "tipo": "autorizacion",
+    "tipo_etiqueta": "Autorización administrativa",
+    "sentido": "denegada",
+    "sentido_etiqueta": "denegada",
+    "titulo": "Resolución de 7 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Desarrollos Fotovoltaicos Ibéricos 1, SLU, de autorización administrativa previa de la instalación fotovoltaica Toledo Solar, de 46,26 MW de potencia instalada, y de parte de su infraestructura de evacuación, en la provincia de Toledo.",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23980",
+    "fuente": "BOE",
+    "puntos": 4,
+    "motivos": [
+     "expedientes distintos (PFot-575 / PFot-1132)",
+     "3 municipio(s) en común",
+     "misma categoría (fotovoltaica)",
+     "coinciden: desarrollos, toledo"
+    ]
    }
   },
   "BOE-B-2026-31570": {
@@ -25823,8 +25841,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14"
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
   },
   "BOE-B-2026-37129": {
    "identificador": "BOE-B-2026-37129",
@@ -25906,8 +25924,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14"
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
   },
   "BOE-B-2026-37130": {
    "identificador": "BOE-B-2026-37130",
@@ -25938,8 +25956,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14"
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
   },
   "BOE-B-2026-37140": {
    "identificador": "BOE-B-2026-37140",
@@ -26051,8 +26069,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14"
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
   },
   "BOE-B-2026-37157": {
    "identificador": "BOE-B-2026-37157",
@@ -26085,8 +26103,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14"
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
   },
   "BOE-B-2026-37218": {
    "identificador": "BOE-B-2026-37218",
@@ -26192,8 +26210,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14",
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -26237,8 +26255,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14",
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -26286,8 +26304,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14"
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
   },
   "BOE-B-2026-37499": {
    "identificador": "BOE-B-2026-37499",
@@ -26412,11 +26430,373 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20261111_20261114.html",
-   "actualizado": "2026-11-14"
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
+  },
+  "BOE-B-2026-37675": {
+   "identificador": "BOE-B-2026-37675",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Tarragona por el que se somete a información pública la solicitud de Ocibar Marina Tarragona, S.L.U. para la obtención de una modificación sustancial por razón de ampliación de superficie de la concesión administrativa «Marina de invierno» de la que es titular en el Puerto de Tarragona. (Expediente administrativo 131).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37675",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37675",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37675.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-15",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
+  },
+  "BOE-B-2026-37677": {
+   "identificador": "BOE-B-2026-37677",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la modificación de la concesión administrativa C-1195 de titularidad de Lípidos Santiga Huelva, S.L.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37677",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37677",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37677.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-30",
+   "plazo_estimado": true,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
+  },
+  "BOE-B-2026-37678": {
+   "identificador": "BOE-B-2026-37678",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la solicitud de una concesión administrativa por parte de Decal España, S.A. y Lípidos Santiga Huelva, S.L.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37678",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37678",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37678.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-30",
+   "plazo_estimado": true,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
+  },
+  "BOE-B-2026-37680": {
+   "identificador": "BOE-B-2026-37680",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área Funcional de Industria y Energía de la Delegación del Gobierno en Aragón por el que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto de ejecución de las instalaciones del proyecto denominado Anexo al proyecto gasoducto Serrablo – Zaragoza. Modificación de la posición A-6 con estación de medida compacta G-65 para inyección de biometano. Término municipal de Zuera (Zaragoza).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37680",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37680",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37680.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrocarburos_gas",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Zuera"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 20,
+   "promotor": "ENAGAS TRANSPORTE, S.A.U",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-15",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES2430078",
+     "nombre": "Montes de Zuera",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000293",
+     "nombre": "Montes de Zuera, Castejón de Valdejasa y El Castellar",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000295",
+     "nombre": "Sierra de Alcubierre",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES2430077",
+     "nombre": "Bajo Gállego",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 33,
+   "n_aves": 23,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Cobitis calderoni",
+     "vernacular_es": "Lamprehuela",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Aquila clanga",
+     "vernacular_es": "Aguila Moteada",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16"
+  },
+  "BOE-B-2026-37697": {
+   "identificador": "BOE-B-2026-37697",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de declaración, en concreto, de utilidad pública del proyecto denominado «Nueva Línea aérea de MT, para cierre entre las líneas Ventas_Zaf pertenecientes a Subestación Alhama, 20 KV, para mejora de la infraestructura eléctrica de la zona sito desde Caminos PG 25, PCL 9009; hasta Palomeq PG 25, PCL 208 T.M. Alhama de Granada (Granada)».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37697",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37697",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37697.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Alhama de Granada"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "E-Distribución Redes Digitales S.L.U., C.I.F",
+   "potencia_mw": null,
+   "expediente": "E-9589",
+   "fecha_limite": "2026-12-30",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6170007",
+     "nombre": "Sierras de Tejeda, Almijara y Alhama",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6140008",
+     "nombre": "Sierra de Loja",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 26,
+   "n_aves": 8,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Alytes dickhilleni",
+     "vernacular_es": "Sapo Partero Bético",
+     "categoria_uicn": "EN",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Baetica ustulata",
+     "vernacular_es": "",
+     "categoria_uicn": "EN",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Carcharodus baeticus",
+     "vernacular_es": "Piquitos del marrubio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Squalius pyrenaicus",
+     "vernacular_es": "Cacho",
+     "categoria_uicn": "VU",
+     "class": null
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Zygaena rhadamanthus",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    }
+   ],
+   "informe": "informes/informe_20261113_20261116.html",
+   "actualizado": "2026-11-16",
+   "footprint": {
+    "version": 6,
+    "status": "no_table",
+    "public_domain": 0,
+    "n_parcels": 0,
+    "n_matched": 0,
+    "foral": 0,
+    "declared_m2": {},
+    "parcels_m2": 0.0,
+    "catastro_date": null,
+    "geojson": null,
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261113_20261116.html",
+   "desde": "2026-11-13",
+   "hasta": "2026-11-16",
+   "generado": "2026-11-16",
+   "n": 14
+  },
   {
    "fichero": "informes/informe_20261111_20261114.html",
    "desde": "2026-11-11",
@@ -35009,6 +35389,194 @@
    "motivos": [
     "2 municipio(s) en común"
    ],
+   "firme": false
+  },
+  "BOE-A-2026-23979": {
+   "identificador": "BOE-A-2026-23979",
+   "fecha": "2026-11-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 9 de abril de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Saresun Trespuntas, SL, de solicitud de autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica «Trespuntas I», de 47,25 MW de potencia instalada, y su infraestructura de evacuación, en la provincia de Albacete.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23979",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23979",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-A-2026-23979.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Almansa"
+   ],
+   "provincias": [
+    "Albacete"
+   ],
+   "plazo_dias": 10,
+   "promotor": "Saresun Trespuntas",
+   "potencia_mw": 50.0,
+   "expediente": "SGIISE/PFot-141",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "caducidad",
+   "sentido_etiqueta": "desistida o archivada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-23980": {
+   "identificador": "BOE-A-2026-23980",
+   "fecha": "2026-11-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 7 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Desarrollos Fotovoltaicos Ibéricos 1, SLU, de autorización administrativa previa de la instalación fotovoltaica Toledo Solar, de 46,26 MW de potencia instalada, y de parte de su infraestructura de evacuación, en la provincia de Toledo.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23980",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23980",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-A-2026-23980.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Numancia de la Sagra",
+    "Yuncler",
+    "Yuncos",
+    "Cedillo del Condado",
+    "Lominchar",
+    "Palomeque",
+    "Chozas de Canales",
+    "Camarena",
+    "Casarrubios del Monte",
+    "Las Ventas de Retamosa",
+    "La Torre de Esteban Hambrán",
+    "Méntrida"
+   ],
+   "provincias": [
+    "Toledo"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 50.0,
+   "expediente": "PFot-575",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "denegada",
+   "sentido_etiqueta": "denegada",
+   "emparejado_con": "BOE-B-2026-31551",
+   "puntos": 4,
+   "motivos": [
+    "expedientes distintos (PFot-575 / PFot-1132)",
+    "3 municipio(s) en común",
+    "misma categoría (fotovoltaica)",
+    "coinciden: desarrollos, toledo"
+   ],
+   "firme": false
+  },
+  "BOE-A-2026-23981": {
+   "identificador": "BOE-A-2026-23981",
+   "fecha": "2026-11-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energía, Innovación y Desarrollo Fotovoltaico, SA, de autorización administrativa previa de la instalación fotovoltaica Rojalinda, de 70,8 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Murcia y Alicante.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23981",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23981",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-A-2026-23981.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Murcia"
+   ],
+   "provincias": [
+    "Murcia",
+    "Alicante"
+   ],
+   "plazo_dias": 10,
+   "promotor": "",
+   "potencia_mw": 70.8,
+   "expediente": "SGIISE/PFot-795",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "denegada",
+   "sentido_etiqueta": "denegada",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-A-2026-23982": {
+   "identificador": "BOE-A-2026-23982",
+   "fecha": "2026-11-16",
+   "seccion": "3",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Resolución de 23 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Eólica Sierra de Ávila, SL, autorización administrativa previa para la instalación fotovoltaica Colladillo, de 22,05 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con el parque eólico Colladillo, de 30,06 MW de potencia instalada, en Padiernos y Niharra (Ávila).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23982",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23982",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-A-2026-23982.pdf",
+   "fuente": "BOE",
+   "categoria": "eolica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Padiernos",
+    "Niharra"
+   ],
+   "provincias": [
+    "Ávila"
+   ],
+   "plazo_dias": 90,
+   "promotor": "Eólica Sierra de Ávila",
+   "potencia_mw": 30.6,
+   "expediente": "FR-0981-AV",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-37699": {
+   "identificador": "BOE-B-2026-37699",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+   "titulo": "Resolución del Servicio de Ordenación Industrial, Energética y Minera, de la Dirección General de Industria, Energía y Minas, por la que se declara en concreto de utilidad pública las instalaciones correspondientes al proyecto denominado Reforma de líneas de media tensión de llegada a Villagonzalo (Badajoz) para mejora de la calidad de suministro. Término Municipal: Villagonzalo. Expediente: 06AT-01618-18527.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37699",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37699",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37699.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 0,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Villagonzalo"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "06AT-01618-18527",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
    "firme": false
   }
  }

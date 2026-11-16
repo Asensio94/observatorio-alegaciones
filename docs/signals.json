@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-14T14:24Z",
+ "generated": "2026-11-16T17:15Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -15133,6 +15133,295 @@
     "promoter": null,
     "file": null,
     "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23979",
+   "kind": "resolution",
+   "date": "2026-11-16",
+   "title": "Resolución de 9 de abril de 2026, de la Dirección General de Política Energética y Minas, por la que se acepta el desistimiento formulado por Saresun Trespuntas, SL, de solicitud de autorización administrativa previa y autorización administrativa de construcción para la instalación fotovoltaica «Trespuntas I», de 47,25 MW de potencia instalada, y su infraestructura de evacuación, en la provincia de Albacete.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23979",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Almansa"
+   ],
+   "provinces": [
+    "Albacete"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "desistida o archivada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": "Saresun Trespuntas",
+    "file": "SGIISE/PFot-141",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23980",
+   "kind": "resolution",
+   "date": "2026-11-16",
+   "title": "Resolución de 7 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Desarrollos Fotovoltaicos Ibéricos 1, SLU, de autorización administrativa previa de la instalación fotovoltaica Toledo Solar, de 46,26 MW de potencia instalada, y de parte de su infraestructura de evacuación, en la provincia de Toledo.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23980",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Numancia de la Sagra",
+    "Yuncler",
+    "Yuncos",
+    "Cedillo del Condado",
+    "Lominchar",
+    "Palomeque",
+    "Chozas de Canales",
+    "Camarena",
+    "Casarrubios del Monte",
+    "Las Ventas de Retamosa",
+    "La Torre de Esteban Hambrán",
+    "Méntrida"
+   ],
+   "provinces": [
+    "Toledo"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 50.0,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "PFot-575",
+    "paired_with": "BOE-B-2026-31551"
+   }
+  },
+  {
+   "id": "BOE-A-2026-23981",
+   "kind": "resolution",
+   "date": "2026-11-16",
+   "title": "Resolución de 22 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Energía, Innovación y Desarrollo Fotovoltaico, SA, de autorización administrativa previa de la instalación fotovoltaica Rojalinda, de 70,8 MW de potencia instalada, y de su infraestructura de evacuación, en las provincias de Murcia y Alicante.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23981",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Murcia"
+   ],
+   "provinces": [
+    "Murcia",
+    "Alicante"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "denegada",
+   "value": {
+    "amount": 70.8,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "SGIISE/PFot-795",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-A-2026-23982",
+   "kind": "resolution",
+   "date": "2026-11-16",
+   "title": "Resolución de 23 de octubre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Eólica Sierra de Ávila, SL, autorización administrativa previa para la instalación fotovoltaica Colladillo, de 22,05 MW de potencia instalada, y su infraestructura de evacuación, para su hibridación con el parque eólico Colladillo, de 30,06 MW de potencia instalada, en Padiernos y Niharra (Ávila).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23982",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Padiernos",
+    "Niharra"
+   ],
+   "provinces": [
+    "Ávila"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 30.6,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "eolica",
+    "promoter": "Eólica Sierra de Ávila",
+    "file": "FR-0981-AV",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-37675",
+   "kind": "notice",
+   "date": "2026-11-16",
+   "title": "Anuncio de la Autoridad Portuaria de Tarragona por el que se somete a información pública la solicitud de Ocibar Marina Tarragona, S.L.U. para la obtención de una modificación sustancial por razón de ampliación de superficie de la concesión administrativa «Marina de invierno» de la que es titular en el Puerto de Tarragona. (Expediente administrativo 131).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37675",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Tarragona"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-15",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37677",
+   "kind": "notice",
+   "date": "2026-11-16",
+   "title": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la modificación de la concesión administrativa C-1195 de titularidad de Lípidos Santiga Huelva, S.L.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37677",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Huelva"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-30",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37678",
+   "kind": "notice",
+   "date": "2026-11-16",
+   "title": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la solicitud de una concesión administrativa por parte de Decal España, S.A. y Lípidos Santiga Huelva, S.L.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37678",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Huelva"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-30",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37680",
+   "kind": "notice",
+   "date": "2026-11-16",
+   "title": "Anuncio del Área Funcional de Industria y Energía de la Delegación del Gobierno en Aragón por el que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto de ejecución de las instalaciones del proyecto denominado Anexo al proyecto gasoducto Serrablo – Zaragoza. Modificación de la posición A-6 con estación de medida compacta G-65 para inyección de biometano. Término municipal de Zuera (Zaragoza).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37680",
+   "sites": [
+    {
+     "code": "ES2430078"
+    },
+    {
+     "code": "ES0000293"
+    },
+    {
+     "code": "ES0000295"
+    },
+    {
+     "code": "ES2430077"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Zuera"
+   ],
+   "provinces": [
+    "Zaragoza"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-15",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidrocarburos_gas",
+    "promoter": "ENAGAS TRANSPORTE, S.A.U",
+    "file": null,
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37697",
+   "kind": "notice",
+   "date": "2026-11-16",
+   "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de declaración, en concreto, de utilidad pública del proyecto denominado «Nueva Línea aérea de MT, para cierre entre las líneas Ventas_Zaf pertenecientes a Subestación Alhama, 20 KV, para mejora de la infraestructura eléctrica de la zona sito desde Caminos PG 25, PCL 9009; hasta Palomeq PG 25, PCL 208 T.M. Alhama de Granada (Granada)».",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37697",
+   "sites": [
+    {
+     "code": "ES6170007"
+    },
+    {
+     "code": "ES6140008"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Alhama de Granada"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-30",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "E-Distribución Redes Digitales S.L.U., C.I.F",
+    "file": "E-9589",
+    "department": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37699",
+   "kind": "resolution",
+   "date": "2026-11-16",
+   "title": "Resolución del Servicio de Ordenación Industrial, Energética y Minera, de la Dirección General de Industria, Energía y Minas, por la que se declara en concreto de utilidad pública las instalaciones correspondientes al proyecto denominado Reforma de líneas de media tensión de llegada a Villagonzalo (Badajoz) para mejora de la calidad de suministro. Término Municipal: Villagonzalo. Expediente: 06AT-01618-18527.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37699",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Villagonzalo"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "otros",
+    "promoter": null,
+    "file": "06AT-01618-18527",
+    "paired_with": null
    }
   }
  ]
