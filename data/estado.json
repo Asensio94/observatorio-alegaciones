@@ -26304,8 +26304,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261113_20261116.html",
-   "actualizado": "2026-11-16"
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
   },
   "BOE-B-2026-37499": {
    "identificador": "BOE-B-2026-37499",
@@ -26430,8 +26430,8 @@
      "class": "Testudines"
     }
    ],
-   "informe": "informes/informe_20261113_20261116.html",
-   "actualizado": "2026-11-16"
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
   },
   "BOE-B-2026-37675": {
    "identificador": "BOE-B-2026-37675",
@@ -26462,8 +26462,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261113_20261116.html",
-   "actualizado": "2026-11-16"
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
   },
   "BOE-B-2026-37677": {
    "identificador": "BOE-B-2026-37677",
@@ -26494,8 +26494,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261113_20261116.html",
-   "actualizado": "2026-11-16"
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
   },
   "BOE-B-2026-37678": {
    "identificador": "BOE-B-2026-37678",
@@ -26526,8 +26526,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261113_20261116.html",
-   "actualizado": "2026-11-16"
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
   },
   "BOE-B-2026-37680": {
    "identificador": "BOE-B-2026-37680",
@@ -26654,8 +26654,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261113_20261116.html",
-   "actualizado": "2026-11-16"
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
   },
   "BOE-B-2026-37697": {
    "identificador": "BOE-B-2026-37697",
@@ -26772,8 +26772,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261113_20261116.html",
-   "actualizado": "2026-11-16",
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -26787,9 +26787,322 @@
     "geojson": null,
     "natura": []
    }
+  },
+  "BOE-B-2026-37834": {
+   "identificador": "BOE-B-2026-37834",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Occidental sobre Resolución del Ministerio de Transportes y Movilidad Sostenible por el que se aprueba el Expediente de Información Pública y definitivamente del Proyecto de Construcción: \"Actuaciones para el desarrollo del Plan de Acción contra el ruido de la Fase II en la Autovía A-6, P.K. 141+290 al 172+930, Provincia de Valladolid\". Clave: 39-VA-4310.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37834",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37834",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37834.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "León",
+    "Valladolid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-31",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
+  },
+  "BOE-B-2026-37835": {
+   "identificador": "BOE-B-2026-37835",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete a información pública la propuesta de limitación del número de prestadores del servicio comercial de suministro eléctrico a buques (OPS) en el puerto de Barcelona. 109/2026-SGSJC.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37835",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37835",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37835.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Barcelona"
+   ],
+   "plazo_dias": 90,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2027-03-30",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
+  },
+  "BOE-B-2026-37859": {
+   "identificador": "BOE-B-2026-37859",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Comisaría de Aguas de la Confederación Hidrográfica del Cantábrico, O.A., de información pública de expediente de aprovechamiento de un caudal máximo instantáneo de 4,5 l/s de agua del río Besaya, sita en Monte Tejas-Dobra, T.M. de San Felices de Buelna (Cantabria), con destino a usos industriales y sanitarios en la cantera de Monte-Dobra. (A/39/17689).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37859",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37859",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37859.pdf",
+   "fuente": "BOE",
+   "categoria": "mineria",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Felices de Buelna"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "A/39/05521",
+   "fecha_limite": "2026-12-16",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 6,
+   "n_aves": 2,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Miniopterus schreibersii",
+     "vernacular_es": "Murciélago de Cueva",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Erinaceus europaeus",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    }
+   ],
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17"
+  },
+  "BOE-B-2026-37884": {
+   "identificador": "BOE-B-2026-37884",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+   "titulo": "Anuncio de la Consejería de Empresa, Autónomos y Energía de la segunda apertura del trámite de información pública de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública y procedimiento de evaluación de impacto ambiental de una instalación eléctrica (expediente TR 2/2023).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37884",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37884",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37884.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alcúdia"
+   ],
+   "provincias": [
+    "Illes Balears"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-31",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000079",
+     "nombre": "La Victòria",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000226",
+     "nombre": "L'Albufereta",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310015",
+     "nombre": "Puig de Sant Martí",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000541",
+     "nombre": "Maristany",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES5310125",
+     "nombre": "Albufera de Mallorca",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000038",
+     "nombre": "S'Albufera de Mallorca",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES5310039",
+     "nombre": "Cova de sa Bassa Blanca",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310005",
+     "nombre": "Badies de Pollença i Alcúdia",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES0000520",
+     "nombre": "Espacio marino del norte de Mallorca",
+     "tipo": "ZEPA"
+    }
+   ],
+   "n_especies": 32,
+   "n_aves": 22,
+   "especies_top": [
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Falco vespertinus",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Caretta caretta",
+     "vernacular_es": "Caguama",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Testudo hermanni",
+     "vernacular_es": "Tortuga Mediterranea",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Tramuntanicola culminalis",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Haliotis tuberculata",
+     "vernacular_es": "oreja de mar",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    }
+   ],
+   "informe": "informes/informe_20261114_20261117.html",
+   "actualizado": "2026-11-17",
+   "footprint": {
+    "version": 6,
+    "status": "partial",
+    "public_domain": 0,
+    "n_parcels": 4,
+    "n_matched": 3,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 0,
+     "easement": 1850,
+     "temporary": 3188
+    },
+    "parcels_m2": 773662,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-37884.geojson",
+    "natura": []
+   }
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261114_20261117.html",
+   "desde": "2026-11-14",
+   "hasta": "2026-11-17",
+   "generado": "2026-11-17",
+   "n": 11
+  },
   {
    "fichero": "informes/informe_20261113_20261116.html",
    "desde": "2026-11-13",
@@ -35568,6 +35881,41 @@
    "promotor": "",
    "potencia_mw": null,
    "expediente": "06AT-01618-18527",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-37868": {
+   "identificador": "BOE-B-2026-37868",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+   "titulo": "Resolución de la Dirección General de Energía, por la que se otorga a la empresa Renew Green Generator, SL., la declaración de utilidad pública de la planta de almacenamiento llamada PHFV Castellet, de 4,990 MW, en suelo no urbanizable, en el término municipal de L'Arboç, en la comarca del Baix Penedès, y su infraestructura de empalme a una línea existente, en el término municipal de Castellet y la Gornal, en la comarca del Alt Penedès (expte. FUE-2024-04101401).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37868",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37868",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37868.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 2,
+   "tramite_ambiental": true,
+   "municipios": [
+    "L'Arboç",
+    "Castellet y la Gornal"
+   ],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": 30,
+   "promotor": "la empresa Renew Green Generator",
+   "potencia_mw": 4.99,
+   "expediente": "FUE-2024-04101401",
    "fecha_limite": "",
    "plazo_estimado": false,
    "tipo": "autorizacion",

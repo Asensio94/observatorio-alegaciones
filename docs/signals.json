@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-16T17:15Z",
+ "generated": "2026-11-17T17:01Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -15422,6 +15422,160 @@
     "promoter": null,
     "file": "06AT-01618-18527",
     "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-37834",
+   "kind": "notice",
+   "date": "2026-11-17",
+   "title": "Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Occidental sobre Resolución del Ministerio de Transportes y Movilidad Sostenible por el que se aprueba el Expediente de Información Pública y definitivamente del Proyecto de Construcción: \"Actuaciones para el desarrollo del Plan de Acción contra el ruido de la Fase II en la Autovía A-6, P.K. 141+290 al 172+930, Provincia de Valladolid\". Clave: 39-VA-4310.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37834",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "León",
+    "Valladolid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-31",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37835",
+   "kind": "notice",
+   "date": "2026-11-17",
+   "title": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete a información pública la propuesta de limitación del número de prestadores del servicio comercial de suministro eléctrico a buques (OPS) en el puerto de Barcelona. 109/2026-SGSJC.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37835",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": "2027-03-30",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37859",
+   "kind": "notice",
+   "date": "2026-11-17",
+   "title": "Anuncio de la Comisaría de Aguas de la Confederación Hidrográfica del Cantábrico, O.A., de información pública de expediente de aprovechamiento de un caudal máximo instantáneo de 4,5 l/s de agua del río Besaya, sita en Monte Tejas-Dobra, T.M. de San Felices de Buelna (Cantabria), con destino a usos industriales y sanitarios en la cantera de Monte-Dobra. (A/39/17689).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37859",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "San Felices de Buelna"
+   ],
+   "provinces": [
+    "Cantabria"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-16",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "mineria",
+    "promoter": null,
+    "file": "A/39/05521",
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37868",
+   "kind": "resolution",
+   "date": "2026-11-17",
+   "title": "Resolución de la Dirección General de Energía, por la que se otorga a la empresa Renew Green Generator, SL., la declaración de utilidad pública de la planta de almacenamiento llamada PHFV Castellet, de 4,990 MW, en suelo no urbanizable, en el término municipal de L'Arboç, en la comarca del Baix Penedès, y su infraestructura de empalme a una línea existente, en el término municipal de Castellet y la Gornal, en la comarca del Alt Penedès (expte. FUE-2024-04101401).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37868",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "L'Arboç",
+    "Castellet y la Gornal"
+   ],
+   "provinces": [
+    "Tarragona"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": {
+    "amount": 4.99,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "hidraulica",
+    "promoter": "la empresa Renew Green Generator",
+    "file": "FUE-2024-04101401",
+    "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-37884",
+   "kind": "notice",
+   "date": "2026-11-17",
+   "title": "Anuncio de la Consejería de Empresa, Autónomos y Energía de la segunda apertura del trámite de información pública de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública y procedimiento de evaluación de impacto ambiental de una instalación eléctrica (expediente TR 2/2023).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37884",
+   "sites": [
+    {
+     "code": "ES0000079"
+    },
+    {
+     "code": "ES0000226"
+    },
+    {
+     "code": "ES5310015"
+    },
+    {
+     "code": "ES0000541"
+    },
+    {
+     "code": "ES5310125"
+    },
+    {
+     "code": "ES0000038"
+    },
+    {
+     "code": "ES5310039"
+    },
+    {
+     "code": "ES5310005"
+    },
+    {
+     "code": "ES0000520"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Alcúdia"
+   ],
+   "provinces": [
+    "Illes Balears"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-31",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": null,
+    "file": null,
+    "department": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS"
    }
   }
  ]
