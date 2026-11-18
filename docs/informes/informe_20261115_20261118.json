@@ -1,0 +1,2991 @@
+[
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37884",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+   "titulo": "Anuncio de la Consejería de Empresa, Autónomos y Energía de la segunda apertura del trámite de información pública de autorización administrativa previa, autorización administrativa de construcción, declaración, en concreto, de utilidad pública y procedimiento de evaluación de impacto ambiental de una instalación eléctrica (expediente TR 2/2023).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37884",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37884",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37884.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 4,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Alcúdia"
+   ],
+   "provincias": [
+    "Illes Balears"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-31",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [
+   {
+    "sitecode": "ES0000079",
+    "nombre": "La Victòria",
+    "tipo": "LIC/ZEC",
+    "sitetype": "C",
+    "solape_km2": 9.7
+   },
+   {
+    "sitecode": "ES0000226",
+    "nombre": "L'Albufereta",
+    "tipo": "LIC/ZEC",
+    "sitetype": "C",
+    "solape_km2": 3.0
+   },
+   {
+    "sitecode": "ES5310015",
+    "nombre": "Puig de Sant Martí",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 2.2
+   },
+   {
+    "sitecode": "ES0000541",
+    "nombre": "Maristany",
+    "tipo": "ZEPA",
+    "sitetype": "A",
+    "solape_km2": 0.4
+   },
+   {
+    "sitecode": "ES5310125",
+    "nombre": "Albufera de Mallorca",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 0.2
+   },
+   {
+    "sitecode": "ES0000038",
+    "nombre": "S'Albufera de Mallorca",
+    "tipo": "ZEPA",
+    "sitetype": "A",
+    "solape_km2": 0.2
+   },
+   {
+    "sitecode": "ES5310039",
+    "nombre": "Cova de sa Bassa Blanca",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 0.0
+   },
+   {
+    "sitecode": "ES5310005",
+    "nombre": "Badies de Pollença i Alcúdia",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": null
+   },
+   {
+    "sitecode": "ES0000520",
+    "nombre": "Espacio marino del norte de Mallorca",
+    "tipo": "ZEPA",
+    "sitetype": "A",
+    "solape_km2": null
+   }
+  ],
+  "especies": {
+   "total_registros_amenazadas": 2947,
+   "aves_amenazadas_registros": 2931,
+   "especies": [
+    {
+     "key": 5229360,
+     "scientificName": "Puffinus mauretanicus",
+     "class": "Aves",
+     "order": "Procellariiformes",
+     "vernacular_es": "Pardela balear",
+     "registros": 9,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 2480696,
+     "scientificName": "Neophron percnopterus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Alimoche",
+     "registros": 3,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2436940,
+     "scientificName": "Oryctolagus cuniculus",
+     "class": "Mammalia",
+     "order": "Lagomorpha",
+     "vernacular_es": "Conejo",
+     "registros": 2,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2498255,
+     "scientificName": "Aythya ferina",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Porrón Europeo",
+     "registros": 974,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480327,
+     "scientificName": "Pluvialis squatarola",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Chorlito Gris",
+     "registros": 89,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481741,
+     "scientificName": "Calidris ferruginea",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos zarapitín",
+     "registros": 72,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 40,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481062,
+     "scientificName": "Falco vespertinus",
+     "class": "Aves",
+     "order": "Falconiformes",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "registros": 7,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 8894817,
+     "scientificName": "Caretta caretta",
+     "class": "Testudines",
+     "order": null,
+     "vernacular_es": "Caguama",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2441454,
+     "scientificName": "Testudo hermanni",
+     "class": "Testudines",
+     "order": null,
+     "vernacular_es": "Tortuga Mediterranea",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 11649654,
+     "scientificName": "Tramuntanicola culminalis",
+     "class": "Gastropoda",
+     "order": "Stylommatophora",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2293076,
+     "scientificName": "Haliotis tuberculata",
+     "class": "Gastropoda",
+     "order": "Lepetellida",
+     "vernacular_es": "oreja de mar",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2392679,
+     "scientificName": "Dentex dentex",
+     "class": null,
+     "order": "Perciformes",
+     "vernacular_es": "Dentón",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2419543,
+     "scientificName": "Dasyatis pastinaca",
+     "class": "Elasmobranchii",
+     "order": "Myliobatiformes",
+     "vernacular_es": "Bantenaga",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481756,
+     "scientificName": "Calidris fuscicollis",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "\"Playero Lomiblanco, Playero Rabadilla Blanca\"",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2474051,
+     "scientificName": "Alectoris rufa",
+     "class": "Aves",
+     "order": "Galliformes",
+     "vernacular_es": "Perdiz Roja",
+     "registros": 543,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 331,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2498390,
+     "scientificName": "Marmaronetta angustirostris",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Cerceta Pardilla",
+     "registros": 265,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 211,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481759,
+     "scientificName": "Calidris alpina",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos Común",
+     "registros": 183,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5229165,
+     "scientificName": "Aegypius monachus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Buitre Negro",
+     "registros": 84,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 7788295,
+     "scientificName": "Haematopus ostralegus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
+     "registros": 58,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481685,
+     "scientificName": "Limosa limosa",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Aguja Colinegra",
+     "registros": 19,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2498259,
+     "scientificName": "Aythya nyroca",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "",
+     "registros": 14,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481681,
+     "scientificName": "Limosa lapponica",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Aguja Colipinta",
+     "registros": 12,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481792,
+     "scientificName": "Numenius arquata",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
+     "registros": 10,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481776,
+     "scientificName": "Arenaria interpres",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Playero Turco",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2394622,
+     "scientificName": "Dicentrarchus labrax",
+     "class": null,
+     "order": "Perciformes",
+     "vernacular_es": "Baieta",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2400863,
+     "scientificName": "Chelon labrosus",
+     "class": null,
+     "order": "Mugiliformes",
+     "vernacular_es": "Corcón",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480491,
+     "scientificName": "Circus macrourus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Aguilucho Papialbo",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481765,
+     "scientificName": "Calidris canutus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "\"Playero Rojo, Playero Pecho Rufo\"",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8909809,
+     "scientificName": "Emys orbicularis",
+     "class": "Testudines",
+     "order": null,
+     "vernacular_es": "Galápago Europeo",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 32,
+   "n_aves": 22
+  },
+  "municipios_no_resueltos": [],
+  "footprint": "Footprint(status='partial', version=6, n_rows=4, n_parcels=4, n_matched=3, unmatched=['Alcúdia None/None'], foral=0, public_domain=0, declared_m2={'expropriation': 0, 'easement': 1850, 'temporary': 3188}, parcels_m2=773662, catastro_date='2026-08-21', geometry={'type': 'Polygon', 'coordinates': [[[3.0943728264158583, 39.81222842970352], [3.0931371296936896, 39.81354074384178], [3.0928443418899283, 39.81331151945727], [3.0926980885779667, 39.81315432469023], [3.092598302309563, 39.81314215064001], [3.0912535109983796, 39.81204841314849], [3.0892908870917397, 39.81096991348035], [3.0881978698721806, 39.81588894405239], [3.087848156215375, 39.81732999431281], [3.0883718777835827, 39.81827528612336], [3.088745543845406, 39.81882415652353], [3.0887310165322592, 39.818975717233656], [3.0887802409884566, 39.819632775893474], [3.0940634251308277, 39.82074185372993], [3.094917130777647, 39.82054456305243], [3.095366660611084, 39.82054034263551], [3.095488331369243, 39.82066629359072], [3.096738175989283, 39.82158672810213], [3.0973076055727953, 39.82212201822571], [3.09990205381111, 39.82320285162998], [3.100553263542178, 39.82238656180978], [3.10043525791859, 39.82212188487137], [3.100141278247613, 39.82120408406538], [3.100091382021209, 39.820715082529844], [3.100097798462789, 39.82045846090435], [3.1001693513579904, 39.81990478375601], [3.1003832750570797, 39.8191326195803], [3.1006438052790264, 39.81851063961251], [3.100889764134902, 39.818102773787906], [3.100187637737124, 39.817748407377], [3.099125890078056, 39.817273257040455], [3.098112519435071, 39.81671972776515], [3.098137517741708, 39.816693789111746], [3.0980543378544434, 39.816648476080026], [3.0975505257950875, 39.81645625608143], [3.097275811823556, 39.81631062647454], [3.097254341110805, 39.81634514905064], [3.0943264795755607, 39.81450576938814], [3.095342710618247, 39.81265518871722], [3.0943728264158583, 39.81222842970352]], [[3.0971142623990637, 39.820117676318965], [3.096965938054544, 39.820054621680946], [3.097012173982618, 39.81999667073607], [3.097107854378534, 39.82003532954182], [3.0972967740488646, 39.81978581277259], [3.0970217546573147, 39.81968048995962], [3.097109243393504, 39.819556969640566], [3.0971860974415537, 39.819598239043394], [3.097113881088054, 39.81970981278485], [3.097300628257805, 39.81978048908747], [3.097355642413856, 39.81970443389271], [3.097410306276903, 39.819727944871794], [3.097295379033317, 39.819877860933694], [3.097354658450507, 39.819905557755625], [3.097284670641977, 39.81998589628141], [3.0971900867955946, 39.81995013344375], [3.097117353137332, 39.8200389481493], [3.0971596404353234, 39.820056288688114], [3.0971142623990637, 39.820117676318965]]]})",
+  "natura_footprint": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37680",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área Funcional de Industria y Energía de la Delegación del Gobierno en Aragón por el que se somete a información pública la solicitud de autorización administrativa y aprobación del proyecto de ejecución de las instalaciones del proyecto denominado Anexo al proyecto gasoducto Serrablo – Zaragoza. Modificación de la posición A-6 con estación de medida compacta G-65 para inyección de biometano. Término municipal de Zuera (Zaragoza).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37680",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37680",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37680.pdf",
+   "fuente": "BOE",
+   "categoria": "hidrocarburos_gas",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Zuera"
+   ],
+   "provincias": [
+    "Zaragoza"
+   ],
+   "plazo_dias": 20,
+   "promotor": "ENAGAS TRANSPORTE, S.A.U",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-15",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [
+   {
+    "sitecode": "ES2430078",
+    "nombre": "Montes de Zuera",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 144.3
+   },
+   {
+    "sitecode": "ES0000293",
+    "nombre": "Montes de Zuera, Castejón de Valdejasa y El Castellar",
+    "tipo": "ZEPA",
+    "sitetype": "A",
+    "solape_km2": 140.7
+   },
+   {
+    "sitecode": "ES0000295",
+    "nombre": "Sierra de Alcubierre",
+    "tipo": "ZEPA",
+    "sitetype": "A",
+    "solape_km2": 14.0
+   },
+   {
+    "sitecode": "ES2430077",
+    "nombre": "Bajo Gállego",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 6.6
+   }
+  ],
+  "especies": {
+   "total_registros_amenazadas": 686,
+   "aves_amenazadas_registros": 642,
+   "especies": [
+    {
+     "key": 2436940,
+     "scientificName": "Oryctolagus cuniculus",
+     "class": "Mammalia",
+     "order": "Lagomorpha",
+     "vernacular_es": "Conejo",
+     "registros": 27,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2480696,
+     "scientificName": "Neophron percnopterus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Alimoche",
+     "registros": 17,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2474921,
+     "scientificName": "Otis tarda",
+     "class": "Aves",
+     "order": "Otidiformes",
+     "vernacular_es": "Avutarda",
+     "registros": 10,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 77,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 7341500,
+     "scientificName": "Lanius meridionalis",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón real",
+     "registros": 45,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480327,
+     "scientificName": "Pluvialis squatarola",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Chorlito Gris",
+     "registros": 7,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481741,
+     "scientificName": "Calidris ferruginea",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos zarapitín",
+     "registros": 7,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2498255,
+     "scientificName": "Aythya ferina",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Porrón Europeo",
+     "registros": 3,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2430565,
+     "scientificName": "Pelobates cultripes",
+     "class": "Amphibia",
+     "order": "Anura",
+     "vernacular_es": "Sapo de Espuelas",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2439683,
+     "scientificName": "Eliomys quercinus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Lirón Careto",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2368179,
+     "scientificName": "Cobitis calderoni",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Lamprehuela",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480509,
+     "scientificName": "Aquila clanga",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Aguila Moteada",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480510,
+     "scientificName": "Aquila adalberti",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481062,
+     "scientificName": "Falco vespertinus",
+     "class": "Aves",
+     "order": "Falconiformes",
+     "vernacular_es": "Cernícalo Patirrojo",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2490674,
+     "scientificName": "Chersophilus duponti",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alondra de Dupont",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 4535386,
+     "scientificName": "Carcharodus baeticus",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Piquitos del marrubio",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 218,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481759,
+     "scientificName": "Calidris alpina",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos Común",
+     "registros": 87,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2474051,
+     "scientificName": "Alectoris rufa",
+     "class": "Aves",
+     "order": "Galliformes",
+     "vernacular_es": "Perdiz Roja",
+     "registros": 71,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 58,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481765,
+     "scientificName": "Calidris canutus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "\"Playero Rojo, Playero Pecho Rufo\"",
+     "registros": 11,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5228228,
+     "scientificName": "Tetrax tetrax",
+     "class": "Aves",
+     "order": "Otidiformes",
+     "vernacular_es": "Sisón",
+     "registros": 10,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492949,
+     "scientificName": "Sylvia undata",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Curruca Rabilarga",
+     "registros": 6,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2433753,
+     "scientificName": "Lutra lutra",
+     "class": "Mammalia",
+     "order": "Carnivora",
+     "vernacular_es": "",
+     "registros": 5,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481685,
+     "scientificName": "Limosa limosa",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Aguja Colinegra",
+     "registros": 5,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5219616,
+     "scientificName": "Erinaceus europaeus",
+     "class": "Mammalia",
+     "order": "Erinaceomorpha",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "registros": 3,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5229165,
+     "scientificName": "Aegypius monachus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Buitre Negro",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 9411857,
+     "scientificName": "Caprimulgus ruficollis",
+     "class": "Aves",
+     "order": "Caprimulgiformes",
+     "vernacular_es": "Chotacabras Pardo",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2438492,
+     "scientificName": "Arvicola sapidus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Rata de Agua",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481776,
+     "scientificName": "Arenaria interpres",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Playero Turco",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481792,
+     "scientificName": "Numenius arquata",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8049830,
+     "scientificName": "Pararge aegeria",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Maculada",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8909809,
+     "scientificName": "Emys orbicularis",
+     "class": "Testudines",
+     "order": null,
+     "vernacular_es": "Galápago Europeo",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 33,
+   "n_aves": 23
+  },
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37943",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio del Adif-Alta Velocidad por el que se somete a información pública a efectos de declaración de la necesidad de ocupación la Modificación del Proyecto de Construcción de Plataforma de la Línea de Alta Velocidad Antequera - Granada. Tramo: Variante de Loja. Riofrío.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37943",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37943",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37943.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Loja"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2027-01-04",
+   "plazo_estimado": true
+  },
+  "geom": null,
+  "natura": [
+   {
+    "sitecode": "ES6140008",
+    "nombre": "Sierra de Loja",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 124.0
+   },
+   {
+    "sitecode": "ES6170012",
+    "nombre": "Sierra de Camarolos",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 0.1
+   }
+  ],
+  "especies": {
+   "total_registros_amenazadas": 621,
+   "aves_amenazadas_registros": 512,
+   "especies": [
+    {
+     "key": 2436940,
+     "scientificName": "Oryctolagus cuniculus",
+     "class": "Mammalia",
+     "order": "Lagomorpha",
+     "vernacular_es": "Conejo",
+     "registros": 61,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2480696,
+     "scientificName": "Neophron percnopterus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Alimoche",
+     "registros": 3,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2474921,
+     "scientificName": "Otis tarda",
+     "class": "Aves",
+     "order": "Otidiformes",
+     "vernacular_es": "Avutarda",
+     "registros": 2,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2426613,
+     "scientificName": "Alytes dickhilleni",
+     "class": "Amphibia",
+     "order": "Anura",
+     "vernacular_es": "Sapo Partero Bético",
+     "registros": 1,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 7341500,
+     "scientificName": "Lanius meridionalis",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón real",
+     "registros": 63,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 56,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2430565,
+     "scientificName": "Pelobates cultripes",
+     "class": "Amphibia",
+     "order": "Anura",
+     "vernacular_es": "Sapo de Espuelas",
+     "registros": 11,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2480510,
+     "scientificName": "Aquila adalberti",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 4560028,
+     "scientificName": "Boetersiella sturmi",
+     "class": "Gastropoda",
+     "order": "Littorinimorpha",
+     "vernacular_es": "",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2431776,
+     "scientificName": "Salamandra salamandra",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Salamandra Común",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2439683,
+     "scientificName": "Eliomys quercinus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Lirón Careto",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 4535386,
+     "scientificName": "Carcharodus baeticus",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Piquitos del marrubio",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 5960896,
+     "scientificName": "Vipera latastei",
+     "class": "Squamata",
+     "order": null,
+     "vernacular_es": "Vibora hocicuda",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 1422012,
+     "scientificName": "Coenagrion mercuriale",
+     "class": "Insecta",
+     "order": "Odonata",
+     "vernacular_es": "Agrion de Mercurio",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 9796816,
+     "scientificName": "Miniopterus schreibersii",
+     "class": "Mammalia",
+     "order": "Chiroptera",
+     "vernacular_es": "Murciélago de Cueva",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2474051,
+     "scientificName": "Alectoris rufa",
+     "class": "Aves",
+     "order": "Galliformes",
+     "vernacular_es": "Perdiz Roja",
+     "registros": 290,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 63,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 9411857,
+     "scientificName": "Caprimulgus ruficollis",
+     "class": "Aves",
+     "order": "Caprimulgiformes",
+     "vernacular_es": "Chotacabras Pardo",
+     "registros": 26,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2431889,
+     "scientificName": "Triturus pygmaeus",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Tritón Pigmeo",
+     "registros": 8,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2433753,
+     "scientificName": "Lutra lutra",
+     "class": "Mammalia",
+     "order": "Carnivora",
+     "vernacular_es": "",
+     "registros": 8,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2438492,
+     "scientificName": "Arvicola sapidus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Rata de Agua",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5219616,
+     "scientificName": "Erinaceus europaeus",
+     "class": "Mammalia",
+     "order": "Erinaceomorpha",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5228228,
+     "scientificName": "Tetrax tetrax",
+     "class": "Aves",
+     "order": "Otidiformes",
+     "vernacular_es": "Sisón",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5229165,
+     "scientificName": "Aegypius monachus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Buitre Negro",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2363094,
+     "scientificName": "Luciobarbus sclateri",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Barbo gitano",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8111395,
+     "scientificName": "Zygaena sarpedon",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 27,
+   "n_aves": 11
+  },
+  "municipios_no_resueltos": [],
+  "footprint": "Footprint(status='ok', version=6, n_rows=7, n_parcels=7, n_matched=7, unmatched=[], foral=0, public_domain=0, declared_m2={'expropriation': 27539, 'easement': 0, 'temporary': 0}, parcels_m2=2939800, catastro_date='2026-08-21', geometry={'type': 'Polygon', 'coordinates': (((-4.181624992463465, 37.16533157684553), (-4.18093595336987, 37.165585961142895), (-4.1795620394578235, 37.165921523998556), (-4.179189924892478, 37.16592216315876), (-4.177813711882441, 37.16547912895019), (-4.177288498664815, 37.16541187867524), (-4.176845620069463, 37.16560628609921), (-4.176669310539472, 37.16574856001786), (-4.1765808087881995, 37.16586634600906), (-4.176608213974611, 37.164902513685234), (-4.1767149438789, 37.16378123604517), (-4.176416161480864, 37.16384017763461), (-4.176136237029228, 37.16393868154293), (-4.17612697226157, 37.16489611446613), (-4.175948694888472, 37.16490410331568), (-4.175924487010943, 37.16632922288484), (-4.17510614851562, 37.16625081036228), (-4.174191139620046, 37.16611908794549), (-4.174287222450788, 37.16217447780223), (-4.175268185450718, 37.161797355313524), (-4.176286327044032, 37.16166881312438), (-4.176531003009139, 37.16158553142207), (-4.176686592538624, 37.16151665440026), (-4.176837173077798, 37.16137896252167), (-4.177083857769217, 37.16122922902384), (-4.177236000278475, 37.161083408826784), (-4.177251050114868, 37.161015386408856), (-4.175517614016576, 37.160122845937224), (-4.174477123719916, 37.15922061939449), (-4.173448885104014, 37.15796555705733), (-4.17304310679572, 37.15741036629834), (-4.172603069449817, 37.15708653356194), (-4.173755739671833, 37.15627407658712), (-4.1741313559210145, 37.15586212615311), (-4.17425785427635, 37.15563129440336), (-4.174321280506327, 37.155407216858805), (-4.174344730127491, 37.15481920263787), (-4.174453126539237, 37.154655882211664), (-4.175287611121645, 37.15409047354496), (-4.175625398343734, 37.15389116563938), (-4.176059474145571, 37.15370694557227), (-4.176545572238509, 37.15342089371457), (-4.177387993733684, 37.15312228652624), (-4.177892961442758, 37.15305867950808), (-4.178400656272491, 37.15293140667224), (-4.178952462167391, 37.15271517854104), (-4.179585908333022, 37.152296138772556), (-4.179881287548347, 37.15189082774859), (-4.180128601749442, 37.15145066103081), (-4.18024028523063, 37.15117391055903), (-4.180534503960626, 37.150708938904664), (-4.180920016114983, 37.15022782369988), (-4.181527221805295, 37.14981056742264), (-4.1815245241627315, 37.14973127395273), (-4.181439817772665, 37.14968605854771), (-4.182386353396609, 37.14946804202188), (-4.183692543831643, 37.14935864647401), (-4.184483528588501, 37.14919615875119), (-4.18454500083115, 37.1490945010175), (-4.1845699110139245, 37.14897337862899), (-4.18458689486671, 37.14834414436087), (-4.18464359186586, 37.14793642980961), (-4.18472399169437, 37.14769838609364), (-4.185770526703925, 37.146639448479036), (-4.18610070092467, 37.146230528917194), (-4.186231310081186, 37.14602109582682), (-4.186311822698681, 37.145790711510465), (-4.186370827550564, 37.14553142825368), (-4.186374059014891, 37.145370681992915), (-4.186330976307113, 37.145185972272905), (-4.186215654270908, 37.14501875104928), (-4.185906770514289, 37.14482218926176), (-4.185568489426726, 37.14468261679188), (-4.1853793038024305, 37.144529654123836), (-4.185371839101622, 37.144433733070265), (-4.185408826371735, 37.1443074419785), (-4.1857039501737034, 37.1438464143714), (-4.186590609782436, 37.142893086636555), (-4.1866733483721355, 37.14278382361185), (-4.186713334279227, 37.142655068382126), (-4.186731631873007, 37.142485788458025), (-4.186678040646416, 37.14193108211107), (-4.186681423737887, 37.14100173727023), (-4.1867330646521035, 37.139983124273016), (-4.1866773724857556, 37.13948837975194), (-4.186608577242201, 37.139300772589145), (-4.186217651360343, 37.13882380551642), (-4.186029702317523, 37.13847514405117), (-4.185779602191681, 37.13821273414276), (-4.1855651647099625, 37.138099954782184), (-4.185347326154339, 37.13805778624667), (-4.184612961213238, 37.13803150735819), (-4.184109258469064, 37.13795280354145), (-4.184189509347345, 37.137611824981946), (-4.184294900131464, 37.13751135090895), (-4.184381143733993, 37.137489847759504), (-4.18585463206859, 37.13755939220658), (-4.186275110239118, 37.1376366682059), (-4.1865488895760095, 37.13775002400254), (-4.1868389858910495, 37.138079003514235), (-4.186909867391576, 37.138277676530535), (-4.18710830377564, 37.13940528465008), (-4.187401676032558, 37.14018815909389), (-4.187636215891063, 37.140678767581136), (-4.187656926633236, 37.141916950198016), (-4.187466103983503, 37.14238649218392), (-4.187342396361738, 37.14257584716769), (-4.186761351150753, 37.14322046660719), (-4.187022776806079, 37.14345698151665), (-4.1873337354603795, 37.1436135890608), (-4.187542971481016, 37.14377418961363), (-4.187656864598492, 37.14412359037966), (-4.18803555267853, 37.14431250735408), (-4.188323744671951, 37.14450332202805), (-4.189242346346217, 37.14487971294958), (-4.188817331775129, 37.145205945644335), (-4.18853449188036, 37.14554445186877), (-4.188412682033918, 37.14574009843407), (-4.188023731294117, 37.14675271870605), (-4.187951974967772, 37.14708910731476), (-4.187776796285488, 37.147594817787976), (-4.187241978531839, 37.148612773086036), (-4.18895011547194, 37.14794098534964), (-4.190042826358385, 37.14745391549438), (-4.192451876873208, 37.146490024836865), (-4.193656259933686, 37.145939603841924), (-4.19595592254607, 37.1447707816838), (-4.196474260606804, 37.14544608203543), (-4.197868394574912, 37.147027508481074), (-4.198812062872734, 37.14825932846838), (-4.198981699537887, 37.148569665403265), (-4.199137442284857, 37.14915523965886), (-4.199739686281532, 37.15054443744401), (-4.199549979379987, 37.15076369658037), (-4.199475463290437, 37.15073687127752), (-4.199127758886153, 37.15117322606162), (-4.198966006384977, 37.15129843995628), (-4.1983069884735436, 37.151566772196055), (-4.198202718010372, 37.15178821050506), (-4.198129624698106, 37.15187313711002), (-4.197805991921426, 37.152044513466635), (-4.197726065007845, 37.15232447435808), (-4.197591531023086, 37.15243363738389), (-4.197308238765103, 37.15283544452938), (-4.197079067767644, 37.1529275357849), (-4.19681374463005, 37.152905067558436), (-4.196547122425862, 37.15295021430246), (-4.1960959490292815, 37.15313215781076), (-4.195992796347754, 37.15323207876655), (-4.1958450887675145, 37.153148570588435), (-4.195714697506683, 37.15319928117646), (-4.195630817222197, 37.15366496195034), (-4.1954518288961316, 37.15378331432358), (-4.195099308773138, 37.15390891494861), (-4.194985159323894, 37.15424041671068), (-4.194982425158008, 37.15438150804959), (-4.194912213375574, 37.1545783532673), (-4.194579104951273, 37.15484292751827), (-4.194192854124007, 37.154485462943576), (-4.194060214877145, 37.15427173359568), (-4.193874648184203, 37.15359244091414), (-4.193567113854731, 37.152754564114694), (-4.193460291040524, 37.152528044984116), (-4.193265219244379, 37.152232107806626), (-4.193121994677672, 37.15211826512982), (-4.192583232243132, 37.151756832054616), (-4.192046460224297, 37.1514573003339), (-4.190513562471667, 37.15071880657148), (-4.189154752833806, 37.150021631265126), (-4.188462645679227, 37.14953714874373), (-4.187856487766668, 37.14919097172058), (-4.187095861835189, 37.14888915388029), (-4.186599926681207, 37.14873584045269), (-4.185878848643852, 37.14857197864162), (-4.186093067391777, 37.148661594061274), (-4.186722230629838, 37.148830611431), (-4.187984293054256, 37.149356533697755), (-4.189304031251884, 37.150184722874535), (-4.189820639565478, 37.1504706787652), (-4.190374210505369, 37.15071506861972), (-4.192500298033422, 37.15179633525844), (-4.193056378698544, 37.15216345324033), (-4.193284075196306, 37.15241444462831), (-4.193603132259609, 37.15309735146727), (-4.193849795558008, 37.15401714458897), (-4.194003420564565, 37.154340899807934), (-4.194202938992663, 37.154654097021755), (-4.194491195291226, 37.154924215510015), (-4.194618298542376, 37.155172432318544), (-4.194663869148838, 37.1553561219478), (-4.195239453390927, 37.15517148687325), (-4.196452362126306, 37.15464024057146), (-4.196825929795116, 37.15437101606651), (-4.197174634643203, 37.15403921637703), (-4.1980148305232445, 37.15312886652017), (-4.197990023611227, 37.153432275918206), (-4.196963892832122, 37.154471927628485), (-4.196561712425259, 37.154761992619875), (-4.194994121302569, 37.15542508161027), (-4.19422357276703, 37.155607894726096), (-4.193413904661056, 37.155680769647105), (-4.192882774528525, 37.15582114202978), (-4.192285290667188, 37.156053307767415), (-4.192012868052959, 37.156210452394085), (-4.191724382288598, 37.15647069392923), (-4.191511650781137, 37.15674315275343), (-4.191098270722801, 37.157154094974025), (-4.190835110723036, 37.15736369343792), (-4.190573402296074, 37.157709022431646), (-4.190394966535645, 37.15784935499178), (-4.189961786495515, 37.15808995375416), (-4.189205373807354, 37.158437181892985), (-4.188238676222589, 37.1586679844428), (-4.187994999336077, 37.158777690207415), (-4.18787499113736, 37.158902740959135), (-4.187719063548484, 37.15919373253213), (-4.187658158039453, 37.159252661354394), (-4.187451465888963, 37.159891006920844), (-4.187415907104818, 37.160260021845815), (-4.187504841950292, 37.16058172940644), (-4.187658219923432, 37.160933707833806), (-4.1882987541400984, 37.16221074042221), (-4.188267607919535, 37.162221148055835), (-4.1877201331118075, 37.16111182806996), (-4.187658403249494, 37.16119014450832), (-4.1875781537300565, 37.16089818526189), (-4.187439873319687, 37.16059698259589), (-4.1873477194291935, 37.160263859895785), (-4.187363806207568, 37.160097126312166), (-4.187339709358985, 37.16009736776647), (-4.187237552479251, 37.1607087060757), (-4.187078156921351, 37.161159994324144), (-4.186655931877099, 37.16166376023725), (-4.18603351018701, 37.16268979682035), (-4.185628294369083, 37.163108209771714), (-4.184639859320476, 37.16372588660474), (-4.182771813064102, 37.16479256563216), (-4.181624992463465, 37.16533157684553)),)})",
+  "natura_footprint": [
+   {
+    "sitecode": "ES6140008",
+    "nombre": "Sierra de Loja",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 1.4,
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -4.0507,
+        36.9627
+       ],
+       [
+        -4.0501,
+        36.9658
+       ],
+       [
+        -4.0278,
+        36.976
+       ],
+       [
+        -4.0558,
+        36.9872
+       ],
+       [
+        -4.0643,
+        36.9869
+       ],
+       [
+        -4.0611,
+        36.9891
+       ],
+       [
+        -4.0628,
+        36.9921
+       ],
+       [
+        -4.0601,
+        36.997
+       ],
+       [
+        -4.0556,
+        36.9918
+       ],
+       [
+        -4.0449,
+        36.9979
+       ],
+       [
+        -4.0316,
+        36.9909
+       ],
+       [
+        -4.0188,
+        36.9912
+       ],
+       [
+        -4.022,
+        36.9954
+       ],
+       [
+        -4.0351,
+        36.9976
+       ],
+       [
+        -4.0476,
+        37.0054
+       ],
+       [
+        -4.0603,
+        37.0051
+       ],
+       [
+        -4.0636,
+        36.9999
+       ],
+       [
+        -4.07,
+        37.0048
+       ],
+       [
+        -4.0594,
+        37.0163
+       ],
+       [
+        -4.0664,
+        37.0203
+       ],
+       [
+        -4.0663,
+        37.0235
+       ],
+       [
+        -4.055,
+        37.0237
+       ],
+       [
+        -4.0564,
+        37.0252
+       ],
+       [
+        -4.0426,
+        37.0313
+       ],
+       [
+        -4.0402,
+        37.0352
+       ],
+       [
+        -4.0544,
+        37.0414
+       ],
+       [
+        -4.0722,
+        37.0294
+       ],
+       [
+        -4.072,
+        37.0264
+       ],
+       [
+        -4.0898,
+        37.0202
+       ],
+       [
+        -4.0931,
+        37.0285
+       ],
+       [
+        -4.0837,
+        37.0336
+       ],
+       [
+        -4.0909,
+        37.038
+       ],
+       [
+        -4.0835,
+        37.0376
+       ],
+       [
+        -4.0774,
+        37.0315
+       ],
+       [
+        -4.0708,
+        37.041
+       ],
+       [
+        -4.0822,
+        37.0493
+       ],
+       [
+        -4.0669,
+        37.046
+       ],
+       [
+        -4.0641,
+        37.0493
+       ],
+       [
+        -4.068,
+        37.0581
+       ],
+       [
+        -4.0544,
+        37.0529
+       ],
+       [
+        -4.0597,
+        37.045
+       ],
+       [
+        -4.0561,
+        37.0421
+       ],
+       [
+        -4.0359,
+        37.0488
+       ],
+       [
+        -4.0272,
+        37.0568
+       ],
+       [
+        -4.0278,
+        37.0606
+       ],
+       [
+        -4.049,
+        37.0653
+       ],
+       [
+        -4.0496,
+        37.0684
+       ],
+       [
+        -4.0597,
+        37.0668
+       ],
+       [
+        -4.0697,
+        37.0603
+       ],
+       [
+        -4.0604,
+        37.0776
+       ],
+       [
+        -4.0668,
+        37.0804
+       ],
+       [
+        -4.0704,
+        37.0863
+       ],
+       [
+        -4.0605,
+        37.0918
+       ],
+       [
+        -4.076,
+        37.0949
+       ],
+       [
+        -4.0795,
+        37.0982
+       ],
+       [
+        -4.0834,
+        37.0974
+       ],
+       [
+        -4.0814,
+        37.0964
+       ],
+       [
+        -4.0874,
+        37.0898
+       ],
+       [
+        -4.0924,
+        37.0887
+       ],
+       [
+        -4.0934,
+        37.0829
+       ],
+       [
+        -4.1043,
+        37.0795
+       ],
+       [
+        -4.1057,
+        37.0728
+       ],
+       [
+        -4.1141,
+        37.0744
+       ],
+       [
+        -4.1189,
+        37.0713
+       ],
+       [
+        -4.1246,
+        37.0745
+       ],
+       [
+        -4.112,
+        37.0823
+       ],
+       [
+        -4.1064,
+        37.0803
+       ],
+       [
+        -4.0991,
+        37.0874
+       ],
+       [
+        -4.1016,
+        37.0931
+       ],
+       [
+        -4.0954,
+        37.0948
+       ],
+       [
+        -4.0936,
+        37.0912
+       ],
+       [
+        -4.0836,
+        37.0973
+       ],
+       [
+        -4.0825,
+        37.1018
+       ],
+       [
+        -4.0947,
+        37.1109
+       ],
+       [
+        -4.0968,
+        37.1182
+       ],
+       [
+        -4.1051,
+        37.1127
+       ],
+       [
+        -4.1128,
+        37.1006
+       ],
+       [
+        -4.1219,
+        37.0953
+       ],
+       [
+        -4.1278,
+        37.0963
+       ],
+       [
+        -4.1006,
+        37.1196
+       ],
+       [
+        -4.0951,
+        37.13
+       ],
+       [
+        -4.1077,
+        37.1342
+       ],
+       [
+        -4.1158,
+        37.1299
+       ],
+       [
+        -4.1219,
+        37.1333
+       ],
+       [
+        -4.132,
+        37.1294
+       ],
+       [
+        -4.136,
+        37.1376
+       ],
+       [
+        -4.1472,
+        37.1354
+       ],
+       [
+        -4.1532,
+        37.141
+       ],
+       [
+        -4.1572,
+        37.1399
+       ],
+       [
+        -4.1595,
+        37.1437
+       ],
+       [
+        -4.1532,
+        37.1509
+       ],
+       [
+        -4.1521,
+        37.1604
+       ],
+       [
+        -4.1653,
+        37.1645
+       ],
+       [
+        -4.1949,
+        37.1553
+       ],
+       [
+        -4.1956,
+        37.1532
+       ],
+       [
+        -4.1845,
+        37.1483
+       ],
+       [
+        -4.1871,
+        37.1374
+       ],
+       [
+        -4.2,
+        37.1282
+       ],
+       [
+        -4.2146,
+        37.1271
+       ],
+       [
+        -4.2145,
+        37.1185
+       ],
+       [
+        -4.2204,
+        37.1161
+       ],
+       [
+        -4.2185,
+        37.1088
+       ],
+       [
+        -4.2262,
+        37.1049
+       ],
+       [
+        -4.2253,
+        37.0981
+       ],
+       [
+        -4.2321,
+        37.0918
+       ],
+       [
+        -4.2369,
+        37.092
+       ],
+       [
+        -4.2388,
+        37.0839
+       ],
+       [
+        -4.253,
+        37.0878
+       ],
+       [
+        -4.2634,
+        37.0842
+       ],
+       [
+        -4.2819,
+        37.0707
+       ],
+       [
+        -4.2767,
+        37.0484
+       ],
+       [
+        -4.2564,
+        37.0489
+       ],
+       [
+        -4.2443,
+        37.0582
+       ],
+       [
+        -4.2475,
+        37.0659
+       ],
+       [
+        -4.2417,
+        37.0692
+       ],
+       [
+        -4.2392,
+        37.0786
+       ],
+       [
+        -4.2358,
+        37.0782
+       ],
+       [
+        -4.2365,
+        37.0698
+       ],
+       [
+        -4.2325,
+        37.0606
+       ],
+       [
+        -4.2396,
+        37.052
+       ],
+       [
+        -4.2388,
+        37.0428
+       ],
+       [
+        -4.2448,
+        37.0366
+       ],
+       [
+        -4.2313,
+        37.0294
+       ],
+       [
+        -4.2279,
+        37.0164
+       ],
+       [
+        -4.2195,
+        37.0166
+       ],
+       [
+        -4.2174,
+        37.0125
+       ],
+       [
+        -4.2221,
+        37.0102
+       ],
+       [
+        -4.1968,
+        36.9914
+       ],
+       [
+        -4.19,
+        36.9899
+       ],
+       [
+        -4.1894,
+        36.9937
+       ],
+       [
+        -4.1821,
+        36.9888
+       ],
+       [
+        -4.1742,
+        36.9905
+       ],
+       [
+        -4.1685,
+        36.9865
+       ],
+       [
+        -4.1529,
+        36.99
+       ],
+       [
+        -4.1429,
+        36.9865
+       ],
+       [
+        -4.1385,
+        36.9961
+       ],
+       [
+        -4.1356,
+        36.9962
+       ],
+       [
+        -4.1306,
+        36.9865
+       ],
+       [
+        -4.1236,
+        36.9868
+       ],
+       [
+        -4.1181,
+        36.9805
+       ],
+       [
+        -4.1095,
+        36.9782
+       ],
+       [
+        -4.1053,
+        36.9814
+       ],
+       [
+        -4.1033,
+        36.9744
+       ],
+       [
+        -4.0865,
+        36.9666
+       ],
+       [
+        -4.0889,
+        36.9647
+       ],
+       [
+        -4.074,
+        36.9668
+       ],
+       [
+        -4.0812,
+        36.9634
+       ],
+       [
+        -4.079,
+        36.9602
+       ],
+       [
+        -4.0653,
+        36.9605
+       ],
+       [
+        -4.0651,
+        36.9635
+       ],
+       [
+        -4.0507,
+        36.9627
+       ]
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37697",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+   "titulo": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por el que se somete a información pública la solicitud de declaración, en concreto, de utilidad pública del proyecto denominado «Nueva Línea aérea de MT, para cierre entre las líneas Ventas_Zaf pertenecientes a Subestación Alhama, 20 KV, para mejora de la infraestructura eléctrica de la zona sito desde Caminos PG 25, PCL 9009; hasta Palomeq PG 25, PCL 208 T.M. Alhama de Granada (Granada)».",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37697",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37697",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37697.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Alhama de Granada"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": 30,
+   "promotor": "E-Distribución Redes Digitales S.L.U., C.I.F",
+   "potencia_mw": null,
+   "expediente": "E-9589",
+   "fecha_limite": "2026-12-30",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [
+   {
+    "sitecode": "ES6170007",
+    "nombre": "Sierras de Tejeda, Almijara y Alhama",
+    "tipo": "LIC/ZEC",
+    "sitetype": "C",
+    "solape_km2": 89.5
+   },
+   {
+    "sitecode": "ES6140008",
+    "nombre": "Sierra de Loja",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 77.4
+   }
+  ],
+  "especies": {
+   "total_registros_amenazadas": 251,
+   "aves_amenazadas_registros": 188,
+   "especies": [
+    {
+     "key": 2436940,
+     "scientificName": "Oryctolagus cuniculus",
+     "class": "Mammalia",
+     "order": "Lagomorpha",
+     "vernacular_es": "Conejo",
+     "registros": 13,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2426613,
+     "scientificName": "Alytes dickhilleni",
+     "class": "Amphibia",
+     "order": "Anura",
+     "vernacular_es": "Sapo Partero Bético",
+     "registros": 9,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 1692648,
+     "scientificName": "Baetica ustulata",
+     "class": "Insecta",
+     "order": "Orthoptera",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2498255,
+     "scientificName": "Aythya ferina",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Porrón Europeo",
+     "registros": 127,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 16,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 7341500,
+     "scientificName": "Lanius meridionalis",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón real",
+     "registros": 8,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2430565,
+     "scientificName": "Pelobates cultripes",
+     "class": "Amphibia",
+     "order": "Anura",
+     "vernacular_es": "Sapo de Espuelas",
+     "registros": 3,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 4535386,
+     "scientificName": "Carcharodus baeticus",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Piquitos del marrubio",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 5960896,
+     "scientificName": "Vipera latastei",
+     "class": "Squamata",
+     "order": null,
+     "vernacular_es": "Vibora hocicuda",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2365755,
+     "scientificName": "Squalius pyrenaicus",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Cacho",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2431776,
+     "scientificName": "Salamandra salamandra",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Salamandra Común",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 7870336,
+     "scientificName": "Zygaena rhadamanthus",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2474051,
+     "scientificName": "Alectoris rufa",
+     "class": "Aves",
+     "order": "Galliformes",
+     "vernacular_es": "Perdiz Roja",
+     "registros": 18,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2433753,
+     "scientificName": "Lutra lutra",
+     "class": "Mammalia",
+     "order": "Carnivora",
+     "vernacular_es": "",
+     "registros": 8,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 8,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2438492,
+     "scientificName": "Arvicola sapidus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Rata de Agua",
+     "registros": 6,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 1693436,
+     "scientificName": "Canariola emarginata",
+     "class": "Insecta",
+     "order": "Orthoptera",
+     "vernacular_es": "",
+     "registros": 5,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2498259,
+     "scientificName": "Aythya nyroca",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "",
+     "registros": 5,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 1949938,
+     "scientificName": "Pyrgus malvoides",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "Ajedrezada Menor",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 9411857,
+     "scientificName": "Caprimulgus ruficollis",
+     "class": "Aves",
+     "order": "Caprimulgiformes",
+     "vernacular_es": "Chotacabras Pardo",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5219616,
+     "scientificName": "Erinaceus europaeus",
+     "class": "Mammalia",
+     "order": "Erinaceomorpha",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5228228,
+     "scientificName": "Tetrax tetrax",
+     "class": "Aves",
+     "order": "Otidiformes",
+     "vernacular_es": "Sisón",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8111395,
+     "scientificName": "Zygaena sarpedon",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 1423891,
+     "scientificName": "Platycnemis acutipennis",
+     "class": "Insecta",
+     "order": "Odonata",
+     "vernacular_es": "Caballito naranja",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 1988602,
+     "scientificName": "Colostygia multistrigaria",
+     "class": "Insecta",
+     "order": "Lepidoptera",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2431889,
+     "scientificName": "Triturus pygmaeus",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Tritón Pigmeo",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 26,
+   "n_aves": 8
+  },
+  "municipios_no_resueltos": [],
+  "footprint": "Footprint(status='no_table', version=6, n_rows=0, n_parcels=0, n_matched=0, unmatched=[], foral=0, public_domain=0, declared_m2={}, parcels_m2=0.0, catastro_date=None, geometry=None)"
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37859",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Comisaría de Aguas de la Confederación Hidrográfica del Cantábrico, O.A., de información pública de expediente de aprovechamiento de un caudal máximo instantáneo de 4,5 l/s de agua del río Besaya, sita en Monte Tejas-Dobra, T.M. de San Felices de Buelna (Cantabria), con destino a usos industriales y sanitarios en la cantera de Monte-Dobra. (A/39/17689).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37859",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37859",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37859.pdf",
+   "fuente": "BOE",
+   "categoria": "mineria",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "San Felices de Buelna"
+   ],
+   "provincias": [
+    "Cantabria"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "A/39/05521",
+   "fecha_limite": "2026-12-16",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {
+   "total_registros_amenazadas": 10,
+   "aves_amenazadas_registros": 3,
+   "especies": [
+    {
+     "key": 5212973,
+     "scientificName": "Anguilla anguilla",
+     "class": null,
+     "order": "Anguilliformes",
+     "vernacular_es": "Anguila",
+     "registros": 1,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 2480696,
+     "scientificName": "Neophron percnopterus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Alimoche",
+     "registros": 2,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 9796816,
+     "scientificName": "Miniopterus schreibersii",
+     "class": "Mammalia",
+     "order": "Chiroptera",
+     "vernacular_es": "Murciélago de Cueva",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2433753,
+     "scientificName": "Lutra lutra",
+     "class": "Mammalia",
+     "order": "Carnivora",
+     "vernacular_es": "",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2474051,
+     "scientificName": "Alectoris rufa",
+     "class": "Aves",
+     "order": "Galliformes",
+     "vernacular_es": "Perdiz Roja",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5219616,
+     "scientificName": "Erinaceus europaeus",
+     "class": "Mammalia",
+     "order": "Erinaceomorpha",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 6,
+   "n_aves": 2
+  },
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37834",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Occidental sobre Resolución del Ministerio de Transportes y Movilidad Sostenible por el que se aprueba el Expediente de Información Pública y definitivamente del Proyecto de Construcción: \"Actuaciones para el desarrollo del Plan de Acción contra el ruido de la Fase II en la Autovía A-6, P.K. 141+290 al 172+930, Provincia de Valladolid\". Clave: 39-VA-4310.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37834",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37834",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37834.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "León",
+    "Valladolid"
+   ],
+   "plazo_dias": 30,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-31",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37952",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas de Gipuzkoa por el que se somete a Información Pública la solicitud de adscripción formulada por la Dirección de Puertos, Asuntos Marítimos y Litoral del Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca del Gobierno Vasco, para la ocupación de bienes de dominio público marítimo-terrestre con destino a la construcción del futuro vial de acceso al muelle de carga del puerto de Orio en la margen izquierda de la ría del Oria, en los términos municipales de Aia y Orio (Gipuzkoa). Ref.: ADS01/26/20/0001.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37952",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37952",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37952.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Aia",
+    "Orio"
+   ],
+   "provincias": [
+    "Gipuzkoa"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [
+   {
+    "sitecode": "ES2120010",
+    "nombre": "Oriako itsasadarra / Ría del Oria",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 1.0
+   },
+   {
+    "sitecode": "ES2120008",
+    "nombre": "Hernio-Gazume",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 0.8
+   },
+   {
+    "sitecode": "ES2120009",
+    "nombre": "Iñurritza",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": 0.3
+   },
+   {
+    "sitecode": "ES2120006",
+    "nombre": "Pagoeta",
+    "tipo": "LIC/ZEC",
+    "sitetype": "B",
+    "solape_km2": null
+   }
+  ],
+  "especies": {
+   "total_registros_amenazadas": 325,
+   "aves_amenazadas_registros": 244,
+   "especies": [
+    {
+     "key": 5212973,
+     "scientificName": "Anguilla anguilla",
+     "class": null,
+     "order": "Anguilliformes",
+     "vernacular_es": "Anguila",
+     "registros": 56,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 5229360,
+     "scientificName": "Puffinus mauretanicus",
+     "class": "Aves",
+     "order": "Procellariiformes",
+     "vernacular_es": "Pardela balear",
+     "registros": 6,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 2480696,
+     "scientificName": "Neophron percnopterus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Alimoche",
+     "registros": 48,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2480327,
+     "scientificName": "Pluvialis squatarola",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Chorlito Gris",
+     "registros": 9,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 7,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481205,
+     "scientificName": "Rissa tridactyla",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Gallego patinegro",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2431776,
+     "scientificName": "Salamandra salamandra",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Salamandra Común",
+     "registros": 2,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2431886,
+     "scientificName": "Triturus marmoratus",
+     "class": "Amphibia",
+     "order": "Caudata",
+     "vernacular_es": "Tritón Jaspeado",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481741,
+     "scientificName": "Calidris ferruginea",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos zarapitín",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2498255,
+     "scientificName": "Aythya ferina",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Porrón Europeo",
+     "registros": 1,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481759,
+     "scientificName": "Calidris alpina",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos Común",
+     "registros": 76,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 39,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481792,
+     "scientificName": "Numenius arquata",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
+     "registros": 32,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2400863,
+     "scientificName": "Chelon labrosus",
+     "class": null,
+     "order": "Mugiliformes",
+     "vernacular_es": "Corcón",
+     "registros": 11,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481776,
+     "scientificName": "Arenaria interpres",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Playero Turco",
+     "registros": 7,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 7595433,
+     "scientificName": "Salmo salar",
+     "class": null,
+     "order": "Salmoniformes",
+     "vernacular_es": "",
+     "registros": 6,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2498352,
+     "scientificName": "Somateria mollissima",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Eider Común",
+     "registros": 4,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2394622,
+     "scientificName": "Dicentrarchus labrax",
+     "class": null,
+     "order": "Perciformes",
+     "vernacular_es": "Baieta",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481685,
+     "scientificName": "Limosa limosa",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Aguja Colinegra",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 7788295,
+     "scientificName": "Haematopus ostralegus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2438492,
+     "scientificName": "Arvicola sapidus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Rata de Agua",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480649,
+     "scientificName": "Gypaetus barbatus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5219616,
+     "scientificName": "Erinaceus europaeus",
+     "class": "Mammalia",
+     "order": "Erinaceomorpha",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5229165,
+     "scientificName": "Aegypius monachus",
+     "class": "Aves",
+     "order": "Accipitriformes",
+     "vernacular_es": "Buitre Negro",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5960884,
+     "scientificName": "Vipera seoanei",
+     "class": "Squamata",
+     "order": null,
+     "vernacular_es": "Víbora cantábrica",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 26,
+   "n_aves": 17
+  },
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37944",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Bilbao por el que se somete a información pública la solicitud de concesión del Consorcio de Aguas Bilbao Bizkaia en el municipio de Getxo.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37944",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37944",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37944.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Getxo"
+   ],
+   "provincias": [
+    "Bizkaia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {
+   "total_registros_amenazadas": 510,
+   "aves_amenazadas_registros": 457,
+   "especies": [
+    {
+     "key": 5212973,
+     "scientificName": "Anguilla anguilla",
+     "class": null,
+     "order": "Anguilliformes",
+     "vernacular_es": "Anguila",
+     "registros": 20,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 2418259,
+     "scientificName": "Galeorhinus galeus",
+     "class": "Elasmobranchii",
+     "order": "Carcharhiniformes",
+     "vernacular_es": "Aceitero",
+     "registros": 1,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 5229360,
+     "scientificName": "Puffinus mauretanicus",
+     "class": "Aves",
+     "order": "Procellariiformes",
+     "vernacular_es": "Pardela balear",
+     "registros": 1,
+     "categoria_uicn": "CR",
+     "categoria_es": "En peligro crítico"
+    },
+    {
+     "key": 5216248,
+     "scientificName": "Isurus oxyrinchus",
+     "class": "Elasmobranchii",
+     "order": "Lamniformes",
+     "vernacular_es": "Atunero",
+     "registros": 1,
+     "categoria_uicn": "EN",
+     "categoria_es": "En peligro"
+    },
+    {
+     "key": 2480327,
+     "scientificName": "Pluvialis squatarola",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Chorlito Gris",
+     "registros": 25,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2495708,
+     "scientificName": "Streptopelia turtur",
+     "class": "Aves",
+     "order": "Columbiformes",
+     "vernacular_es": "",
+     "registros": 20,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 8292425,
+     "scientificName": "Calidris subruficollis",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos canelo",
+     "registros": 9,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481205,
+     "scientificName": "Rissa tridactyla",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Gallego patinegro",
+     "registros": 8,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2482059,
+     "scientificName": "Podiceps auritus",
+     "class": "Aves",
+     "order": "Podicipediformes",
+     "vernacular_es": "",
+     "registros": 8,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 1422012,
+     "scientificName": "Coenagrion mercuriale",
+     "class": "Insecta",
+     "order": "Odonata",
+     "vernacular_es": "Agrion de Mercurio",
+     "registros": 4,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2498255,
+     "scientificName": "Aythya ferina",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Porrón Europeo",
+     "registros": 3,
+     "categoria_uicn": "VU",
+     "categoria_es": "Vulnerable"
+    },
+    {
+     "key": 2481776,
+     "scientificName": "Arenaria interpres",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Playero Turco",
+     "registros": 269,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481759,
+     "scientificName": "Calidris alpina",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Correlimos Común",
+     "registros": 55,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2480242,
+     "scientificName": "Vanellus vanellus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Avefría Europea",
+     "registros": 12,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481765,
+     "scientificName": "Calidris canutus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "\"Playero Rojo, Playero Pecho Rufo\"",
+     "registros": 12,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2481681,
+     "scientificName": "Limosa lapponica",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "Aguja Colipinta",
+     "registros": 11,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2498352,
+     "scientificName": "Somateria mollissima",
+     "class": "Aves",
+     "order": "Anseriformes",
+     "vernacular_es": "Eider Común",
+     "registros": 10,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5219616,
+     "scientificName": "Erinaceus europaeus",
+     "class": "Mammalia",
+     "order": "Erinaceomorpha",
+     "vernacular_es": "Erizo Europeo Occidental",
+     "registros": 10,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 7788295,
+     "scientificName": "Haematopus ostralegus",
+     "class": "Aves",
+     "order": "Charadriiformes",
+     "vernacular_es": "",
+     "registros": 9,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2359297,
+     "scientificName": "Parachondrostoma miegii",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Madrilla",
+     "registros": 6,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2363097,
+     "scientificName": "Luciobarbus graellsii",
+     "class": null,
+     "order": "Cypriniformes",
+     "vernacular_es": "Barbo de Graells",
+     "registros": 6,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2492867,
+     "scientificName": "Lanius senator",
+     "class": "Aves",
+     "order": "Passeriformes",
+     "vernacular_es": "Alcaudón Común",
+     "registros": 5,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 8909809,
+     "scientificName": "Emys orbicularis",
+     "class": "Testudines",
+     "order": null,
+     "vernacular_es": "Galápago Europeo",
+     "registros": 2,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 1315144,
+     "scientificName": "Formica pratensis",
+     "class": "Insecta",
+     "order": "Hymenoptera",
+     "vernacular_es": "",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 2438492,
+     "scientificName": "Arvicola sapidus",
+     "class": "Mammalia",
+     "order": "Rodentia",
+     "vernacular_es": "Rata de Agua",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    },
+    {
+     "key": 5960884,
+     "scientificName": "Vipera seoanei",
+     "class": "Squamata",
+     "order": null,
+     "vernacular_es": "Víbora cantábrica",
+     "registros": 1,
+     "categoria_uicn": "NT",
+     "categoria_es": "Casi amenazada"
+    }
+   ],
+   "n_especies": 26,
+   "n_aves": 15
+  },
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37675",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Tarragona por el que se somete a información pública la solicitud de Ocibar Marina Tarragona, S.L.U. para la obtención de una modificación sustancial por razón de ampliación de superficie de la concesión administrativa «Marina de invierno» de la que es titular en el Puerto de Tarragona. (Expediente administrativo 131).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37675",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37675",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37675.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Tarragona"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-15",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37677",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la modificación de la concesión administrativa C-1195 de titularidad de Lípidos Santiga Huelva, S.L.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37677",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37677",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37677.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-30",
+   "plazo_estimado": true
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37678",
+   "fecha": "2026-11-16",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Huelva relativo al trámite de información pública de la solicitud de una concesión administrativa por parte de Decal España, S.A. y Lípidos Santiga Huelva, S.L.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37678",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37678",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37678.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Huelva"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-30",
+   "plazo_estimado": true
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37835",
+   "fecha": "2026-11-17",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Barcelona por el que se somete a información pública la propuesta de limitación del número de prestadores del servicio comercial de suministro eléctrico a buques (OPS) en el puerto de Barcelona. 109/2026-SGSJC.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37835",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37835",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-B-2026-37835.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Barcelona"
+   ],
+   "plazo_dias": 90,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2027-03-30",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ },
+ {
+  "anuncio": {
+   "identificador": "BOE-B-2026-37942",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Algeciras por la que se somete a información pública la solicitud de concesión demanial formulada por la Sociedad Federada de Pesca Deportiva El Mero.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37942",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37942",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37942.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false
+  },
+  "geom": null,
+  "natura": [],
+  "especies": {},
+  "municipios_no_resueltos": []
+ }
+]

@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-17T17:01Z",
+ "generated": "2026-11-18T16:40Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -15576,6 +15576,120 @@
     "promoter": null,
     "file": null,
     "department": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37942",
+   "kind": "notice",
+   "date": "2026-11-18",
+   "title": "Anuncio de la Autoridad Portuaria de la Bahía de Algeciras por la que se somete a información pública la solicitud de concesión demanial formulada por la Sociedad Federada de Pesca Deportiva El Mero.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37942",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [],
+   "precision": "municipio",
+   "deadline": "2026-12-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37943",
+   "kind": "notice",
+   "date": "2026-11-18",
+   "title": "Anuncio del Adif-Alta Velocidad por el que se somete a información pública a efectos de declaración de la necesidad de ocupación la Modificación del Proyecto de Construcción de Plataforma de la Línea de Alta Velocidad Antequera - Granada. Tramo: Variante de Loja. Riofrío.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37943",
+   "sites": [
+    {
+     "code": "ES6140008"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Loja"
+   ],
+   "provinces": [
+    "Granada"
+   ],
+   "precision": "parcelas",
+   "deadline": "2027-01-04",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "transporte",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37944",
+   "kind": "notice",
+   "date": "2026-11-18",
+   "title": "Anuncio de la Autoridad Portuaria de Bilbao por el que se somete a información pública la solicitud de concesión del Consorcio de Aguas Bilbao Bizkaia en el municipio de Getxo.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37944",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Getxo"
+   ],
+   "provinces": [
+    "Bizkaia"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-37952",
+   "kind": "notice",
+   "date": "2026-11-18",
+   "title": "Anuncio del Servicio Provincial de Costas de Gipuzkoa por el que se somete a Información Pública la solicitud de adscripción formulada por la Dirección de Puertos, Asuntos Marítimos y Litoral del Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca del Gobierno Vasco, para la ocupación de bienes de dominio público marítimo-terrestre con destino a la construcción del futuro vial de acceso al muelle de carga del puerto de Orio en la margen izquierda de la ría del Oria, en los términos municipales de Aia y Orio (Gipuzkoa). Ref.: ADS01/26/20/0001.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37952",
+   "sites": [
+    {
+     "code": "ES2120010"
+    },
+    {
+     "code": "ES2120008"
+    },
+    {
+     "code": "ES2120009"
+    },
+    {
+     "code": "ES2120006"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Aia",
+    "Orio"
+   ],
+   "provinces": [
+    "Gipuzkoa"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-17",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
    }
   }
  ]

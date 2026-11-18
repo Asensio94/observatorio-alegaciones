@@ -26462,8 +26462,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17"
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   },
   "BOE-B-2026-37677": {
    "identificador": "BOE-B-2026-37677",
@@ -26494,8 +26494,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17"
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   },
   "BOE-B-2026-37678": {
    "identificador": "BOE-B-2026-37678",
@@ -26526,8 +26526,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17"
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   },
   "BOE-B-2026-37680": {
    "identificador": "BOE-B-2026-37680",
@@ -26654,8 +26654,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17"
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   },
   "BOE-B-2026-37697": {
    "identificador": "BOE-B-2026-37697",
@@ -26772,8 +26772,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17",
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -26818,8 +26818,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17"
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   },
   "BOE-B-2026-37835": {
    "identificador": "BOE-B-2026-37835",
@@ -26850,8 +26850,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17"
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   },
   "BOE-B-2026-37859": {
    "identificador": "BOE-B-2026-37859",
@@ -26921,8 +26921,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17"
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   },
   "BOE-B-2026-37884": {
    "identificador": "BOE-B-2026-37884",
@@ -27074,8 +27074,8 @@
      "class": "Gastropoda"
     }
    ],
-   "informe": "informes/informe_20261114_20261117.html",
-   "actualizado": "2026-11-17",
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -27093,9 +27093,423 @@
     "geojson": "datos/footprints/BOE-B-2026-37884.geojson",
     "natura": []
    }
+  },
+  "BOE-B-2026-37942": {
+   "identificador": "BOE-B-2026-37942",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Algeciras por la que se somete a información pública la solicitud de concesión demanial formulada por la Sociedad Federada de Pesca Deportiva El Mero.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37942",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37942",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37942.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
+  },
+  "BOE-B-2026-37943": {
+   "identificador": "BOE-B-2026-37943",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio del Adif-Alta Velocidad por el que se somete a información pública a efectos de declaración de la necesidad de ocupación la Modificación del Proyecto de Construcción de Plataforma de la Línea de Alta Velocidad Antequera - Granada. Tramo: Variante de Loja. Riofrío.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37943",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37943",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37943.pdf",
+   "fuente": "BOE",
+   "categoria": "transporte",
+   "prioridad": 4,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Loja"
+   ],
+   "provincias": [
+    "Granada"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2027-01-04",
+   "plazo_estimado": true,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES6140008",
+     "nombre": "Sierra de Loja",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES6170012",
+     "nombre": "Sierra de Camarolos",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 27,
+   "n_aves": 11,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alytes dickhilleni",
+     "vernacular_es": "Sapo Partero Bético",
+     "categoria_uicn": "EN",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Boetersiella sturmi",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Gastropoda"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Carcharodus baeticus",
+     "vernacular_es": "Piquitos del marrubio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    }
+   ],
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18",
+   "footprint": {
+    "version": 6,
+    "status": "ok",
+    "public_domain": 0,
+    "n_parcels": 7,
+    "n_matched": 7,
+    "foral": 0,
+    "declared_m2": {
+     "expropriation": 27539,
+     "easement": 0,
+     "temporary": 0
+    },
+    "parcels_m2": 2939800,
+    "catastro_date": "2026-08-21",
+    "geojson": "datos/footprints/BOE-B-2026-37943.geojson",
+    "natura": [
+     {
+      "sitecode": "ES6140008",
+      "nombre": "Sierra de Loja",
+      "tipo": "LIC/ZEC"
+     }
+    ]
+   }
+  },
+  "BOE-B-2026-37944": {
+   "identificador": "BOE-B-2026-37944",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de Bilbao por el que se somete a información pública la solicitud de concesión del Consorcio de Aguas Bilbao Bizkaia en el municipio de Getxo.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37944",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37944",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37944.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Getxo"
+   ],
+   "provincias": [
+    "Bizkaia"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 26,
+   "n_aves": 15,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Galeorhinus galeus",
+     "vernacular_es": "Aceitero",
+     "categoria_uicn": "CR",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Isurus oxyrinchus",
+     "vernacular_es": "Atunero",
+     "categoria_uicn": "EN",
+     "class": "Elasmobranchii"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris subruficollis",
+     "vernacular_es": "Correlimos canelo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Podiceps auritus",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Coenagrion mercuriale",
+     "vernacular_es": "Agrion de Mercurio",
+     "categoria_uicn": "VU",
+     "class": "Insecta"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Arenaria interpres",
+     "vernacular_es": "Playero Turco",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
+  },
+  "BOE-B-2026-37952": {
+   "identificador": "BOE-B-2026-37952",
+   "fecha": "2026-11-18",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio del Servicio Provincial de Costas de Gipuzkoa por el que se somete a Información Pública la solicitud de adscripción formulada por la Dirección de Puertos, Asuntos Marítimos y Litoral del Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca del Gobierno Vasco, para la ocupación de bienes de dominio público marítimo-terrestre con destino a la construcción del futuro vial de acceso al muelle de carga del puerto de Orio en la margen izquierda de la ría del Oria, en los términos municipales de Aia y Orio (Gipuzkoa). Ref.: ADS01/26/20/0001.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37952",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-37952",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/18/pdfs/BOE-B-2026-37952.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Aia",
+    "Orio"
+   ],
+   "provincias": [
+    "Gipuzkoa"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-17",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES2120010",
+     "nombre": "Oriako itsasadarra / Ría del Oria",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2120008",
+     "nombre": "Hernio-Gazume",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2120009",
+     "nombre": "Iñurritza",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES2120006",
+     "nombre": "Pagoeta",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 26,
+   "n_aves": 17,
+   "especies_top": [
+    {
+     "scientificName": "Anguilla anguilla",
+     "vernacular_es": "Anguila",
+     "categoria_uicn": "CR",
+     "class": null
+    },
+    {
+     "scientificName": "Puffinus mauretanicus",
+     "vernacular_es": "Pardela balear",
+     "categoria_uicn": "CR",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Neophron percnopterus",
+     "vernacular_es": "Alimoche",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Rissa tridactyla",
+     "vernacular_es": "Gallego patinegro",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Salamandra salamandra",
+     "vernacular_es": "Salamandra Común",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Triturus marmoratus",
+     "vernacular_es": "Tritón Jaspeado",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Calidris alpina",
+     "vernacular_es": "Correlimos Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261115_20261118.html",
+   "actualizado": "2026-11-18"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261115_20261118.html",
+   "desde": "2026-11-15",
+   "hasta": "2026-11-18",
+   "generado": "2026-11-18",
+   "n": 13
+  },
   {
    "fichero": "informes/informe_20261114_20261117.html",
    "desde": "2026-11-14",
