@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-18T16:40Z",
+ "generated": "2026-11-19T16:42Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -15690,6 +15690,144 @@
     "promoter": null,
     "file": null,
     "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-38034",
+   "kind": "notice",
+   "date": "2026-11-19",
+   "title": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por Agencia Marítima Condeminas Cádiz, S.A., de concesión administrativa.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38034",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Cádiz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-18",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-38035",
+   "kind": "notice",
+   "date": "2026-11-19",
+   "title": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por Agencia Marítima Condeminas Cádiz, S.A., de concesión administrativa.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38035",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Cádiz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-18",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-38036",
+   "kind": "notice",
+   "date": "2026-11-19",
+   "title": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por Sodio Corporación Solar, S.L., de concesión administrativa.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38036",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [],
+   "provinces": [
+    "Cádiz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-18",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-38037",
+   "kind": "notice",
+   "date": "2026-11-19",
+   "title": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por el Excmo. Ayuntamiento de El Puerto de Santa María, de concesión administrativa.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38037",
+   "sites": [
+    {
+     "code": "ES0000381"
+    },
+    {
+     "code": "ES0000441"
+    },
+    {
+     "code": "ES5310010"
+    },
+    {
+     "code": "ES5310062"
+    },
+    {
+     "code": "ES5310063"
+    },
+    {
+     "code": "ES5310064"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Santa María"
+   ],
+   "provinces": [
+    "Cádiz"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-18",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "puertos_costas",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE"
+   }
+  },
+  {
+   "id": "BOE-B-2026-38072",
+   "kind": "resolution",
+   "date": "2026-11-19",
+   "title": "Resolución del Servicio de Ordenación Industrial, Energética y Minera, de la Dirección General de Industria, Energía y Minas, por la que se declara en concreto de utilidad pública las instalaciones correspondientes al proyecto denominado Reforma de líneas de media tensión de salida en Villagonzalo (Badajoz) para mejora de la calidad de suministro. Término Municipal: Villagonzalo. Expediente: 06AT-01618-18529.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38072",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Villagonzalo"
+   ],
+   "provinces": [
+    "Badajoz"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "otros",
+    "promoter": null,
+    "file": "06AT-01618-18529",
+    "paired_with": null
    }
   }
  ]

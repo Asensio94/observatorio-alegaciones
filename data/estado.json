@@ -26462,8 +26462,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37677": {
    "identificador": "BOE-B-2026-37677",
@@ -26494,8 +26494,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37678": {
    "identificador": "BOE-B-2026-37678",
@@ -26526,8 +26526,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37680": {
    "identificador": "BOE-B-2026-37680",
@@ -26654,8 +26654,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37697": {
    "identificador": "BOE-B-2026-37697",
@@ -26772,8 +26772,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18",
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19",
    "footprint": {
     "version": 6,
     "status": "no_table",
@@ -26818,8 +26818,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37835": {
    "identificador": "BOE-B-2026-37835",
@@ -26850,8 +26850,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37859": {
    "identificador": "BOE-B-2026-37859",
@@ -26921,8 +26921,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37884": {
    "identificador": "BOE-B-2026-37884",
@@ -27074,8 +27074,8 @@
      "class": "Gastropoda"
     }
    ],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18",
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -27121,8 +27121,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37943": {
    "identificador": "BOE-B-2026-37943",
@@ -27239,8 +27239,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18",
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -27369,8 +27369,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   },
   "BOE-B-2026-37952": {
    "identificador": "BOE-B-2026-37952",
@@ -27498,11 +27498,210 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261115_20261118.html",
-   "actualizado": "2026-11-18"
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
+  },
+  "BOE-B-2026-38034": {
+   "identificador": "BOE-B-2026-38034",
+   "fecha": "2026-11-19",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por Agencia Marítima Condeminas Cádiz, S.A., de concesión administrativa.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38034",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38034",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-B-2026-38034.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-18",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
+  },
+  "BOE-B-2026-38035": {
+   "identificador": "BOE-B-2026-38035",
+   "fecha": "2026-11-19",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por Agencia Marítima Condeminas Cádiz, S.A., de concesión administrativa.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38035",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38035",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-B-2026-38035.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-18",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
+  },
+  "BOE-B-2026-38036": {
+   "identificador": "BOE-B-2026-38036",
+   "fecha": "2026-11-19",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por Sodio Corporación Solar, S.L., de concesión administrativa.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38036",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38036",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-B-2026-38036.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 5,
+   "tramite_ambiental": false,
+   "municipios": [],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-18",
+   "plazo_estimado": false,
+   "geolocalizado": false,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 0,
+   "n_aves": 0,
+   "especies_top": [],
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
+  },
+  "BOE-B-2026-38037": {
+   "identificador": "BOE-B-2026-38037",
+   "fecha": "2026-11-19",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+   "titulo": "Anuncio de la Autoridad Portuaria de la Bahía de Cádiz por el que se somete a información pública solicitud presentada por el Excmo. Ayuntamiento de El Puerto de Santa María, de concesión administrativa.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38037",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38037",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-B-2026-38037.pdf",
+   "fuente": "BOE",
+   "categoria": "puertos_costas",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Santa María"
+   ],
+   "provincias": [
+    "Cádiz"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-18",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000381",
+     "nombre": "Puig Gros",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES0000441",
+     "nombre": "D'Alfabia a Biniarroi",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES5310010",
+     "nombre": "Comuna de Bunyola",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310062",
+     "nombre": "Es Bufador de Son Berenguer",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310063",
+     "nombre": "Cova de can Millo o de Coa Negrina",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES5310064",
+     "nombre": "Avenc de Son Pou",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 5,
+   "n_aves": 4,
+   "especies_top": [
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Testudo graeca",
+     "vernacular_es": "Tortuga Mora",
+     "categoria_uicn": "VU",
+     "class": "Testudines"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261116_20261119.html",
+   "actualizado": "2026-11-19"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261116_20261119.html",
+   "desde": "2026-11-16",
+   "hasta": "2026-11-19",
+   "generado": "2026-11-19",
+   "n": 17
+  },
   {
    "fichero": "informes/informe_20261115_20261118.html",
    "desde": "2026-11-15",
@@ -36330,6 +36529,40 @@
    "promotor": "la empresa Renew Green Generator",
    "potencia_mw": 4.99,
    "expediente": "FUE-2024-04101401",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "",
+   "puntos": 0,
+   "motivos": [],
+   "firme": false
+  },
+  "BOE-B-2026-38072": {
+   "identificador": "BOE-B-2026-38072",
+   "fecha": "2026-11-19",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+   "titulo": "Resolución del Servicio de Ordenación Industrial, Energética y Minera, de la Dirección General de Industria, Energía y Minas, por la que se declara en concreto de utilidad pública las instalaciones correspondientes al proyecto denominado Reforma de líneas de media tensión de salida en Villagonzalo (Badajoz) para mejora de la calidad de suministro. Término Municipal: Villagonzalo. Expediente: 06AT-01618-18529.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38072",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38072",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-B-2026-38072.pdf",
+   "fuente": "BOE",
+   "categoria": "otros",
+   "prioridad": 0,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Villagonzalo"
+   ],
+   "provincias": [
+    "Badajoz"
+   ],
+   "plazo_dias": null,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "06AT-01618-18529",
    "fecha_limite": "",
    "plazo_estimado": false,
    "tipo": "autorizacion",
