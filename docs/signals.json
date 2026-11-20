@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-19T16:42Z",
+ "generated": "2026-11-20T16:17Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -15828,6 +15828,68 @@
     "promoter": null,
     "file": "06AT-01618-18529",
     "paired_with": null
+   }
+  },
+  {
+   "id": "BOE-B-2026-38216",
+   "kind": "notice",
+   "date": "2026-11-20",
+   "title": "Anuncio de la Confederación Hidrográfica del Guadalquivir por el que se somete a información pública solicitud de aprovechamiento de pastos en el Dominio Público Hidráulico del Embalse del Víboras, en término municipal de de Martos (Jaén). Referencia: 23060-2068-2026-04.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38216",
+   "sites": [],
+   "municipalities": [],
+   "municipality_names": [
+    "Martos"
+   ],
+   "provinces": [
+    "Jaén"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-21",
+   "status": null,
+   "value": null,
+   "details": {
+    "category": "hidraulica",
+    "promoter": null,
+    "file": null,
+    "department": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO"
+   }
+  },
+  {
+   "id": "BOE-B-2026-38218",
+   "kind": "resolution",
+   "date": "2026-11-20",
+   "title": "Resolución del Departamento de Territorio, Vivienda y Transición Ecológica TER/4133/2026, por la que se otorga a la empresa Red Eléctrica de España, Sociedad Anónima Unipersonal la autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública correspondiente al proyecto de ejecución de la modificación topológica en la subestación Gramanet 220 kV, adecuación de líneas eléctricas de alta tensión, en los términos municipales de Santa Coloma de Gramenet, Barcelona i Sant Fost de Campsentelles (FUE-2026-05014365).",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38218",
+   "sites": [
+    {
+     "code": "ES5110027"
+    },
+    {
+     "code": "ES0000146"
+    },
+    {
+     "code": "ES5110024"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "Santa Coloma de Gramenet",
+    "Barcelona",
+    "Sant Fost de Campsentelles"
+   ],
+   "provinces": [
+    "Barcelona"
+   ],
+   "precision": "municipio",
+   "deadline": null,
+   "status": "favorable",
+   "value": null,
+   "details": {
+    "category": "red_electrica",
+    "promoter": "la empresa Red Eléctrica de España",
+    "file": null,
+    "paired_with": "BOE-B-2026-29272"
    }
   }
  ]

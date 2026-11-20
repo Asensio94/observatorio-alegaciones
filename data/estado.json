@@ -4053,20 +4053,21 @@
     "natura": []
    },
    "resolucion": {
-    "identificador": "BOE-A-2026-19932",
-    "fecha": "2026-09-25",
+    "identificador": "BOE-B-2026-38218",
+    "fecha": "2026-11-20",
     "tipo": "autorizacion",
     "tipo_etiqueta": "Autorización administrativa",
     "sentido": "favorable",
     "sentido_etiqueta": "favorable",
-    "titulo": "Resolución de 3 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción para la línea aérea de transporte de energía eléctrica 400 kV, doble circuito, entrada y salida en la SE Moreruela de la línea 400 kV Grijota-Villarino 2, en Moreruela de los Infanzones (Zamora), y se declara, en concreto, la utilidad pública.",
-    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19932",
+    "titulo": "Resolución del Departamento de Territorio, Vivienda y Transición Ecológica TER/4133/2026, por la que se otorga a la empresa Red Eléctrica de España, Sociedad Anónima Unipersonal la autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública correspondiente al proyecto de ejecución de la modificación topológica en la subestación Gramanet 220 kV, adecuación de líneas eléctricas de alta tensión, en los términos municipales de Santa Coloma de Gramenet, Barcelona i Sant Fost de Campsentelles (FUE-2026-05014365).",
+    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38218",
     "fuente": "BOE",
-    "puntos": 6,
+    "puntos": 8,
     "motivos": [
      "mismo promotor (Red Eléctrica de España, Sociedad Anónima Unipersonal)",
+     "1 municipio(s) en común",
      "misma categoría (red_electrica)",
-     "coinciden: entrada, salida"
+     "coinciden: barcelona, departamento, ecologica, territorio"
     ]
    }
   },
@@ -26818,8 +26819,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-37835": {
    "identificador": "BOE-B-2026-37835",
@@ -26850,8 +26851,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-37859": {
    "identificador": "BOE-B-2026-37859",
@@ -26921,8 +26922,8 @@
      "class": "Mammalia"
     }
    ],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-37884": {
    "identificador": "BOE-B-2026-37884",
@@ -27074,8 +27075,8 @@
      "class": "Gastropoda"
     }
    ],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19",
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20",
    "footprint": {
     "version": 6,
     "status": "partial",
@@ -27121,8 +27122,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-37943": {
    "identificador": "BOE-B-2026-37943",
@@ -27239,8 +27240,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19",
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -27369,8 +27370,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-37952": {
    "identificador": "BOE-B-2026-37952",
@@ -27498,8 +27499,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-38034": {
    "identificador": "BOE-B-2026-38034",
@@ -27530,8 +27531,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-38035": {
    "identificador": "BOE-B-2026-38035",
@@ -27562,8 +27563,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-38036": {
    "identificador": "BOE-B-2026-38036",
@@ -27594,8 +27595,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   },
   "BOE-B-2026-38037": {
    "identificador": "BOE-B-2026-38037",
@@ -27690,11 +27691,113 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261116_20261119.html",
-   "actualizado": "2026-11-19"
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
+  },
+  "BOE-B-2026-38216": {
+   "identificador": "BOE-B-2026-38216",
+   "fecha": "2026-11-20",
+   "seccion": "5B",
+   "departamento": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Guadalquivir por el que se somete a información pública solicitud de aprovechamiento de pastos en el Dominio Público Hidráulico del Embalse del Víboras, en término municipal de de Martos (Jaén). Referencia: 23060-2068-2026-04.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38216",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38216",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/20/pdfs/BOE-B-2026-38216.pdf",
+   "fuente": "BOE",
+   "categoria": "hidraulica",
+   "prioridad": 3,
+   "tramite_ambiental": false,
+   "municipios": [
+    "Martos"
+   ],
+   "provincias": [
+    "Jaén"
+   ],
+   "plazo_dias": 20,
+   "promotor": "",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "2026-12-21",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [],
+   "n_especies": 10,
+   "n_aves": 7,
+   "especies_top": [
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vipera latastei",
+     "vernacular_es": "Vibora hocicuda",
+     "categoria_uicn": "VU",
+     "class": "Squamata"
+    },
+    {
+     "scientificName": "Lanius senator",
+     "vernacular_es": "Alcaudón Común",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Alectoris rufa",
+     "vernacular_es": "Perdiz Roja",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aegypius monachus",
+     "vernacular_es": "Buitre Negro",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lutra lutra",
+     "vernacular_es": "",
+     "categoria_uicn": "NT",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Tetrax tetrax",
+     "vernacular_es": "Sisón",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261117_20261120.html",
+   "actualizado": "2026-11-20"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261117_20261120.html",
+   "desde": "2026-11-17",
+   "hasta": "2026-11-20",
+   "generado": "2026-11-20",
+   "n": 13
+  },
   {
    "fichero": "informes/informe_20261116_20261119.html",
    "desde": "2026-11-16",
@@ -36573,6 +36676,47 @@
    "puntos": 0,
    "motivos": [],
    "firme": false
+  },
+  "BOE-B-2026-38218": {
+   "identificador": "BOE-B-2026-38218",
+   "fecha": "2026-11-20",
+   "seccion": "5B",
+   "departamento": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+   "titulo": "Resolución del Departamento de Territorio, Vivienda y Transición Ecológica TER/4133/2026, por la que se otorga a la empresa Red Eléctrica de España, Sociedad Anónima Unipersonal la autorización administrativa previa, autorización administrativa de construcción y declaración de utilidad pública correspondiente al proyecto de ejecución de la modificación topológica en la subestación Gramanet 220 kV, adecuación de líneas eléctricas de alta tensión, en los términos municipales de Santa Coloma de Gramenet, Barcelona i Sant Fost de Campsentelles (FUE-2026-05014365).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38218",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38218",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/20/pdfs/BOE-B-2026-38218.pdf",
+   "fuente": "BOE",
+   "categoria": "red_electrica",
+   "prioridad": 3,
+   "tramite_ambiental": true,
+   "municipios": [
+    "Santa Coloma de Gramenet",
+    "Barcelona",
+    "Sant Fost de Campsentelles"
+   ],
+   "provincias": [
+    "Barcelona"
+   ],
+   "plazo_dias": 30,
+   "promotor": "la empresa Red Eléctrica de España",
+   "potencia_mw": null,
+   "expediente": "",
+   "fecha_limite": "",
+   "plazo_estimado": false,
+   "tipo": "autorizacion",
+   "tipo_etiqueta": "Autorización administrativa",
+   "sentido": "favorable",
+   "sentido_etiqueta": "favorable",
+   "emparejado_con": "BOE-B-2026-29272",
+   "puntos": 8,
+   "motivos": [
+    "mismo promotor (Red Eléctrica de España, Sociedad Anónima Unipersonal)",
+    "1 municipio(s) en común",
+    "misma categoría (red_electrica)",
+    "coinciden: barcelona, departamento, ecologica, territorio"
+   ],
+   "firme": true
   }
  }
 }
