@@ -1,7 +1,7 @@
 {
  "source": "observatorio-alegaciones",
  "version": 1,
- "generated": "2026-11-20T16:17Z",
+ "generated": "2026-11-21T15:30Z",
  "coverage": {
   "label": "Toda España, desde el 27 de julio de 2026",
   "sites": null,
@@ -15890,6 +15890,46 @@
     "promoter": "la empresa Red Eléctrica de España",
     "file": null,
     "paired_with": "BOE-B-2026-29272"
+   }
+  },
+  {
+   "id": "BOE-B-2026-38457",
+   "kind": "notice",
+   "date": "2026-11-21",
+   "title": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Valladolid, por el que se somete a información pública la solicitud de procedimiento simplificado de autorización administrativa previa y autorización administrativa de construcción de los módulos de almacenamiento por baterías de \"BESS El Caballero\", de 48,9 MW de potencia instalada, \"BESS Sinfonía I\", de 45,14 MW de potencia instalada y \"BESS Adaja I\", de 48,9 MW de potencia instalada, para su hibridación con las respectivas instalaciones solares fotovoltaicas El Caballero, Sinfonía I y Adaja I, y sus infraestructuras de evacuación, en la provincia de Valladolid.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38457",
+   "sites": [
+    {
+     "code": "ES0000204"
+    },
+    {
+     "code": "ES4180081"
+    },
+    {
+     "code": "ES4180147"
+    }
+   ],
+   "municipalities": [],
+   "municipality_names": [
+    "La Zarza",
+    "San Vicente del Palacio",
+    "Medina del Campo"
+   ],
+   "provinces": [
+    "Valladolid"
+   ],
+   "precision": "municipio",
+   "deadline": "2026-12-14",
+   "status": null,
+   "value": {
+    "amount": 49.61,
+    "unit": "MW"
+   },
+   "details": {
+    "category": "fotovoltaica",
+    "promoter": null,
+    "file": "PFot-351-ALM",
+    "department": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA"
    }
   }
  ]

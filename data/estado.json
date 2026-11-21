@@ -27122,8 +27122,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   },
   "BOE-B-2026-37943": {
    "identificador": "BOE-B-2026-37943",
@@ -27240,8 +27240,8 @@
      "class": "Insecta"
     }
    ],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20",
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21",
    "footprint": {
     "version": 6,
     "status": "ok",
@@ -27370,8 +27370,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   },
   "BOE-B-2026-37952": {
    "identificador": "BOE-B-2026-37952",
@@ -27499,8 +27499,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   },
   "BOE-B-2026-38034": {
    "identificador": "BOE-B-2026-38034",
@@ -27531,8 +27531,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   },
   "BOE-B-2026-38035": {
    "identificador": "BOE-B-2026-38035",
@@ -27563,8 +27563,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   },
   "BOE-B-2026-38036": {
    "identificador": "BOE-B-2026-38036",
@@ -27595,8 +27595,8 @@
    "n_especies": 0,
    "n_aves": 0,
    "especies_top": [],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   },
   "BOE-B-2026-38037": {
    "identificador": "BOE-B-2026-38037",
@@ -27691,8 +27691,8 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   },
   "BOE-B-2026-38216": {
    "identificador": "BOE-B-2026-38216",
@@ -27786,11 +27786,143 @@
      "class": "Aves"
     }
    ],
-   "informe": "informes/informe_20261117_20261120.html",
-   "actualizado": "2026-11-20"
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
+  },
+  "BOE-B-2026-38457": {
+   "identificador": "BOE-B-2026-38457",
+   "fecha": "2026-11-21",
+   "seccion": "5B",
+   "departamento": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+   "titulo": "Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Valladolid, por el que se somete a información pública la solicitud de procedimiento simplificado de autorización administrativa previa y autorización administrativa de construcción de los módulos de almacenamiento por baterías de \"BESS El Caballero\", de 48,9 MW de potencia instalada, \"BESS Sinfonía I\", de 45,14 MW de potencia instalada y \"BESS Adaja I\", de 48,9 MW de potencia instalada, para su hibridación con las respectivas instalaciones solares fotovoltaicas El Caballero, Sinfonía I y Adaja I, y sus infraestructuras de evacuación, en la provincia de Valladolid.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38457",
+   "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2026-38457",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/21/pdfs/BOE-B-2026-38457.pdf",
+   "fuente": "BOE",
+   "categoria": "fotovoltaica",
+   "prioridad": 6,
+   "tramite_ambiental": true,
+   "municipios": [
+    "La Zarza",
+    "San Vicente del Palacio",
+    "Medina del Campo"
+   ],
+   "provincias": [
+    "Valladolid"
+   ],
+   "plazo_dias": 15,
+   "promotor": "",
+   "potencia_mw": 49.61,
+   "expediente": "PFot-351-ALM",
+   "fecha_limite": "2026-12-14",
+   "plazo_estimado": false,
+   "geolocalizado": true,
+   "municipios_no_resueltos": [],
+   "natura": [
+    {
+     "sitecode": "ES0000204",
+     "nombre": "Tierra de Campiñas",
+     "tipo": "ZEPA"
+    },
+    {
+     "sitecode": "ES4180081",
+     "nombre": "Riberas del Río Adaja y afluentes",
+     "tipo": "LIC/ZEC"
+    },
+    {
+     "sitecode": "ES4180147",
+     "nombre": "Humedales de Los Arenales",
+     "tipo": "LIC/ZEC"
+    }
+   ],
+   "n_especies": 25,
+   "n_aves": 19,
+   "especies_top": [
+    {
+     "scientificName": "Otis tarda",
+     "vernacular_es": "Avutarda",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Oryctolagus cuniculus",
+     "vernacular_es": "Conejo",
+     "categoria_uicn": "EN",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Oxyura leucocephala",
+     "vernacular_es": "Malvasía",
+     "categoria_uicn": "EN",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aquila adalberti",
+     "vernacular_es": "Aguila Imperial Ibérica",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Lanius meridionalis",
+     "vernacular_es": "Alcaudón real",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Streptopelia turtur",
+     "vernacular_es": "",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pluvialis squatarola",
+     "vernacular_es": "Chorlito Gris",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Pelobates cultripes",
+     "vernacular_es": "Sapo de Espuelas",
+     "categoria_uicn": "VU",
+     "class": "Amphibia"
+    },
+    {
+     "scientificName": "Eliomys quercinus",
+     "vernacular_es": "Lirón Careto",
+     "categoria_uicn": "VU",
+     "class": "Mammalia"
+    },
+    {
+     "scientificName": "Calidris ferruginea",
+     "vernacular_es": "Correlimos zarapitín",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Aythya ferina",
+     "vernacular_es": "Porrón Europeo",
+     "categoria_uicn": "VU",
+     "class": "Aves"
+    },
+    {
+     "scientificName": "Vanellus vanellus",
+     "vernacular_es": "Avefría Europea",
+     "categoria_uicn": "NT",
+     "class": "Aves"
+    }
+   ],
+   "informe": "informes/informe_20261118_20261121.html",
+   "actualizado": "2026-11-21"
   }
  },
  "informes": [
+  {
+   "fichero": "informes/informe_20261118_20261121.html",
+   "desde": "2026-11-18",
+   "hasta": "2026-11-21",
+   "generado": "2026-11-21",
+   "n": 10
+  },
   {
    "fichero": "informes/informe_20261117_20261120.html",
    "desde": "2026-11-17",
